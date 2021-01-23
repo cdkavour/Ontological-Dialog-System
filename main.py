@@ -9,6 +9,8 @@ def main():
     parser = argparse.ArgumentParser("Homework 1 dialog manager system")
     parser.add_argument("-v", "--verbose", action="count", default=0)
     parser.add_argument("-s", "--system", choices=["FSM", "FrameSimple", "FrameExtended"])
+    parser.add_argument("-u", "--universals", action="store_true",
+                        help="for FSM, add universals")
     parser.add_argument("-l", "--NLU", default="Default")
     parser.add_argument("-g", "--NLG", default="Default")
     args = parser.parse_args()
@@ -16,7 +18,8 @@ def main():
     system = args.system;
     NLU = args.NLU;
     NLG = args.NLG;
-    
+    universals = args.universals
+
     print("NLU = {}, system = {}, NLG = {}".format(NLU, system, NLG))
    
     NLUModule = None
@@ -30,7 +33,7 @@ def main():
         NLGModule = NLGDefault()
 
     if (system == "FSM"):
-        DMModule = FSM(NLUModule, NLGModule)
+        DMModule = FSM(NLUModule, NLGModule,universals)
     elif (system == "FrameSimple"):
         DMModule = FrameDMSimple(NLUModule, NLGModule)
     elif (system == "FrameExtended"):
@@ -40,6 +43,8 @@ def main():
         return
  
     print("Welcome to the HW1 Dialog System")
+    if system == "FSM":
+        DMModule.execute('')
     while(True):
         inputStr = input("> ")
         if (inputStr == "Quit"):
