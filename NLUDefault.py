@@ -21,18 +21,20 @@ class NLUDefault:
         # Assume DOMAIN is always Pizza.
         self.SemanticFrame.Domain = "pizza"
 
-
-        # UNIVERSALS - cancel, repeat, start over
+        
         phone_number_match = re.search(r"([0-9\-]+)", inputStr)
-
+        address_match = re.search(r"([0-9]+ [0-9A-z#\.\-\s]+)",inputStr)
+        
+        # UNIVERSALS - cancel, repeat, start over
         if (inputStr == "cancel"):
+            self.SemanticFrame.Intent = DialogActTypes.REQUEST
             self.SemanticFrame.Slots["request"] = "cancel"
         elif (inputStr == "repeat"):
+            self.SemanticFrame.Intent = DialogActTypes.REQUEST
             self.SemanticFrame.Slots["request"] = "repeat"
         elif (inputStr == "start over"):
+            self.SemanticFrame.Intent = DialogActTypes.REQUEST
             self.SemanticFrame.Slots["request"] = "start_over"        
-
-
 
         # 1) HELLO
         elif ("hello" in inputStr):
@@ -53,21 +55,20 @@ class NLUDefault:
         # 5) INFORM
         # Pizza Type
         elif ("hawaiian" in inputStr):
-            print('here')
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["pizza_type"] = "Hawaiian"
         elif ("meat lovers" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
-            self.SemanticFrame.Slots["pizza_type"] = "meatlovers"
+            self.SemanticFrame.Slots["pizza_type"] = "meat lovers"
         elif ("4 cheese" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
-            self.SemanticFrame.Slots["pizza_type"] = "4cheese"
+            self.SemanticFrame.Slots["pizza_type"] = "4 cheese"
         elif ("pepperoni" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["pizza_type"] = "pepperoni"
         elif ("veggie supreme" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
-            self.SemanticFrame.Slots["pizza_type"] = "veggiesupreme"
+            self.SemanticFrame.Slots["pizza_type"] = "veggie supreme"
         elif ("vegan" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["pizza_type"] = "vegan"
@@ -92,18 +93,15 @@ class NLUDefault:
             self.SemanticFrame.Slots["crust"] = "regular"
         elif ("deep dish" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
-            self.SemanticFrame.Slots["crust"] = "deepdish"
-        elif ("gluten free" in inputStr):
+            self.SemanticFrame.Slots["crust"] = "deep dish"
+        elif ("gluten-free" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
-            self.SemanticFrame.Slots["crust"] = "glutenfree"
+            self.SemanticFrame.Slots["crust"] = "gluten-free"
 
         # Name
-        elif("alexa" in inputStr):
+        elif(inputStr in ['Peter','Paul','Mary']):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
-            self.SemanticFrame.Slots["name"] = "alexa"
-        elif("alex" in inputStr):
-            self.SemanticFrame.Intent = DialogActTypes.INFORM
-            self.SemanticFrame.Slots["name"] = "alex"
+            self.SemanticFrame.Slots["name"] = inputStr
 
         # Pickup or Delivery
         elif ("pick-up" in inputStr):
@@ -113,10 +111,15 @@ class NLUDefault:
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["modality"] = "delivery"
 
-        # Phone Number
+        # address (must come before phone number because the regex is fragile)
+        elif (address_match):
+            self.SemanticFrame.Intent = DialogActTypes.INFORM
+            self.SemanticFrame.Slots["address"] = address_match.groups()[0]
+        # phone number
         elif (phone_number_match):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["number"] = phone_number_match.groups()[0]
+        
         # Unsure of Intent
         else:
             self.SemanticFrame.Intent = DialogActTypes.UNDEFINED
