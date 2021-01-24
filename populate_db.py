@@ -55,7 +55,7 @@ data['open_orders']= [
     {'name':'Peter','confirmation_number':'00001','status':'cancelled'},
     {'name':'Peter','confirmation_number':'00002','status':'baking'},
     {'name':'Paul','confirmation_number':'00003','status':'ready'}]
-data['modality'] = {'pickup':0,'delivery':3}
+data['modality'] = {'pick-up':0,'delivery':3}
 data['order_idx'] = 4
 
 with open('db.txt', 'w') as outfile:

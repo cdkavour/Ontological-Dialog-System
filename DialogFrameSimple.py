@@ -13,12 +13,16 @@ class DialogFrameSimple:
         self.modality = None
         self.address = None
         self.price = 0
+        self.ground_pizza = False
+        self.ground_order = False
 
     def update(self,slots):
     	self.pizza = Pizza(specialty_type=slots[0],crust=slots[1],size=slots[2])
     	self.user = slots[3]
     	self.modality = slots[4]
     	self.address = slots[5]
+    	self.ground_pizza = False if slots[6]==None else True
+    	self.ground_order = False if slots[7]==None else True
 
     def calculate_price(self,DB):
     	try:

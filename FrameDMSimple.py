@@ -34,7 +34,8 @@ class FrameDMSimple:
     def trackState(self, newSemanticFrame):
         # update self.DialogFrame based on the contents of newSemanticFrame
         slots = []
-        for s in ['pizza_type','crust','size','name','number','modality','adresss']:
+        for s in ['pizza_type','crust','size','name','number','modality','adresss',
+                  'ground_pizza','ground_order']:
             try:
                 slots.append(newSemanticFrame.Slots[s])
             except KeyError:
