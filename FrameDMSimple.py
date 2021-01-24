@@ -1,6 +1,12 @@
 from DialogFrameSimple import DialogFrameSimple
 from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
+import math,random
+
+class DB:
+    def __init__(self,path):
+        with open(path) as f:
+            self.data = pd.DataFrame(json.load(f))
 
 class FrameDMSimple:
 
@@ -9,6 +15,7 @@ class FrameDMSimple:
         self.NLG = NLG
         # define frame below, for example:
         self.DialogFrame = DialogFrameSimple()
+        self.DB = DB('db.txt')
 
     def execute(self, inputStr):
         # apply the NLU component
@@ -26,12 +33,34 @@ class FrameDMSimple:
 
     def trackState(self, newSemanticFrame):
         # update self.DialogFrame based on the contents of newSemanticFrame
-        return
+        slots = []
+        for s in ['pizza_type','crust','size','name','number','modality','adresss']:
+            try:
+                slots.append(newSemanticFrame.Slots[s])
+            except KeyError:
+                slots.append(None)
+        self.DialogFrame.update(slots)
 
     def selectDialogAct(self):
         # decide on what dialog act to execute
-
         # by default, return a Hello dialog act
         dialogAct = DialogAct()
         dialogAct.DialogActType = DialogActTypes.HELLO
         return dialogAct
+
+    def submit_order(self):
+        # update db, including adding a current order for the user and 
+        # updating the order index
+        # and saving the text files
+        cost = self.DialogFrame.calculate_price()
+        num_digits = 5-int(math.log10(DB['order_idx']))+1
+        confirmation_number = '0'*num_digits+str(DB['order_idx'])
+        self.DB['open_orders'].append({'name':self.DialogFrame.user,
+                            'confirmation_number':confirmation_number,
+                            'status':'processing'}),
+
+        self.DB['order_idx']+=1
+        with open('db.txt') as f:
+            json.dump(self.DB)
+        return confirmation_number
+
