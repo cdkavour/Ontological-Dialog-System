@@ -1,5 +1,6 @@
 from DialogActTypes import DialogActTypes
 from DialogAct import DialogAct
+import pdb
 
 # 0 greet >
 # 1 pizza type 
@@ -27,7 +28,12 @@ class FSM:
 		self.universals = universals
 
 	def execute(self, inputStr):
-		nlu_output = self.NLU.parse(inputStr) 
+		nlu_output = self.NLU.parse(inputStr)
+		try:
+			nlu_output.Intent = DialogActTypes[nlu_output.Intent]
+		except KeyError:
+			pass 
+		print(self.state,nlu_output.Intent,nlu_output.Slots,sep='\t')
 		if self.universals and nlu_output.Intent == DialogActTypes(5):
 			# cancel repeat or start over
 			if nlu_output.Slots['request'] == 'cancel':
@@ -36,64 +42,68 @@ class FSM:
 			elif nlu_output.Slots['request']== 'repeat':
 				# repeat the last thing, don't advance the state 
 				# TODO should this be a reqalt or request?
-				self.NLG.generate(DialogAct(da_type=6,
+				outstr = self.NLG.generate(DialogAct(da_type=6,
 											slot=self.slot_to_fill[self.state]))
 			elif nlu.output.Slots['reqeust'=='start_over']:
 				self.state = 0
 				self.NLU.Slots = {}
-				self.NLG.generate(DialogAct(da_type=6,slot='pizza_type'))
-
+				outstr = self.NLG.generate(DialogAct(da_type=6,slot='pizza_type'))
 		elif self.state == 0:
-			self.NLG.generate(DialogAct(da_type=2))
+			outstr = self.NLG.generate(DialogAct(da_type=2))
+			self.state +=1
+			print(self.state)
 		elif self.state == 4:
 			# ground
 			if nlu_output.Intent == DialogActTypes(7):
 				# we got right, proceed
 				self.state +=1
-				self.NLG.generate(da_type=5,
-								  slot=self.slot_to_fill[self.state])
+				outstr = self.NLG.generate(DialogAct(da_type=5,
+								  slot=self.slot_to_fill[self.state]))
 			elif nlu_output.Intent == DialogActTypes(8):
 				# we got wrong, just start over
 				self.state = 0
 				self.NLU.Slots = {}
-				self.NLG.generate(DialogAct(da_type=6,slot='pizza_type'))
+				outstr = self.NLG.generate(DialogAct(da_type=6,slot='pizza_type'))
 			else:
 				# we got an unexpected answer, try again
-				self.NLG.generate(DialogAct(da_type=6,
+				outstr = self.NLG.generate(DialogAct(da_type=6,
 											slot=self.slot_to_fill[self.state]))
 		elif self.state == 9:
 			# ground
 			if nlu_output.Intent == DialogActTypes(7):
 				# we got right, proceed
 				self.state +=1
-				self.NLG.generate(DialogAct(da_type=3))
+				outstr = self.NLG.generate(DialogAct(da_type=3))
 			elif nlu_output.Intent == DialogActTypes(8):
 				# we got wrong
 				# if we got here, assume the pizza was right
 				# so go back to state 5 which is the first thing
 				self.state = 5
-				self.NLG.generate(DialogAct(da_type=6,slot='name'))
+				outstr = self.NLG.generate(DialogAct(da_type=6,slot='name'))
 			else:
 				# we got an unexpected answer, try again
-				self.NLG.generate(DialogAct(da_type=6,
+				outstr = self.NLG.generate(DialogAct(da_type=6,
 											slot=self.slot_to_fill[self.state]))
 		else: # the "normal states"
 			# they provide the right information
-			if nlu.output.Intent == DialogActTypes(4):
+			if nlu_output.Intent == DialogActTypes(4):
 				try:
-					relevant_slot = nlu_output.Slots[self.slot_to_fill[state]]
+					
+					relevant_slot = nlu_output.Slots[self.slot_to_fill[self.state]]
 					if relevant_slot == 'pickup':
 						# special case for address bypassed for pickup
 						self.state +=1
 					self.state += 1
-					self.NLG.generate(DialogAct(da_type=5,
+					outstr = self.NLG.generate(DialogAct(da_type=5,
 												slot=self.slot_to_fill[self.state]))
 				except KeyError:
 					# the slot did not get filled, try again
-					self.NLG.generate(DialogAct(da_type=6,
+					outstr = self.NLG.generate(DialogAct(da_type=6,
 												slot=self.slot_to_fill[self.state]))
 
 			# otherwise I don't know what to do
 			else:
-				self.NLG.generate(DialogAct(da_type=6,
+				outstr = self.NLG.generate(DialogAct(da_type=6,
 											slot=self.slot_to_fill[self.state]))
+		print(self.state)
+		return outstr
