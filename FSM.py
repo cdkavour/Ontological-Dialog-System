@@ -2,6 +2,8 @@ from DialogActTypes import DialogActTypes
 from DialogAct import DialogAct
 import pdb
 
+#TODDO grounding slots list state 8
+
 # 0 greet >
 # 1 pizza type 
 # 2 crust
@@ -44,13 +46,13 @@ class FSM:
 				# TODO should this be a reqalt or request?
 				outstr = self.NLG.generate(DialogAct(da_type=6,
 											slot=self.slot_to_fill[self.state]))
-			elif nlu.output.Slots['reqeust'=='start_over']:
+			elif nlu_soutput.Slots['reqeust'=='start_over']:
 				self.state = 0
 				self.NLU.Slots = {}
 				outstr = self.NLG.generate(DialogAct(da_type=6,slot='pizza_type'))
 		elif self.state == 0:
-			outstr = self.NLG.generate(DialogAct(da_type=2))
 			self.state +=1
+			outstr = self.NLG.generate(DialogAct(da_type=5,slot=self.slot_to_fill[self.state]))
 			print(self.state)
 		elif self.state == 4:
 			# ground
@@ -67,7 +69,7 @@ class FSM:
 			else:
 				# we got an unexpected answer, try again
 				outstr = self.NLG.generate(DialogAct(da_type=6,
-											slot=self.slot_to_fill[self.state]))
+											slot=(0,nlu_output.Slots)))
 		elif self.state == 9:
 			# ground
 			if nlu_output.Intent == DialogActTypes(7):
@@ -83,14 +85,14 @@ class FSM:
 			else:
 				# we got an unexpected answer, try again
 				outstr = self.NLG.generate(DialogAct(da_type=6,
-											slot=self.slot_to_fill[self.state]))
+											slot=(1,nlu_output.Slots)))
 		else: # the "normal states"
 			# they provide the right information
 			if nlu_output.Intent == DialogActTypes(4):
 				try:
 					
 					relevant_slot = nlu_output.Slots[self.slot_to_fill[self.state]]
-					if relevant_slot == 'pickup':
+					if relevant_slot == 'pick-up':
 						# special case for address bypassed for pickup
 						self.state +=1
 					self.state += 1
