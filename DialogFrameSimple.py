@@ -16,13 +16,33 @@ class DialogFrameSimple:
         self.ground_pizza = False
         self.ground_order = False
 
-    def update(self,slots):
+    def update(self,slots,DB):
     	self.pizza = Pizza(specialty_type=slots[0],crust=slots[1],size=slots[2])
     	self.user = slots[3]
     	self.modality = slots[4]
     	self.address = slots[5]
     	self.ground_pizza = False if slots[6]==None else True
     	self.ground_order = False if slots[7]==None else True
+    	self.consolidate_user_data(DB)
+
+    def consolidate_user_data(self,DB):
+    	user_data = [self.user,self.modality,self.address]
+    	if None in user_data and len(user_data)!=user_data.count(None):
+    		# try and fill in the rest of the information from the DB
+    		# use next() function to query
+
+    def ready_to_ground_order(self):
+    	if len(self.pizza.empty_slots())==0 and None not in [
+    		self.user,self.modality,self.address,self.price]:
+    		return True
+    	else: 
+    		return False
+
+    def ready_to_ground_pizza(self):
+    	if len(self.pizza.empty_slots())==0 :
+    		return True
+    	else:
+    		return False
 
     def calculate_price(self,DB):
     	try:

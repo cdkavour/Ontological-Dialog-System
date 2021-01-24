@@ -40,11 +40,24 @@ class FrameDMSimple:
                 slots.append(newSemanticFrame.Slots[s])
             except KeyError:
                 slots.append(None)
-        self.DialogFrame.update(slots)
+        self.DialogFrame.update(slots,self.DB)
 
     def selectDialogAct(self):
         # decide on what dialog act to execute
         # by default, return a Hello dialog act
+
+        # check and see how far we are
+        
+        # have we grounded the order
+        
+        # have we grounded the pizza
+        
+        # is the order ready to be grounded
+        
+        # is the pizza ready to be grounded
+        
+        # what can we fill in next?
+
         dialogAct = DialogAct()
         dialogAct.DialogActType = DialogActTypes.HELLO
         return dialogAct
