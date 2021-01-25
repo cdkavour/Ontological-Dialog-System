@@ -2,7 +2,7 @@ from SemanticFrame import SemanticFrame
 from DialogActTypes import DialogActTypes
 import re
 
-class NLUDefault:
+class NLUForFrame:
 
     def __init__(self):
         self.SemanticFrame = SemanticFrame()

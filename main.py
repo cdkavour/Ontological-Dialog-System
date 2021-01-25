@@ -55,7 +55,7 @@ def main():
         inputStr = input("> ")
         if (inputStr == "Quit"):
             break
-        outputStr = DMModule.execute(inputStr)ss
+        outputStr = DMModule.execute(inputStr)
         print(outputStr)
         
 

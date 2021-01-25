@@ -12,10 +12,10 @@ class FrameDMSimple:
 
     def __init__(self, NLU, NLG):
         self.NLU = NLU
-        self.NLG = NLG
         # define frame below, for example:
         self.DialogFrame = DialogFrameSimple()
         self.DB = DB('db.txt')
+        self.NLG = NLG
 
     def execute(self, inputStr):
         # apply the NLU component
@@ -28,7 +28,7 @@ class FrameDMSimple:
         newDialogAct = self.selectDialogAct()
 
         # then generate some meaningful response
-        response = self.NLG.generate(newDialogAct) 
+        response = self.NLG.generate(newDialogAct,self.DialogFrame) 
         return response
 
     def trackState(self, newSemanticFrame):
