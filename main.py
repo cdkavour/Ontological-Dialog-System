@@ -1,6 +1,8 @@
 import argparse
 from NLUDefault import NLUDefault
 from NLGDefault import NLGDefault
+from NLGForFrame import NLGForFrame
+from NLUForFrame import NLUForFrame
 from FSM import FSM
 from FrameDMSimple import FrameDMSimple
 from FrameDMExtended import FrameDMExtended
@@ -28,9 +30,13 @@ def main():
 
     if (NLU == "Default"):
         NLUModule = NLUDefault()
-
     if (NLG == "Default"):
         NLGModule = NLGDefault()
+
+    # the frame system should use its own NLx system
+    if system == "FrameSimple" or system == "FrameExtended":
+        NLUModule = NLUForFrame()
+        NLGModule = NLGForFrame()
 
     if (system == "FSM"):
         DMModule = FSM(NLUModule, NLGModule,universals)
@@ -49,9 +55,7 @@ def main():
         inputStr = input("> ")
         if (inputStr == "Quit"):
             break
-
-        outputStr = DMModule.execute(inputStr)
-
+        outputStr = DMModule.execute(inputStr)ss
         print(outputStr)
         
 
