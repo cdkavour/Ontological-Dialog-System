@@ -14,6 +14,7 @@ class FrameDMSimple:
         self.NLU = NLU
         self.NLG = NLG
         # define frame below, for example:
+        self.PreviousSlots = {}
         self.DialogFrame = DialogFrameSimple()
         self.DB = DB('db.txt')
 
@@ -21,11 +22,16 @@ class FrameDMSimple:
         # apply the NLU component
         currentSemanticFrame = self.NLU.parse(inputStr)
 
+        change = False
+        if self.PreviousSlots != currentSemanticFrame.Slots:
+            change = True
+
         # update the dialog frame with the new information
         self.trackState(currentSemanticFrame)
 
         # and decide what to do next
         newDialogAct = self.selectDialogAct()
+        newDialogAct.change = change
 
         # then generate some meaningful response
         response = self.NLG.generate(newDialogAct) 
@@ -51,6 +57,7 @@ class FrameDMSimple:
         # Order has been grounded; return goodbye diolog act
         if self.DialogFrame.ground_order == True:
             dialogAct.DialogActType = DialogActTypes.GOODBYE
+            dialogAct.complete = True
         
         # Pizza grounded, order not grounded
         elif self.DialogFrame.ground_pizza == True:

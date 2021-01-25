@@ -35,6 +35,9 @@ class NLUDefault:
         elif (inputStr == "start over"):
             self.SemanticFrame.Intent = DialogActTypes.REQUEST
             self.SemanticFrame.Slots["request"] = "start_over"        
+        elif (inputStr == "preferred"):
+            self.SemanticFrame.Intent = DialogActTypes.REQUEST
+            self.SemanticFrame.Slots["request"] = "preferred"
 
         # 1) HELLO
         elif ("hello" in inputStr):
