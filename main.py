@@ -44,7 +44,8 @@ def main():
  
     print("Welcome to the HW1 Dialog System")
     if system == "FSM":
-        DMModule.execute('')
+        output = DMModule.execute('')
+        print(output)
     while(True):
         inputStr = input("> ")
         if (inputStr == "Quit"):
