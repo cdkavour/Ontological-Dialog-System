@@ -7,6 +7,14 @@ class NLUDefault:
     def __init__(self):
         self.SemanticFrame = SemanticFrame()
 
+    def setDB(self,db):
+        self.DB = db
+        self.toppings_re = self._get_toppings_check()
+
+    def _get_toppings_check(self):
+        toppings = {x['name'] for x in self.DB['toppings']}
+        return re.compile(r'|'.join(toppings),x)
+
     def parse(self, inputStr):
         # NLU COMPONENT CAN OUTPUT THE FOLLOWING DIALOG ACTS:
         # HELLO, GOODBYE, CONFIRM, DENY, INFROM, and REQUEST
@@ -14,8 +22,6 @@ class NLUDefault:
 
         # NLU component can fill slots for pizza type, crust type,
         # and size.
-
-
         inputStr = inputStr.lower()
 
         # Assume DOMAIN is always Pizza.
@@ -23,13 +29,27 @@ class NLUDefault:
         
         phone_number_match = re.search(r"((\+{0,1}1[- ]){0,1}(\(*[0-9]{3}\)*){0,1}[- ( - )]{0,1}[0-9]{3}[- ( - )]{0,1}[0-9]{4})", inputStr)
         address_match = re.search(r"([0-9]+ [0-9A-z#\.\- ]{1,}[A-z]+[0-9A-z#\.\- ]+)",inputStr)
-        
+        toppings_match = re.findall(self.toppings_re,inputStr)  
+
         # UNIVERSALS - cancel, repeat, start over
         if (inputStr in ['cancel','repeat','start over'] ):
             self.SemanticFrame.Intent = DialogActTypes.REQUEST
-            self.SemanticFrame.Slots["request"] = inputStr   
+            self.SemanticFrame.Slots["request"] = inputStr
+
+        # 4) REQUEST
+        # order status
+        elif ('status' in inputStr):
+            self.SemanticFrame.Intent = DialogActTypes.REQUEST
+            self.SemanticFrame.Slots['request'] = 'status'
+        # ask for more information
+        elif ('add')
 
         # 5) INFORM
+        # preferred order
+        elif ('preferred' in inputStr or 'previous order' in inputStr):
+            self.SemanticFrame.Intent = DialogActTypes.INFORM
+            self.SemanticFrame.Slots['preferred'] = True
+
         # Pizza Type
         elif ("hawaiian" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
@@ -49,6 +69,13 @@ class NLUDefault:
         elif ("vegan" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["pizza_type"] = "vegan"
+        
+        # Toppings
+        elif len(toppings_match) > 0:
+            try:
+                self.SemanticFrame.Slots['toppings'].update(toppings)
+            except KeyError:
+                self.SemanticFrame.Slots['toppings'] = set(toppings)
 
         # Size
         elif ("10 inch" in inputStr or "small" in inputStr):
@@ -111,6 +138,5 @@ class NLUDefault:
         # Unsure of Intent
         else:
             self.SemanticFrame.Intent = DialogActTypes.UNDEFINED
-
 
         return self.SemanticFrame
