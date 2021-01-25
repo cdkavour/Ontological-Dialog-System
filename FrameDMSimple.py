@@ -13,6 +13,7 @@ class FrameDMSimple:
     def __init__(self, NLU, NLG):
         self.NLU = NLU
         # define frame below, for example:
+        self.PreviousSlots = {}
         self.DialogFrame = DialogFrameSimple()
         self.DB = DB('db.txt')
         self.NLG = NLG
@@ -21,11 +22,16 @@ class FrameDMSimple:
         # apply the NLU component
         currentSemanticFrame = self.NLU.parse(inputStr)
 
+        change = False
+        if self.PreviousSlots != currentSemanticFrame.Slots:
+            change = True
+
         # update the dialog frame with the new information
         self.trackState(currentSemanticFrame)
 
         # and decide what to do next
         newDialogAct = self.selectDialogAct()
+        newDialogAct.change = change
 
         # then generate some meaningful response
         response = self.NLG.generate(newDialogAct,self.DialogFrame) 
@@ -43,23 +49,63 @@ class FrameDMSimple:
         self.DialogFrame.update(slots,self.DB)
 
     def selectDialogAct(self):
-        # decide on what dialog act to execute
-        # by default, return a Hello dialog act
-
-        # check and see how far we are
-        
-        # have we grounded the order
-        
-        # have we grounded the pizza
-        
-        # is the order ready to be grounded
-        
-        # is the pizza ready to be grounded
-        
-        # what can we fill in next?
-
         dialogAct = DialogAct()
+
+        # by default, return a Hello dialog act
         dialogAct.DialogActType = DialogActTypes.HELLO
+
+        # Order has been grounded; return goodbye diolog act
+        if self.DialogFrame.ground_order == True:
+            dialogAct.DialogActType = DialogActTypes.GOODBYE
+            dialogAct.complete = True
+        
+        # Pizza grounded, order not grounded
+        elif self.DialogFrame.ground_pizza == True:
+
+            # Get user if needed
+            if not self.DialogFrame.user:
+                dialogAct.DialogActType = DialogActTypes.REQUEST
+                dialogAct.slot = "name"
+
+            # Get modality if needed
+            elif not self.DialogFrame.modality:
+                dialogAct.DialogActType = DialogActTypes.REQUEST
+                dialogAct.slot = "modality"
+
+            # Get address if needed
+            elif DialogFrame.modality == "delivery" not self.DialogFrame.address:
+                dialogAct.DialogActType = DialogActTypes.REQUEST
+                dialogAct.slot = "address"
+        
+            # Ground Order
+            else:
+                dialogAct.DialogActType = DialogActTypes.REQUEST
+                dialogAct.slot = "order"
+    
+        # Pizza not yet grounded
+        else:
+
+            # Get pizza type if needed
+            if not self.DialogFrame.pizza.type:
+                dialogAct.DialogActType = DialogActTypes.REQUEST
+                dialogAct.slot = "pizza_type"
+
+            # Get crust if needed
+            elif not self.DialogFrame.pizza.crust:
+                dialogAct.DialogActType = DialogActTypes.REQUEST
+                dialogAct.slot = "crust"
+
+            # Get size if needed
+            elif not self.DialogFrame.pizza.size:
+                dialogAct.DialogActType = DialogActTypes.REQUEST
+                dialogAct.slot = "size"
+
+            # Ground Pizza
+            elif not self.DialogFrame.pizza.size:
+                dialogAct.DialogActType = DialogActTypes.REQUEST
+                dialogAct.slot = "pizza"
+
+
         return dialogAct
 
     def submit_order(self):

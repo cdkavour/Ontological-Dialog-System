@@ -2,6 +2,7 @@ from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
 
 class NLGDefault:
+
     def __init__(self):
         # add whatever fields you want here
         self.Name = "NLGDefault"

@@ -28,6 +28,25 @@ class NLUDefault:
         if (inputStr in ['cancel','repeat','start over'] ):
             self.SemanticFrame.Intent = DialogActTypes.REQUEST
             self.SemanticFrame.Slots["request"] = inputStr   
+        elif (inputStr == "preferred"):
+            self.SemanticFrame.Intent = DialogActTypes.REQUEST
+            self.SemanticFrame.Slots["request"] = "preferred"
+
+        # 1) HELLO
+        elif ("hello" in inputStr):
+            self.SemanticFrame.Intent = DialogActTypes.HELLO
+
+        # 2) GOODBYE
+        elif ("goodbye" in inputStr):
+            self.SemanticFrame.Intent = DialogActTypes.GOODBYE
+
+        # 3) CONFIRM
+        elif ("yes" in inputStr):
+            self.SemanticFrame.Intent = DialogActTypes.CONFIRM
+
+        # 4) DENY
+        elif ("no" in inputStr):
+            self.SemanticFrame.Intent = DialogActTypes.DENY
 
         # 5) INFORM
         # Pizza Type
@@ -94,23 +113,9 @@ class NLUDefault:
         elif (phone_number_match):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["number"] = phone_number_match.groups()[0]
-
-        # 1) HELLO
-        elif ("hello" in inputStr):
-            self.SemanticFrame.Intent = DialogActTypes.HELLO
-        # 2) GOODBYE
-        elif ("goodbye" in inputStr):
-            self.SemanticFrame.Intent = DialogActTypes.GOODBYE
-        # 3) CONFIRM
-        elif ("yes" in inputStr):
-            self.SemanticFrame.Intent = DialogActTypes.CONFIRM
-        # 4) DENY
-        elif ("no" in inputStr):
-            self.SemanticFrame.Intent = DialogActTypes.DENY
         
         # Unsure of Intent
         else:
             self.SemanticFrame.Intent = DialogActTypes.UNDEFINED
-
 
         return self.SemanticFrame

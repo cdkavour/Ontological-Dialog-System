@@ -93,8 +93,8 @@ class Pizza:
 		if len(self.toppings) == 0 or not self.crust or not self.size:
 			raise KeyError("The pizza is not complete!")
 		else:
-			# call the price db and calculatet
-			# the base price is the price of the crus
+			# call the price db and calculate
+			# the base price is the price of the crust
 			price = next(c for c in DB['crusts'] if c['size']==self.size and c['name']==self.crust)['price']
 			# add on the price for all toppings
 			for topping in toppings:
