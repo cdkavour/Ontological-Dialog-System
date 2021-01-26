@@ -3,6 +3,9 @@ from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
 import math,random,json
 import pdb
+import math,random
+import pandas as pd
+
 
 class DB:
     def __init__(self,path):
@@ -34,7 +37,7 @@ class FrameDMSimple:
         change = False
         if self.PreviousSlots != self.currentSemanticFrame.Slots and len(self.PreviousSlots.keys()) == len(self.currentSemanticFrame.Slots.keys()):
                 change = True
-        
+
         # and decide what to do next
         newDialogAct = self.selectDialogAct()
         newDialogAct.change = change
@@ -97,16 +100,11 @@ class FrameDMSimple:
             except KeyError:
                 slots.append(None)
 
-
-
-
         # idx of 0=denied pizza,1=dineid the order, 2= else
         # if 0:
         #     delete pizza slots
         # if 1: 
         #     delete person modality and address
-
-
         self.DialogFrame.update(slots,self.DB)
 
     def selectDialogAct(self):
@@ -122,6 +120,7 @@ class FrameDMSimple:
             dialogAct.DialogActType = DialogActTypes.REQALTS
             dialogAct.slot = self.lastDialogAct.slot
 
+        # Universals
         elif self.DialogFrame.request == "cancel":
             dialogAct.DialogActType = DialogActTypes.GOODBYE
 
@@ -136,12 +135,12 @@ class FrameDMSimple:
             dialogAct.DialogActTypes = DialogActTypes.INFORM
             dialogAct.slot = self.DialogFrame.order_status
 
-
         # Order has been grounded; return goodbye diolog act
-        elif self.DialogFrame.ground_order == True:
+        if self.DialogFrame.ground_order == True:
             dialogAct.DialogActType = DialogActTypes.GOODBYE
             dialogAct.complete = True
-        
+
+
         # Pizza grounded, order not grounded
         elif self.DialogFrame.ground_pizza == True:
 
@@ -172,6 +171,7 @@ class FrameDMSimple:
             if not self.DialogFrame.pizza.type:
                 dialogAct.DialogActType = DialogActTypes.REQUEST
                 dialogAct.slot = "pizza_type"
+
             # Get crust if needed
             elif not self.DialogFrame.pizza.crust:
                 dialogAct.DialogActType = DialogActTypes.REQUEST
@@ -186,6 +186,7 @@ class FrameDMSimple:
             else:
                 dialogAct.DialogActType = DialogActTypes.REQUEST
                 dialogAct.slot = (0,self.currentSemanticFrame.Slots)
+
         # TODO 
         self.lastDialogAct = dialogAct
         return dialogAct

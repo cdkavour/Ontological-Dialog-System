@@ -33,7 +33,6 @@ class DialogFrameSimple:
         if self.request == "status":
             self.order_status = next(order["status"] for order in DB["open_orders"] if order["name"]==self.name)
 
-
     def clear_all(self):
         self.pizza = Pizza()
         self.name = None

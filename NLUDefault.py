@@ -95,7 +95,7 @@ class NLUDefault:
             self.SemanticFrame.Slots["crust"] = "gluten-free"
 
         # Name
-        elif(inputStr in ['Peter','Paul','Mary']):
+        elif(inputStr in ['peter','paul','mary']):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["name"] = inputStr
 
