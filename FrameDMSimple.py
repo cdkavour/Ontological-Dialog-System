@@ -2,11 +2,14 @@ from DialogFrameSimple import DialogFrameSimple
 from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
 import math,random
+import pandas as pd
+import json
 
 class DB:
     def __init__(self,path):
         with open(path) as f:
-            self.data = pd.DataFrame(json.load(f))
+            json_db_obj = json.load(f)
+            self.data = pd.DataFrame.from_dict(json_db_obj)
 
 class FrameDMSimple:
 
@@ -15,7 +18,7 @@ class FrameDMSimple:
         # define frame below, for example:
         self.PreviousSlots = {}
         self.DialogFrame = DialogFrameSimple()
-        self.DB = DB('db.txt')
+        self.DB = DB('db.json')
         self.NLG = NLG
 
     def execute(self, inputStr):
@@ -41,7 +44,7 @@ class FrameDMSimple:
         # update self.DialogFrame based on the contents of newSemanticFrame
         slots = []
         for s in ['pizza_type','crust','size','name','number','modality','adresss',
-                  'ground_pizza','ground_order']:
+                  'ground_pizza','ground_order','request']:
             try:
                 slots.append(newSemanticFrame.Slots[s])
             except KeyError:
@@ -59,6 +62,17 @@ class FrameDMSimple:
             dialogAct.DialogActType = DialogActTypes.GOODBYE
             dialogAct.complete = True
         
+        elif self.DialogFrame.request == "cancel":
+            dialogAct.DialogActType = DialogActTypes.GOODBYE
+
+        elif self.DialogFrame.request == "repeat":
+
+        elif self.DialogFrame.request == "start over":
+
+
+        elif self.DialogFrame.request == "status":
+
+
         # Pizza grounded, order not grounded
         elif self.DialogFrame.ground_pizza == True:
 
@@ -73,7 +87,7 @@ class FrameDMSimple:
                 dialogAct.slot = "modality"
 
             # Get address if needed
-            elif DialogFrame.modality == "delivery" not self.DialogFrame.address:
+            elif DialogFrame.modality == "delivery" and not self.DialogFrame.address:
                 dialogAct.DialogActType = DialogActTypes.REQUEST
                 dialogAct.slot = "address"
         

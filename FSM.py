@@ -93,9 +93,11 @@ class FSM:
 						outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,self.slot_to_fill[self.state]))
 				except KeyError:
 					# the slot did not get filled, try again
+					print("state: ", self.state)
 					outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,self.slot_to_fill[self.state]))
 
 			# otherwise I don't know what to do
 			else:
+				print("state " + str(self.state) + " Intent " + str(nlu_output.Intent))
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,self.slot_to_fill[self.state]))
 		return outstr

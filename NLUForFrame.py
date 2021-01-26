@@ -42,7 +42,8 @@ class NLUForFrame:
             self.SemanticFrame.Intent = DialogActTypes.REQUEST
             self.SemanticFrame.Slots['request'] = 'status'
         # ask for more information
-        elif ('add')
+        #elif ('add'):
+
 
         # 5) INFORM
         # preferred order

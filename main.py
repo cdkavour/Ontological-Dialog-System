@@ -54,10 +54,14 @@ def main():
         print(output)
     while(True):
         inputStr = input("> ")
+        print(inputStr)
         if (inputStr == "Quit"):
             break
         outputStr = DMModule.execute(inputStr)
         print(outputStr)
+
+        if("goodbye" in outputStr.lower()):
+            break
         
 
 if __name__ == "__main__":
