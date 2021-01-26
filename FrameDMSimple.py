@@ -2,6 +2,7 @@ from DialogFrameSimple import DialogFrameSimple
 from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
 import math,random,json
+import pdb
 
 class DB:
     def __init__(self,path):
@@ -15,41 +16,90 @@ class FrameDMSimple:
         # define frame below, for example:
         self.PreviousSlots = {}
         self.DialogFrame = DialogFrameSimple()
-        self.DB = DB('db.json')
+        self.DB = DB('db.json').data
         self.NLG = NLG
         self.NLU.setDB(self.DB)
         self.lastDialogAct = None
+        self.currentSemanticFrame = None
 
     def execute(self, inputStr):
         # apply the NLU component
-        import pdb;pdb.set_trace()
-        currentSemanticFrame = self.NLU.parse(inputStr)
-        self.currentSemanticFrame = currentSemanticFrame
+        #import pdb;pdb.set_trace()
+        self.currentSemanticFrame = self.NLU.parse(inputStr)
+
+        #pdb.set_trace()
+
         # update the dialog frame with the new information
-        self.trackState(currentSemanticFrame)
+        self.trackState()
         change = False
-        if self.PreviousSlots != currentSemanticFrame.Slots and len(self.PreviousSlots.keys()) == len(currentSemanticFrame.Slots.keys()):
+        if self.PreviousSlots != self.currentSemanticFrame.Slots and len(self.PreviousSlots.keys()) == len(self.currentSemanticFrame.Slots.keys()):
                 change = True
         
         # and decide what to do next
         newDialogAct = self.selectDialogAct()
         newDialogAct.change = change
 
+        try:
+            # update semantic frame based on user's request
+            if self.currentSemanticFrame.Slots["request"] == "cancel":
+                self.currentSemanticFrame.Slots = {}
+            elif self.currentSemanticFrame.Slots["request"] == "start over":
+                self.currentSemanticFrame.Slots = {}
+            elif self.currentSemanticFrame.Slots["request"] == "repeat":
+                self.currentSemanticFrame.Slots["request"] = None
+            elif self.currentSemanticFrame.Slots["request"] == "status":
+                if self.DialogFrame.user is not None:
+                    self.currentSemanticFrame.Slots["request"] = None
+        except KeyError:
+            pass
+
+
         # then generate some meaningful response
         response = self.NLG.generate(newDialogAct)
-        if self.lastDialogAct.complete:
-            self.submit_order()
+        # if self.lastDialogAct.complete:
+        #     self.submit_order()
         return response
 
-    def trackState(self, newSemanticFrame):
+    def trackState(self):
+
+        # Confirm or deny pizza
+        if self.currentSemanticFrame.Intent == DialogActTypes.CONFIRM and \
+                                    type(self.lastDialogAct.slot)==tuple \
+                                    and self.lastDialogAct.slot[0]==0:
+            self.currentSemanticFrame.Slots['ground_pizza'] = True
+        elif self.currentSemanticFrame.Intent == DialogActTypes.DENY and \
+                                    type(self.lastDialogAct.slot)==tuple \
+                                    and self.lastDialogAct.slot[0]==0:
+            self.currentSemanticFrame.Slots['pizza_type'] = None
+            self.currentSemanticFrame.Slots['crust'] = None
+            self.currentSemanticFrame.Slots['size'] = None
+
+        # Confirm or deny order
+        if self.currentSemanticFrame.Intent == DialogActTypes.CONFIRM and \
+                                    type(self.lastDialogAct.slot)==tuple \
+                                    and self.lastDialogAct.slot[0]==1:
+            self.currentSemanticFrame.Slots['ground_order'] = True
+        elif self.currentSemanticFrame.Intent == DialogActTypes.DENY and \
+                                    type(self.lastDialogAct.slot)==tuple \
+                                    and self.lastDialogAct.slot[0]==1:
+            self.currentSemanticFrame.Slots['name'] = None
+            self.currentSemanticFrame.Slots['number'] = None
+            self.currentSemanticFrame.Slots['modality'] = None
+            self.currentSemanticFrame.Slots['address'] = None
+
+
         # update self.DialogFrame based on the contents of newSemanticFrame
         slots = []
-        for s in ['pizza_type','crust','size','name','number','modality','adresss',
-                  'ground_pizza','ground_order']:
+        for s in ['pizza_type','crust','size','name','number','modality','address',
+                  'ground_pizza','ground_order', 'request']:
             try:
-                slots.append(newSemanticFrame.Slots[s])
+                slots.append(self.currentSemanticFrame.Slots[s])
             except KeyError:
                 slots.append(None)
+
+
+
+
         # idx of 0=denied pizza,1=dineid the order, 2= else
         # if 0:
         #     delete pizza slots
@@ -62,6 +112,8 @@ class FrameDMSimple:
     def selectDialogAct(self):
         dialogAct = DialogAct()
 
+        #pdb.set_trace()
+
         # by default, return a Hello dialog act
         dialogAct.DialogActType = DialogActTypes.HELLO
 
@@ -69,6 +121,21 @@ class FrameDMSimple:
             # we need to reqalts
             dialogAct.DialogActType = DialogActTypes.REQALTS
             dialogAct.slot = self.lastDialogAct.slot
+
+        elif self.DialogFrame.request == "cancel":
+            dialogAct.DialogActType = DialogActTypes.GOODBYE
+
+        elif self.DialogFrame.request == "repeat":
+            dialogAct.DialogActType = DialogActTypes.REQALTS
+            dialogAct.slot = self.lastDialogAct.slot
+
+        elif self.DialogFrame.request == "start over":
+            dialogAct.DialogActType = DialogActTypes.HELLO
+
+        elif self.DialogFrame.request == "status":
+            dialogAct.DialogActTypes = DialogActTypes.INFORM
+            dialogAct.slot = self.DialogFrame.order_status
+
 
         # Order has been grounded; return goodbye diolog act
         elif self.DialogFrame.ground_order == True:
@@ -79,7 +146,7 @@ class FrameDMSimple:
         elif self.DialogFrame.ground_pizza == True:
 
             # Get user if needed
-            if not self.DialogFrame.user:
+            if not self.DialogFrame.name:
                 dialogAct.DialogActType = DialogActTypes.REQUEST
                 dialogAct.slot = "name"
 
@@ -89,14 +156,14 @@ class FrameDMSimple:
                 dialogAct.slot = "modality"
 
             # Get address if needed
-            elif DialogFrame.modality == "delivery" and not self.DialogFrame.address:
+            elif self.DialogFrame.modality == "delivery" and not self.DialogFrame.address:
                 dialogAct.DialogActType = DialogActTypes.REQUEST
                 dialogAct.slot = "address"
         
             # Ground Order
             else:
                 dialogAct.DialogActType = DialogActTypes.REQUEST
-                dialogAct.slot = (1,self.DialogFrame)
+                dialogAct.slot = (1,self.currentSemanticFrame.Slots)
     
         # Pizza not yet grounded
         else:
@@ -116,9 +183,9 @@ class FrameDMSimple:
                 dialogAct.slot = "size"
 
             # Ground Pizza
-            elif not self.DialogFrame.pizza.size:
+            else:
                 dialogAct.DialogActType = DialogActTypes.REQUEST
-                dialogAct.slot = (0,self.DialogFrame)
+                dialogAct.slot = (0,self.currentSemanticFrame.Slots)
         # TODO 
         self.lastDialogAct = dialogAct
         return dialogAct

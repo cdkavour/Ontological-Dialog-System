@@ -12,14 +12,14 @@ class NLGForFrame:
         outstr = ''
         if (dialogAct.DialogActType == DialogActTypes.HELLO):
             outstr += random.choice(self.hellos)
-        elif dialogAct.updated:
+        elif dialogAct.change:
             outstr += "Okay I've updated that.  "
         # GOODBYE
         # TODO make sure that the goodbye portion of the frame 
         # knows to add this
         elif (dialogAct.DialogActType == DialogActTypes.GOODBYE):
             if dialogAct.complete:
-                 "Thanks, I got your order. Goodbye."
+                outstr += "Thanks, I got your order. Goodbye."
             else:
                 outstr += "Ending session.  Thank you, goodbye."
         
@@ -99,4 +99,4 @@ class NLGForFrame:
                 outstr += "Not implemented yet"
         else:
             outstr += "Not implemented yet"
-        return outstrs
+        return outstr

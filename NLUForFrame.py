@@ -13,7 +13,7 @@ class NLUForFrame:
 
     def _get_toppings_check(self):
         toppings = {x['name'] for x in self.DB['toppings']}
-        return re.compile(r'|'.join(toppings),x)
+        return re.compile(r'|'.join(toppings))
 
     def parse(self, inputStr):
         # NLU COMPONENT CAN OUTPUT THE FOLLOWING DIALOG ACTS:
@@ -42,7 +42,7 @@ class NLUForFrame:
             self.SemanticFrame.Intent = DialogActTypes.REQUEST
             self.SemanticFrame.Slots['request'] = 'status'
         # ask for more information
-        elif ('add')
+        #elif ('add')
 
         # 5) INFORM
         # preferred order
@@ -53,7 +53,7 @@ class NLUForFrame:
         # Pizza Type
         elif ("hawaiian" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
-            self.SemanticFrame.Slots["pizza_type"] = "Hawaiian"
+            self.SemanticFrame.Slots["pizza_type"] = "hawaiian"
         elif ("meat lovers" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["pizza_type"] = "meat lovers"
@@ -103,7 +103,7 @@ class NLUForFrame:
             self.SemanticFrame.Slots["crust"] = "gluten-free"
 
         # Name
-        elif(inputStr in ['Peter','Paul','Mary']):
+        elif(inputStr in ['peter','paul','mary']):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["name"] = inputStr
 
