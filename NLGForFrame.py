@@ -32,6 +32,7 @@ class NLGForFrame:
         
         # INFORM
         if (dialogAct.DialogActType == DialogActTypes.INFORM):
+            pdb.set_trace()
             if (dialogAct.slot == "crust"):
                 outstr += "We have thin, regular, deep dish, and gluten-free crusts."
             elif (dialogAct.slot == "size"):
@@ -47,12 +48,12 @@ class NLGForFrame:
         # REQUEST
         elif (dialogAct.DialogActType == DialogActTypes.REQUEST):
             if(dialogAct.slot == "pizza_type"):
-                outstr += "Welcome to the pizza ordering system. What kind of pizza would you like?"
+                outstr += "What kind of pizza would you like?"
             elif(dialogAct.slot == "crust"):
                 outstr += "What crust type? We have thin, regular, deep dish, gluten free."
             elif(dialogAct.slot == "size"):
                 outstr += "What size?"
-            elif(type(dialogAct.slot) == tuple and dialogAct.slot[0]==0): # TODO, this is now a list
+            elif(type(dialogAct.slot) == tuple and dialogAct.slot[0]==0):
                 slots = dialogAct.slot[1]
                 outstr += "I have a {} {} crust {} pizza, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'])
             elif(dialogAct.slot == "name"):
@@ -63,7 +64,7 @@ class NLGForFrame:
                 outstr += "Pick up or delivery?"
             elif(dialogAct.slot == "address"):
                 outstr += "Address?"
-            elif(type(dialogAct.slot)==tuple): # TODO this is now a list
+            elif(type(dialogAct.slot)==tuple and dialogAct.slot[0]==1):
                 slots = dialogAct.slot[1]
                 if slots['modality'] == 'pick-up':
                     outstr += "So that is a {} {} crust {} pizza, for {} for pick-up, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'],str.title(slots['name']))
@@ -98,7 +99,8 @@ class NLGForFrame:
                 else:
                     outstr += "Sorry I need you to confirm, you want a {} {} crust {} pizza, for {} for delivery to {}, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'],str.title(slots['name']),str.title(slots['address']))
             else:
-                outstr += "Not implemented yet"
-        else:
+                # they asked to repeat before they had done anything
+                outstr += "What kind of pizza can I add to your order?"
+        elif  outstr == '':
             outstr += "Not implemented yet"
         return outstr

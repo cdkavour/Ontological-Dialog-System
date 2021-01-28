@@ -1,5 +1,4 @@
 from collections import defaultdict
-import pdb
 
 class SemanticFrame:
 
@@ -15,7 +14,9 @@ class SemanticFrame:
 								size=self.Slots['size'],
 								toppings=self.Slots['toppings']))
 		self.order[-1]._populate_toppings()
-		self.Slots['pizza_type']=self.Slots['crust']=self.Slots['size']=None
+		# the following line is something of the sort we will need 
+		# for ordering multiple pizzas
+		# self.Slots['pizza_type']=self.Slots['crust']=self.Slots['size']=None
 
 class Pizza:
 	def __init__(self,specialty_type=None,crust=None,size=None,toppings=None):
@@ -37,7 +38,6 @@ class Pizza:
 
 	def calculate_pie_price(self,DB):
 		# compute price based on specialty, size, and crust
-		pdb.set_trace()
 		self._populate_toppings()
 		# call the price db and calculate
 		# the base price is the price of the crust

@@ -25,24 +25,11 @@ class DB:
 							'confirmation_number':confirmation_number,
 							'modality':modality,
 							'address':address, # this could be none, that's okay
-							'status':'processing'})
+							'status':'processing',
+							'cost':cost})
 		self.data['order_idx'] +=1
 		with open(self.path,'w') as f:
 			json.dump(self.data,f,indent=3)
-
-	def lookup_order_status(self,user):
-		# return the value of the user's most recent order
-		return self.open_orders.loc[self.open_orders['name'] == user].status.values[-1]
-
-	def lookup_preferred(self,user):
-		# return a slot dic of the user's preferred order
-		# it is saved as a list in case of extended frame, 
-		# so just pick the first one for the simple model
-		# this is a dictionary that can be used to update the slots
-		# get rid of toppings for now
-		preferred = self.users.loc[self.users['name']==user].preferred.values[0][0]
-		preferred.pop('toppings')
-		return preferred
 
 class FrameDMSimple:
 
@@ -67,9 +54,8 @@ class FrameDMSimple:
 
 	def execute(self, inputStr):
 		# apply the NLU component
-		# pdb.set_trace()
 		self.currentSemanticFrame = self.NLU.parse(inputStr)
-
+		pdb.set_trace()
 		# update the dialog frame with the new information
 		# return out if something got modified from an original value
 		change = self.trackState()
@@ -180,6 +166,7 @@ class FrameDMSimple:
 			dialogAct.DialogActType = DialogActTypes.HELLO
 
 		elif self.DialogFrame.request == "status":
+			print('heres')
 			dialogAct.DialogActTypes = DialogActTypes.INFORM
 			dialogAct.slot = (2,self.currentSemanticFrame.Slots)
 
