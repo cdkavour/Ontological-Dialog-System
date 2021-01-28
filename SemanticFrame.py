@@ -39,7 +39,7 @@ class Pizza:
 		# compute price based on specialty, size, and crust
 		pdb.set_trace()
 		self._populate_toppings()
-		# call the ƒice db and calculate
+		# call the price db and calculate
 		# the base price is the price of the crust
 		price = DB.crusts.loc[DB.crusts['size'].eq(self.size) & DB.crusts.name.eq(self.crust)].price.values[0]
 		# add on the price for all toppings
