@@ -78,7 +78,7 @@ class NLGDefault:
                 return "Sorry, I didn't get that. Pick up or delivery?"
             elif(dialogAct.slot == "address"):
                 return "Sorry, I didn't get that. Address?"
-            elif(type(dialogAct.slot)==tuple): #TODO
+            elif(type(dialogAct.slot)==tuple):
                 slots = dialogAct.slot[1]
                 if slots['modality']=='pick-up':
                     return "Sorry, I need you to confirm, you want a {} {} crust {} pizza, for {} for pick-up, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'],slots['name'])

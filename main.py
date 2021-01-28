@@ -54,7 +54,6 @@ def main():
         print(output)
     while(True):
         inputStr = input("> ")
-        print(inputStr)
         if (inputStr == "Quit"):
             break
         outputStr = DMModule.execute(inputStr)

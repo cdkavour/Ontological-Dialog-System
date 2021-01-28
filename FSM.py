@@ -1,6 +1,7 @@
 from DialogActTypes import DialogActTypes
 from DialogAct import DialogAct
 import pdb
+from collections import defaultdict
 
 # 0 greet > 1 pizza type > 2 crust >  3 size 
 # > 4 ground_pizza > 5 name > 6 phone number 
@@ -32,18 +33,17 @@ class FSM:
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,self.slot_to_fill[self.state]))
 			elif nlu_output.Slots['request']=='start_over':
 				self.state = 1
-				self.NLU.Slots = {}
+				self.NLU.Slots = defaultdict(lambda:None)
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,'pizza_type'))
 		elif self.state == 0:
 			self.state +=1
 			outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,self.slot_to_fill[self.state]))
 		elif self.state == 3 or self.state == 8:
 			if nlu_output.Intent == DialogActTypes(4):
-				try:
-					relevant_slot = nlu_output.Slots[self.slot_to_fill[self.state]]
+				if nlu_output.Slots[self.slot_to_fill[self.state]]:
 					self.state += 1
 					outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,(1*(self.state-9)//5+1,nlu_output.Slots)))
-				except KeyError:
+				else:
 					# the slot did not get filled, try again
 					outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,self.slot_to_fill[self.state]))
 
@@ -60,7 +60,7 @@ class FSM:
 			elif nlu_output.Intent == DialogActTypes(8):
 				# we got wrong, just start over
 				self.state = 1
-				self.NLU.Slots = {}
+				self.NLU.Slots = defaultdict(lambda:None)
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,'pizza_type'))
 			else:
 				# we got an unexpected answer, try again
@@ -83,15 +83,15 @@ class FSM:
 		else: # the "normal states"
 			# they provide the right information
 			if nlu_output.Intent == DialogActTypes(4):
-				try:		
-					relevant_slot = nlu_output.Slots[self.slot_to_fill[self.state]]
+				relevant_slot = nlu_output.Slots[self.slot_to_fill[self.state]]
+				if relevant_slot:		
 					self.state += 1
 					if relevant_slot == 'pick-up':
 						self.state +=1
 						outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,(1,nlu_output.Slots)))
 					else:
 						outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,self.slot_to_fill[self.state]))
-				except KeyError:
+				else:
 					# the slot did not get filled, try again
 					print("state: ", self.state)
 					outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,self.slot_to_fill[self.state]))
