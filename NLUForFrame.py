@@ -35,20 +35,9 @@ class NLUForFrame:
         self.SemanticFrame.Domain = "pizza"
         self.SemanticFrame.Intent = DialogActTypes.UNDEFINED
 
-        # UNIVERSALS - cancel, repeat, start over
-        if (inputStr in ['cancel','repeat','start over'] ):
-            self.SemanticFrame.Intent = DialogActTypes.REQUEST
-            self.SemanticFrame.Slots["request"] = inputStr
-
-        # 4) REQUEST
-        # order status
-        elif ('status' in inputStr):
-            self.SemanticFrame.Intent = DialogActTypes.REQUEST
-            self.SemanticFrame.Slots['request'] = 'status'
-
         # 5) INFORM
         # preferred order
-        elif ('preferred' in inputStr or 'previous order' in inputStr):
+        if ('preferred' in inputStr or 'previous order' in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots['preferred'] = True
 
@@ -110,17 +99,27 @@ class NLUForFrame:
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["number"] = phone_number_match[0]
 
-        # 1) HELLO
+        # HELLO
         if ("hello" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.HELLO
-        # 2) GOODBYE
+        # GOODBYE
         elif ("goodbye" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.GOODBYE
-        # 3) CONFIRM
+        # CONFIRM
         elif ("yes" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.CONFIRM
-        # 4) DENY
+        # DENY
         elif ("no" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.DENY
+        
+        # REQUEST
+        # UNIVERSALS - cancel, repeat, start over
+        if (inputStr in ['cancel','repeat','start over'] ):
+            self.SemanticFrame.Intent = DialogActTypes.REQUEST
+            self.SemanticFrame.Slots["request"] = inputStr
+        # order status
+        elif ('status' in inputStr):
+            self.SemanticFrame.Intent = DialogActTypes.REQUEST
+            self.SemanticFrame.Slots['request'] = 'status'
 
         return self.SemanticFrame

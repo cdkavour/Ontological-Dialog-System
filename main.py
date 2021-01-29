@@ -58,10 +58,8 @@ def main():
             break
         outputStr = DMModule.execute(inputStr)
         print(outputStr)
-
         if ("goodbye" in outputStr.lower()):
             break
-        
 
 if __name__ == "__main__":
     main()

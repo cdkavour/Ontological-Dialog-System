@@ -11,6 +11,4 @@ class DialogAct:
 			self.slot = None
 			self.change = None
 			self.complete = False
-			# add whatever else you want a dialog act to contain here
-			# some suggestions: strings, elements of the dialog frame, etc.
-		
+			self.informedLast = False

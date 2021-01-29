@@ -2,7 +2,8 @@ from DialogFrameSimple import DialogFrameSimple
 from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
 from collections import defaultdict
-import math,random,json,pdb,pandas as pd
+import math,random,json,pandas as pd
+import pdb
 
 
 class DB:
@@ -55,16 +56,18 @@ class FrameDMSimple:
 	def execute(self, inputStr):
 		# apply the NLU component
 		self.currentSemanticFrame = self.NLU.parse(inputStr)
-		pdb.set_trace()
+		
 		# update the dialog frame with the new information
 		# return out if something got modified from an original value
-		change = self.trackState()
+		change,informedLast = self.trackState()
 
 		# and decide what to do next
 		newDialogAct = self.selectDialogAct()
 		newDialogAct.change = change
+		newDialogAct.informedLast = informedLast
 
 		# update semantic frame based on user's request type
+		# this has to happen after the dialog act is selected
 		if self.currentSemanticFrame.Slots["request"] == "cancel":
 			self.currentSemanticFrame.Slots = defaultdict(lambda:None)
 			self.currentSemanticFrame.order = []
@@ -79,34 +82,38 @@ class FrameDMSimple:
 
 		# then generate some meaningful response
 		response = self.NLG.generate(newDialogAct)
-		if self.lastDialogAct.complete:
-			cost = self.calculate_price()
-			self.DB.save_new_order(self.currentSemanticFrame.Slots['name'],
-								   self.currentSemanticFrame.Slots['modality'],
-								   self.currentSemanticFrame.Slots['address'],
-								   cost)
 
+		# update the slots
 		self.PreviousSlots = defaultdict(lambda:None,self.currentSemanticFrame.Slots)
+		
 		return response
 
 	def trackState(self):
-		# Confirm or deny pizza
+
+		# confirm pizza
 		if self.currentSemanticFrame.Intent == DialogActTypes.CONFIRM and \
 									type(self.lastDialogAct.slot)==tuple \
 									and self.lastDialogAct.slot[0]==0:
 			self.currentSemanticFrame.Slots['ground_pizza'] = True
 			self.currentSemanticFrame.make_pizza()
+		# deny pizza
 		elif self.currentSemanticFrame.Intent == DialogActTypes.DENY and \
 									type(self.lastDialogAct.slot)==tuple \
 									and self.lastDialogAct.slot[0]==0:
 			self.currentSemanticFrame.Slots['pizza_type'] = None
 			self.currentSemanticFrame.Slots['crust'] = None
 			self.currentSemanticFrame.Slots['size'] = None
-		# Confirm or deny order
+		# confirm order
 		if self.currentSemanticFrame.Intent == DialogActTypes.CONFIRM and \
 									type(self.lastDialogAct.slot)==tuple \
 									and self.lastDialogAct.slot[0]==1:
 			self.currentSemanticFrame.Slots['ground_order'] = True
+			self.cost = self.calculate_price()
+			self.DB.save_new_order(self.currentSemanticFrame.Slots['name'],
+								   self.currentSemanticFrame.Slots['modality'],
+								   self.currentSemanticFrame.Slots['address'],
+								   self.cost)
+		# deny order
 		elif self.currentSemanticFrame.Intent == DialogActTypes.DENY and \
 									type(self.lastDialogAct.slot)==tuple \
 									and self.lastDialogAct.slot[0]==1:
@@ -114,7 +121,8 @@ class FrameDMSimple:
 			self.currentSemanticFrame.Slots['number'] = None
 			self.currentSemanticFrame.Slots['modality'] = None
 			self.currentSemanticFrame.Slots['address'] = None
-			change = True
+
+		# try to update the order with the preferred pizzas
 		if self.currentSemanticFrame.Slots['preferred']:
 			try:
 				preferred_pizza = self.DB.users.loc[self.DB.users.name == \
@@ -124,17 +132,28 @@ class FrameDMSimple:
 			except Exception:
 				pass
 			change = False
+
+		# update the DialogFrame based on the SemanticFrame
 		slots_for_dialog_tracking = [self.currentSemanticFrame.Slots[s] for s in 
 													['ground_pizza','ground_order', 'request']]
 		slots_filled = set([s for s in 
 							['pizza_type','crust','size','name','address','modality'] if 
 							self.currentSemanticFrame.Slots[s]])
-		if self.currentSemanticFrame.Intent == DialogActTypes.INFORM and slots_filled == self.DialogFrame.slots_filled and len(slots_filled) > 0:
-			# we didn't add any new slots and we didn't do any non-inform operations
-			change = True
+		
+		# logic for making better sounding NLG by grounding by acknowledgement turn-initially
+		if self.currentSemanticFrame.Intent == DialogActTypes.INFORM:
+			if slots_filled == self.DialogFrame.slots_filled and len(slots_filled) > 0:
+				# we didn't add any new slots and we didn't do any non-inform operations
+				change = True
+				informedLast = True
+			else:
+				# we added a slot with new information
+				change = False
+				informedLast = True
 		else:
 			change = False
-
+			informedLast = False
+		
 		# fill in dialog frame info, and propagate user info from DB
 		self.DialogFrame.update(*slots_for_dialog_tracking,slots_filled)
 		self.consolidate_user_data()
@@ -146,7 +165,7 @@ class FrameDMSimple:
 			# for now, just look up their most recent order
 			self.currentSemanticFrame.Slots['order_status'] = self.DB.open_orders[self.DB.open_orders.name.eq(self.currentSemanticFrame.Slots['name'])].status.values[-1]
 
-		return change
+		return change,informedLast
 
 	def selectDialogAct(self):
 		dialogAct = DialogAct()
@@ -159,16 +178,18 @@ class FrameDMSimple:
 			dialogAct.DialogActType = DialogActTypes.GOODBYE
 
 		elif self.DialogFrame.request == "repeat":
-			dialogAct.DialogActType = DialogActTypes.REQALTS
-			dialogAct.slot = self.lastDialogAct.slot
+			dialogAct = self.lastDialogAct
 
 		elif self.DialogFrame.request == "start over":
 			dialogAct.DialogActType = DialogActTypes.HELLO
 
 		elif self.DialogFrame.request == "status":
-			print('heres')
-			dialogAct.DialogActTypes = DialogActTypes.INFORM
-			dialogAct.slot = (2,self.currentSemanticFrame.Slots)
+			if self.currentSemanticFrame.Slots['name']:
+				dialogAct.DialogActType = DialogActTypes.INFORM
+				dialogAct.slot = (2,self.currentSemanticFrame.Slots)
+			else:
+				dialogAct.DialogActType = DialogActTypes.REQUEST
+				dialogAct.slot = 'name'
 
 		# toppings not handled, but have to be ignored to get around counting
 		elif not self.information_added():
@@ -186,6 +207,7 @@ class FrameDMSimple:
 		elif self.DialogFrame.ground_order == True:
 			dialogAct.DialogActType = DialogActTypes.GOODBYE
 			dialogAct.complete = True
+			dialogAct.slot = self.cost
 
 		# Pizza grounded, order not grounded
 		elif self.DialogFrame.ground_pizza == True:
@@ -253,8 +275,8 @@ class FrameDMSimple:
 		else:
 			return False
 
-
 	def consolidate_user_data(self):
+		# look up data from the DB to try and populate slots about the user automatically
 		user_data = [None]*3
 		attributes = ['name','address','number']
 		for i,attribute in enumerate(attributes):

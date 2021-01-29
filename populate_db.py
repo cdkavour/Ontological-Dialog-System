@@ -56,9 +56,12 @@ data['crusts']=[
     {'name':'gluten-free','size':'medium','price':18},
     {'name':'gluten-free','size':'large','price':21}]
 data['open_orders']= [
-    {'name':'peter','confirmation_number':'00001','modality':'pick-up','status':'cancelled'},
-    {'name':'peter','confirmation_number':'00002','modality':'pick-up','status':'baking'},
-    {'name':'paul','confirmation_number':'00003','modality':'delivery','status':'ready'}]
+    {'name':'peter','confirmation_number':'00001',
+        'modality':'pick-up','status':'cancelled'},
+    {'name':'peter','confirmation_number':'00002',
+        'modality':'pick-up','status':'baking'},
+    {'name':'paul','confirmation_number':'00003',
+        'modality':'delivery','status':'ready'}]
 data['modality'] = {'pick-up':0,'delivery':3},
 data['order_idx'] = 4
 
