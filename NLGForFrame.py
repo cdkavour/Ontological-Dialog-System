@@ -25,12 +25,14 @@ class NLGForFrame:
 		# GOODBYE
 		elif (dialogAct.DialogActType == DialogActTypes.GOODBYE):
 			if dialogAct.slot:
-				outstr += "Thanks, your total is ${:2f}. We will see you in 15 minutes.  Goodbye".format(dialogAct.slot)
+				outstr += "Thanks, your total is ${:.2f}. We will see you in 15 minutes.  Goodbye".format(dialogAct.slot)
 			else:
 				outstr += "Ending session.  Thank you, goodbye."
+		
 		# CONFIRM
 		elif (dialogAct.DialogActType == DialogActTypes.CONFIRM):
 			outstr += "Yes."
+		
 		# DENY
 		elif (dialogAct.DialogActType == DialogActTypes.DENY):
 			outstr += "No."
@@ -83,7 +85,9 @@ class NLGForFrame:
 		elif (dialogAct.DialogActType == DialogActTypes.REQALTS):
 			if not dialogAct.informedLast:
 				outstr += "Sorry I didn't get that. "
-			if(dialogAct.slot == "pizza_type"):
+			if dialogAct.slot == 'wildcard':
+				outstr += 'What would you like to change?'
+			elif(dialogAct.slot == "pizza_type"):
 				outstr += "What kind of pizza would you like?"
 			elif(dialogAct.slot == "crust"):
 				outstr += "What crust type? We have thin, regular, deep dish, gluten free."
@@ -103,9 +107,9 @@ class NLGForFrame:
 			elif(type(dialogAct.slot)==tuple):
 				slots = dialogAct.slot[1]
 				if slots['modality']=='pick-up':
-					outstr += "Sorry I need you to confirm, do you want a {} {} crust {} pizza, for {} for pick-up?".format(slots['size'],slots['crust'],slots['pizza_type'],slots['name'])
+					outstr += "I need you to confirm, do you want a {} {} crust {} pizza, for {} for pick-up?".format(slots['size'],slots['crust'],slots['pizza_type'],slots['name'])
 				else:
-					outstr += "Sorry I need you to confirm, do you want a {} {} crust {} pizza, for {} for delivery to {}?".format(slots['size'],slots['crust'],slots['pizza_type'],str.title(slots['name']),str.title(slots['address']))
+					outstr += "I need you to confirm, do you want a {} {} crust {} pizza, for {} for delivery to {}?".format(slots['size'],slots['crust'],slots['pizza_type'],str.title(slots['name']),str.title(slots['address']))
 			else:
 				# they asked to repeat before they had done anything
 				outstr += "What kind of pizza can I add to your order?"
