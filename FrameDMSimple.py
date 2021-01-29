@@ -151,7 +151,7 @@ class FrameDMSimple:
 
 	def selectDialogAct(self):
 		dialogAct = DialogAct()
-		# import pdb;pdb.set_trace()
+		import pdb;pdb.set_trace()
 		# by default, return a Hello dialog act
 		dialogAct.DialogActType = DialogActTypes.HELLO
 
@@ -159,7 +159,7 @@ class FrameDMSimple:
 		if self.DialogFrame.request == "cancel":
 			dialogAct.DialogActType = DialogActTypes.GOODBYE
 
-		elif self.DialogFrame.request == "repeat":
+		elif self.DialogFrame.request == "repeat" or self.NLU.SemanticFrame.Intent == DialogActTypes.UNDEFINED:
 			dialogAct = self.lastDialogAct
 
 		elif self.DialogFrame.request == "start over":

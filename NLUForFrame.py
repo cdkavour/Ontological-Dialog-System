@@ -116,7 +116,8 @@ class NLUForFrame:
         # UNIVERSALS - cancel, repeat, start over
         if (inputStr in ['cancel','repeat','start over'] ):
             self.SemanticFrame.Intent = DialogActTypes.REQUEST
-            self.SemanticFrame.Slots["request"] = inputStr
+            self.Sema
+            ticFrame.Slots["request"] = inputStr
         # order status
         elif ('status' in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.REQUEST
