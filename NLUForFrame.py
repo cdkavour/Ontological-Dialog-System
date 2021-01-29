@@ -7,6 +7,13 @@ class NLUForFrame:
     def __init__(self):
         self.SemanticFrame = SemanticFrame()
 
+    def clearPizza(self):
+        self.SemanticFrame.Slots['pizza_type'] = None
+        self.SemanticFrame.Slots['size'] = None
+        self.SemanticFrame.Slots['crust'] = None
+        self.SemanticFrame.Slots['toppings'] = None
+        self.SemanticFrame.Slots['ground_pizza'] = None
+
     def setDB(self,db):
         self.pizza_types_re = self._get_defaults_check(db)
         self.toppings_re = self._get_toppings_check(db)
@@ -37,9 +44,14 @@ class NLUForFrame:
 
         # 5) INFORM
         # preferred order
-        if ('preferred' in inputStr or 'previous order' in inputStr):
+        if ('modify preferred order' in inputStr):
+            self.SemanticFrame.Intent = DialogActTypes.INFORM
+            self.SemanticFrame.Slots['revise_preferred'] = True
+            self.SemanticFrame.Slots['need_to_clear'] = True
+        elif ('preferred' in inputStr or 'previous order' in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots['preferred'] = True
+
 
         # Pizza Type
         pizza_types_match = re.search(self.pizza_types_re,inputStr)
@@ -80,10 +92,13 @@ class NLUForFrame:
             self.SemanticFrame.Slots["name"] = users_match[0]
 
         # Pickup or Delivery
-        if ("pick-up" in inputStr):
+        if ('update delivery method' in inputStr):
+        	self.SemanticFrame.Intent = DialogActTypes.INFORM
+        	self.SemanticFrame.Slots['update_modality'] = True
+        elif ("pick-up" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["modality"] = "pick-up"
-        if ("delivery" in inputStr):
+        elif ("delivery" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["modality"] = "delivery"
         
@@ -116,8 +131,7 @@ class NLUForFrame:
         # UNIVERSALS - cancel, repeat, start over
         if (inputStr in ['cancel','repeat','start over'] ):
             self.SemanticFrame.Intent = DialogActTypes.REQUEST
-            self.Sema
-            ticFrame.Slots["request"] = inputStr
+            self.SemanticFrame.Slots["request"] = inputStr
         # order status
         elif ('status' in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.REQUEST

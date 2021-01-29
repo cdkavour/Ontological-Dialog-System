@@ -1,26 +1,26 @@
-from DialogFrameSimple import DialogFrameSimple
+from DialogFrameExtended import DialogFrameExtended
 from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
 from collections import defaultdict
-import math,random,json,pandas as pd
+import math,random,json,pandas as pd,pdb
 
 class Pizza:
-	def __init__(self,specialty_type=None,crust=None,size=None,toppings=None):
-		self.type = specialty_type
+	def __init__(self,pizza_type=None,crust=None,size=None,toppings=None):
+		self.pizza_type = pizza_type
 		self.crust = crust
 		self.size = size
 		self.toppings = toppings if toppings else set()
 		self.price = None
 
-	def _populate_toppings(self):
-		if self.type:
+	def populate_toppings(self):
+		if self.pizza_type:
 			toppings_map = {'hawaiian': {'pineapple','ham','mozzarella'},
 						'meat lovers':{'mozzarella','pepperoni','ham','bacon','sausage'},
 						'4 cheese':{'mozzarella','cheddar','swiss','provelone'},
 						'pepperoni':{'mozzarella','pepperoni'},
 						'veggie supreme':{'mozzarella','green peppers','red onions','mushrooms','black olives'},
 						'vegan':{'green peppers','red onions','mushrooms','black olives'}}
-			self.toppings = self.toppings.union(toppings_map[self.type])
+			self.toppings = self.toppings.union(toppings_map[self.pizza_type])
 
 	def calculate_pie_price(self,DB):
 		# compute price based on specialty, size, and crust
@@ -41,13 +41,14 @@ class DB:
 		self.users = pd.DataFrame(self.data['users'])
 		self.toppings = pd.DataFrame(self.data['toppings'])
 		self.defaults = pd.DataFrame(self.data['defaults'])
-		self.open_orders = pd.DataFrame(self.data['open_orders'])
 		self.crusts = pd.DataFrame(self.data['crusts'])
 		self.modality = self.data['modality'][0]
 		self.order_idx = self.data['order_idx']
+		self.modality_map = {'pick-up':'delivery',
+							'delivery':'pick-up'}
 
 	def save_new_order(self,slots,cost):
-		num_digits = 5-int(math.log10(self.order_idx))+1
+		num_digits = 3-int(math.log10(self.order_idx))+1
 		confirmation_number = '0'*num_digits+str(self.order_idx)
 		self.data['open_orders'].append({'name':slots['user'],
 							'confirmation_number':confirmation_number,
@@ -59,17 +60,45 @@ class DB:
 		with open(self.path,'w') as f:
 			json.dump(self.data,f,indent=3)
 
-class FrameDMSimple:
+	def get_order_status(self,name):
+		last_order = [order for order in self.data['open_orders'] if order['name']==name][-1]
+		return last_order['status']
+	
+	def update_modality(self,name):
+		# try to update according to the name
+		users_order = [i for i,order in enumerate(self.data['open_orders']) if order['name']==name][-1]
+		to_modify = self.data['open_orders'].pop(users_order)
+		to_modify['modality'] = self.modality_map[to_modify['modality']]
+		self.data['open_orders'].append(to_modify)
+		return (to_modify['confirmation_number'],to_modify['modality'])	
+
+	def updatePreferred(self,name,pizza_type,crust,size,toppings):
+		users_order = [i for i,user in enumerate(self.data['users']) if user['name']==name][-1]
+		to_modify = self.data['users'].pop(users_order)
+		new_preferred = Pizza(pizza_type=pizza_type,crust=crust,size=size,toppings=toppings)
+		new_preferred.populate_toppings()
+		to_modify['preferred'] = {'pizza_type':new_preferred.pizza_type,
+								  'crust':new_preferred.crust,
+								  'size':new_preferred.size,
+								  'toppings':new_preferred.toppings}
+		self.data['users'].append(to_modify)
+	
+	def get_preferred(self,name):
+		user_order = [user for user in self.data['users'] if user['name']==name][0]['preferred']
+		return user_order				
+
+class FrameDMExtended:
 
 	def __init__(self, NLU, NLG):
 		self.NLU = NLU
 		# define frame below, for example:
 		self.PreviousSlots = defaultdict(lambda:None)
-		self.DialogFrame = DialogFrameSimple()
+		self.DialogFrame = DialogFrameExtended()
 		self.DB = DB('db.json')
 		self.NLG = NLG
 		self.NLU.setDB(self.DB)
 		self.lastDialogAct = None
+		self.pizzas = []
 
 	def calculate_price(self):
 		try:
@@ -101,6 +130,7 @@ class FrameDMSimple:
 
 		# update semantic frame based on user's request type
 		# this has to happen after the dialog act is selected
+		# TODO could this be on the frame?
 		if self.NLU.SemanticFrame.Slots["request"] == "cancel":
 			self.NLU.SemanticFrame.Slots = defaultdict(lambda:None)
 			self.NLU.SemanticFrame.order = []
@@ -112,6 +142,10 @@ class FrameDMSimple:
 		elif self.NLU.SemanticFrame.Slots["request"] == "status" and \
 								self.NLU.SemanticFrame.Slots['name']:
 			self.NLU.SemanticFrame.Slots["request"] = None
+		if self.NLU.SemanticFrame.Slots['update_modality'] and \
+					self.DialogFrame.previousOrder:
+			del self.NLU.SemanticFrame.Slots['update_modality']
+			self.DialogFrame.previousOrder = None
 
 		# then generate some meaningful response
 		response = self.NLG.generate(newDialogAct)
@@ -127,13 +161,20 @@ class FrameDMSimple:
 		if self.NLU.SemanticFrame.Intent == DialogActTypes.CONFIRM and \
 									type(self.lastDialogAct.slot)==tuple \
 									and self.lastDialogAct.slot[0]==0:
-			self.NLU.SemanticFrame.Slots['ground_pizza'] = True
+			pdb.set_trace()
 			# TODO add this pizza to the Dialog Frame
-			self.pizzas.append(Pizza(specialty_type=self.NLU.SemanticFrame.Slots['pizza_type',
-				...]))
-			self.NLU.SemanticFrame.Slots['pizza_type'] = None
-			# ...
-			# ground_pizza = None in dialog frame
+			if self.NLU.SemanticFrame.Slots['revise_preferred']:
+				self.DialogFrame.done_with_revision = True
+				self.DB.updatePreferred(self.NLU.SemanticFrame.Slots['name'],
+									self.NLU.SemanticFrame.Slots['pizza_type'],
+									self.NLU.SemanticFrame.Slots['crust'],
+									self.NLU.SemanticFrame.Slots['size'],
+									self.NLU.SemanticFrame.Slots['toppings'])
+				del self.NLU.SemanticFrame.Slots['revise_preferred']
+			else:
+				self.NLU.SemanticFrame.Slots['ground_pizza'] = True
+				self.pizzas.append(Pizza())
+			self.NLU.clearPizza()
 		# confirm order 
 		if self.NLU.SemanticFrame.Intent == DialogActTypes.CONFIRM and \
 									type(self.lastDialogAct.slot)==tuple \
@@ -145,22 +186,31 @@ class FrameDMSimple:
 
 		# try to update the order with the preferred pizzas
 		if self.NLU.SemanticFrame.Slots['preferred']:
+			pdb.set_trace()
 			try:
-				preferred_pizza = self.DB.users.loc[self.DB.users.name == \
-									self.NLU.SemanticFrame.Slots['name']].preferred.values[0]
+				preferred_pizza = self.DB.get_preferred(self.NLU.SemanticFrame.Slots['name'])
 				for attribute in ['size','crust','pizza_type']:
 					self.NLU.SemanticFrame.Slots[attribute] = preferred_pizza[attribute]
 				del self.NLU.SemanticFrame.Slots['preferred']
-
 			except Exception:
 				pass
 			self.DialogFrame.change = False
+		
+		if self.NLU.SemanticFrame.Slots['update_modality']:
+			if self.NLU.SemanticFrame.Slots['name']:
+				self.DialogFrame.previousOrder = self.DB.update_modality(self.NLU.SemanticFrame.Slots['name'])
+
+		# if we've just asked to revise the preferred order
+		# we should clear the board of pizza information
+		if self.NLU.SemanticFrame.Slots['need_to_clear']:
+			self.NLU.SemanticFrame.clearPizza()
+			del self.NLU.SemanticFrame.Slots['need_to_clear']
 
 		# update the DialogFrame based on the SemanticFrame
 		slots_for_dialog_tracking = [self.NLU.SemanticFrame.Slots[s] for s in 
 													['ground_pizza','ground_order', 'request']]
 		slots_filled = set([s for s in 
-							['pizza_type','crust','size','name','address','modality'] if 
+							['pizza_type','crust','size','name','address','number','modality'] if 
 							self.NLU.SemanticFrame.Slots[s]])
 		
 		# logic for making better sounding NLG by grounding by acknowledgement turn-initially
@@ -186,11 +236,10 @@ class FrameDMSimple:
 								self.NLU.SemanticFrame.Slots['name']:
 			# look it up the in db
 			# for now, just look up their most recent order
-			self.NLU.SemanticFrame.Slots['order_status'] = self.DB.open_orders[self.DB.open_orders.name.eq(self.NLU.SemanticFrame.Slots['name'])].status.values[-1]
+			self.NLU.SemanticFrame.Slots['order_status'] = self.DB.get_order_status(self.NLU.SemanticFrame['name'])
 
 	def selectDialogAct(self):
 		dialogAct = DialogAct()
-		import pdb;pdb.set_trace()
 		# by default, return a Hello dialog act
 		dialogAct.DialogActType = DialogActTypes.HELLO
 
@@ -199,7 +248,10 @@ class FrameDMSimple:
 			dialogAct.DialogActType = DialogActTypes.GOODBYE
 
 		elif self.DialogFrame.request == "repeat" or self.NLU.SemanticFrame.Intent == DialogActTypes.UNDEFINED:
-			dialogAct = self.lastDialogAct
+			if self.lastDialogAct:
+				dialogAct = self.lastDialogAct
+			else:
+				dialogAct.DialogActType = DialogActTypes.HELLO
 
 		elif self.DialogFrame.request == "start over":
 			dialogAct.DialogActType = DialogActTypes.HELLO
@@ -223,9 +275,26 @@ class FrameDMSimple:
 
 		# try to update to the preferred
 		elif self.NLU.SemanticFrame.Slots['preferred'] and not \
-							self.NLU.SemanticFrame.Slots['name']:
+					self.NLU.SemanticFrame.Slots['name']:
 			dialogAct.DialogActType = DialogActTypes.REQUEST
 			dialogAct.slot = 'name'
+		# try to fill out modality switch if they want t
+		elif self.NLU.SemanticFrame.Slots['update_modality']:
+			if not self.NLU.SemanticFrame.Slots['name']:
+				dialogAct.DialogActType = DialogActTypes.REQUEST
+				dialogAct.slot = 'name'
+			else:
+				dialogAct.DialogActType = DialogActTypes.INFORM
+				dialogAct.slot = self.DialogFrame.previousOrder
+		# try to modify the preferred
+		elif self.NLU.SemanticFrame.Slots['revise_preferred'] and not \
+					self.NLU.SemanticFrame.Slots['name']:
+			dialogAct.DialogActType = DialogActTypes.REQUEST
+			dialogAct.slot = 'name'
+		elif self.DialogFrame.done_with_revision:
+			dialogAct.DialogActType = DialogActTypes.INFORM
+			dialogAct.slot = 'revise_preferred'
+			self.DialogFrame.done_with_revision = False
 
 		# Order has been grounded; return goodbye diolog act
 		elif self.DialogFrame.ground_order == True:
@@ -300,7 +369,7 @@ class FrameDMSimple:
 		if 'toppings' in without_toppings_past.keys():
 			del without_toppings_past['toppings']
 		for k,v in without_toppings_current.items():
-			if without_toppings_past[k]!=v:
+			if without_toppings_past[k]!=v or k not in without_toppings_past.keys():
 				return True
 		if set(without_toppings_current.values())=={None}:
 			return True

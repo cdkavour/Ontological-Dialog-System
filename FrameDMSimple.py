@@ -150,7 +150,7 @@ class FrameDMSimple:
 		slots_for_dialog_tracking = [self.NLU.SemanticFrame.Slots[s] for s in 
 													['ground_pizza','ground_order', 'request']]
 		slots_filled = set([s for s in 
-							['pizza_type','crust','size','name','address','modality'] if 
+							['pizza_type','crust','size','name','address','number','modality'] if 
 							self.NLU.SemanticFrame.Slots[s]])
 		
 		# logic for making better sounding NLG by grounding by acknowledgement turn-initially
@@ -189,7 +189,10 @@ class FrameDMSimple:
 			dialogAct.DialogActType = DialogActTypes.GOODBYE
 
 		elif self.DialogFrame.request == "repeat" or self.NLU.SemanticFrame.Intent == DialogActTypes.UNDEFINED:
-			dialogAct = self.lastDialogAct
+			if self.lastDialogAct:
+				dialogAct = self.lastDialogAct
+			else:
+				dialogAct.DialogActType = DialogActTypes.HELLO
 
 		elif self.DialogFrame.request == "start over":
 			dialogAct.DialogActType = DialogActTypes.HELLO

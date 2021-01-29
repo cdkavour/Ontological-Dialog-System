@@ -50,13 +50,18 @@ class NLGForFrame:
 				outstr += "I have an order on file for {} that is currently {}.".format(
 							str.title(slots['name']),
 								slots['order_status'])
+			elif dialogAct.slot == 'revise_preferred':
+				outstr += 'I have upddated your preferred order.  What else can I help you with?"'
 			else:
-				outstr += "Not implemented yet"
-
+				# update to modality of previous order
+				outstr += "I have switched the delivery method of order number {} to {}.  What else can I help you with?".format(*dialogAct.slot)
+			
 		# REQUEST
 		elif (dialogAct.DialogActType == DialogActTypes.REQUEST):
 			if(dialogAct.slot == "pizza_type"):
 				outstr += "What kind of pizza would you like?"
+			elif (dialogAct.slot == 'previous_address'):
+				outstr += "What address can I add to that delivery order?"
 			elif(dialogAct.slot == "crust"):
 				outstr += "What crust type? We have thin, regular, deep dish, gluten free."
 			elif(dialogAct.slot == "size"):

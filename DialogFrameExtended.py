@@ -1,7 +1,7 @@
-class DialogFrameSimple:
+class DialogFrameExtended:
 
 	def __init__(self):
-		self.FrameName = "DialogFrameSimple"
+		self.FrameName = "DialogFrameExtended"
 		self.ground_pizza = False
 		self.ground_order = False
 		self.request = None
@@ -12,8 +12,15 @@ class DialogFrameSimple:
 		self.pizzas = []
 		# TODO flag if we are updating
 		# if that flag is raised when we've confirmed ground, thenn 
-		# save that to the db and clear the slots'
+		# save that to the db and clear the slots
 
+		# whether or not you are trying to update
+		# the modality of a previous order
+		self.previousOrder = None 
+
+		# whether or nnot you are trying to update the
+		# preferred order
+		self.done_with_revision = False
 
 	def update(self,ground_pizza,ground_order,request,slots):
 		self.ground_pizza = False if not ground_pizza else True
