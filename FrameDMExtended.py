@@ -4,6 +4,35 @@ from DialogActTypes import DialogActTypes
 from collections import defaultdict
 import math,random,json,pandas as pd
 
+class Pizza:
+	def __init__(self,specialty_type=None,crust=None,size=None,toppings=None):
+		self.type = specialty_type
+		self.crust = crust
+		self.size = size
+		self.toppings = toppings if toppings else set()
+		self.price = None
+
+	def _populate_toppings(self):
+		if self.type:
+			toppings_map = {'hawaiian': {'pineapple','ham','mozzarella'},
+						'meat lovers':{'mozzarella','pepperoni','ham','bacon','sausage'},
+						'4 cheese':{'mozzarella','cheddar','swiss','provelone'},
+						'pepperoni':{'mozzarella','pepperoni'},
+						'veggie supreme':{'mozzarella','green peppers','red onions','mushrooms','black olives'},
+						'vegan':{'green peppers','red onions','mushrooms','black olives'}}
+			self.toppings = self.toppings.union(toppings_map[self.type])
+
+	def calculate_pie_price(self,DB):
+		# compute price based on specialty, size, and crust
+		self._populate_toppings()
+		# call the price db and calculate
+		# the base price is the price of the crust
+		price = DB.crusts.loc[DB.crusts['size'].eq(self.size) & DB.crusts.name.eq(self.crust)].price.values[0]
+		# add on the price for all toppings
+		for topping in self.toppings:
+			price += DB.toppings.loc[DB.toppings.name.eq(topping)].price.values[0]
+		return price
+
 class DB:
 	def __init__(self,path):
 		with open(path) as f:
@@ -17,13 +46,13 @@ class DB:
 		self.modality = self.data['modality'][0]
 		self.order_idx = self.data['order_idx']
 
-	def save_new_order(self,user,modality,address,cost):
+	def save_new_order(self,slots,cost):
 		num_digits = 5-int(math.log10(self.order_idx))+1
 		confirmation_number = '0'*num_digits+str(self.order_idx)
-		self.data['open_orders'].append({'name':user,
+		self.data['open_orders'].append({'name':slots['user'],
 							'confirmation_number':confirmation_number,
-							'modality':modality,
-							'address':address, # this could be none, that's okay
+							'modality':slots['modality'],
+							'address':slots['address'], # this could be none, that's okay
 							'status':'processing',
 							'cost':cost})
 		self.data['order_idx'] +=1
@@ -45,7 +74,10 @@ class FrameDMSimple:
 	def calculate_price(self):
 		try:
 			base_price = self.DB.modality[self.NLU.SemanticFrame.Slots['modality']]
-			price = base_price + self.NLU.SemanticFrame.order[0].calculate_pie_price(self.DB)
+			price = base_price + Pizza(specialty_type=self.NLU.SemanticFrame.Slots['pizza_type'],
+										crust=self.NLU.SemanticFrame.Slots['crust'],
+										size=self.NLU.SemanticFrame.Slots['size'],
+										toppings=None).calculate_pie_price(self.DB)
 			return price
 		except KeyError:
 			print("Either the pizza or the modality is undefined...")
@@ -56,9 +88,13 @@ class FrameDMSimple:
 		
 		# update the dialog frame with the new information
 		# return out if something got modified from an original value
+		# TODO update preferred order
+
+		# TODO updating delivery method flag, tell them we updated and save the DB
 		self.trackState()
 
 		# and decide what to do next
+		# TODO ask if they want another pizza (confirm/deny/starting another pizza)
 		newDialogAct = self.selectDialogAct()
 		newDialogAct.change = self.DialogFrame.change
 		newDialogAct.informedLast = self.DialogFrame.informedLast
@@ -92,16 +128,19 @@ class FrameDMSimple:
 									type(self.lastDialogAct.slot)==tuple \
 									and self.lastDialogAct.slot[0]==0:
 			self.NLU.SemanticFrame.Slots['ground_pizza'] = True
-			self.NLU.SemanticFrame.make_pizza()
+			# TODO add this pizza to the Dialog Frame
+			self.pizzas.append(Pizza(specialty_type=self.NLU.SemanticFrame.Slots['pizza_type',
+				...]))
+			self.NLU.SemanticFrame.Slots['pizza_type'] = None
+			# ...
+			# ground_pizza = None in dialog frame
 		# confirm order 
 		if self.NLU.SemanticFrame.Intent == DialogActTypes.CONFIRM and \
 									type(self.lastDialogAct.slot)==tuple \
 									and self.lastDialogAct.slot[0]==1:
 			self.NLU.SemanticFrame.Slots['ground_order'] = True
 			self.cost = self.calculate_price()
-			self.DB.save_new_order(self.NLU.SemanticFrame.Slots['name'],
-								   self.NLU.SemanticFrame.Slots['modality'],
-								   self.NLU.SemanticFrame.Slots['address'],
+			self.DB.save_new_order(self.NLU.SemanticFrame.Slots,
 								   self.cost)
 
 		# try to update the order with the preferred pizzas
@@ -220,6 +259,14 @@ class FrameDMSimple:
 	
 		# Pizza not yet grounded
 		else:
+			# TODO if there are pizzas in the list
+			# but we have no pizza detail in the slots
+			# ask if they want another pizza
+			# if yes:
+				# follow below
+			# if no:
+				# ground_pizza = True
+				# don' tfollow below
 
 			# Get pizza type if needed
 			if not self.NLU.SemanticFrame.Slots['pizza_type']:
@@ -277,3 +324,4 @@ class FrameDMSimple:
 					self.NLU.SemanticFrame.Slots[attribute] = match[attribute].values[0]
 		except StopIteration:
 			pass
+

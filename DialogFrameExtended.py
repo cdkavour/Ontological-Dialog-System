@@ -9,6 +9,11 @@ class DialogFrameSimple:
 		self.slots_filled = set()
 		self.change = None
 		self.informedLast = None
+		self.pizzas = []
+		# TODO flag if we are updating
+		# if that flag is raised when we've confirmed ground, thenn 
+		# save that to the db and clear the slots'
+
 
 	def update(self,ground_pizza,ground_order,request,slots):
 		self.ground_pizza = False if not ground_pizza else True
