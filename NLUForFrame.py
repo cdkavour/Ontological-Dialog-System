@@ -1,4 +1,4 @@
-from SemanticFrame import SemanticFrame, Pizza
+from SemanticFrame import SemanticFrame
 from DialogActTypes import DialogActTypes
 import re
 
