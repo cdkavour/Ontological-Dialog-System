@@ -49,7 +49,7 @@ class DB:
 	def save_new_order(self,slots,cost):
 		num_digits = 5-int(math.log10(self.order_idx))+1
 		confirmation_number = '0'*num_digits+str(self.order_idx)
-		self.data['open_orders'].append({'name':slots['user'],
+		self.data['open_orders'].append({'name':slots['name'],
 							'confirmation_number':confirmation_number,
 							'modality':slots['modality'],
 							'address':slots['address'], # this could be none, that's okay
@@ -99,10 +99,8 @@ class FrameDMSimple:
 		# this has to happen after the dialog act is selected
 		if self.NLU.SemanticFrame.Slots["request"] == "cancel":
 			self.NLU.SemanticFrame.Slots = defaultdict(lambda:None)
-			self.NLU.SemanticFrame.order = []
 		elif self.NLU.SemanticFrame.Slots["request"] == "start over":
 			self.NLU.SemanticFrame.Slots = defaultdict(lambda:None)
-			self.NLU.SemanticFrame.order = []
 		elif self.NLU.SemanticFrame.Slots["request"] == "repeat":
 			self.NLU.SemanticFrame.Slots["request"] = None
 		elif self.NLU.SemanticFrame.Slots["request"] == "status" and \
@@ -180,7 +178,6 @@ class FrameDMSimple:
 
 	def selectDialogAct(self):
 		dialogAct = DialogAct()
-		import pdb;pdb.set_trace()
 		# by default, return a Hello dialog act
 		dialogAct.DialogActType = DialogActTypes.HELLO
 

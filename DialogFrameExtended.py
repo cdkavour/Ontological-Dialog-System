@@ -10,9 +10,6 @@ class DialogFrameExtended:
 		self.change = None
 		self.informedLast = None
 		self.pizzas = []
-		# TODO flag if we are updating
-		# if that flag is raised when we've confirmed ground, thenn 
-		# save that to the db and clear the slots
 
 		# whether or not you are trying to update
 		# the modality of a previous order

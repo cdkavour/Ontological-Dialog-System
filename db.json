@@ -130,61 +130,23 @@
       },
       {
          "name": "peter",
-         "confirmation_number": "0000004",
-         "modality": "delivery",
-         "address": "123 Street",
-         "status": "processing"
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "0000005",
-         "modality": "delivery",
-         "address": "123 Street",
-         "status": "processing"
-      },
-      {
-         "name": "mary",
-         "confirmation_number": "0000006",
+         "confirmation_number": "00020",
          "modality": "pick-up",
-         "address": "123 Blvd",
-         "status": "processing",
-         "cost": 20.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "0000007",
-         "modality": "delivery",
          "address": "123 Street",
          "status": "processing",
-         "cost": 25.0
+         "cost": 18.0
       },
       {
          "name": "peter",
-         "confirmation_number": "0000008",
-         "modality": "delivery",
+         "confirmation_number": "00021",
+         "modality": "pick-up",
          "address": "123 Street",
          "status": "processing",
          "cost": 21.0
       },
       {
          "name": "peter",
-         "confirmation_number": "0000009",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 18.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "0000010",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 18.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "0000011",
+         "confirmation_number": "00022",
          "modality": "delivery",
          "address": "123 Street",
          "status": "processing",
@@ -192,54 +154,22 @@
       },
       {
          "name": "peter",
-         "confirmation_number": "0000012",
+         "confirmation_number": "0000023",
          "modality": "delivery",
-         "address": "123 street",
+         "address": "123 Street",
          "status": "processing",
          "cost": 21.0
       },
       {
          "name": "peter",
-         "confirmation_number": "0000013",
+         "confirmation_number": "0000024",
          "modality": "pick-up",
          "address": "123 Street",
          "status": "processing",
-         "cost": 18.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "0000014",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 18.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "0000015",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 20.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "0000016",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 18.0
-      },
-      {
-         "name": "paul",
-         "confirmation_number": "0000017",
-         "modality": "delivery",
-         "address": "123 Ave",
-         "status": "processing",
-         "cost": 23.0
+         "cost": 22.0
       }
    ],
-   "order_idx": 18,
+   "order_idx": 25,
    "toppings": [
       {
          "price": 1.5,

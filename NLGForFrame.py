@@ -1,6 +1,6 @@
 from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
-import random,pdb 
+import random 
 
 class NLGForFrame:
 	def __init__(self):
@@ -98,7 +98,7 @@ class NLGForFrame:
 				outstr += "What crust type? We have thin, regular, deep dish, gluten free."
 			elif(dialogAct.slot == "size"):
 				outstr += "What size?"
-			elif(type(dialogAct.slot) == tuple and dialogAct.slot[0]==0): # TODO
+			elif(type(dialogAct.slot) == tuple and dialogAct.slot[0]==0):
 				slots = dialogAct.slot[1]
 				outstr += "I have a {} {} crust {} pizza, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'])
 			elif(dialogAct.slot == "name"):

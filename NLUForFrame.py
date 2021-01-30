@@ -52,6 +52,10 @@ class NLUForFrame:
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots['preferred'] = True
 
+        # for multiple pizza ordering
+        if ('done ordering' in inputStr):
+            self.SemanticFrame.Intent = DialogActTypes.INFORM
+            self.SemanticFrame.Slots['done_ordering'] = True
 
         # Pizza Type
         pizza_types_match = re.search(self.pizza_types_re,inputStr)

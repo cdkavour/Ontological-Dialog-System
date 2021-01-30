@@ -53,6 +53,8 @@ class NLGDefault:
             elif(type(dialogAct.slot)==tuple): # TODO this is now a list
                 slots = dialogAct.slot[1]
                 if slots['modality'] == 'pick-up':
+                    # for a version with toppings additions, 
+                    # we should print the toppings here instead of the specialty type if applicable.
                     return "So that is a {} {} crust {} pizza, for {} for pick-up, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'],slots['name'])
                 else:
                     return "So that is a {} {} crust {} pizza, for {} for delivery to {}, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'],slots['name'],slots['address'])
