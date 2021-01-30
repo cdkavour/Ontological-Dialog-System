@@ -104,10 +104,15 @@ class FrameDMExtended:
 		try:
 			base_price = self.DB.modality[self.NLU.SemanticFrame.Slots['modality']]
 			
-			price = base_price + Pizza(pizza_type=self.NLU.SemanticFrame.Slots['pizza_type'],
-										crust=self.NLU.SemanticFrame.Slots['crust'],
-										size=self.NLU.SemanticFrame.Slots['size'],
-										toppings=None).calculate_pie_price(self.DB)
+			price = base_price
+			for pizza in self.pizzas:
+				price += pizza.calculate_pie_price(self.DB)
+
+			#price = base_price + Pizza(pizza_type=self.NLU.SemanticFrame.Slots['pizza_type'],
+			#							crust=self.NLU.SemanticFrame.Slots['crust'],
+			#							size=self.NLU.SemanticFrame.Slots['size'],
+			#							toppings=None).calculate_pie_price(self.DB)
+
 			return price
 		except KeyError:
 			print("Either the pizza or the modality is undefined...")
@@ -117,10 +122,18 @@ class FrameDMExtended:
 		self.NLU.parse(inputStr)
 		self.trackState()
 
+		#print("Pizzas grounded: {}".format(self.pizzas))
+		#print(self.NLU.SemanticFrame.Intent)
+		#for s, val in self.NLU.SemanticFrame.Slots.items():
+		#	print(s, val)
+
 		# and decide what to do next
 		newDialogAct = self.selectDialogAct()
 		newDialogAct.change = self.DialogFrame.change
 		newDialogAct.informedLast = self.DialogFrame.informedLast
+
+		#print(newDialogAct.DialogActType)
+		#print(newDialogAct.slot)
 
 		# update semantic frame based on user's request type
 		# this has to happen after the dialog act is selected
@@ -147,11 +160,25 @@ class FrameDMExtended:
 		return response
 
 	def trackState(self):
+		# deny ask for additional pizza
+		if self.lastDialogAct and self.lastDialogAct.slot == "anything_else":
+			if self.NLU.SemanticFrame.Intent == DialogActTypes.DENY:
+				self.NLU.SemanticFrame.Slots['done_ordering'] = True
+			else:
+				self.NLU.SemanticFrame.Slots['ground_pizza'] = False
+
+		# confirm ask for additional pizza
+		if self.NLU.SemanticFrame.Intent == DialogActTypes.CONFIRM and \
+									self.lastDialogAct.slot == "anything_else":
+			#self.NLU.clearPizza()
+			pass
 
 		# confirm pizza
 		if self.NLU.SemanticFrame.Intent == DialogActTypes.CONFIRM and \
 									type(self.lastDialogAct.slot)==tuple \
 									and self.lastDialogAct.slot[0]==0:
+			#print("(tracking state for confirming a pizza)")
+
 			if self.NLU.SemanticFrame.Slots['revise_preferred']:
 				self.DialogFrame.done_with_revision = True
 				self.DB.updatePreferred(self.NLU.SemanticFrame.Slots['name'],
@@ -160,24 +187,34 @@ class FrameDMExtended:
 									self.NLU.SemanticFrame.Slots['size'],
 									self.NLU.SemanticFrame.Slots['toppings'])
 				del self.NLU.SemanticFrame.Slots['revise_preferred']
+
+
 			else:
+				self.pizzas.append(Pizza(
+					self.NLU.SemanticFrame.Slots['pizza_type'],
+					self.NLU.SemanticFrame.Slots['crust'],
+					self.NLU.SemanticFrame.Slots['size'],
+					self.NLU.SemanticFrame.Slots['toppings']))
+				self.NLU.clearPizza()
 				self.NLU.SemanticFrame.Slots['ground_pizza'] = True
-				self.pizzas.append(Pizza())
 
 			# in another version with multiple pizzas working,
 			# this would clear the slots to be filled with pizza selections
-			'''if not self.NLU.SemanticFrame.Slots['done_ordering']:
-				self.NLU.clearPizza()
-			else:
-				self.NLU.SemanticFrame.Slots['pizza_type'] = self.pizzas[-1]['pizza_type']
-				self.NLU.SemanticFrame.Slots['crust'] = self.pizzas[-1]['crust']
-				self.NLU.SemanticFrame.Slots['size'] = self.pizzas[-1]['size']
-				self.NLU.SemanticFrame.Slots['toppings'] = self.pizzas[-1]['toppings']
-				self.NLU.SemanticFrame.Slots['ground_pizza'] = True'''
+			# if not self.NLU.SemanticFrame.Slots['done_ordering']:
+			# 	self.NLU.clearPizza()
+			# else:
+			# 	self.NLU.SemanticFrame.Slots['pizza_type'] = self.pizzas[-1]['pizza_type']
+			# 	self.NLU.SemanticFrame.Slots['crust'] = self.pizzas[-1]['crust']
+			# 	self.NLU.SemanticFrame.Slots['size'] = self.pizzas[-1]['size']
+			# 	self.NLU.SemanticFrame.Slots['toppings'] = self.pizzas[-1]['toppings']
+			# 	self.NLU.SemanticFrame.Slots['ground_pizza'] = True
+
 		# confirm order 
 		if self.NLU.SemanticFrame.Intent == DialogActTypes.CONFIRM and \
 									type(self.lastDialogAct.slot)==tuple \
 									and self.lastDialogAct.slot[0]==1:
+
+			#print("(tracking state for confirming an order)")
 			self.NLU.SemanticFrame.Slots['ground_order'] = True
 			self.cost = self.calculate_price()
 			self.DB.save_new_order(self.NLU.SemanticFrame.Slots,
@@ -185,6 +222,8 @@ class FrameDMExtended:
 
 		# try to update the order with the preferred pizzas
 		if self.NLU.SemanticFrame.Slots['preferred']:
+			#print("(tracking state for updating order to preferred pizza)")
+
 			try:
 				preferred_pizza = self.DB.get_preferred(self.NLU.SemanticFrame.Slots['name'])
 				for attribute in ['size','crust','pizza_type']:
@@ -195,12 +234,15 @@ class FrameDMExtended:
 			self.DialogFrame.change = False
 		
 		if self.NLU.SemanticFrame.Slots['update_modality']:
+			#print("(tracking state for updating modality)")
 			if self.NLU.SemanticFrame.Slots['name']:
 				self.DialogFrame.previousOrder = self.DB.update_modality(self.NLU.SemanticFrame.Slots['name'])
 
 		# if we've just asked to revise the preferred order
 		# we should clear the board of pizza information
 		if self.NLU.SemanticFrame.Slots['need_to_clear']:
+			#print("(tracking state for revising preferred order)")
+
 			self.NLU.SemanticFrame.clearPizza()
 			del self.NLU.SemanticFrame.Slots['need_to_clear']
 
@@ -261,9 +303,9 @@ class FrameDMExtended:
 			else:
 				dialogAct.DialogActType = DialogActTypes.REQUEST
 				dialogAct.slot = 'name'
-		elif self.NLU.SemanticFrame.Intent == DialogActTypes.DENY:
+		elif self.NLU.SemanticFrame.Intent == DialogActTypes.DENY and self.lastDialogAct.slot != "anything_else":
 			dialogAct.DialogActType = DialogActTypes.REQALTS
-			dialogAct.slot = 'wildcard'
+			dialogAct.slot = 'wildcard'	
 
 		# toppings not handled, but have to be ignored to get around counting
 		elif not self.information_added() and self.NLU.SemanticFrame.Intent == DialogActTypes.INFORM:
@@ -303,8 +345,13 @@ class FrameDMExtended:
 		# Pizza grounded, order not grounded
 		elif self.DialogFrame.ground_pizza == True:
 
+			# Not done ordering more pizzas
+			if not self.NLU.SemanticFrame.Slots['done_ordering']:
+				dialogAct.DialogActType = DialogActTypes.REQUEST
+				dialogAct.slot = "anything_else"
+
 			# Get user if needed
-			if not self.NLU.SemanticFrame.Slots['name']:
+			elif not self.NLU.SemanticFrame.Slots['name']:
 				dialogAct.DialogActType = DialogActTypes.REQUEST
 				dialogAct.slot = "name"
 
@@ -322,7 +369,8 @@ class FrameDMExtended:
 			# Ground Order
 			else:
 				dialogAct.DialogActType = DialogActTypes.REQUEST
-				dialogAct.slot = (1,self.NLU.SemanticFrame.Slots)
+				#dialogAct.slot = (1,self.NLU.SemanticFrame.Slots)
+				dialogAct.slot = (1,self.NLU.SemanticFrame.Slots,self.pizzas)
 	
 		# Pizza not yet grounded
 		else:

@@ -4,6 +4,8 @@ class DialogFrameExtended:
 		self.FrameName = "DialogFrameExtended"
 		self.ground_pizza = False
 		self.ground_order = False
+		self.grounded_all_pizza = False
+
 		self.request = None
 		self.order_status = None
 		self.slots_filled = set()

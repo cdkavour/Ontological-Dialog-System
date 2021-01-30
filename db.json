@@ -167,9 +167,65 @@
          "address": "123 Street",
          "status": "processing",
          "cost": 22.0
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "00025",
+         "modality": "pick-up",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 18.0
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "00026",
+         "modality": "pick-up",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 20.0
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "00027",
+         "modality": "pick-up",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 26.5
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "00028",
+         "modality": "pick-up",
+         "address": "123 Ave",
+         "status": "processing",
+         "cost": 24.5
+      },
+      {
+         "name": "mary",
+         "confirmation_number": "00029",
+         "modality": "pick-up",
+         "address": "123 Blvd",
+         "status": "processing",
+         "cost": 42.5
+      },
+      {
+         "name": "paul",
+         "confirmation_number": "00030",
+         "modality": "pick-up",
+         "address": "123 Ave",
+         "status": "processing",
+         "cost": 22.0
+      },
+      {
+         "name": "mary",
+         "confirmation_number": "00031",
+         "modality": "pick-up",
+         "address": "123 Blvd",
+         "status": "processing",
+         "cost": 64.5
       }
    ],
-   "order_idx": 25,
+   "order_idx": 32,
    "toppings": [
       {
          "price": 1.5,

@@ -58,7 +58,9 @@ class NLGForFrame:
 			
 		# REQUEST
 		elif (dialogAct.DialogActType == DialogActTypes.REQUEST):
-			if(dialogAct.slot == "pizza_type"):
+			if(dialogAct.slot == "anything_else"):
+				outstr += "Would you like anything else?"
+			elif(dialogAct.slot == "pizza_type"):
 				outstr += "What kind of pizza would you like?"
 			elif (dialogAct.slot == 'previous_address'):
 				outstr += "What address can I add to that delivery order?"
@@ -79,10 +81,17 @@ class NLGForFrame:
 				outstr += "Address?"
 			elif(type(dialogAct.slot)==tuple and dialogAct.slot[0]==1):
 				slots = dialogAct.slot[1]
+				pizzas = dialogAct.slot[2]
+				num_pizzas = len(pizzas)
+				outstr += "So that is "
+				for i, pizza in enumerate(pizzas):
+					if num_pizzas > 1 and i == num_pizzas-1:
+						outstr += "and "
+					outstr += "a {} {} crust {} pizza, ".format(pizza.size, pizza.crust, pizza.pizza_type)
 				if slots['modality'] == 'pick-up':
-					outstr += "So that is a {} {} crust {} pizza, for {} for pick-up, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'],str.title(slots['name']))
+					outstr += "for {} for pick-up, is that right?".format(str.title(slots['name']))
 				else:
-					outstr += "So that is a {} {} crust {} pizza, for {} for delivery to {}, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'],str.title(slots['name']),str.title(slots['address']))
+					outstr += "for {} for delivery to {}, is that right?".format(str.title(slots['name']),str.title(slots['address']))
 			else:
 				outstr += "Not implemented yet"
 
