@@ -327,9 +327,17 @@
          "address": "123 Street",
          "status": "processing",
          "cost": 23.0
+      },
+      {
+         "name": "paul",
+         "confirmation_number": "00045",
+         "modality": "delivery",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": null
       }
    ],
-   "order_idx": 45,
+   "order_idx": 46,
    "toppings": [
       {
          "price": 1.5,
@@ -403,6 +411,10 @@
       }
    ],
    "defaults": [
+      {
+         "toppings": [],
+         "name": "basic"
+      },
       {
          "toppings": [
             "pineapple",
