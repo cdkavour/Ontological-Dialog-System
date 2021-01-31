@@ -29,7 +29,7 @@ class FSM:
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.GOODBYE,None))
 			elif self.NLU.SemanticFrame.Slots['request']== 'repeat':
 				# repeat the last thing, don't advance the state 
-				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,self.slot_to_fill[self.state]))
+				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,self.slot_to_fill[self.state]))
 			elif self.NLU.SemanticFrame.Slots['request']=='start over':
 				self.state = 1
 				self.NLU.SemanticFrame.Slots = defaultdict(lambda:None)
