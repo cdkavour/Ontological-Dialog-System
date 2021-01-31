@@ -1,6 +1,7 @@
 from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
 import random 
+import pdb
 
 class NLGForFrame:
 	def __init__(self):
@@ -11,6 +12,58 @@ class NLGForFrame:
 								 "Okay.  ",
 								 "Sure thing.  ",
 								 "Alright.  "]
+
+	def get_toppings_str(self, toppings):
+		toppingStr = ""
+		if toppings and len(toppings) > 0:
+			if len(toppings) == 1:
+				toppingStr += "with {}, ".format(toppings[0])
+			else:
+				toppingStr += "with "
+				toppingStr += ", ".join([topping for topping in toppings[:-1]])
+				toppingStr += " and {}, ".format(toppings[-1])
+		return toppingStr
+
+	def ground_pizza(self, dialogAct):
+		try:
+			slots = dialogAct.slot[1]
+		except KeyError:
+			print("Pizza information not properly passed to NLG in dialogAct.")
+
+		outstr = ""
+		toppingStr = ""
+		if slots['toppings']:
+			toppings = list(slots['toppings'])
+			toppingStr = self.get_toppings_str(toppings)
+		outstr += "I have a {} {} crust {} pizza, {}".format(slots['size'],slots['crust'],slots['pizza_type'], toppingStr)
+		outstr += "is that right?"
+		return outstr
+
+	def ground_order(self, dialogAct):
+		try:
+			slots = dialogAct.slot[1]
+			pizzas = dialogAct.slot[2]
+
+		except KeyError:
+			print("Pizza/Order information not properly passed to NLG in dialogAct.")
+
+		num_pizzas = len(pizzas)
+		outstr = ""
+		if dialogAct.DialogActType == DialogActTypes.REQALTS:
+			outstr += "I need you to confirm, do you want "
+		else:
+			outstr += "So that is "
+		for i, pizza in enumerate(pizzas):
+			toppings = list(pizza.toppings)
+			if num_pizzas > 1 and i == num_pizzas-1:
+				outstr += "and "
+			outstr += "a {} {} crust {} pizza ".format(pizza.size, pizza.crust, pizza.pizza_type)
+			outstr += self.get_toppings_str(toppings)
+		if slots['modality'] == 'pick-up':
+			outstr += "for {} for pick-up, is that right?".format(str.title(slots['name']))
+		else:
+			outstr += "for {} for delivery to {}, is that right?".format(str.title(slots['name']),str.title(slots['address']))
+		return outstr
 
 	def generate(self, dialogAct):
 		outstr = ''
@@ -69,8 +122,10 @@ class NLGForFrame:
 			elif(dialogAct.slot == "size"):
 				outstr += "What size?"
 			elif(type(dialogAct.slot) == tuple and dialogAct.slot[0]==0):
-				slots = dialogAct.slot[1]
-				outstr += "I have a {} {} crust {} pizza, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'])
+				outstr += self.ground_pizza(dialogAct)
+
+				# slots = dialogAct.slot[1]
+				# outstr += "I have a {} {} crust {} pizza, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'])
 			elif(dialogAct.slot == "name"):
 				outstr += "Name?"
 			elif(dialogAct.slot == "number"):
@@ -79,19 +134,10 @@ class NLGForFrame:
 				outstr += "Pick up or delivery?"
 			elif(dialogAct.slot == "address"):
 				outstr += "Address?"
+
+			# Ground Full Order of Pizzas
 			elif(type(dialogAct.slot)==tuple and dialogAct.slot[0]==1):
-				slots = dialogAct.slot[1]
-				pizzas = dialogAct.slot[2]
-				num_pizzas = len(pizzas)
-				outstr += "So that is "
-				for i, pizza in enumerate(pizzas):
-					if num_pizzas > 1 and i == num_pizzas-1:
-						outstr += "and "
-					outstr += "a {} {} crust {} pizza, ".format(pizza.size, pizza.crust, pizza.pizza_type)
-				if slots['modality'] == 'pick-up':
-					outstr += "for {} for pick-up, is that right?".format(str.title(slots['name']))
-				else:
-					outstr += "for {} for delivery to {}, is that right?".format(str.title(slots['name']),str.title(slots['address']))
+				outstr += self.ground_order(dialogAct)
 			else:
 				outstr += "Not implemented yet"
 
@@ -108,8 +154,10 @@ class NLGForFrame:
 			elif(dialogAct.slot == "size"):
 				outstr += "What size?"
 			elif(type(dialogAct.slot) == tuple and dialogAct.slot[0]==0):
-				slots = dialogAct.slot[1]
-				outstr += "I have a {} {} crust {} pizza, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'])
+				outstr += self.ground_pizza(dialogAct)
+
+				# slots = dialogAct.slot[1]
+				# outstr += "I have a {} {} crust {} pizza, is that right?".format(slots['size'],slots['crust'],slots['pizza_type'])
 			elif(dialogAct.slot == "name"):
 				outstr += "Name?"
 			elif(dialogAct.slot == "number"):
@@ -118,12 +166,15 @@ class NLGForFrame:
 				outstr += "Pick up or delivery?"
 			elif(dialogAct.slot == "address"):
 				outstr += "Address?"
+
+			# Ground full order of Pizzas
 			elif(type(dialogAct.slot)==tuple):
-				slots = dialogAct.slot[1]
-				if slots['modality']=='pick-up':
-					outstr += "I need you to confirm, do you want a {} {} crust {} pizza, for {} for pick-up?".format(slots['size'],slots['crust'],slots['pizza_type'],slots['name'])
-				else:
-					outstr += "I need you to confirm, do you want a {} {} crust {} pizza, for {} for delivery to {}?".format(slots['size'],slots['crust'],slots['pizza_type'],str.title(slots['name']),str.title(slots['address']))
+				outstr += self.ground_order(dialogAct)
+				# slots = dialogAct.slot[1]
+				# if slots['modality']=='pick-up':
+				# 	outstr += "I need you to confirm, do you want a {} {} crust {} pizza, for {} for pick-up?".format(slots['size'],slots['crust'],slots['pizza_type'],slots['name'])
+				# else:
+				# 	outstr += "I need you to confirm, do you want a {} {} crust {} pizza, for {} for delivery to {}?".format(slots['size'],slots['crust'],slots['pizza_type'],str.title(slots['name']),str.title(slots['address']))
 			else:
 				# they asked to repeat before they had done anything
 				outstr += "What kind of pizza can I add to your order?"

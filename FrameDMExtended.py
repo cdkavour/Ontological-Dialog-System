@@ -276,7 +276,7 @@ class FrameDMExtended:
 								self.NLU.SemanticFrame.Slots['name']:
 			# look it up the in db
 			# for now, just look up their most recent order
-			self.NLU.SemanticFrame.Slots['order_status'] = self.DB.get_order_status(self.NLU.SemanticFrame['name'])
+			self.NLU.SemanticFrame.Slots['order_status'] = self.DB.get_order_status(self.NLU.SemanticFrame.Slots['name'])
 
 	def selectDialogAct(self):
 		dialogAct = DialogAct()
