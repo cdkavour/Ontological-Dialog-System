@@ -13,10 +13,12 @@ class NLUForFrame:
         self.SemanticFrame.Slots['size'] = None
         self.SemanticFrame.Slots['crust'] = None
         self.SemanticFrame.Slots['toppings'] = None
+        self.SemanticFrame.Slots['no toppings'] = None
         self.SemanticFrame.Slots['ground_pizza'] = None
 
     def setDB(self,db):
         self.pizza_types_re = self._get_defaults_check(db)
+        self.negated_toppings_re = self._get_negated_toppings_check(db)
         self.toppings_re = self._get_toppings_check(db)
         self.crusts_re, self.sizes_re = self._get_crusts_and_sizes_check(db)
         self.users_re = self._get_users_check(db)
@@ -26,7 +28,9 @@ class NLUForFrame:
     def _get_defaults_check(self,db):
         return re.compile(r'|'.join(set(db.defaults.name)))
     def _get_toppings_check(self,db):
-        return re.compile(r'|'.join(set(db.toppings.name)))
+        return re.compile('(?<!no )({})'.format('|'.join(set(db.toppings.name))))
+    def _get_negated_toppings_check(self,db):
+        return re.compile('no ({})'.format('|'.join(set(db.toppings.name))))
     def _get_crusts_and_sizes_check(self,db):
         return re.compile(r'|'.join(set(db.crusts.name))),re.compile(r'|'.join(set(db.crusts['size'])))
 
@@ -63,8 +67,18 @@ class NLUForFrame:
         if pizza_types_match:
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots['pizza_type'] = pizza_types_match[0]
+        elif ("pizza" in inputStr):
+            self.SemanticFrame.Intent = DialogActTypes.INFORM
+            self.SemanticFrame.Slots['pizza_type'] = "basic"
 
         # Toppings
+        negated_toppings_match = re.findall(self.negated_toppings_re,inputStr)
+        if len(negated_toppings_match) > 0:
+            if self.SemanticFrame.Slots['no toppings']:
+                self.SemanticFrame.Slots['no toppings'] = self.SemanticFrame.Slots['no toppings'].union(negated_toppings_match)
+            else:
+                self.SemanticFrame.Slots['no toppings'] = set(negated_toppings_match)
+                self.SemanticFrame.Intent = DialogActTypes.INFORM
         toppings_match = re.findall(self.toppings_re,inputStr)
         if len(toppings_match) > 0:
             if self.SemanticFrame.Slots['toppings']:
@@ -110,7 +124,6 @@ class NLUForFrame:
         # address 
         address_match = re.search(r"([0-9]+ [0-9A-z#\.\- ]{1,}[A-z]+[0-9A-z#\.\- ]+)",inputStr)
         if (address_match and not address_match[0]=='4 cheese'):
-            import pdb;pdb.set_trace()
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["address"] = address_match[0]
         
@@ -130,7 +143,7 @@ class NLUForFrame:
         elif ("yes" in inputStr):
             self.SemanticFrame.Intent = DialogActTypes.CONFIRM
         # DENY
-        elif ("no" in inputStr):
+        elif ("no" in inputStr and len(negated_toppings_match)==0):
             self.SemanticFrame.Intent = DialogActTypes.DENY
         
         # REQUEST

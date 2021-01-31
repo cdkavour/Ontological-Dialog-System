@@ -21,6 +21,7 @@ data['users'] = [
                    'toppings':['green peppers','red onions','mushrooms','black olives']
                     }}]
 data['defaults'] = [
+    {'name':'basic', 'toppings':[]},
     {'name':'hawaiian', 'toppings':['pineapple','ham','mozzarella']},
     {'name':'meat lovers', 'toppings':['mozzarella','pepperoni','ham','bacon','sausage']},
     {'name':'4 cheese', 'toppings':['mozzarella','cheddar','swiss','provolone']},

@@ -1,466 +1,278 @@
 {
    "users": [
       {
-         "address": "123 Street",
          "name": "peter",
+         "number": "123-456-7890",
+         "address": "123 Street",
          "preferred": {
+            "pizza_type": "4 cheese",
+            "crust": "regular",
+            "size": "medium",
             "toppings": [
                "mozzarella",
                "cheddar",
                "swiss",
                "provelone"
-            ],
-            "pizza_type": "4 cheese",
-            "crust": "regular",
-            "size": "medium"
-         },
-         "number": "123-456-7890"
+            ]
+         }
       },
       {
-         "address": "123 Ave",
          "name": "paul",
+         "number": "123-567-8904",
+         "address": "123 Ave",
          "preferred": {
+            "pizza_type": "pepperoni",
+            "crust": "gluten-free",
+            "size": "large",
             "toppings": [
                "mozzarella",
                "pepperoni"
-            ],
-            "pizza_type": "pepperoni",
-            "crust": "gluten-free",
-            "size": "large"
-         },
-         "number": "123-567-8904"
+            ]
+         }
       },
       {
-         "address": "123 Blvd",
          "name": "mary",
+         "number": "123-678-9045",
+         "address": "123 Blvd",
          "preferred": {
+            "pizza_type": "vegan",
+            "crust": "thin",
+            "size": "small",
             "toppings": [
                "green peppers",
                "red onions",
                "mushrooms",
                "black olives"
-            ],
-            "pizza_type": "vegan",
-            "crust": "thin",
-            "size": "small"
-         },
-         "number": "123-678-9045"
-      }
-   ],
-   "crusts": [
-      {
-         "price": 10,
-         "name": "thin",
-         "size": "small"
-      },
-      {
-         "price": 12,
-         "name": "thin",
-         "size": "medium"
-      },
-      {
-         "price": 14,
-         "name": "thin",
-         "size": "large"
-      },
-      {
-         "price": 10,
-         "name": "regular",
-         "size": "small"
-      },
-      {
-         "price": 12,
-         "name": "regular",
-         "size": "medium"
-      },
-      {
-         "price": 14,
-         "name": "regular",
-         "size": "large"
-      },
-      {
-         "price": 12,
-         "name": "deep dish",
-         "size": "small"
-      },
-      {
-         "price": 14,
-         "name": "deep dish",
-         "size": "medium"
-      },
-      {
-         "price": 16,
-         "name": "deep dish",
-         "size": "large"
-      },
-      {
-         "price": 15,
-         "name": "gluten-free",
-         "size": "small"
-      },
-      {
-         "price": 18,
-         "name": "gluten-free",
-         "size": "medium"
-      },
-      {
-         "price": 21,
-         "name": "gluten-free",
-         "size": "large"
-      }
-   ],
-   "open_orders": [
-      {
-         "status": "cancelled",
-         "confirmation_number": "00001",
-         "name": "peter",
-         "modality": "pick-up"
-      },
-      {
-         "status": "baking",
-         "confirmation_number": "00002",
-         "name": "peter",
-         "modality": "pick-up"
-      },
-      {
-         "status": "ready",
-         "confirmation_number": "00003",
-         "name": "paul",
-         "modality": "delivery"
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "00020",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 18.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "00021",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 21.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "00022",
-         "modality": "delivery",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 23.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "0000023",
-         "modality": "delivery",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 21.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "0000024",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 22.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "00025",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 18.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "00026",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 20.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "00027",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 26.5
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "00028",
-         "modality": "pick-up",
-         "address": "123 Ave",
-         "status": "processing",
-         "cost": 24.5
-      },
-      {
-         "name": "mary",
-         "confirmation_number": "00029",
-         "modality": "pick-up",
-         "address": "123 Blvd",
-         "status": "processing",
-         "cost": 42.5
-      },
-      {
-         "name": "paul",
-         "confirmation_number": "00030",
-         "modality": "pick-up",
-         "address": "123 Ave",
-         "status": "processing",
-         "cost": 22.0
-      },
-      {
-         "name": "mary",
-         "confirmation_number": "00031",
-         "modality": "pick-up",
-         "address": "123 Blvd",
-         "status": "processing",
-         "cost": 64.5
-      },
-      {
-         "name": "mary",
-         "confirmation_number": "00032",
-         "modality": "pick-up",
-         "address": "123 Blvd",
-         "status": "processing",
-         "cost": 19.5
-      },
-      {
-         "name": "mary",
-         "confirmation_number": "00033",
-         "modality": "pick-up",
-         "address": "123 Blvd",
-         "status": "processing",
-         "cost": 18.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "00034",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 46.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "00035",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 39.5
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "00036",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 48.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "00037",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 48.0
-      },
-      {
-         "name": "paul",
-         "confirmation_number": "00038",
-         "modality": "pick-up",
-         "address": "123 Ave",
-         "status": "processing",
-         "cost": 28.0
-      },
-      {
-         "name": "paul",
-         "confirmation_number": "00039",
-         "modality": "pick-up",
-         "address": "123 Ave",
-         "status": "processing",
-         "cost": 48.0
-      },
-      {
-         "name": "paul",
-         "confirmation_number": "00040",
-         "modality": "pick-up",
-         "address": "123 Ave",
-         "status": "processing",
-         "cost": 23.5
-      },
-      {
-         "name": "paul",
-         "confirmation_number": "00041",
-         "modality": "pick-up",
-         "address": "123 Ave",
-         "status": "processing",
-         "cost": 23.5
-      },
-      {
-         "name": "paul",
-         "confirmation_number": "00042",
-         "modality": "pick-up",
-         "address": "123 Ave",
-         "status": "processing",
-         "cost": 31.5
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "0000043",
-         "modality": "pick-up",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 20.0
-      },
-      {
-         "name": "peter",
-         "confirmation_number": "0000044",
-         "modality": "delivery",
-         "address": "123 Street",
-         "status": "processing",
-         "cost": 23.0
-      }
-   ],
-   "order_idx": 45,
-   "toppings": [
-      {
-         "price": 1.5,
-         "type": "cheese",
-         "name": "mozzarella"
-      },
-      {
-         "price": 1.5,
-         "type": "cheese",
-         "name": "cheddar"
-      },
-      {
-         "price": 1.5,
-         "type": "cheese",
-         "name": "swiss"
-      },
-      {
-         "price": 1.5,
-         "type": "cheese",
-         "name": "provelone"
-      },
-      {
-         "price": 2,
-         "type": "veggie",
-         "name": "pineapple"
-      },
-      {
-         "price": 2,
-         "type": "veggie",
-         "name": "green peppers"
-      },
-      {
-         "price": 2,
-         "type": "veggie",
-         "name": "pineapple"
-      },
-      {
-         "price": 2,
-         "type": "veggie",
-         "name": "red onions"
-      },
-      {
-         "price": 2,
-         "type": "veggie",
-         "name": "mushrooms"
-      },
-      {
-         "price": 2,
-         "type": "veggie",
-         "name": "black olives"
-      },
-      {
-         "price": 2.5,
-         "type": "meat",
-         "name": "pepperoni"
-      },
-      {
-         "price": 2.5,
-         "type": "meat",
-         "name": "ham"
-      },
-      {
-         "price": 3,
-         "type": "meat",
-         "name": "bacon"
-      },
-      {
-         "price": 3,
-         "type": "meat",
-         "name": "sausage"
+            ]
+         }
       }
    ],
    "defaults": [
       {
+         "name": "basic",
+         "toppings": []
+      },
+      {
+         "name": "hawaiian",
          "toppings": [
             "pineapple",
             "ham",
             "mozzarella"
-         ],
-         "name": "hawaiian"
+         ]
       },
       {
+         "name": "meat lovers",
          "toppings": [
             "mozzarella",
             "pepperoni",
             "ham",
             "bacon",
             "sausage"
-         ],
-         "name": "meat lovers"
+         ]
       },
       {
+         "name": "4 cheese",
          "toppings": [
             "mozzarella",
             "cheddar",
             "swiss",
             "provolone"
-         ],
-         "name": "4 cheese"
+         ]
       },
       {
+         "name": "pepperoni",
          "toppings": [
             "mozzarella",
             "pepperoni"
-         ],
-         "name": "pepperoni"
+         ]
       },
       {
+         "name": "veggie supreme",
          "toppings": [
             "mozzarella",
             "green peppers",
             "red onions",
             "mushrooms",
             "black olives"
-         ],
-         "name": "veggie supreme"
+         ]
       },
       {
+         "name": "vegan",
          "toppings": [
             "green peppers",
             "red onions",
             "mushrooms",
             "black olives"
-         ],
-         "name": "vegan"
+         ]
+      }
+   ],
+   "toppings": [
+      {
+         "name": "mozzarella",
+         "type": "cheese",
+         "price": 1.5
+      },
+      {
+         "name": "cheddar",
+         "type": "cheese",
+         "price": 1.5
+      },
+      {
+         "name": "swiss",
+         "type": "cheese",
+         "price": 1.5
+      },
+      {
+         "name": "provelone",
+         "type": "cheese",
+         "price": 1.5
+      },
+      {
+         "name": "pineapple",
+         "type": "veggie",
+         "price": 2
+      },
+      {
+         "name": "green peppers",
+         "type": "veggie",
+         "price": 2
+      },
+      {
+         "name": "pineapple",
+         "type": "veggie",
+         "price": 2
+      },
+      {
+         "name": "red onions",
+         "type": "veggie",
+         "price": 2
+      },
+      {
+         "name": "mushrooms",
+         "type": "veggie",
+         "price": 2
+      },
+      {
+         "name": "black olives",
+         "type": "veggie",
+         "price": 2
+      },
+      {
+         "name": "pepperoni",
+         "type": "meat",
+         "price": 2.5
+      },
+      {
+         "name": "ham",
+         "type": "meat",
+         "price": 2.5
+      },
+      {
+         "name": "bacon",
+         "type": "meat",
+         "price": 3
+      },
+      {
+         "name": "sausage",
+         "type": "meat",
+         "price": 3
+      }
+   ],
+   "crusts": [
+      {
+         "name": "thin",
+         "size": "small",
+         "price": 10
+      },
+      {
+         "name": "thin",
+         "size": "medium",
+         "price": 12
+      },
+      {
+         "name": "thin",
+         "size": "large",
+         "price": 14
+      },
+      {
+         "name": "regular",
+         "size": "small",
+         "price": 10
+      },
+      {
+         "name": "regular",
+         "size": "medium",
+         "price": 12
+      },
+      {
+         "name": "regular",
+         "size": "large",
+         "price": 14
+      },
+      {
+         "name": "deep dish",
+         "size": "small",
+         "price": 12
+      },
+      {
+         "name": "deep dish",
+         "size": "medium",
+         "price": 14
+      },
+      {
+         "name": "deep dish",
+         "size": "large",
+         "price": 16
+      },
+      {
+         "name": "gluten-free",
+         "size": "small",
+         "price": 15
+      },
+      {
+         "name": "gluten-free",
+         "size": "medium",
+         "price": 18
+      },
+      {
+         "name": "gluten-free",
+         "size": "large",
+         "price": 21
+      }
+   ],
+   "open_orders": [
+      {
+         "name": "peter",
+         "confirmation_number": "00001",
+         "modality": "pick-up",
+         "status": "cancelled"
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "00002",
+         "modality": "pick-up",
+         "status": "baking"
+      },
+      {
+         "name": "paul",
+         "confirmation_number": "00003",
+         "modality": "delivery",
+         "status": "ready"
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "00004",
+         "modality": "delivery",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 19.0
       }
    ],
    "modality": [
       {
-         "delivery": 3,
-         "pick-up": 0
+         "pick-up": 0,
+         "delivery": 3
       }
-   ]
+   ],
+   "order_idx": 5
 }

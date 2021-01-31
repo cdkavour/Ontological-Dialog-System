@@ -16,6 +16,7 @@ class NLGForFrame:
 	def get_toppings_str(self, toppings):
 		toppingStr = ""
 		if toppings and len(toppings) > 0:
+			toppings = list(toppings)
 			if len(toppings) == 1:
 				toppingStr += "with {}, ".format(toppings[0])
 			else:
@@ -26,16 +27,16 @@ class NLGForFrame:
 
 	def ground_pizza(self, dialogAct):
 		try:
-			slots = dialogAct.slot[1]
+			pizza = dialogAct.slot[1]
 		except KeyError:
 			print("Pizza information not properly passed to NLG in dialogAct.")
-
+		pdb.set_trace()
 		outstr = ""
 		toppingStr = ""
-		if slots['toppings']:
-			toppings = list(slots['toppings'])
-			toppingStr = self.get_toppings_str(toppings)
-		outstr += "I have a {} {} crust {} pizza, {}".format(slots['size'],slots['crust'],slots['pizza_type'], toppingStr)
+		# if slots['toppings']:
+		# 	toppings = list(slots['toppings'])
+		toppingStr = self.get_toppings_str(pizza.print_toppings)
+		outstr += "I have a {} {} crust {} pizza, {}".format(pizza.size,pizza.crust,pizza.pizza_type, toppingStr)
 		outstr += "is that right?"
 		return outstr
 

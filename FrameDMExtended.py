@@ -2,25 +2,32 @@ from DialogFrameExtended import DialogFrameExtended
 from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
 from collections import defaultdict
-import math,random,json,pandas as pd,pdb
-
+import math,random,json,pandas as pd
 class Pizza:
-	def __init__(self,pizza_type=None,crust=None,size=None,toppings=None):
+	def __init__(self,pizza_type=None,crust=None,size=None,toppings=None,no_toppings=None):
 		self.pizza_type = pizza_type
 		self.crust = crust
 		self.size = size
 		self.toppings = toppings if toppings else set()
+		self.no_toppings = no_toppings if no_toppings else set()
 		self.price = None
 
 	def populate_toppings(self):
-		if self.pizza_type:
+		if not self.pizza_type == 'basic':
 			toppings_map = {'hawaiian': {'pineapple','ham','mozzarella'},
 						'meat lovers':{'mozzarella','pepperoni','ham','bacon','sausage'},
 						'4 cheese':{'mozzarella','cheddar','swiss','provelone'},
 						'pepperoni':{'mozzarella','pepperoni'},
 						'veggie supreme':{'mozzarella','green peppers','red onions','mushrooms','black olives'},
 						'vegan':{'green peppers','red onions','mushrooms','black olives'}}
-			self.toppings = self.toppings.union(toppings_map[self.pizza_type])
+			self.toppings = self.toppings.union(toppings_map[self.pizza_type])		
+			self.toppings = self.toppings - self.no_toppings
+			# don't include toppings that are a part of the regular specialty
+			self.print_toppings = self.toppings.union('no {}'.format(topping) for topping in self.no_toppings) - toppings_map[self.pizza_type]
+		else:
+			self.pizza_type = 'basic'
+			self.toppings = self.toppings - self.no_toppings
+			self.print_toppings = self.toppings
 
 	def calculate_pie_price(self,DB):
 		# compute price based on specialty, size, and crust
@@ -72,10 +79,10 @@ class DB:
 		self.data['open_orders'].append(to_modify)
 		return (to_modify['confirmation_number'],to_modify['modality'])	
 
-	def updatePreferred(self,name,pizza_type,crust,size,toppings):
+	def updatePreferred(self,name,pizza_type,crust,size,toppings,no_toppings):
 		users_order = [i for i,user in enumerate(self.data['users']) if user['name']==name][-1]
 		to_modify = self.data['users'].pop(users_order)
-		new_preferred = Pizza(pizza_type=pizza_type,crust=crust,size=size,toppings=toppings)
+		new_preferred = Pizza(pizza_type=pizza_type,crust=crust,size=size,toppings=toppings,no_toppings=no_toppings)
 		new_preferred.populate_toppings()
 		to_modify['preferred'] = {'pizza_type':new_preferred.pizza_type,
 								  'crust':new_preferred.crust,
@@ -122,18 +129,10 @@ class FrameDMExtended:
 		self.NLU.parse(inputStr)
 		self.trackState()
 
-		#print("Pizzas grounded: {}".format(self.pizzas))
-		#print(self.NLU.SemanticFrame.Intent)
-		#for s, val in self.NLU.SemanticFrame.Slots.items():
-		#	print(s, val)
-
 		# and decide what to do next
 		newDialogAct = self.selectDialogAct()
 		newDialogAct.change = self.DialogFrame.change
 		newDialogAct.informedLast = self.DialogFrame.informedLast
-
-		#print(newDialogAct.DialogActType)
-		#print(newDialogAct.slot)
 
 		# update semantic frame based on user's request type
 		# this has to happen after the dialog act is selected
@@ -168,16 +167,18 @@ class FrameDMExtended:
 				self.NLU.SemanticFrame.Slots['ground_pizza'] = False
 
 		# confirm ask for additional pizza
-		if self.NLU.SemanticFrame.Intent == DialogActTypes.CONFIRM and \
-									self.lastDialogAct.slot == "anything_else":
-			#self.NLU.clearPizza()
-			pass
+		# if self.NLU.SemanticFrame.Intent == DialogActTypes.CONFIRM and \
+		# 							self.lastDialogAct.slot == "anything_else":
+		# 	# self.NLU.clearPizza()
+		# 	pass
+
+		if not self.NLU.SemanticFrame.Slots['pizza_type'] and (self.NLU.SemanticFrame.Slots['toppings']):
+			self.NLU.SemanticFrame.Slots['pizza_type'] = 'basic'
 
 		# confirm pizza
 		if self.NLU.SemanticFrame.Intent == DialogActTypes.CONFIRM and \
 									type(self.lastDialogAct.slot)==tuple \
 									and self.lastDialogAct.slot[0]==0:
-			#print("(tracking state for confirming a pizza)")
 
 			if self.NLU.SemanticFrame.Slots['revise_preferred']:
 				self.DialogFrame.done_with_revision = True
@@ -194,20 +195,10 @@ class FrameDMExtended:
 					self.NLU.SemanticFrame.Slots['pizza_type'],
 					self.NLU.SemanticFrame.Slots['crust'],
 					self.NLU.SemanticFrame.Slots['size'],
-					self.NLU.SemanticFrame.Slots['toppings']))
+					self.NLU.SemanticFrame.Slots['toppings'],
+					self.NLU.SemanticFrame.Slots['no toppings']))
 				self.NLU.clearPizza()
 				self.NLU.SemanticFrame.Slots['ground_pizza'] = True
-
-			# in another version with multiple pizzas working,
-			# this would clear the slots to be filled with pizza selections
-			# if not self.NLU.SemanticFrame.Slots['done_ordering']:
-			# 	self.NLU.clearPizza()
-			# else:
-			# 	self.NLU.SemanticFrame.Slots['pizza_type'] = self.pizzas[-1]['pizza_type']
-			# 	self.NLU.SemanticFrame.Slots['crust'] = self.pizzas[-1]['crust']
-			# 	self.NLU.SemanticFrame.Slots['size'] = self.pizzas[-1]['size']
-			# 	self.NLU.SemanticFrame.Slots['toppings'] = self.pizzas[-1]['toppings']
-			# 	self.NLU.SemanticFrame.Slots['ground_pizza'] = True
 
 		# confirm order 
 		if self.NLU.SemanticFrame.Intent == DialogActTypes.CONFIRM and \
@@ -222,8 +213,6 @@ class FrameDMExtended:
 
 		# try to update the order with the preferred pizzas
 		if self.NLU.SemanticFrame.Slots['preferred']:
-			#print("(tracking state for updating order to preferred pizza)")
-
 			try:
 				preferred_pizza = self.DB.get_preferred(self.NLU.SemanticFrame.Slots['name'])
 				for attribute in ['size','crust','pizza_type']:
@@ -234,14 +223,12 @@ class FrameDMExtended:
 			self.DialogFrame.change = False
 		
 		if self.NLU.SemanticFrame.Slots['update_modality']:
-			#print("(tracking state for updating modality)")
 			if self.NLU.SemanticFrame.Slots['name']:
 				self.DialogFrame.previousOrder = self.DB.update_modality(self.NLU.SemanticFrame.Slots['name'])
 
 		# if we've just asked to revise the preferred order
 		# we should clear the board of pizza information
 		if self.NLU.SemanticFrame.Slots['need_to_clear']:
-			#print("(tracking state for revising preferred order)")
 
 			self.NLU.SemanticFrame.clearPizza()
 			del self.NLU.SemanticFrame.Slots['need_to_clear']
@@ -275,7 +262,7 @@ class FrameDMExtended:
 		if self.NLU.SemanticFrame.Slots['request'] == 'status' and \
 								self.NLU.SemanticFrame.Slots['name']:
 			# look it up the in db
-			# for now, just look up their most recent order
+			# just look up their most recent order
 			self.NLU.SemanticFrame.Slots['order_status'] = self.DB.get_order_status(self.NLU.SemanticFrame.Slots['name'])
 
 	def selectDialogAct(self):
@@ -307,7 +294,7 @@ class FrameDMExtended:
 			dialogAct.DialogActType = DialogActTypes.REQALTS
 			dialogAct.slot = 'wildcard'	
 
-		# toppings not handled, but have to be ignored to get around counting
+		# if non-optional (non-toppings) information not added, we should revise
 		elif not self.information_added() and self.NLU.SemanticFrame.Intent == DialogActTypes.INFORM:
 			# we need to reqalts
 			dialogAct.DialogActType = DialogActTypes.REQALTS
@@ -336,7 +323,7 @@ class FrameDMExtended:
 			dialogAct.slot = 'revise_preferred'
 			self.DialogFrame.done_with_revision = False
 
-		# Order has been grounded; return goodbye diolog act
+		# Order has been grounded; return goodbye dialog act
 		elif self.DialogFrame.ground_order == True:
 			dialogAct.DialogActType = DialogActTypes.GOODBYE
 			dialogAct.complete = True
@@ -374,15 +361,6 @@ class FrameDMExtended:
 	
 		# Pizza not yet grounded
 		else:
-			# TODO if there are pizzas in the list
-			# but we have no pizza detail in the slots
-			# ask if they want another pizza
-			# if yes:
-				# follow below
-			# if no:
-				# ground_pizza = True
-				# don' tfollow below
-
 			# Get pizza type if needed
 			if not self.NLU.SemanticFrame.Slots['pizza_type']:
 				dialogAct.DialogActType = DialogActTypes.REQUEST
@@ -401,7 +379,14 @@ class FrameDMExtended:
 			# Ground Pizza
 			else:
 				dialogAct.DialogActType = DialogActTypes.REQUEST
-				dialogAct.slot = (0,self.NLU.SemanticFrame.Slots)
+				# create a temporary pizza from the slots so that we can update the toppings
+				temporary_pizza = Pizza(pizza_type=self.NLU.SemanticFrame.Slots['pizza_type'],
+										crust=self.NLU.SemanticFrame.Slots['crust'],
+										size=self.NLU.SemanticFrame.Slots['size'],
+										toppings=self.NLU.SemanticFrame.Slots['toppings'],
+										no_toppings=self.NLU.SemanticFrame.Slots['no toppings'])
+				temporary_pizza.populate_toppings()
+				dialogAct.slot = (0,temporary_pizza)
 
 		self.lastDialogAct = dialogAct
 		return dialogAct
