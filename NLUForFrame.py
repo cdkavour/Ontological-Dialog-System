@@ -109,7 +109,8 @@ class NLUForFrame:
         
         # address 
         address_match = re.search(r"([0-9]+ [0-9A-z#\.\- ]{1,}[A-z]+[0-9A-z#\.\- ]+)",inputStr)
-        if (address_match):
+        if (address_match and not address_match[0]=='4 cheese'):
+            import pdb;pdb.set_trace()
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots["address"] = address_match[0]
         
