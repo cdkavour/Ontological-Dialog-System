@@ -266,6 +266,22 @@
          "address": "123 Street",
          "status": "processing",
          "cost": 16.0
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "0000005",
+         "modality": "delivery",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 23.0
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "0000006",
+         "modality": "delivery",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 21.0
       }
    ],
    "modality": [
@@ -274,5 +290,5 @@
          "delivery": 3
       }
    ],
-   "order_idx": 5
+   "order_idx": 7
 }

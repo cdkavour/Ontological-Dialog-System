@@ -66,9 +66,6 @@ class NLUForFrame:
         if pizza_types_match:
             self.SemanticFrame.Intent = DialogActTypes.INFORM
             self.SemanticFrame.Slots['pizza_type'] = pizza_types_match[0]
-        elif ("pizza" in inputStr):
-            self.SemanticFrame.Intent = DialogActTypes.INFORM
-            self.SemanticFrame.Slots['pizza_type'] = "basic"
 
         # Toppings
         negated_toppings_match = re.findall(self.negated_toppings_re,inputStr)

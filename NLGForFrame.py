@@ -29,7 +29,6 @@ class NLGForFrame:
 	def ground_pizza(self, dialogAct):
 		outstr = ""
 		toppingStr = ""
-		import pdb;pdb.set_trace()
 		if type(dialogAct.slot[1])==defaultdict:
 			# simple frame, passed in a dict
 			try:
@@ -54,7 +53,7 @@ class NLGForFrame:
 
 		except KeyError:
 			print("Pizza/Order information not properly passed to NLG in dialogAct.")
-
+		import pdb;pdb.set_trace()
 		num_pizzas = len(pizzas)
 		outstr = ""
 		if dialogAct.DialogActType == DialogActTypes.REQALTS:

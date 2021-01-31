@@ -246,7 +246,7 @@ class FrameDMSimple:
 			else:
 				dialogAct.DialogActType = DialogActTypes.REQUEST
 				pizzas = [Pizza(
-							self.NLU.SemanticFrame.Slots["type"],
+							self.NLU.SemanticFrame.Slots["pizza_type"],
 							self.NLU.SemanticFrame.Slots["crust"],
 							self.NLU.SemanticFrame.Slots["size"],
 							self.NLU.SemanticFrame.Slots["toppings"]
