@@ -20,28 +20,28 @@ class FSM:
 		self.universals = universals
 
 	def execute(self, inputStr):
-		nlu_output = self.NLU.parse(inputStr)
-		if self.universals and nlu_output.Intent == DialogActTypes(5):
+		self.NLU.SemanticFrame = self.NLU.parse(inputStr)
+		if self.NLU.SemanticFrame.Intent == DialogActTypes(5):
 			# cancel repeat or start over
-			if nlu_output.Slots['request'] == 'cancel':
+			if self.NLU.SemanticFrame.Slots['request'] == 'cancel':
 				# just leave
 				self.state = 9
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.GOODBYE,None))
-			elif nlu_output.Slots['request']== 'repeat':
+			elif self.NLU.SemanticFrame.Slots['request']== 'repeat':
 				# repeat the last thing, don't advance the state 
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,self.slot_to_fill[self.state]))
-			elif nlu_output.Slots['request']=='start_over':
+			elif self.NLU.SemanticFrame.Slots['request']=='start over':
 				self.state = 1
-				self.NLU.Slots = defaultdict(lambda:None)
-				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,'pizza_type'))
+				self.NLU.SemanticFrame.Slots = defaultdict(lambda:None)
+				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,'pizza_type'))
 		elif self.state == 0:
 			self.state +=1
 			outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,self.slot_to_fill[self.state]))
 		elif self.state == 3 or self.state == 8:
-			if nlu_output.Intent == DialogActTypes(4):
-				if nlu_output.Slots[self.slot_to_fill[self.state]]:
+			if self.NLU.SemanticFrame.Intent == DialogActTypes(4):
+				if self.NLU.SemanticFrame.Slots[self.slot_to_fill[self.state]]:
 					self.state += 1
-					outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,(1*(self.state-9)//5+1,nlu_output.Slots)))
+					outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,(1*(self.state-9)//5+1,self.NLU.SemanticFrame.Slots)))
 				else:
 					# the slot did not get filled, try again
 					outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,self.slot_to_fill[self.state]))
@@ -52,25 +52,25 @@ class FSM:
 
 		elif self.state == 4:
 			# ground
-			if nlu_output.Intent == DialogActTypes(7):
+			if self.NLU.SemanticFrame.Intent == DialogActTypes(7):
 				# we got right, proceed
 				self.state +=1
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,self.slot_to_fill[self.state]))
-			elif nlu_output.Intent == DialogActTypes(8):
+			elif self.NLU.SemanticFrame.Intent == DialogActTypes(8):
 				# we got wrong, just start over
 				self.state = 1
 				self.NLU.Slots = defaultdict(lambda:None)
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,'pizza_type'))
 			else:
 				# we got an unexpected answer, try again
-				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,(0,nlu_output.Slots)))
+				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,(0,self.NLU.SemanticFrame.Slots)))
 		elif self.state == 9:
 			# ground
-			if nlu_output.Intent == DialogActTypes(7):
+			if self.NLU.SemanticFrame.Intent == DialogActTypes(7):
 				# we got right, proceed
 				self.state +=1
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.GOODBYE,None))
-			elif nlu_output.Intent == DialogActTypes(8):
+			elif self.NLU.SemanticFrame.Intent == DialogActTypes(8):
 				# we got wrong
 				# if we got here, assume the pizza was right
 				# so go back to state 5 which is the first thing
@@ -78,25 +78,23 @@ class FSM:
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,'name'))
 			else:
 				# we got an unexpected answer, try again
-				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,(1,nlu_output.Slots)))
+				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,(1,self.NLU.SemanticFrame.Slots)))
 		else: # the "normal states"
 			# they provide the right information
-			if nlu_output.Intent == DialogActTypes(4):
-				relevant_slot = nlu_output.Slots[self.slot_to_fill[self.state]]
+			if self.NLU.SemanticFrame.Intent == DialogActTypes(4):
+				relevant_slot = self.NLU.SemanticFrame.Slots[self.slot_to_fill[self.state]]
 				if relevant_slot:		
 					self.state += 1
 					if relevant_slot == 'pick-up':
 						self.state +=1
-						outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,(1,nlu_output.Slots)))
+						outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,(1,self.NLU.SemanticFrame.Slots)))
 					else:
 						outstr = self.NLG.generate(DialogAct(DialogActTypes.REQUEST,self.slot_to_fill[self.state]))
 				else:
 					# the slot did not get filled, try again
-					print("state: ", self.state)
 					outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,self.slot_to_fill[self.state]))
 
 			# otherwise I don't know what to do
 			else:
-				print("state " + str(self.state) + " Intent " + str(nlu_output.Intent))
 				outstr = self.NLG.generate(DialogAct(DialogActTypes.REQALTS,self.slot_to_fill[self.state]))
 		return outstr
