@@ -258,6 +258,14 @@
          "confirmation_number": "00003",
          "modality": "delivery",
          "status": "ready"
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "00004",
+         "modality": "pick-up",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 16.0
       }
    ],
    "modality": [
@@ -266,5 +274,5 @@
          "delivery": 3
       }
    ],
-   "order_idx": 4
+   "order_idx": 5
 }

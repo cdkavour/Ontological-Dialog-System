@@ -34,7 +34,7 @@ def main():
     # the frame system should use its own NLx system
     if system == "FrameSimple" or system == "FrameExtended":
         NLU = 'NLUForFrame'
-        NLG = 'NLGForFrames'
+        NLG = 'NLGForFrame'
         NLUModule = NLUForFrame()
         NLGModule = NLGForFrame()
 
