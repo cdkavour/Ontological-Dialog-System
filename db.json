@@ -311,9 +311,25 @@
          "address": "123 Ave",
          "status": "processing",
          "cost": 31.5
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "0000043",
+         "modality": "pick-up",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 20.0
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "0000044",
+         "modality": "delivery",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 23.0
       }
    ],
-   "order_idx": 43,
+   "order_idx": 45,
    "toppings": [
       {
          "price": 1.5,

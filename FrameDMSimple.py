@@ -5,22 +5,22 @@ from collections import defaultdict
 import math,random,json,pandas as pd
 
 class Pizza:
-	def __init__(self,specialty_type=None,crust=None,size=None,toppings=None):
-		self.type = specialty_type
+	def __init__(self,pizza_type=None,crust=None,size=None,toppings=None):
+		self.pizza_type = pizza_type
 		self.crust = crust
 		self.size = size
 		self.toppings = toppings if toppings else set()
 		self.price = None
 
 	def _populate_toppings(self):
-		if self.type:
+		if self.pizza_type:
 			toppings_map = {'hawaiian': {'pineapple','ham','mozzarella'},
 						'meat lovers':{'mozzarella','pepperoni','ham','bacon','sausage'},
 						'4 cheese':{'mozzarella','cheddar','swiss','provelone'},
 						'pepperoni':{'mozzarella','pepperoni'},
 						'veggie supreme':{'mozzarella','green peppers','red onions','mushrooms','black olives'},
 						'vegan':{'green peppers','red onions','mushrooms','black olives'}}
-			self.toppings = self.toppings.union(toppings_map[self.type])
+			self.toppings = self.toppings.union(toppings_map[self.pizza_type])
 
 	def calculate_pie_price(self,DB):
 		# compute price based on specialty, size, and crust
@@ -74,7 +74,7 @@ class FrameDMSimple:
 	def calculate_price(self):
 		try:
 			base_price = self.DB.modality[self.NLU.SemanticFrame.Slots['modality']]
-			price = base_price + Pizza(specialty_type=self.NLU.SemanticFrame.Slots['pizza_type'],
+			price = base_price + Pizza(pizza_type=self.NLU.SemanticFrame.Slots['pizza_type'],
 										crust=self.NLU.SemanticFrame.Slots['crust'],
 										size=self.NLU.SemanticFrame.Slots['size'],
 										toppings=None).calculate_pie_price(self.DB)
@@ -245,7 +245,13 @@ class FrameDMSimple:
 			# Ground Order
 			else:
 				dialogAct.DialogActType = DialogActTypes.REQUEST
-				dialogAct.slot = (1,self.NLU.SemanticFrame.Slots)
+				pizzas = [Pizza(
+							self.NLU.SemanticFrame.Slots["type"],
+							self.NLU.SemanticFrame.Slots["crust"],
+							self.NLU.SemanticFrame.Slots["size"],
+							self.NLU.SemanticFrame.Slots["toppings"]
+					)]
+				dialogAct.slot = (1,self.NLU.SemanticFrame.Slots, pizzas)
 	
 		# Pizza not yet grounded
 		else:
