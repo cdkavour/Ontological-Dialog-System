@@ -21,8 +21,6 @@ def main():
     NLU = args.NLU;
     NLG = args.NLG;
     universals = args.universals
-
-    print("NLU = {}, system = {}, NLG = {}".format(NLU, system, NLG))
    
     NLUModule = None
     DMModule = None
@@ -35,8 +33,13 @@ def main():
 
     # the frame system should use its own NLx system
     if system == "FrameSimple" or system == "FrameExtended":
+        NLU = 'NLUForFrame'
+        NLG = 'NLGForFrames'
         NLUModule = NLUForFrame()
         NLGModule = NLGForFrame()
+
+    print("NLU = {}, system = {}, NLG = {}".format(NLU, system, NLG))
+
 
     if (system == "FSM"):
         DMModule = FSM(NLUModule, NLGModule,universals)

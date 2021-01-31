@@ -1,6 +1,7 @@
 from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
-import random 
+import random
+from collections import defaultdict
 import pdb
 
 class NLGForFrame:
@@ -26,17 +27,24 @@ class NLGForFrame:
 		return toppingStr
 
 	def ground_pizza(self, dialogAct):
-		try:
-			pizza = dialogAct.slot[1]
-		except KeyError:
-			print("Pizza information not properly passed to NLG in dialogAct.")
-		pdb.set_trace()
 		outstr = ""
 		toppingStr = ""
+		if type(dialogAct.slot[1]==defaultdict):
+			# simple frame, passed in a dict
+			try:
+				slots = dialogAct.slot[1]
+			except KeyError:
+				print("Pizza information not properly passed to NLG in dialogAct.")
+			outstr += "I have a {} {} crust {} pizza, ".format(slots['size'],slots['crust'],slots['pizza_type'], toppingStr)
+
 		# if slots['toppings']:
-		# 	toppings = list(slots['toppings'])
-		toppingStr = self.get_toppings_str(pizza.print_toppings)
-		outstr += "I have a {} {} crust {} pizza, {}".format(pizza.size,pizza.crust,pizza.pizza_type, toppingStr)
+		else:
+			try:
+				pizza = dialogAct.slot[1]
+			except KeyError:
+				print("Pizza information not properly passed to NLG in dialogAct.")
+			toppingStr = self.get_toppings_str(pizza.print_toppings)
+			outstr += "I have a {} {} crust {} pizza, {}".format(pizza.size,pizza.crust,pizza.pizza_type, toppingStr)
 		outstr += "is that right?"
 		return outstr
 
