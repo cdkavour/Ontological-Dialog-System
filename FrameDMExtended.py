@@ -187,7 +187,8 @@ class FrameDMExtended:
 									self.NLU.SemanticFrame.Slots['pizza_type'],
 									self.NLU.SemanticFrame.Slots['crust'],
 									self.NLU.SemanticFrame.Slots['size'],
-									self.NLU.SemanticFrame.Slots['toppings'])
+									self.NLU.SemanticFrame.Slots['toppings'],
+									self.NLU.SemanticFrame.Slots['no toppings'])
 				del self.NLU.SemanticFrame.Slots['revise_preferred']
 
 
@@ -206,7 +207,6 @@ class FrameDMExtended:
 									type(self.lastDialogAct.slot)==tuple \
 									and self.lastDialogAct.slot[0]==1:
 
-			#print("(tracking state for confirming an order)")
 			self.NLU.SemanticFrame.Slots['ground_order'] = True
 			self.cost = self.calculate_price()
 			self.DB.save_new_order(self.NLU.SemanticFrame.Slots,
@@ -231,7 +231,7 @@ class FrameDMExtended:
 		# we should clear the board of pizza information
 		if self.NLU.SemanticFrame.Slots['need_to_clear']:
 
-			self.NLU.SemanticFrame.clearPizza()
+			self.NLU.clearPizza()
 			del self.NLU.SemanticFrame.Slots['need_to_clear']
 
 		# update the DialogFrame based on the SemanticFrame

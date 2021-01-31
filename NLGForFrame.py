@@ -2,7 +2,6 @@ from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
 import random
 from collections import defaultdict
-import pdb
 
 class NLGForFrame:
 	def __init__(self):
@@ -53,7 +52,6 @@ class NLGForFrame:
 
 		except KeyError:
 			print("Pizza/Order information not properly passed to NLG in dialogAct.")
-		import pdb;pdb.set_trace()
 		num_pizzas = len(pizzas)
 		outstr = ""
 		if dialogAct.DialogActType == DialogActTypes.REQALTS:
@@ -107,11 +105,11 @@ class NLGForFrame:
 				outstr += "Our specialty pizzas are Hawaiian, meat lovers, 4 cheese, pepperoni, veggie surpreme, and vegan."
 			elif (type(dialogAct.slot) == tuple and dialogAct.slot[0] == 2):
 				slots = dialogAct.slot[1]
-				outstr += "I have an order on file for {} that is currently {}.".format(
+				outstr += "I have an order on file for {} that is currently {}.  What else can I help you with?".format(
 							str.title(slots['name']),
 								slots['order_status'])
 			elif dialogAct.slot == 'revise_preferred':
-				outstr += 'I have upddated your preferred order.  What else can I help you with?"'
+				outstr += 'I have ated your preferred order.  What else can I help you with?'
 			else:
 				# update to modality of previous order
 				outstr += "I have switched the delivery method of order number {} to {}.  What else can I help you with?".format(*dialogAct.slot)
