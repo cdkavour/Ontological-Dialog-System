@@ -1,0 +1,20 @@
+Note - to run our extended frame code, we've included the script to run: ./hw1_q5.sh
+
+Our extended dialog state works in a similar fashion to the simple dialog manager, but with the added functionality of being able to revise a preferred order, order multiple pizzas, and update an existing order's delivery method. The general flow of parsing input, tracking state changes, selecting a dialog act, and generating output is the same as in our simple dialog manager.
+
+To modify the preferred order, the user must explicity input "modify preferred order" within their input string. They will be prompted for pizza information, and ultimately their preferred order will be changed in the database.
+
+To handle ordering multiple pizzas, the dialog manager keeps track of the pizza information being provided and, when a pizza is grounded, it cements this information by adding it to a list of pizzas. It then asks the user if they would like anything else, and either grounds the full list of pizzas thus far, or clears the current pizza information and continues to prompt/allow the user to order more.
+
+The ablility to update a delivery method is open to the user at any time by noting "pick-up" or "delivery".
+
+
+
+Some notes about running our Extended Dialog Frame System:
+
+-Once a pizza is grounded (confirmed by the user), its pizza details cannot be changed.
+-At any time before a given pizza is confirmed, toppings/crust/size/pizza type can be updated by asking for them (including out of turn).
+-The preferred order can be ordered by using the preferred keyword in the user's request
+-The user's order status can by requested by using the status keyword in the user's request
+
+** -We currently only recognize 3 names: Peter, Paul, and Mary.

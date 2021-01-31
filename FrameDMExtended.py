@@ -3,6 +3,7 @@ from DialogAct import DialogAct
 from DialogActTypes import DialogActTypes
 from collections import defaultdict
 import math,random,json,pandas as pd
+import pdb
 
 class Pizza:
 	def __init__(self,pizza_type=None,crust=None,size=None,toppings=None,no_toppings=None):
@@ -88,9 +89,12 @@ class DB:
 		to_modify['preferred'] = {'pizza_type':new_preferred.pizza_type,
 								  'crust':new_preferred.crust,
 								  'size':new_preferred.size,
-								  'toppings':new_preferred.toppings}
+								  'toppings':list(new_preferred.toppings)}
 		self.data['users'].append(to_modify)
 	
+		with open(self.path,'w') as f:
+			json.dump(self.data,f,indent=3)
+
 	def get_preferred(self,name):
 		user_order = [user for user in self.data['users'] if user['name']==name][0]['preferred']
 		return user_order				

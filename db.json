@@ -1,22 +1,6 @@
 {
    "users": [
       {
-         "name": "peter",
-         "number": "123-456-7890",
-         "address": "123 Street",
-         "preferred": {
-            "pizza_type": "4 cheese",
-            "crust": "regular",
-            "size": "medium",
-            "toppings": [
-               "mozzarella",
-               "cheddar",
-               "swiss",
-               "provelone"
-            ]
-         }
-      },
-      {
          "name": "paul",
          "number": "123-567-8904",
          "address": "123 Ave",
@@ -43,6 +27,23 @@
                "red onions",
                "mushrooms",
                "black olives"
+            ]
+         }
+      },
+      {
+         "name": "peter",
+         "number": "123-456-7890",
+         "address": "123 Street",
+         "preferred": {
+            "pizza_type": "meat lovers",
+            "crust": "thin",
+            "size": "large",
+            "toppings": [
+               "bacon",
+               "sausage",
+               "pepperoni",
+               "mozzarella",
+               "ham"
             ]
          }
       }
@@ -258,6 +259,38 @@
          "confirmation_number": "00003",
          "modality": "delivery",
          "status": "ready"
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "00004",
+         "modality": "pick-up",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 22.5
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "00005",
+         "modality": "pick-up",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 16.0
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "00006",
+         "modality": "pick-up",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 22.5
+      },
+      {
+         "name": "peter",
+         "confirmation_number": "00007",
+         "modality": "delivery",
+         "address": "123 Street",
+         "status": "processing",
+         "cost": 29.5
       }
    ],
    "modality": [
@@ -266,5 +299,5 @@
          "delivery": 3
       }
    ],
-   "order_idx": 4
+   "order_idx": 8
 }
