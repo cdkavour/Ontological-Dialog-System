@@ -2,6 +2,8 @@ import pdb
 import nltk
 import numpy as np
 import pandas as pd
+import random
+import re
 import sklearn_crfsuite
 from sklearn_crfsuite import scorers
 from sklearn_crfsuite import metrics
@@ -17,15 +19,18 @@ hyperparameters:
 n - the number of ngrams
 lexical cateoriges - user defined word clusters 
 	for intent or slot classification
+noise - the probbaility with whicch to mask words in training to simulate
+	ASR errors
 
 first modified 16 february 2021
+last modified 17 feburary 2021
 sara ng
 
 '''
 
 debug = False
 
-def preprocess_data(train,enc_bin=None):
+def preprocess_data(train,noise=0):
 	n = 3
 	# given training data, define the vector space
 	# including OOVs in each position
@@ -38,7 +43,7 @@ def preprocess_data(train,enc_bin=None):
 		data = data[:10]
 
 	# the clean text and unencoded slot tags and postags and ngrams
-	text_and_tags = data.apply(lambda x: tokenize_and_tag(x,n), axis='columns', result_type='expand')
+	text_and_tags = data.apply(lambda x: tokenize_and_tag(x,n,noise), axis='columns', result_type='expand')
 	data = pd.concat([data,text_and_tags],axis='columns')
 	data = data.rename(columns = {0:'tokenized',1:'slots',2:'ngrams',3:'pos'})
 	data['lexcats'] = data.tokenized.apply(lambda x: define_lexical_cateories(x,n))
@@ -63,13 +68,11 @@ def preprocess_data(train,enc_bin=None):
 		all_utterances.append(words_in_utt)
 	return all_utterances ,data.slots.to_list(), data.Intent.to_list()
 
-def tokenize_and_tag(x,n):
-	# pull out the tokens, slot tags, ngrams, and pos tags 
+def tokenize_and_tag(x,n,noise):
+	# pull out the tokens, slot tags, ngrams, and pos tags
 	soup = BeautifulSoup(x.Sentence,'html.parser')
-	to_tokenize = word_tokenize(soup.get_text())
-	whitespace_tokenized = ['<S>']*(n-1)+to_tokenize
-	postags= ['BOS']*(n-1)+[t[1] for t in nltk.pos_tag(to_tokenize)]
-	slottags =[]#['O']*(n-1)
+	tokenized = []
+	slottags =[]
 	for tag in soup.contents:
 		tagname = tag.name if tag.name else 'O'
 		try:
@@ -78,15 +81,43 @@ def tokenize_and_tag(x,n):
 			tok = word_tokenize(tag)
 		for word in tok:
 			slottags.append(tagname)
-
-	ngrams = [' '.join(whitespace_tokenized[i:i+n]) for i in range(len(to_tokenize))]
+			if random.random() < noise:
+				tokenized.append('******')
+			else:
+				tokenized.append(word)
+	postags= ['BOS']*(n-1)+[t[1] for t in nltk.pos_tag(tokenized)]
+	whitespace_tokenized = ['<S>']*(n-1)+tokenized
+	ngrams = [' '.join(whitespace_tokenized[i:i+n]) for i in range(len(tokenized))]
 	return whitespace_tokenized, slottags, ngrams,postags
 
 def define_lexical_cateories(x,n):
 	# x is a tokenized thing 
 	# define membership in lexical 
-	lists = [['thanks','thank'],
-			['help','please']]
+	lists = [["need", "let", "'s", "go", "with", "can", "could", "get"],
+		["get", "or", "soon", "possible", "'ll", "be",],
+		["card", "code", "expiration", "number", "date", "security"],
+		["under", "card", "number", "name", "street"],
+		["cola", "soda", "root", "beer", "ceasar", "salad", "side"],
+		["how", "long", "when", "where", "'s", "ready", "order"],
+		["yes", "yeah", "yep", "absolutely", "right", "great", "okay", "mhm", "amazing", "perfect"],
+		["no", "nope"],
+		["bye", "too", "bye-bye", "peace"],
+		["all", "that" "'ll", "will", "should", "it"],
+		["hello", "hi", "hi!", "hey", "how", "'s" "going", "ring"],
+		["i","have", "want", "like", "may", "can", "need", "let", "'s", "get", "could", "order"],
+		["change"],
+		["update", "my", "preferred", "change"],
+		["favorite", "frequent", "usual", "preferred", "common", "previous", "recent", "my", "most"],
+		["without", "off", "take"],
+		["have", "recommend"],
+		["how much", "cost", "price", "prices", "money"],
+		["drink", "what", "kind", "kinds", "do"],
+		["place", "order", "like", "hey", "pizza"],
+		["thank", "thanks"],
+		["rather", "rather", "actually", "different", "no", "prefer", "second", "sthought"],
+		["actually", "hoping", "change"],
+		["sorry"],
+		["it", "'s", "for", "wait", "actually", "no", "sorry"]]
 	matrices=  []
 	length =len(lists)
 	for word in x[n-1:]:
@@ -97,44 +128,102 @@ def define_lexical_cateories(x,n):
 		matrices.append(value_matrix)
 	return np.vstack(matrices)
 
-def accuracy(y,y_pred,exclude_O=False):
+def accuracy(y,y_pred):
 	denom = 0
 	num = 0
 	for utt,uttp in zip(y,y_pred):
-		for word,wordp in zip(utt,uttp):
-			if exclude_O and word == 'O':
-				continue
-			elif word == wordp:
+		for slot,slotp in zip(utt,uttp):
+			if slot == slotp:
 				num +=1
 			denom+=1
-	return num/denom
+	return num/denom, denom
+
+def class_accuracy(y,y_pred,target_slot):
+	# return the class accuracy and class size for a slot
+	denom  = 0
+	num = 0 
+	for utt,uttp in zip(y,y_pred):
+		for slot,slotp in zip(utt,uttp):
+			if slot == target_slot:
+				if slot == slotp:
+					num +=1
+				denom+=1
+	if denom == 0:
+		return np.nan, 0
+	else:
+		return num/denom, denom
 
 def main():
 
-	# training
+	#################
+	# preprocessing #
+	#################
 
-	train_data = 'DATA1/group5.txt'
-	test_data = 'DATA5/part1_annotated.tsv'
-	X_train,y_slots,y_intent = preprocess_data(train_data)
-	X_test, y_slots_test, y_intent_test = preprocess_data(test_data)
+	train_path = 'data/hw3_train.txt'
+	evaluation_paths = {'heldout': 'data/hw3_test.txt',
+						'DATA0': 'data/data0.txt',
+						'DATA5': 'data/data5.txt',
+						'DATA6': 'data/data6.txt'}
+	# adjust the noise in training
+	X, y, _ = preprocess_data(train_path,noise=0.05)
+	test_data_X = {}
+	test_data_y = {}
+	for k,v in evaluation_paths.items():
+		print('processing {}...'.format(k))
+		test_data_X[k],test_data_y[k],_=preprocess_data(v)
+	evaluation_paths.update({'train':'hw_train.txt'})
+	test_data_X.update({'train':X})
+	test_data_y.update({'train':y})
+
+	############
+	# training #
+	############
+
 	crf = sklearn_crfsuite.CRF()
-	pdb.set_trace()
-	crf.fit(X_train, y_slots)
+	crf.fit(X, y)
 
-	# evaluation
+	##############
+	# evaluation #
+	##############
 
-	y_pred = crf.predict(X_train)
+	predictions = {'train':{},'heldout':{},'DATA0':{},'DATA5':{},'DATA6':{}}
+	predictions_by_class = {'train':{},'heldout':{},'DATA0':{},'DATA5':{},'DATA6':{}}
+	frames_by_class = {'train':{},'heldout':{},'DATA0':{},'DATA5':{},'DATA6':{}}
 	labels = list(crf.classes_)
-	train_f1 = metrics.flat_f1_score(y_slots, y_pred,average='weighted', labels=labels)
-	train_acc = accuracy(y_slots,y_pred)
-	y_pred_test = crf.predict(X_test)
-	test_f1 = metrics.flat_f1_score(y_slots_test, y_pred_test,average='weighted', labels=labels)
-	test_acc = accuracy(y_slots_test,y_pred_test)
-	labels.remove('O')
-	train_f1 = metrics.flat_f1_score(y_slots, y_pred,average='weighted', labels=labels)
-	test_f1 = metrics.flat_f1_score(y_slots_test, y_pred_test,average='weighted', labels=labels)
 
+	for k,v in test_data_X.items():
+		predicted = crf.predict(v)
+		y_test = test_data_y[k]
+		# get a total acccuracy and f1
+		predictions[k]['f1'] = metrics.flat_f1_score(y_test, predicted,
+										average='weighted', 
+										labels=labels)
+		predictions[k]['acc'], predictions[k]['n'] = accuracy(y_test,predicted)
+		# also get accuracy and f1 by slot type
+		for label in labels:
+			predictions_by_class[k][label] =  (metrics.flat_f1_score(y_test,predicted,average='weighted',labels=[label]),
+										*class_accuracy(y_test,predicted,label))
+		if k == 'DATA6':
+			pred6 = predicted
+		frames_by_class[k] = pd.DataFrame.from_dict(predictions_by_class[k],columns=['f1','acc','n'],orient='index')
+	metrics_by_data = pd.DataFrame.from_dict(predictions,columns=['f1','acc','n'],orient='index')
 
+	###################
+	# analysis data 6 #
+	###################
+	for k,v in predictions.items():
+		text = 'TEST RESULTS\n\nOVERALL\n\n'
+		text += str(metrics_by_data.loc[k:k])
+		text += '\n\nBY CLASS\n\n'
+		text += str(frames_by_class[k][frames_by_class[k].n>0])
+		with open('eval_{}'.format(k),'w') as f:
+			f.write(text)
 
+	data = [' '.join([re.sub(r',','',str((a['word'],b,c))) for a,b,c in zip(c,d,e)]) \
+			for c,d,e in zip(test_data_X['DATA6'],test_data_y['DATA6'],pred6)]
+
+	with open('analyze_data6.txt','w') as f:
+		f.write('\n'.join(data))
+		
 if __name__ == "__main__":
 	main()

@@ -1,0 +1,897 @@
+Intent	Sentence
+GREET	 ring ring 
+MAKE_PIZZA	"i want to order a uh <pizza_type>4 cheese</pizza_type>, please"
+DENY	no, i'd like to change something
+THANK	" great, thanks so much "
+CONFIRM	Ok, um...oh god, ok
+CONFIRM	Mhm
+REQUEST_LISTING	great do you have any thing to drink as well
+ADD_MODALITY	yeah, <modality>delivery</modality> will be great, please
+MAKE_PIZZA	Gotcha. Can I get a <size>large</size> <pizza_type>cheese</pizza_type> pizza with <topping>green peppers</topping>?
+ADD_TO_ORDER	Add a <size>16oz</size> <beverage>coke</beverage> please
+INFORM	 A two liter <beverage>coke</beverage> and <beverage>sprite</beverage>? 
+UNDEFINED	" I'm sorry, I'm gonna try calling you back, it still sounds like static"
+UPDATE_PERSONAL	it's <name>danko</name> wait <name>danko black</name>
+MAKE_PIZZA	i'd like a <size>12 inch</size> <pizza_type>hawaiian</pizza_type> on <crust>regular</crust>
+CONFIRM	that'd be great
+END_ORDERING	Perfect. That’ll be all.
+GREET	Hello?
+ADD_ATTRIBUTE	I.ll take a <size>medium</size>
+ADD_MODALITY	I.ll come in for <modality>pickup</modality>
+MAKE_PIZZA	"Okay, this is okay so you have <quant>six</quant> specialty pizzas, but that was not the most popular. The most popular are just plain. So I think I'm going to get <quant>one</quant> <pizza_type>vegan</pizza_type>, <quant>two</quant> <pizza_type>pepperoni</pizza_type>, um...hmm, I don't know. Should I get a <pizza_type>plain</pizza_type> pizza with <topping>pineapple</topping>, or should I get the <pizza_type>Hawaiian</pizza_type> pizza? It's, it's just so hard to know what what's gonna work for <quant>50</quant> people"
+ADD_ATTRIBUTE	also <size>small</size>
+ADD_ATTRIBUTE	Okay, can I get the <crust>regular</crust> please?
+MAKE_PIZZA	hello, i'd like a <pizza_type>4 cheese</pizza_type>
+DENY	"nope, i'd like to change something"
+GREET	 ring ring 
+ADD_MODALITY	 Uhh <modality>delivery</modality>.
+ADD_PERSONAL	it's <number>425-555-1276</number>
+REQUEST	Can you repeat the order back to me?<
+CHECK_ORDER_STATUS	how far away is my pizza order ?
+THANK	Okay, thank you.
+REQUEST	Um hi is this the pizza on <address>12345 St</address>?
+UNDEFINED	" Hi, I just called about <quant>three</quant> <size>medium</size> pizzas? "
+UNDEFINED	"Yeah, I’ll be right over."
+UPDATE_ATTRIBUTE	Ok, um, if you could just um...let.s do that <pizza_type>cheese</pizza_type> but if you put on any other herbs or spices, like if there.s like a <topping>parsley</topping> sprinkle or anything, I need you to leave it off -- just as plain as possible
+GREET	 ring ring 
+UPDATE_PERSONAL	"Oh it's ah, <address>98103</address> and it's actually <address>Green *lake* avenue</address>."
+DEPART	Bye.
+CONFIRM	That’s it
+CONFIRM	Oh cool okay
+MAKE_PIZZA	 Hi! I want a <size>small</size> <pizza_type>two topping</pizza_type> pizza -- <topping>pepperoni</topping> and <topping>sausage</topping> -- and a <size>medium</size> dr pepper if you have it 
+ADD_MODALITY	"yeah, let's go with <modality>take out</modality>"<
+DENY	nope, i'd like to change something
+GREET	hello,
+THANK	amazing thanks
+ADD_MODALITY	Hi! Could I order for <modality>delivery</modality> to <addreess>567 12 Street North</addreess>?
+INFORM	"<numeric>Twenty-five</numeric> percent, um, unless you pay ahead of time."
+ADD_MODALITY	"<modality>take out</modality> would be great, please"
+DENY	No thank you
+ADD_PAYMENT_ATTRIBUTE	Wanted to make sure. Two orders of <side>garlic bread</side>, um, my card information is, uh <numeric>1234</numeric>
+CONFIRM	Okay
+ADD_MODALITY	Okay! Let's do the <store>50th street</store> one?
+CHECK_ORDER_STATUS	please get my pizza order
+DENY	no, i'd like to change something
+ADD_PAYMENT_ATTRIBUTE	Um and the code is <numeric>782</numeric>…the expiration is <numeric>12/89</numeric>
+DEPART	Okay thank you bye
+THANK	"Okay, thank you!"
+ADD_PERSONAL	use <name>vipul</name>
+CHECK_ORDER_STATUS	how much longer until my order is ready?
+UNDEFINED	" I'm sorry there's like static over your voice, let me try moving to another room"
+ORDER_PREFERRED	please order my previous pizza
+REQUEST_LISTING	 Do you have <side>breadsticks</side>? 
+REQUEST	"Hi! Yes, sorry about that. I’m looking for a heavy <topping_type>meat</topping_type> option, do you have anything that might work for me?"
+UPDATE_PAYMENT_ATTRIBUTE	And then the, uh, the expiration date is <numeric>07/11</numeric>
+CHECK_ORDER_STATUS	can you, please look up the status of my order?
+ADD_PAYMENT_ATTRIBUTE	Oh the code is <numeric>111</numeric><
+ADD_ATTRIBUTE	Yeah. Oh, sorry, can I also get the <topping>yellow pepper</topping>
+UPDATE_ATTRIBUTE	<size>SMALL</size>. <crust>GLUTEN FREE</crust>. <pizza_type>MEAT LOVERS PIZZA</pizza_type>.
+THANK	Thanks there’s a hefty tip here for you if it’s all correct
+CONFIRM	sounds good
+UPDATE_ATTRIBUTE	Uh, no, I want a <pizza_type>Hawaiian</pizza_type> pizza, please.
+DEPART	 Thanks! Bye 
+UNDEFINED	"Hey get me my pocket book will you, the red one no the red one yes that one"
+MAKE_PIZZA	Hey um can I get a <size>large</size> pizza, no <topping>cheese</topping>, <topping>diced tomatoes</topping>, and <topping>spinach</topping>?
+ADD_MODALITY	 Hi <name>Julie</name>! I'd like to place an order for <modality>pickup</modality>? 
+CONFIRM	 Gotcha! Well, I will feel extra fancy tonight eating my premium pizza.
+ADD_PAYMENT_ATTRIBUTE	It's <name>Jack Johnson</name>, <numeric>1564</numeric>, expires <numeric>01/21</numeric>, and the code on that is <numeric>678</numeric>! Zip code <numeric>07070</numeric>.
+CONFIRM	Yeah
+REQUEST	Do you have any coupons or?
+GREET	hi,
+UNDEFINED	 You too!
+ADD_ATTRIBUTE	<crust>normal</crust> crust is fine.
+ADD_MODALITY	how about <modality>take-out</modality>
+DENY	No, I'll just, just the pizza, please.
+MAKE_PIZZA	"Okay.  Ooookay.  I think... what I'll do I'll probably get <quant>2</quant> <size>larges</size> then just to make suuure and then if anybody wants extra there'll be enough. Okay so I will get.... sorry I'm pulling up the menu. (Pause) Um... (clears throat) Okay can I get <quant>one</quant> of the <size>large</size> um <pizza_type>Thai chicken</pizza_type> pizzas... ah, and can I get <quant>no</quant> <topping>cilantro</topping> on that?"
+ADD_ATTRIBUTE	"6$, got it. That should be fine."
+ADD_PERSONAL	let's go with <name>steve</name>, please
+ADD_PERSONAL	Name’s <name>Chris</name>. Give me <quant>2</quant> <side>breadsticks</side> to go
+ADD_ATTRIBUTE	I’ll go with the <crust>deep dish</crust> then.
+DENY	no sides and one <beverage>rootbeer</beverage>
+MAKE_PIZZA	I’m going to need a selection of <quant>5</quant> <size>large</size> pizzas for our party.
+UNDEFINED	 ring ring 
+GREET	"hi,"
+CONFIRM	" yeah, that's correct "
+ADD_ATTRIBUTE	<size>Medium</size>.
+INFORM	"Ack! <quant>No</quant> <beverage>Pepsi</beverage>? Well <beverage>Coke</beverage> is fine, I’ll have <quant>2</quant> liters"
+ADD_PERSONAL	"Yes, my name - this is <name>Person</name>"
+MAKE_PIZZA	Can I please get <quant>one</quant> <quant>three</quant> <pizza_type>4 Cheese</pizza_type> pizzas for <modality>pickup</modality>
+CONFIRM	"Oh, WOW. Yes, please"
+ADD_MODALITY	yes, oh, and can you make it <modality>delivery</modality>
+CHECK_ORDER_STATUS	when will my pizza order arrive here?
+ADD_PERSONAL	yeah that'll be <address>one two three four five at [pause] uh [inaudible] uh seattle washington</address>
+MAKE_PIZZA	i'd like a <pizza_type>hawaiian</pizza_type> on <crust>gluten free</crust> crust. make it <size>14 inch</size>
+UNDEFINED	"Oh, hi there, I…sorry. Something came up."
+START_ORDERING	"hey, how's it going? i'd like to place an order"
+ORDER_PREFERRED	"may i place an order for my favorite pizza order again, please"
+UNDEFINED	 Great! 
+REQUEST_LISTING	uh do you have any good <topping_type>cheese</topping_type> pizzas that i could get
+MAKE_PIZZA	 Hi, I wanted to order a <size>small</size> <pizza_type>pepperoni</pizza_type> and a <size>large</size> <beverage>fountain drink</beverage>
+ADD_PAYMENT_ATTRIBUTE	Um and the code is <numeric>782</numeric>…the expiration is <numeric>12/89</numeric>
+ADD_PAYMENT_ATTRIBUTE	And expiration is ah <numeric>0 1 2 0</numeric>
+UNDEFINED	"So I see some of your toppings cost more than others. Some are <cost>two dollars</cost> and some are <cost>a dollar fifty</cost>. Do you think it's worth it to get kind of like the premium toppings? Or I guess the, I guess the <cost>dollar fifty</cost> toppings are just <topping_type>cheese</topping_type>. So I guess I will have to spend that extra <cost>fifty cents</cost> for toppings won’t I?."
+ADD_PAYMENT_ATTRIBUTE	Perfect, let me give you my card...um that.s gonna be -- the number is um <numeric>1024</numeric>
+UNDEFINED	Oh great. Great. Okay -
+ADD_PERSONAL	 under <name>John greene</name>
+GREET	hey, how's it going?
+UPDATE_ATTRIBUTE	You know what if you have <topping>kale</topping> we can do both
+ADD_MODALITY	<modality>take-out</modality> sounds good
+THANK	amazing thanks
+ADD_MODALITY	please make it <modality>take-out</modality>
+ADD_PERSONAL	<name>Jennifer</name>.
+REQUEST_LISTING	Okay, um...d-do you have uh, like, <side>garlic bread</side>? Without <topping>milk</topping>
+CONFIRM	Boom. That’s it for me man.
+INFORM	"Great, I won’t need any sides."
+ADD_MODALITY	"For <modality>delivery</modality>, to <adddress>132 4th Ave suite 67</adddress>"
+ORDER_PREFERRED	"i'd like to place another order for my favorite order, please"
+ORDER_PREFERRED	could i place an order for my previous again, please
+ADD_MODALITY	"yeah, <modality>delivery</modality>, please"
+UNDEFINED	REPRESENTATIVE
+ADD_MODALITY	hello I need to place a <modality>takeout</modality> order
+UNDEFINED	Because you won’t get pizza if you keep acting this way is why
+MAKE_PIZZA	Person three just wants a pizza with <topping>cheddar</topping> cheese on <crust>regular</crust> crust
+UPDATE_PAYMENT_ATTRIBUTE	Um, sorry, the card information is <numeric>000</numeric> And--
+UPDATE_ATTRIBUTE	Okay sounds good. Can I actually get a <size>small</size>?
+ADD_MODALITY	"oh, and can you, please make it <modality>take-out</modality>"
+ADD_PAYMENT_ATTRIBUTE	"Yes, it's <numeric>5667</numeric>?"
+ADD_PERSONAL	it's <name>michael</name>
+ADD_ATTRIBUTE	"Hm … <crust>deep dish</crust> or <crust>regular</crust> … I’ll go with the <crust>regular</crust>. Also, do you have any <side>salads</side>?"
+ADD_PERSONAL	it's <name>jp</name>
+MAKE_PIZZA	And then the second one is gonna be um the <pizza_type>complete combo</pizza_type>
+CONFIRM	"Yes, that’s it. That’ll be all."
+END_ORDERING	<quant>No</quant> pizza today
+ADD_PERSONAL	"let's go with <name>eva</name>, please"
+ADD_ATTRIBUTE	<topping>Spinach</topping>
+CONFIRM	uh-huh
+START_ORDERING	"hey, how's it going? i'd like a <modality>take-out</modality> order"
+ADD_MODALITY	"<modality>Delivery</modality> please! <address>845 12th Street, apartment C</address>."
+ADD_PAYMENT_ATTRIBUTE	"Sure, it's <numeric>7890</numeric>, security code <numeric>123</numeric>, expiration <numeric>12/34</numeric>. And the name on it is <name>Janet Gold</name>"
+CONFIRM	 Yeah!
+UPDATE_ATTRIBUTE	i'd rather get it as a <pizza_type>supreme</pizza_type> instead
+ADD_MODALITY	<modality>delivery</modality> would be great
+ADD_MODALITY	 For <modality>pickup</modality>. Name is <name>David Green</name>
+MAKE_PIZZA	"hello, can i get a <size>10 inch</size> supreme, please ?"
+INFORM	Alright, I.ll be there in <time>20 minutes</time>
+REQUEST_LISTING	uh what kind of drinks do you have
+ADD_PERSONAL	Um, it.s <email>m e l a n i e e e at email dot com</email>.
+ADD_MODALITY	"<modality>take-out</modality> will be great, please"
+THANK	 Thanks! 
+REQUEST	Oh - <pizza_type>Veggie supreme</pizza_type> - what’s in that?
+CHECK_ORDER_STATUS	when will my pizza order be delivered?
+ORDER_PREFERRED	can i get my previous order again
+REQUEST	"Um, I want to order a pizza here, but I'm honestly it's my first time because I'm not from the US and it's going to be my first time going to a pizza restaurant. So I'm not having a good option right now coo, do you have any suggestions at this point?"
+DEPART	Great thank you bye
+MAKE_PIZZA	 I wanna get a <crust>regular</crust> <pizza_type>cheese</pizza_type> pizza, no drink or side please 
+ADD_MODALITY	<modality>delivery</modality>
+ADD_MODALITY	"let's go with <modality>pick up</modality>, please"
+ORDER_PREFERRED	place another order for my preferred pizza order
+UPDATE_PERSONAL	Sorry- the name is <name>Avery</name>
+REQUEST	Hi…is this Pizza Restaurant?
+DENY	You know what, it.s okay, nevermind. I.ll just--
+MAKE_PIZZA	Umm. Uhhh. Uh could I just get a umm... a a <size>small</size> <pizza_type>four cheese</pizza_type> pizza?
+MAKE_PIZZA	i want to order a <pizza_type>4 cheese</pizza_type> on <crust>gluten free</crust>. make it <size>small</size>
+ADD_MODALITY	yeah, <modality>take out</modality> sounds good
+ORDER_PREFERRED	hello, i'd like to place an order
+INFORM	I’ll be there in <time>25 min</time>
+ADD_PERSONAL	"<name>Jane Lawrence</name>, the card is <numeric>8009</numeric>"
+ADD_ATTRIBUTE	"ok I'm back they are want <crust>regular</crust>, and we need to add <quant>one</quant> <side>green salad</side>"
+CONFIRM	Um, yeah
+DENY	"no, i'd like to change something"
+MAKE_PIZZA	 Hi! I'd like a <size>large</size> <pizza_type>pepperoni</pizza_type> pizza and a <size>small</size> <pizza_type>cheese</pizza_type>
+DENY	nope
+UNDEFINED	"Okay. Yeah that’s a probably good idea, the- <quant>all</quant> the combinations. Those would get so confusing, and <crust>regular</crust> is-is much cheaper than <crust>deep dish</crust> so ( oh yeah)"
+REQUEST	Did you get that?
+CONFIRM	yes obviously
+UPDATE_ATTRIBUTE	Sorry half <pizza_type>pepperoni</pizza_type> half <topping>sausage</topping>
+ADD_PERSONAL	"<address>555 Candle Avenue NW</address>, gate code <numeric>660</numeric> <address>building 4</address>, I'll meet the driver outside"
+ADD_ATTRIBUTE	<pizza_type>Four cheese</pizza_type>, <pizza_type>four cheese</pizza_type>
+REQUEST	<size>12”</size> - is that the <size>medium</size> size?
+ORDER_PREFERRED	please reorder my usual again
+ADD_MODALITY	Cool. I can come get it. Do you know when that will be ready?
+THANK	okay great. Thank you!
+CONFIRM	Mm hmm.
+ADD_MODALITY	<modality>pick up</modality> will be great
+START_ORDERING	"hi, i'd like to place an order for <modality>take-out</modality> from your <store>george town</store> store"
+ADD_PERSONAL	put it under <name>khushboo</name>
+DENY	I think that.s it, alright, yeah
+ADD_PERSONAL	Uhh to <address>Street 123 Apartment 7</address>.
+UPDATE_ATTRIBUTE	Well, I asked for <pizza_type>Hawaiian</pizza_type>. <pizza_type>Hawaiian</pizza_type> comes with <topping>pineapple</topping> and <topping>ham</topping>.
+MAKE_PIZZA	" Hi, I need to order a couple of <size>medium</size> <pizza_type>pepperoni</pizza_type> pizzas "
+ADD_MODALITY	oh delivery is much too expensive um that'll be <modality>pickup</modality>
+REQUEST	When will your driver be arriving?
+INFORM	I think I’ll also get <quant>three</quant> <beverage>colas</beverage> and <quant>two</quant> <beverage>orange sodas</beverage>.
+MAKE_PIZZA	"hi, may i get a <pizza_type>hawaiian</pizza_type>, please"
+UNDEFINED	"Sure, okay "
+ADD_PERSONAL	it's <number>360-555-1271</number>
+UPDATE_ATTRIBUTE	You know what if you have <topping>kale</topping> we can do both
+MAKE_PIZZA	"Awesome, the fifth person and the sixth person both want <pizza_type>4 cheese</pizza_type> but person 5 wants it with <quant>no</quant> <toppping>mozzarella</toppping> and person 6 doesn't want <quant>swiss</quant>"
+MAKE_PIZZA	"Can I get a side <side>green salad</side> with <quant>no</quant> <topping>tomatoes</topping>, <quant>4</quant> <size>medium</size> <pizza_type>cheese</pizza_type> pizzas with <crust>regular</crust> crust, and <quant>3</quant> <beverage>ginger ale</beverage>"
+REQUEST_COST_OF	"Okay. Um, what is the price of your <size>large</size> pizzas and is this the store. I saw coupons online for?"
+MAKE_PIZZA	i want a <pizza_type>veggie supreme</pizza_type> on <crust>gluten free</crust> crust
+UPDATE_ATTRIBUTE	Um, I hate mushrooms, can you just-can you just do the <topping>red and yellow pepper</topping>?
+ADD_PERSONAL	It’s for <name>John</name>
+ADD_PERSONAL	"put it under <name>eric</name>, please"
+DENY	nope
+ADD_PERSONAL	"Yes. It's <name>Jane Grant</name>, number is <numeric>4567</numeric>, expiration <numeric>04/56</numeric>, code <numeric>456</numeric>, and the zip code on that is <numeric>04567</numeric>"
+REQUEST_COST_OF	uh how much is it
+MAKE_PIZZA	i'll get a uhh <pizza_type>hawaiian</pizza_type> on <crust>thin</crust>. make it <size>medium</size>
+UNDEFINED	Um
+ADD_PERSONAL	Yes. <name>Hannah Smith</name>.
+CHECK_ORDER_STATUS	can you look up my order?
+THANK	thank you
+ADD_ATTRIBUTE	And then, like, all the <topping_type>vegetables</topping_type> you have
+REQUEST_LISTING	Hi I just wanted to know what sides you have
+ADD_MODALITY	" Thanks, and that'll be for <modality>pickup</modality>"
+INFORM	The party theme is teenage mutant ninja turtles
+ADD_MODALITY	yes, <modality>pick up</modality> will be great
+DENY	Oh um. no
+ADD_ATTRIBUTE	So can I get the <crust>thin</crust> crust and then just like a really thick layer of the <topping>tomato sauce</topping>?
+GREET	"hello,"
+ADD_MODALITY	"yep, how about <modality>take-out</modality>, please"
+UPDATE_PERSONAL	it's <name>asli</name> wait <name>danko brown</name><
+UNDEFINED	 Sure 
+THANK	ok great thank you
+CONFIRM	Mm-hm
+ADD_PERSONAL	<number>425-555-1712</number>
+MAKE_PIZZA	"Okay, okay that's- that should work. Um, there's something for everybody there, right?"
+ADD_TO_ORDER	oh uh yeah i would love a <side>caesar salad</side>
+ADD_PERSONAL	Right - it's <name>Person Person</name>
+THANK	super thanks
+CONFIRM	yep, <modality>pick up</modality> will be great
+START_ORDERING	"could i order my pizza order again, please"
+REQUEST_LISTING	Hm - what kinds of crusts are available?
+INFORM	"Okay, I'll do that. Thank you."
+CONFIRM	nooo i think that’s it.
+THANK	sounds perfect thanks
+DENY	nope
+DENY	Oh um. no
+MAKE_PIZZA	<topping>olive</topping> pizza
+UNDEFINED	we don't need to know
+UNDEFINED	Oh that’s good.
+MAKE_PIZZA	I would like to order a <size>medium</size> <crust>thin</crust> crust pizza, with <topping>green onions</topping>, <topping>black mushrooms</topping>, and <topping>sausage</topping> <topping>peppers</topping>.
+START_ORDERING	" Hi, I’ll like to order a pizza please."
+MAKE_PIZZA	i want to order a <pizza_type>veggie supreme</pizza_type>. make it <size>small</size>
+MAKE_PIZZA	hi, i'll have a <pizza_type>hawaiian</pizza_type>, please
+ADD_PERSONAL	My card is <numeric>1234 1234 1234 1234</numeric>.  The name on the card is John Johnson
+REQUEST	"Did you get that?  <quant>Two</quant> pizzas, <quant>two</quant> <beverage>cokes</beverage>"
+MAKE_PIZZA	i need a <pizza_type>deep dish</pizza_type> pizza
+THANK	amazing thank you
+MAKE_PIZZA	can i get a <pizza_type>pepperoni</pizza_type> on <crust>regular</crust>. make it <size>10 inch</size>
+REQUEST	" ok, say that again "
+ADD_MODALITY	"<modality>Delivery</modality>, please!"
+ORDER_PREFERRED	could i place another order for my order again, please
+ADD_ATTRIBUTE	<crust>DEEP dish</crust>
+ORDER_PREFERRED	please place another order for my most recent again
+UPDATE_ATTRIBUTE	um [pause] i think i prefer <topping>swiss</topping>
+ADD_MODALITY	<modality>Take out</modality>.
+ADD_PERSONAL	it's <name>rahul</name>
+THANK	Perfect. Thank you!
+ADD_PERSONAL	My phone number is <number>206-123-4567</number>
+UNDEFINED	all
+DEPART	 you too 
+UNDEFINED	 ring ring 
+ORDER_PREFERRED	please place another order for my most common pizza order again
+REQUEST	That’d be perfect thanks.  When will everything be ready?
+DEPART	Bye!
+CONFIRM	" Yes, that's all. "
+ADD_MODALITY	<modality>pick up</modality> sounds good
+ADD_PERSONAL	it's <name>imed</name>
+ADD_MODALITY	<modality>take out</modality> from your <store>maple leaf</store> location, please
+THANK	Okay, thanks. I'll, I'll see you then.
+MAKE_PIZZA	Yeah for the second pizza and then. uh a <topping>mushroom</topping> and uh <topping>spinach</topping>? And <topping>feta</topping>? Do you have that?
+CONFIRM	Yeah. That’s correct.
+DEPART	Okay. Uh, alright bye.
+THANK	thank you
+REQUEST	 Okay! Thank you! How long will it take to get here? 
+MAKE_PIZZA	i want to order a <pizza_type>pepperoni</pizza_type> on <crust>regular</crust>
+REQUEST	 Sorry say that again? 
+DENY	nope
+REQUEST	Can you take it down now?
+UNDEFINED	hold on I have to ask them
+CONFIRM	 Yes! That's my order 
+MAKE_PIZZA	can i get a <pizza_type>pepperoni</pizza_type>. make it <size>large</size>
+ORDER_PREFERRED	"may i order my most frequent again, please"
+MAKE_PIZZA	"i'd like to order a uh <pizza_type>meat lovers</pizza_type> on <crust>gluten free</crust> crust, please"
+CONFIRM	 Excellent! 
+ADD_PERSONAL	it's <number>206-555-8761</number>
+ORDER_PREFERRED	could i get my most recent again
+UNDEFINED	 Great! 
+THANK	Great, thank you
+GREET	"hi,"
+ADD_PERSONAL	let's go with <name>jp</name>
+UNDEFINED	Oof. Let me think here.
+ORDER_PREFERRED	could i place another order for my most recent order
+REQUEST_LISTING	Hi! Do you have any soda?
+ADD_PAYMENT_ATTRIBUTE	Okay. So the card is mycard numbers <numeric>one-two-three-four-five</numeric> and the expiration is the end of the year.
+ADD_MODALITY	<modality>Delivery</modality> please.
+ADD_MODALITY	The first options you listed sound fine.  And can you vary the crusts as well?  We’ll need to <modality>pick up</modality> at <time>2pm</time>.
+MAKE_PIZZA	Hi I’ve got a big order for you.  I am gonna need <quant>one</quant> <size>large</size> <crust>gluten free</crust> pizza, half <pizza_type>Hawaii</pizza_type> half <pizza_type>meat lover’s</pizza_type> with extra <topping>mushrooms</topping>.  One medium <pizza_type>cheese</pizza_type> pizza, nothing special, one <size>large</size> <pizza_type>veggie supreme</pizza_type>, one <size>small</size> <pizza_type>vegan</pizza_type> <crust>thin</crust> crust, and <quant>two</quant> <size>large</size> <pizza_type>pepperoni</pizza_type>, <crust>deep dish</crust>
+ADD_TO_ORDER	"i want another type of pizza, please"
+THANK	thanks
+REQUEST	Can you have that ready in <time>fifteen minutes?</time>
+ADD_PAYMENT_ATTRIBUTE	The card number is <numeric>one-two-three-four-five</numeric> and the expiration is end of the year.
+ADD_PERSONAL	 My name is <name>Yara Grey</name>
+ADD_TO_ORDER	Yes, you remembered great.  Can you have that ready in <time>30 minutes</time>?  And throw in an <beverage>orange pop</beverage> today too?
+UNDEFINED	 ring ring 
+ORDER_PREFERRED	can i get my usual order again
+UNDEFINED	I… just a second…
+ORDER_PREFERRED	can i place another order for my previous pizza again, please
+ADD_PERSONAL	<name>Alex</name>
+CONFIRM	That.s right
+CHECK_ORDER_STATUS	when do you think my pizza order will be ready?
+MAKE_PIZZA	Can I please get <quant>one</quant> <size>large</size> <pizza_type>Hawaiian</pizza_type> Pizza with <quant>extra</quant> <topping>sausage</topping>?
+ADD_ATTRIBUTE	"Oh actually just the <quant>three</quant> separate <pizza_type>4 Cheese</pizza_type> pizzas. Can I get <quant>1</quant> <size>large</size>, <quant>1</quant> <size>medium</size>, <quant>1</quant> <size>small</size>?"
+UNDEFINED	" Hi, this is <name>Angela</name>, I called just now about some <pizza_type>pepperoni</pizza_type> pizzas for <modality>pickup</modality>? "
+UNDEFINED	don't worry about the total
+ADD_PERSONAL	Yeah, um, it.s uh, <name>Jonathan Ives</name>
+UNDEFINED	Okay, maybe next time I'll just buy my own <topping>pineapple</topping> at home, put it on.
+ADD_PERSONAL	"use <name>danko</name>, please"
+MAKE_PIZZA	"can i get a <size>medium</size> <pizza_type>4 cheese</pizza_type>, please ?"
+UNDEFINED	So I need
+UPDATE	Sorry - actually just the <size>small</size> pizza and <side>breadsticks</side> please.
+REQUEST_LISTING	Yeah, yeah, um can I get a...d-do you have the <beverage>2-liter bottles</beverage>?
+ADD_PERSONAL	My name is <name>John</name>.
+ADD_MODALITY	"<modality>pickup</modality>! I want <quant>3</quant> pizzas actually, <quant>no</quant> drinks or anything else"
+UPDATE_MODALITY	actually i was hoping to get it <modality>del[ivered]</modality>
+MAKE_PIZZA	Okay then I will place a pick up order for a <size>large</size> <pizza_type>Hawaiian</pizza_type> pizza and a <beverage>coke</beverage>.
+CONFIRM	Sure, sure let.s do that
+DENY	want the <pizza_type>vegan</pizza_type> pizza with <topping>ham</topping> <topping>bacon</topping> <topping>sausage</topping> and <topping>pepperoni</topping>
+INFORM	"Oh - CLASSIC. Alright, I’ll have <quant>one</quant> of those!"
+ORDER_PREFERRED	could i reorder my usual pizza order
+DEPART	You too.
+CONFIRM	Yes shush for <quant>one</quant> second
+UNDEFINED	No the dog doesn’t want to eat that missy
+ADD_MODALITY	"<modality>take out</modality>, please"<
+GREET	hi,
+ORDER_PREFERRED	"i'd like to place another order for my usual pizza order, please"
+INFORM	"Ok, not a big <topping_type>veggie</topping_type> guy, but that could be good. Let’s give it a shot."
+THANK	Thanks <name>John</name>!!
+UPDATE_ATTRIBUTE	on second thought can you make all of the large’s <crust>gluten free</crust>?
+ADD_PERSONAL	use<name>loganv</name>, please
+REQUEST	"Alright, are you ready?"
+CONFIRM	Perfect. Perfect, let.s do it
+UNDEFINED	"Cuz I've just been like calling different restaurants comparing prices yours look like you have the best pizzas, so I think I'm going to place an order with you, but I wanna kind of minimize the price. So I’m gonna go for just the toppings that are <cost>two dollars</cost> um"
+ADD_ATTRIBUTE	And <topping>spinach</topping>
+UNDEFINED	Did you get that?
+REQUEST_LISTING	If you can have a <topping_type>milkless</topping_type> crust?
+ADD_PAYMENT_ATTRIBUTE	And um uh my security code for that is <numeric>000</numeric> and the expiration is <numeric>12/12</numeric>.
+MAKE_PIZZA	I need to place a <modality>delivery</modality> order for my son’s birthday party tonight at 6.   We need <quant>5</quant> <size>large</size> <pizza_type>pepperoni</pizza_type> and <quant>5</quant> <size>large</size> <pizza_type>cheese</pizza_type> pizzas, 2 liters of lemon soda, and 2 liters of cola.  And one order of breadsticks.  And the address is 54321 St Seattle.   The passcode for the gate is 1234#.
+MAKE_PIZZA	Ummmm hang on let me ask. Okay I think . we want <topping>cheese</topping>, a <pizza_type>cheese</pizza_type> pizza, and a uh half <pizza_type>pepperoni</pizza_type> half <topping>mushroom</topping>?
+MAKE_PIZZA	" <quant>Two</quant> <size>large</size> pizzas, can I get one with <topping>spinach</topping> and <topping>tomatoes</topping> and one with <topping>sausage</topping>? "
+UNDEFINED	"Yeah um, they’re not necessarily better. Oh wow, the-the <topping_type>meat</topping_type> the <topping_type>meat</topping_type> toppings are even more expensive and wow okay so this is going to get expensive with <quant>seven</quant> pizzas, um, hmm."
+CONFIRM	Yes
+REQUEST_LISTING	Uh are you sure that you don.t have <side>pasta</side> cause I.m pretty sure that I.ve called a Domino.s before and they had <side>pasta</side>.
+ADD_PERSONAL	My address is <address>12345 St</address>.  Did you get that?
+GREET	Hello?
+MAKE_PIZZA	Hi, do you--can I--can I get a <size>small</size> pizza, just <topping>cheese</topping>. And is your sauce like a flavorful--do you have like a spicy sauce and a super plain sauce like just tomato
+GREET	"hi,"
+MAKE_PIZZA	Okay I would like a <pizza_type>veggie supreme</pizza_type> pizza, with <topping>pineapple</topping>, too, on a <size>medium</size> <crust>gluten free</crust> crust.  And that will be all.
+START_ORDERING	Hi, I'd like to order pizza today.
+GREET	Hello?
+START_ORDERING	hi uh i was coming to pick up an order of one <topping>pineapple</topping> and <topping>ham</topping> pizza
+ADD_MODALITY	"<modality>pickup</modality>! my card information is <numeric>3334, 11/12, 555</numeric>, and my name is <name>Jimmy Doe</name>"
+UPDATE_PERSONAL	it's <number>206-555-1234</number><
+DENY	" Um no, I am – uhh that is, that is all."
+ADD_PERSONAL	" Yes, <name>Angela</name>"
+REQUEST_COST_OF	Okay, that's perfect. Thank you. And how much does that one cost?
+ADD_MODALITY	"<modality>delivery</modality>, please"
+ADD_MODALITY	 Beautiful. Pickup please! 
+ADD_MODALITY	And I.ll get that for <modality>pickup</modality>.
+REQUEST_LISTING	Do you have any <side>pasta</side>
+ADD_PERSONAL	Okay, my card is <numeric>1234 1234 1234 1234</numeric>, the name is <name>John John</name>.  Can you have that delivered to <address>12345 St.</address>?
+CHECK_ORDER_STATUS	can you, please look up my order?
+MAKE_PIZZA	i'll take a uh <size>large</size> <pizza_type>veggie supreme</pizza_type>
+THANK	thanks
+THANK	 Thank you!
+MAKE_PIZZA	"hi, can i get a <size>small</size> <pizza_type>4 cheese</pizza_type>, please ?"
+ADD_PERSONAL	"Yeah for sure, so I'm right next to Greenlake, I'm at <address>555, um, Green Lake Avenue</address> (clears throat) and the zip code is <address>98103</address>"
+MAKE_PIZZA	Sorry I will need <quant>two</quant> <size>large</size> <pizza_type>cheese</pizza_type> pizzas and <quant>two</quant> <beverage>cokes</beverage> <modality>delivered</modality> to <address>12345 St</address>.
+MAKE_PIZZA	i'll get a uhm <pizza_type>meat lovers</pizza_type>. make it <size>small</size>
+UPDATE_MODALITY	ugh I I can't do <quant>three</quant> dollars I'm sorry change it to pick up
+ADD_PAYMENT_ATTRIBUTE	So, my card information is <numeric>000</numeric> and expiration date <numeric>07/11</numeric>, and then name is <name>Avery</name>
+ADD_MODALITY	<modality>pick up</modality> from your <store>laurelhurst</store> shop would be great
+ADD_PERSONAL	<name>John Doe</name>
+THANK	thanks
+CONFIRM	Okay
+UNDEFINED	Um
+UNDEFINED	That’s the best price I’ve seen in years. <name>John</name> I gotta tell you they don’t make pizza places like this anymore.
+DEPART	 you too! bye
+CHECK_ORDER_STATUS	when will my order be delivered?
+ADD_PAYMENT_ATTRIBUTE	"Yup, the number is <numeric>5667</numeric>, and the security code is <numeric>124</numeric>"
+CONFIRM	"that works yep,"
+ADD_MODALITY	"Hi, I just wanted to see if I can place an order for <modality>delivery</modality>. (Clears throat)"
+UPDATE_ATTRIBUTE	Okay I will take two of the <crust>thin</crust> crusts then.
+REQUEST_LISTING	Yes, I would like to place a <modality>deliver</modality> order for <name>John</name>.  Do you have any <size>large</size> <pizza_type>vegan</pizza_type> pizzas that could be ready in less than <time>15 minutes</time>?
+ADD_MODALITY	<modality>take-out</modality>
+REQUEST_LISTING	I think I want, uh, how- what size pizza should I get if I wanna get <quant>three</quant> pizzas for like, ten people? What do you think?
+ADD_PERSONAL	"Yup, it’s <address>12345 St</address>"
+ADD_PERSONAL	it is <number>206-555-7812</number>
+MAKE_PIZZA	" Uhh <quant>one</quant> <size>large</size> pizza, uh <quant>one half</quant> with <topping>mushrooms</topping> and <quant>one half</quant> with <topping>chicken</topping>."
+UNDEFINED	You guys are the best
+ORDER_PREFERRED	"may i place another order for my most recent pizza, please"
+CONFIRM	"yeah, that would be great"
+MAKE_PIZZA	"may i order a <pizza_type>pepperoni</pizza_type> on <crust>thin</crust>. make it <size>large</size>, please"
+UPDATE_ATTRIBUTE	actually i'll get a different crust type
+DEPART	 Bye!
+ADD_ATTRIBUTE	<size>large</size> pizza
+MAKE_PIZZA	"hello, may i get a <size>10 inch</size> <pizza_type>4 cheese</pizza_type>"
+ADD_PERSONAL	"Okay, yes! <address>200 8th Street SW</address>, the name's <name>John Gates</name>."
+GREET	Hi there!
+ORDER_PREFERRED	i'd like to get my most frequent pizza order, please
+MAKE_PIZZA	"Yes I’d like to place a to-go order for a <size>small</size> <crust>deep dish</crust> pizza with <topping>cheddar</topping>, <topping>swiss</topping>, <topping>provolone</topping>, <topping>green peppers</topping>, <topping>red onion</topping>, <topping>mushrooms</topping>, <topping>onions</topping>, and <topping>olives</topping>."
+UNDEFINED	Darn!
+ADD_MODALITY	yes, let's go with <modality>take out</modality>
+ADD_PERSONAL	use <name>asli</name>, please
+REQUEST	That’s all.  When will the garcon arrive?
+REQUEST_LISTING	So for the <pizza_type>cheese</pizza_type> pizza, um, can you do extra cheese like a lot of extra cheese?
+END_ORDERING	"Yeeah, um. That should be it."
+REQUEST	Uh, is this the location at <address>123 Sunset</address>?
+THANK	- thanks.
+ADD_MODALITY	"yeah, how about <modality>take out</modality>, please"
+UNDEFINED	"Okay, this might be a long order"
+ADD_PERSONAL	it's <name>eva</name>
+ORDER_PREFERRED	please place an order for my usual order
+ADD_MODALITY	<size>Large</size>, delivered to <address>1566 Castle Drive</address>
+UNDEFINED	Just don’t let your old lady find out how much you bet Jerry on the last one
+ORDER_PREFERRED	place an order for my preferred pizza
+ADD_MODALITY	I'll <modality>pick it up</modality>.
+ADD_PERSONAL	it's <name>Michael</name>
+ADD_MODALITY	<modality>Pick up</modality>
+CONFIRM	okay see you soon
+ADD_MODALITY	yes, make it <modality>take-out</modality>, please
+ADD_PAYMENT_ATTRIBUTE	"Yeah, it's <numeric>7777</numeric> with expiration date <numeric>44/34</numeric> and code <numeric>999</numeric>, billing is <numeric>56789</numeric>"
+INFORM	<quant>One</quant> Caesar salad.
+UPDATE_ATTRIBUTE	"i'd rather have a <pizza_type>pepperoni</pizza_type> on <crust>thin</crust> crust instead, please"
+ORDER_PREFERRED	please reorder my previous pizza order
+ADD_PERSONAL	Address: <address>123 MyAddress</address>
+ADD_PERSONAL	<numeric>01/02</numeric>
+ORDER_PREFERRED	please order my most frequent pizza order
+UNDEFINED	Just get the pizza to me quickly, that.s all I ask of you
+DENY	nope
+CONFIRM	Mm-hm        
+ADD_PAYMENT_ATTRIBUTE	CC number is <numeric>7899</numeric>, code is <numeric>322</numeric> and expiration date is <numeric>8832</numeric>
+ADD_MODALITY	"yep, how about <modality>pick up</modality>"
+MAKE_PIZZA	i'll take a <pizza_type>pepperoni</pizza_type> on <crust>gluten free</crust>
+REQUEST	"Yeah. Yeah, true. Um, but how many am I at right now like four? Yeah, I think I’m at four right?"
+ADD_MODALITY	<modality>take-out</modality> will be great
+MAKE_PIZZA	"i'll take a <pizza_type>5 cheese</pizza_type>, please"
+MAKE_PIZZA	[laughs] that's such a good joke i am definitely gonna get the <pizza_type>four cheese</pizza_type> pizza um [pause] and i would like the <size>largest</size> size that you have
+CHECK_ORDER_STATUS	how long until my pizza order is delivered?
+UNDEFINED	"Um, yeah, yeah of course."
+THANK	thank you so much
+ORDER_PREFERRED	"may i reorder my favorite pizza, please"
+INFORM	"Also we'll get <quant>3</quant> <side>bread sticks</side>, <quant>3</quant> <side>cheese sticks</side>, and <quant>3</quant> <beverage>colas</beverage>"
+CONFIRM	You know what that sounds great
+THANK	That is it, thank you
+ADD_ATTRIBUTE	could i get <topping>green peppers</topping> on that as well
+ADD_TO_ORDER	Okay okay um...let me do a <size>medium</size> <beverage>coke</beverage>
+GREET	"hello,"
+REQUEST	Did you get that?
+START_ORDER	hey, how's it going? i'd like to place an order
+MAKE_PIZZA	i want to order a <pizza_type>hawaiian</pizza_type> on <crust>gluten free</crust> crust. make it <size>small</size>
+REQUEST	"Okay. So, so then that one doesn't have any <topping_type>cheese</topping_type> right?"
+CONFIRM	Yeah that.s fine
+ADD_MODALITY	"yes, oh, and can you, please make it <modality>take out</modality>, please"
+UNDEFINED	Ah!
+MAKE_PIZZA	i'll have a <size>10 inch</size> <pizza_type>vegetarian</pizza_type> on <crust>gluten free</crust>
+ORDER_PREFERRED	i'd like to reorder my most recent pizza<
+MAKE_PIZZA	 That sounds amazing. Can I get that as an <size>extra large</size>? 
+MAKE_PIZZA	"i'll get a <pizza_type>4 cheese</pizza_type> on <crust>regular</crust> crust, please"
+REQUEST	Um, how many people does the <size>large</size> serve?
+MAKE_PIZZA	can i order a <size>large</size> <pizza_type>pepperoni</pizza_type> on <crust>thin</crust> crust, please
+DEPART	Bye
+MAKE_PIZZA	The last person wants <pizza_type>veggie supreme</pizza_type> but with <topping>ham</topping>
+MAKE_PIZZA	Hey Jake! <size>14 inch</size> <pizza_type>Hawaiian</pizza_type> please!
+ADD_PAYMENT_ATTRIBUTE	"My name is <name>Stephanie Blair</name>, card number is <numeric>777</numeric>, expiration date is <numeric>11/23</numeric>, code is <numeric>999</numeric>"
+CONFIRM	Great. Okay, great.
+ADD_ATTRIBUTE	"Yeah, I'm going to go for <crust>regular</crust>"
+ADD_PERSONAL	"Is uh, is <name>Jane Doe</name>."
+CONFIRM	Okay. Order should be there in <time>ten minutes</time> I think, yeah.
+ADD_TO_ORDER	 <topping>Garlic butter</topping>! 
+CONFIRM	Yes thank you that’ll be it
+ORDER_PREFERRED	may i place an order for my most common order again
+DEPART	great bye<
+ADD_MODALITY	<modality>pick up</modality>
+CHECK_ORDER_STATUS	how far away is my order ?
+THANK	Perfect! Thank you so much. See you then
+CONFIRM	That is all
+END_ORDERING	That’s it for me. How mush is <modality>delivery</modality>?
+ADD_MODALITY	<modality>delivery</modality> will be great
+DENY	nope, i'd like to change something
+DEPART	" Great! You too, bye."
+THANK	awesome thanks
+MAKE_PIZZA	I like to order <pizza_type>4 cheese</pizza_type> pizza.
+ORDER_PREFERRED	can i place another order for my most recent order again
+ADD_MODALITY	<modality>take-out</modality>, please
+DEPART	Great I’ll drive over now bye-bye
+UPDATE_PERSONAL	Um no - the address is <address>1 7 4 8 4 Ave</address>
+DENY	Erm - no - just the pizza. I’d like <quant>one</quant> <size>small</size> <crust>gluten free</crust> <pizza_type>meat lovers</pizza_type>.
+MAKE_PIZZA	hey, how's it going? i'd like a <pizza_type>vegan</pizza_type>, please
+THANK	Ok awesome thank you
+REQUEST	I think I do…but could you give it to me again?
+UNDEFINED	So expensive.
+THANK	"Great, thank you."
+GREET	Hello?
+CONFIRM	", please yep,"
+ADD_PAYMENT_ATTRIBUTE	"Cool. My card is <numeric>5555</numeric>, expiration date <numeric>33/44</numeric>, security code <numeric>890</numeric>"
+CONFIRM	Yes
+THANK	sounds perfect thanks
+INFORM	 Yes please! A <beverage>coke</beverage>? 
+REQUEST_COST_OF	how much?
+ADD_PAYMENT_ATTRIBUTE	"The card number is <numeric>8923</numeric>, expiration <numeric>10/24</numeric>"
+THANK	mhm thanks bye-bye
+ADD_MODALITY	<modality>pick up</modality> from your <store>issaquah highlands</store> location sounds good
+MAKE_PIZZA	can i order a <pizza_type>veggie supreme</pizza_type>. make it <size>14 inch</size>, please
+DEPART	 You too pal! 
+REQUEST	Do you have the <crust>gluten free</crust> crust?
+ADD_ATTRIBUTE	<crust>Regular</crust> crust, these kids are pretty picky eaters.
+THANK	terrific thanks
+REQUEST	 How long is it going to take?
+UNDEFINED	You’ll have to count it yourself, it’s in nickels
+ADD_MODALITY	"yeah, please make it <modality>pick up</modality>, please"
+ADD_MODALITY	"Umm. Uh, <modality>delivered</modality>, <modality>delivered</modality>, yeah. <modality>Delivered</modality>."
+ADD_PAYMENT_ATTRIBUTE	Perfect, let me give you my card...um that.s gonna be -- the number is um <numeric>1024</numeric>
+GREET	 ring ring
+ADD_PERSONAL	"Address is <address>1410 NE Campus Parkway Seattle, WA 98195</address>."
+ORDER_PREFERRED	i'd like to get my most common again, please
+CHECK_ORDER_STATUS	is my order ready?
+REQUEST	Just <pizza_type>cheese</pizza_type> or <pizza_type>pepperoni</pizza_type>?
+ORDER_PREFERRED	can i place an order for my usual order again
+ADD_MODALITY	yes, how about <modality>to go</modality>, please
+UNDEFINED	No it’s just the pizza order.
+ADD_PAYMENT_ATTRIBUTE	Okay, the card type is <payment>mycard</payment> and the name is <name>Hannah Smith</name>.
+UPDATE_PERSONAL	it's <name>imed</name> wait <name>paul white</name>
+DEPART	 You too, bye! 
+ADD_MODALITY	"Oh, you have <modality>delivery</modality> now? Wonderful! <modality>Delivery</modality>!"
+DENY	No just the pizza
+ADD_ATTRIBUTE	i need a uhh... <pizza_type>4 cheese</pizza_type>, please
+UNDEFINED	Oh ok that might be a problem
+ADD_PERSONAL	<name>Walter</name>
+REQUEST	"Just confirming, this is <store>Pizza Pizza on 23456 Ave</store>?"
+INFORM	"Um, I think bout <time>3pm</time>."
+REQUEST	You get that that time?
+END_ORDERING	um and that will be all for me
+THANK	awesome thanks
+ADD_MODALITY	forrr <modality>pickup</modality> please
+CONFIRM	Mhm.
+ADD_PERSONAL	It’s <numeric>1234 1234 1234 1234</numeric>.  The security code is <numeric>123</numeric><
+ADD_PAYMENT_ATTRIBUTE	I can pay over the phone.
+CHECK_ORDER_STATUS	how long until my pizza order is ready?
+UNDEFINED	 Oh no! 
+CONFIRM	yes that's it thank you so much
+CONFIRM	Yes please
+INFORM	"Okay, the sides, I will get <quant>two</quant> orders of each of the sides."
+INFORM	"Uhhh uh yeah, uh a cola. Umm."
+DENY	no
+MAKE_PIZZA	hey, how's it going? i'll have a <pizza_type>supreme</pizza_type>, please
+THANK	amazing thanks
+ORDER_PREFERRED	order my previous again
+GREET	hello,
+ADD_PAYMENT_ATTRIBUTE	Okay yes it is <numeric>1234 1234 1234</numeric> stop that <numeric>1234</numeric>
+THANK	Okay great, thank you
+THANK	Thank you ma’am.<
+CONFIRM	You bet!
+THANK	 Thanks! 
+END_ORDERING	great i think that'll be all for me
+ADD_TO_ORDER	Can I get uh, <beverage>Dr. Pepper.</beverage> and. a <beverage>Sprite</beverage>
+MAKE_PIZZA	Wow - this is going to be the best dinner I’ve had in months. I’ll take a <size>large</size>. What’s your name again?
+ADD_PERSONAL	<name>Mr Man</name>
+UNDEFINED	 I'll call right back 
+GREET	hi can you hear me
+DENY	no
+UNDEFINED	Let’s see
+CONFIRM	Yeah
+ADD_MODALITY	<modality>delivery</modality> sounds good
+REQUEST	Hello are you Pizza Restaurant?
+ADD_MODALITY	<modality>Delivery</modality>
+DENY	"Um, no, I don't think so."
+MAKE_PIZZA	Hi! Can I get a <size>large</size> <pizza_type>cheese</pizza_type> pizza, <size>large</size> <pizza_type>pepperoni</pizza_type> pizza, and <size>extra large</size> <pizza_type>supreme</pizza_type> pizza with <quant>no</quant> <topping>peppers</topping> on it
+CONFIRM	um that's fine
+ADD_ATTRIBUTE	let's go with a <pizza_type>meat lovers</pizza_type>
+MAKE_PIZZA	can i order a <pizza_type>veggie supreme</pizza_type> on <crust>regular</crust>
+THANK	thanks
+ADD_PERSONAL	put it under <name>danko</name>
+CONFIRM	I guess I-- I guess that.s fine
+MAKE_PIZZA	i'd like to get a <pizza_type>pepperoni</pizza_type>. make it <size>medium</size>
+ADD_ATTRIBUTE	these are all gonna be <size>small</size>
+ADD_PERSONAL	Great. The address will be <address>76543 Blvd</address>
+CONFIRM	right
+CONFIRM	yes
+ADD_MODALITY	I would like my order <modality>delivered</modality> please.
+ADD_PERSONAL	"Sure, it's <name>Jonah Johnson</name>, <numeric>2222</numeric>"
+CONFIRM	 Yes 
+REQUEST	and do you also have those little packets with the uh <side>Italian herb</side>
+CONFIRM	Amazing, perfect
+CHECK_ORDER_STATUS	when will my order arrive here?
+MAKE_PIZZA	i'd like to get a <pizza_type>pepperoni</pizza_type>. make it <size>10 inch</size>
+ORDER_PREFERRED	"may i reorder my most frequent again, please"
+DENY	 No thanks!
+REQUEST_LISTING	 Hi! I'd like a <size>large</size> <topping_type>meaty</topping_type> pizza. What do you have that's just covered in <topping_type>meat</topping_type>? 
+ADD_TO_ORDER	Okay. Well I.ll just get the <side>garlic bread</side> I.ll get two orders of that.
+START_ORDERING	hi um can i place an order for a pizza
+GREET	hey, how's it going?
+ADD_PAYMENT_ATTRIBUTE	I'll pay when I <modality>pick up</modality>.
+UNDEFINED	Oh, um
+REQUEST	Can- Is it premade? Or can you get, can you, um, <quant>not</quant> put the <topping>butter</topping> on it?
+ADD_PERSONAL	<name>John Doe</name>
+MAKE_PIZZA	Hi! Can I please get <quant>one</quant> <pizza_type>regular</pizza_type> pizza with <toppping>ham</toppping>?
+CONFIRM	uh yes
+REQUEST	Can you recommend a crowd pleasing variety?
+UNDEFINED	Let me find my menu here
+THANK	All right. Thank you.
+UNDEFINED	……
+MAKE_PIZZA	"Okay, so I'm gonna have to get at least <quant>one</quant> of those"
+GREET	"hey, how's it going?"
+MAKE_PIZZA	i want to order a <pizza_type>meat lovers</pizza_type> on <crust>gluten free</crust> crust. make it <size>10 inch</size>, please
+ADD_ATTRIBUTE	i'd like to get a <pizza_type>4 cheese</pizza_type>
+THANK	" Thank you, you too!"
+ADD_ATTRIBUTE	could i get <topping>green peppers</topping> on that as well
+ADD_ATTRIBUTE	 <size>Large</size>! And <quant>extra</quant> <topping>cheese</topping> 
+CONFIRM	"That would be perfect, thanks!"
+CONFIRM	Mhm.
+REQUEST_COST_OF	 Aw man, did you raise your prices? 
+THANK	Perfect. Thanks so much.
+ADD_ATTRIBUTE	uh um i'll have your uh <size>smallest</size> size
+REQUEST	"Oh, wow. That sounds awesome. Just making sure, there is <topping>pepperoni</topping> on that?"
+ORDER_PREFERRED	place an order for my usual order
+START_ORDERING	"hey, how's it going? i'd like to place an order"
+ORDER_PREFERRED	please reorder my preferred order again
+ORDER_PREFERRED	please get my previous
+THANK	Great see you then.
+UPDATE_MODALITY	Perfect. So I can come <modality>pick this up</modality> <time>3 pm Friday</time>.
+ADD_PERSONAL	put it under <name>karthik</name>
+MAKE_PIZZA	"can i order a <size>large</size> <pizza_type>meat lovers</pizza_type>, please"
+REQUEST	"Person four doesn't like <topping_type>cheese</topping_type>, <topping_type>vegetables</topping_type>, or <topping_type>meat</topping_type>, what do you recommend for them?"
+INFORM	That’s correct. Let me get <quant>one</quant> <side>Caesar salad<side> aswell
+ADD_PAYMENT_ATTRIBUTE	It’s <numeric>1234567890987654</numeric>
+CONFIRM	"yes,"
+ORDER_PREFERRED	place another order for my favorite again
+MAKE_PIZZA	i need a uhh... <pizza_type>hawaiian</pizza_type>. make it <size>12 inch</size>
+START_ORDERING	i'd like to order for <modality>take out</modality> from your <store>redmond town center</store> store
+ORDER_PREFERRED	i'd like to place another order for my favorite
+ADD_ATTRIBUTE	"Hm, ok - the <size>large</size> sounds great. Do you have <crust>cheese filled</crust> crust?"
+ADD_MODALITY	how about <modality>pick up</modality>
+INFORM	" awesome, can I have that and some of the <side>garlic sauce dip</side>? "
+REQUEST_LISTING	 What sides do you have? 
+UNDEFINED	"Yes, everything’s fine, it’s just my father hasn’t been well lately."
+CONFIRM	i'd like one <pizza_type>vegan</pizza_type> <crust>deep dish</crust> pizza with yes all of the <topping_type>meat</topping_type> items
+ADD_ATTRIBUTE	 <size>Large</size> 
+DEPART	I’ll have to call you back later for the pizza
+THANK	I suppose I will let the groundskeeper know that James is on his way… Thank you young man.
+UNDEFINED	Um, we.re pretty hungry.so. I don.t know.
+REQUEST	 Do you take <payment_type>mastercard</payment_type>? 
+ADD_MODALITY	Hi there! I’d like to place an order for <modality>delivery</modality>
+UNDEFINED	Oh, billing zip code.
+ADD_MODALITY	oh great um well that sounds good for me can i get that for <modality>pick up</modality>
+ADD_ATTRIBUTE	No, all the large pizzas should have <crust>gluten free</crust> crust.  And I. only want <topping>mushrooms</topping> on the <topping_type>meat</topping_type> half of the half and half pizza.
+CONFIRM	Yeah.
+ADD_PERSONAL	<name>soumya</name>, please
+DEPART	See ya round!
+START_ORDERING	 Hi Dominos! Can I get a pizza? 
+ADD_MODALITY	<modality>take out</modality>
+ADD_PERSONAL	uh <name>Gerald</name>
+ADD_MODALITY	"yes, <modality>take out</modality> sounds good"
+MAKE_PIZZA	hi, may i get a <size>large</size> <pizza_type>4 cheese</pizza_type>
+ADD_MODALITY	let's go with <modality>take-out</modality>, please
+ADD_PERSONAL	to <address>123 elm st</address>
+REQUEST	"Hi um I'm throwing a graduation party for my brother, um, it's actually at the end of the week, but I'm shopping around for prices now. Um, how much do you, how many pizzas Do you think I would need for <quant>50</quant> people?"
+ADD_ATTRIBUTE	"Yes! <toppping>Spinach</toppping> please! <toppping>Cheese</toppping>, <toppping>sausage</toppping>, <toppping>spinach</toppping>. "
+DENY	 Nope 
+MAKE_PIZZA	Hello I need <quant>to</quant> <size>large</size> <pizza_type>cheese</pizza_type> pizzas <quant>two</quant> <beverage>cokes</beverage> with I need you to get off of that furnace right now do you hear me I swear to god I’m sorry
+ADD_PERSONAL	And the name for it is. <name>Melanie</name>
+ORDER_PREFERRED	i'd like to order my previous pizza order again
+ADD_TO_ORDER	oh <beverage>cola</beverage> sounds great can i get one of those too
+CONFIRM	Perfect
+CONFIRM	yeah that's it
+MAKE_PIZZA	"hey, how's it going? i'd like a <size>medium</size> <pizza_type>4 cheese</pizza_type>"
+UNDEFINED	Oh
+UNDEFINED	I have <quant>seven</quant> people who all want different pizzas
+INFORM	Okay, think we.re gonna need . ten should be good if you have like a set of ten
+CONFIRM	that sounds great
+CHECK_ORDER_STATUS	where's the pizza i ordered?
+REQUEST	Hi! Can you <modality>deliver</modality> to <address>5803 Green Parkway NE</address>?
+REQUEST	 That's fine. How long will it take? 
+GREET	Hello.
+ORDER_PREFERRED	please place an order for my most recent order
+ORDER_PREFERRED	please place an order for my most recent pizza again
+GREET	Hello?
+ADD_PAYMENT_ATTRIBUTE	And, um, oh the-the zip code is <numeric>11111</numeric>
+THANK	thank you bye
+REQUEST	Oh, why not?
+MAKE_PIZZA	can i order a <pizza_type>hawaiian</pizza_type>
+DEPART	You too
+ADD_MODALITY	Hi! Can I please place an order for <modality>pick up</modality>?
+ORDER_PREFERRED	place an order for my previous pizza again
+ORDER_PREFERRED	"could i place another order for my most frequent order, please"
+MAKE_PIZZA	can i get a <pizza_type>4 cheese</pizza_type> on <crust>thin</crust> crust
+THANK	Sounds great. Thank you for your kind service!
+ADD_ATTRIBUTE	" Oh, <toppping>sausage</toppping> please! "
+THANK	 Thanks! 
+ADD_MODALITY	<modality>take out</modality> will be great
+UPDATE_PERSONAL	it's <name>eva</name> wait <name>tigh white</name>
+UNDEFINED	 You too!
+INFORM	"Oh, I see. Okay, that's, that's good. I think I'll go with that one."
+GREET	uh hello
+GREET	"Hi! Sorry, erm, just a moment here"
+ADD_PAYMENT_ATTRIBUTE	Okay. All right so I'm going to be paying with a <payment>Visa</payment>.
+ADD_PERSONAL	it's <number>519-555-0021</number>
+CONFIRM	okay i'll see you in <time>fifteen minutes</time>
+ADD_ATTRIBUTE	 <crust>thick</crust> crust please 
+MAKE_PIZZA	 Hi <name>Anna</name>! Can I get a <size>large</size> <pizza_type>Hawaiian</pizza_type>? And some <side>breadsticks</side>? 
+ADD_PAYMENT_ATTRIBUTE	Expiration date is <numeric>05/54</numeric> and the code is <numeric>123</numeric>
+REQUEST_LISTING	Do any of your specialty pizzas have <side>pineapple</side> and <side>ham</side>?
+ADD_PERSONAL	put it under <name>eva</name>
+CONFIRM	 Sounds great! I'll have that 
+REQUEST_LISTING	<quant>Three</quant> <size>larges</size>?
+INFORM	"Hi, is it possible to just get <quant>3</quant> orders of your <side>breadsticks</side> and a <beverage>drink</beverage>?"
+DENY	nope that’ll be all
+REQUEST	I love salad! What’s your favorite?
+CONFIRM	that works yes,
+ADD_PERSONAL	The name of the order is <name>Jane</name>.
+MAKE_PIZZA	" Could I get a <size>medium</size> pizza with <quant>no</quant> <topping_type>cheese</topping_type>, only <topping>sauce</topping> and <topping>spinach</topping>? "
+REQUEST	"Hi, does Tony's sell slices or just whole pizzas?"
+CONFIRM	that would be great yes,
+ADD_MODALITY	yes <modality>delivered</modality> to ugh i swear you to <address>12345 St</address> that’s all
+UNDEFINED	Do you have a pen and paper ready?  I know what I want.
+THANK	thanks
+CONFIRM	Sure that’s fine
+THANK	terrific thank you
+UPDATE_PAYMENT_ATTRIBUTE	"oh, sorry it's <numeric>44/33</numeric>"
+UNDEFINED	um
+THANK	"Oh right! Alright, that sounds great"
+GREET	 ring ring
+CONFIRM	"Yes, that's all. My card is <numeric>2363</numeric>, code <numeric>425</numeric>"
+UPDATE_PERSONAL	Ah 9.. <address>98103</address>
+ADD_PERSONAL	it is <number>360-555-7777</number>
+MAKE_PIZZA	Um, hi. I just want to get a, a <size>large</size> pizza please.
+CONFIRM	Yep
+CONFIRM	Awesome
+CONFIRM	 yes please 
+ADD_MODALITY	<modality>take-out</modality>, please
+ADD_MODALITY	"I’ll come get it, thanks."
+MAKE_PIZZA	i'll get a <size>medium</size> <pizza_type>pepperoni</pizza_type>
+INFORM	Hi so I have a <topping_type>milk</topping_type> allergy, um
+ADD_ATTRIBUTE	i'll have a <pizza_type>pepperoni</pizza_type>
+ADD_TO_ORDER	Okay okay um...let me do a <size>medium</size> <beverage>coke</beverage>
+INFORM	I’d like <quant>3</quant> <beverage>orange sodas</beverage>
+MAKE_PIZZA	i'll order a uhm... <pizza_type>veggie supreme</pizza_type>
+ADD_MODALITY	I.ll come in for <modality>pickup</modality>
+REQUEST_LISTING	Alright. And then, um, what about <pizza_type>cheese</pizza_type> options
+INFORM	<quant>One</quant> Cola.
+ORDER_PREFERRED	place an order for my preferred pizza order
+MAKE_PIZZA	"the first person wants a pizza with <topping>bacon</topping>, <topping>sausage</topping>, and <topping>green peppers</topping>"
+UPDATE_ATTRIBUTE	um i think i'd like the <crust>thin</crust> i mean i mean the <crust>regular</crust>
+ORDER_PREFERRED	can i place an order for my previous order, please
+ADD_MODALITY	Hi! Can I place an order for <modality>delivery</modality>?
+GREET	hello
+ADD_PERSONAL	 And the full name is <name>Lena Horne</name> 
+CONFIRM	yeah that's it
+MAKE_PIZZA	"i'd like to order a <pizza_type>hawaiian</pizza_type> on <crust>gluten free</crust>. make it <size>14 inch</size>, please"
+CONFIRM	That’s correct.
+DEPART	" Thank you, goodbye!"
+CONFIRM	"Oh, yeah, I think that’s right…um"
+ADD_PERSONAL	"<adddress>31 5th Street Northeast</adddress>, please!"
+ADD_TO_ORDER	 I'll take the <beverage>Sierra Mist</beverage>
+CHECK_ORDER_STATUS	where's the pizza i ordered?
+CHECK_ORDER_STATUS	is my order ready?
+ORDER_PREFERRED	please place another order for my favorite
+ADD_MODALITY	yes, make it <modality>pick up</modality> from your <store>fremont</store> location
+ORDER_PREFERRED	could i take my most common pizza order again
+UNDEFINED	Oh, well, I'm a little offended that you're insulting my pizza topping choices.
+DEPART	I have to go now.
+INFORM	" A <size>large</size> <beverage>Coke</beverage>, please! "
+CHECK_ORDER_STATUS	how long until my order is delivered?
+ADD_MODALITY	Got it - that should be enough time for me to swing by for <modality>Pick up</modality>!
+ADD_MODALITY	<modality>DELIVERY</modality>.
+ADD_ATTRIBUTE	<crust>Regular</crust>.
+ADD_ATTRIBUTE	<crust>thin</crust> crust I think
+REQUEST	And then the... do you need the CV or that.. that security code on the back? 
+INFORM	Right and we need it at 6pm sharp
+UNDEFINED	 Oh fantastic!
+MAKE_PIZZA	"may i get a uhm... <pizza_type>pepperoni</pizza_type> on <crust>regular</crust>, please"
+ADD_MODALITY	please make it <modality>take-out</modality>, please
+GREET	 ring ring 
+ADD_ATTRIBUTE	<crust>Thin</crust> please!
+MODIFY_ORDER_MODALITY	 Would it be possible to change that to <modality>delivery</modality>? I don't think I'll be able to get over there to <modality>pick up</modality>. 
+INFORM	I think they love <topping>bacon</topping>. So I guess I would say they can be a good one.
+REQUEST	"Hmm, okay. So, um, and also just, I just don't even know like, what kinds of pizzas I should order for that many people. Um like, what do you think are like the favorites here?"
+ADD_MODALITY	Yes, and, uh we.ll get that for <modality>delivery</modality>, um, to <address>84 48th street suite 12</address>.
+INFORM	 I'd love some <side>bread sticks</side> please! 
+MAKE_PIZZA	"i need a <pizza_type>5 cheese</pizza_type> on <crust>deep dish</crust>, please"
+ADD_MODALITY	"yep, make it <modality>take out</modality>, please"
+ADD_ATTRIBUTE	i'll have a <pizza_type>4 cheese</pizza_type>
+ORDER_PREFERRED	may i reorder my usual pizza order
+ADD_MODALITY	"<modality>take out</modality> from your bellevue square shop will be great, please"
+UNDEFINED	I
+UPDATE_ATTRIBUTE	"i'd like a different type of pizza, actually"
+MAKE_PIZZA	"So those are <topping>pineapple</topping>, <topping>green peppers</topping>, <topping>red onions</topping>, <topping>mushrooms</topping> and <topping>black olives</topping>. Right? So I want them ( Mmm) <quant>two</quant> pizzas that just have all of those things on it."
+MAKE_PIZZA	i'll order a <pizza_type>vegetarian</pizza_type>. make it <size>14 inch</size>, please
+REQUEST	Do you have <topping>salami</topping> as well?
+THANK	"Got it, thank you so much"
+UPDATE_PERSONAL	<name>Walter E Smithe</name>
+MAKE_PIZZA	" A <size>small</size> <pizza_type>Hawaiian</pizza_type> pizza and a <size>large</size> <pizza_type>supreme</pizza_type>, please. "
+CONFIRM	"absolutely yeah,"
+ADD_PAYMENT_ATTRIBUTE	"Yes, it's <numeric>5667</numeric>, code <numeric>142</numeric>, expires <numeric>12/12</numeric>"
+ADD_TO_ORDER	[aside] Ok...ok...no you can.t have, no [phone] Let.s do--let.s do a <size>small</size> <beverage>lemonade</beverage>
+ORDER_PREFERRED	may i reorder my preferred pizza
+MAKE_PIZZA	may i get a uh <pizza_type>veggie supreme</pizza_type>. make it <size>12 inch</size>
+INFORM	"[overlapping]Okay, I can- I can pick it up on <time>Friday</time>."
+ORDER_PREFERRED	please order my previous
+CONFIRM	Yes yeah that.s right
+UNDEFINED	Oh
+ADD_ATTRIBUTE	 Uhh <topping>margarita sauce</topping>.
+MAKE_PIZZA	Oh it.s okay I.ll just get, um, can I get a custom pizza? With--
+THANK	 Sounds good. Thank you.
+REQUEST	Oh how long . um how long should it be before the <side>garlic bread</side> . do you have that ready .
+UPDATE_ATTRIBUTE	<topping>Spinach</topping>
+ADD_PERSONAL	Yeah um it.s <address>321 6th avenue northeast, um, Seattle, Washington, 00000</address>
+ADD_PERSONAL	 My name is <name>Ann</name>
+UPDATE_ATTRIBUTE	"Sorry, but I’d like to stick to the original order. So that’s <quant>1</quant> <size>small</size> <pizza_type>Cheese</pizza_type> pizza, <quant>1</quant> <size>medium</size> <pizza_type>Cheese</pizza_type> pizza, and <quant>1</quant> <size>large</size> <pizza_type>Cheese</pizza_type> pizza."
+ORDER_PREFERRED	please order my favorite pizza order
+CONFIRM	yeah thats right
+INFORM	Yes and you.re gonna go up the stairs and down the left hallway and we.re the first on the right
+CONFIRM	 Yep 
+ADD_MODALITY	<modality>Delivery</modality> pls
+THANK	"Great, thank you so much. I’ll get my card, just a second!"
+MAKE_PIZZA	"Hi yes, I need <quant>five</quant> assorted <size>large</size> pizzas."
+REQUEST	"And that has <quant>all</quant> the toppings I want, the <pizza_type>veggie supreme</pizza_type>?"
+REQUEST	Can I have my order <modality>delivered</modality>?
+GREET	hello
+ADD_MODALITY	hi, i'd like a <modality>pick up</modality> order
+GREET	"Hi! That sounds great, but I’m actually vegetarian! haha"
+THANK	thank you
+START_ORDERING	Great - yes I would like to place a pizza order
+MAKE_PIZZA	No um can I - can I also get, um, a <size>medium</size> <pizza_type>hawaiian</pizza_type> pizza?
+REQUEST	"Okay. Um, and what size would those need to be?"
+ADD_PAYMENT_ATTRIBUTE	<numeric>1234 1234 1234 1234</numeric>
+ADD_MODALITY	<modality>delivery</modality> will be great
+THANK	great thank you
+MAKE_PIZZA	"Hi! I’d like to place an order for <quant>2</quant> <size>small</size> pizzas - one is a <crust>regular</crust> <pizza_type>vegan</pizza_type>, and the other is a <crust>deep dish</crust> <pizza_type>veggie surpreme</pizza_type>."
+THANK	" Okay, thanks! "
+ADD_MODALITY	<modality>delivery</modality> would be great, please
+REQUEST	Do you give, um, cups and napkins, too?
+ADD_MODALITY	<modality>pick up</modality> will be great, please
+ADD_PAYMENT_ATTRIBUTE	Yeah, hang on . Ok, so number is <numeric>5600</numeric>. Um, expiration date <numeric>00/12</numeric>, um and the code on that is <numeric>123</numeric>
+THANK	amazing thanks
+ADD_PERSONAL	My number is <number>123456789</number>
+GREET	hey, how's it going?
+CHECK_ORDER_STATUS	can you look up the status of my order?
+START_ORDERING	hello i’d like to order a pizza please
+DEPART	Alright peace out brother
+ADD_PAYMENT_ATTRIBUTE	My card info is <numeric>5444 expr 16/15</numeric> name Cassidy
+INFORM	" Thanks, can I make that drink a <beverage>sprite</beverage>? "
+THANK	 Thank you! 
+CONFIRM	Absolutely
+MAKE_PIZZA	Okay, I would like a <pizza_type>Hawaiian</pizza_type> pizza then instead.  On a <size>medium</size> <crust>gluten free</crust> crust.  You’ve still got <topping>pineapple</topping> don’t you?  It’s a fruit not a vegetable.
+ADD_MODALITY	yes, <modality>pick up</modality> sounds good
+ADD_PERSONAL	Same name and zip code is <numeric>56789</numeric>
+THANK	 Okay! Thanks so much!
+UNDEFINED	 ring ring 
+UNDEFINED	Let me look at the menu again.
+ADD_MODALITY	"Hi! Yes, I’d like to place an order for <modality>delivery</modality>"
+UNDEFINED	Oh….oh my gosh.
+CONFIRM	that'd be great
+INFORM	Yeah, well, I, it.s not a severe <topping>milk</topping> allergy
+ORDER_PREFERRED	could i place another order for my preferred pizza order
+ADD_PAYMENT_ATTRIBUTE	Expiration <numeric>10/10</numeric>
+INFORM	You should have said something.
+ADD_MODALITY	<modality>pick up</modality> sounds good
+CONFIRM	yep,
+THANK	 Thanks! 
+ORDER_PREFERRED	Hello this is <name>John</name> I want to get my usual pickup order for Saturdays.
+THANK	awesome thanks!
+ADD_MODALITY	<modality>take out</modality>
+REQUEST	can you <modality>deliver</modality> it now
+DEPART	Goodbye
+THANK	In <time>20 minutes</time>?  Okay thank you very much.
+INFORM	For me and some friends. Yes.
+ORDER_PREFERRED	"may i get my most recent, please"
+ADD_TO_ORDER	 Ooh the <side>marbled cookie brownie</side> sounds tasty, add that on 
+REQUEST_COST_OF	okay and how much does uh money does that come out to
+MAKE_PIZZA	hello, can i get a <quant>no</quant> <topping_type>dairy</topping_type> <quant>no</quant> <topping_type>meat</topping_type> <pizza_type>special</pizza_type> ?
+ORDER_PREFERRED	please place an order for my most common pizza order again
+ORDER_PREFERRED	can i reorder my favorite order again
+MAKE_PIZZA	hi, can i get a <pizza_type>meat lovers</pizza_type> ?
+REQUEST_LISTING	Do you guys also have, um <side>brownies</side>? They.re asking for <side>brownies</side>.
+UNDEFINED	Okay
+ORDER_PREFERRED	reorder my previous
