@@ -23,7 +23,7 @@ noise - the probbaility with whicch to mask words in training to simulate
 	ASR errors
 
 first modified 16 february 2021
-last modified 17 feburary 2021
+last modified 19 feburary 2021
 sara ng
 
 '''
@@ -70,7 +70,7 @@ def preprocess_data(train,noise=0):
 
 def tokenize_and_tag(x,n,noise):
 	# pull out the tokens, slot tags, ngrams, and pos tags
-	soup = BeautifulSoup(x.Sentence,'html.parser')
+	soup = BeautifulSoup(x.Sentence.lower(),'html.parser')
 	tokenized = []
 	slottags =[]
 	for tag in soup.contents:
@@ -98,6 +98,7 @@ def define_lexical_cateories(x,n):
 		["card", "code", "expiration", "number", "date", "security"],
 		["under", "card", "number", "name", "street"],
 		["cola", "soda", "root", "beer", "ceasar", "salad", "side"],
+		['cheddar','swiss','provolone','pineapple','greenpeppers','onions','mushrooms','olives','pepperoni','ham','bacon','sausage'],
 		["how", "long", "when", "where", "'s", "ready", "order"],
 		["yes", "yeah", "yep", "absolutely", "right", "great", "okay", "mhm", "amazing", "perfect"],
 		["no", "nope"],
@@ -165,7 +166,7 @@ def main():
 						'DATA5': 'data/data5.txt',
 						'DATA6': 'data/data6.txt'}
 	# adjust the noise in training
-	X, y, _ = preprocess_data(train_path,noise=0.05)
+	X, y, _ = preprocess_data(train_path,noise=0.2)
 	test_data_X = {}
 	test_data_y = {}
 	for k,v in evaluation_paths.items():
