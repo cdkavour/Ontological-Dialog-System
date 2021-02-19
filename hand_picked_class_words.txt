@@ -1,0 +1,169 @@
+ADD_ATTRIBUTE
+	"i need"
+	"let's go with"
+	"can i get"
+	"could i get"
+
+ADD_MODALITY
+	"to get it"
+	"get that for"
+	"soon as possible"
+	"that'll be"
+	"that's for"
+
+ADD_PAYMENT_ATTRIBUTE
+	"card"
+	"code"
+	"expiration"
+	"number"
+	"date"
+	"security"
+
+ADD_PERSONAL
+	"under"
+	"card"
+	"number"
+	"name"
+	"street"
+
+ADD_TO_ORDER
+	"cola"
+	"soda"
+	"root beer"
+	"ceasar"
+	"salad"
+	"side"
+
+CHECK_ORDER_STATUS
+	"how long"
+	"when"
+	"where's"
+	"ready"
+	"order"
+
+CONFIRM
+	"yes"
+	"yeah"
+	"yep"
+	"absolutely"
+	"right"
+	"great"
+	"okay"
+	"mhm"
+	"amazing"
+	"perfect"
+
+DENY
+	"no"
+	"nope"
+
+DEPART
+	"bye"
+	"you too"
+	"bye-bye"
+	"peace"
+
+END_ORDERING
+	"that will be all"
+	"that'll be all"
+	"should be it"
+	"that's it"
+
+GREET
+	"hello"
+	"hi"
+	"hi!"
+	"hey"
+	"how's it going"
+	"ring"
+
+INFORM
+
+MAKE_PIZZA
+	"i'll have"
+	"i want to order"
+	"i'd like to order"
+	"may i order"
+	"i'll order"
+	"can i order"
+	"i need"
+	"let's go with"
+	"can i get"
+	"could i get"
+
+MODIFY_ORDER_MODALITY
+	"change that to"
+
+MODIFY_PREFERRED_ORDER
+	"update my preferred"
+	"change my preferred"
+
+ORDER_PREFERRED
+	"my favorite"
+	"my most frequent"
+	"my usual"
+	"my preferred"
+	"my most common"
+	"my previous"
+	"my most recent"
+
+REMOVE_ATTRIBUTE
+	"without"
+	"take off"
+
+REQUEST
+	"do you have"
+	"recommend"
+
+REQUEST_COST_OF
+	"how much"
+	"cost"
+	"price"
+	"prices"
+	"money"
+
+REQUEST_LISTING
+	"to drink"
+	"what's in"
+	"what is"
+	"what kind"
+	"what kinds"
+	"do you have"
+
+START_ORDERING
+	"place an order"
+	"could i order"
+	"like to order"
+	"hey"
+	"order a pizza"
+
+THANK
+	"thank you"
+	"thanks"
+
+UPDATE
+
+UPDATE_ATTRIBUTE
+	"rather have"
+	"rather get"
+	"actually"
+	"different"
+	"no, i want"
+	"i prefer"
+	"on second thought"
+
+UPDATE_MODALITY
+	"actually"
+	"hoping to get"
+	"change it to"
+
+UPDATE_PAYMENT_ATTRIBUTE
+	"sorry"
+
+UPDATE_PERSONAL
+	"it's"
+	"it's for"
+	"wait"
+	"it's actually"
+	"no"
+	"sorry"

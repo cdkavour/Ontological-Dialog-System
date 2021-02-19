@@ -1,0 +1,121 @@
+Intent	Sentence
+MAKE_PIZZA	Um, hi. I just want to get a, a <size>large</size> pizza please.
+UPDATE_ATTRIBUTE	Uh, no, I want a <pizza_type>Hawaiian</pizza_type> pizza, please.
+REQUEST	Oh, why not?
+UNDEFINED	Oh, well, I'm a little offended that you're insulting my pizza topping choices.
+UPDATE_ATTRIBUTE	Well, I asked for <pizza_type>Hawaiian</pizza_type>. <pizza_type>Hawaiian</pizza_type> comes with <topping>pineapple</topping> and <topping>ham</topping>.
+CONFIRM	Mhm.
+DENY	No, I'll just, just the pizza, please.
+UNDEFINED	So expensive.
+UNDEFINED	Okay, maybe next time I'll just buy my own <topping>pineapple</topping> at home, put it on.
+ADD_MODALITY	I'll <modality>pick it up</modality>.
+ADD_PAYMENT_ATTRIBUTE	I'll pay when I <modality>pick up</modality>.
+CONFIRM	Okay.
+ADD_PERSONAL	<name>Jennifer</name>.
+THANK	Okay, thanks. I'll, I'll see you then.
+MAKE_PIZZA	Hey um can I get a <size>large</size> pizza, no <topping>cheese</topping>, <topping>diced tomatoes</topping>, and <topping>spinach</topping>?
+DENY	Oh um. no
+REQUEST_LISTING	Yeah, yeah, um can I get a...d-do you have the <beverage>2-liter bottles</beverage>?
+ADD_TO_ORDER	Okay okay um...let me do a <size>medium</size> <beverage>coke</beverage>
+ADD_ATTRIBUTE	<topping>Spinach</topping>
+UPDATE_ATTRIBUTE	You know what if you have <topping>kale</topping> we can do both
+CONFIRM	Amazing, perfect
+ADD_PAYMENT_ATTRIBUTE	Perfect, let me give you my card...um that.s gonna be -- the number is um <numeric>1024</numeric>
+ADD_PAYMENT_ATTRIBUTE	Um and the code is <numeric>782</numeric>…the expiration is <numeric>12/89</numeric>
+ADD_PERSONAL	<name>John Doe</name>
+THANK	That is it, thank you
+UNDEFINED	Oh, um
+ADD_MODALITY	I.ll come in for <modality>pickup</modality>
+THANK	Okay great, thank you
+DEPART	You too.
+START_ORDERING	hello i’d like to order a pizza please
+ADD_MODALITY	forrr <modality>pickup</modality> please
+MAKE_PIZZA	i’d like a <size>large</size> <pizza_type>pepperoni</pizza_type> pizza. Half with <topping>pineapple</topping> and half with <quant>no</quant> <topping>pineapple</topping>
+CONFIRM	nooo i think that’s it.
+THANK	okay great. Thank you!
+START_ORDERING	Hi, I'd like to order pizza today.
+MAKE_PIZZA	Can I have the <pizza_type>Hawaiian</pizza_type> pizza please?
+REQUEST	Um, how many people does the <size>large</size> serve?
+REQUEST_COST_OF	Okay, that's perfect. Thank you. And how much does that one cost?
+ADD_ATTRIBUTE	Okay, can I get the <crust>regular</crust> please?
+DENY	Um, no, thank you.
+ADD_TO_ORDER	Um I think the <side>breadsticks</side>
+ADD_MODALITY	Um can I have it <modality>delivered</modality>, please?
+REQUEST_COST_OF	Yes. Also, just wondering how much did the <modality>breadsticks</modality> cost?
+THANK	Okay, thank you.
+ADD_PAYMENT_ATTRIBUTE	I can pay over the phone.
+ADD_PAYMENT_ATTRIBUTE	Okay, the card type is <payment>mycard</payment> and the name is <name>Hannah Smith</name>.
+ADD_PAYMENT_ATTRIBUTE	The card number is <numeric>one-two-three-four-five</numeric> and the expiration is end of the year.
+CONFIRM	Okay, I'll send you my address
+CONFIRM	Okay
+ADD_PERSONAL	Yes. <name>Hannah Smith</name>.
+ADD_PERSONAL	Um <address>123 Elm Street</address>.
+THANK	All right. Thank you.
+DEPART	You too.
+MAKE_PIZZA	hi uh i was coming to <modality>pick up</modality> an order of one <topping>pineapple</topping> and <topping>ham</topping> pizza
+UNDEFINED	um
+ADD_ATTRIBUTE	could i get <topping>green peppers</topping> on that as well
+CONFIRM	uh yes
+END_ORDERING	um and that will be all for me
+CONFIRM	yeah thats right
+UPDATE_MODALITY	actually i was hoping to get it <modality>del[ivered]</modality>
+CONFIRM	that'd be great
+ADD_PERSONAL	yeah that'll be <address>one two three four five at [pause] uh [inaudible] uh seattle washington</address>
+CONFIRM	yeah that's it
+THANK	sounds perfect thanks
+ADD_MODALITY	"Hi, I just wanted to see if I can place an order for <modality>delivery</modality>. (Clears throat)"
+ADD_ORDER_TIME	"Um, I'm looking for around <time>5 o’clock</time>."
+ADD_PERSONAL	"Yeah for sure, so I'm right next to Greenlake, I'm at <address>555, um, Green Lake Avenue</address> (clears throat) and the zip code is <address>98103</address>"
+UPDATE_PERSONAL	"Oh it's ah, <address>98103</address> and it's actually <address>Green *lake* avenue</address>."
+UPDATE_PERSONAL	Ah 9.. <address>98103</address>
+UNDEFINED	"Um okay, so I have about <quant>6</quant> people and I'm wondering how many pizzas I should get in order to feed <quant>six</quant> people. They're all adults, ah, nobody has any dietary restrictions or anything like that but I just want to make sure I order enough food"
+UNDEFINED	(clears throat)
+MAKE_PIZZA	"Okay.  Ooookay.  I think... what I'll do I'll probably get <quant>2</quant> <size>larges</size> then just to make suuure and then if anybody wants extra there'll be enough. Okay so I will get.... sorry I'm pulling up the menu. (Pause) Um... (clears throat) Okay can I get <quant>one</quant> of the <size>large</size> um <pizza_type>Thai chicken</pizza_type> pizzas... ah, and can I get <quant>no</quant> <topping>cilantro</topping> on that?"
+CONFIRM	Mm-hm        
+MAKE_PIZZA	And then the second one is gonna be um the <pizza_type>complete combo</pizza_type>
+UPDATE_ATTRIBUTE	Um.. actually I'm going to do a <size>large</size> for that one. So it's gonna be...
+CONFIRM	Mm-hm
+DENY	Ahhh.. that's gonna be it!
+ADD_PAYMENT_ATTRIBUTE	Okay. All right so I'm going to be paying with a <payment>Visa</payment>.
+ADD_PAYMENT_ATTRIBUTE	"Um, my card number is <numeric>1 2 3 4 5</numeric>. (Clear throat)"
+ADD_PAYMENT_ATTRIBUTE	And expiration is ah <numeric>0 1 2 0</numeric>
+REQUEST	And then the... do you need the CV or that.. that security code on the back? 
+UNDEFINED	Okay
+THANK	"Okay, thank you!"
+START_ORDERING	Ah...I need to order a pizza.
+ADD_MODALITY	<modality>Delivery</modality> please.
+ADD_PERSONAL	"Address is <address>1410 NE Campus Parkway Seattle, WA 98195</address>."
+ADD_PERSONAL	My phone number is <number>206-123-4567</number>
+ADD_PERSONAL	My name is <name>John</name>.
+MAKE_PIZZA	I like to order <pizza_type>4 cheese</pizza_type> pizza.
+ADD_ATTRIBUTE	"I need <topping>black olives</topping>, <topping>mushrooms</topping>, and <topping>green peppers</topping>."
+DENY	"Nope, that’s it."
+ADD_ATTRIBUTE	<crust>Regular</crust>.
+ADD_ATTRIBUTE	<size>Medium</size>.
+ADD_TO_ORDER	<quant>One</quant> Caesar salad.
+ADD_TO_ORDER	<quant>One</quant> Cola.
+CONFIRM	Yeah. That’s correct.
+UNDEFINED	Oh that’s good.
+DEPART	Bye.
+REQUEST	"Um, I want to order a pizza here, but I'm honestly it's my first time because I'm not from the US and it's going to be my first time going to a pizza restaurant. So I'm not having a good option right now coo, do you have any suggestions at this point?"
+INFORM	For me and some friends. Yes.
+INFORM	"Okay, I'll do that. Thank you."
+DENY	"Um, no, I don't think so."
+INFORM	I think they love <topping>bacon</topping>. So I guess I would say they can be a good one.
+ADD_TO_ORDER	"Oh, I see. Okay, that's, that's good. I think I'll go with that one."
+REQUEST	"Um, what, what would you recommend if you just if you if you're ordering a pizza, I don't, I don't know which one."
+MAKE_PIZZA	Umm. Uhhh. Uh could I just get a umm... a a <size>small</size> <pizza_type>four cheese</pizza_type> pizza?
+ADD_TO_ORDER	"Uhhh uh yeah, uh a cola. Umm."
+END_ORDERING	"Yeeah, um. That should be it."
+ADD_MODALITY	"Umm. Uh, <modality>delivered</modality>, <modality>delivered</modality>, yeah. <modality>Delivered</modality>."
+ADD_PERSONAL	"Is uh, is <name>Jane Doe</name>."
+UNDEFINED	Oh great. Great. Okay -
+THANK	- thanks.
+START_ORDERING	" Hi, I’ll like to order a pizza please."
+MAKE_PIZZA	" Uhh <quant>one</quant> <size>large</size> pizza, uh <quant>one half</quant> with <topping>mushrooms</topping> and <quant>one half</quant> with <topping>chicken</topping>."
+ADD_ATTRIBUTE	 Uhh <topping>margarita sauce</topping>.
+DENY	" Um no, I am – uhh that is, that is all."
+ADD_MODALITY	 Uhh <modality>delivery</modality>.
+ADD_PERSONAL	Uhh to <address>Street 123 Apartment 7</address>.
+ADD_PAYMENT_ATTRIBUTE	 Uhh <payment>cash</payment>.
+THANK	 Sounds good. Thank you.

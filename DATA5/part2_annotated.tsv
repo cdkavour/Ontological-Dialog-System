@@ -1,0 +1,101 @@
+intent	sentence
+MAKE_PIZZA	i'll make the third pizza a <size>large</size> <pizza_type>meat lovers,</pizza_type> please
+MAKE_PIZZA	may i get <quant>three</quant> <size>14 inch</size> pizzas
+MODIFY_ORDER_MODALITY	hi, this is <name>ali</name> here can you change my order to <modality>take out</modality>
+MODIFY_ORDER_MODALITY	hi, this is is <name>lissa</name> can i change my order to <modality>take out</modality>, please
+MAKE_PIZZA	give me <quant>two</quant> pizzas on <crust>regular</crust> crust. make them <size>large</size>, please
+GREET	hello,
+MODIFY_ORDER_MODALITY	hey, how's it going? my name is is <name>soumya</name> can you, please change my order to <modality>delivery</modality>
+MAKE_PIZZA	let's make the second one a <pizza_type>veggie supreme</pizza_type>. a <size>small</size>
+ADD_ATTRIBUTE	add <topping>red onion</topping> to the other <quant>half</quant> of the second one
+ORDER_PREFERRED	could i order my preferred order also i'd like to remove <topping>olives</topping> from it
+ORDER_PREFERRED	may i order my most frequent order also i'd like to get a uh <size>14 inch</size> <pizza_type>hawaiian</pizza_type>
+ORDER_PREFERRED	order my pizza order also can i add <topping>green olives</topping> to it
+ADD_ATTRIBUTE	i'll have <quant>no</quant> <toppping>red onion</toppping> on the second <quant>half</quant> of the first one
+MAKE_PIZZA	can i get a <pizza_type>supreme</pizza_type> on <crust>gluten free</crust> crust for the first one. let's go with a <size>10 inch</size>
+MAKE_PIZZA	i'll take a uhm <pizza_type>veggie supreme</pizza_type> for the fourth pizza, please. and let's do <size>12 inch</size>
+ORDER_PREFERRED	please place another order for my pizza order also i'd like to order a <pizza_type>hawaiian</pizza_type>. make it <size>12 inch</size>
+ADD_MODALITY	i'd like a <modality>take out</modality> order
+MODIFY_ORDER_MODALITY	hey, how's it going? i'll change my order to <modality>take-out</modality>, please
+GREET	hello,
+MAKE_PIZZA	i'd like to get a <pizza_type>4 cheeses</pizza_type> on <crust>deep dish</crust> for the first pizza
+MAKE_PIZZA	i'll take <quant>two</quant> pizzas on <crust>thin</crust> crust
+MODIFY_ORDER_MODALITY	hello, this is <name>rahul</name> here can i, please change my order to <modality>pick up</modality>
+ORDER_PREFFERED	can i reorder my most frequent order again, please also may i order a <size>medium</size> <pizza_type>4 cheese</pizza_type>
+MAKE_PIZZA	i want a <size>large</size> <pizza_type>5 cheese</pizza_type> on <crust>gluten free</crust> for the third pizza, please
+MODIFY_ORDER_MODALITY	hello, i'm is <name>danko</name> can you change my order to <modality>take-out</modality>, please
+MODIFY_ORDER_MODALITY	hello, i uhm... have an order for <quant>two</quant> <size>14 inch</size> pizzas on crust, a <pizza_type>4 cheeses</pizza_type> and a <pizza_type>4 cheese</pizza_type> can i uh... change my order to <modality>take out</modality>
+ADD_MODALITY	i'd like to place an order for <modality>pick up</modality>
+ADD_ATTRIBUTE	please add green olives to the right half of the third one
+MAKE_PIZZA	i'll order uh... <quant>two</quant> pizzas. i'll go with <size>medium</size> for <quant>all</quant> of them, please
+REQUEST_COST_OF	may i get <quant>two</quant> pizzas on <crust>deep dish</crust>. i'd like a <pizza_type>meat lovers</pizza_type> for the first pizza. and let's do <size>12 inch</size>, please let's make the second one a uh <pizza_type>meat lovers,</pizza_type> please. make it <size>large</size>. how much is that gonna cost?
+MAKE_PIZZA	can i order uhm <quant>five</quant> pizzas. <quant>all</quant> of them <size>10 inch</size>, please
+ADD_ATTRIBUTE	may i add <topping>mushrooms</topping> to the first <quant>half</quant> of the third one
+ADD_ATTRIBUTE	remove <topping>olives</topping> from the other <quant>half</quant> of the first one
+MODIFY_ORDER_MODALITY	hey, how's it going? this is <name>logan</name> here can you, please switch my order to <modality>delivery</modality>
+MAKE_PIZZA	can i order <quant>three</quant> pizzas on <crust>regular</crust>, please. i'll go with <size>medium</size> for <quant>all</quant> of them
+MODIFY_ORDER_MODALITY	hello, this is <name>lissa</name> here can you change my order to <modality>delivery</modality>
+MAKE_PIZZA	i'll order <quant>two</quant> pizzas. <quant>all</quant> of them <size>medium</size>
+ADD_PIZZA	i want to remove <quant>extra</quant> <topping>ham</topping> from the left <quant>half</quant> of the first one
+ADD_ATTRIBUTE	remove <quant>double</quant> the amount of <topping>pepperoni</topping> from the third pizza
+ADD_MODALITY	i'd like to place an order for <modality>take out</modality>
+ADD_ATTRIBUTE	add <topping>provolone</topping> to the other <quant>half</quant> of the second pizza
+ADD_ATTRIBUTE	i'll make the second one a uhh <pizza_type>veggie supreme.</pizza_type>  a <size>12 inch</size>
+ORDER_PREFERRED	please place an order for my most common also i'd like to get a uhm <size>14 inch</size> <pizza_type>pepperoni</pizza_type> on <crust>thin</crust> crust, please
+MAKE_PIZZA	let's make the second one a <size>12 inch</size> <pizza_type>hawaiian</pizza_type> on <crust>regular</crust>, please
+MAKE_PIZZA	the second pizza i'll do a <pizza_type>vegan</pizza_type> on <crust>regular</crust>. a <size>small</size>
+MODIFY_ORDER_MODALITY	hi, i'll i'll switch my order to <modality>delivery</modality>, please
+MAKE_PIZZA	i need <quant>three</quant> <size>small</size> pizzas on <crust>thin</crust> crust
+MAKE_PIZZA	i'd like to get a <pizza_type>vegetarian</pizza_type> for the second pizza. a <size>small</size>
+ADD_ATTRIBUTE	can i remove <topping>green peppers</topping> from the left <quant>half</quant> of the first one
+MAKE_PIZZA	i need <quant>three</quant> pizzas on <crust>regular</crust> crust. i'll go with <size>14 inch</size> for <quant>all</quant> of them
+MODIFY_ORDER_MODALITY	hi, this is <name>daniel</name> here can you change my order to <modality>pick up</modality>
+ORDER_PREFERRED	reorder my favorite pizza order also i'll have a uhm... <size>small</size> <pizza_type>veggie supreme</pizza_type>, please
+MAKE_PIZZA	for the third pizza i'd like a uh <pizza_type>hawaiian</pizza_type> on <crust>gluten free</crust> crust, please. a <size>medium</size>
+ORDER_PREFERRED	could i place another order for my most common also give me a <size>14 inch</size> <pizza_type>hawaiian</pizza_type> on <crust>gluten free</crust> crust, please
+ADD_ATTRIBUTE	i want to remove <quant>extra</quant> <topping>ham</topping> from the second pizza
+MODIFY_ORDER_MODALITY	hi, can i change my order to <modality>delivery</modality>, please
+ORDER_PREFERRED	could i place an order for my most frequent order also please add <topping>bacon</topping> to it
+MAKE_PIZZA	may i order a <pizza_type>hawaiian</pizza_type> on <crust>thin</crust> for the second one, please. and let's do <size>small</size>
+ADD_ATTRIBUTEE	can i remove <topping>italian sausage</topping> from the one <quant>half</quant> of the third pizza
+ORDER_PREFERRED	could i get my most common also can i get <quant>no</quant> <topping>red onions</topping> on it
+MAKE_PIZZA	can i get a uhm... <pizza_type>vegan</pizza_type> for the second one
+ORDER_PREFERRED	i'd like to place another order for my preferred pizza order also also get <quant>no</quant> <topping>mozzarella</topping> on <quant>one half</quant>
+ORDER_PREFERRED	may i place an order for my favorite also i want to remove <topping>onions</topping> from it
+MAKE_PIZZA	can i order a uhh <pizza_type>vegan</pizza_type> for the first one, please
+MODIFY_ORDER_MODALITY	hey, how's it going? this is is <name>soumya</name> can you change my order to <modality>take out</modality>
+ADD_ATTRBUTE	i'd like to remove <quant>extra</quant> <topping>pepperoni</topping> from the second <quant>half</quant> of the second pizza
+ORDER_PREFERRED	reorder my preferred also please add <topping>pineapple</topping> to the right <quant>half</quant>
+ORDER_PREFERRED	can i reorder my favorite pizza order again also i'll have a <size>large</size> <pizza_type>vegan</pizza_type>
+MODIFY_ORDER_MODALITY	hi, can you, please switch my order to <modality>take-out</modality>
+MODIFY_ORDER_MODALITY	hi, can i switch my order to <modality>take out</modality>, please
+MODIFY_ORDER_MODALITY	hey, how's it going? my phone number is <number>206-555-1230</number> i'd like to change my order to <modality>take-out</modality>
+MAKE_PIZZA	i want to order a uh... <size>10 inch</size> <pizza_type>pepperoni</pizza_type> on <crust>gluten free</crust> for the second one, please
+ORDER_PREFERRED	please order my usual pizza also i'd like to order a uh... <size>medium</size> <pizza_type>hawaiian</pizza_type>
+ORDER_PREFERRED	may i order my favorite pizza order, please also remove <topping>sliced ham</topping> from the first <quant>half</quant>
+ORDER_PREFERRED	could i place another order for my most frequent also please add <quant>double</quant> the amount of <topping>pepperoni</topping> to the first <quant>half</quant>
+GREET	hello,
+START_ORDERING	i want to order <quant>two</quant> pizzas, please
+ORDER_PREFERRED	please place an order for my favorite order also please remove <topping>canadian bacon</topping> from it
+MODIFY_ORDER_MODALITY	hey, how's it going? my name is is <name>lissa</name> can you change my order to <modality>take out</modality>
+MODIFY_ORDER_MODALITY	hello, i'll i'll switch my order to <modality>pick up</modality>
+ORDER_PREFERRED	get my usual pizza again also may i get a <pizza_type>meat lovers</pizza_type>. make it <size>medium</size>, please
+MAKE_PIZZA	may i order a uhh... <pizza_type>vegan</pizza_type> for the third one. let's go with a <size>small</size>
+MODIFY_ORDER_MODALITY	hi, i'll switch my order to <modality>take out</modality>
+GREET	hi,
+MAKE_PIZZA	i'll take uh... <quant>five</quant> <size>12 inch</size> pizzas on <crust>thin</crust> crust, please
+MAKE_PIZZA	the second pizza i'll do a uh... <pizza_type>hawaiian</pizza_type> on <crust>thin</crust>. a <size>large</size>
+MAKE_PIZZA	may i get a uhm <quant>all</quant> <topping_type>cheese</topping_type> on <crust>regular</crust> crust for the third one. let's go with a <size>12 inch</size>
+MAKE_PIZZA	for the second one i'd like a uhm <pizza_type>meat lovers</pizza_type> on <crust>gluten free</crust> crust, please. let's go with a <size>10 inch</size>
+ORDER_PREFERRED	i'd like to place an order for my favorite again also i want to order a uh <pizza_type>pepperoni</pizza_type>. make it <size>medium</size>, please
+ORDER_PREFERRED	i'd like to place an order for my favorite pizza again also give me a <pizza_type>pepperoni</pizza_type> on <crust>gluten free</crust>
+ORDER_PREFERRED	order my preferred order again also i need to remove <topping>sausage</topping> from one <quant>half</quant>
+MAKE_PIZZA	i need uh... <quant>two</quant> pizzas. make them <size>14 inch</size>, please
+MAKE_PIZZA	let's make the third one a uhh <pizza_type>pepperoni</pizza_type>. make it <size>10 inch</size>, please
+MAKE_PIZZA	i want to order <quant>four</quant> pizzas, please. make them <size>large</size>
+ADD_ATTRIBUTE	i want to add <topping>bacon</topping> to the other <quant>half</quant> of the first one
+MAKE_PIZZA	i'll make the third one a uhm... <size>medium</size> pepperoni on <crust>thin</crust> crust
+ADD_MODALITY	hello, may i place an order for <modality>take-out</modality>, please
+MAKE_PIZZA	i want to order <quant>two</quant> pizzas on <crust>thin</crust>. make them <size>14 inch</size>
+MAKE_PIZZA	i'll make the first pizza a <pizza_type>hawaiian</pizza_type>. make it <size>12 inch,</size> please
+MAKE_PIZZA	may i get uh two <size>large</size> pizzas, please

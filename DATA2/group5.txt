@@ -1,0 +1,241 @@
+Intent	Sentence
+MAKE_PIZZA	i'd like to get a <pizza_type>pepperoni</pizza_type>. make it <size>10 inch</size>
+CONFIRM	"yeah, that would be great"
+START_ORDERING	i'd like to order for <modality>take out</modality> from your <store>redmond town center</store> store
+THANK	super thanks
+MAKE_PIZZA	"i'd like to order a uh <pizza_type>meat lovers</pizza_type> on <crust>gluten free</crust> crust, please"
+ORDER_PREFERRED	i'd like to reorder my most recent pizza
+ORDER_PREFERRED	can i place an order for my usual order again
+ORDER_PREFERRED	"i'd like to place another order for my most frequent pizza order again, please"
+ADD_MODALITY	how about <modality>pick up</modality>
+THANK	thank you
+MAKE_PIZZA	"may i order a <pizza_type>pepperoni</pizza_type> on <crust>thin</crust>. make it <size>large</size>, please"
+ADD_PERSONAL	use </name>vipul</name>
+ORDER_PREFERRED	please place an order for my most recent pizza again
+MAKE_PIZZA	i'll take a <pizza_type>pepperoni</pizza_type> on <crust>gluten free</crust>
+MAKE_PIZZA	"i need a <size>12 inch</size> <pizza_type>4 cheese</pizza_type>, please"
+GREET	"hi,"
+THANK	thank you
+ORDER_PREFERRED	may i get my previous pizza again
+CHECK_ORDER_STATUS	how long until my pizza order gets delivered?
+MAKE_PIZZA	"hi, can i get a <size>small</size> <pizza_type>4 cheese</pizza_type>, please ?"
+ADD_MODALITY	"yeah, <modality>delivery</modality>, please"
+CONFIRM	", please yep,"
+ADD_PERSONAL	it's <name>daniel</name>
+ADD_MODALITY	<modality>pick up</modality> will be great
+MAKE_PIZZA	i'll get a uhh <pizza_type>hawaiian</pizza_type> on <crust>thin</crust>. make it <size>medium</size>
+ADD_MODALITY	<modality>delivery</modality> will be great
+ADD_MODALITY	<modality>pick up</modality> will be great
+MAKE_PIZZA	"hey, how's it going? may i get a <size>large</size> <pizza_type>hawaiian</pizza_type>, please"
+CONFIRM	"that works yep,"
+CONFIRM	"yes,"
+CHECK_ORDER_STATUS	how long until my pizza order is ready?
+MAKE_PIZZA	i want to order a <pizza_type>pepperoni</pizza_type>
+CHECK_ORDER_STATUS	is my order ready?
+GREET	"hey, how's it going?"
+ORDER_PREFERRED	can i place another order for my previous order again
+ORDER_PREFERRED	"i'd like to place another order for my favorite order, please"
+MAKE_PIZZA	"hello, may i get a <size>10 inch</size> <pizza_type>4 cheese</pizza_type>"
+MAKE_PIZZA	"hi, may i get a <pizza_type>hawaiian</pizza_type>, please"
+MAKE_PIZZA	"hello, can i get a <size>10 inch</size> supreme, please ?"
+ORDER_PREFERRED	could i take my most common pizza order again
+ORDER_PREFERRED	please place an order for my most common pizza order again
+MAKE_PIZZA	"i'll get a <pizza_type>4 cheese</pizza_type> on <crust>regular</crust> crust, please"
+GREET	"hi,"
+ORDER_PREFERRED	"may i place an order for my favorite pizza order again, please"
+CONFIRM	"absolutely yeah,"
+ADD_PERSONAL	it's <number>206-555-8761</number>
+ADD_MODALITY	"yep, make it <modality>take out</modality>, please"
+ADD_PERSONAL	"put it under <name>eric</name>, please"
+ADD_PERSONAL	it's <name>Michael</name>
+CONFIRM	"yeah, <modality>delivery</modality>"
+MAKE_PIZZA	can i get a <pizza_type>pepperoni</pizza_type> on <crust>regular</crust>. make it <size>10 inch</size>
+CHECK_ORDER_STATUS	when will my order be delivered?
+ADD_PERSONAL	let's go with <name>jp</name>
+UPDATE_PERSONAL	it's <name>imed</name> wait <name>paul white</name>
+ADD_MODALITY	how about <modality>take-out</modality>
+ORDER_PREFERRED	can i reorder my favorite order again
+ORDER_PREFERRED	"may i place another order for my most recent pizza, please"
+ADD_PERSONAL	"put it under <name>imed</name>, please"
+DENY	no
+ADD_PERSONAL	put it under <name>eva</name>
+ORDER_PREFERRED	"may i reorder my most frequent again, please"
+ADD_PERSONAL	it's <name>rahul</name>
+ORDER_PREFERRED	please order my favorite pizza order
+ADD_MODALITY	<modality>take-out</modality> sounds good
+START_ORDERING	"hi, i'd like to place an order for <modality>take-out</modality> from your <store>george town</store> store"
+ORDER_PREFERRED	place another order for my preferred pizza order
+GREET	"hello,"
+MAKE_PIZZA	"i want to order a uh <pizza_type>4 cheese</pizza_type>, please"
+DENY	"nope, i'd like to change something"
+CHECK_ORDER_STATUS	please get my pizza order
+ORDER_PREFERRED	"may i place another order for my preferred pizza, please"
+ORDER_PREFERRED	i'd like to reorder my usual pizza order again
+DENY	no
+ADD_MODALITY	"let's go with <modality>pick up</modality>, please"
+ADD_MODALITY	"yeah, how about <modality>take out</modality>, please"
+START_ORDERING	"hey, how's it going? i'd like a <modality>take-out</modality> order"
+THANK	great thank you
+ORDER_PREFERRED	"could i place another order for my most frequent order, please"
+ADD_MODALITY	<modality>take-out</modality> will be great
+CHECK_ORDER_STATUS	how far away is my order ?
+ORDER_PREFERRED	"may i get my most recent, please"
+ADD_TO_ORDER	"i want another type of pizza, please"
+DENY	"no, i'd like to change something"
+ORDER_PREFERRED	please place an order for my most frequent again
+ADD_MODALITY	<modality>take out</modality>
+CONFIRM	"that would be great yes,"
+MAKE_PIZZA	"i need a <pizza_type>5 cheese</pizza_type> on <crust>deep dish</crust>, please"
+ADD_PERSONAL	let's go with <name>jp</name>
+ADD_MODALITY	"<modality>take out</modality> from your bellevue square shop will be great, please"
+ADD_PERSONAL	it's <name>Kyle</name>
+ADD_MODALITY	"<modality>take-out</modality> will be great, please"
+MAKE_PIZZA	i'd like a <pizza_type>hawaiian</pizza_type> on <crust>gluten free</crust> crust. make it <size>14 inch</size>
+ADD_MODALITY	make it <modality>take-out</modality>
+ADD_PERSONAL	it's <number>519-555-0021</number>
+ORDER_PREFERRED	place another order for my favorite again
+START_ORDERING	"hey, how's it going? i'd like to place an order"
+DENY	nope
+ADD_PERSONAL	<name>Alex</name>
+ADD_PERSONAL	it's <name>imed</name>
+CHECK_ORDER_STATUS	how long until my order is delivered?
+ORDER_PREFERRED	"i'd like to place an order for my order again, please"
+ADD_PERSONAL	it's <number>425-555-1276</number>
+MAKE_PIZZA	i'll order a uhm... <pizza_type>veggie supreme</pizza_type>
+UPDATE_ATTRIBUTE	"i want a different crust type, please"
+ADD_MODALITY	how about <modality>take out</modality>
+ADD_PERSONAL	it is <number>360-555-7777</number>
+ADD_PERSONAL	it's <number>360-555-1271</number>
+ADD_MODALITY	"yes, oh, and can you, please make it <modality>take out</modality>, please"
+MAKE_PIZZA	"i'll take a <pizza_type>5 cheese</pizza_type>, please"
+ORDER_PREFERRED	place an order for my usual order
+GREET	"hello,"
+ADD_PERSONAL	"let's go with <name>eva</name>, please"
+DENY	nope
+CHECK_ORDER_STATUS	how much longer until my order is ready?
+START_ORDERING	"hello, i'd like to place an order"
+ORDER_PREFERRED	please place another order for my most common pizza order again
+ADD_PERSONAL	"use <name>danko</name>, please"
+CHECK_ORDER_STATUS	can you look up the status of my order?
+ADD_MODALITY	"yep, how about <modality>pick up</modality>"
+THANK	terrific thank you
+DENY	nope, i'd like to change something
+ORDER_PREFERRED	could i place an order for my previous again, please
+ADD_PERSONAL	put it under <name>danko</name>
+ADD_ATTRIBUTE	let's go with a <pizza_type>meat lovers</pizza_type>
+DENY	nope, i'd like to change something
+ORDER_PREFERRED	please reorder my previous pizza order
+ADD_MODALITY	<modality>delivery</modality> will be great
+ADD_MODALITY	yeah, <modality>take out</modality> sounds good
+THANK	amazing thank you
+DENY	nope, i'd like to change something
+ORDER_PREFERRED	could i reorder my usual pizza order
+ADD_PERSONAL	it's <name>jp</name>
+ADD_MODALITY	<modality>take-out</modality>
+ADD_MODALITY	<modality>take-out</modality> will be great
+UPDATE_ATTRIBUTE	i'd rather get it as a <pizza_type>supreme</pizza_type> instead
+MAKE_PIZZA	i need a uhh... <pizza_type>hawaiian</pizza_type>. make it <size>12 inch</size>
+ADD_ATTRIBUTE	i'll have a <pizza_type>pepperoni</pizza_type>
+ORDER_PREFERRED	could i get my most recent again
+ADD_MODALITY	<modality>pick up</modality> from your <store>issaquah highlands</store> location sounds good
+ADD_PERSONAL	<name>soumya</name>, please
+DENY	no
+CONFIRM	yep, <modality>delivery</modality>
+CHECK_ORDER_STATUS	can you, please look up the status of my order?
+ADD_MODALITY	yes, make it <modality>pick up</modality> from your <store>fremont</store> location
+THANK	terrific thanks
+THANK	amazing thanks
+MAKE_PIZZA	i want to order a <pizza_type>4 cheese</pizza_type> on <crust>gluten free</crust>. make it <size>small</size>
+ORDER_PREFERRED	reorder my previous
+ADD_ATTRIBUTE	i'd like to get a <pizza_type>4 cheese</pizza_type>
+ORDER_PREFERRED	can i place another order for my previous pizza again, please
+MAKE_PIZZA	i want all the <topping_type>veggies</topping_type> on <crust>thin</crust>. make it <size>14 inch</size>
+ADD_MODALITY	<modality>pick up</modality> sounds good
+CHECK_ORDER_STATUS	how long until my order is delivered?
+MAKE_PIZZA	hey, how's it going? i'd like a <pizza_type>vegan</pizza_type>, please
+ADD_PERSONAL	use <name>lissa</name>
+ADD_MODALITY	yes, oh, and can you make it <modality>delivery</modality>
+ORDER_PREFERRED	place an order for my previous pizza again
+ADD_MODALITY	<modality>take-out</modality>, please
+ORDER_PREFERRED	i'd like to place another order for my favorite
+GREET	hey, how's it going?
+CHECK_ORDER_STATUS	how far away is my pizza order ?
+MAKE_PIZZA	i'll get a <size>medium</size> <pizza_type>pepperoni</pizza_type>
+UPDATE_PERSONAL	it's <name>eva</name> wait <name>tigh white</name>
+GREET	hi,
+ADD_MODALITY	<modality>pick up</modality> will be great, please
+DENY	nope
+MAKE_PIZZA	i want a <pizza_type>veggie supreme</pizza_type> on <crust>gluten free</crust> crust
+ORDER_PREFERRED	could i place another order for my most recent order
+ADD_MODALITY	<modality>take out</modality>
+ADD_MODALITY	yes, <modality>pick up</modality> will be great
+CHECK_ORDER_STATUS	when will my pizza order be delivered?
+GREET	hi,
+CHECK_ORDER_STATUS	where's the pizza i ordered?
+THANK	great thank you
+ORDER_PREFERRED	place an order for my preferred pizza
+ADD_MODALITY	yep, <modality>pick up</modality> will be great, please
+MAKE_PIZZA	may i order a <size>medium</size> <pizza_type>supreme</pizza_type> on <crust>regular</crust>, please
+ORDER_PREFERRED	may i order my most frequent pizza, please
+CONFIRM	that would be great yes,
+THANK	amazing thanks
+ADD_PERSONAL	use<name>loganv</name>, please
+MAKE_PIZZA	can i order a <pizza_type>hawaiian</pizza_type>
+MAKE_PIZZA	may i get a uh <pizza_type>veggie supreme</pizza_type>. make it <size>12 inch</size>
+ADD_PERSONAL	use <name>asli</name>, please
+ORDER_PREFERRED	i'd like to place an order for my most recent
+DENY	nope, i'd like to change something
+ORDER_PREFERRED	can i place another order for my most recent order again
+MAKE_PIZZA	i'll have a <size>10 inch</size> <pizza_type>vegetarian</pizza_type> on <crust>gluten free</crust>
+MAKE_PIZZA	i'll take a uh <size>large</size> <pizza_type>veggie supreme</pizza_type>
+MAKE_PIZZA	can i order a <pizza_type>veggie supreme</pizza_type>. make it <size>14 inch</size>, please
+MAKE_PIZZA	can i order a <pizza_type>veggie supreme</pizza_type> on <crust>regular</crust>
+ADD_MODALITY	<modality>pick up</modality> sounds good
+MAKE_PIZZA	hello, can i get a <size>medium</size> <pizza_type>hawaiian</pizza_type> ?
+ADD_MODALITY	please make it <modality>take-out</modality>, please
+ORDER_PREFERRED	i'd like to get my most frequent pizza order, please
+CHECK_ORDER_STATUS	when will my order arrive here?
+ORDER_PREFERRED	order my previous again
+MAKE_PIZZA	hi, can i get a <pizza_type>meat lovers</pizza_type> ?
+ADD_MODALITY	yes, let's go with <modality>take out</modality>
+MAKE_PIZZA	i want to order a <pizza_type>meat lovers</pizza_type> on <crust>gluten free</crust> crust. make it <size>10 inch</size>, please
+MAKE_PIZZA	i'd like to get a <pizza_type>pepperoni</pizza_type>. make it <size>medium</size>
+ORDER_PREFERRED	please reorder my preferred order again
+ADD_MODALITY	<modality>take out</modality> from your <store>seattle center</store> store would be great, please
+DENY	nope
+ADD_PERSONAL	put it under <name>karthik</name>
+MAKE_PIZZA	i want to order a <pizza_type>pepperoni</pizza_type> on <crust>regular</crust>
+ADD_MODALITY	yes, how about <modality>to go</modality>, please
+MAKE_PIZZA	i'll order a <pizza_type>vegetarian</pizza_type>. make it <size>14 inch</size>, please
+DENY	no, i'd like to change something
+MAKE_PIZZA	hello, i'd like a <pizza_type>4 cheese</pizza_type>
+MAKE_PIZZA	i want to order a <pizza_type>veggie supreme</pizza_type>. make it <size>small</size>
+MAKE_PIZZA	can i get a <pizza_type>pepperoni</pizza_type>. make it <size>large</size>
+ADD_MODALITY	yeah, how about <modality>pick up</modality>
+THANK	terrific thanks
+ADD_ATTRIBUTE	i'll have a <pizza_type>4 cheese</pizza_type>
+ADD_MODALITY	<modality>pick up</modality> from your <store>laurelhurst</store> shop would be great
+ORDER_PREFERRED	please place an order for my usual order
+MAKE_PIZZA	can i get a <pizza_type>4 cheese</pizza_type> on <crust>thin</crust> crust
+ADD_MODALITY	<modality>take out</modality> from your <store>seattle center</store> store would be great
+ORDER_PREFERRED	please reorder my usual again
+ORDER_PREFERRED	please place another order for my most recent again
+ORDER_PREFERRED	please get my most frequent order
+THANK	terrific thank you
+ADD_PERSONAL	<number>519-555-0021</number>
+ORDER_PREFERRED	i'd like to get my most common again, please
+MAKE_PIZZA	hi, i'll have a <pizza_type>hawaiian</pizza_type>, please
+MAKE_PIZZA	i'll get a uhm <pizza_type>meat lovers</pizza_type>. make it <size>small</size>
+ORDER_PREFERRED	please get my previous
+THANK	thanks
+GREET	hello,
+GREET	hello,
+ADD_MODALITY	yep, let's go with <modality>delivery</modality>, please
+CONFIRM	that works yes,
+ADD_MODALITY	please make it <modality>take out</modality> from your <store>maple leaf</store> store, please
+CONFIRM	yep,
+ADD_MODALITY	<modality>delivery</modality> would be great
+DENY	no, i'd like to change something
+CONFIRM	yep, <modality>pick up</modality> will be great
+ORDER_PREFERRED	hello, i'd like to place an order
+CHECK_ORDER_STATUS	can you look up my order?
