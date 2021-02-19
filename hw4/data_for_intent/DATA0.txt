@@ -1,0 +1,34 @@
+Intent	Sentence
+MAKE_PIZZA	can i order a <size> large </size> <pizza_type> meat lovers </pizza_type> , please
+ADD_MODALITY	let 's go with <modality> delivery </modality>
+GREET	hello ,
+ADD_MODALITY	please make it <modality> take-out </modality>
+MAKE_PIZZA	hi , i 'll have a <pizza_type> 4 cheese </pizza_type> , please
+ORDER_PREFERRED	may i reorder my favorite pizza , please
+MAKE_PIZZA	i want to order a <pizza_type> hawaiian </pizza_type> on <crust> gluten free </crust> crust . make it <size> small </size>
+MAKE_PIZZA	i 'd like to order a <pizza_type> hawaiian </pizza_type> on <crust> gluten free </crust> . make it <size> 14 inch </size> , please
+ADD_PERSONAL	425-555-1712
+START_ORDERING	i 'd like to place another order for my usual pizza order , please i 'd like a different type of pizza , actually
+ORDER_PREFERRED	may i reorder my preferred pizza
+ADD_MODALITY	<modality> take out </modality> from your maple leaf location , please
+GREET	hey , how 's it going ?
+CHECK_ORDER_STATUS	where 's the pizza i ordered ?
+CHECK_ORDER_STATUS	is my order ready ?
+ADD_MODALITY	<modality> pick up </modality>
+ADD_PERSONAL	it 's <name> eva </name>
+ADD_PERSONAL	it 's <name> michael </name>
+ADD_PERSONAL	it is <name> 206-555-7812 </name>
+THANK	thanks
+THANK	awesome thanks
+MAKE_PIZZA	i want to order three pizzas on <crust> thin </crust> , please . all of them <quant> 12 </quant> <size> inch </size>
+ADD_MODALITY	i 'd like to place an order for <modality> pick up </modality> from your <store> redmond town center store </store>
+MODIFY_ORDER_MODALITY	hey , how 's it going ? this is logan here can you , please switch my order to <modality> delivery </modality>
+ADD_MODALITY	hi , may i place an order for <modality> take-out </modality> from your bellevue square store
+MAKE_PIZZA	may i order three pizzas on <crust> thin </crust> crust . make them <size> medium </size>
+MAKE_PIZZA	i 'll have <quant> two </quant> pizzas on <crust> deep dish </crust> . i 'll make the first one a <pizza_type> hawaiian </pizza_type> give me a <pizza_type> 4 cheese </pizza_type> for the second one . a <size> 10 inch </size> .
+ADD_ATTRIBUTE	i want to add <topping> pineapple </topping> to the first half of the second pizza
+ADD_ATTRIBUTE	may i get <topping> swiss cheese </topping> on the second half of the first pizza
+ADD_ATTRIBUTE	also put <pizza_type> provolone cheese </pizza_type> on the right half of the second one
+MAKE_PIZZA	i 'd like five pizzas . i 'll go with medium for all of them
+MAKE_PIZZA	i 'll order a <size> 14 inch </size> <pizza_type> 4 cheese </pizza_type> on <crust> deep dish </crust> for the second one , please
+ADD_ATTRIBUTE	i need to add <topping> onions </topping> to the right half of the second one
