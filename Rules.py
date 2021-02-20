@@ -228,23 +228,23 @@ class Rules:
 		]
 
 		self.UPDATE_PERSONAL_RULES = [
-			"todo:addrules"
-			#"[wait|it's|actually].*[Peter|Paul|Mary]",
-			#r"[wait|it's|actually].*((\+{0,1}1[- ]){0,1}(\(*[0-9]{3}\)*){0,1}[- ( - )]{0,1}[0-9]{3}[- ( - )]{0,1}[0-9]{4})",
-			#r"[wait|it's|actually].*([0-9]+ [0-9A-z#\.\- ]{1,}[A-z]+[0-9A-z#\.\- ]+)",
-			# "it's ",
-			# "wait",
-			# "it's actually",
-			# "no",
-			# "sorry",
+			r"wait ((\+{0,1}1[- ]){0,1}(\(*[0-9]{3}\)*){0,1}[- ( - )]{0,1}[0-9]{3}[- ( - )]{0,1}[0-9]{4})",
+			r"wait ([0-9]+ [0-9A-z#\.\- ]{1,}[A-z]+[0-9A-z#\.\- ]+)",
+			"wait eva",
+			"wait michael",
+			"wait paul",
+			"wait peter",
+			"wait mary",
 		]
 
 		self.UPDATE_RULES = [
-			"todo:addrules"
+			"actually, change",
+			"wait, change",
 		]
 
 		self.INFORM_RULES = [
-			"todo:addrules"
+			"I would like",
+			"I will get",
 		]
 
 		

@@ -14,4 +14,3 @@ class SemanticFrame:
             retstr += "{} {}\n".format(slotname, slotval)
 
         return retstr
-    

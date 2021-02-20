@@ -154,8 +154,6 @@ class NLURuleBased:
         # Assume DOMAIN is always Pizza.
         self.SemanticFrame.Domain = "pizza"
 
-
-
         # MAKE PIZZA
         if(self.make_pizza_matcher.search(inputStr)):
             self.SemanticFrame.Intent = DialogActTypes.MAKE_PIZZA
