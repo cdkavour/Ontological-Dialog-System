@@ -1,6 +1,7 @@
 from SemanticFrame import SemanticFrame
 from DialogActTypes import DialogActTypes
 from Rules import Rules
+from ImprovedRules import ImprovedRules
 import re
 import pdb
 from collections import defaultdict

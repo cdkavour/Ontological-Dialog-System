@@ -124,12 +124,11 @@ def test_on_model(X_test, Y_test, model, model_name):
 		print("Instance: {}\tPredicted label: {}\tTrue label: {}".format(i, Y_pred[i], Y_test[i]))
 
 	test_acc = accuracy_score(Y_test, Y_pred)
-	print("test accuracy with model {} - {}: ".format(model_name, test_acc))
+	print("test accuracy with {}: ".format(model_name, test_acc))
 
 	test_f1 = f1_score(Y_test, Y_pred, average="micro")
-	print("test f1 score with model {} - {}: ".format(model_name, test_f1))
+	print("test f1 score with {}: ".format(model_name, test_f1))
 
-	#ipdb.set_trace()
 
 def test(test_instances, Y_test, all_slots, all_hand_picked, vectorizer, model, model_name, test_data):
 	print("Testing " + test_data + " on " + model_name + " model ")
@@ -146,12 +145,12 @@ def test(test_instances, Y_test, all_slots, all_hand_picked, vectorizer, model, 
 	X_test6 = np.hstack([test_slots, test_grams])
 
 	if model_name == "all":
-		test_on_model(X_test1, Y_test, model[0], "ngrams")
-		test_on_model(X_test2, Y_test, model[1], "slots")
-		test_on_model(X_test3, Y_test, model[2], "hand_picked")
-		test_on_model(X_test4, Y_test, model[3], "ngrams+slots+hand_picked")
-		test_on_model(X_test5, Y_test, model[4], "slots+hand_picked")
-		test_on_model(X_test6, Y_test, model[5], "slots+ngrams")
+		test_on_model(X_test1, Y_test, model[0], model_name)
+		test_on_model(X_test2, Y_test, model[1], model_name)
+		test_on_model(X_test3, Y_test, model[2], model_name)
+		test_on_model(X_test4, Y_test, model[3], model_name)
+		test_on_model(X_test5, Y_test, model[4], model_name)
+		test_on_model(X_test6, Y_test, model[5], model_name)
 
 	elif model_name == "ngrams":
 		test_on_model(X_test1, Y_test, model[0], model_name)
@@ -291,18 +290,20 @@ def main():
 	# test("data5", test_instances1, Y_test1, all_slots, all_hand_picked, vectorizer, model1, model2, model3, model4, model5, model6)
 	# test("data6", test_instances2, Y_test2, all_slots, all_hand_picked, vectorizer, model1, model2, model3, model4, model5, model6)
 	# test("data5 & data6", test_instances3, Y_test3, all_slots, all_hand_picked, vectorizer, model1, model2, model3, model4, model5, model6)
+	while (True):
+		model_name = input("choose a model to test on (ngrams, slots, hand_picked, ngrams+slots+hand_picked, all)>")
 
-	test_data = sys.argv[1]
-	model_name = sys.argv[2]
-	models = [model1, model2, model3, model4, model5, model6]
+		test_data = sys.argv[1]
+		#model_name = sys.argv[2]
+		models = [model1, model2, model3, model4, model5, model6]
 
-	if test_data == "dev_set":
-		Y_test = Y_dev
-		test_instances = dev_instances
-	else:
-		Y_test, test_instances = get_data(test_data)
+		if test_data == "dev_set":
+			Y_test = Y_dev
+			test_instances = dev_instances
+		else:
+			Y_test, test_instances = get_data(test_data)
 
-	test(test_instances, Y_test, all_slots, all_hand_picked, vectorizer, models, model_name, test_data)
+		test(test_instances, Y_test, all_slots, all_hand_picked, vectorizer, models, model_name, test_data)
 
 if __name__ == '__main__':
 	main()
