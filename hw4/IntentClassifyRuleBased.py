@@ -7,41 +7,29 @@ from sklearn_crfsuite.metrics import flat_f1_score
 from nltk.tokenize import word_tokenize
 from numpy import nan
 
-def get_data_from_annotated_file(data_file, annotated_data_file):
+def get_data_from_annotated_file(annotated_data_file):
 	labels = []
 	instances = []
 	gold_annotations = []
 	slots = []
 
-	with open(data_file) as df:
-		data_lines = df.readlines()[1:]
-
 	with open(annotated_data_file) as adf:
 		annotated_data_lines = adf.readlines()[1:] 
-
-	for i in range(len(data_lines)):
-		data_line = data_lines[i]
+	for i in range(len(annotated_data_lines)):
 		annotated_data_line = annotated_data_lines[i]
-
-		
-		_, _, instance = (' '.join(data_line.split())).split(" ", 2)
-		instance = instance.rstrip()
-
 		label = annotated_data_line.split()[0]
 		gold_annotation = annotated_data_line.split("\t", 1)[1]
 		soup = BeautifulSoup(gold_annotation,'html.parser')
+		instance = soup.get_text().rstrip()
 		slottags =[]
 		for tag in soup.contents: 
 			tagname = tag.name if tag.name else 'O' 
 			try: 
-				tok = word_tokenize(tag.text.rstrip())
+				tok = word_tokenize(re.sub(r' +',' ',tag.text.rstrip()))
 			except AttributeError: 
-				tok = word_tokenize(tag.rstrip())
+				tok = word_tokenize(re.sub(r' +',' ',tag.rstrip()))
 			slottags += [tagname for word in tok if word] #for word in tok:
-
 		slots.append(slottags)
-
-
 		labels.append(label)
 		instances.append(instance)
 		gold_annotations.append(gold_annotation)
@@ -64,22 +52,11 @@ def get_data(data_file):
 
 	return labels, instances
 
-
-def annotate_data0():
-	data0file = "shared-filtered"
-	with open(data0file) as d0f:
-		d0lines = d0f.readlines()
-	for line in d0lines:
-		annotation = NLU.parse(line)
-		print(annotation)
-		NLU.printSemanticFrame()
-		NLU.clear_slots()
-
-def annotate_data(NLU, data_file, gold_file):
+def annotate_data(NLU,gold_file):
 	annotations = []
 	pred_labels = []
 
-	true_labels, instances, gold_annotations, gold_slots = get_data_from_annotated_file(data_file, gold_file)
+	true_labels, instances, gold_annotations, gold_slots = get_data_from_annotated_file(gold_file)
 
 	pred_labels = []
 	annotations = []
@@ -91,9 +68,9 @@ def annotate_data(NLU, data_file, gold_file):
 		for tag in soup.contents: 
 			tagname = tag.name if tag.name else 'O' 
 			try: 
-				tok = word_tokenize(tag.text.rstrip())
+				tok = word_tokenize(re.sub(r' +',' ',tag.text.rstrip()))
 			except AttributeError: 
-				tok = word_tokenize(tag.rstrip())
+				tok = word_tokenize(re.sub(r' +',' ',tag.rstrip()))
 			pred_tags += [tagname for word in tok if word]
 		pred_slots.append(pred_tags)
 		annotations.append(annotation)
@@ -103,7 +80,10 @@ def annotate_data(NLU, data_file, gold_file):
 	return annotations, pred_labels, true_labels, instances, gold_annotations, pred_slots, gold_slots
 
 def accuracy(pred_labels, true_labels):
-	correct =  sum(pred_labels[i] == true_labels[i] for i in range(len(pred_labels)))
+	try:
+		correct =  sum(pred_labels[i] == true_labels[i] for i in range(len(pred_labels)))
+	except IndexError:
+		ipdb.set_trace()
 	total = len(pred_labels)
 	return float(correct) / float(total)
 
@@ -141,10 +121,9 @@ def class_accuracy_intent(y,y_pred,target_intent):
 
 def main():
 	NLU = NLURuleBased()
-	data_file = sys.argv[1]
-	gold_file = sys.argv[2]
+	gold_file = sys.argv[1]
 
-	annotations, pred_labels, true_labels, instances, gold_annotations, slots, gold_slots = annotate_data(NLU, data_file, gold_file)
+	annotations, pred_labels, true_labels, instances, gold_annotations, slots, gold_slots = annotate_data(NLU, gold_file)
 
 	# Intent
 	acc = accuracy(pred_labels, true_labels)

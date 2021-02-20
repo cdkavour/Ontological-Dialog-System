@@ -252,61 +252,63 @@ class Rules:
 
     # Slot regex matches
 
+    # Slot regex matches
+
     # crust
     self.CRUSTS = [
-      " (thin)",
-      "(regular)",
-      "(deep dish)",
-      "(gluten free)",
+      "(\S*thin\S*)",
+      "(\S*regular\S*)",
+      "(\S*deep dish\S*)",
+      "(\S*gluten free\S*)",
     ]
 
     # size
     self.SIZES = [
-      "(small)",
-      "(medium)",
-      "(large)",
-      "(10\")",
-      "(12\")",
-      "(14\")",
+      "(\S*small\S*)",
+      "(\S*medium\S*)",
+      "(\S*large\S*)",
+      "(\S*10\"\S*)",
+      "(\S*12\"\S*)",
+      "(\S*14\"\S*)",
     ]
 
     # pizza type
     self.PIZZA_TYPES = [
-      "(hawaiian)",
-      "(meat lovers)",
-      "(4 cheese)",
-      "(pepperoni)",
-      "(veggie supreme)",
-      "(vegan)",
+      "(\S*hawaiian\S*)",
+      "(\S*meat lovers\S*)",
+      "(\S*4 cheese\S*)",
+      "(\S*pepperoni\S*)",
+      "(\S*veggie supreme\S*)",
+      "(\S*vegan\S*)",
     ]
 
     # modality
     self.MODALITIES = [
-      "(delivery)",
-      "(pick up)",
-      "(pick-up)",
-      "(take out)",
-      "(take-out)"
+      "(\S*delivery\S*)",
+      "(\S*pick up\S*)",
+      "(\S*pick-up\S*)",
+      "(\S*take out\S*)",
+      "(\S*take-out)"
     ]
 
     # cost
     self.COSTS = [
-      "($[0-9]+\.[0-9]+)",
-      "($[0-9]+)"
+      "(\S*$[0-9]+\.[0-9]+\S*)",
+      "(\S*$[0-9]+)"
     ]
 
     # name
     self.NAMES = [
-      "(peter)",
-      "(paul)",
-      "(mary)",
-      "(michael),"
-      "(eva)",
+      "(\S*peter\S*)",
+      "(\S*paul\S*)",
+      "(\S*mary\S*)",
+      "(\S*michael),"
+      "(\S*eva\S*)",
     ]
 
     # number
     self.NUMBERS = [
-      r"((\+{0,1}1[- ]){0,1}(\(*[0-9]{3}\)*){0,1}[- ( - )]{0,1}[0-9]{3}[- ( - )]{0,1}[0-9]{4})",
+      r"((\+{0,1}1[- ]){0,1}(\(*[0-9]{3}\)*){0,1}[- ( - )]{0,1}[0-9]{3}[- ( - )]{0,1}[0-9]{4}\S*)",
     ]
 
     # TODO - improve, will over match already tagged slots
@@ -317,11 +319,11 @@ class Rules:
 
     # quant
     self.QUANTS = [
-      " (four) ",
-      " (three) ",
-      " (two)",
-      " (one)",
-      " (no)",
+      "(\S*four\S*)",
+      "(\S*three\S*)",
+      "(\S*two\S*)",
+      "(\S*one\S*)",
+      "(\S*no\S*)",
     ]
 
     # address
@@ -331,74 +333,74 @@ class Rules:
 
     # beverage
     self.BEVERAGES = [
-      " (cola) ",
-      "(root beer)",
-      "(orange soda)",
-      "(lemon soda)",
-      "(mineral water)",
-      "(ginger ale)",
+      "(\S*cola\S*)",
+      "(\S*root beer\S*)",
+      "(\S*orange soda\S*)",
+      "(\S*lemon soda\S*)",
+      "(\S*mineral water\S*)",
+      "(\S*ginger ale\S*)",
     ]
     
     # payment
     self.PAYMENTS = [
-      "(visa)",
-      "(cash)",
-      " (card) ",
-      "(mastercard)"
+      "(\S*visa\S*)",
+      "(\S*cash\S*)",
+      " (\S*card)\S*",
+      "(\S*mastercard)"
     ]
 
     # sides
     self.SIDES = [
-      "(bread sticks)",
-      "(breadsticks)",
-      "(cheese sticks)",
-      "(cheesesticks)",
-      "(green salad)",
-      "(ceasar salad)"
+      "(\S*bread stick\S*)",
+      "(\S*breadstick\S*)",
+      "(\S*cheese stick\S*)",
+      "(\S*cheesestick\S*)",
+      "(\S*green salad\S*)",
+      "(\S*ceasar salad)"
     ]
 
     # store
     self.STORES = [
-      "(laurelhurst)",
-      "(ballard)",
+      "(\S*laurelhurst\S*)",
+      "(\S*ballard\S*)",
     ]
 
     # time
     self.TIMES = [
-      "([0-9|10|11|12] o'clock)",
-      "(Monday)",
-      "(Tuesday)",
-      "(Wednesday)",
-      "(Thursday)",
-      "(Friday)",
-      "(Saturday)",
-      "(Sunday)",
-      "when it arrives",
+      "(\S*[0-9|10|11|12] o'clock\S*)",
+      "(\S*Monday\S*)",
+      "(\S*Tuesday\S*)",
+      "(\S*Wednesday\S*)",
+      "(\S*Thursday\S*)",
+      "(\S*Friday\S*)",
+      "(\S*Saturday\S*)",
+      "(\S*Sunday\S*)",
+      "(\S*when it arrives\S*)",
     ]
 
     # topping
     self.TOPPINGS = [
-      "(mozzarella)",
-      "(cheddar)",
-      "(swiss)",
-      "(provolone)",
-      "(pineapple)",
-      "(green peppers)",
-      "(red onions)",
-      "(mushrooms)",
-      "(black olives)",
-      #"(pepperoni)",
-      " (ham)",
-      "(bacon)",
-      "(sausage)",
+      "(\S*mozzarella\S*)",
+      "(\S*cheddar\S*)",
+      "(\S*swiss\S*)",
+      "(\S*provolone\S*)",
+      "(\S*pineapple\S*)",
+      "(\S*green peppers\S*)",
+      "(\S*red onions\S*)",
+      "(\S*mushrooms\S*)",
+      "(\S*black olives\S*)",
+      #"(pepperoni\S*)",
+      " (\S*ham\S*)",
+      "(\S*bacon\S*)",
+      "(\S*sausage\S*)",
     ]
 
     # topping type
     self.TOPPING_TYPES = [
-      " (milk) ",
-      "(milkless)",
-      "(dairy-free)",
-      "(vegetables)",
-      "(meaty)",
-      "(dairy)",
+      " (\S*milk\S*)",
+      "(\S*milkless\S*)",
+      "(\S*dairy-free\S*)",
+      "(\S*vegetables\S*)",
+      "(\S*meaty\S*)",
+      "(\S*dairy\S*)",
     ]
