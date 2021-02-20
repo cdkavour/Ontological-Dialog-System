@@ -1,0 +1,35 @@
+sessionID       turnID  utterance
+1       1       can i order a large meat lovers, please
+2       1       let's go with delivery
+5       1       hello,
+8       1       please make it take-out
+14      1       hi, i'll have a 4 cheese, please
+19      1       may i reorder my favorite pizza, please
+35      1       i want to order a hawaiian on gluten free crust. make it small
+40      1       i'd like to order a hawaiian on gluten free. make it 14 inch, please
+41      1       425-555-1712
+42      1       i'd like to place another order for my usual pizza order, please
+49      1       i'd like a different type of pizza, actually
+50      1       may i reorder my preferred pizza
+60      1       take out from your maple leaf location, please
+61      1       hey, how's it going?
+63      1       where's the pizza i ordered?
+65      1       is my order ready?
+66      1       pick up
+67      1       it's eva
+80      1       it's michael
+84      1       it is 206-555-7812
+85      1       thanks
+86      1       awesome thanks
+106       1       i want to order three pizzas on thin, please. all of them 12 inch
+108       1       i'd like to place an order for pick up from your redmond town center store
+113      1       hey, how's it going? this is logan here can you, please switch my order to delivery
+123      1       hi, may i place an order for take-out from your bellevue square store
+148      1       may i order three pizzas on thin crust. make them medium
+149      1       i'll have two pizzas on deep dish. i'll make the first one a hawaiian give me a 4 cheese for the second one. a 10 inch.
+157      1       i want to add pineapple to the first half of the second pizza
+165      1       may i get swiss cheese on the second half of the first pizza
+170      1       also put provolone cheese on the right half of the second one
+176      1       i'd like five pizzas. i'll go with medium for all of them
+197      1       i'll order a 14 inch 4 cheese on deep dish for the second one, please
+199      1       i need to add onions to the right half of the second one

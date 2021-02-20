@@ -8,7 +8,8 @@ ORDER_PREFERRED	may i reorder my favorite pizza , please
 MAKE_PIZZA	i want to order a <pizza_type> hawaiian </pizza_type> on <crust> gluten free </crust> crust . make it <size> small </size>
 MAKE_PIZZA	i 'd like to order a <pizza_type> hawaiian </pizza_type> on <crust> gluten free </crust> . make it <size> 14 inch </size> , please
 ADD_PERSONAL	425-555-1712
-START_ORDERING	i 'd like to place another order for my usual pizza order , please i 'd like a different type of pizza , actually
+START_ORDERING	i'd like to place another order for my usual pizza order, please 
+MAKE_PIZZA	i 'd like a different type of pizza , actually
 ORDER_PREFERRED	may i reorder my preferred pizza
 ADD_MODALITY	<modality> take out </modality> from your maple leaf location , please
 GREET	hey , how 's it going ?
