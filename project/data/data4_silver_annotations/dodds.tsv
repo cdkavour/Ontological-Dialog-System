@@ -1,410 +1,410 @@
-	Conversation	Speaker	Transcript
-0	Spoken_1	Clerk	Hello thanks for calling Pizza Hut how can I help you
-1	Spoken_1	User	hello i ’ d like to order a pizza please
-2	Spoken_1	Clerk	will that be for <modality> pick up </modality> or delivery sir
-3	Spoken_1	User	forrr pickup please
-4	Spoken_1	Clerk	sure what can i get you
-5	Spoken_1	User	i ’ d like a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza . Half with <topping> pineapple </topping> and half with <quant> no </quant> <topping> pineapple </topping>
-6	Spoken_1	Clerk	ok you want a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza with <topping> half pineapple </topping>
-7	Spoken_1	User	nooo i think that ’ s it .
-8	Spoken_1	Clerk	alright that ’ ll be $ 10 and it will be ready in about <time> 30 minutes </time>
-9	Spoken_1	User	okay great . Thank you !
-10	Spoken_2	Clerk	hello this is pizza hut how can i help you
-11	Spoken_2	User	hey there . I ’ d like to order three pizzas please ?
-12	Spoken_2	Clerk	uh sure go ahead
-13	Spoken_2	User	okay . We want the <pizza_type> hawaiian </pizza_type> chicken pizza , medium . The backyard bbq pizza also medium . And then the chicken <topping> bacon </topping> parmesan pizza as a <size> small </size> .
-14	Spoken_2	Clerk	ok great so i have a <pizza_type> hawaiian </pizza_type> chicken pizza and backyard bbq pizza medium size and and a <pizza_type> chicken bacon </pizza_type> in a <size> small </size>
-15	Spoken_2	User	was that a <pizza_type> chicken bacon </pizza_type> parmesan as a <size> small </size> ?
-16	Spoken_2	Clerk	yes sir
-17	Spoken_2	User	okay great , that sounds perfect .
-18	Spoken_2	Clerk	will that be for <modality> pick up </modality> or delivery today
-19	Spoken_2	User	<modality> delivery </modality> please .
-20	Spoken_2	Clerk	can i get an address
-21	Spoken_2	User	uhm yes . 3629846 chicken way ?
-22	Spoken_2	Clerk	and would you like to pay over the phone or in person
-23	Spoken_2	User	in person , if that ’ s alright with you .
-24	Spoken_2	Clerk	alright sir that will be thirty five dollars and it should be ready in <time> 45 minutes </time> or less
-25	Spoken_2	User	sounds great ! Thank you so much
-26	Spoken_3	Clerk	welcome to pizza hut what can i do for ya
-27	Spoken_3	User	hello i would like <quant> one </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizza please . And i want no sauce on one half .
-28	Spoken_3	Clerk	ok so that ’ s a <size> large </size> <pizza_type> cheese </pizza_type> pizza but no sauce at all on one half
-29	Spoken_3	User	yes , that ’ s correct . No sauce on one half
-30	Spoken_3	Clerk	ok would you like anything else
-31	Spoken_3	User	let me think… no .
-32	Spoken_3	Clerk	if you like cheese can i interest you in upgrading to our stuffed crust pizza for only <address> one dollar ninety nine more </address>
-33	Spoken_3	User	well i do like cheese… okay you ’ ve convinced me . Make it a stuffed crust .
-34	Spoken_3	Clerk	excellent choice sir that will be <address> eleven ninety nine </address>
-35	Spoken_3	User	wonderful ! Do you take american express ?
-36	Spoken_3	Clerk	uh yes
-37	Spoken_3	User	great , here you go .
-38	Spoken_3	Clerk	aright that should be ready in about twenty minutes can i get a name for the order
-39	Spoken_3	User	my name is reginald .
-40	Spoken_3	Clerk	fantastic name i ’ ll have that out for you in a bit reginald please take a seat
-41	Spoken_3	User	thank you very much .
-42	Spoken_4	Clerk	hello , welcome to pizza hut what can i do for you ?
-43	Spoken_4	User	yeah i ’ d like to order some food for takeout
-44	Spoken_4	Clerk	ooookay , good . What can i get for you ?
-45	Spoken_4	User	uh i see that you have a dinner box and a big dinner box . How many people will the big dinner box feed ?
-46	Spoken_4	Clerk	uhhhh the big dinner box usually feeds four to five people . But the <crust> regular </crust> dinner box is good for about 2 people .
-47	Spoken_4	User	ok there ’ s two of us but we ’ re very hungry so we ’ ll have the big dinner box
-48	Spoken_4	Clerk	ookay can i get anything to drink for you guys ?
-49	Spoken_4	User	can i get <quant> two </quant> of your largest mountain dews
-50	Spoken_4	Clerk	sure thing . And will this be -uhhh- nevermind . That will be… uhm… nineteen ninety nine .
-51	Spoken_4	User	ok here ’ s twenty in cash keep the change
-52	Spoken_4	Clerk	wow ! Thank you so much ! That ’ ll be ready innn twenty minutes .
-53	Spoken_4	User	great thanks a lot
-54	Spoken_5	Clerk	welcome to pizza . Just to let you know , we are very busy at this moment . Any orders will take 20 to 30 minutes . What can i do for you ?
-55	Spoken_5	User	yeah that ’ s fine . I wan na order a pizza but my friend is vegan . Do you have any vegan pizzas .
-56	Spoken_5	Clerk	sure , we can make a <pizza_type> vegan </pizza_type> pizza for you . A few of our crust options are vegan and we have some beyond meat options . But no <pizza_type> vegan cheese </pizza_type> options , i ’ m afraid .
-57	Spoken_5	User	ok that should be fine . Can i get ummm , a pizza with all the vegetables and cheese on only half .
-58	Spoken_5	Clerk	and what size pizza will this be ?
-59	Spoken_5	User	uh i think a <size> medium </size> should be fine
-60	Spoken_5	Clerk	okay so that ’ s one medium pizza with ALL of the vegetables and cheese on onlyyy half ? Is that right ?
-61	Spoken_5	User	yeah that ’ s correct
-62	Spoken_5	Clerk	okay , great . That will come out to thirteen seventy eight .
-63	Spoken_5	User	sounds good i ’ ll come pick that up . When will it be ready ?
-64	Spoken_5	Clerk	uh it should be ready in <time> abouut 25 minutes </time>
-65	Spoken_5	User	ok and i can pay when i get there right ?
-66	Spoken_5	Clerk	yup , of course
-67	Spoken_5	User	ok uh thanks see you then
-68	Spoken_6	Clerk	hello this is pizza hut .
-69	Spoken_6	User	can i get an <size> extra large </size> <pizza_type> meat lover ’ </pizza_type> s pizza with a stuffed crust and double meat ? And um an order of garlic knots , uh , <quant> two two </quant> liter bottles of mountain dew , um for <modality> delivery </modality> for as soon as possible
-70	Spoken_6	Clerk	uhm wow okay . It should be there in just a little bit .
-71	Spoken_6	User	ok my address is <numeric> 6969 </numeric> gamer way . Just leave it at the front door and knock . Can i pay now so i don ’ t have to do it later .
-72	Spoken_6	Clerk	ahhh fine . What ’ s your card number
-73	Spoken_6	User	<numeric> 0 </numeric>
-74	Spoken_6	Clerk	oh and that will be… eighteen ninety nine .
-75	Spoken_6	User	ok thank you *hangs up*
-76	Text_1	Clerk	Hello ! thanks so much for calling pizza hut ! What can i help you with today ?
-77	Text_1	User	I need to place an order for <modality> delivery </modality> . It 's very important that everything is right .
-78	Text_1	Clerk	absolutely , I 'm happy to help with that ! What can I get you ?
-79	Text_1	User	I need a <size> large </size> pizza , half with <topping> pepperoni </topping> , <topping> olives </topping> , and no sauce , half with onion , chicken , and bbq sauce . Then I need a <size> small </size> <pizza_type> supreme </pizza_type> pizza with <quant> no </quant> <topping> mushrooms </topping> , a <size> small </size> <pizza_type> cheese </pizza_type> pizza with pesto , and an order of breadsticks
-80	Text_1	Clerk	okay so to confirm that is <quant> one </quant> <size> large </size> pizza with <topping> pepperoni </topping> , <topping> olives </topping> and no sauce on one side , and onion , chicken and bbq sauce on the other side . A small supreme pizza with <quant> no </quant> <topping> mushrooms </topping> . A <size> small </size> <pizza_type> cheese </pizza_type> pizza with pesto sauce . And an order of bread sticks . Is that correct ?
-81	Text_1	User	yes , that 's correct .
-82	Text_1	Clerk	alright , great ! What address would you like that delivered to ?
-83	Text_1	User	The address is <address> 123 fourth st </address>
-84	Text_1	Clerk	123 Fourth Street , got it ! And would you like to pay over the phone or upon delivery ?
-85	Text_1	User	I 'll pay when it gets here . I want to make sure everything is right .
-86	Text_1	Clerk	absolutely ! Alright well I 'll go ahead and get that order started for you . It should be there in about <numeric> 35 </numeric> minutes . Is there anything else I can help you with today ?
-87	Text_1	User	You got no <topping> mushrooms </topping> on the <size> small </size> <pizza_type> supreme </pizza_type> , right ?
-88	Text_1	Clerk	Absolutely , that 's correct !
-89	Text_1	User	Great , thank you . That is all .
-90	Text_1	Clerk	wonderful ! Have a great rest of your day . bye-bye .
-91	Text_1	User	Goodbye
-92	Text_2	Clerk	pizza hut . How can i help you ?
-93	Text_2	User	Hi , I was wondering , how late are you guys open ?
-94	Text_2	Clerk	10pm .
-95	Text_2	User	great , and can I have a pizza delivered at 9:30pm ? I do n't want it now
-96	Text_2	Clerk	I can do that .
-97	Text_2	User	cool , thanks , I 'd like a <size> medium </size> <pizza_type> Hawaiian </pizza_type> pizza please
-98	Text_2	Clerk	<size> medium </size> <pizza_type> hawaiian </pizza_type> pizza . anything else ?
-99	Text_2	User	oh and can I get extra pepper flakes with that ?
-100	Text_2	Clerk	sure . is that all ?
-101	Text_2	User	That 's all . Can I pay for it now ?
-102	Text_2	Clerk	yup , i 'm ready for the card number .
-103	Text_2	User	0000000000000000 . Did you get all that ?
-104	Text_2	Clerk	Yes . The total is $ 13 . Your card will be charged when they start making the order , around 9pm .
-105	Text_2	User	thank you !
-106	Text_2	Clerk	thank you , bye .
-107	Text_3	Clerk	Thanks for calling pizza hut , what can i get started for you today ?
-108	Text_3	User	hi I 'd like <quant> four </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas , <quant> two </quant> <size> medium </size> <pizza_type> cheese </pizza_type> pizzas , and <quant> two </quant> <size> medium </size> <pizza_type> supreme </pizza_type> pizzas .
-109	Text_3	Clerk	can i interest you in upgrading any of these pizzas to our signature stuffed cheese crust ?
-110	Text_3	User	No I just need those pizzas . Can I have it delivered within 15 minutes ? ( edited )
-111	Text_3	Clerk	We are a bit busy , let me see how long it will take . what 's you 're address ?
-112	Text_3	User	323 calle street . I need it ASAP .
-113	Text_3	Clerk	Alright , since you 're pretty close to the store it should n't take long to deliver . It will take about 15 minutes to complete the order and another 5 for <modality> delivery </modality> . Do you need any drinks or desserts with your meal ?
-114	Text_3	User	No , nothing else . I 'm just around the corner , it should n't take that long . Just get it here as soon as you can .
-115	Text_3	Clerk	Will do . would like like to pay now or upon delivery ?
-116	Text_3	User	I 'll pay cash when it gets here . Thanks , bye .
-117	Text_3	Clerk	thank you , bye .
-118	Text_4	Clerk	this is pizza hut , how can i help you ?
-119	Text_4	User	hi there ! I have a quick question if you do n't mind . Do you guys have cheesy bread ?
-120	Text_4	Clerk	we absolutely do have cheesy bread !
-121	Text_4	User	oh great ! Then I would like to place an order for <modality> pick up </modality> please .
-122	Text_4	Clerk	sure thing , what all can i get you ?
-123	Text_4	User	I 'd like an order of the cheesy bread and a <size> medium </size> bbq chicken pizza please .
-124	Text_4	Clerk	okay a <size> medium </size> <pizza_type> bacon chicken </pizza_type> pizza and some cheesy bread . Can i get a name for that order ?
-125	Text_4	User	sure thing , my name is Jerry .
-126	Text_4	Clerk	Alright jerry , I should have that order ready for you in about <time> 20 minutes </time> . It 'll be $ 17.75 on <modality> pickup </modality>
-127	Text_4	User	Great , thank you so much ! Hope you have a wonderful day !
-128	Text_4	Clerk	thanks , you too , buhbye .
-129	Text_5	Clerk	good afternoon this is pizza hut how can i help you
-130	Text_5	User	hi there . I want to order for <modality> delivery </modality>
-131	Text_5	Clerk	okay you want to order some <modality> delivery </modality> . What can i get you ?
-132	Text_5	User	well I 'm not sure if I want the supreme pizza or the meat lover 's pizza . Which one do you think is better ?
-133	Text_5	Clerk	hm , meat lovers or supreme . Personally I 'm not that much of a meat lover - I find it 's a little too heavy . So I prefer the supreme .
-134	Text_5	User	ok , that makes sense , I 'll get a <size> medium </size> <pizza_type> supreme </pizza_type> pizza . And then we 're not sure if we want garlic knots or breadsticks . Which are cheaper ?
-135	Text_5	Clerk	Between garlic knots and breadsticks , the breadsticks are a dollar cheaper , but in my opinion the garlic knots are much more delicious .
-136	Text_5	User	um , ok . I think we 'll get the breadsticks .
-137	Text_5	Clerk	breadsticks it is . can i get you anything else ?
-138	Text_5	User	I think that 's it
-139	Text_5	Clerk	okay so it will just be a <size> medium </size> <pizza_type> supreme </pizza_type> pizza and an order of garlic knots . Would you like to pay now , or when it 's delivered ?
-140	Text_5	User	oh wait , was it garlic knots or breadsticks that I ordered ?
-141	Text_5	Clerk	Oh i 'm sorry , you did say breadsticks . It was a <size> medium </size> <pizza_type> supreme </pizza_type> and an order of breadsticks .
-142	Text_5	User	oh ok , cool , sounds good . And I 'll pay when it gets here .
-143	Text_5	Clerk	pay when it gets there , okay . And what address would you like this delivered to ?
-144	Text_5	User	000 this avenue
-145	Text_5	Clerk	... alright Tayler , that should be out for you in about <time> 20 minutes </time>
-146	Text_5	User	yay ! This is going to be so good . Thank you so much .
-147	Text_5	Clerk	alright dude , have a good one
-148	Text_6	Clerk	thanks for calling pizza hut
-149	Text_6	User	<quant> one </quant> <size> large </size> <pizza_type> sausage </pizza_type> and <topping> pineapple </topping> pizza for <modality> pickup </modality> please
-150	Text_6	Clerk	okay , will that be all ?
-151	Text_6	User	yep
-152	Text_6	Clerk	it 'll be $ 15 . would you like to pay for that now or at pickup ?
-153	Text_6	User	at pickup
-154	Text_6	Clerk	got it . can i get a name for that ?
-155	Text_6	User	Fin
-156	Text_6	Clerk	alright , that 'll be ready in about <time> 20 minutes </time> . Thank you
-157	Text_6	User	thanks , bye
-158	Text_7	Clerk	good afternoon and thank you for calling pizza hut . This is Shay , how can I assist you today ?
-159	Text_7	User	heya Shay , yeah I 'm looking to get a <address> couple 'zas delivered </address>
-160	Text_7	Clerk	absolutely sir , what would you like to order ?
-161	Text_7	User	I 'm thinking the meat lover 's is looking good , let 's get that in a <size> large </size> . And then a couple of my buddies are wanting a <size> large </size> <pizza_type> veggie lover </pizza_type> 's
-162	Text_7	Clerk	Excellent , so that will be a <size> large </size> <pizza_type> meat lover </pizza_type> 's and a <size> large </size> <pizza_type> veggie lover </pizza_type> 's . can i get you anything else sir ?
-163	Text_7	User	nope , I think that should about do it
-164	Text_7	Clerk	Great , and what address would you like this delivered to ?
-165	Text_7	User	oh yeah , its <numeric> 111 </numeric> that boulevard
-166	Text_7	Clerk	111 that boulevard , is that correct ?
-167	Text_7	User	yeppers
-168	Text_7	Clerk	And would you like provide your card number over the phone , or would you rather pay in person upon delivery ?
-169	Text_7	User	yeah I can pay over the phone , ready for my card info ?
-170	Text_7	Clerk	yes sir
-171	Text_7	User	it 's a Mastercard , the number is <numeric> 0000 0000 0000 0000 </numeric>
-172	Text_7	Clerk	excellent . I will place your order and it should arrive within 30 minutes . Is there anything else I can assist you with today ?
-173	Text_7	User	alrighty . Nope , I 'm all set
-174	Text_7	Clerk	great , have a wonderful rest of your day !
-175	Text_7	User	thanks , you too Shay
-176	Text_8	Clerk	pizza hut , what can I do for you
-177	Text_8	User	hi there , I 'd like to place an order for <modality> pickup </modality> please !
-178	Text_8	Clerk	... uh huh , okay what can i get you ?
-179	Text_8	User	I want an <size> extra large </size> <pizza_type> supreme </pizza_type> pizza with stuffed crust please . I love that one
-180	Text_8	Clerk	yeah definitely ... a <size> large </size> <pizza_type> supreme </pizza_type> you said ?
-181	Text_8	User	that 's right !
-182	Text_8	Clerk	alright , anything else ?
-183	Text_8	User	oh and can I also get a <size> large </size> <pizza_type> hawaiian </pizza_type> pizza ? I also really love that one .
-184	Text_8	Clerk	a <size> large </size> <pizza_type> supreme </pizza_type> and a <size> large </size> <pizza_type> hawaiian </pizza_type> , is that all ?
-185	Text_8	User	yep , that 's it !
-186	Text_8	Clerk	..oh , yeah that 's all ? alright that 'll be $ 22.50 at pickup ; can i get a name for the order ?
-187	Text_8	User	Tyler
-188	Text_8	Clerk	... alright Tayler , that should be out for you in about <time> 20 minutes </time>
-189	Text_8	User	yay ! This is going to be so good . Thank you so much .
-190	Text_9	Clerk	hi there , pizza hut , how can i help you ?
-191	Text_9	User	good afternoon . I would like to place an order for a pizza delivery to my house please
-192	Text_9	Clerk	sure thing , what can i get you ?
-193	Text_9	User	I want a <size> large </size> <pizza_type> size pepperoni </pizza_type> pizza with <topping> olives </topping> please , as well as a side of breadsticks with extra marinara sauce if it 's not too much trouble
-194	Text_9	Clerk	sure thing- oh I 'm sorry , please hold for just one minute .
-195	Text_9	User	ok sure , I can do that .
-196	Text_9	User	sure , do n't worry about it , it 's not a problem . I was indeed ordering for <modality> delivery </modality> . I was just ordering a <size> large </size> <pizza_type> size pepperoni </pizza_type> and olive pizza , along with a side of breadsticks with extra marinara sauce if that 's possible .
-197	Text_9	User	I would prefer to pay for the pizza when it arrives here .
-198	Text_9	User	I would like it delivered to <address> 123 this way please </address>
-199	Text_9	User	fantastic , thank you very much . I hope you have a wonderful day .
-200	Text_10	Clerk	Hello ... how can i help you ?
-201	Text_10	User	hi I 'd like to order for <modality> pickup </modality> .
-202	Text_10	Clerk	uhm , yeah , sure , one second ... . what can i get you ?
-203	Text_10	User	I 'd like a <size> medium </size> <pizza_type> cheese </pizza_type> pizza and a <size> medium </size> <pizza_type> Italian sausage </pizza_type> pizza please .
-204	Text_10	Clerk	okay ... just let me enter that into the system ... do you want anything else ?
-205	Text_10	User	could I also get <quant> two </quant> Pepsi 's with that ?
-206	Text_10	Clerk	Pepsi ? Okay ... is that all ?
-207	Text_10	User	that 's it .
-208	Text_10	Clerk	okay and you want pickup ? so , what 's a good name for the order ?
-209	Text_10	User	<modality> pickup </modality> , that 's right . The name is <name> Alex </name>
-210	Text_10	Clerk	okay Alex , it will be ... $ 24.75 and that should be ready in like ... 25-30 minutes .
-211	Text_10	User	sounds good , thank you .
-212	Text_11	Clerk	hi this is pizza hut . How can I help you ?
-213	Text_11	User	hey i need a pizza for <modality> delivery </modality>
-214	Text_11	Clerk	ok sure , what can I get ya ?
-215	Text_11	User	uhm yeah ... i need the largest pizza you have , but with nothing on it , just the crust . and then i need <topping> sausage </topping> on only one half of that . Can you do this ?
-216	Text_11	Clerk	ok , um , yeah I think we can do that . So that was a <size> large </size> pizza , nothing but the crust and with <topping> sausage </topping> , is that right ?
-217	Text_11	User	yeah sausage only on the LEFT side
-218	Text_11	Clerk	ah right , <topping> sausage </topping> on the left side . And was there anything on the right side ?
-219	Text_11	User	no , absolutely nothing else on the pizza .
-220	Text_11	Clerk	got it , nothing but <topping> sausage </topping> on the left side . And what size pizza was that ?
-221	Text_11	User	whatever is the largest size you have
-222	Text_11	Clerk	got it , so that 's an extra <size> large </size> pizza with nothing on it except for <topping> sausage </topping> on the left side . Anything else ?
-223	Text_11	User	can i also get an order of garlic knots , but i want the <pizza_type> garlic cheese </pizza_type> powder stuff onthe side , not actually on the knots
-224	Text_11	Clerk	yeah , I think we can do that . So you 'd like the <pizza_type> garlic cheese </pizza_type> powder in a separate container ?
-225	Text_11	User	yeah that 's right , nothing on the knots themselves
-226	Text_11	Clerk	ok , so I 've got a <size> large </size> pizza , nothing on it except <topping> sausage </topping> on the left side , and garlic knots with the powder on the side . And did you say that was for <modality> delivery </modality> or pickup ?
-227	Text_11	User	<modality> delivery </modality>
-228	Text_11	Clerk	can I get an address ?
-229	Text_11	User	567 No Way NE
-230	Text_11	Clerk	alright , that 'll be $ 21.72 . Would you like to pay now or when your order is delivered ?
-231	Text_11	User	i 'll pay when it gets here , thanks
-232	Text_11	Clerk	ok , sounds good . It should arrive in about <time> 20 minutes </time> . Thank you for ordering with pizza hut today
-233	Text_12	Clerk	hello , this is pizza hut . How can I help you ?
-234	Text_12	User	hi i wanted to order a pizza
-235	Text_12	Clerk	ok , sure . What can I get started for you ?
-236	Text_12	User	uhm , how much is a <size> medium </size> <pizza_type> cheese </pizza_type> pizza ?
-237	Text_12	Clerk	a <size> medium </size> <pizza_type> cheese </pizza_type> pizza costs $ <numeric> 13.73 </numeric>
-238	Text_12	User	okay and how much is it for adding toppings ?
-239	Text_12	Clerk	that 's <numeric> 40 </numeric> cents per topping . You can get a better deal though by ordering one of our specialty pizzas
-240	Text_12	User	oh , well do you have anything with like , <topping> sausage </topping> , <topping> olives </topping> , and spicy peppers ?
-241	Text_12	Clerk	well not quite , but our supreme pizza has <topping> pepperoni </topping> , <topping> sausage </topping> , <topping> mushrooms </topping> , and bell peppers , so it 's not too far off . And if you want , I can go ahead and through on some <topping> olives </topping> for you for no extra charge
-242	Text_12	User	thats so sweet of you ! We 'll go with that then . thank you so much
-243	Text_12	Clerk	my pleasure . And is that going to be a <size> medium </size> ?
-244	Text_12	User	yes please
-245	Text_12	Clerk	great . And would you like it delivered or to come pick it up ?
-246	Text_12	User	uh , i think i 'll just come <modality> pick it up </modality>
-247	Text_12	Clerk	ok , no problem . So that will be $ 13.73 , and it will be ready in about <time> 15 minutes </time> . Can I get a name for the order ?
-248	Text_12	User	yeah it 's <name> Harold </name>
-249	Text_12	Clerk	ok Harold , come by in about <time> 15 minutes </time> and we 'll have your pizza ready for you .
-250	Text_13	Clerk	hello , this is pizza hut .
-251	Text_13	User	hi there I wanted to order something
-252	Text_13	Clerk	sure , what can I get you ?
-253	Text_13	User	uhm , do you have some sort of combo meal for a family dinner ?
-254	Text_13	Clerk	oh , I 'm actually not sure . Let me check ... so we do have a couple dinner box options , a regular size that feeds 2 to 3 people and a big size that feeds <address> 5 to 6 people </address>
-255	Text_13	User	sure , what comes in the small box ?
-256	Text_13	Clerk	um I think it has a pizza , breadsticks , and a dessert
-257	Text_13	User	okay that sounds pretty good - I 'll take one of those . For pickup
-258	Text_13	Clerk	ok , and what 's your name ?
-259	Text_13	User	sally
-260	Text_13	Clerk	ok Sally you can come by in a little bit to pick up your food .
-261	Text_13	User	okay thanks
-262	Text_14	Clerk	hi there , this is pizza hut . What can I do for you today ?
-263	Text_14	User	hi I 'd like to place an order for <modality> delivery </modality>
-264	Text_14	Clerk	alright , what can I get started for you ?
-265	Text_14	User	yeah I need <quant> one </quant> <size> large </size> pizza half <pizza_type> pepperoni half hawaiian </pizza_type> . I also need <quant> two </quant> <pizza_type> cheese </pizza_type> pizzas and one other pizza that 's half veggie and half <topping> olives </topping> . Ill also have <quant> 2 </quant> orders of garlic knots and a four pack of pepsi
-266	Text_14	Clerk	ok , and what sizes for the <pizza_type> cheese </pizza_type> pizzas and the half veggie half olive pizza ?
-267	Text_14	User	oh uh , large for all of them please
-268	Text_14	Clerk	ok , so I 've got a <size> large </size> <pizza_type> half pepperoni half hawaiian </pizza_type> , <quant> two </quant> <size> large </size> cheeses , and a <size> large </size> <pizza_type> half veggie half olives </pizza_type> . And two orders of garlic knots and four pepsis . Can I interest you in making any of those pizzas stuffed crust ?
-269	Text_14	User	hmm sure , make one of the cheeses a stuffed crust
-270	Text_14	Clerk	great ! any desserts for you today ?
-271	Text_14	User	no thanks
-272	Text_14	Clerk	ok , no problem . And what address should I have that delivered to ?
-273	Text_14	User	1234 street street
-274	Text_14	Clerk	alrighty , your order should be there in about <address> 20 to 30 minutes </address> . Would you like to pay now or later ?
-275	Text_14	User	later is fine , thanks
-276	Text_14	Clerk	sounds good . thanks for ordering with pizza hut today
-277	Text_14	User	thanks
-278	Text_15	Clerk	Hello , this is pizza hut .
-279	Text_15	User	hi , I want to order a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza for <modality> pickup </modality> .
-280	Text_15	Clerk	anything else ?
-281	Text_15	User	nope .
-282	Text_15	Clerk	what 's the address ?
-283	Text_15	User	oh I 'll pick it <modality> up </modality>
-284	Text_15	Clerk	ah ok , sorry . That should be ready in <time> 10 to 15 minutes </time> .
-285	Text_15	User	thanks
-286	Text_15	Clerk	thanks , buh-bye
-287	Text_16	Clerk	hi , pizza hut . what can I get you ?
-288	Text_16	User	hey can I get a <size> small </size> <pizza_type> deluxe </pizza_type> pizza and a Dr pepper
-289	Text_16	Clerk	um , ok , it 's going take a while , we 're swamped right now .
-290	Text_16	User	that 's alright I guess . Actually though can you make that a <size> medium </size> ?
-291	Text_16	Clerk	yeah , ok sure . and was that a Dr pepper you asked for ?
-292	Text_16	User	yeah man , thanks
-293	Text_16	Clerk	and do you want that delivered or picked up ?
-294	Text_16	User	I 'll just come get it
-295	Text_16	Clerk	ok , thank you . That should make it a little quicker . So that will come to $ 9.43 . Wan na pay now or when you get here ?
-296	Text_16	User	let 's just do it later , thanks
-297	Text_16	Clerk	alright , that should be ready in about <numeric> 40 </numeric> minutes .
-298	Text_16	User	thanks bye
-299	Text_16	Clerk	thank you , bye .
-300	Text_17	Clerk	what ?
-301	Text_17	User	uhm .. is this pizza hut ?
-302	Text_17	Clerk	yes , obviously . what do you want ?
-303	Text_17	User	well ... I just wanted to order a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza for <modality> pickup </modality> .
-304	Text_17	Clerk	ok , fine . It 'll be ready in , I do n't know , like 20 minutes . That all ?
-305	Text_17	User	... Yeah I guess that 's it . Can you put the order under Bobby ?
-306	Text_17	Clerk	ok , see you then . *hangs up*
-307	Text_18	Clerk	hello , thanks for calling pizza hut . What can I do for you ?
-308	Text_18	User	hey yeah I need to order <quant> two </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizzas for <modality> pickup </modality> . The name is Sylvia and I 'll pay when I pick it up .
-309	Text_18	Clerk	Ok , so that 's <quant> two </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizzas . Was there anything else to that order ?
-310	Text_18	User	no thanks , I 'll be there to pick it up soon
-311	Text_18	Clerk	ok , and was it Sylvia for the name ?
-312	Text_18	User	that 's right
-313	Text_18	Clerk	ok , so that 's <quant> two </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizzas for <modality> pickup </modality> for Sylvia . That should be ready in about ten to fifteen minutes . Is that it ?
-314	Text_18	User	yes that 's all , thanks bye !
-315	Text_18	Clerk	alright , bye !
-316	Text_19	Clerk	hello , thanks for calling pizza hut . What pizzas can I get started for you today ?
-317	Text_19	User	just a <size> small </size> <pizza_type> supreme </pizza_type> pizza is all I need
-318	Text_19	Clerk	sounds good , but you 're gon na want some drinks with that , right ?
-319	Text_19	User	nah dude im good , just the pizza
-320	Text_19	Clerk	alright , just the pizza , got it . And where would you like that delivered ?
-321	Text_19	User	I 'll actually come pick it up in 20 . Can I pay for it now though !
-322	Text_19	Clerk	oh ok , sure . and yeah , not a problem , i 'm ready for your card number
-323	Text_19	User	<address> 0000 0000 0000 0000 </address>
-324	Text_19	Clerk	got it , sounds good . that will be ready in about <time> 15 minutes </time>
-325	Text_19	User	cool , thanks
-326	Text_20	Clerk	Hello ! thanks for calling pizza hut , how can i help you ?
-327	Text_20	User	yeah hey , I wanted to order some pizza for <modality> pickup </modality>
-328	Text_20	Clerk	sure thing , I 'd be happy to help with that . What kind of pizza you looking to enjoy today ?
-329	Text_20	User	I need a <size> large </size> pizza , and for toppings I guess I just want every kind of meat you have , and a lot of it
-330	Text_20	Clerk	oh boy , that sounds like quite a pizza ! we sure can do that for you . is there anything else you 'd like ?
-331	Text_20	User	hm I think that should do it
-332	Text_20	Clerk	lovely , and what name should I put that under ?
-333	Text_20	User	put it under <name> pablo </name>
-334	Text_20	Clerk	okie doke . so that 's going to come out to $ 18.82 . will you be paying now or when you come in to pick it up ?
-335	Text_20	User	later is fine , thanks
-336	Text_20	Clerk	ok then , we 'll see you in about <time> 20 minutes </time> . Have a lovely day !
-337	Abnormal_1	Clerk	this is pizza hut , how can i help you ?
-338	Abnormal_1	User	hello , i ’ d like to order for <modality> delivery </modality> please
-339	Abnormal_1	Clerk	Sure thing . Do you mind if a put you on a brief hold before I take your order ?
-340	Abnormal_1	User	um sure i guess
-341	Abnormal_1	Clerk	Thank you , please hold .
-342	Abnormal_1	Clerk	Thank you for holding , what can I do for you .
-343	Abnormal_1	User	hi I want an <size> extra large </size> pesto pizza with <topping> sausage </topping> and onion .
-344	Abnormal_1	Clerk	Okay . Will that be all ?
-345	Abnormal_1	User	yes that ’ s it
-346	Abnormal_1	Clerk	Is that for <modality> pickup </modality> or delivery ?
-347	Abnormal_1	User	Delivery
-348	Abnormal_1	Clerk	can i get your address
-349	Abnormal_1	User	1010 This Street
-350	Abnormal_1	Clerk	Great . That will be $ 12 upon delivery and it should be there in less than thirty minutes . Thank you .
-351	Abnormal_1	User	Ok bye .
-352	Abnormal_2	Clerk	hi this is pizza hut what can i do for you .
-353	Abnormal_2	User	hi i ’ d like to order <quant> two </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas and an order of cinnabon mini rolls
-354	Abnormal_2	Clerk	okay . Will that be for <modality> delivery </modality> ?
-355	Abnormal_2	User	yes please
-356	Abnormal_2	Clerk	sure , what is your address .
-357	Abnormal_2	User	1011 That Street
-358	Abnormal_2	Clerk	I ’ m so sorry , but our store does not deliver to that area . Are you interested in picking your order up at the store ?
-359	Abnormal_2	User	um I ’ d really like it delivered . How close to that address can you deliver it ?
-360	Abnormal_2	Clerk	The farthest we deliver on That Street is about a mile north of you , near the Jack in the Box .
-361	Abnormal_2	User	ok , well can I have it delivered to the corner of This and That streets ?
-362	Abnormal_2	Clerk	I ’ m sure we can make that work .
-363	Abnormal_2	User	ok cool , I ’ ll be in the CVS parking lot wearing a green hoodie .
-364	Abnormal_2	Clerk	Okay , can i get a phone number in case we have trouble finding you .
-365	Abnormal_2	User	yeah , it ’ s ( <address> 111 ) 111-1110 </address>
-366	Abnormal_2	Clerk	Okay that will be $ 25 upon delivery , it should be there in about <time> 20 minutes </time> .
-367	Abnormal_2	User	alright , cool , thanks for your help .
-368	Abnormal_2	Clerk	No problem , have a good one .
-369	Abnormal_2	User	you too .
-370	Abnormal_3	Clerk	Hello this is pizza hut , what can i get started for you ?
-371	Abnormal_3	User	hello pizza hut , i want a <size> large </size> <pizza_type> supreme </pizza_type> pizza with a lot of extra <topping> olives </topping>
-372	Abnormal_3	Clerk	ok the extra <topping> olives </topping> will be an extra 99 cents , is that ok ?
-373	Abnormal_3	User	yeah , fine
-374	Abnormal_3	Clerk	I ’ m sorry , what was that ?
-375	Abnormal_3	User	I said YEAH fine .
-376	Abnormal_3	Clerk	ok , gotcha . And would you like any sides with that ?
-377	Abnormal_3	User	would i like any what ? ?
-378	Abnormal_3	Clerk	any sides , would you like any sides with your pizza ?
-379	Abnormal_3	User	no , all i want is a <size> large </size> pizza with <topping> extra olives </topping> .
-380	Abnormal_3	Clerk	ok sir , so I have <quant> one </quant> <size> large </size> <pizza_type> supreme </pizza_type> pizza with <topping> extra olives </topping> , is that right ?
-381	Abnormal_3	User	yes , with <topping> extra olives </topping> !
-382	Abnormal_3	Clerk	did you say extra <topping> olives </topping> ?
-383	Abnormal_3	User	YES , EXTRA OLIVES
-384	Abnormal_3	Clerk	ok , ok. That ’ ll be 12.99 . Is this for <modality> pickup </modality> or delivery ?
-385	Abnormal_3	User	<modality> pickup </modality> . I ’ ll pay there . When will it be ready ?
-386	Abnormal_3	Clerk	In about 15 min .
-387	Abnormal_3	User	Okay , thank you , goodbye .
-388	Abnormal_3	Clerk	Thank you for ordering with pizza hut , goodbye !
-389	Abnormal_3	User	*hangs up*
-390	Abnormal_4	Clerk	Hello , this is pizza hut . How can I help you ?
-391	Abnormal_4	User	yeah can i get a <size> small </size> <pizza_type> veggie lover </pizza_type> ’ s pizza with lots of italian <topping> sausage </topping>
-392	Abnormal_4	Clerk	I ’ m sorry we ’ re out of olives and <topping> sausage </topping> right now . Is there another meat you ’ d like instead ?
-393	Abnormal_4	User	you ’ re out of <topping> olives AND sausage </topping> ?
-394	Abnormal_4	Clerk	yes i ’ m afraid so . It ’ s been a crazy busy day .
-395	Abnormal_4	User	well fine , just give me that fake meat stuff , what ’ s it called ? Beyond meat
-396	Abnormal_4	Clerk	the beyond meat <topping> sausage </topping> ?
-397	Abnormal_4	User	yeah , fine
-398	Abnormal_4	Clerk	Ok , great , so I have a <pizza_type> veggie lover </pizza_type> ’ s pizza with beyond meat <topping> sausage </topping> and no <topping> olives </topping> , is that right ?
-399	Abnormal_4	User	well yeah , i guess but only because you don ’ t have <topping> olives </topping>
-400	Abnormal_4	Clerk	Again , I ’ m sorry about that . If you ’ d like I can add another topping on there for no extra charge .
-401	Abnormal_4	User	no it ’ s okay . I ’ ll just pick that up as soon as i can
-402	Abnormal_4	Clerk	Ok , great , it ’ ll be ready in about <time> 15 minutes </time> . Would you like to pay now or when you pick it up ?
-403	Abnormal_4	User	i ’ ll just go ahead and pay now ; ready for my card number ?
-404	Abnormal_4	Clerk	Yep , go ahead .
-405	Abnormal_4	User	<numeric> 1234 5678 9101 1121 </numeric>
-406	Abnormal_4	Clerk	Thank you , and that order total will be 12.99 .
-407	Abnormal_4	User	thanks .
-408	Abnormal_4	Clerk	Thank you for ordering with pizza hut !
+Conversation	Speaker	Transcript
+Spoken_1	Clerk	Hello thanks for calling Pizza Hut how can I help you
+Spoken_1	User	hello i ’ d like to order a pizza please
+Spoken_1	Clerk	will that be for <modality> pick up </modality> or <modality> delivery sir </modality>
+Spoken_1	User	forrr pickup please
+Spoken_1	Clerk	sure what can i get you
+Spoken_1	User	i ’ d like a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza . Half with <topping> pineapple </topping> and half with <quant> no </quant> <topping> pineapple </topping>
+Spoken_1	Clerk	ok you want a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza with <topping> half pineapple </topping>
+Spoken_1	User	nooo i think that ’ s it .
+Spoken_1	Clerk	alright that ’ ll be $ 10 and it will be ready in about <time> 30 minutes </time>
+Spoken_1	User	okay great . Thank you !
+Spoken_2	Clerk	hello this is pizza hut how can i help you
+Spoken_2	User	hey there . I ’ d like to order three pizzas please ?
+Spoken_2	Clerk	uh sure go ahead
+Spoken_2	User	okay . We want the hawaiian chicken pizza , medium . The backyard bbq pizza also medium . And then the chicken <topping> bacon </topping> parmesan pizza as a <size> small </size> .
+Spoken_2	Clerk	ok great so i have a <pizza_type> hawaiian </pizza_type> chicken pizza and backyard bbq pizza medium size and and a <topping> chicken bacon </topping> in a <size> small </size>
+Spoken_2	User	was that a <pizza_type> chicken bacon </pizza_type> parmesan as a <size> small </size> ?
+Spoken_2	Clerk	yes sir
+Spoken_2	User	okay great , that sounds perfect .
+Spoken_2	Clerk	will that be for <modality> pick up </modality> or delivery today
+Spoken_2	User	<modality> delivery </modality> please .
+Spoken_2	Clerk	can i get an address
+Spoken_2	User	uhm yes . 3629846 chicken way ?
+Spoken_2	Clerk	and would you like to pay over the phone or in person
+Spoken_2	User	in person , if that ’ s alright with you .
+Spoken_2	Clerk	alright sir that will be thirty five dollars and it should be ready in <time> 45 minutes </time> or less
+Spoken_2	User	sounds great ! Thank you so much
+Spoken_3	Clerk	welcome to pizza hut what can i do for ya
+Spoken_3	User	hello i would like <quant> one </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizza please . And i want no sauce on one half .
+Spoken_3	Clerk	ok so that ’ s a <size> large </size> <pizza_type> cheese </pizza_type> pizza but no sauce at all on one half
+Spoken_3	User	yes , that ’ s correct . No sauce on one half
+Spoken_3	Clerk	ok would you like anything else
+Spoken_3	User	let me think… no .
+Spoken_3	Clerk	if you like cheese can i interest you in upgrading to our stuffed crust pizza for only <address> one dollar ninety nine more </address>
+Spoken_3	User	well i do like cheese… okay you ’ ve convinced me . Make it a stuffed crust .
+Spoken_3	Clerk	excellent choice sir that will be <address> eleven ninety nine </address>
+Spoken_3	User	wonderful ! Do you take american express ?
+Spoken_3	Clerk	uh yes
+Spoken_3	User	great , here you go .
+Spoken_3	Clerk	aright that should be ready in about twenty minutes can i get a name for the order
+Spoken_3	User	my name is reginald .
+Spoken_3	Clerk	fantastic name i ’ ll have that out for you in a bit reginald please take a seat
+Spoken_3	User	thank you very much .
+Spoken_4	Clerk	hello , welcome to pizza hut what can i do for you ?
+Spoken_4	User	yeah i ’ d like to order some food for takeout
+Spoken_4	Clerk	ooookay , good . What can i get for you ?
+Spoken_4	User	uh i see that you have a dinner box and a big dinner box . How many people will the big dinner box feed ?
+Spoken_4	Clerk	uhhhh the big dinner box usually feeds four to five people . But the <crust> regular </crust> dinner box is good for about 2 people .
+Spoken_4	User	ok there ’ s two of us but we ’ re very hungry so we ’ ll have the big dinner box
+Spoken_4	Clerk	ookay can i get anything to drink for you guys ?
+Spoken_4	User	can i get <quant> two </quant> of your largest mountain dews
+Spoken_4	Clerk	sure thing . And will this be -uhhh- nevermind . That will be… uhm… nineteen ninety nine .
+Spoken_4	User	ok here ’ s twenty in cash keep the change
+Spoken_4	Clerk	wow ! Thank you so much ! That ’ ll be ready innn twenty minutes .
+Spoken_4	User	great thanks a lot
+Spoken_5	Clerk	welcome to pizza . Just to let you know , we are very busy at this moment . Any orders will take 20 to 30 minutes . What can i do for you ?
+Spoken_5	User	yeah that ’ s fine . I wan na order a pizza but my friend is vegan . Do you have any vegan pizzas .
+Spoken_5	Clerk	sure , we can make a vegan pizza for you . A few of our crust options are vegan and we have some beyond meat options . But no <pizza_type> vegan cheese </pizza_type> options , i ’ m afraid .
+Spoken_5	User	ok that should be fine . Can i get ummm , a pizza with <quant> all </quant> the vegetables and cheese on only half .
+Spoken_5	Clerk	and what size pizza will this be ?
+Spoken_5	User	uh i think a <size> medium </size> should be fine
+Spoken_5	Clerk	okay so that ’ s one medium pizza with ALL of the vegetables and cheese on onlyyy half ? Is that right ?
+Spoken_5	User	yeah that ’ s correct
+Spoken_5	Clerk	okay , great . That will come out to thirteen seventy eight .
+Spoken_5	User	sounds good i ’ ll come pick that up . When will it be ready ?
+Spoken_5	Clerk	uh it should be ready in <time> abouut 25 minutes </time>
+Spoken_5	User	ok and i can pay when i get there right ?
+Spoken_5	Clerk	yup , of course
+Spoken_5	User	ok uh thanks see you then
+Spoken_6	Clerk	hello this is pizza hut .
+Spoken_6	User	can i get an <size> extra large </size> <pizza_type> meat lover ’ </pizza_type> s pizza with a stuffed crust and double meat ? And um an order of garlic knots , uh , <quant> two two </quant> liter bottles of mountain dew , um for <modality> delivery </modality> for as soon as possible
+Spoken_6	Clerk	uhm wow okay . It should be there in just a little bit .
+Spoken_6	User	ok my address is <numeric> 6969 </numeric> gamer way . Just leave it at the front door and knock . Can i pay now so i don ’ t have to do it later .
+Spoken_6	Clerk	ahhh fine . What ’ s your card number
+Spoken_6	User	<numeric> 0 </numeric>
+Spoken_6	Clerk	oh and that will be… eighteen ninety nine .
+Spoken_6	User	ok thank you *hangs up*
+Text_1	Clerk	Hello ! thanks so much for calling pizza hut ! What can i help you with today ?
+Text_1	User	I need to place an order for <modality> delivery </modality> . It 's very important that everything is right .
+Text_1	Clerk	absolutely , I 'm happy to help with that ! What can I get you ?
+Text_1	User	I need a <size> large </size> pizza , half with <topping> pepperoni </topping> , <topping> olives </topping> , and no sauce , half with onion , chicken , and bbq sauce . Then I need a <size> small </size> <pizza_type> supreme </pizza_type> pizza with <quant> no </quant> <topping> mushrooms </topping> , a <size> small </size> <pizza_type> cheese </pizza_type> pizza with pesto , and an order of breadsticks
+Text_1	Clerk	okay so to confirm that is <quant> one </quant> <size> large </size> pizza with <topping> pepperoni </topping> , <topping> olives </topping> and no sauce on one side , and onion , chicken and bbq sauce on the other side . A small supreme pizza with <quant> no </quant> <topping> mushrooms </topping> . A <size> small </size> <pizza_type> cheese </pizza_type> pizza with pesto sauce . And an order of bread sticks . Is that correct ?
+Text_1	User	yes , that 's correct .
+Text_1	Clerk	alright , great ! What address would you like that delivered to ?
+Text_1	User	The address is <address> 123 fourth st </address>
+Text_1	Clerk	123 Fourth Street , got it ! And would you like to pay over the phone or upon delivery ?
+Text_1	User	I 'll pay when it gets here . I want to make sure everything is right .
+Text_1	Clerk	absolutely ! Alright well I 'll go ahead and get that order started for you . It should be there in about <numeric> 35 </numeric> minutes . Is there anything else I can help you with today ?
+Text_1	User	You got no <topping> mushrooms </topping> on the <size> small </size> <pizza_type> supreme </pizza_type> , right ?
+Text_1	Clerk	Absolutely , that 's correct !
+Text_1	User	Great , thank you . That is all .
+Text_1	Clerk	wonderful ! Have a great rest of your day . bye-bye .
+Text_1	User	Goodbye
+Text_2	Clerk	pizza hut . How can i help you ?
+Text_2	User	Hi , I was wondering , how late are you guys open ?
+Text_2	Clerk	10pm .
+Text_2	User	great , and can I have a pizza delivered at 9:30pm ? I do n't want it now
+Text_2	Clerk	I can do that .
+Text_2	User	cool , thanks , I 'd like a <size> medium </size> Hawaiian pizza please
+Text_2	Clerk	medium hawaiian pizza . anything else ?
+Text_2	User	oh and can I get extra pepper flakes with that ?
+Text_2	Clerk	sure . is that all ?
+Text_2	User	That 's all . Can I pay for it now ?
+Text_2	Clerk	yup , i 'm ready for the card number .
+Text_2	User	0000000000000000 . Did you get all that ?
+Text_2	Clerk	Yes . The total is $ 13 . Your card will be charged when they start making the order , around 9pm .
+Text_2	User	thank you !
+Text_2	Clerk	thank you , bye .
+Text_3	Clerk	Thanks for calling pizza hut , what can i get started for you today ?
+Text_3	User	hi I 'd like <quant> four </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas , <quant> two </quant> <size> medium </size> <pizza_type> cheese </pizza_type> pizzas , and <quant> two </quant> <size> medium </size> <pizza_type> supreme </pizza_type> pizzas .
+Text_3	Clerk	can i interest you in upgrading any of these pizzas to our signature stuffed cheese crust ?
+Text_3	User	No I just need those pizzas . Can I have it delivered within 15 minutes ? ( edited )
+Text_3	Clerk	We are a bit busy , let me see how long it will take . what 's you 're address ?
+Text_3	User	323 calle street . I need it ASAP .
+Text_3	Clerk	Alright , since you 're pretty close to the store it should n't take long to deliver . It will take about 15 minutes to complete the order and another 5 for <modality> delivery </modality> . Do you need any drinks or desserts with your meal ?
+Text_3	User	No , nothing else . I 'm just around the corner , it should n't take that long . Just get it here as soon as you can .
+Text_3	Clerk	Will do . would like like to pay now or upon delivery ?
+Text_3	User	I 'll pay cash when it gets here . Thanks , bye .
+Text_3	Clerk	thank you , bye .
+Text_4	Clerk	this is pizza hut , how can i help you ?
+Text_4	User	hi there ! I have a quick question if you do n't mind . Do you guys have cheesy bread ?
+Text_4	Clerk	we absolutely do have cheesy bread !
+Text_4	User	oh great ! Then I would like to place an order for <modality> pick up </modality> please .
+Text_4	Clerk	sure thing , what all can i get you ?
+Text_4	User	I 'd like an order of the cheesy bread and a <size> medium </size> bbq chicken pizza please .
+Text_4	Clerk	okay a <size> medium </size> <pizza_type> bacon </pizza_type> chicken pizza and some cheesy bread . Can i get a name for that order ?
+Text_4	User	sure thing , my name is Jerry .
+Text_4	Clerk	Alright jerry , I should have that order ready for you in about <time> 20 minutes </time> . It 'll be $ 17.75 on <modality> pickup </modality>
+Text_4	User	Great , thank you so much ! Hope you have a wonderful day !
+Text_4	Clerk	thanks , you too , buhbye .
+Text_5	Clerk	good afternoon this is pizza hut how can i help you
+Text_5	User	hi there . I want to order for <modality> delivery </modality>
+Text_5	Clerk	okay you want to order some delivery . What can i get you ?
+Text_5	User	well I 'm not sure if I want the supreme pizza or the meat lover 's pizza . Which one do you think is better ?
+Text_5	Clerk	hm , meat lovers or supreme . Personally I 'm not that much of a meat lover - I find it 's a little too heavy . So I prefer the supreme .
+Text_5	User	ok , that makes sense , I 'll get a <size> medium </size> <pizza_type> supreme </pizza_type> pizza . And then we 're not sure if we want garlic knots or breadsticks . Which are cheaper ?
+Text_5	Clerk	Between garlic knots and breadsticks , the breadsticks are a dollar cheaper , but in my opinion the garlic knots are much more delicious .
+Text_5	User	um , ok . I think we 'll get the breadsticks .
+Text_5	Clerk	breadsticks it is . can i get you anything else ?
+Text_5	User	I think that 's it
+Text_5	Clerk	okay so it will just be a <size> medium </size> <pizza_type> supreme </pizza_type> pizza and an order of garlic knots . Would you like to pay now , or when it 's delivered ?
+Text_5	User	oh wait , was it garlic knots or breadsticks that I ordered ?
+Text_5	Clerk	Oh i 'm sorry , you did say breadsticks . It was a <size> medium </size> <pizza_type> supreme </pizza_type> and an order of breadsticks .
+Text_5	User	oh ok , cool , sounds good . And I 'll pay when it gets here .
+Text_5	Clerk	pay when it gets there , okay . And what address would you like this delivered to ?
+Text_5	User	000 this avenue
+Text_5	Clerk	... alright Tayler , that should be out for you in about <time> 20 minutes </time>
+Text_5	User	yay ! This is going to be so good . Thank you so much .
+Text_5	Clerk	alright dude , have a good one
+Text_6	Clerk	thanks for calling pizza hut
+Text_6	User	<quant> one </quant> <size> large </size> <pizza_type> sausage </pizza_type> and <topping> pineapple </topping> pizza for <modality> pickup </modality> please
+Text_6	Clerk	okay , will that be all ?
+Text_6	User	yep
+Text_6	Clerk	it 'll be $ 15 . would you like to pay for that now or at pickup ?
+Text_6	User	at pickup
+Text_6	Clerk	got it . can i get a name for that ?
+Text_6	User	Fin
+Text_6	Clerk	alright , that 'll be ready in about <time> 20 minutes </time> . Thank you
+Text_6	User	thanks , bye
+Text_7	Clerk	good afternoon and thank you for calling pizza hut . This is Shay , how can I assist you today ?
+Text_7	User	heya Shay , yeah I 'm looking to get a <address> couple 'zas delivered </address>
+Text_7	Clerk	absolutely sir , what would you like to order ?
+Text_7	User	I 'm thinking the meat lover 's is looking good , let 's get that in a <size> large </size> . And then a couple of my buddies are wanting a <size> large </size> <pizza_type> veggie lover </pizza_type> 's
+Text_7	Clerk	Excellent , so that will be a <size> large </size> <pizza_type> meat lover </pizza_type> 's and a <size> large </size> <pizza_type> veggie lover </pizza_type> 's . can i get you anything else sir ?
+Text_7	User	nope , I think that should about do it
+Text_7	Clerk	Great , and what address would you like this delivered to ?
+Text_7	User	oh yeah , its 111 that boulevard
+Text_7	Clerk	111 that boulevard , is that correct ?
+Text_7	User	yeppers
+Text_7	Clerk	And would you like provide your card number over the phone , or would you rather pay in person upon delivery ?
+Text_7	User	yeah I can pay over the phone , ready for my card info ?
+Text_7	Clerk	yes sir
+Text_7	User	it 's a Mastercard , the number is <numeric> 0000 0000 0000 0000 </numeric>
+Text_7	Clerk	excellent . I will place your order and it should arrive within 30 minutes . Is there anything else I can assist you with today ?
+Text_7	User	alrighty . Nope , I 'm all set
+Text_7	Clerk	great , have a wonderful rest of your day !
+Text_7	User	thanks , you too Shay
+Text_8	Clerk	pizza hut , what can I do for you
+Text_8	User	hi there , I 'd like to place an order for <modality> pickup </modality> please !
+Text_8	Clerk	... uh huh , okay what can i get you ?
+Text_8	User	I want an <size> extra large </size> <pizza_type> supreme </pizza_type> pizza with stuffed crust please . I love that one
+Text_8	Clerk	yeah definitely ... a <size> large </size> <pizza_type> supreme </pizza_type> you said ?
+Text_8	User	that 's right !
+Text_8	Clerk	alright , anything else ?
+Text_8	User	oh and can I also get a <size> large </size> <pizza_type> hawaiian </pizza_type> pizza ? I also really love that one .
+Text_8	Clerk	a <size> large </size> <pizza_type> supreme </pizza_type> and a <size> large </size> <pizza_type> hawaiian </pizza_type> , is that all ?
+Text_8	User	yep , that 's it !
+Text_8	Clerk	..oh , yeah that 's all ? alright that 'll be $ 22.50 at pickup ; can i get a name for the order ?
+Text_8	User	Tyler
+Text_8	Clerk	... alright Tayler , that should be out for you in about <time> 20 minutes </time>
+Text_8	User	yay ! This is going to be so good . Thank you so much .
+Text_9	Clerk	hi there , pizza hut , how can i help you ?
+Text_9	User	good afternoon . I would like to place an order for a pizza delivery to my house please
+Text_9	Clerk	sure thing , what can i get you ?
+Text_9	User	I want a <size> large </size> <pizza_type> size pepperoni </pizza_type> pizza with <topping> olives </topping> please , as well as a side of breadsticks with extra marinara sauce if it 's not too much trouble
+Text_9	Clerk	sure thing- oh I 'm sorry , please hold for just one minute .
+Text_9	User	ok sure , I can do that .
+Text_9	User	sure , do n't worry about it , it 's not a problem . I was indeed ordering for <modality> delivery </modality> . I was just ordering a <size> large </size> <pizza_type> size pepperoni </pizza_type> and olive pizza , along with a side of breadsticks with extra marinara sauce if that 's possible .
+Text_9	User	I would prefer to pay for the pizza when it arrives here .
+Text_9	User	I would like it delivered to 123 this way please
+Text_9	User	fantastic , thank you very much . I hope you have a wonderful day .
+Text_10	Clerk	Hello ... how can i help you ?
+Text_10	User	hi I 'd like to order for <modality> pickup </modality> .
+Text_10	Clerk	uhm , yeah , sure , one second ... . what can i get you ?
+Text_10	User	I 'd like a <size> medium </size> <pizza_type> cheese </pizza_type> pizza and a <size> medium </size> <pizza_type> Italian sausage </pizza_type> pizza please .
+Text_10	Clerk	okay ... just let me enter that into the system ... do you want anything else ?
+Text_10	User	could I also get <quant> two </quant> Pepsi 's with that ?
+Text_10	Clerk	Pepsi ? Okay ... is that all ?
+Text_10	User	that 's it .
+Text_10	Clerk	okay and you want pickup ? so , what 's a good name for the order ?
+Text_10	User	<modality> pickup </modality> , that 's right . The name is <name> Alex </name>
+Text_10	Clerk	okay Alex , it will be ... $ 24.75 and that should be ready in like ... 25-30 minutes .
+Text_10	User	sounds good , thank you .
+Text_11	Clerk	hi this is pizza hut . How can I help you ?
+Text_11	User	hey i need a pizza for <modality> delivery </modality>
+Text_11	Clerk	ok sure , what can I get ya ?
+Text_11	User	uhm yeah ... i need the largest pizza you have , but with nothing on it , just the crust . and then i need <topping> sausage </topping> on only one half of that . Can you do this ?
+Text_11	Clerk	ok , um , yeah I think we can do that . So that was a <size> large </size> pizza , nothing but the crust and with <topping> sausage </topping> , is that right ?
+Text_11	User	yeah sausage only on the LEFT side
+Text_11	Clerk	ah right , <topping> sausage </topping> on the left side . And was there anything on the right side ?
+Text_11	User	no , absolutely nothing else on the pizza .
+Text_11	Clerk	got it , nothing but <topping> sausage </topping> on the left side . And what size pizza was that ?
+Text_11	User	whatever is the largest size you have
+Text_11	Clerk	got it , so that 's an extra <size> large </size> pizza with nothing on it except for <topping> sausage </topping> on the left side . Anything else ?
+Text_11	User	can i also get an order of garlic knots , but i want the <side> garlic cheese </side> powder stuff onthe side , not actually on the knots
+Text_11	Clerk	yeah , I think we can do that . So you 'd like the <side> garlic cheese </side> powder in a separate container ?
+Text_11	User	yeah that 's right , nothing on the knots themselves
+Text_11	Clerk	ok , so I 've got a <size> large </size> pizza , nothing on it except <topping> sausage </topping> on the left side , and garlic knots with the powder on the side . And did you say that was for <modality> delivery </modality> or pickup ?
+Text_11	User	<modality> delivery </modality>
+Text_11	Clerk	can I get an address ?
+Text_11	User	567 No Way NE
+Text_11	Clerk	alright , that 'll be $ 21.72 . Would you like to pay now or when your order is delivered ?
+Text_11	User	i 'll pay when it gets here , thanks
+Text_11	Clerk	ok , sounds good . It should arrive in about <time> 20 minutes </time> . Thank you for ordering with pizza hut today
+Text_12	Clerk	hello , this is pizza hut . How can I help you ?
+Text_12	User	hi i wanted to order a pizza
+Text_12	Clerk	ok , sure . What can I get started for you ?
+Text_12	User	uhm , how much is a <size> medium </size> <pizza_type> cheese </pizza_type> pizza ?
+Text_12	Clerk	a <size> medium </size> <pizza_type> cheese </pizza_type> pizza costs $ <numeric> 13.73 </numeric>
+Text_12	User	okay and how much is it for adding toppings ?
+Text_12	Clerk	that 's 40 cents per topping . You can get a better deal though by ordering one of our specialty pizzas
+Text_12	User	oh , well do you have anything with like , <topping> sausage </topping> , <topping> olives </topping> , and spicy peppers ?
+Text_12	Clerk	well not quite , but our supreme pizza has <topping> pepperoni </topping> , <topping> sausage </topping> , <topping> mushrooms </topping> , and bell peppers , so it 's not too far off . And if you want , I can go ahead and through on some <topping> olives </topping> for you for no extra charge
+Text_12	User	thats so sweet of you ! We 'll go with that then . thank you so much
+Text_12	Clerk	my pleasure . And is that going to be a <size> medium </size> ?
+Text_12	User	yes please
+Text_12	Clerk	great . And would you like it delivered or to come pick it up ?
+Text_12	User	uh , i think i 'll just come <modality> pick it up </modality>
+Text_12	Clerk	ok , no problem . So that will be $ 13.73 , and it will be ready in about <time> 15 minutes </time> . Can I get a name for the order ?
+Text_12	User	yeah it 's <name> Harold </name>
+Text_12	Clerk	ok Harold , come by in about <time> 15 minutes </time> and we 'll have your pizza ready for you .
+Text_13	Clerk	hello , this is pizza hut .
+Text_13	User	hi there I wanted to order something
+Text_13	Clerk	sure , what can I get you ?
+Text_13	User	uhm , do you have some sort of combo meal for a family dinner ?
+Text_13	Clerk	oh , I 'm actually not sure . Let me check ... so we do have a couple dinner box options , a regular size that feeds 2 to 3 people and a big size that feeds <address> 5 to 6 people </address>
+Text_13	User	sure , what comes in the small box ?
+Text_13	Clerk	um I think it has a pizza , breadsticks , and a dessert
+Text_13	User	okay that sounds pretty good - I 'll take one of those . For pickup
+Text_13	Clerk	ok , and what 's your name ?
+Text_13	User	sally
+Text_13	Clerk	ok Sally you can come by in a little bit to pick up your food .
+Text_13	User	okay thanks
+Text_14	Clerk	hi there , this is pizza hut . What can I do for you today ?
+Text_14	User	hi I 'd like to place an order for <modality> delivery </modality>
+Text_14	Clerk	alright , what can I get started for you ?
+Text_14	User	yeah I need <quant> one </quant> <size> large </size> pizza half <pizza_type> pepperoni half hawaiian </pizza_type> . I also need <quant> two </quant> <pizza_type> cheese </pizza_type> pizzas and one other pizza that 's half veggie and half <topping> olives </topping> . Ill also have <quant> 2 </quant> orders of garlic knots and a four pack of pepsi
+Text_14	Clerk	ok , and what sizes for the <pizza_type> cheese </pizza_type> pizzas and the half veggie half olive pizza ?
+Text_14	User	oh uh , large for all of them please
+Text_14	Clerk	ok , so I 've got a <size> large </size> <pizza_type> half pepperoni half hawaiian </pizza_type> , <quant> two </quant> <size> large </size> cheeses , and a <size> large </size> <pizza_type> half veggie half olives </pizza_type> . And two orders of garlic knots and four pepsis . Can I interest you in making any of those pizzas stuffed crust ?
+Text_14	User	hmm sure , make one of the cheeses a stuffed crust
+Text_14	Clerk	great ! any desserts for you today ?
+Text_14	User	no thanks
+Text_14	Clerk	ok , no problem . And what address should I have that delivered to ?
+Text_14	User	1234 street street
+Text_14	Clerk	alrighty , your order should be there in about <address> 20 to 30 minutes </address> . Would you like to pay now or later ?
+Text_14	User	later is fine , thanks
+Text_14	Clerk	sounds good . thanks for ordering with pizza hut today
+Text_14	User	thanks
+Text_15	Clerk	Hello , this is pizza hut .
+Text_15	User	hi , I want to order a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza for <modality> pickup </modality> .
+Text_15	Clerk	anything else ?
+Text_15	User	nope .
+Text_15	Clerk	what 's the address ?
+Text_15	User	oh I 'll <modality> pick it up </modality>
+Text_15	Clerk	ah ok , sorry . That should be ready in 10 to 15 minutes .
+Text_15	User	thanks
+Text_15	Clerk	thanks , buh-bye
+Text_16	Clerk	hi , pizza hut . what can I get you ?
+Text_16	User	hey can I get a <size> small </size> deluxe pizza and a Dr pepper
+Text_16	Clerk	um , ok , it 's going take a while , we 're swamped right now .
+Text_16	User	that 's alright I guess . Actually though can you make that a <size> medium </size> ?
+Text_16	Clerk	yeah , ok sure . and was that a Dr pepper you asked for ?
+Text_16	User	yeah man , thanks
+Text_16	Clerk	and do you want that delivered or picked up ?
+Text_16	User	I 'll just come get it
+Text_16	Clerk	ok , thank you . That should make it a little quicker . So that will come to $ 9.43 . Wan na pay now or when you get here ?
+Text_16	User	let 's just do it later , thanks
+Text_16	Clerk	alright , that should be ready in about <numeric> 40 </numeric> minutes .
+Text_16	User	thanks bye
+Text_16	Clerk	thank you , bye .
+Text_17	Clerk	what ?
+Text_17	User	uhm .. is this pizza hut ?
+Text_17	Clerk	yes , obviously . what do you want ?
+Text_17	User	well ... I just wanted to order a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza for <modality> pickup </modality> .
+Text_17	Clerk	ok , fine . It 'll be ready in , I do n't know , like 20 minutes . That all ?
+Text_17	User	... Yeah I guess that 's it . Can you put the order under Bobby ?
+Text_17	Clerk	ok , see you then . *hangs up*
+Text_18	Clerk	hello , thanks for calling pizza hut . What can I do for you ?
+Text_18	User	hey yeah I need to order <quant> two </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizzas for <modality> pickup </modality> . The name is Sylvia and I 'll pay when I pick it up .
+Text_18	Clerk	Ok , so that 's <quant> two </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizzas . Was there anything else to that order ?
+Text_18	User	no thanks , I 'll be there to pick it up soon
+Text_18	Clerk	ok , and was it Sylvia for the name ?
+Text_18	User	that 's right
+Text_18	Clerk	ok , so that 's <quant> two </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizzas for <modality> pickup </modality> for Sylvia . That should be ready in about ten to fifteen minutes . Is that it ?
+Text_18	User	yes that 's all , thanks bye !
+Text_18	Clerk	alright , bye !
+Text_19	Clerk	hello , thanks for calling pizza hut . What pizzas can I get started for you today ?
+Text_19	User	just a <size> small </size> <pizza_type> supreme </pizza_type> pizza is all I need
+Text_19	Clerk	sounds good , but you 're gon na want some drinks with that , right ?
+Text_19	User	nah dude im good , just the pizza
+Text_19	Clerk	alright , just the pizza , got it . And where would you like that delivered ?
+Text_19	User	I 'll actually come pick it up in 20 . Can I pay for it now though !
+Text_19	Clerk	oh ok , sure . and yeah , not a problem , i 'm ready for your card number
+Text_19	User	<address> 0000 0000 0000 0000 </address>
+Text_19	Clerk	got it , sounds good . that will be ready in about <time> 15 minutes </time>
+Text_19	User	cool , thanks
+Text_20	Clerk	Hello ! thanks for calling pizza hut , how can i help you ?
+Text_20	User	yeah hey , I wanted to order some pizza for <modality> pickup </modality>
+Text_20	Clerk	sure thing , I 'd be happy to help with that . What kind of pizza you looking to enjoy today ?
+Text_20	User	I need a <size> large </size> pizza , and for toppings I guess I just want every kind of meat you have , and a lot of it
+Text_20	Clerk	oh boy , that sounds like quite a pizza ! we sure can do that for you . is there anything else you 'd like ?
+Text_20	User	hm I think that should do it
+Text_20	Clerk	lovely , and what name should I put that under ?
+Text_20	User	put it under <name> pablo </name>
+Text_20	Clerk	okie doke . so that 's going to come out to $ 18.82 . will you be paying now or when you come in to pick it up ?
+Text_20	User	later is fine , thanks
+Text_20	Clerk	ok then , we 'll see you in about <time> 20 minutes </time> . Have a lovely day !
+Abnormal_1	Clerk	this is pizza hut , how can i help you ?
+Abnormal_1	User	hello , i ’ d like to order for <modality> delivery </modality> please
+Abnormal_1	Clerk	Sure thing . Do you mind if a put you on a brief hold before I take your order ?
+Abnormal_1	User	um sure i guess
+Abnormal_1	Clerk	Thank you , please hold .
+Abnormal_1	Clerk	Thank you for holding , what can I do for you .
+Abnormal_1	User	hi I want an <size> extra large </size> <pizza_type> pesto </pizza_type> pizza with <topping> sausage </topping> and onion .
+Abnormal_1	Clerk	Okay . Will that be all ?
+Abnormal_1	User	yes that ’ s it
+Abnormal_1	Clerk	Is that for <modality> pickup </modality> or delivery ?
+Abnormal_1	User	Delivery
+Abnormal_1	Clerk	can i get your address
+Abnormal_1	User	1010 This Street
+Abnormal_1	Clerk	Great . That will be $ 12 upon <modality> delivery </modality> and it should be there in less than thirty minutes . Thank you .
+Abnormal_1	User	Ok bye .
+Abnormal_2	Clerk	hi this is pizza hut what can i do for you .
+Abnormal_2	User	hi i ’ d like to order <quant> two </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas and an order of cinnabon mini rolls
+Abnormal_2	Clerk	okay . Will that be for <modality> delivery </modality> ?
+Abnormal_2	User	yes please
+Abnormal_2	Clerk	sure , what is your address .
+Abnormal_2	User	1011 That Street
+Abnormal_2	Clerk	I ’ m so sorry , but our store does not deliver to that area . Are you interested in picking your order up at the store ?
+Abnormal_2	User	um I ’ d really like it delivered . How close to that address can you deliver it ?
+Abnormal_2	Clerk	The farthest we deliver on That Street is about a mile north of you , near the Jack in the Box .
+Abnormal_2	User	ok , well can I have it delivered to the corner of This and That streets ?
+Abnormal_2	Clerk	I ’ m sure we can make that work .
+Abnormal_2	User	ok cool , I ’ ll be in the CVS parking lot wearing a green hoodie .
+Abnormal_2	Clerk	Okay , can i get a phone number in case we have trouble finding you .
+Abnormal_2	User	yeah , it ’ s ( <address> 111 ) 111-1110 </address>
+Abnormal_2	Clerk	Okay that will be $ 25 upon delivery , it should be there in about <time> 20 minutes </time> .
+Abnormal_2	User	alright , cool , thanks for your help .
+Abnormal_2	Clerk	No problem , have a good one .
+Abnormal_2	User	you too .
+Abnormal_3	Clerk	Hello this is pizza hut , what can i get started for you ?
+Abnormal_3	User	hello pizza hut , i want a <size> large </size> <pizza_type> supreme </pizza_type> pizza with a lot of extra <topping> olives </topping>
+Abnormal_3	Clerk	ok the extra <topping> olives </topping> will be an extra 99 cents , is that ok ?
+Abnormal_3	User	yeah , fine
+Abnormal_3	Clerk	I ’ m sorry , what was that ?
+Abnormal_3	User	I said YEAH fine .
+Abnormal_3	Clerk	ok , gotcha . And would you like any sides with that ?
+Abnormal_3	User	would i like any what ? ?
+Abnormal_3	Clerk	any sides , would you like any sides with your pizza ?
+Abnormal_3	User	no , all i want is a <size> large </size> pizza with <topping> extra olives </topping> .
+Abnormal_3	Clerk	ok sir , so I have <quant> one </quant> <size> large </size> <pizza_type> supreme </pizza_type> pizza with <topping> extra olives </topping> , is that right ?
+Abnormal_3	User	yes , with <topping> extra olives </topping> !
+Abnormal_3	Clerk	did you say extra <topping> olives </topping> ?
+Abnormal_3	User	YES , EXTRA OLIVES
+Abnormal_3	Clerk	ok , ok. That ’ ll be 12.99 . Is this for <modality> pickup </modality> or delivery ?
+Abnormal_3	User	<modality> pickup </modality> . I ’ ll pay there . When will it be ready ?
+Abnormal_3	Clerk	In about 15 min .
+Abnormal_3	User	Okay , thank you , goodbye .
+Abnormal_3	Clerk	Thank you for ordering with pizza hut , goodbye !
+Abnormal_3	User	*hangs up*
+Abnormal_4	Clerk	Hello , this is pizza hut . How can I help you ?
+Abnormal_4	User	yeah can i get a <size> small </size> <pizza_type> veggie lover </pizza_type> ’ s pizza with lots of italian <topping> sausage </topping>
+Abnormal_4	Clerk	I ’ m sorry we ’ re out of olives and <topping> sausage </topping> right now . Is there another meat you ’ d like instead ?
+Abnormal_4	User	you ’ re out of <topping> olives AND sausage </topping> ?
+Abnormal_4	Clerk	yes i ’ m afraid so . It ’ s been a crazy busy day .
+Abnormal_4	User	well fine , just give me that fake meat stuff , what ’ s it called ? Beyond meat
+Abnormal_4	Clerk	the beyond meat <topping> sausage </topping> ?
+Abnormal_4	User	yeah , fine
+Abnormal_4	Clerk	Ok , great , so I have a <pizza_type> veggie lover </pizza_type> ’ s pizza with beyond meat <topping> sausage </topping> and <quant> no </quant> <topping> olives </topping> , is that right ?
+Abnormal_4	User	well yeah , i guess but only because you don ’ t have <topping> olives </topping>
+Abnormal_4	Clerk	Again , I ’ m sorry about that . If you ’ d like I can add another topping on there for no extra charge .
+Abnormal_4	User	no it ’ s okay . I ’ ll just pick that up as soon as i can
+Abnormal_4	Clerk	Ok , great , it ’ ll be ready in about <time> 15 minutes </time> . Would you like to pay now or when you pick it up ?
+Abnormal_4	User	i ’ ll just go ahead and pay now ; ready for my card number ?
+Abnormal_4	Clerk	Yep , go ahead .
+Abnormal_4	User	<numeric> 1234 5678 9101 1121 </numeric>
+Abnormal_4	Clerk	Thank you , and that order total will be 12.99 .
+Abnormal_4	User	thanks .
+Abnormal_4	Clerk	Thank you for ordering with pizza hut !

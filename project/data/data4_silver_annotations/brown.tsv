@@ -1,656 +1,656 @@
-	Conversation	Speaker	Transcript
-0	Spoken1	User	Hello .
-1	Spoken1	Clerk	Hello this is Domino 's Pizza . How may I take your order ?
-2	Spoken1	User	Um , hi . I just want to get a , a <size> large </size> pizza please .
-3	Spoken1	Clerk	Um , okay . What would you like on that ? Just cheese pizza , or ...
-4	Spoken1	User	Uh , no , I want a Hawaiian pizza , please .
-5	Spoken1	Clerk	Hawaiian pizza . I actually do n't really recommend our Hawaiian pizzas , but that ’ s okay .
-6	Spoken1	User	Oh , why not ?
-7	Spoken1	Clerk	Because pineapple should n't be on pizza .
-8	Spoken1	User	Oh , well , I 'm a little offended that you 're insulting my pizza topping choices .
-9	Spoken1	Clerk	I ’ m sorry , okay , I 'll get you a <size> large </size> <pizza_type> pineapple </pizza_type> pizza .
-10	Spoken1	User	Well , I asked for Hawaiian . Hawaiian comes with <topping> pineapple </topping> and <topping> ham </topping> .
-11	Spoken1	Clerk	Okay . That 's right . I 'm sorry . Yeah , yeah , okay , a <topping> pineapple </topping> and <topping> ham </topping> pizza , aka a Hawaiian pizza .
-12	Spoken1	User	Mhm .
-13	Spoken1	Clerk	Would you like soda with that , or breadsticks or ...
-14	Spoken1	User	No , I 'll just , just the pizza , please .
-15	Spoken1	Clerk	Just the pizza . Okay , awesome . That will be $ 25.91 .
-16	Spoken1	User	So expensive .
-17	Spoken1	Clerk	Yeah , it 's , it 's , this is not the most cheapest place . But , you know , pineapple on pizza costs a little bit extra .
-18	Spoken1	User	Okay , maybe next time I 'll just buy my own <topping> pineapple </topping> at home , put it on .
-19	Spoken1	Clerk	Yeah , that might be something that you do at home , in secret .
-20	Spoken1	Clerk	Yeah , so is this a <modality> delivery </modality> order , is this pickup order ?
-21	Spoken1	User	I 'll pick it up .
-22	Spoken1	Clerk	Okay , and then as for payment . We can either accept payment now , or you can pay at the location .
-23	Spoken1	User	I 'll pay when I <modality> pick up </modality> .
-24	Spoken1	Clerk	Okay . Sounds good .
-25	Spoken1	User	Okay .
-26	Spoken1	Clerk	Can I get a name for the order ?
-27	Spoken1	User	Jennifer .
-28	Spoken1	Clerk	Jennifer . Okay . Jennifer , we will see you -- the pizza will be ready in around <time> 20 minutes </time>
-29	Spoken1	User	Okay , thanks . I 'll , I 'll see you then .
-30	Spoken1	Clerk	Okay , goodbye .
-31	Spoken2	User	Hello ?
-32	Spoken2	Clerk	Hi , this is Domino 's Pizza . How may I take your order ?
-33	Spoken2	User	Hi , I 'm gon na want <quant> three </quant> <size> large </size> pizzas and they 're all going to have different toppings .
-34	Spoken2	Clerk	Okay .
-35	Spoken2	User	So I 'm going to tell you all the toppings are now .
-36	Spoken2	Clerk	Okay .
-37	Spoken2	User	Um , so the first one is going to be a pizza with just meat on it . So , <topping> sausage </topping> , <topping> pepperoni </topping> and <topping> ham </topping> . The next one I want all veggies . So , <topping> mushrooms </topping> , <topping> onions </topping> , green pepper . And then the third one I want to be half just plain cheese and then half <pizza_type> pepperoni </pizza_type> .
-38	Spoken2	Clerk	Okay .
-39	Spoken2	User	You have all that ?
-40	Spoken2	Clerk	Yeah , so I have a ... <quant> three </quant> <size> large </size> pizzas , one meat pizza with <topping> sausage </topping> and <topping> pepperoni </topping> --
-41	Spoken2	User	No , <topping> sausage </topping> , <topping> pepperoni </topping> and <topping> ham </topping> .
-42	Spoken2	Clerk	Okay , sorry , I missed the <topping> ham </topping> . Okay .
-43	Spoken2	User	That ’ s okay
-44	Spoken2	Clerk	Ok so large meat pizza with <topping> sausage </topping> , <topping> pepperoni </topping> , and <topping> ham </topping> . I have a veggie pizza and sorry , I did n't get what was on that .
-45	Spoken2	User	At all ?
-46	Spoken2	Clerk	Yeah , sorry . There was a lot of pizzas going around .
-47	Spoken2	User	That 's fine , the veggie pizza had <topping> mushrooms </topping> , <topping> onions </topping> , and <topping> green pepper </topping> .
-48	Spoken2	Clerk	Okay , gotcha . Mushrooms , <topping> onions </topping> , and <topping> green pepper </topping> on the veggie pizza . And that 's also a <size> large </size> , right ?
-49	Spoken2	User	Yes .
-50	Spoken2	Clerk	Okay . And then the last pizza was half <pizza_type> cheese </pizza_type> and <pizza_type> half pepperoni </pizza_type> .
-51	Spoken2	User	Yes . That ’ s true .
-52	Spoken2	Clerk	That 's also a <size> large </size>
-53	Spoken2	User	Mm hmm .
-54	Spoken2	Clerk	Okay , awesome .
-55	Spoken2	User	Mm hmm . Yeah .
-56	Spoken2	Clerk	Along with that , is there -- would you like -- is that all , for the pizzas ?
-57	Spoken2	User	Yeah , that 'll be all and I would like that delivered to me , please , at <address> 123 street lane </address> .
-58	Spoken2	Clerk	Okay .
-59	Spoken2	User	As soon as possible , please , because I 'm having a party and I forgot to order the pizza until now , so ...
-60	Spoken2	Clerk	Oh , wow .
-61	Spoken2	User	Yeah , please get on that .
-62	Spoken2	Clerk	Yeah , we 'll try and get that to you soon as we can .
-63	Spoken2	User	Thank you .
-64	Spoken2	Clerk	Yeah . So as for payment . Would you like to pay now , over the phone , or would you like to pay when the deliverer arrives ?
-65	Spoken2	User	Yeah , I 'll pay now over the phone . So my card type is --
-66	Spoken2	Clerk	Can I get a card number ?
-67	Spoken2	User	Uh , sure , my card number is <numeric> 12345 </numeric> .
-68	Spoken2	Clerk	Okay , 12345 .
-69	Spoken2	User	And --
-70	Spoken2	Clerk	Awesome .
-71	Spoken2	User	It ’ s expiration date is the end of the year .
-72	Spoken2	Clerk	Okay , that 's pretty , that 's pretty soon .
-73	Spoken2	User	Mm hmm . Yeah .
-74	Spoken2	Clerk	Okay , awesome .
-75	Spoken2	User	Okay , thanks .
-76	Spoken2	Clerk	We will get that to you in <time> 30 minutes </time> . Sorry for the wait .
-77	Spoken2	User	Okay , as soon as possible . If you can do it faster , I might tip your <modality> delivery </modality> driver , but you did n't hear it from me .
-78	Spoken2	Clerk	Okay deal . Okay . Goodbye .
-79	Spoken2	User	Alright , thank you . Goodbye .
-80	Spoken3	User	Hello .
-81	Spoken3	Clerk	Hello this is Domino 's Pizza . How may I help you ?
-82	Spoken3	User	Um , I 'd like ... Well , first of all , what are your , what are your different pizza sizes ?
-83	Spoken3	Clerk	So we have mini , which is kind of a personal size pizza . We have medium and large where large probably feeds around four people ...
-84	Spoken3	User	I ’ ll take the --
-85	Spoken3	Clerk	or five people --
-86	Spoken3	User	um , it ’ s , that 's fine . I 'll take . Okay , I 'll take the medium pizza please ? And I 'd like two of them . Is that , is that possible ? Can I get <quant> two </quant> pizzas in one order ?
-87	Spoken3	Clerk	Yes , you can get <quant> two </quant> pizzas . You can even get <quant> three </quant>
-88	Spoken3	User	No thank you . Just , just two .
-89	Spoken3	Clerk	Is it for the big game tonight ?
-90	Spoken3	User	Um , I do n't , I do n't watch sports .
-91	Spoken3	Clerk	Oh , sorry .
-92	Spoken3	User	That 's , that 's fine .
-93	Spoken3	Clerk	So , <quant> two </quant> <size> medium </size> pizzas . What toppings ?
-94	Spoken3	User	What toppings do you have ?
-95	Spoken3	Clerk	We have <pizza_type> pepperoni </pizza_type> . We have <topping> sausage </topping> . We have any kind of veggies , like <topping> mushrooms </topping> --
-96	Spoken3	User	I ’ ll have , I ’ ll have just <topping> sausage </topping> , <topping> sausage </topping> .
-97	Spoken3	Clerk	Sausage , okay , So on both of them ?
-98	Spoken3	User	Um , can I have a quarter of the pizza have <topping> sausage </topping> on both ?
-99	Spoken3	Clerk	So we actually only do half , you can only split it by half . Sorry .
-100	Spoken3	User	Okay . That 's , yeah , that 's fine . I 'll just do half on one .
-101	Spoken3	Clerk	Half sausage on one --
-102	Spoken3	User	Which seems equivalent to a quarter on both , so that ’ s perfect . Thanks for that option .
-103	Spoken3	Clerk	Sorry , we , we only do , yeah , sorry , half on the single pizza . Sorry about that .
-104	Spoken3	User	That ’ s fine .
-105	Spoken3	Clerk	That 's , um , so half <topping> sausage </topping> on one . How about for the other three halves ?
-106	Spoken3	User	Oh , let 's see . I think , just , just cheese for all of them except , I want , except -- Okay , so just cheese on the other half from the <topping> sausage </topping> one and then on the other pizza , half <pizza_type> cheese </pizza_type> again . But then the other half -- No cheese , can I have that ? Just tomato sauce ?
-107	Spoken3	Clerk	So you just want tomato sauce ?
-108	Spoken3	User	Yeah , is that okay ?
-109	Spoken3	Clerk	Yeah , I guess .
-110	Spoken3	User	Okay .
-111	Spoken3	Clerk	I guess that ’ s okay .
-112	Spoken3	User	Okay , great , can you , can you read me back what my order is ? I forget .
-113	Spoken3	Clerk	So I have <quant> two </quant> <size> medium </size> pizzas , one half is <topping> sausage </topping> one half is cheese for <quant> one </quant> of them .
-114	Spoken3	User	Mhmm .
-115	Spoken3	Clerk	I have another medium pizza that is <numeric> one </numeric> <pizza_type> half cheese </pizza_type> , one half just sauce , no <topping> cheese </topping> .
-116	Spoken3	User	Yeah , that sounds perfect , that 's great .
-117	Spoken3	Clerk	Okay .
-118	Spoken3	User	How do I , how do I get the pizza ?
-119	Spoken3	Clerk	So we can do -- two ways , we can either , you can either pick it up at 123456 lane or we can deliver it to your location .
-120	Spoken3	User	Um , delivering it sounds good . Can I have that ?
-121	Spoken3	Clerk	Can I get some payment information ?
-122	Spoken3	User	Sure . My card is number is <numeric> 123456789 </numeric>
-123	Spoken3	Clerk	Okay , and is that visa ?
-124	Spoken3	User	No , it 's , it 's just my card .
-125	Spoken3	Clerk	Okay , just your card . Yep . Gotcha .
-126	Spoken3	User	The type that I use , you know .
-127	Spoken3	Clerk	Oh , gotcha . Okay , I 'll plug that --
-128	Spoken3	User	Sorry , could you , could you read my card info back to me . Just make sure you got everything ?
-129	Spoken3	Clerk	<numeric> 123456789 </numeric>
-130	Spoken3	User	Okay , great . That sounds right .
-131	Spoken3	Clerk	Okay , and the expiration is today ?
-132	Spoken3	User	Yeah , yeah . So , process it soon , please .
-133	Spoken3	Clerk	Yeah . Okay . Sounds good .
-134	Spoken3	User	Uh huh .
-135	Spoken3	Clerk	Okay , so we , you should expect a driver at 123 --
-136	Spoken3	User	Just , just a question , I 'm sorry . I do n't think I gave you my address
-137	Spoken3	Clerk	Oh , that ’ s right , sorry .
-138	Spoken3	User	I think you told me your address .
-139	Spoken3	Clerk	I told you my address . Wow , I was going to deliver pizza to me .
-140	Spoken3	User	Yeah .
-141	Spoken3	Clerk	Where , where can we deliver it to ?
-142	Spoken3	User	So I live at 123 road .
-143	Spoken3	Clerk	Okay 123 road . Is that , Is that <address> 123 road “ this ” road or 123 road “ </address> that ” road , you know ,
-144	Spoken3	User	It 's --
-145	Spoken3	Clerk	They ’ re similar roads .
-146	Spoken3	User	It 's sort of like three towns over , it 'll be about a <quant> three </quant> hour drive .
-147	Spoken3	Clerk	Oh , <quant> three </quant> hour drive --
-148	Spoken3	User	Is that alright ?
-149	Spoken3	Clerk	I -- actually -- we do n't deliver that far . I 'm sorry .
-150	Spoken3	User	Oh gosh . Oh no . Could you --
-151	Spoken3	Clerk	You could pick it up .
-152	Spoken3	User	Okay , sure . I 'll come . I 'll come pick it up .
-153	Spoken3	Clerk	But also we should have a location closer to you if you wan na call this number , it ’ s 12312345 , they should be a closer location .
-154	Spoken3	User	Okay , I 'll , I 'll try that out . I 'll see if they also sell sauce pizzas .
-155	Spoken3	Clerk	Okay , so I will cancel that payment for that pizza .
-156	Spoken3	User	Yeah , thanks .
-157	Spoken3	Clerk	So you should n't expect a charge for those --
-158	Spoken3	User	Okay , great .
-159	Spoken3	Clerk	-- that half sauce pizza .
-160	Spoken3	User	You 've been so helpful . Thank you so much .
-161	Spoken3	Clerk	Okay , thank you so much . Have a great day . Good luck with your pizza .
-162	Spoken3	User	You too , thank you , bye .
-163	Spoken4	User	Hello .
-164	Spoken4	Clerk	Hi , this is , this is the pizza place . Uh , can I , what can I get you ?
-165	Spoken4	User	Hi . Yeah . This is gon na be a big order . Do you have like a pen or something ?
-166	Spoken4	Clerk	Yeah , yeah .
-167	Spoken4	User	So it 's going to be four pizzas all large . And one is going to be a vegetarian pizza . One is going to be a <pizza_type> cheese </pizza_type> pizza . One is <topping> pepperoni </topping> . And then the last one . Can I get half <pizza_type> vegetarian half pepperoni </pizza_type> ?
-168	Spoken4	Clerk	Yeah . I got that .
-169	Spoken4	User	Okay , awesome . Can you can you repeat that back to me to make sure
-170	Spoken4	Clerk	I got it don ’ t worry .
-171	Spoken4	User	Okay .
-172	Spoken4	Clerk	That ’ ll be $ 50 .
-173	Spoken4	User	Okay , actually . Can I switch the <pizza_type> cheese </pizza_type> pizza to sausage .
-174	Spoken4	Clerk	Sure , we can do that .
-175	Spoken4	User	And make sure that 's large right
-176	Spoken4	Clerk	Yes .
-177	Spoken4	User	Okay . And can I get that delivered ?
-178	Spoken4	Clerk	Yeah , we do delivery . What is your address ?
-179	Spoken4	User	Does that cost any extra ?
-180	Spoken4	Clerk	Yeah , it 'll be 10 bucks extra
-181	Spoken4	User	Ooh , I 'll go ahead and pick it up then .
-182	Spoken4	Clerk	So , um , do you know where our store 's located ?
-183	Spoken4	User	Yeah , it 's , it 's that one right off of 123 road , right ?
-184	Spoken4	Clerk	Yeah , that one .
-185	Spoken4	User	Okay , gotcha . Yeah , so do I pay now or
-186	Spoken4	Clerk	Oh yeah , since you 're coming in . Why do n't you pay when you come in , it 'll be easier .
-187	Spoken4	User	Okay , gotcha . When -- When can I pick it up ?
-188	Spoken4	Clerk	It 'll take us about 30 minutes . So come in half and hour .
-189	Spoken4	User	Okay . Sounds good . Thank you .
-190	Spoken4	Clerk	Yep , no problem . Bye .
-191	Spoken5	User	Hello , is this the pizza place ?
-192	Spoken5	Clerk	Hi , yes it is . Let me , let me tell you about our specials . First of all , just in case . So first of all , we have a <pizza_type> meat lovers </pizza_type> pizza . There 'll be a <size> large </size> for only $ 10 wait $ 8 .
-193	Spoken5	User	Okay .
-194	Spoken5	Clerk	We have <topping> pepperoni ham sausage bacon </topping> , all the meats . And then if you 're if you do n't like meat , we do also have a vegan pizza . If you want other vegetables . We can go get them . You know , we 're right next to the market . So , yeah .
-195	Spoken5	User	Awesome .
-196	Spoken5	Clerk	Go ahead and place your order , whatever you want . If you want one of the specials , you can have <quant> one </quant> of the specials . If you want to just make your own pizza , I guess you could do that too . That 'd be fine .
-197	Spoken5	User	I suppose . Can I , can I order now .
-198	Spoken5	Clerk	Yes , go ahead .
-199	Spoken5	User	Okay , do you guys do tuna on pizza ?
-200	Spoken5	Clerk	We did n't . But as I mentioned , there is a supermarket right next to us . So I 'll go and grab you a can of tuna but you ’ ll have to pay that cost .
-201	Spoken5	User	That 's fine tuna is like 10 cents . Right ?
-202	Spoken5	Clerk	Yes .
-203	Spoken5	User	Sorry , I just like tuna , it ’ s my favorite
-204	Spoken5	Clerk	Like do you like it raw ?
-205	Spoken5	User	Like sushi ? Sushi pizza . That 'd be cool . You guys should do that .
-206	Spoken5	Clerk	I 'll take that into account . I 'll think about it . But right now , you just want tuna ?
-207	Spoken5	User	A can of tuna and then the other half vegan , because I 'm vegan , but
-208	Spoken5	Clerk	That 's so interesting . Yes . Okay . Yeah , I 'm not , I 'm not here to judge
-209	Spoken5	User	Yeah , thank you .
-210	Spoken5	Clerk	You 're my valued customer .
-211	Spoken5	User	What sizes of pizzas , again , sorry .
-212	Spoken5	Clerk	We have , we have small , medium , large and extra large .
-213	Spoken5	User	Okay , I 'll do a <size> large </size> pizza with , like I said , half tuna and half vegan .
-214	Spoken5	Clerk	So do you want the <pizza_type> cheese </pizza_type> on the tuna half and half to be vegan cheese or ?
-215	Spoken5	User	Oh , yeah , yeah .
-216	Spoken5	Clerk	Okay , okay . So that does make sense . Yeah .
-217	Spoken5	User	Yeah .
-218	Spoken5	Clerk	Do you have any other pizzas , just for <quant> one </quant>
-219	Spoken5	User	Yeah , I think just the one
-220	Spoken5	Clerk	Okay . All right . So you 're getting a <size> large </size> pizza all <pizza_type> vegan cheese </pizza_type> and then a can of tuna on half of it . Do you want us to use the whole can of tuna or ?
-221	Spoken5	User	Do whatever looks good .
-222	Spoken5	Clerk	Okay . And if there 's any leftover tuna in the can will just give you the can .
-223	Spoken5	User	That 's awesome . Score .
-224	Spoken5	Clerk	That 's great . And so you do n't want any of our specials , you know , either of them . We have the vegan special .
-225	Spoken5	User	No .
-226	Spoken5	Clerk	No . Okay . All right . All right , let me know if you change your mind . We do n't do delivery . So you 're gon na have to come pick it up .
-227	Spoken5	User	Oh really ?
-228	Spoken5	Clerk	Yeah . Is that , is that all right ?
-229	Spoken5	User	Is your place off of 345 road ?
-230	Spoken5	Clerk	Yeah yeah yeah if you just put it in Google Maps , it 'll take you right there . Gotcha . Yep . Okay , great . So a <size> large </size> pizza tuna on half all vegan cheese . You 're going to come pick it up it 'll be about give us 20 minutes . Then you can come on over . Okay . Okay . Sounds good . Alright . Have a good day .
-231	Spoken5	User	Okay , goodbye .
-232	Spoken6	User	High is this PizzaPizza ?
-233	Spoken6	Clerk	Ah , hi , hi , yes it is . What can I get you ?
-234	Spoken6	User	I need <quant> three </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas here as soon as possible .
-235	Spoken6	Clerk	Okay , so , so <quant> three </quant> <size> medium </size> <pizza_type> as- </pizza_type>
-236	Spoken6	User	Soon as possible .
-237	Spoken6	Clerk	Okay . As soon as possible , so <quant> three </quant> <size> medium </size> .
-238	Spoken6	User	Yeah , can I just pay
-239	Spoken6	Clerk	Yeah , sure , sure . That 'll be $ <numeric> 20 </numeric>
-240	Spoken6	User	Okay , that 's pretty expensive for <quant> three </quant> pizzas . Do n't you think ? Can I get a discount ?
-241	Spoken6	Clerk	Sorry no , you can go somewhere else if you don ’ t agree .
-242	Spoken6	User	That 's super unfair . I think
-243	Spoken6	Clerk	I really ca n't help you . That ’ s the cost .
-244	Spoken6	User	There 's no coupons or no nothing .
-245	Spoken6	Clerk	Um , if you get our <pizza_type> meat lover special </pizza_type> which also has meat on it like you asked . That 'll be a-
-246	Spoken6	User	But I just want <pizza_type> pepperoni </pizza_type> .
-247	Spoken6	Clerk	It 's gon na be $ <numeric> 20 </numeric>
-248	Spoken6	User	Man , I do n't have time for this . Three pizzas for $ <numeric> 20 </numeric>
-249	Spoken6	Clerk	Okay . Three medium <topping> sausage </topping> pizza . Yeah , okay . We can deliver it . That 'll be an extra $ <numeric> 10 </numeric>
-250	Spoken6	User	yeah sure whatever
-251	Spoken6	Clerk	OK , so now your total comes to $ 30 going to pay now or ?
-252	Spoken6	User	Pay now is good . So that I can hurry up .
-253	Spoken6	Clerk	Okay . All right . What 's your card number .
-254	Spoken6	User	<numeric> 12345 </numeric>
-255	Spoken6	Clerk	Okay , great . Yeah . When does your card expire ?
-256	Spoken6	User	<numeric> 1/20 </numeric>
-257	Spoken6	Clerk	Okay , cool
-258	Spoken6	User	Yeah .
-259	Spoken6	User	My pin is <numeric> 3333 </numeric> .
-260	Spoken6	Clerk	I don ’ t think you should be giving out over the phone , but that sounds great .
-261	Spoken6	User	Don ’ t tell me what to do . The customer is always right yeah
-262	Spoken6	Clerk	So , okay , we 'll be giving you <quant> three </quant> <size> medium </size> <pizza_type> sausage </pizza_type> pizza for $ 30 . We ’ ll deliver it .
-263	Spoken6	User	Make it on the double , like
-264	Spoken6	Clerk	What it is , well , yeah , what 's your address .
-265	Spoken6	User	123 road
-266	Spoken6	Clerk	Okay , so we 'll show up at 123 road in in <time> 20 minutes </time> . Hopefully that 's fast enough for you .
-267	Spoken6	User	Okay , you better be faster .
-268	Spoken6	Clerk	Okay , great .
-269	Spoken6	User	Okay , goodbye .
-270	Spoken6	Clerk	All right , bye .
-271	Text1	Clerk	Welcome to pizza.com , where we get you the perfectly crafted pizza of your dreams .
-272	Text1	User	Hi can i have pizza
-273	Text1	Clerk	Okay , What kind of pizza ?
-274	Text1	User	I ’ m <numeric> five </numeric>
-275	Text1	Clerk	Five pizzas ?
-276	Text1	User	Okay
-277	Text1	Clerk	What kind of pizza for each ?
-278	Text1	User	I like cheese pizza best
-279	Text1	Clerk	So 5 cheese pizzas ?
-280	Text1	User	Yes ! ! ! !
-281	Text1	Clerk	Okay what size ? Small/med/large
-282	Text1	User	The biggest please
-283	Text1	Clerk	Okay <quant> 5 </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizzas , that will be 100 dollars
-284	Text1	User	I don ’ t think i have money
-285	Text1	Clerk	Okay , how will you pay for the pizzas ?
-286	Text1	User	I think my mom can pay
-287	Text1	Clerk	Okay , When should we have the pizzas ready ?
-288	Text1	User	Now !
-289	Text1	Clerk	Okay now will be in <time> 30 minutes </time> , and what name should we put down ?
-290	Text1	User	My name is <name> bob </name>
-291	Text1	Clerk	Okay bob , we will have your pizzas ready in <time> 30 minutes </time> and you will pay on arrival .
-292	Text1	User	Okay
-293	Text1	Clerk	Goodbye !
-294	Text1	User	Bye ! ! ! ! : )
-295	Text2	Clerk	Hello and welcome to the Pizza Place , how can I help you ?
-296	Text2	User	Hi , I ’ m new to ordering online , what do I do ?
-297	Text2	Clerk	Great ! Just tell me what size pizza , what toppings you ’ d like , and whether you want to do delivery or pickup .
-298	Text2	User	Did you see my message , sorry I am old .
-299	Text2	Clerk	That ’ s okay , yes I got your message . What size pizza do you want ?
-300	Text2	User	<quant> 1 </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizza and <quant> 1 </quant> <size> large </size> <pizza_type> ham </pizza_type> pizza please and thank you
-301	Text2	Clerk	Okay great , <quant> 1 </quant> <size> large </size> <pizza_type> cheese </pizza_type> and <quant> 1 </quant> <size> large </size> <pizza_type> ham </pizza_type> . Is that all ?
-302	Text2	User	Yes , thank you . Where should I pick it up ?
-303	Text2	Clerk	You can pick it up at 123 Road , or we can deliver it to you .
-304	Text2	User	Oh wow you deliver ! Technology is wild these days . Deliver it to me , please .
-305	Text2	Clerk	Okay , we just need your address .
-306	Text2	User	123 road off of <numeric> 456 </numeric>
-307	Text2	Clerk	Okay , great . Your total is $ 20 , how would you like to pay ?
-308	Text2	User	Real paper money , none of that plastic card money please .
-309	Text2	Clerk	Okay , you can pay our driver when they come to drop the pizza off . Unless you have any other questions , you ’ re good to go !
-310	Text2	User	Thank you robot person .
-311	Text2	Clerk	No problem .
-312	Text3	Clerk	Welcome to best pizza ever , how may I take your order ?
-313	Text3	User	Do you guys not take phone orders anymore ?
-314	Text3	Clerk	No
-315	Text3	User	Okay fine . I want <quant> 3 </quant> pizzas .
-316	Text3	Clerk	Okay , what kind ?
-317	Text3	User	All just cheese , no toppings . That ’ s all .
-318	Text3	Clerk	Okay
-319	Text3	User	How do I get the pizzas ? Are you going to ask me to pay ?
-320	Text3	Clerk	Yes it costs $ <numeric> 20 </numeric>
-321	Text3	User	Okay , well , I want to pay with card but I ’ m not going to put my card info into an online chatbox . How can I pay ?
-322	Text3	Clerk	You can pay our delivery person when they arrive .
-323	Text3	User	I don ’ t want them to know my card info either . Can I <modality> pick up </modality> the pizza ?
-324	Text3	Clerk	Yes
-325	Text3	User	Okay when will it be ready ?
-326	Text3	Clerk	It will take around 30 minutes , and you will pay when you get to BestPizzaEver
-327	Text3	User	Okay I ’ m actually sitting outside so I ’ ll come in to wait .
-328	Text3	Clerk	Okay come inside in <time> 30 minutes </time> . Thanks !
-329	Text3	User	Okay bye
-330	Text4	Clerk	Welcome to our pizza website , would you like to hear our specials ?
-331	Text4	User	Yes , please !
-332	Text4	Clerk	Okay , we have the Meat Lovers Pizza and the Vegan Pizza .
-333	Text4	User	Yum , sounds good . I ’ ll have <quant> one </quant> of each .
-334	Text4	Clerk	Okay , that ’ ll be $ 2 . How would you like to pay ?
-335	Text4	User	$ 2 per pizza or total ?
-336	Text4	Clerk	Total , each pizza is $ 1 . How would you like to pay ?
-337	Text4	User	Can I pay with bitcoin ?
-338	Text4	Clerk	Yes , we actually just set up our bitcoin payment processing yesterday . That will be .000002 bitcoin .
-339	Text4	User	Awesome , I will transfer the funds . When can I expect the pizza to be delivered ?
-340	Text4	Clerk	It depends on where you live . Can I have your address ?
-341	Text4	User	654 lane !
-342	Text4	Clerk	Great , you live about 20 minutes away from our location , so once the pizzas are done in <time> 30 min </time> , we ’ ll send them right over . It ’ ll be about 50 minutes .
-343	Text4	User	Sounds good , thanks !
-344	Text4	Clerk	No , thank you !
-345	Text5	Clerk	Welcome to Grover ’ s Pizza , how may I take your order ?
-346	Text5	User	You can take it by asking me what I want .
-347	Text5	Clerk	Sure , what would you like ?
-348	Text5	User	What do you have ?
-349	Text5	Clerk	Cheese , pepperoni , <topping> sausage </topping> , haiwaiian , vegan
-350	Text5	User	Is the <pizza_type> pepperoni </pizza_type> free range ?
-351	Text5	Clerk	What is free range ?
-352	Text5	User	Were the pigs given a happy life ?
-353	Text5	Clerk	I believe so !
-354	Text5	User	Hmm , okay . What is the vegan pizza ?
-355	Text5	Clerk	Vegan cheese , vegan <topping> sausage </topping> , and <topping> cilantro </topping>
-356	Text5	User	Okay , I ’ d like the vegan pizza with the <crust> regular </crust> <pizza_type> pepperoni </pizza_type> please .
-357	Text5	Clerk	Okay sounds , good . Would you like to pay now or when you <modality> pick up </modality> ?
-358	Text5	User	Can you read me back my order first ?
-359	Text5	Clerk	Sure , 1 vegan pizza ( large ) with <crust> regular </crust> <pizza_type> pepperoni </pizza_type>
-360	Text5	User	Oh , I wanted the pizza to be a small . Can you change that ?
-361	Text5	Clerk	Yes , 1 vegan pizza ( small ) with <crust> regular </crust> <pizza_type> pepperoni </pizza_type>
-362	Text5	User	Thank you !
-363	Text5	Clerk	Sounds good , it will be ready in <address> 20 min at our 12345 location </address> .
-364	Text5	User	Okay , I ’ ll pay when I pick it up .
-365	Text5	Clerk	Great , see you soon !
-366	Text6	Clerk	Hello , can I take your order ?
-367	Text6	User	Is this pizza palace ?
-368	Text6	Clerk	No , this is pizza parlor , can we still give you some pizza ?
-369	Text6	User	Do you have <pizza_type> cheese </pizza_type> pizza ?
-370	Text6	Clerk	I think so .
-371	Text6	User	I ’ ll take <quant> 2 </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizzas and some <side> garlic breadsticks </side>
-372	Text6	Clerk	We actually don ’ t serve garlic breadsticks , but I can offer you garlic knots instead .
-373	Text6	User	Okay that works , how much will that cost me ?
-374	Text6	Clerk	It ’ ll be $ 30 . Are you going to pick up or do you want it delivered ?
-375	Text6	User	I will pick it up , when will it be ready ?
-376	Text6	Clerk	In about 20 minutes . Do you want to pay over the phone or when you get here ?
-377	Text6	User	I will pay when I arrive .
-378	Text6	Clerk	Okay great , see you then .
-379	Text7	Clerk	Welcome to Grover ’ s Italian Restaurant and Grill .
-380	Text7	User	Hi , I ’ d like to order two pizzas please .
-381	Text7	Clerk	Great , what kinds of pizzas can I get you ?
-382	Text7	User	I ’ d like one veggie and one meat pizza .
-383	Text7	Clerk	Awesome , I can do that for you . What size for each pizza ?
-384	Text7	User	Both large .
-385	Text7	Clerk	Sounds good , that will be $ 40 when you arrive .
-386	Text7	User	Oh , actually , wait , can I have <quant> two </quant> veggie pizzas instead ?
-387	Text7	Clerk	Sure , the total will be the same .
-388	Text7	User	Oh , in that case I want <quant> two </quant> <pizza_type> meat </pizza_type> pizzas .
-389	Text7	Clerk	Sure , the total will be the same .
-390	Text7	User	Do you guys sell soda ?
-391	Text7	Clerk	Yes , we sell 2 liter bottles , all pepsi products .
-392	Text7	User	Great , I ’ ll take <quant> one 2 </quant> liter of Coke .
-393	Text7	Clerk	Will Pepsi work ?
-394	Text7	User	I guess so , sure .
-395	Text7	Clerk	Awesome , that brings your total to $ 45 .
-396	Text7	User	Okay , when will it be ready ?
-397	Text7	Clerk	Around 5:30pm .
-398	Text7	User	Okay , see you then .
-399	Text7	Clerk	Thank you for your business !
-400	Text8	Clerk	What can I get you ?
-401	Text8	User	I ’ d like <quant> one </quant> <pizza_type> pepperoni </pizza_type> and <quant> one </quant> <topping> sausage </topping> .
-402	Text8	Clerk	Size ?
-403	Text8	User	Medium for both , please .
-404	Text8	Clerk	It ’ ll be ready in <time> 20 minutes </time> , you can pay when you get here .
-405	Text8	User	Thanks , see you soon .
-406	Text9	Clerk	Hi , this is Pizza , How may I help you ?
-407	Text9	User	Do you serve calzones ?
-408	Text9	Clerk	Yes we do , it so happens that today we have a special , 2 calzones for $ 10 .
-409	Text9	User	Wow great , can I get a calzone with all your veggie toppings inside ?
-410	Text9	Clerk	Yes , it ’ s called the salad calzone .
-411	Text9	User	Does it still have cheese and sauce ?
-412	Text9	Clerk	Yup ! Marinara and mozzarella .
-413	Text9	User	Okay , I ’ ll have <quant> two </quant> of those salad calzones and that ’ s it .
-414	Text9	Clerk	Awesome , that will be $ 10 . Would you like to <modality> pick up </modality> or have it delivered ?
-415	Text9	User	I ’ ll have it delivered .
-416	Text9	Clerk	Sounds good , what address should we deliver to ?
-417	Text9	User	123 Road street .
-418	Text9	Clerk	Okay it will arrive at <address> 6:00 pm </address>
-419	Text9	User	Can I pay over the phone ?
-420	Text9	Clerk	Yes , ma ’ am .
-421	Text9	User	Excuse me , I ’ m a man . But anyway , my card number is <numeric> 123456789 </numeric> .
-422	Text9	Clerk	Okay , would you like to add a tip to the order , <address> 15 % 20 % , 90 % </address> ?
-423	Text9	User	0 % tip because you offended me .
-424	Text9	Clerk	I ’ m sorry to hear that . I won ’ t add a tip to the card .
-425	Text9	User	Okay , I ’ ll see you at 6pm then .
-426	Text9	Clerk	Thank you for your business !
-427	Text10	Clerk	Hi and welcome to the Pizza Palace , what would you like ?
-428	Text10	User	I ’ d like <quant> two </quant> <size> large </size> mediteranean pizzas please , I have a hungry family .
-429	Text10	Clerk	What is on a mediterranean pizza ?
-430	Text10	User	Olives , feta , and tzatziki sauce .
-431	Text10	Clerk	Unfortunately , we don ’ t have any of those toppings . Can I get you a different kind of pizza ?
-432	Text10	User	Do you have <pizza_type> meat lovers </pizza_type> pizza ?
-433	Text10	Clerk	Yes we do , it has <topping> sausage </topping> , <topping> bacon </topping> , and meatballs .
-434	Text10	User	Sounds good , I ’ ll take <quant> two </quant> of those , do you do delivery ?
-435	Text10	Clerk	No , sorry , you ’ ll have to do <modality> pick up </modality> .
-436	Text10	User	Okay then I will pick it up , when will it be ready ?
-437	Text10	Clerk	About 20 minutes from now .
-438	Text10	User	Okay sounds good . Do I pay when I arrive ?
-439	Text10	Clerk	Yes , you can pay when you get here .
-440	Text10	User	Okay , thanks !
-441	Text11	Clerk	Hi and welcome to the Pizza Park , what can I get you ?
-442	Text11	User	I ’ d like <quant> three </quant> pizzas , one <pizza_type> cheese </pizza_type> , one haiwaiian , and <quant> one </quant> <beverage> margarita </beverage>
-443	Text11	Clerk	Sure , what size would you like ?
-444	Text11	User	<quant> One </quant> <size> large </size> haiwaiian , one medium margarita , <quant> one </quant> <size> small </size> <pizza_type> cheese </pizza_type> .
-445	Text11	Clerk	Okay , so <quant> one </quant> <size> large </size> <pizza_type> hawaiian </pizza_type> , <quant> one </quant> <size> medium </size> margarita , and <quant> one </quant> <size> small </size> <pizza_type> cheese </pizza_type> . Got it .
-446	Text11	User	When should I pick it up ?
-447	Text11	Clerk	You can pick it up around 6:30 , it ’ ll be about $ 35 .
-448	Text11	User	Can I pay when I get there , I ’ d rather not use my card over the phone .
-449	Text11	Clerk	Sure , but we only take cash here .
-450	Text11	User	Okay sounds good ! Thank you for being so quick .
-451	Text12	Clerk	This is johnny ’ s pizza , where we get you the greasiest cheese pizza for cheap .
-452	Text12	User	Hi , what ’ s the price for your largest pizza size ?
-453	Text12	Clerk	Our monster size pizza is $ 20 , if you eat it in <time> 10 minutes </time> , you get it for free .
-454	Text12	User	Even if I get it <modality> delivery </modality> ? Do you sit and wait ?
-455	Text12	Clerk	Yeah , just videotape it and post it to youtube with the hashtag # johnnymonster
-456	Text12	User	Can you recommend any other pizza places around here ?
-457	Text12	Clerk	I like the classics like domino ’ s .
-458	Text12	User	Okay , I think I might go with them instead . Bye .
-459	Text12	Clerk	Good choice , goodbye !
-460	Text13	Clerk	Hi and welcome to Pizza Pizza Pizza , tell me how many pizzas you want .
-461	Text13	User	Okay this is a complicated order , are you ready ?
-462	Text13	Clerk	Let ’ s start with how many pizzas you want .
-463	Text13	User	6 pizzas please .
-464	Text13	Clerk	Okay , will they all be different ?
-465	Text13	User	Some different , some the same .
-466	Text13	Clerk	Okay , tell me what is on the ones you want to be the same .
-467	Text13	User	3 will be cheese pizza and 2 will be pepperoni , and <quant> 1 </quant> will be half vegetable and half <pizza_type> cheese </pizza_type>
-468	Text13	Clerk	Okay , so <quant> 3 </quant> <pizza_type> cheese </pizza_type> , <quant> 2 </quant> <topping> pepperoni </topping> , and <quant> 1 </quant> half veg and half <pizza_type> cheese </pizza_type> . What size do you want the <pizza_type> cheese </pizza_type> pizzas to be ?
-469	Text13	User	All 3 will be <size> large </size> <pizza_type> cheese </pizza_type> pizzas .
-470	Text13	Clerk	Okay , and what size for the <pizza_type> pepperoni </pizza_type> ?
-471	Text13	User	Both will be small .
-472	Text13	Clerk	Okay , small , and for the half veg half <pizza_type> cheese </pizza_type> ?
-473	Text13	User	Large .
-474	Text13	Clerk	Okay , so <quant> 3 </quant> <size> large </size> <pizza_type> cheese </pizza_type> , <quant> 2 </quant> <size> small </size> <pizza_type> pepperoni </pizza_type> , and <quant> 1 </quant> <size> small </size> <pizza_type> half veg half cheese </pizza_type> . That will be $ 50 .
-475	Text13	User	Sorry the last pizza should also be large .
-476	Text13	Clerk	Oh sorry , <size> large </size> <pizza_type> half veg half cheese </pizza_type> . So that ’ ll be $ 60 . Do you want to <modality> pick up </modality> or get it <modality> delivered </modality> ?
-477	Text13	User	Can we do pickup ?
-478	Text13	Clerk	Yes , sure , do you want to pay now over the phone or when you arrive ?
-479	Text13	User	I will pay when I arrive , in cash .
-480	Text13	Clerk	Okay , they ’ ll be ready in <time> 40 minutes </time> .
-481	Text13	User	Sounds good , see you then .
-482	Text14	Clerk	Welcome to Devin ’ s pizza , gourmet pizza at a low price !
-483	Text14	User	I ’ ll have a <pizza_type> cheese </pizza_type> pizza , I know it ’ ll be ready in 20 so I ’ ll see you then .
-484	Text14	Clerk	Wait , sorry . We don ’ t know the size of the pizza yet !
-485	Text14	User	Oh right , a <size> small </size> , please .
-486	Text14	Clerk	For only $ 1 you can upgrade to a <size> medium </size> pizza .
-487	Text14	User	No thanks , I just want a <size> small </size> .
-488	Text14	Clerk	Would you like a soda ?
-489	Text14	User	Nope , just the one small pizza . How much is that ?
-490	Text14	Clerk	That will be $ 9.95 , Visa or Mastercard ?
-491	Text14	User	I ’ d rather pay in cash when I get there .
-492	Text14	Clerk	Okay sounds good . When should we have the pizza ready ?
-493	Text14	User	If you can do 20 minutes from now , that would be great .
-494	Text14	Clerk	Yes we can ! The pizza should be out of the oven at <address> 5:15 pm </address>
-495	Text14	User	Alright , see you then .
-496	Text14	Clerk	Goodbye !
-497	Text15	Clerk	Hi , it ’ s The Pizza Place , how are you ?
-498	Text15	User	I ’ m great , thanks for asking ! How ’ re you ?
-499	Text15	Clerk	I ’ m doing good , been a long day making pizza though .
-500	Text15	User	I can ’ t imagine , big game and all going on .
-501	Text15	Clerk	Yeah , today ’ s supposed to be our busiest day of the year . Are you getting pizza for a watch party ?
-502	Text15	User	Oh really ? Yes I am ! Got my grandkids over to support the SeaHorses .
-503	Text15	Clerk	Yeah , go SeaHorses ! Alright , what can I get you ?
-504	Text15	User	How about <quant> 3 </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas , the classic pizza .
-505	Text15	Clerk	True , our most popular pie . Anything else ?
-506	Text15	User	Nope that ’ ll be it ! They just scored , did you see that ! ?
-507	Text15	Clerk	Whoa ! Yeah , I can hear the guys in the kitchen going wild . Alright , your pizza ’ s gon na be $ 40 .
-508	Text15	User	Nice ! Do you do delivery ?
-509	Text15	Clerk	Of course , but it ’ s a busy night so it ’ ll be a while . Your order will probably take an hour .
-510	Text15	User	Ah , we can pick it up instead if that will be faster .
-511	Text15	Clerk	Yeah , it ’ ll be ready in about half an hour .
-512	Text15	User	Okay sounds , good . Can I pay now ?
-513	Text15	Clerk	Yes you can pay over the phone . What ’ s your card number ?
-514	Text15	User	My card is <numeric> 567856785678 </numeric> and expiration is <numeric> 13/2020 </numeric>
-515	Text15	Clerk	You might want to get that card renewed , but I got your info down . You ’ re all set .
-516	Text15	User	Thanks ! See you in 30 .
-517	Text15	Clerk	Bye !
-518	Text16	Clerk	Welcome to Little Italy , are you wanting dinein or <modality> take out </modality> ?
-519	Text16	User	Take
-520	Text16	Clerk	Okay , but I ’ ll just add that our pasta is to die for .
-521	Text16	User	Do you guys put pasta on the pizzas ever ?
-522	Text16	Clerk	No , that would be soggy .
-523	Text16	User	Okay , fair point . What toppings do you have ?
-524	Text16	Clerk	All of the usual ones , <topping> pepperoni </topping> , <topping> olives </topping> , <topping> mushrooms </topping> , <topping> sausage </topping> , etc .
-525	Text16	User	Okay , can I get <quant> one </quant> <size> medium </size> pizza with <topping> olives </topping> and <topping> mushrooms </topping> ?
-526	Text16	Clerk	Yes we can do that . Anything else ?
-527	Text16	User	Do you have any anchovies ?
-528	Text16	Clerk	We just ran out , so no .
-529	Text16	User	Oh , okay , no anchovies . How about sardines ?
-530	Text16	Clerk	We have salmon , usually served on our sushi pizza .
-531	Text16	User	No thanks , that sounds kind of gross . I ’ ll just have the pizza I ordered .
-532	Text16	Clerk	Okay , remind me again , what was that pizza ?
-533	Text16	User	I wanted a <size> medium </size> pizza with <topping> olives </topping> and <topping> mushrooms </topping> .
-534	Text16	Clerk	That ’ s right , that will be $ <numeric> 18.60 </numeric>
-535	Text16	User	Okay , can I pay with card ?
-536	Text16	Clerk	Yes , we do card payment . Can I get your card information ?
-537	Text16	User	My card number is <numeric> 0987654321 </numeric> and my expiration date is tomorrow .
-538	Text16	Clerk	The payment was successful , the pizza will be ready for <modality> pick </modality>
-539	Text16	User	Okay , great , see you then .
-540	Text16	Clerk	Goodbye !
-541	Text17	Clerk	Welcome to Great Pizza , what kind of pizza do you want ?
-542	Text17	User	Hi .
-543	Text17	Clerk	Hi , can I get you a <size> small </size> , medium , or <size> large </size> pizza ?
-544	Text17	User	That ’ s a lot of choices , what kind of pizzas do you have ?
-545	Text17	Clerk	Well , actually , I was thinking about adding one more size to the list , extra <size> large </size> , so if you thought we had lots of sizes it could have been a lot worse . But we have <size> small medium </size> and large of all our pizzas , most people like cheese , but we have other toppings : <pizza_type> pepperoni </pizza_type> , onion , <topping> green peppers </topping> , <topping> sausage </topping> , other stuff . What do you want ?
-546	Text17	User	Wow . Maybe I should get just a <pizza_type> cheese </pizza_type> pizza .
-547	Text17	Clerk	Yeah , we can do that for you , people love our cheese pizzas , it ’ s what we ’ re known for . You got ta tell me what size you want , though .
-548	Text17	User	Okay . Medium please .
-549	Text17	Clerk	Medium ? You sure ? Some people say medium because they ’ re expecting a certain size pizza but they really want a <size> large </size> . A large is only $ 2 more , do you want to upgrade ?
-550	Text17	User	I think medium will be fine , thanks .
-551	Text17	Clerk	Alright , if you ’ re sure . Do you want to pay over the phone or when you <modality> pick up </modality> ? We only do pickup , sorry . We tried to start doing delivery but the delivery people were so flakey , we fired them all .
-552	Text17	User	Oh okay . I will pay when I get there .
-553	Text17	Clerk	Alright , great , see you then , looking forward to it .
-554	Text18	Clerk	Welcome to Pablo Pizzcaso , how may we help you ?
-555	Text18	User	I ’ d like to get Chinese food , but I guess I ’ m getting pizza tonight .
-556	Text18	Clerk	Oh , sorry we do not serve Chinese food here .
-557	Text18	User	Yeah , I was just thinking aloud .
-558	Text18	Clerk	Oh okay , well we can help you with pizza for sure . What can I get you ?
-559	Text18	User	I don ’ t really like large pizzas .
-560	Text18	Clerk	Oh okay , interesting . You are welcome to buy any kind of pizza you would like . First can I get a size ?
-561	Text18	User	Yeah , medium .
-562	Text18	Clerk	What kind of pizza ?
-563	Text18	User	Just cheese . And just one pizza .
-564	Text18	Clerk	Okay just cheese , and just one .
-565	Text18	User	How much will that be ?
-566	Text18	Clerk	That will $ 12.50 , would you like to donate to the pizza society charity ?
-567	Text18	User	No thank you , I do my own charitable giving .
-568	Text18	Clerk	Okay , are you sure ?
-569	Text18	User	Yeah , I ’ m sure .
-570	Text18	Clerk	Okay , the pizza will be ready in <time> 30 minutes </time> .
-571	Text18	User	Great , see you then .
-572	Text18	Clerk	Bye !
-573	Text19	Clerk	Hi , welcome to Azzip . What can I get you ?
-574	Text19	User	I will have as much pizza as you can make , just kidding , 3 pizzas .
-575	Text19	Clerk	Well , if you ever need to place a catering order , we just need <quant> 1 </quant> week notice . But we can do 3 pizzas .
-576	Text19	User	No I ’ m okay sorry , I am a joker .
-577	Text19	Clerk	Ha , ha . Okay , what kind of pizza ?
-578	Text19	User	<quant> One </quant> <size> large </size> <pizza_type> cheese </pizza_type> , <quant> one </quant> <size> large </size> , meat lovers , and <quant> one </quant> <size> large </size> <pizza_type> buffalo chicken </pizza_type>
-579	Text19	Clerk	Okay , <quant> one </quant> <size> large </size> <pizza_type> cheese </pizza_type> , <quant> one </quant> <size> large </size> <pizza_type> meat lovers </pizza_type> , and <quant> one </quant> <size> large </size> buffalo chicken . That ’ ll be $ 30 .
-580	Text19	User	Okay awesome , when can I expect it at my door ?
-581	Text19	Clerk	What ’ s your address ?
-582	Text19	User	<address> 123 Gugenheim Hall </address>
-583	Text19	Clerk	Oh , actually our <modality> delivery </modality> boy just quit . Can you pick it up ?
-584	Text19	User	Oh dang , I ’ m sorry to hear that . Yes I can pick it up . When will it be ready ?
-585	Text19	Clerk	In about 20 minutes . Do you want to pay when you get here ?
-586	Text19	User	Yes please .
-587	Text19	Clerk	Okay , see you then .
-588	Text19	User	Chao !
-589	Text19	Clerk	Adios !
-590	Text20	Clerk	Welcome to Pizzamon , where we create pokemon themed pizzas !
-591	Text20	User	Hi , so , what does that mean exactly ?
-592	Text20	Clerk	So we have our Pikacheese pizza which is in the shape of pikachu ’ s head , we have squirtle ’ s seafood which is in the shape of squirtle ’ s shell , and we have bulbasaur ’ s veggie delight , which is just a veggie pizza actually .
-593	Text20	User	Oh , interesting . What veggies are on the bulbasaur ’ s veggie delight pizza ?
-594	Text20	Clerk	All kinds , including green bell peppers , spinach , <topping> olives </topping> , and tomatoes !
-595	Text20	User	Hmm , what ’ s the cheapest pizza you sell ?
-596	Text20	Clerk	The Pikacheese is the cheapest , with <size> large </size> selling for $ 12 , medium for $ 10 , and small for $ 8 .
-597	Text20	User	How can I get the most toppings for the least amount of money ? I don ’ t want just a <pizza_type> cheese </pizza_type> pizza .
-598	Text20	Clerk	You can add additional toppings of your choice for .50 a topping . So I would get a Pikacheese and choose 3 toppings for it to be cheaper than the bulbasaur ’ s veggie delight .
-599	Text20	User	Okay , I want to do that . Can you choose 3 random veggie toppings for me ?
-600	Text20	Clerk	How about , <topping> pineapple </topping> , <topping> ham </topping> , and <topping> onions </topping> ?
-601	Text20	User	Pineapple and onion sounds good , but ham isn ’ t vegetarian . Can I have <topping> olives </topping> instead ?
-602	Text20	Clerk	Yes I have a <size> large </size> <pizza_type> Pikacheese </pizza_type> with <topping> pineapple </topping> , <topping> olives </topping> , and <topping> onions </topping> . Will that be all ?
-603	Text20	User	Yes , that ’ s it . Is it okay if I pay in change ?
-604	Text20	Clerk	Sure that ’ s fine but you ’ ll have to come pick up the pizza to pay with cash .
-605	Text20	User	Okay , will it be ready in <time> 20 minutes </time> ?
-606	Text20	Clerk	Yes , it should be ready in <time> 20 minutes </time> .
-607	Text20	User	Is it okay for me to come in about <time> 30 minutes </time> ?
-608	Text20	Clerk	Yes . See you in <time> 30 minutes </time> .
-609	Text20	User	Bye !
-610	Abnormal1	Clerk	Hi this is John ’ s pizza how may I take your order ?
-611	Abnormal1	User	Hi , I ’ d like <quant> three </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas , please .
-612	Abnormal1	Clerk	Sorry , can I put you on hold ?
-613	Abnormal1	User	Sure .
-614	Abnormal1	Clerk	Hi this is John ’ s pizza how may i take your order ?
-615	Abnormal1	User	Hi , I think I was just speaking to you , I ’ m ordering <quant> 3 </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas ?
-616	Abnormal1	Clerk	Got it , that will be $ 50 ! Would you like to pickup or have it delivered ?
-617	Abnormal1	User	I ’ ll pick it up and pay when I get there .
-618	Abnormal1	Clerk	Sounds good , it will be ready in <time> 30 minutes </time> .
-619	Abnormal2	Clerk	Hi , this is a pizza parlor , how can I take your order ?
-620	Abnormal2	User	2 pepperoni pizzas please
-621	Abnormal2	Clerk	Okay , anything else ?
-622	Abnormal2	User	A <size> large diet </size> <beverage> coke </beverage>
-623	Abnormal2	Clerk	Okay cool , hold on . I have to do something real quick . *2 minutes*
-624	Abnormal2	Clerk	Hi again , unfortunately our ovens just broke , so we can ’ t make your pizza . I can still get you a diet coke though .
-625	Abnormal2	User	Oh darn , that ’ s unfortunate , no it ’ s okay , I ’ ll take my business elsewhere !
-626	Abnormal2	Clerk	No please , we have the best diet coke in town !
-627	Abnormal2	User	Goodbye .
-628	Abnormal2	Clerk	Nooooooo…
-629	Abnormal3	Clerk	Hello , welcome to Grover ’ s pizza .
-630	Abnormal3	User	Hi , I ’ d like to order two pizzas please .
-631	Abnormal3	Clerk	What kinds of pizza ?
-632	Abnormal3	User	I ’ ll just have <quant> two </quant> vegg ( DISCONNECTION )
-633	Abnormal3	Clerk	Hello , are you there ? I can ’ t hear you . Sorry I think we disconnected .
-634	Abnormal4	Clerk	Hi , this is The Only Pizza Place in Town . How can I help you ?
-635	Abnormal4	User	*bark* Hi , sorry my dogs are barking , one second .
-636	Abnormal4	Clerk	That ’ s okay , let me know when you ’ re ready to order .
-637	Abnormal4	User	Hi are you still there ?
-638	Abnormal4	Clerk	Hi , yep , what can I get you ?
-639	Abnormal4	User	3 pizzas and a 2 liter of soda
-640	Abnormal4	Clerk	Okay great , first of all , what kind of soda ?
-641	Abnormal4	User	*bark bark bark* Sorry , one second .
-642	Abnormal4	Clerk	No worries .
-643	Abnormal4	User	Hi , sprite please .
-644	Abnormal4	Clerk	Okay got it , a <numeric> 2 </numeric> liter of Sprite . What kinds of toppings on your pizzas ?
-645	Abnormal4	User	All cheese , some is for my *bark* dogs
-646	Abnormal4	Clerk	Can dogs have <pizza_type> cheese </pizza_type> ?
-647	Abnormal4	User	Sorry I was kidding
-648	Abnormal4	Clerk	Oh haha , good joke . Okay so that comes to $ 50 . How do you want to pay ?
-649	Abnormal4	User	My card is <numeric> 908765 </numeric> .
-650	Abnormal4	Clerk	Great thanks , do you want to do pickup or delivery ?
-651	Abnormal4	User	Delivery please , my address is <numeric> 789 </numeric> the best house on the block
-652	Abnormal4	Clerk	Okay great , our driver will be there in <time> 20 minutes </time> .
-653	Abnormal4	User	Sounds good ! Thanks .
-654	Abnormal4	Clerk	You ’ re welcome , bye .
+Conversation	Speaker	Transcript
+Spoken1	User	Hello .
+Spoken1	Clerk	Hello this is Domino 's Pizza . How may I take your order ?
+Spoken1	User	Um , hi . I just want to get a , a <size> large </size> pizza please .
+Spoken1	Clerk	Um , okay . What would you like on that ? Just <pizza_type> cheese </pizza_type> pizza , or ...
+Spoken1	User	Uh , no , I want a Hawaiian pizza , please .
+Spoken1	Clerk	Hawaiian pizza . I actually do n't really recommend our Hawaiian pizzas , but that ’ s okay .
+Spoken1	User	Oh , why not ?
+Spoken1	Clerk	Because pineapple should n't be on pizza .
+Spoken1	User	Oh , well , I 'm a little offended that you 're insulting my pizza topping choices .
+Spoken1	Clerk	I ’ m sorry , okay , I 'll get you a <size> large </size> <pizza_type> pineapple </pizza_type> pizza .
+Spoken1	User	Well , I asked for Hawaiian . Hawaiian comes with <topping> pineapple </topping> and <topping> ham </topping> .
+Spoken1	Clerk	Okay . That 's right . I 'm sorry . Yeah , yeah , okay , a <topping> pineapple </topping> and <topping> ham </topping> pizza , aka a Hawaiian pizza .
+Spoken1	User	Mhm .
+Spoken1	Clerk	Would you like soda with that , or breadsticks or ...
+Spoken1	User	No , I 'll just , just the pizza , please .
+Spoken1	Clerk	Just the pizza . Okay , awesome . That will be $ 25.91 .
+Spoken1	User	So expensive .
+Spoken1	Clerk	Yeah , it 's , it 's , this is not the most cheapest place . But , you know , pineapple on pizza costs a little bit extra .
+Spoken1	User	Okay , maybe next time I 'll just buy my own <topping> pineapple </topping> at home , put it on .
+Spoken1	Clerk	Yeah , that might be something that you do at home , in secret .
+Spoken1	Clerk	Yeah , so is this a <modality> delivery </modality> order , is this pickup order ?
+Spoken1	User	I 'll pick it up .
+Spoken1	Clerk	Okay , and then as for payment . We can either accept payment now , or you can pay at the location .
+Spoken1	User	I 'll pay when I <modality> pick up </modality> .
+Spoken1	Clerk	Okay . Sounds good .
+Spoken1	User	Okay .
+Spoken1	Clerk	Can I get a name for the order ?
+Spoken1	User	Jennifer .
+Spoken1	Clerk	Jennifer . Okay . Jennifer , we will see you -- the pizza will be ready in around <time> 20 minutes </time>
+Spoken1	User	Okay , thanks . I 'll , I 'll see you then .
+Spoken1	Clerk	Okay , goodbye .
+Spoken2	User	Hello ?
+Spoken2	Clerk	Hi , this is Domino 's Pizza . How may I take your order ?
+Spoken2	User	Hi , I 'm gon na want <quant> three </quant> <size> large </size> pizzas and they 're all going to have different toppings .
+Spoken2	Clerk	Okay .
+Spoken2	User	So I 'm going to tell you all the toppings are now .
+Spoken2	Clerk	Okay .
+Spoken2	User	Um , so the first one is going to be a pizza with just meat on it . So , <topping> sausage </topping> , <topping> pepperoni </topping> and <topping> ham </topping> . The next one I want all veggies . So , <topping> mushrooms </topping> , <topping> onions </topping> , green pepper . And then the third one I want to be half just plain cheese and then half <pizza_type> pepperoni </pizza_type> .
+Spoken2	Clerk	Okay .
+Spoken2	User	You have all that ?
+Spoken2	Clerk	Yeah , so I have a ... <quant> three </quant> <size> large </size> pizzas , one meat pizza with <topping> sausage </topping> and <topping> pepperoni </topping> --
+Spoken2	User	No , <topping> sausage </topping> , <topping> pepperoni </topping> and <topping> ham </topping> .
+Spoken2	Clerk	Okay , sorry , I missed the <topping> ham </topping> . Okay .
+Spoken2	User	That ’ s okay
+Spoken2	Clerk	Ok so large meat pizza with <topping> sausage </topping> , <topping> pepperoni </topping> , and <topping> ham </topping> . I have a veggie pizza and sorry , I did n't get what was on that .
+Spoken2	User	At all ?
+Spoken2	Clerk	Yeah , sorry . There was a lot of pizzas going around .
+Spoken2	User	That 's fine , the veggie pizza had <topping> mushrooms </topping> , <topping> onions </topping> , and <topping> green pepper </topping> .
+Spoken2	Clerk	Okay , gotcha . Mushrooms , <topping> onions </topping> , and <topping> green pepper </topping> on the veggie pizza . And that 's also a <size> large </size> , right ?
+Spoken2	User	Yes .
+Spoken2	Clerk	Okay . And then the last pizza was half <pizza_type> cheese </pizza_type> and half <pizza_type> pepperoni </pizza_type> .
+Spoken2	User	Yes . That ’ s true .
+Spoken2	Clerk	That 's also a <size> large </size>
+Spoken2	User	Mm hmm .
+Spoken2	Clerk	Okay , awesome .
+Spoken2	User	Mm hmm . Yeah .
+Spoken2	Clerk	Along with that , is there -- would you like -- is that all , for the pizzas ?
+Spoken2	User	Yeah , that 'll be all and I would like that delivered to me , please , at <address> 123 street lane </address> .
+Spoken2	Clerk	Okay .
+Spoken2	User	As soon as possible , please , because I 'm having a party and I forgot to order the pizza until now , so ...
+Spoken2	Clerk	Oh , wow .
+Spoken2	User	Yeah , please get on that .
+Spoken2	Clerk	Yeah , we 'll try and get that to you soon as we can .
+Spoken2	User	Thank you .
+Spoken2	Clerk	Yeah . So as for payment . Would you like to pay now , over the phone , or would you like to pay when the deliverer arrives ?
+Spoken2	User	Yeah , I 'll pay now over the phone . So my card type is --
+Spoken2	Clerk	Can I get a card number ?
+Spoken2	User	Uh , sure , my card number is <numeric> 12345 </numeric> .
+Spoken2	Clerk	Okay , 12345 .
+Spoken2	User	And --
+Spoken2	Clerk	Awesome .
+Spoken2	User	It ’ s expiration date is the end of the year .
+Spoken2	Clerk	Okay , that 's pretty , that 's pretty soon .
+Spoken2	User	Mm hmm . Yeah .
+Spoken2	Clerk	Okay , awesome .
+Spoken2	User	Okay , thanks .
+Spoken2	Clerk	We will get that to you in <time> 30 minutes </time> . Sorry for the wait .
+Spoken2	User	Okay , as soon as possible . If you can do it faster , I might tip your delivery driver , but you did n't hear it from me .
+Spoken2	Clerk	Okay deal . Okay . Goodbye .
+Spoken2	User	Alright , thank you . Goodbye .
+Spoken3	User	Hello .
+Spoken3	Clerk	Hello this is Domino 's Pizza . How may I help you ?
+Spoken3	User	Um , I 'd like ... Well , first of all , what are your , what are your different pizza sizes ?
+Spoken3	Clerk	So we have mini , which is kind of a personal size pizza . We have medium and large where large probably feeds around four people ...
+Spoken3	User	I ’ ll take the --
+Spoken3	Clerk	or five people --
+Spoken3	User	um , it ’ s , that 's fine . I 'll take . Okay , I 'll take the medium pizza please ? And I 'd like two of them . Is that , is that possible ? Can I get <quant> two </quant> pizzas in one order ?
+Spoken3	Clerk	Yes , you can get <quant> two </quant> pizzas . You can even get <quant> three </quant>
+Spoken3	User	No thank you . Just , just two .
+Spoken3	Clerk	Is it for the big game tonight ?
+Spoken3	User	Um , I do n't , I do n't watch sports .
+Spoken3	Clerk	Oh , sorry .
+Spoken3	User	That 's , that 's fine .
+Spoken3	Clerk	So , <quant> two </quant> <size> medium </size> pizzas . What toppings ?
+Spoken3	User	What toppings do you have ?
+Spoken3	Clerk	We have <topping> pepperoni </topping> . We have <topping> sausage </topping> . We have any kind of veggies , like <topping> mushrooms </topping> --
+Spoken3	User	I ’ ll have , I ’ ll have just <topping> sausage </topping> , <topping> sausage </topping> .
+Spoken3	Clerk	Sausage , okay , So on both of them ?
+Spoken3	User	Um , can I have a quarter of the pizza have <topping> sausage </topping> on both ?
+Spoken3	Clerk	So we actually only do half , you can only split it by half . Sorry .
+Spoken3	User	Okay . That 's , yeah , that 's fine . I 'll just do half on one .
+Spoken3	Clerk	Half sausage on one --
+Spoken3	User	Which seems equivalent to a quarter on both , so that ’ s perfect . Thanks for that option .
+Spoken3	Clerk	Sorry , we , we only do , yeah , sorry , half on the single pizza . Sorry about that .
+Spoken3	User	That ’ s fine .
+Spoken3	Clerk	That 's , um , so half <topping> sausage </topping> on one . How about for the other three halves ?
+Spoken3	User	Oh , let 's see . I think , just , just cheese for all of them except , I want , except -- Okay , so just cheese on the other half from the <topping> sausage </topping> one and then on the other pizza , half <pizza_type> cheese </pizza_type> again . But then the other half -- No cheese , can I have that ? Just tomato sauce ?
+Spoken3	Clerk	So you just want tomato sauce ?
+Spoken3	User	Yeah , is that okay ?
+Spoken3	Clerk	Yeah , I guess .
+Spoken3	User	Okay .
+Spoken3	Clerk	I guess that ’ s okay .
+Spoken3	User	Okay , great , can you , can you read me back what my order is ? I forget .
+Spoken3	Clerk	So I have <quant> two </quant> <size> medium </size> pizzas , one half is <topping> sausage </topping> one half is cheese for one of them .
+Spoken3	User	Mhmm .
+Spoken3	Clerk	I have another medium pizza that is one half <pizza_type> cheese </pizza_type> , one half just sauce , no <topping> cheese </topping> .
+Spoken3	User	Yeah , that sounds perfect , that 's great .
+Spoken3	Clerk	Okay .
+Spoken3	User	How do I , how do I get the pizza ?
+Spoken3	Clerk	So we can do -- two ways , we can either , you can either pick it up at 123456 lane or we can deliver it to your location .
+Spoken3	User	Um , delivering it sounds good . Can I have that ?
+Spoken3	Clerk	Can I get some payment information ?
+Spoken3	User	Sure . My card is number is <numeric> 123456789 </numeric>
+Spoken3	Clerk	Okay , and is that visa ?
+Spoken3	User	No , it 's , it 's just my card .
+Spoken3	Clerk	Okay , just your card . Yep . Gotcha .
+Spoken3	User	The type that I use , you know .
+Spoken3	Clerk	Oh , gotcha . Okay , I 'll plug that --
+Spoken3	User	Sorry , could you , could you read my card info back to me . Just make sure you got everything ?
+Spoken3	Clerk	<numeric> 123456789 </numeric>
+Spoken3	User	Okay , great . That sounds right .
+Spoken3	Clerk	Okay , and the expiration is today ?
+Spoken3	User	Yeah , yeah . So , process it soon , please .
+Spoken3	Clerk	Yeah . Okay . Sounds good .
+Spoken3	User	Uh huh .
+Spoken3	Clerk	Okay , so we , you should expect a driver at 123 --
+Spoken3	User	Just , just a question , I 'm sorry . I do n't think I gave you my address
+Spoken3	Clerk	Oh , that ’ s right , sorry .
+Spoken3	User	I think you told me your address .
+Spoken3	Clerk	I told you my address . Wow , I was going to deliver pizza to me .
+Spoken3	User	Yeah .
+Spoken3	Clerk	Where , where can we deliver it to ?
+Spoken3	User	So I live at 123 road .
+Spoken3	Clerk	Okay 123 road . Is that , Is that <address> 123 road “ this ” road or 123 road “ </address> that ” road , you know ,
+Spoken3	User	It 's --
+Spoken3	Clerk	They ’ re similar roads .
+Spoken3	User	It 's sort of like three towns over , it 'll be about a <quant> three </quant> hour drive .
+Spoken3	Clerk	Oh , <quant> three </quant> hour drive --
+Spoken3	User	Is that alright ?
+Spoken3	Clerk	I -- actually -- we do n't deliver that far . I 'm sorry .
+Spoken3	User	Oh gosh . Oh no . Could you --
+Spoken3	Clerk	You could pick it up .
+Spoken3	User	Okay , sure . I 'll come . I 'll come <modality> pick it up </modality> .
+Spoken3	Clerk	But also we should have a location closer to you if you wan na call this number , it ’ s 12312345 , they should be a closer location .
+Spoken3	User	Okay , I 'll , I 'll try that out . I 'll see if they also sell sauce pizzas .
+Spoken3	Clerk	Okay , so I will cancel that payment for that pizza .
+Spoken3	User	Yeah , thanks .
+Spoken3	Clerk	So you should n't expect a charge for those --
+Spoken3	User	Okay , great .
+Spoken3	Clerk	-- that half sauce pizza .
+Spoken3	User	You 've been so helpful . Thank you so much .
+Spoken3	Clerk	Okay , thank you so much . Have a great day . Good luck with your pizza .
+Spoken3	User	You too , thank you , bye .
+Spoken4	User	Hello .
+Spoken4	Clerk	Hi , this is , this is the pizza place . Uh , can I , what can I get you ?
+Spoken4	User	Hi . Yeah . This is gon na be a big order . Do you have like a pen or something ?
+Spoken4	Clerk	Yeah , yeah .
+Spoken4	User	So it 's going to be four pizzas all large . And one is going to be a vegetarian pizza . One is going to be a <pizza_type> cheese </pizza_type> pizza . One is <topping> pepperoni </topping> . And then the last one . Can I get half <pizza_type> vegetarian half pepperoni </pizza_type> ?
+Spoken4	Clerk	Yeah . I got that .
+Spoken4	User	Okay , awesome . Can you can you repeat that back to me to make sure
+Spoken4	Clerk	I got it don ’ t worry .
+Spoken4	User	Okay .
+Spoken4	Clerk	That ’ ll be $ 50 .
+Spoken4	User	Okay , actually . Can I switch the <pizza_type> cheese </pizza_type> pizza to sausage .
+Spoken4	Clerk	Sure , we can do that .
+Spoken4	User	And make sure that 's large right
+Spoken4	Clerk	Yes .
+Spoken4	User	Okay . And can I get that delivered ?
+Spoken4	Clerk	Yeah , we do delivery . What is your address ?
+Spoken4	User	Does that cost any extra ?
+Spoken4	Clerk	Yeah , it 'll be 10 bucks extra
+Spoken4	User	Ooh , I 'll go ahead and pick it up then .
+Spoken4	Clerk	So , um , do you know where our store 's located ?
+Spoken4	User	Yeah , it 's , it 's that one right off of 123 road , right ?
+Spoken4	Clerk	Yeah , that one .
+Spoken4	User	Okay , gotcha . Yeah , so do I pay now or
+Spoken4	Clerk	Oh yeah , since you 're coming in . Why do n't you pay when you come in , it 'll be easier .
+Spoken4	User	Okay , gotcha . When -- When can I pick it up ?
+Spoken4	Clerk	It 'll take us about 30 minutes . So come in half and hour .
+Spoken4	User	Okay . Sounds good . Thank you .
+Spoken4	Clerk	Yep , no problem . Bye .
+Spoken5	User	Hello , is this the pizza place ?
+Spoken5	Clerk	Hi , yes it is . Let me , let me tell you about our specials . First of all , just in case . So first of all , we have a <pizza_type> meat lovers </pizza_type> pizza . There 'll be a <size> large </size> for only $ 10 wait $ 8 .
+Spoken5	User	Okay .
+Spoken5	Clerk	We have <topping> pepperoni ham sausage bacon </topping> , all the meats . And then if you 're if you do n't like meat , we do also have a vegan pizza . If you want other vegetables . We can go get them . You know , we 're right next to the market . So , yeah .
+Spoken5	User	Awesome .
+Spoken5	Clerk	Go ahead and place your order , whatever you want . If you want one of the specials , you can have one of the specials . If you want to just make your own pizza , I guess you could do that too . That 'd be fine .
+Spoken5	User	I suppose . Can I , can I order now .
+Spoken5	Clerk	Yes , go ahead .
+Spoken5	User	Okay , do you guys do tuna on pizza ?
+Spoken5	Clerk	We did n't . But as I mentioned , there is a supermarket right next to us . So I 'll go and grab you a can of tuna but you ’ ll have to pay that cost .
+Spoken5	User	That 's fine tuna is like 10 cents . Right ?
+Spoken5	Clerk	Yes .
+Spoken5	User	Sorry , I just like tuna , it ’ s my favorite
+Spoken5	Clerk	Like do you like it raw ?
+Spoken5	User	Like sushi ? Sushi pizza . That 'd be cool . You guys should do that .
+Spoken5	Clerk	I 'll take that into account . I 'll think about it . But right now , you just want tuna ?
+Spoken5	User	A can of tuna and then the other half vegan , because I 'm vegan , but
+Spoken5	Clerk	That 's so interesting . Yes . Okay . Yeah , I 'm not , I 'm not here to judge
+Spoken5	User	Yeah , thank you .
+Spoken5	Clerk	You 're my valued customer .
+Spoken5	User	What sizes of pizzas , again , sorry .
+Spoken5	Clerk	We have , we have small , medium , large and extra large .
+Spoken5	User	Okay , I 'll do a <size> large </size> pizza with , like I said , half tuna and half vegan .
+Spoken5	Clerk	So do you want the <pizza_type> cheese </pizza_type> on the tuna half and half to be vegan cheese or ?
+Spoken5	User	Oh , yeah , yeah .
+Spoken5	Clerk	Okay , okay . So that does make sense . Yeah .
+Spoken5	User	Yeah .
+Spoken5	Clerk	Do you have any other pizzas , just for <quant> one </quant>
+Spoken5	User	Yeah , I think just the one
+Spoken5	Clerk	Okay . All right . So you 're getting a <size> large </size> pizza all <pizza_type> vegan cheese </pizza_type> and then a can of tuna on half of it . Do you want us to use the whole can of tuna or ?
+Spoken5	User	Do whatever looks good .
+Spoken5	Clerk	Okay . And if there 's any leftover tuna in the can will just give you the can .
+Spoken5	User	That 's awesome . Score .
+Spoken5	Clerk	That 's great . And so you do n't want any of our specials , you know , either of them . We have the vegan special .
+Spoken5	User	No .
+Spoken5	Clerk	No . Okay . All right . All right , let me know if you change your mind . We do n't do delivery . So you 're gon na have to come pick it up .
+Spoken5	User	Oh really ?
+Spoken5	Clerk	Yeah . Is that , is that all right ?
+Spoken5	User	Is your place off of 345 road ?
+Spoken5	Clerk	Yeah yeah yeah if you just put it in Google Maps , it 'll take you right there . Gotcha . Yep . Okay , great . So a <size> large </size> pizza tuna on half all <pizza_type> vegan cheese </pizza_type> . You 're going to come pick it up it 'll be about give us 20 minutes . Then you can come on over . Okay . Okay . Sounds good . Alright . Have a good day .
+Spoken5	User	Okay , goodbye .
+Spoken6	User	High is this PizzaPizza ?
+Spoken6	Clerk	Ah , hi , hi , yes it is . What can I get you ?
+Spoken6	User	I need <quant> three </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas here as soon as possible .
+Spoken6	Clerk	Okay , so , so <quant> three </quant> <size> medium </size> <pizza_type> as- </pizza_type>
+Spoken6	User	Soon as possible .
+Spoken6	Clerk	Okay . As soon as possible , so <quant> three </quant> <size> medium </size> .
+Spoken6	User	Yeah , can I just pay
+Spoken6	Clerk	Yeah , sure , sure . That 'll be $ <numeric> 20 </numeric>
+Spoken6	User	Okay , that 's pretty expensive for <quant> three </quant> pizzas . Do n't you think ? Can I get a discount ?
+Spoken6	Clerk	Sorry no , you can go somewhere else if you don ’ t agree .
+Spoken6	User	That 's super unfair . I think
+Spoken6	Clerk	I really ca n't help you . That ’ s the cost .
+Spoken6	User	There 's no coupons or no nothing .
+Spoken6	Clerk	Um , if you get our <pizza_type> meat lover special </pizza_type> which also has meat on it like you asked . That 'll be a-
+Spoken6	User	But I just want <pizza_type> pepperoni </pizza_type> .
+Spoken6	Clerk	It 's gon na be $ <numeric> 20 </numeric>
+Spoken6	User	Man , I do n't have time for this . Three pizzas for $ <numeric> 20 </numeric>
+Spoken6	Clerk	Okay . Three medium <topping> sausage </topping> pizza . Yeah , okay . We can deliver it . That 'll be an extra $ <numeric> 10 </numeric>
+Spoken6	User	yeah sure whatever
+Spoken6	Clerk	OK , so now your total comes to $ 30 going to pay now or ?
+Spoken6	User	Pay now is good . So that I can hurry up .
+Spoken6	Clerk	Okay . All right . What 's your card number .
+Spoken6	User	<numeric> 12345 </numeric>
+Spoken6	Clerk	Okay , great . Yeah . When does your card expire ?
+Spoken6	User	<numeric> 1/20 </numeric>
+Spoken6	Clerk	Okay , cool
+Spoken6	User	Yeah .
+Spoken6	User	My pin is <numeric> 3333 </numeric> .
+Spoken6	Clerk	I don ’ t think you should be giving out over the phone , but that sounds great .
+Spoken6	User	Don ’ t tell me what to do . The customer is always right yeah
+Spoken6	Clerk	So , okay , we 'll be giving you <quant> three </quant> <size> medium </size> <pizza_type> sausage </pizza_type> pizza for $ 30 . We ’ ll deliver it .
+Spoken6	User	Make it on the double , like
+Spoken6	Clerk	What it is , well , yeah , what 's your address .
+Spoken6	User	123 road
+Spoken6	Clerk	Okay , so we 'll show up at 123 road in in <time> 20 minutes </time> . Hopefully that 's fast enough for you .
+Spoken6	User	Okay , you better be faster .
+Spoken6	Clerk	Okay , great .
+Spoken6	User	Okay , goodbye .
+Spoken6	Clerk	All right , bye .
+Text1	Clerk	Welcome to pizza.com , where we get you the perfectly crafted pizza of your dreams .
+Text1	User	Hi can i have pizza
+Text1	Clerk	Okay , What kind of pizza ?
+Text1	User	I ’ m <numeric> five </numeric>
+Text1	Clerk	Five pizzas ?
+Text1	User	Okay
+Text1	Clerk	What kind of pizza for each ?
+Text1	User	I like cheese pizza best
+Text1	Clerk	So 5 <pizza_type> cheese </pizza_type> pizzas ?
+Text1	User	Yes ! ! ! !
+Text1	Clerk	Okay what size ? Small/med/large
+Text1	User	The biggest please
+Text1	Clerk	Okay <quant> 5 </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizzas , that will be 100 dollars
+Text1	User	I don ’ t think i have money
+Text1	Clerk	Okay , how will you pay for the pizzas ?
+Text1	User	I think my mom can pay
+Text1	Clerk	Okay , When should we have the pizzas ready ?
+Text1	User	Now !
+Text1	Clerk	Okay now will be in <time> 30 minutes </time> , and what name should we put down ?
+Text1	User	My name is <name> bob </name>
+Text1	Clerk	Okay bob , we will have your pizzas ready in <time> 30 minutes </time> and you will pay on arrival .
+Text1	User	Okay
+Text1	Clerk	Goodbye !
+Text1	User	Bye ! ! ! ! : )
+Text2	Clerk	Hello and welcome to the Pizza Place , how can I help you ?
+Text2	User	Hi , I ’ m new to ordering online , what do I do ?
+Text2	Clerk	Great ! Just tell me what size pizza , what toppings you ’ d like , and whether you want to do delivery or pickup .
+Text2	User	Did you see my message , sorry I am old .
+Text2	Clerk	That ’ s okay , yes I got your message . What size pizza do you want ?
+Text2	User	<quant> 1 </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizza and <quant> 1 </quant> <size> large </size> <pizza_type> ham </pizza_type> pizza please and thank you
+Text2	Clerk	Okay great , <quant> 1 </quant> <size> large </size> <pizza_type> cheese </pizza_type> and <quant> 1 </quant> <size> large </size> <pizza_type> ham </pizza_type> . Is that all ?
+Text2	User	Yes , thank you . Where should I pick it up ?
+Text2	Clerk	You can pick it up at 123 Road , or we can deliver it to you .
+Text2	User	Oh wow you deliver ! Technology is wild these days . Deliver it to me , please .
+Text2	Clerk	Okay , we just need your address .
+Text2	User	123 road off of <numeric> 456 </numeric>
+Text2	Clerk	Okay , great . Your total is $ 20 , how would you like to pay ?
+Text2	User	Real paper money , none of that plastic card money please .
+Text2	Clerk	Okay , you can pay our driver when they come to drop the pizza off . Unless you have any other questions , you ’ re good to go !
+Text2	User	Thank you robot person .
+Text2	Clerk	No problem .
+Text3	Clerk	Welcome to best pizza ever , how may I take your order ?
+Text3	User	Do you guys not take phone orders anymore ?
+Text3	Clerk	No
+Text3	User	Okay fine . I want <quant> 3 </quant> pizzas .
+Text3	Clerk	Okay , what kind ?
+Text3	User	All just <pizza_type> cheese </pizza_type> , no toppings . That ’ s all .
+Text3	Clerk	Okay
+Text3	User	How do I get the pizzas ? Are you going to ask me to pay ?
+Text3	Clerk	Yes it costs $ <numeric> 20 </numeric>
+Text3	User	Okay , well , I want to pay with card but I ’ m not going to put my card info into an online chatbox . How can I pay ?
+Text3	Clerk	You can pay our delivery person when they arrive .
+Text3	User	I don ’ t want them to know my card info either . Can I <modality> pick up </modality> the pizza ?
+Text3	Clerk	Yes
+Text3	User	Okay when will it be ready ?
+Text3	Clerk	It will take around 30 minutes , and you will pay when you get to BestPizzaEver
+Text3	User	Okay I ’ m actually sitting outside so I ’ ll come in to wait .
+Text3	Clerk	Okay come inside in <time> 30 minutes </time> . Thanks !
+Text3	User	Okay bye
+Text4	Clerk	Welcome to our pizza website , would you like to hear our specials ?
+Text4	User	Yes , please !
+Text4	Clerk	Okay , we have the Meat Lovers Pizza and the Vegan Pizza .
+Text4	User	Yum , sounds good . I ’ ll have <quant> one </quant> of each .
+Text4	Clerk	Okay , that ’ ll be $ 2 . How would you like to pay ?
+Text4	User	$ 2 per pizza or total ?
+Text4	Clerk	Total , each pizza is $ 1 . How would you like to pay ?
+Text4	User	Can I pay with bitcoin ?
+Text4	Clerk	Yes , we actually just set up our bitcoin payment processing yesterday . That will be .000002 bitcoin .
+Text4	User	Awesome , I will transfer the funds . When can I expect the pizza to be delivered ?
+Text4	Clerk	It depends on where you live . Can I have your address ?
+Text4	User	654 lane !
+Text4	Clerk	Great , you live about 20 minutes away from our location , so once the pizzas are done in <time> 30 min </time> , we ’ ll send them right over . It ’ ll be about 50 minutes .
+Text4	User	Sounds good , thanks !
+Text4	Clerk	No , thank you !
+Text5	Clerk	Welcome to Grover ’ s Pizza , how may I take your order ?
+Text5	User	You can take it by asking me what I want .
+Text5	Clerk	Sure , what would you like ?
+Text5	User	What do you have ?
+Text5	Clerk	Cheese , <topping> pepperoni </topping> , <topping> sausage </topping> , haiwaiian , vegan
+Text5	User	Is the <pizza_type> pepperoni </pizza_type> free range ?
+Text5	Clerk	What is free range ?
+Text5	User	Were the pigs given a happy life ?
+Text5	Clerk	I believe so !
+Text5	User	Hmm , okay . What is the vegan pizza ?
+Text5	Clerk	Vegan cheese , vegan <topping> sausage </topping> , and cilantro
+Text5	User	Okay , I ’ d like the vegan pizza with the <crust> regular </crust> <pizza_type> pepperoni </pizza_type> please .
+Text5	Clerk	Okay sounds , good . Would you like to pay now or when you <modality> pick up </modality> ?
+Text5	User	Can you read me back my order first ?
+Text5	Clerk	Sure , 1 vegan pizza ( large ) with <crust> regular </crust> <pizza_type> pepperoni </pizza_type>
+Text5	User	Oh , I wanted the pizza to be a <size> small </size> . Can you change that ?
+Text5	Clerk	Yes , 1 vegan pizza ( small ) with <crust> regular </crust> <pizza_type> pepperoni </pizza_type>
+Text5	User	Thank you !
+Text5	Clerk	Sounds good , it will be ready in <address> 20 min at our 12345 location </address> .
+Text5	User	Okay , I ’ ll pay when I pick it up .
+Text5	Clerk	Great , see you soon !
+Text6	Clerk	Hello , can I take your order ?
+Text6	User	Is this pizza palace ?
+Text6	Clerk	No , this is pizza parlor , can we still give you some pizza ?
+Text6	User	Do you have <pizza_type> cheese </pizza_type> pizza ?
+Text6	Clerk	I think so .
+Text6	User	I ’ ll take <quant> 2 </quant> <size> large </size> <pizza_type> cheese </pizza_type> pizzas and some <side> garlic breadsticks </side>
+Text6	Clerk	We actually don ’ t serve <side> garlic breadsticks </side> , but I can offer you garlic knots instead .
+Text6	User	Okay that works , how much will that cost me ?
+Text6	Clerk	It ’ ll be $ 30 . Are you going to pick up or do you want it delivered ?
+Text6	User	I will pick it up , when will it be ready ?
+Text6	Clerk	In about 20 minutes . Do you want to pay over the phone or when you get here ?
+Text6	User	I will pay when I arrive .
+Text6	Clerk	Okay great , see you then .
+Text7	Clerk	Welcome to Grover ’ s Italian Restaurant and Grill .
+Text7	User	Hi , I ’ d like to order two pizzas please .
+Text7	Clerk	Great , what kinds of pizzas can I get you ?
+Text7	User	I ’ d like one veggie and one meat pizza .
+Text7	Clerk	Awesome , I can do that for you . What size for each pizza ?
+Text7	User	Both large .
+Text7	Clerk	Sounds good , that will be $ 40 when you arrive .
+Text7	User	Oh , actually , wait , can I have <quant> two </quant> veggie pizzas instead ?
+Text7	Clerk	Sure , the total will be the same .
+Text7	User	Oh , in that case I want two meat pizzas .
+Text7	Clerk	Sure , the total will be the same .
+Text7	User	Do you guys sell soda ?
+Text7	Clerk	Yes , we sell 2 liter bottles , all pepsi products .
+Text7	User	Great , I ’ ll take <quant> one 2 </quant> liter of Coke .
+Text7	Clerk	Will Pepsi work ?
+Text7	User	I guess so , sure .
+Text7	Clerk	Awesome , that brings your total to $ 45 .
+Text7	User	Okay , when will it be ready ?
+Text7	Clerk	Around 5:30pm .
+Text7	User	Okay , see you then .
+Text7	Clerk	Thank you for your business !
+Text8	Clerk	What can I get you ?
+Text8	User	I ’ d like one <pizza_type> pepperoni </pizza_type> and <quant> one </quant> <topping> sausage </topping> .
+Text8	Clerk	Size ?
+Text8	User	Medium for both , please .
+Text8	Clerk	It ’ ll be ready in <time> 20 minutes </time> , you can pay when you get here .
+Text8	User	Thanks , see you soon .
+Text9	Clerk	Hi , this is Pizza , How may I help you ?
+Text9	User	Do you serve calzones ?
+Text9	Clerk	Yes we do , it so happens that today we have a special , 2 calzones for $ 10 .
+Text9	User	Wow great , can I get a calzone with all your veggie toppings inside ?
+Text9	Clerk	Yes , it ’ s called the salad calzone .
+Text9	User	Does it still have cheese and sauce ?
+Text9	Clerk	Yup ! Marinara and mozzarella .
+Text9	User	Okay , I ’ ll have <quant> two </quant> of those salad calzones and that ’ s it .
+Text9	Clerk	Awesome , that will be $ 10 . Would you like to <modality> pick up </modality> or have it delivered ?
+Text9	User	I ’ ll have it delivered .
+Text9	Clerk	Sounds good , what address should we deliver to ?
+Text9	User	123 Road street .
+Text9	Clerk	Okay it will arrive at <address> 6:00 pm </address>
+Text9	User	Can I pay over the phone ?
+Text9	Clerk	Yes , ma ’ am .
+Text9	User	Excuse me , I ’ m a man . But anyway , my card number is <numeric> 123456789 </numeric> .
+Text9	Clerk	Okay , would you like to add a tip to the order , <address> 15 % 20 % , 90 % </address> ?
+Text9	User	0 % tip because you offended me .
+Text9	Clerk	I ’ m sorry to hear that . I won ’ t add a tip to the card .
+Text9	User	Okay , I ’ ll see you at 6pm then .
+Text9	Clerk	Thank you for your business !
+Text10	Clerk	Hi and welcome to the Pizza Palace , what would you like ?
+Text10	User	I ’ d like <quant> two </quant> <size> large </size> mediteranean pizzas please , I have a hungry family .
+Text10	Clerk	What is on a mediterranean pizza ?
+Text10	User	Olives , feta , and tzatziki sauce .
+Text10	Clerk	Unfortunately , we don ’ t have any of those toppings . Can I get you a different kind of pizza ?
+Text10	User	Do you have <pizza_type> meat lovers </pizza_type> pizza ?
+Text10	Clerk	Yes we do , it has <topping> sausage </topping> , <topping> bacon </topping> , and meatballs .
+Text10	User	Sounds good , I ’ ll take <quant> two </quant> of those , do you do delivery ?
+Text10	Clerk	No , sorry , you ’ ll have to do <modality> pick up </modality> .
+Text10	User	Okay then I will pick it up , when will it be ready ?
+Text10	Clerk	About 20 minutes from now .
+Text10	User	Okay sounds good . Do I pay when I arrive ?
+Text10	Clerk	Yes , you can pay when you get here .
+Text10	User	Okay , thanks !
+Text11	Clerk	Hi and welcome to the Pizza Park , what can I get you ?
+Text11	User	I ’ d like three pizzas , one cheese , one haiwaiian , and <quant> one </quant> <beverage> margarita </beverage>
+Text11	Clerk	Sure , what size would you like ?
+Text11	User	<quant> One </quant> <size> large </size> haiwaiian , one medium margarita , <quant> one </quant> <size> small </size> <pizza_type> cheese </pizza_type> .
+Text11	Clerk	Okay , so <quant> one </quant> <size> large </size> <pizza_type> hawaiian </pizza_type> , one medium margarita , and <quant> one </quant> <size> small </size> <pizza_type> cheese </pizza_type> . Got it .
+Text11	User	When should I pick it up ?
+Text11	Clerk	You can pick it up around 6:30 , it ’ ll be about $ 35 .
+Text11	User	Can I pay when I get there , I ’ d rather not use my card over the phone .
+Text11	Clerk	Sure , but we only take cash here .
+Text11	User	Okay sounds good ! Thank you for being so quick .
+Text12	Clerk	This is johnny ’ s pizza , where we get you the greasiest cheese pizza for cheap .
+Text12	User	Hi , what ’ s the price for your largest pizza size ?
+Text12	Clerk	Our monster size pizza is $ 20 , if you eat it in <time> 10 minutes </time> , you get it for free .
+Text12	User	Even if I get it <modality> delivery </modality> ? Do you sit and wait ?
+Text12	Clerk	Yeah , just videotape it and post it to youtube with the hashtag # johnnymonster
+Text12	User	Can you recommend any other pizza places around here ?
+Text12	Clerk	I like the classics like domino ’ s .
+Text12	User	Okay , I think I might go with them instead . Bye .
+Text12	Clerk	Good choice , goodbye !
+Text13	Clerk	Hi and welcome to Pizza Pizza Pizza , tell me how many pizzas you want .
+Text13	User	Okay this is a complicated order , are you ready ?
+Text13	Clerk	Let ’ s start with how many pizzas you want .
+Text13	User	6 pizzas please .
+Text13	Clerk	Okay , will they all be different ?
+Text13	User	Some different , some the same .
+Text13	Clerk	Okay , tell me what is on the ones you want to be the same .
+Text13	User	3 will be cheese pizza and 2 will be <topping> pepperoni </topping> , and <quant> 1 </quant> will be half vegetable and half <pizza_type> cheese </pizza_type>
+Text13	Clerk	Okay , so <quant> 3 </quant> <pizza_type> cheese </pizza_type> , <quant> 2 </quant> <topping> pepperoni </topping> , and <quant> 1 </quant> half veg and half <pizza_type> cheese </pizza_type> . What size do you want the <pizza_type> cheese </pizza_type> pizzas to be ?
+Text13	User	All 3 will be <size> large </size> <pizza_type> cheese </pizza_type> pizzas .
+Text13	Clerk	Okay , and what size for the <pizza_type> pepperoni </pizza_type> ?
+Text13	User	Both will be small .
+Text13	Clerk	Okay , small , and for the half veg half <pizza_type> cheese </pizza_type> ?
+Text13	User	Large .
+Text13	Clerk	Okay , so <quant> 3 </quant> <size> large </size> <pizza_type> cheese </pizza_type> , <quant> 2 </quant> <size> small </size> <pizza_type> pepperoni </pizza_type> , and <quant> 1 </quant> <size> small </size> <pizza_type> half veg half cheese </pizza_type> . That will be $ 50 .
+Text13	User	Sorry the last pizza should also be large .
+Text13	Clerk	Oh sorry , <size> large </size> <pizza_type> half veg half cheese </pizza_type> . So that ’ ll be $ 60 . Do you want to pick up or get it delivered ?
+Text13	User	Can we do pickup ?
+Text13	Clerk	Yes , sure , do you want to pay now over the phone or when you arrive ?
+Text13	User	I will pay when I arrive , in cash .
+Text13	Clerk	Okay , they ’ ll be ready in <time> 40 minutes </time> .
+Text13	User	Sounds good , see you then .
+Text14	Clerk	Welcome to Devin ’ s pizza , gourmet pizza at a low price !
+Text14	User	I ’ ll have a <pizza_type> cheese </pizza_type> pizza , I know it ’ ll be ready in 20 so I ’ ll see you then .
+Text14	Clerk	Wait , sorry . We don ’ t know the size of the pizza yet !
+Text14	User	Oh right , a <size> small </size> , please .
+Text14	Clerk	For only $ 1 you can upgrade to a <size> medium </size> pizza .
+Text14	User	No thanks , I just want a <size> small </size> .
+Text14	Clerk	Would you like a soda ?
+Text14	User	Nope , just the one small pizza . How much is that ?
+Text14	Clerk	That will be $ 9.95 , Visa or Mastercard ?
+Text14	User	I ’ d rather pay in cash when I get there .
+Text14	Clerk	Okay sounds good . When should we have the pizza ready ?
+Text14	User	If you can do 20 minutes from now , that would be great .
+Text14	Clerk	Yes we can ! The pizza should be out of the oven at <address> 5:15 pm </address>
+Text14	User	Alright , see you then .
+Text14	Clerk	Goodbye !
+Text15	Clerk	Hi , it ’ s The Pizza Place , how are you ?
+Text15	User	I ’ m great , thanks for asking ! How ’ re you ?
+Text15	Clerk	I ’ m doing good , been a long day making pizza though .
+Text15	User	I can ’ t imagine , big game and all going on .
+Text15	Clerk	Yeah , today ’ s supposed to be our busiest day of the year . Are you getting pizza for a watch party ?
+Text15	User	Oh really ? Yes I am ! Got my grandkids over to support the SeaHorses .
+Text15	Clerk	Yeah , go SeaHorses ! Alright , what can I get you ?
+Text15	User	How about <quant> 3 </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas , the classic pizza .
+Text15	Clerk	True , our most popular pie . Anything else ?
+Text15	User	Nope that ’ ll be it ! They just scored , did you see that ! ?
+Text15	Clerk	Whoa ! Yeah , I can hear the guys in the kitchen going wild . Alright , your pizza ’ s gon na be $ 40 .
+Text15	User	Nice ! Do you do delivery ?
+Text15	Clerk	Of course , but it ’ s a busy night so it ’ ll be a while . Your order will probably take an hour .
+Text15	User	Ah , we can pick it up instead if that will be faster .
+Text15	Clerk	Yeah , it ’ ll be ready in about half an hour .
+Text15	User	Okay sounds , good . Can I pay now ?
+Text15	Clerk	Yes you can pay over the phone . What ’ s your card number ?
+Text15	User	My card is <numeric> 567856785678 </numeric> and expiration is <numeric> 13/2020 </numeric>
+Text15	Clerk	You might want to get that card renewed , but I got your info down . You ’ re all set .
+Text15	User	Thanks ! See you in 30 .
+Text15	Clerk	Bye !
+Text16	Clerk	Welcome to Little Italy , are you wanting dinein or <modality> take out </modality> ?
+Text16	User	Take
+Text16	Clerk	Okay , but I ’ ll just add that our pasta is to die for .
+Text16	User	Do you guys put pasta on the pizzas ever ?
+Text16	Clerk	No , that would be soggy .
+Text16	User	Okay , fair point . What toppings do you have ?
+Text16	Clerk	All of the usual ones , <topping> pepperoni </topping> , <topping> olives </topping> , <topping> mushrooms </topping> , <topping> sausage </topping> , etc .
+Text16	User	Okay , can I get <quant> one </quant> <size> medium </size> pizza with <topping> olives </topping> and <topping> mushrooms </topping> ?
+Text16	Clerk	Yes we can do that . Anything else ?
+Text16	User	Do you have any anchovies ?
+Text16	Clerk	We just ran out , so no .
+Text16	User	Oh , okay , no anchovies . How about sardines ?
+Text16	Clerk	We have salmon , usually served on our sushi pizza .
+Text16	User	No thanks , that sounds kind of gross . I ’ ll just have the pizza I ordered .
+Text16	Clerk	Okay , remind me again , what was that pizza ?
+Text16	User	I wanted a <size> medium </size> pizza with <topping> olives </topping> and <topping> mushrooms </topping> .
+Text16	Clerk	That ’ s right , that will be $ <numeric> 18.60 </numeric>
+Text16	User	Okay , can I pay with card ?
+Text16	Clerk	Yes , we do card payment . Can I get your card information ?
+Text16	User	My card number is <numeric> 0987654321 </numeric> and my expiration date is tomorrow .
+Text16	Clerk	The payment was successful , the pizza will be ready for <modality> pick </modality>
+Text16	User	Okay , great , see you then .
+Text16	Clerk	Goodbye !
+Text17	Clerk	Welcome to Great Pizza , what kind of pizza do you want ?
+Text17	User	Hi .
+Text17	Clerk	Hi , can I get you a <size> small </size> , medium , or <size> large </size> pizza ?
+Text17	User	That ’ s a lot of choices , what kind of pizzas do you have ?
+Text17	Clerk	Well , actually , I was thinking about adding one more size to the list , extra <size> large </size> , so if you thought we had lots of sizes it could have been a lot worse . But we have <size> small medium </size> and large of all our pizzas , most people like cheese , but we have other toppings : <pizza_type> pepperoni </pizza_type> , onion , <topping> green peppers </topping> , <topping> sausage </topping> , other stuff . What do you want ?
+Text17	User	Wow . Maybe I should get just a <pizza_type> cheese </pizza_type> pizza .
+Text17	Clerk	Yeah , we can do that for you , people love our <pizza_type> cheese </pizza_type> pizzas , it ’ s what we ’ re known for . You got ta tell me what size you want , though .
+Text17	User	Okay . Medium please .
+Text17	Clerk	Medium ? You sure ? Some people say medium because they ’ re expecting a certain size pizza but they really want a <size> large </size> . A large is only $ 2 more , do you want to upgrade ?
+Text17	User	I think medium will be fine , thanks .
+Text17	Clerk	Alright , if you ’ re sure . Do you want to pay over the phone or when you <modality> pick up </modality> ? We only do pickup , sorry . We tried to start doing delivery but the delivery people were so flakey , we fired them all .
+Text17	User	Oh okay . I will pay when I get there .
+Text17	Clerk	Alright , great , see you then , looking forward to it .
+Text18	Clerk	Welcome to Pablo Pizzcaso , how may we help you ?
+Text18	User	I ’ d like to get Chinese food , but I guess I ’ m getting pizza tonight .
+Text18	Clerk	Oh , sorry we do not serve Chinese food here .
+Text18	User	Yeah , I was just thinking aloud .
+Text18	Clerk	Oh okay , well we can help you with pizza for sure . What can I get you ?
+Text18	User	I don ’ t really like large pizzas .
+Text18	Clerk	Oh okay , interesting . You are welcome to buy any kind of pizza you would like . First can I get a size ?
+Text18	User	Yeah , medium .
+Text18	Clerk	What kind of pizza ?
+Text18	User	Just cheese . And just one pizza .
+Text18	Clerk	Okay just <pizza_type> cheese </pizza_type> , and just one .
+Text18	User	How much will that be ?
+Text18	Clerk	That will $ 12.50 , would you like to donate to the pizza society charity ?
+Text18	User	No thank you , I do my own charitable giving .
+Text18	Clerk	Okay , are you sure ?
+Text18	User	Yeah , I ’ m sure .
+Text18	Clerk	Okay , the pizza will be ready in <time> 30 minutes </time> .
+Text18	User	Great , see you then .
+Text18	Clerk	Bye !
+Text19	Clerk	Hi , welcome to Azzip . What can I get you ?
+Text19	User	I will have as much pizza as you can make , just kidding , <quant> 3 </quant> pizzas .
+Text19	Clerk	Well , if you ever need to place a catering order , we just need <quant> 1 </quant> week notice . But we can do 3 pizzas .
+Text19	User	No I ’ m okay sorry , I am a joker .
+Text19	Clerk	Ha , ha . Okay , what kind of pizza ?
+Text19	User	<quant> One </quant> <size> large </size> <pizza_type> cheese </pizza_type> , <quant> one </quant> <size> large </size> , meat lovers , and <quant> one </quant> <size> large </size> <pizza_type> buffalo chicken </pizza_type>
+Text19	Clerk	Okay , <quant> one </quant> <size> large </size> <pizza_type> cheese </pizza_type> , <quant> one </quant> <size> large </size> <pizza_type> meat lovers </pizza_type> , and <quant> one </quant> <size> large </size> buffalo chicken . That ’ ll be $ 30 .
+Text19	User	Okay awesome , when can I expect it at my door ?
+Text19	Clerk	What ’ s your address ?
+Text19	User	<address> 123 Gugenheim Hall </address>
+Text19	Clerk	Oh , actually our <modality> delivery </modality> boy just quit . Can you pick it up ?
+Text19	User	Oh dang , I ’ m sorry to hear that . Yes I can pick it up . When will it be ready ?
+Text19	Clerk	In about 20 minutes . Do you want to pay when you get here ?
+Text19	User	Yes please .
+Text19	Clerk	Okay , see you then .
+Text19	User	Chao !
+Text19	Clerk	Adios !
+Text20	Clerk	Welcome to Pizzamon , where we create pokemon themed pizzas !
+Text20	User	Hi , so , what does that mean exactly ?
+Text20	Clerk	So we have our Pikacheese pizza which is in the shape of pikachu ’ s head , we have squirtle ’ s seafood which is in the shape of squirtle ’ s shell , and we have bulbasaur ’ s veggie delight , which is just a veggie pizza actually .
+Text20	User	Oh , interesting . What veggies are on the bulbasaur ’ s veggie delight pizza ?
+Text20	Clerk	All kinds , including green bell peppers , spinach , <topping> olives </topping> , and tomatoes !
+Text20	User	Hmm , what ’ s the cheapest pizza you sell ?
+Text20	Clerk	The Pikacheese is the cheapest , with <size> large </size> selling for $ 12 , medium for $ 10 , and small for $ 8 .
+Text20	User	How can I get the most toppings for the least amount of money ? I don ’ t want just a <pizza_type> cheese </pizza_type> pizza .
+Text20	Clerk	You can add additional toppings of your choice for .50 a topping . So I would get a Pikacheese and choose 3 toppings for it to be cheaper than the bulbasaur ’ s veggie delight .
+Text20	User	Okay , I want to do that . Can you choose 3 random veggie toppings for me ?
+Text20	Clerk	How about , <topping> pineapple </topping> , <topping> ham </topping> , and <topping> onions </topping> ?
+Text20	User	Pineapple and onion sounds good , but ham isn ’ t vegetarian . Can I have <topping> olives </topping> instead ?
+Text20	Clerk	Yes I have a <size> large </size> <pizza_type> Pikacheese </pizza_type> with <topping> pineapple </topping> , <topping> olives </topping> , and <topping> onions </topping> . Will that be all ?
+Text20	User	Yes , that ’ s it . Is it okay if I pay in change ?
+Text20	Clerk	Sure that ’ s fine but you ’ ll have to come pick up the pizza to pay with cash .
+Text20	User	Okay , will it be ready in <time> 20 minutes </time> ?
+Text20	Clerk	Yes , it should be ready in <time> 20 minutes </time> .
+Text20	User	Is it okay for me to come in about <time> 30 minutes </time> ?
+Text20	Clerk	Yes . See you in <time> 30 minutes </time> .
+Text20	User	Bye !
+Abnormal1	Clerk	Hi this is John ’ s pizza how may I take your order ?
+Abnormal1	User	Hi , I ’ d like <quant> three </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas , please .
+Abnormal1	Clerk	Sorry , can I put you on hold ?
+Abnormal1	User	Sure .
+Abnormal1	Clerk	Hi this is John ’ s pizza how may i take your order ?
+Abnormal1	User	Hi , I think I was just speaking to you , I ’ m ordering <quant> 3 </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas ?
+Abnormal1	Clerk	Got it , that will be $ 50 ! Would you like to pickup or have it delivered ?
+Abnormal1	User	I ’ ll pick it up and pay when I get there .
+Abnormal1	Clerk	Sounds good , it will be ready in <time> 30 minutes </time> .
+Abnormal2	Clerk	Hi , this is a pizza parlor , how can I take your order ?
+Abnormal2	User	2 pepperoni pizzas please
+Abnormal2	Clerk	Okay , anything else ?
+Abnormal2	User	A <size> large diet </size> <beverage> coke </beverage>
+Abnormal2	Clerk	Okay cool , hold on . I have to do something real quick . *2 minutes*
+Abnormal2	Clerk	Hi again , unfortunately our ovens just broke , so we can ’ t make your pizza . I can still get you a diet coke though .
+Abnormal2	User	Oh darn , that ’ s unfortunate , no it ’ s okay , I ’ ll take my business elsewhere !
+Abnormal2	Clerk	No please , we have the best diet coke in town !
+Abnormal2	User	Goodbye .
+Abnormal2	Clerk	Nooooooo…
+Abnormal3	Clerk	Hello , welcome to Grover ’ s pizza .
+Abnormal3	User	Hi , I ’ d like to order two pizzas please .
+Abnormal3	Clerk	What kinds of pizza ?
+Abnormal3	User	I ’ ll just have <quant> two </quant> vegg ( DISCONNECTION )
+Abnormal3	Clerk	Hello , are you there ? I can ’ t hear you . Sorry I think we disconnected .
+Abnormal4	Clerk	Hi , this is The Only Pizza Place in Town . How can I help you ?
+Abnormal4	User	*bark* Hi , sorry my dogs are barking , one second .
+Abnormal4	Clerk	That ’ s okay , let me know when you ’ re ready to order .
+Abnormal4	User	Hi are you still there ?
+Abnormal4	Clerk	Hi , yep , what can I get you ?
+Abnormal4	User	3 pizzas and a 2 liter of soda
+Abnormal4	Clerk	Okay great , first of all , what kind of soda ?
+Abnormal4	User	*bark bark bark* Sorry , one second .
+Abnormal4	Clerk	No worries .
+Abnormal4	User	Hi , sprite please .
+Abnormal4	Clerk	Okay got it , a 2 liter of Sprite . What kinds of toppings on your pizzas ?
+Abnormal4	User	All cheese , some is for my *bark* dogs
+Abnormal4	Clerk	Can dogs have <pizza_type> cheese </pizza_type> ?
+Abnormal4	User	Sorry I was kidding
+Abnormal4	Clerk	Oh haha , good joke . Okay so that comes to $ 50 . How do you want to pay ?
+Abnormal4	User	My card is <numeric> 908765 </numeric> .
+Abnormal4	Clerk	Great thanks , do you want to do pickup or delivery ?
+Abnormal4	User	Delivery please , my address is <numeric> 789 </numeric> the best house on the block
+Abnormal4	Clerk	Okay great , our driver will be there in <time> 20 minutes </time> .
+Abnormal4	User	Sounds good ! Thanks .
+Abnormal4	Clerk	You ’ re welcome , bye .

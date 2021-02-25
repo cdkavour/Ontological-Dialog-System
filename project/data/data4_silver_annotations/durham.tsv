@@ -1,570 +1,570 @@
-	Conversation	Speaker	Transcript
-0	Spoken_1	Clerk	Hello , this is Domino.s . Xena speaking
-1	Spoken_1	User	Hey um can I get a <size> large </size> pizza , no <topping> cheese </topping> , diced tomatoes , and <topping> spinach </topping> ?
-2	Spoken_1	Clerk	Alright , and would you like any sides with that ?
-3	Spoken_1	User	Oh um . no
-4	Spoken_1	Clerk	Okay , any drink ?
-5	Spoken_1	User	Yeah , yeah , um can I get a ... d-do you have the 2-liter bottles ?
-6	Spoken_1	Clerk	Oh we.re actually out of those today . We only have our fountain we can give you guys
-7	Spoken_1	User	Okay okay um ... let me do a <size> medium </size> <beverage> coke </beverage>
-8	Spoken_1	Clerk	Alright medium coke and then to repeat your pizza order , you want a <size> large </size> pizza with <quant> no </quant> <topping_type> cheese </topping_type> , diced tomato , and kale ?
-9	Spoken_1	User	Spinach
-10	Spoken_1	Clerk	Spinach instead of kale , ok
-11	Spoken_1	User	You know what if you have kale we can do both
-12	Spoken_1	Clerk	Alright let me double check and make sure ... alright , it looks like we do have kale so you.ll get a <size> large </size> pizza with <quant> no </quant> <topping_type> cheese </topping_type> , diced tomatoes , spinach , and kale and then a <size> medium </size> <beverage> coke </beverage> for your drink
-13	Spoken_1	User	Amazing , perfect
-14	Spoken_1	Clerk	Alright , that will come to $ <numeric> 20.07 </numeric>
-15	Spoken_1	User	Perfect , let me give you my card ... um that.s gon na be -- the number is um <numeric> 1024 </numeric>
-16	Spoken_1	Clerk	Mhm
-17	Spoken_1	User	Um and the code is <numeric> 782 </numeric> ... the expiration is <numeric> 12/89 </numeric>
-18	Spoken_1	Clerk	And what.s your name ?
-19	Spoken_1	User	John Doe
-20	Spoken_1	Clerk	Alright John , just to repeat -- your card number is <numeric> 1024 </numeric> , your code is <numeric> 782 </numeric> , expiration is <numeric> 12/89 </numeric> , right , and is there anything else I can get for you today ?
-21	Spoken_1	User	That is it , thank you
-22	Spoken_1	Clerk	Alright and what address are we delivering this to ?
-23	Spoken_1	User	Oh , um
-24	Spoken_1	Clerk	Or are you coming in for <modality> pickup </modality> ?
-25	Spoken_1	User	I.ll come in for <modality> pickup </modality>
-26	Spoken_1	Clerk	Alright , so it should be ready in <time> 20 to 30 minutes </time>
-27	Spoken_1	User	Okay great , thank you
-28	Spoken_1	Clerk	Alright ! You have a great day , thanks for calling Domino.s , have a great day .
-29	Spoken_1	User	You too .
-30	Spoken_2	Clerk	Hey um this is Papa John.s , uh , what can I get for ya
-31	Spoken_2	User	Hi I would- want to order a pizza , uh actually <quant> three </quant> pizzas , ummm
-32	Spoken_2	Clerk	Okay
-33	Spoken_2	User	I think I want , uh , how- what size pizza should I get if I wan na get <quant> three </quant> pizzas for like , ten people ? What do you think ?
-34	Spoken_2	Clerk	Okay
-35	Spoken_2	User	Three larges ?
-36	Spoken_2	Clerk	Ten people , <quant> three </quant> pizzas . How hungry are y.all ?
-37	Spoken_2	User	Um , we.re pretty hungry.so . I don.t know .
-38	Spoken_2	Clerk	Okay , go- go for the <size> large </size> ! Go for the <size> large </size> . Yeah , let.s do that . Okay , so , <quant> three </quant> <size> large </size> pizzas , what do you want on .em ?
-39	Spoken_2	User	Ummmm hang on let me ask . Okay I think . we want <pizza_type> cheese </pizza_type> , a <pizza_type> cheese </pizza_type> pizza , and a uh half <pizza_type> pepperoni </pizza_type> half mushroom ?
-40	Spoken_2	Clerk	Okay
-41	Spoken_2	User	Sorry half <pizza_type> pepperoni </pizza_type> half <topping> sausage </topping>
-42	Spoken_2	Clerk	okay pepper- <pizza_type> pepperoni </pizza_type> on <quant> one </quant> <topping> half sausage </topping> on the other
-43	Spoken_2	User	Yeah for the second pizza and then . uh a mushroom and uh spinach ? And feta ? Do you have that ?
-44	Spoken_2	Clerk	I think so um . yes , yeah we have feta . Okay mushroom , feta ,
-45	Spoken_2	User	And spinach
-46	Spoken_2	Clerk	And spinach . Gotcha , okay .
-47	Spoken_2	User	Awesome
-48	Spoken_2	Clerk	Great
-49	Spoken_2	User	Um
-50	Spoken_2	Clerk	Um
-51	Spoken_2	User	So for the <pizza_type> cheese </pizza_type> pizza , um , can you do extra cheese like a lot of extra cheese ?
-52	Spoken_2	Clerk	Yes . Okay extra we can do extra do you want like just normal cheese , do you want the the <pizza_type> four cheese </pizza_type> uh
-53	Spoken_2	User	Four cheese , <pizza_type> four cheese </pizza_type>
-54	Spoken_2	Clerk	Ok great so <pizza_type> four cheese </pizza_type> , heavy on the <pizza_type> cheese </pizza_type> ,
-55	Spoken_2	User	Yeah
-56	Spoken_2	Clerk	Great
-57	Spoken_2	User	Do you guys also have , um brownies ? They.re asking for brownies .
-58	Spoken_2	User	Ummm might as well go <size> large </size>
-59	Spoken_2	Clerk	Okay , great . Um , anything else , any drinks ?
-60	Spoken_2	User	Can I get uh , Dr. Pepper . and . a Sprite
-61	Spoken_2	Clerk	Yeah , and what size do you want on those ?
-62	Spoken_2	User	The two-liter bottles ? Do you have them ?
-63	Spoken_2	Clerk	Yes , you bet . Okay .
-64	Spoken_2	User	Do you give , um , cups and napkins , too ?
-65	Spoken_2	Clerk	Yeah , yeah I can do that . Um , yeah , that.ll be . we can give you , for <quant> 50 </quant> cents , we can give you , um , all of the spare cups you need .
-66	Spoken_2	User	Okay , think we.re gon na need . ten should be good if you have like a set of ten
-67	Spoken_2	Clerk	Yeah
-68	Spoken_2	User	And then a bunch of napkins
-69	Spoken_2	Clerk	tons of napkins gotcha
-70	Spoken_2	User	and do you also have those little packets with the uh Italian herb
-71	Spoken_2	Clerk	Yeah ! We , we put those in every order . Yeah , you.re good .
-72	Spoken_2	User	Okay thank you . Alright , um , think that.s it
-73	Spoken_2	Clerk	Cool so that.s a <size> large </size> <pizza_type> four cheese </pizza_type> pizza extra cheese , um a <size> large </size> <pizza_type> pizza pepperoni </pizza_type> on <quant> one </quant> <topping> half sausage </topping> on the other half . A large pizza with <topping> mushrooms </topping> , spinach , and feta a <size> large </size> <address> brown thaties two liter Dr. Pepper two liter sprite </address> and , uh , that is , does that sound correct ?
-74	Spoken_2	User	Uh , also cups and napkins
-75	Spoken_2	User	Yes . So , card number is <address> zero zero zero two </address> ,
-76	Spoken_2	Clerk	Okay
-77	Spoken_2	User	And then expiration date is <numeric> zero one one three </numeric>
-78	Spoken_2	Clerk	All right
-79	Spoken_2	User	And the name for it is . Melanie
-80	Spoken_2	Clerk	Okay and can I get the billing zip code on that ?
-81	Spoken_2	User	Oh , billing zip code .
-82	Spoken_2	Clerk	Is it the same as delivery ?
-83	Spoken_2	User	Yeah
-84	Spoken_2	Clerk	Great
-85	Spoken_2	User	<numeric> 33123 </numeric>
-86	Spoken_2	Clerk	Okay so that.s card number zero <numeric> zero zero two </numeric> , expiration <numeric> zero one </numeric> thirteen , uh , card name is Melanie and the billing zip code is <numeric> 33123 </numeric>
-87	Spoken_2	User	Yes yeah that.s right
-88	Spoken_2	Clerk	Great . Okay ! Uh ,
-89	Spoken_2	User	Do you know how long that should take ?
-90	Spoken_2	Clerk	Yeah so um , it , I think that.s going to take , we.re going to get it ready for you in about twenty minutes and it.ll take another twenty minutes for us to get that out to you , and you can follow along on our online tracking system .
-91	Spoken_2	User	Oh cool okay
-92	Spoken_2	Clerk	So can I get an email to send the information to you ?
-93	Spoken_2	User	Um , it.s <email> m e l a n i e e e at email dot com </email> .
-94	Spoken_2	Clerk	Great . M e l a n i e e e at email dot com ?
-95	Spoken_2	User	Yep
-96	Spoken_2	Clerk	Cool , So you will be getting your <size> large </size> <pizza_type> four cheese large pepperoni sausage large mushroom </pizza_type> feta spinach large brownies , Dr. Pepper , Sprite , cups , napkins to <address> 1200 Crystal Ave Seattle </address> in forty minutes !
-97	Spoken_2	User	Ok awesome thank you
-98	Spoken_2	Clerk	Great thank you
-99	Spoken_3	Clerk	Hi this is Domino.s , what can I get you today ?
-100	Spoken_3	User	Hi , do you -- can I -- can I get a <size> small </size> pizza , just cheese . And is your sauce like a flavorful -- do you have like a spicy sauce and a super plain sauce like just tomato
-101	Spoken_3	Clerk	We only have our signature tomato sauce
-102	Spoken_3	User	Ok , um , if you could just um ... let.s do that cheese but if you put on any other herbs or spices , like if there.s like a parsley sprinkle or anything , I need you to leave it off -- just as plain as possible
-103	Spoken_3	Clerk	Um , we can do that , we can do that
-104	Spoken_3	User	Great , thank you
-105	Spoken_3	Clerk	Alright ! Um , do you want a drink ? Or any sides ?
-106	Spoken_3	User	[ aside ] Hey , do you want ... do you wan na get a lemonade , do you want milk -- [ phone ] Do you have milk ?
-107	Spoken_3	Clerk	Milk ? Um , sorry , we don.t serve milk
-108	Spoken_3	User	[ aside ] Ok ... ok ... no you can.t have , no [ phone ] Let.s do -- let.s do a <size> small </size> <beverage> lemonade </beverage>
-109	Spoken_3	Clerk	Small lemonade ... fountain drink ?
-110	Spoken_3	User	Yes
-111	Spoken_3	Clerk	Alright ! Any sides for you today ?
-112	Spoken_3	User	No um can I - can I also get , um , a <size> medium </size> <pizza_type> hawaiian </pizza_type> pizza ?
-113	Spoken_3	Clerk	Um actually sorry ma.am we.re out of our pineapples today so we won.t be able to --
-114	Spoken_3	User	Oh
-115	Spoken_3	Clerk	-- make the <size> Hawaiian </size>
-116	Spoken_3	User	Ok , um ... oh god , ok
-117	Spoken_3	Clerk	Um , can I interest you in our experimental mandarin ?
-118	Spoken_3	User	Sure , sure let.s do that
-119	Spoken_3	Clerk	So it.s just like a Hawaiian , but it has mandarin oranges instead
-120	Spoken_3	User	Perfect . Perfect , let.s do it
-121	Spoken_3	Clerk	Alright anything else I can get for you today ma.am ?
-122	Spoken_3	User	I think that.s it , alright , yeah
-123	Spoken_3	Clerk	Ok ! So is this for <modality> pickup </modality> or delivery ?
-124	Spoken_3	User	Delivery
-125	Spoken_3	Clerk	And can I get the <modality> delivery </modality> address ?
-126	Spoken_3	User	Yeah um it.s <address> 321 6th avenue northeast </address> , um , Seattle , Washington , <numeric> 00000 </numeric>
-127	Spoken_3	Clerk	Alright , so just to repeat your order that.ll be a <size> small </size> <pizza_type> um extra plain cheese </pizza_type> pizza with absolutely no herbs or spices added in
-128	Spoken_3	User	Yes
-129	Spoken_3	Clerk	a <size> small </size> <pizza_type> fountain </pizza_type> drink -- Lemonade
-130	Spoken_3	User	Yes
-131	Spoken_3	Clerk	And a <size> medium </size> , uh , Mandarin
-132	Spoken_3	User	Absolutely
-133	Spoken_3	Clerk	Alright , can I get your card information ?
-134	Spoken_3	User	Yeah , hang on . Ok , so number is <numeric> 5600 </numeric> . Um , expiration date <numeric> 00/12 </numeric> , um and the code on that is <numeric> 123 </numeric>
-135	Spoken_3	Clerk	Alright ... uh , can I get your name ?
-136	Spoken_3	User	Yeah , um , it.s uh , Jonathan Ives
-137	Spoken_3	Clerk	Okay , Jonathan Ives ... I have your card information as number 5600 , expiration date is <numeric> 00/12 </numeric> , uh , security code <numeric> 123 </numeric> and Johnathan Ives , alright , so , is there anything else that I can do for you today ?
-138	Spoken_3	User	Just get the pizza to me quickly , that.s all I ask of you
-139	Spoken_3	Clerk	Alright , we.ll have it to you in about <time> 20 minutes </time> or so
-140	Spoken_3	User	Great . Okay , great .
-141	Spoken_3	Clerk	Right , you have a great rest of your day
-142	Spoken_3	User	You too
-143	Spoken_4	Clerk	Hello ! Hi ! This is Domino.s pizza what can I get for ya ?
-144	Spoken_4	User	Hi I just wanted to know what sides you have
-145	Spoken_4	Clerk	Yeah ! ok so we.ve got the small , and that.s gon na be ten inches , great if you are two people or one hungry person
-146	Spoken_4	User	Oh no , sorry , I want , um , sides , like not of pizza , I wan na know what sides
-147	Spoken_4	Clerk	Sides . Sides ! Oh , you bet ! You bet ok we got our garlic breadsticks um you got the classic warm and melty brownies , um and seasonal we also have some cinnamon sticks going on
-148	Spoken_4	User	Uh so the bread sticks are they soft
-149	Spoken_4	Clerk	The bread sticks okay so they.re going to have a soft center but they have that good crisp on the outside
-150	Spoken_4	User	Do you have any <side> pasta </side>
-151	Spoken_4	Clerk	No , sorry , no pasta . I wish
-152	Spoken_4	User	Uh are you sure that you don.t have pasta cause I.m pretty sure that I.ve called a Domino.s before and they had pasta .
-153	Spoken_4	Clerk	Um , well our offerings can vary location to location . We.re actually trying out a pilot program um where some of our Domino.s are offering some extra offerings , but unfortunately this location we have not caught up to the times yet we are still on our basic pizza offerings
-154	Spoken_4	User	Okay . Well I.ll just get the <side> garlic bread I.ll </side> get <quant> two </quant> orders of that .
-155	Spoken_4	Clerk	Okay great !
-156	Spoken_4	User	And I.ll get that for <modality> pickup </modality> .
-157	Spoken_4	Clerk	Okay .
-158	Spoken_4	User	Uh , is this the location at <address> 123 Sunset </address> ?
-159	Spoken_4	Clerk	Yep , that.s us
-160	Spoken_4	User	Wanted to make sure . Two orders of <side> garlic bread </side> , um , my card information is , uh <numeric> 1234 </numeric>
-161	Spoken_4	Clerk	Uh huh
-162	Spoken_4	User	Uh my name is <name> Johnson </name>
-163	Spoken_4	Clerk	Okay .
-164	Spoken_4	User	And um uh my security code for that is <numeric> 000 </numeric> and the expiration is <numeric> 12/12 </numeric> .
-165	Spoken_4	Clerk	Alright , and a billing zip code on that ?
-166	Spoken_4	User	That.s gon na be 11234 .
-167	Spoken_4	Clerk	Great . So that.s 1234 is the card number for Johnson and security code <numeric> 000 </numeric> expiration <numeric> 12/12 </numeric> and zip code <numeric> 11234 </numeric> does that sound right ?
-168	Spoken_4	User	Yeah .
-169	Spoken_4	Clerk	Great .
-170	Spoken_4	User	Oh how long . um how long should it be before the <side> garlic bread </side> . do you have that ready .
-171	Spoken_4	Clerk	That.ll be ready for ya in ten minutes !
-172	Spoken_4	User	Okay . Order should be there in <time> ten minutes </time> I think , yeah .
-173	Spoken_4	Clerk	Okay cool , well we.ll see you in ten minutes !
-174	Spoken_4	User	Okay . Uh , alright bye .
-175	Spoken_4	Clerk	Great thanks .
-176	Spoken_5	Clerk	Hi , this is Domino.s ! Can I take your order ?
-177	Spoken_5	User	Hi ! Can I get a <size> large </size> <pizza_type> cheese </pizza_type> pizza , <size> large </size> <pizza_type> pepperoni </pizza_type> pizza , and <size> extra large </size> <pizza_type> supreme </pizza_type> pizza with <quant> no </quant> <topping> peppers </topping> on it
-178	Spoken_5	Clerk	Uh , what was that last one ?
-179	Spoken_5	User	Extra <size> large </size> <pizza_type> supreme </pizza_type> pizza , no <topping> peppers </topping>
-180	Spoken_5	Clerk	Okay , alright that.s a <size> large </size> <pizza_type> cheese </pizza_type> , <size> large </size> <pizza_type> pepperoni </pizza_type> , extra <size> large </size> <pizza_type> supreme </pizza_type> no <topping> peppers </topping>
-181	Spoken_5	User	Yes , and , uh we.ll get that for <modality> delivery </modality> , um , to <address> 84 48th street suite 12 </address> .
-182	Spoken_5	Clerk	Alright , that.s <address> 84 48th street suite 12 </address>
-183	Spoken_5	User	Yes and you.re gon na go up the stairs and down the left hallway and we.re the first on the right
-184	Spoken_5	Clerk	Alright . Okay , um can I get you any drinks , or sides to go with that order ?
-185	Spoken_5	User	No thank you
-186	Spoken_5	Clerk	Can I get your card information ?
-187	Spoken_5	User	Yes , the number is <numeric> 670 </numeric> , the expiration date <numeric> 12/12 </numeric> , card security code is <numeric> 567 </numeric> , zip code on that is <numeric> 19283 </numeric> , and the name on that is Jennifer
-188	Spoken_5	Clerk	Okay so that.ll be card number 670 , expiration date --
-189	Spoken_5	User	<numeric> 6780 </numeric>
-190	Spoken_5	Clerk	6780 and then expiration is <numeric> 12/12 </numeric>
-191	Spoken_5	User	Mhm
-192	Spoken_5	Clerk	Uh , code is <numeric> 567 </numeric> and zip code is <numeric> 19283 </numeric> for Jennifer ?
-193	Spoken_5	User	You bet !
-194	Spoken_5	Clerk	Alright , so we should have that to you about , uh , 30 minutes or so from now
-195	Spoken_5	User	Okay
-196	Spoken_5	Clerk	Okay , and that.ll come to about $ <numeric> 57 </numeric>
-197	Spoken_5	User	Perfect
-198	Spoken_5	Clerk	Alright we.ll get that to you soon , you have a great rest of your day
-199	Spoken_5	User	You too
-200	Spoken_6	Clerk	Hey hey this is Domino.s what can I get for ya
-201	Spoken_6	User	Hi so I have a milk allergy , um
-202	Spoken_6	Clerk	okay
-203	Spoken_6	User	Do you have pizza , uh , is your crust made with milk .cause I can.t have it cooked into anything either
-204	Spoken_6	Clerk	Right , okay , well first of all um , we do have a very milk heavy kitchen so I do wan na warn you that there is the risk of cross-contamination
-205	Spoken_6	User	Okay
-206	Spoken_6	Clerk	Is that alright with you ?
-207	Spoken_6	User	I guess I -- I guess that.s fine
-208	Spoken_6	Clerk	We can switch our gloves and all and , we.ll do as much as we can but again I , you know , it.s a lot of cheese , in the air
-209	Spoken_6	User	Yeah , well , I , it.s not a severe milk allergy
-210	Spoken_6	Clerk	Okay
-211	Spoken_6	User	Um , yeah
-212	Spoken_6	Clerk	Okay
-213	Spoken_6	User	If you can have a milkless crust ?
-214	Spoken_6	Clerk	Yes , so our thin crust is gon na be dairy-free
-215	Spoken_6	User	Alright . And then , um , what about <pizza_type> cheese </pizza_type> options
-216	Spoken_6	Clerk	Um , well , we have a mozzarella , we have a romano , we have a <pizza_type> four cheese </pizza_type> blend ?
-217	Spoken_6	User	Are all those cheeses , do they have dairy-free options ?
-218	Spoken_6	Clerk	No , sorry we don.t have any dairy free cheeses .
-219	Spoken_6	User	Oh it.s okay I.ll just get , um , can I get a custom pizza ? With --
-220	Spoken_6	Clerk	Yes
-221	Spoken_6	User	So can I get the <crust> thin </crust> crust and then just like a really thick layer of the tomato sauce ?
-222	Spoken_6	Clerk	Uh , you bet , we can do that
-223	Spoken_6	User	And then , like , all the vegetables you have
-224	Spoken_6	Clerk	All the vegetables , okay we got spinach , we got uh mushroom , we got red peppers , yellow peppers , banana peppers -- that all sound good ?
-225	Spoken_6	User	Um , I hate <topping> mushrooms </topping> , can you just-can you just do the red and yellow pepper ?
-226	Spoken_6	Clerk	Okay , yep !
-227	Spoken_6	User	Okay , um ... d-do you have uh , like , <side> garlic bread </side> ? Without milk
-228	Spoken_6	Clerk	No , sorry the <side> garlic bread </side> does have a butter on it
-229	Spoken_6	User	Can- Is it premade ? Or can you get , can you , um , not put the butter on it ?
-230	Spoken_6	Clerk	I would have to check if the bread itself has dairy in it . Uh --
-231	Spoken_6	User	You know what , it.s okay , nevermind . I.ll just --
-232	Spoken_6	Clerk	Okay
-233	Spoken_6	User	I.ll just get the pizza , sorry . I want that for , uh , pickup .
-234	Spoken_6	Clerk	Okay
-235	Spoken_6	User	So , my card information is <numeric> 000 </numeric> and expiration date <numeric> 07/11 </numeric> , and then name is <name> Avery </name>
-236	Spoken_6	Clerk	Okay
-237	Spoken_6	User	And , um , oh the-the zip code is <numeric> 11111 </numeric>
-238	Spoken_6	Clerk	Okay great Amy , so that.s can I --
-239	Spoken_6	User	Sorry- the name is <name> Avery </name>
-240	Spoken_6	Clerk	Avery ? Can you spell that for me ?
-241	Spoken_6	User	A v e r y
-242	Spoken_6	Clerk	A v e r y , Avery , ok so that card number is <numeric> 007 </numeric> , and expiration date <numeric> 07/10 </numeric> ,
-243	Spoken_6	User	Um , sorry , the card information is <numeric> 000 </numeric> And --
-244	Spoken_6	Clerk	Okay , <numeric> 000 </numeric>
-245	Spoken_6	User	And then the , uh , the expiration date is <numeric> 07/11 </numeric>
-246	Spoken_6	Clerk	07/11 , ok , gotcha and th zip code on that is <numeric> 11111 </numeric>
-247	Spoken_6	User	That.s right
-248	Spoken_6	Clerk	Great Alright , so that.ll be your -- oh what size of pizza do you want ? So , you.re getting a thin-
-249	Spoken_6	User	Oh
-250	Spoken_6	Clerk	-crust , um , in the <crust> thin </crust> crust we don.t have a <size> small </size> <pizza_type> available </pizza_type> for the thin but we do have a <size> medium </size> and <size> large </size>
-251	Spoken_6	User	I.ll take a <size> medium </size>
-252	Spoken_6	Clerk	Medium , okay , so <size> medium </size> <crust> thin </crust> crust pizza , lots of tomato sauce , and <topping> red peppers </topping> on that
-253	Spoken_6	User	Yeah . Oh , sorry , can I also get the <topping> yellow pepper </topping>
-254	Spoken_6	Clerk	Uh-huh ... you bet , alright and that.ll be for <modality> pickup </modality> and that.s gon na be ... um.8 dollars and 47 cents charged to that 000 card and -- is that alright ?
-255	Spoken_6	User	Yeah that.s fine
-256	Spoken_6	Clerk	Okay . And that.ll be ready for <modality> pickup </modality> for you in <time> 20 minutes </time> .
-257	Spoken_6	User	Alright , I.ll be there in <time> 20 minutes </time>
-258	Spoken_6	Clerk	Alright , bye Amy have a nice day
-259	Spoken_6	User	Bye
-260	Text_1	Clerk	Hi , this is JoAnne at Domino 's ! How can I help you today ?
-261	Text_1	User	Hi , I wanted to order a <size> small </size> <pizza_type> pepperoni </pizza_type> and a <size> large </size> <beverage> fountain drink </beverage>
-262	Text_1	Clerk	Okay ! And is that small <pizza_type> pepperoni </pizza_type> on <crust> thin </crust> or thick crust ?
-263	Text_1	User	thick crust please
-264	Text_1	Clerk	You bet ! Small thick crust <pizza_type> pepperoni </pizza_type> . Is this for <modality> pickup </modality> or delivery ?
-265	Text_1	User	Pickup , but can I schedule it for an hour from now ?
-266	Text_1	Clerk	Yes , we can do that ! Would you like us to prepare the fountain drink for you or would you just like the cup to fill yourself when you get here ?
-267	Text_1	User	You can go ahead and fill it now , I do n't want any ice . Do you have Coke or Sprite ?
-268	Text_1	Clerk	We have Pepsi or Sierra Mist ?
-269	Text_1	User	I 'll take the Sierra Mist
-270	Text_1	Clerk	Great , we 'll have that <size> small </size> <pizza_type> pepperoni </pizza_type> and <size> large </size> Sierra Mist ready for you at 4 pm for $ 7.47 . Can I get a name for the order ?
-271	Text_1	User	My name is <name> Ann </name>
-272	Text_1	Clerk	Alright Ann ! Can I get your credit card for the order ?
-273	Text_1	User	CC number is <numeric> 7899 </numeric> , code is <numeric> 322 </numeric> and expiration date is <numeric> 8832 </numeric>
-274	Text_1	User	Same name and zip code is <numeric> 56789 </numeric>
-275	Text_1	Clerk	Great ! I 'll charge that $ 7.47 to your card 7899 .
-276	Text_1	Clerk	We 'll have that order ready for you at 4 pm , Ann ! See you soon and take care .
-277	Text_1	User	Thanks !
-278	Text_2	Clerk	Hi ! This is Jake from Dominoes ! What can I do for you today ?
-279	Text_2	User	Hey Jake ! <quant> 14 </quant> <size> inch </size> Hawaiian please !
-280	Text_2	Clerk	No problem . Would you like any sides or a drink to go with that ?
-281	Text_2	User	Just the 'za !
-282	Text_2	Clerk	Alright , that 'll come to $ 15.64 . Can I get your name and card information ?
-283	Text_2	User	Aw man , did you raise your prices ?
-284	Text_2	Clerk	Yes , we recently restructured our menu options and the Hawaiian is now a premium pizza option .
-285	Text_2	User	Gotcha ! Well , I will feel extra fancy tonight eating my premium pizza .
-286	Text_2	User	It 's Jack Johnson , 1564 , expires <numeric> 01/21 </numeric> , and the code on that is <numeric> 678 </numeric> ! Zip code <numeric> 07070 </numeric> .
-287	Text_2	Clerk	Fantastic ! Is this for <modality> pickup </modality> or delivery ?
-288	Text_2	User	Can I get it <modality> delivered </modality> to Earl 's on 75th ?
-289	Text_2	Clerk	We can do that . That 'll set your delivery time to 30 minutes , charging $ 15.64 to your 1564 card .
-290	Text_2	User	Excellent !
-291	Text_2	Clerk	We 'll have the pizza to you soon !
-292	Text_2	Clerk	Have a great day .
-293	Text_2	User	You too pal !
-294	Text_3	User	ring ring
-295	Text_3	Clerk	Hey hey you 've reached Domino 's on 75th , what can I do for ya today ?
-296	Text_3	User	I wan na get a <crust> regular </crust> <pizza_type> cheese </pizza_type> pizza , no drink or side please
-297	Text_3	Clerk	Sure sure ! What size on that pizza ?
-298	Text_3	User	Large , delivered to <address> 1566 Castle Drive </address>
-299	Text_3	User	My card info is <numeric> 5444 expr 16/15 </numeric> name Cassidy
-300	Text_3	Clerk	Large cheese pizza to <address> 1566 Castle Drive </address> !
-301	Text_3	Clerk	Alright so that 'll be 8.45 for the pizza and a 5 dollar charge for the delivery , bringing it to <numeric> 13.45 </numeric>
-302	Text_3	Clerk	I 'll charge that to your card 5444 expiring 16/15 , Cassidy . Can I get the code on the back ?
-303	Text_3	User	How long is it going to take ?
-304	Text_3	User	Oh the code is <numeric> 111 </numeric>
-305	Text_3	Clerk	111 , thanks !
-306	Text_3	Clerk	We 'll have that over to you in about <numeric> 45 </numeric> minutes .
-307	Text_3	User	Thanks !
-308	Text_3	Clerk	Have a good one Cassidy !
-309	Text_3	User	you too
-310	Text_4	User	ring ring
-311	Text_4	Clerk	Hi this is Dominos , what can I get for you today ?
-312	Text_4	User	Hi ! I 'd like a <size> large </size> <pizza_type> meaty </pizza_type> pizza . What do you have that 's just covered in meat ?
-313	Text_4	Clerk	Our best option would be the Supreme Meat Lovers pizza for the most toppings -- that includes <topping> onions </topping> , <topping> mushrooms </topping> , <topping> olives </topping> , banana peppers , chicken , beef , italian <topping> sausage </topping> , <topping> bacon </topping> , and <topping> pepperoni </topping> .
-314	Text_4	User	Oh fantastic !
-315	Text_4	User	That sounds amazing . Can I get that as an <size> extra large </size> ?
-316	Text_4	Clerk	Of course ! Would you like anything else with that ?
-317	Text_4	User	Do you have breadsticks ?
-318	Text_4	Clerk	We do ! We have both plain and <side> garlic butter breadsticks </side> . Which one would you like ?
-319	Text_4	User	Garlic butter !
-320	Text_4	Clerk	Would you like to add a drink to your order ?
-321	Text_4	User	Nope
-322	Text_4	Clerk	Alright , that 's an extra <size> large </size> Supreme Meat Lovers pizza with <side> garlic butter bread sticks </side> . That comes to $ 16.23 . Is this for <modality> delivery </modality> or pickup ?
-323	Text_4	User	Beautiful . Pickup please !
-324	Text_4	Clerk	Great . We can have that ready for you at the 17th street Dominos in about <time> 25 minutes </time> . Can I have your name and card information ?
-325	Text_4	User	Perfect . It 's James Dean , number on there is <numeric> 2525 </numeric> , expiration <numeric> 09/55 </numeric> . The code 's <numeric> 555 </numeric> and the zip code is <numeric> 20831 </numeric> !
-326	Text_4	Clerk	Alright , we 'll charge the $ 16.23 to your card number 2525 . You have a great day .
-327	Text_4	User	You too , bye !
-328	Text_5	User	ring ring
-329	Text_5	Clerk	Hello , Domino 's on 17th street ! How can I help you ?
-330	Text_5	User	Hi , I want to order a <size> medium </size> <pizza_type> cheese </pizza_type> pizza and some bread sticks for <modality> delivery </modality>
-331	Text_5	Clerk	Sure ! Do you want that <pizza_type> cheese </pizza_type> pizza with a cheese-stuffed crust ?
-332	Text_5	User	Sounds great ! I 'll have that
-333	Text_5	Clerk	Great ! Any sides , drinks , or desserts ? We 've got a great stuffed cheesy bread if you 're feelin the <pizza_type> cheese </pizza_type> , or we could do a marbled cookie brownie !
-334	Text_5	User	Ooh the marbled cookie brownie sounds tasty , add that on
-335	Text_5	Clerk	Great ! And you wanted the bread sticks too , right ?
-336	Text_5	User	Yes
-337	Text_5	Clerk	Okay , a <size> medium </size> <pizza_type> cheese </pizza_type> pizza with a cheese-stuffed crust , bread sticks , and cookie brownie - that brings you to 14.02 . We have a $ <quant> 5 </quant> <modality> delivery </modality> charge but it 's free with an order over $ 15 , did you want to add anything ?
-338	Text_5	User	Add a <size> 16oz </size> <beverage> coke </beverage> please
-339	Text_5	Clerk	Perfect ! That 'll be $ 16 flat with <modality> free delivery </modality> . What 's the address ?
-340	Text_5	User	<address> 555 Candle Avenue NW , gate code 660 building 4 </address> , I 'll meet the driver outside
-341	Text_5	Clerk	Great ! Can I get your credit card information ?
-342	Text_5	User	My name is Stephanie Blair , card number is <numeric> 777 </numeric> , expiration date is <numeric> 11/23 </numeric> , code is <numeric> 999 </numeric>
-343	Text_5	User	Do you take mastercard ?
-344	Text_5	Clerk	We sure do !
-345	Text_5	Clerk	So 777 , expiring <numeric> 11/23 </numeric> , code <numeric> 999 </numeric> .
-346	Text_5	Clerk	We 'll have that cheesy pizza , bread sticks , cookie brownie , and coke to you in about <time> 30 minutes Stephanie </time> !
-347	Text_5	User	Thanks !
-348	Text_5	Clerk	Thank you , have a good evening !
-349	Text_6	Clerk	Hi , you 've reached Dominos . How can I help you ?
-350	Text_6	User	Hi ! Can you deliver to <address> 5803 Green Parkway NE </address> ?
-351	Text_6	Clerk	Sorry , due to the snow conditions our drivers are n't able to make it to that address . It looks like there are four locations available for <modality> pickup </modality> near that address . Would you like to hear the options ?
-352	Text_6	User	Okay ! Let 's do the 50th street one ?
-353	Text_6	Clerk	Great ! What would you like to order ?
-354	Text_6	User	A <size> large </size> <pizza_type> supreme </pizza_type> pizza , a <size> large </size> <pizza_type> veggie </pizza_type> , and that 's all !
-355	Text_6	Clerk	Fantastic . The <size> large </size> <pizza_type> supreme </pizza_type> and <size> large </size> <pizza_type> veggie </pizza_type> pizzas will come to $ 20.56 . Can I have your name and card information ?
-356	Text_6	User	Yes . It 's Jane Grant , number is <numeric> 4567 </numeric> , expiration <numeric> 04/56 </numeric> , code <numeric> 456 </numeric> , and the zip code on that is <numeric> 04567 </numeric>
-357	Text_6	Clerk	Alright , the $ 20.56 will be charged to your 4567 card . We should have that ready for <modality> pickup </modality> in about <time> 20 minutes </time> .
-358	Text_6	Clerk	Thank you for ordering with Dominoes . Have a great day !
-359	Text_6	User	Great ! You too , bye .
-360	Text_7	User	ring ring
-361	Text_7	Clerk	Hi , this is Domino 's ! What can I get for you today ?
-362	Text_7	User	I 'd like a <size> small </size> <pizza_type> half cheese </pizza_type> half green pepper pizza please , nothing else
-363	Text_7	Clerk	Okay ! Is that for <modality> pickup </modality> or delivery ?
-364	Text_7	User	<modality> pickup </modality> ! my card information is <numeric> 3334 , 11/12 , 555 </numeric> , and my name is <name> Jimmy Doe </name>
-365	Text_7	Clerk	Great ! That 'll be 5.78 , I 'll charge that to 3334 , expiring <numeric> 11/12 </numeric> , code <numeric> 555 </numeric> . We 'll have that ready for you in <time> 20 minutes </time> , Jimmy !
-366	Text_7	User	Thanks ! Bye
-367	Text_7	Clerk	Bye !
-368	Text_8	Clerk	Hi this is Dominos , Anna speaking . How can I help you today ?
-369	Text_8	User	Hi Anna ! Can I get a <size> large </size> <pizza_type> Hawaiian </pizza_type> ? And some breadsticks ?
-370	Text_8	Clerk	Yes you can ! Would you like to add a drink ?
-371	Text_8	User	Yes please ! A coke ?
-372	Text_8	Clerk	No problem . Would you like to add a dessert option ? We 're offering a <size> large </size> order our fudgy lava brownies for only $ 2.00 extra as our winter special .
-373	Text_8	User	Absolutely , yes please !
-374	Text_8	Clerk	Fantastic ! That large Hawaiian , breadsticks , coke , and fudgy lava brownies will all come to $ 18.04 . Is this for <modality> pickup </modality> or delivery ?
-375	Text_8	User	For delivery !
-376	Text_8	Clerk	That will add a $ <quant> 5 </quant> <modality> delivery </modality> charge , making your total $ 23.04 . Could I have your delivery address and card information ?
-377	Text_8	User	Okay , yes ! <address> 200 8th Street SW </address> , the name 's John Gates .
-378	Text_8	User	The card number is <numeric> 8923 </numeric> , expiration <numeric> 10/24 </numeric>
-379	Text_8	Clerk	Alright , we 'll charge the $ 23.04 to the 8923 card . We should have your order to you in about <time> 30 minutes </time> . Have a great rest of your night and thank you for choosing Dominos !
-380	Text_8	User	Thanks !
-381	Text_9	User	ring ring
-382	Text_9	Clerk	Hello , Domino 's !
-383	Text_9	User	Hi , is it possible to just get <quant> 3 </quant> orders of your breadsticks and a drink ?
-384	Text_9	Clerk	Totally !
-385	Text_9	User	awesome , can I have that and some of the <side> garlic sauce dip </side> ?
-386	Text_9	Clerk	Yep ! That 'll be <numeric> 7.65 </numeric>
-387	Text_9	User	Thanks , and that 'll be for <modality> pickup </modality>
-388	Text_9	User	under John greene
-389	Text_9	Clerk	3 orders of breadsticks with garlic dip and a drink , for John Greene !
-390	Text_9	User	Thanks , can I make that drink a sprite ?
-391	Text_9	Clerk	3 orders of breadsticks with garlic dip and a sprite ! What size ?
-392	Text_9	User	Large
-393	Text_9	Clerk	Gotcha ! <numeric> 7.85 </numeric>
-394	Text_9	User	Cool . My card is <numeric> 5555 </numeric> , expiration date <numeric> 33/44 </numeric> , security code <numeric> 890 </numeric>
-395	Text_9	Clerk	I 'll charge that 7.85 to your card 5555 , expiring <numeric> 33/44 </numeric> , code <numeric> 890 </numeric> .
-396	Text_9	Clerk	3 orders of breadsticks with garlic dip and a <size> large </size> <pizza_type> sprite </pizza_type> for John Greene , ready in <time> 15 minutes </time> .
-397	Text_9	User	Thanks !
-398	Text_9	Clerk	Thank you ! Bye !
-399	Text_10	Clerk	Hi , this is Dominos . What would you like to order ?
-400	Text_10	User	Hi Dominos ! Can I get a pizza ?
-401	Text_10	Clerk	Of course , what size for the pizza ?
-402	Text_10	User	Large ! And extra <pizza_type> cheese </pizza_type>
-403	Text_10	Clerk	No problem . Would that be a <pizza_type> cheese </pizza_type> pizza with extra cheese , or would you like a different set of toppings ?
-404	Text_10	User	Oh , <topping> sausage </topping> please !
-405	Text_10	Clerk	Large sausage pizza with extra cheese . Would you like to add anything else to this pizza ?
-406	Text_10	User	Yes ! Spinach please ! Cheese , <topping> sausage </topping> , spinach .
-407	Text_10	Clerk	Alright , that makes it a <size> large </size> <pizza_type> 3-topping cheese sausage spinach </pizza_type> pizza with extra cheese . Would you like to add a drink ?
-408	Text_10	User	No thanks !
-409	Text_10	User	Actually yeah a <size> small </size> <beverage> sprite </beverage>
-410	Text_10	Clerk	No problem , I 'll add that small sprite to your order .
-411	Text_10	Clerk	Will that be all for you today ?
-412	Text_10	User	Yep
-413	Text_10	Clerk	Great , will this be for <modality> pickup </modality> or delivery ?
-414	Text_10	User	Delivery please ! <address> 433 15th Avenue </address>
-415	Text_10	Clerk	That brings your total to $ 13.33 for the <size> large </size> <pizza_type> cheese sausage spinach </pizza_type> pizza and a <size> small </size> <pizza_type> sprite </pizza_type> . Can I have your name and card information ?
-416	Text_10	User	Yeah !
-417	Text_10	User	Jane Lawrence , the card is <numeric> 8009 </numeric>
-418	Text_10	Clerk	Thanks , Jane . What are the security code and expiration date for that card ?
-419	Text_10	User	789 and <quant> 07/89 </quant>
-420	Text_10	Clerk	Thank you , we 'll charge that $ 13.33 to the 8009 card for your pizza and drink delivered to <address> 433 15th avenue . Estimated delivery time is 15 minutes </address>
-421	Text_10	User	Amazing thank you !
-422	Text_10	Clerk	Enjoy your day , Jane ! Goodbye
-423	Text_10	User	Bye !
-424	Text_11	User	Hi ! I 'd like a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza and a <size> small </size> <pizza_type> cheese </pizza_type>
-425	Text_11	User	For pickup . Name is <name> David Green </name>
-426	Text_11	Clerk	Alright David , will that be all for you today ?
-427	Text_11	User	Yes , that 's all . My card is <numeric> 2363 </numeric> , code <numeric> 425 </numeric>
-428	Text_11	User	Expiration <numeric> 10/10 </numeric>
-429	Text_11	Clerk	Great , thank you . We 'll be charging a total of $ 14.22 to your card number 2363 . The <size> large </size> <pizza_type> pepperoni </pizza_type> and <size> small </size> <pizza_type> cheese </pizza_type> pizzas should be out to you quickly , about <time> 15 minutes </time>
-430	Text_11	User	Thank you , goodbye !
-431	Text_11	User	ring ring
-432	Text_12	Clerk	Hi ! Domino 's , how can I help you ?
-433	Text_12	User	Hi ! Could I order for <modality> delivery </modality> to <address> 567 12 Street North </address> ?
-434	Text_12	Clerk	Of course , and what would you like to order ?
-435	Text_12	User	<quant> Two </quant> <size> large </size> pizzas , can I get one with <topping> spinach </topping> and tomatoes and one with <topping> sausage </topping> ?
-436	Text_12	Clerk	We can do that -- that should come to $ 18.38 for the pair . Can I get you anything else ?
-437	Text_12	User	A large Coke , please !
-438	Text_12	Clerk	I 'll add that on ! That brings the total to $ 20.64 . Delivery should take about <time> 20 minutes </time>
-439	Text_12	User	Great !
-440	Text_12	Clerk	Can I have your card information ?
-441	Text_12	User	Sure , it 's Jonah Johnson , <numeric> 2222 </numeric>
-442	Text_12	User	Expiration date is <numeric> 05/54 </numeric> and the code is <numeric> 123 </numeric>
-443	Text_12	Clerk	Fantastic , the <numeric> two </numeric> pizzas and a drink will be charged to your card . We 'll have your order out to you soon ! Have a great day Jonah
-444	Text_12	User	Thank you , you too !
-445	Text_12	User	ring ring
-446	Text_13	Clerk	Good Evening , this is Julie at Domino 's . What can I get for you ?
-447	Text_13	User	Hi Julie ! I 'd like to place an order for <modality> pickup </modality> ?
-448	Text_13	Clerk	No problem , what would you like to order ?
-449	Text_13	User	Could I get a <size> medium </size> pizza with <quant> no </quant> <topping_type> cheese </topping_type> , only sauce and <topping> spinach </topping> ?
-450	Text_13	Clerk	Of course , can I have a name for the order ?
-451	Text_13	User	Yes , it 's <name> Jennifer Florence </name>
-452	Text_13	Clerk	Ok Jennifer , the medium pizza , no <topping> cheese </topping> , only sauce and <topping> spinach </topping> will come to $ 8.44 . Will that be all for you today ?
-453	Text_13	User	What sides do you have ?
-454	Text_13	Clerk	We offer wings , brownies , or <side> bread sticks </side>
-455	Text_13	User	I 'd love some <side> bread sticks </side> please !
-456	Text_13	Clerk	I 'll add that , and that makes the total $ 10.02 . We can have this ready for you in about <time> 20 minutes </time> . Could I get your card information for the order ?
-457	Text_13	User	Yes , it 's <numeric> 5667 </numeric> , code <numeric> 142 </numeric> , expires <numeric> 12/12 </numeric>
-458	Text_13	Clerk	Fantastic , just put that in the system and the $ 10.02 will be charged to that card . You 're all set !
-459	Text_13	User	Thank you !
-460	Text_13	Clerk	No problem , have a good one !
-461	Text_13	User	You too !
-462	Text_14	User	ring ring
-463	Text_14	Clerk	Hi , Domino 's , what can I get for you today ?
-464	Text_14	User	Hi , I 'd like a <size> large </size> <pizza_type> meat lovers </pizza_type> , <size> large </size> <pizza_type> cheese </pizza_type> , large Hawaiian , and <size> large </size> <pizza_type> veggie </pizza_type> please !
-465	Text_14	Clerk	That 'll come to $ 40.53 , anything else ?
-466	Text_14	User	A two liter coke and sprite ?
-467	Text_14	Clerk	That brings it up to $ 43.88 . Is this for <modality> pickup </modality> or delivery ?
-468	Text_14	User	For delivery , to <address> 132 4th Ave suite 67 </address>
-469	Text_14	Clerk	And that delivery fee brings it up to $ 48.48 . I just need your card info and full name
-470	Text_14	User	The card is <numeric> 2014 </numeric> , the code is <numeric> 142 </numeric> , and the expiration is <numeric> 12/47 </numeric> !
-471	Text_14	User	And the full name is <name> Lena Horne </name>
-472	Text_14	Clerk	Ok Lena , we 'll have those four pizzas and <quant> two </quant> 2-liter drinks out to you in about <numeric> 45 </numeric> minutes . Enjoy your pizza and have a nice day !
-473	Text_14	User	Thank you !
-474	Text_15	Clerk	Hi this is Domino 's on 75th ! How may I help you ?
-475	Text_15	User	Hi , I need to order a couple of <size> medium </size> <pizza_type> pepperoni </pizza_type> pizzas
-476	Text_15	Clerk	Okay ! For pickup or delivery ?
-477	Text_15	User	<modality> pickup </modality> ! I want <quant> 3 </quant> pizzas actually , no drinks or anything else
-478	Text_15	Clerk	Okay , <quant> three </quant> <size> medium </size> <pizza_type> pepperoni </pizza_type> pizzas ?
-479	Text_15	User	yes please
-480	Text_15	Clerk	Alright , that 'll be 14.50 ! Can I get your card ?
-481	Text_15	User	Sorry say that again ?
-482	Text_15	Clerk	That 'll be $ 14.50 , can I get a credit card for the order ?
-483	Text_15	User	I 'm sorry there 's like static over your voice , let me try moving to another room
-484	Text_15	User	ok , say that again
-485	Text_15	Clerk	No worries ! The order comes to $ 14.50 , could I get your credit card information for the order ?
-486	Text_15	User	I 'm sorry , I 'm gon na try calling you back , it still sounds like static
-487	Text_15	User	I 'll call right back
-488	Text_15	Clerk	Okay ! I 'm sorry you
-489	Text_15	Clerk	're having trouble go ahead and call back when you 're ready !
-490	Text_16	User	ring ring
-491	Text_16	Clerk	Hi , Domino 's on 75th !
-492	Text_16	User	Hi , I just called about <quant> three </quant> <size> medium </size> pizzas ?
-493	Text_16	Clerk	Yes ! <quant> Three </quant> <size> medium </size> <pizza_type> pepperoni </pizza_type> pizzas for <modality> pickup </modality> ?
-494	Text_16	User	Yes ! That 's my order
-495	Text_16	Clerk	Great ! That 'll be $ 14.50 , can I get a credit card for the order ?
-496	Text_16	User	Yup , the number is <numeric> 5667 </numeric> , and the security code is <numeric> 124 </numeric>
-497	Text_16	User	expiration is <numeric> 11/34 </numeric>
-498	Text_16	Clerk	5667 , with security code <numeric> 124 </numeric> and expiration 11/34 . And can I get the name on the card ?
-499	Text_16	User	Yes , Angela
-500	Text_16	Clerk	Okay Angela ! We 'll have your pizzas ready for <modality> pickup </modality> in about <time> 20 minutes </time> !
-501	Text_16	User	Thanks ! Have a good one
-502	Text_16	Clerk	You too !
-503	Text_17	User	ring ring
-504	Text_17	Clerk	Hello , Dominos on <numeric> 8th </numeric> , how can I help you ?
-505	Text_17	User	Hi ! I 'd like to order some pizza for <modality> delivery </modality> ?
-506	Text_17	Clerk	We can do that , what pizza would you like ?
-507	Text_17	User	A small Hawaiian pizza and a <size> large </size> <pizza_type> supreme </pizza_type> , please .
-508	Text_17	Clerk	Great , I 'll get that started for you
-509	Text_17	User	Great !
-510	Text_17	Clerk	Um give me one second , I 'm having a little trouble with the system here
-511	Text_17	User	Sure
-512	Text_17	Clerk	Looks like it 's <name> frozen </name>
-513	Text_17	User	Oh no !
-514	Text_17	Clerk	Ok , I 'm gon na have to put you on a brief hold if you do n't mind , seems like I need to reboot the system and it 'll take a few minutes .
-515	Text_17	User	Sure , okay
-516	Text_17	Clerk	ok , thank you for waiting . I did lose your order though , could you repeat it again for me ?
-517	Text_17	User	Yes ! A small Hawaiian pizza and a <size> large </size> <pizza_type> supreme </pizza_type> ?
-518	Text_17	Clerk	Thank you , and sorry again for the wait . Will that be all for you today ?
-519	Text_17	User	Yes , that 's all .
-520	Text_17	Clerk	Awesome , the small Hawaiian and the Large supreme will come to $ 16.33 , could I have your card information ?
-521	Text_17	User	Sure , it 's <numeric> 7890 </numeric> , security code <numeric> 123 </numeric> , expiration <numeric> 12/34 </numeric> . And the name on it is <name> Janet Gold </name>
-522	Text_17	Clerk	Thanks Janet , and will this be for <modality> delivery </modality> or pickup ?
-523	Text_17	User	Delivery please ! <address> 845 12th Street </address> , apartment C .
-524	Text_17	Clerk	ok , that 'll be an extra charge and will bring it up to $ <numeric> 20.44 </numeric>
-525	Text_17	User	That 's fine . How long will it take ?
-526	Text_17	Clerk	Should be about 30 to 40 minutes from now
-527	Text_17	User	Okay , thanks !
-528	Text_17	Clerk	Great , we 'll charge the $ 20.44 to your 7890 card and have your pizza to you soon ! Thanks Janet , have a great day .
-529	Text_17	User	Thanks , you too !
-530	Text_18	User	ring ring
-531	Text_18	Clerk	Hi , this is Domino 's Pizza in Bellevue ! How can I help you today ?
-532	Text_18	User	Hi ! I want a <size> small </size> <pizza_type> two topping </pizza_type> pizza -- <topping> pepperoni </topping> and <topping> sausage </topping> -- and a <size> medium </size> dr pepper if you have it
-533	Text_18	Clerk	Great ! Small <pizza_type> pepperoni </pizza_type> and <topping> sausage </topping> and a <size> medium </size> Dr. Pepper . Is this for <modality> pickup </modality> or delivery ?
-534	Text_18	User	Delivery to <address> 31 5th St NE please </address>
-535	Text_18	Clerk	Okay ! With the <modality> delivery </modality> fee that comes to 12.31 . Could I get a credit card for the order ?
-536	Text_18	User	Yeah , it 's <numeric> 7777 </numeric> with expiration date <numeric> 44/34 </numeric> and code <numeric> 999 </numeric> , billing is <numeric> 56789 </numeric>
-537	Text_18	User	My name is <name> Yara Grey </name>
-538	Text_18	Clerk	Okay , <numeric> 7777 expiring 44/34 </numeric> , code <numeric> 999 </numeric> , zip 56789 for Yara Grey .
-539	Text_18	Clerk	It 's not going through , can I verify the number again for you ?
-540	Text_18	Clerk	7777 ?
-541	Text_18	User	yeah , that 's correct
-542	Text_18	Clerk	Expiration 44/34 ?
-543	Text_18	User	oh , sorry it 's <numeric> 44/33 </numeric>
-544	Text_18	Clerk	Okay , got it !
-545	Text_18	Clerk	You 're all set !
-546	Text_18	User	awesome , how long until it 's ready ?
-547	Text_18	Clerk	We 'll have that <size> small </size> <pizza_type> pepperoni </pizza_type> and <topping> sausage </topping> and your Dr. Pepper to you at <address> 31 5th St NE in 25 minutes </address> .
-548	Text_18	User	great , thanks so much
-549	Text_18	Clerk	Thank you , have a good one !
-550	Text_18	User	you too ! bye
-551	Text_19	User	ring ring
-552	Text_19	Clerk	Hi , Dominos !
-553	Text_19	User	Hi , this is Angela , I called just now about some <pizza_type> pepperoni </pizza_type> pizzas for <modality> pickup </modality> ?
-554	Text_19	Clerk	Hi Angela , how can I help you with that order ?
-555	Text_19	User	Would it be possible to change that to <modality> delivery </modality> ? I do n't think I 'll be able to get over there to <modality> pick up </modality> .
-556	Text_19	Clerk	Alright , I 'll see what I can do about that . Can I have the last few digits of the card used for the order to verify ?
-557	Text_19	User	Yes , it 's <numeric> 5667 </numeric> ?
-558	Text_19	Clerk	Great , I found <quant> three </quant> <size> medium </size> <pizza_type> pepperoni </pizza_type> pizzas for Angela from card number <numeric> 5667 </numeric>
-559	Text_19	Clerk	Is that correct ?
-560	Text_19	User	Yes , that 's correct !
-561	Text_19	Clerk	What address do you want that delivered to ?
-562	Text_19	User	31 5th Street Northeast , please !
-563	Text_19	Clerk	No problem , that 's going to add a <modality> delivery </modality> fee and bring the total up to $ 20 , which will be charged to the 5667 card
-564	Text_19	User	Okay ! Thank you ! How long will it take to get here ?
-565	Text_19	Clerk	Looks like it 's gon na be about <time> 30 minutes </time>
-566	Text_19	User	Okay ! Thanks so much !
-567	Text_19	Clerk	No problem ! Have a good night
-568	Text_19	User	You too !
+Conversation	Speaker	Transcript
+Spoken_1	Clerk	Hello , this is Domino.s . Xena speaking
+Spoken_1	User	Hey um can I get a <size> large </size> pizza , no <topping> cheese </topping> , diced tomatoes , and <topping> spinach </topping> ?
+Spoken_1	Clerk	Alright , and would you like any sides with that ?
+Spoken_1	User	Oh um . no
+Spoken_1	Clerk	Okay , any drink ?
+Spoken_1	User	Yeah , yeah , um can I get a ... d-do you have the 2-liter bottles ?
+Spoken_1	Clerk	Oh we.re actually out of those today . We only have our fountain we can give you guys
+Spoken_1	User	Okay okay um ... let me do a <size> medium </size> <beverage> coke </beverage>
+Spoken_1	Clerk	Alright medium coke and then to repeat your pizza order , you want a <size> large </size> pizza with <quant> no </quant> <topping> cheese </topping> , diced tomato , and kale ?
+Spoken_1	User	Spinach
+Spoken_1	Clerk	Spinach instead of kale , ok
+Spoken_1	User	You know what if you have <topping> kale </topping> we can do both
+Spoken_1	Clerk	Alright let me double check and make sure ... alright , it looks like we do have kale so you.ll get a <size> large </size> pizza with <quant> no </quant> <topping> cheese </topping> , diced tomatoes , spinach , and kale and then a <size> medium </size> <beverage> coke </beverage> for your drink
+Spoken_1	User	Amazing , perfect
+Spoken_1	Clerk	Alright , that will come to $ <numeric> 20.07 </numeric>
+Spoken_1	User	Perfect , let me give you my card ... um that.s gon na be -- the number is um <numeric> 1024 </numeric>
+Spoken_1	Clerk	Mhm
+Spoken_1	User	Um and the code is <numeric> 782 </numeric> ... the expiration is <numeric> 12/89 </numeric>
+Spoken_1	Clerk	And what.s your name ?
+Spoken_1	User	John Doe
+Spoken_1	Clerk	Alright John , just to repeat -- your card number is <numeric> 1024 </numeric> , your code is <numeric> 782 </numeric> , expiration is <numeric> 12/89 </numeric> , right , and is there anything else I can get for you today ?
+Spoken_1	User	That is it , thank you
+Spoken_1	Clerk	Alright and what address are we delivering this to ?
+Spoken_1	User	Oh , um
+Spoken_1	Clerk	Or are you coming in for <modality> pickup </modality> ?
+Spoken_1	User	I.ll come in for <modality> pickup </modality>
+Spoken_1	Clerk	Alright , so it should be ready in <time> 20 to 30 minutes </time>
+Spoken_1	User	Okay great , thank you
+Spoken_1	Clerk	Alright ! You have a great day , thanks for calling Domino.s , have a great day .
+Spoken_1	User	You too .
+Spoken_2	Clerk	Hey um this is Papa John.s , uh , what can I get for ya
+Spoken_2	User	Hi I would- want to order a pizza , uh actually <quant> three </quant> pizzas , ummm
+Spoken_2	Clerk	Okay
+Spoken_2	User	I think I want , uh , how- what size pizza should I get if I wan na get <quant> three </quant> pizzas for like , ten people ? What do you think ?
+Spoken_2	Clerk	Okay
+Spoken_2	User	Three larges ?
+Spoken_2	Clerk	Ten people , <quant> three </quant> pizzas . How hungry are y.all ?
+Spoken_2	User	Um , we.re pretty hungry.so . I don.t know .
+Spoken_2	Clerk	Okay , go- go for the large ! Go for the large . Yeah , let.s do that . Okay , so , <quant> three </quant> <size> large </size> pizzas , what do you want on .em ?
+Spoken_2	User	Ummmm hang on let me ask . Okay I think . we want cheese , a <pizza_type> cheese </pizza_type> pizza , and a uh half <pizza_type> pepperoni </pizza_type> half mushroom ?
+Spoken_2	Clerk	Okay
+Spoken_2	User	Sorry half <pizza_type> pepperoni </pizza_type> half <topping> sausage </topping>
+Spoken_2	Clerk	okay pepper- <pizza_type> pepperoni </pizza_type> on one half <topping> sausage </topping> on the other
+Spoken_2	User	Yeah for the second pizza and then . uh a mushroom and uh spinach ? And feta ? Do you have that ?
+Spoken_2	Clerk	I think so um . yes , yeah we have feta . Okay mushroom , feta ,
+Spoken_2	User	And spinach
+Spoken_2	Clerk	And spinach . Gotcha , okay .
+Spoken_2	User	Awesome
+Spoken_2	Clerk	Great
+Spoken_2	User	Um
+Spoken_2	Clerk	Um
+Spoken_2	User	So for the <pizza_type> cheese </pizza_type> pizza , um , can you do extra cheese like a lot of extra cheese ?
+Spoken_2	Clerk	Yes . Okay extra we can do extra do you want like just normal cheese , do you want the the <pizza_type> four cheese </pizza_type> uh
+Spoken_2	User	Four cheese , <pizza_type> four cheese </pizza_type>
+Spoken_2	Clerk	Ok great so <pizza_type> four cheese </pizza_type> , heavy on the <pizza_type> cheese </pizza_type> ,
+Spoken_2	User	Yeah
+Spoken_2	Clerk	Great
+Spoken_2	User	Do you guys also have , um brownies ? They.re asking for brownies .
+Spoken_2	User	Ummm might as well go <size> large </size>
+Spoken_2	Clerk	Okay , great . Um , anything else , any drinks ?
+Spoken_2	User	Can I get uh , Dr. Pepper . and . a Sprite
+Spoken_2	Clerk	Yeah , and what size do you want on those ?
+Spoken_2	User	The two-liter bottles ? Do you have them ?
+Spoken_2	Clerk	Yes , you bet . Okay .
+Spoken_2	User	Do you give , um , cups and napkins , too ?
+Spoken_2	Clerk	Yeah , yeah I can do that . Um , yeah , that.ll be . we can give you , for <quant> 50 </quant> cents , we can give you , um , all of the spare cups you need .
+Spoken_2	User	Okay , think we.re gon na need . ten should be good if you have like a set of ten
+Spoken_2	Clerk	Yeah
+Spoken_2	User	And then a bunch of napkins
+Spoken_2	Clerk	tons of napkins gotcha
+Spoken_2	User	and do you also have those little packets with the uh Italian herb
+Spoken_2	Clerk	Yeah ! We , we put those in every order . Yeah , you.re good .
+Spoken_2	User	Okay thank you . Alright , um , think that.s it
+Spoken_2	Clerk	Cool so that.s a <size> large </size> <pizza_type> four cheese </pizza_type> pizza extra cheese , um a <size> large </size> <pizza_type> pizza pepperoni </pizza_type> on one half <topping> sausage </topping> on the other half . A large pizza with <topping> mushrooms </topping> , spinach , and feta a <size> large </size> <address> brown thaties two liter Dr. Pepper two liter sprite </address> and , uh , that is , does that sound correct ?
+Spoken_2	User	Uh , also cups and napkins
+Spoken_2	User	Yes . So , card number is <address> zero zero zero two , </address>
+Spoken_2	Clerk	Okay
+Spoken_2	User	And then expiration date is <numeric> zero one one three </numeric>
+Spoken_2	Clerk	All right
+Spoken_2	User	And the name for it is . Melanie
+Spoken_2	Clerk	Okay and can I get the billing zip code on that ?
+Spoken_2	User	Oh , billing zip code .
+Spoken_2	Clerk	Is it the same as delivery ?
+Spoken_2	User	Yeah
+Spoken_2	Clerk	Great
+Spoken_2	User	<numeric> 33123 </numeric>
+Spoken_2	Clerk	Okay so that.s card number zero <numeric> zero zero two </numeric> , expiration <numeric> zero one </numeric> thirteen , uh , card name is Melanie and the billing zip code is <numeric> 33123 </numeric>
+Spoken_2	User	Yes yeah that.s right
+Spoken_2	Clerk	Great . Okay ! Uh ,
+Spoken_2	User	Do you know how long that should take ?
+Spoken_2	Clerk	Yeah so um , it , I think that.s going to take , we.re going to get it ready for you in about twenty minutes and it.ll take another twenty minutes for us to get that out to you , and you can follow along on our online tracking system .
+Spoken_2	User	Oh cool okay
+Spoken_2	Clerk	So can I get an email to send the information to you ?
+Spoken_2	User	Um , it.s m e l a n i e e e at email dot com .
+Spoken_2	Clerk	Great . M e l a n i e e e at email dot com ?
+Spoken_2	User	Yep
+Spoken_2	Clerk	Cool , So you will be getting your <size> large </size> <pizza_type> four cheese large pepperoni sausage large mushroom </pizza_type> feta spinach large brownies , Dr. Pepper , Sprite , cups , napkins to <address> 1200 Crystal Ave Seattle </address> in forty minutes !
+Spoken_2	User	Ok awesome thank you
+Spoken_2	Clerk	Great thank you
+Spoken_3	Clerk	Hi this is Domino.s , what can I get you today ?
+Spoken_3	User	Hi , do you -- can I -- can I get a <size> small </size> pizza , just cheese . And is your sauce like a flavorful -- do you have like a spicy sauce and a super plain sauce like just tomato
+Spoken_3	Clerk	We only have our signature tomato sauce
+Spoken_3	User	Ok , um , if you could just um ... let.s do that cheese but if you put on any other herbs or spices , like if there.s like a parsley sprinkle or anything , I need you to leave it off -- just as plain as possible
+Spoken_3	Clerk	Um , we can do that , we can do that
+Spoken_3	User	Great , thank you
+Spoken_3	Clerk	Alright ! Um , do you want a drink ? Or any sides ?
+Spoken_3	User	[ aside ] Hey , do you want ... do you wan na get a lemonade , do you want milk -- [ phone ] Do you have milk ?
+Spoken_3	Clerk	Milk ? Um , sorry , we don.t serve milk
+Spoken_3	User	[ aside ] Ok ... ok ... no you can.t have , no [ phone ] Let.s do -- let.s do a <size> small </size> <beverage> lemonade </beverage>
+Spoken_3	Clerk	Small lemonade ... fountain drink ?
+Spoken_3	User	Yes
+Spoken_3	Clerk	Alright ! Any sides for you today ?
+Spoken_3	User	No um can I - can I also get , um , a <size> medium </size> <pizza_type> hawaiian </pizza_type> pizza ?
+Spoken_3	Clerk	Um actually sorry ma.am we.re out of our pineapples today so we won.t be able to --
+Spoken_3	User	Oh
+Spoken_3	Clerk	-- make the <size> Hawaiian </size>
+Spoken_3	User	Ok , um ... oh god , ok
+Spoken_3	Clerk	Um , can I interest you in our experimental mandarin ?
+Spoken_3	User	Sure , sure let.s do that
+Spoken_3	Clerk	So it.s just like a Hawaiian , but it has mandarin oranges instead
+Spoken_3	User	Perfect . Perfect , let.s do it
+Spoken_3	Clerk	Alright anything else I can get for you today ma.am ?
+Spoken_3	User	I think that.s it , alright , yeah
+Spoken_3	Clerk	Ok ! So is this for <modality> pickup </modality> or delivery ?
+Spoken_3	User	Delivery
+Spoken_3	Clerk	And can I get the <modality> delivery </modality> address ?
+Spoken_3	User	Yeah um <address> it.s 321 6th avenue northeast </address> , um , Seattle , Washington , <numeric> 00000 </numeric>
+Spoken_3	Clerk	Alright , so just to repeat your order that.ll be a <size> small </size> <pizza_type> um extra plain cheese </pizza_type> pizza with absolutely no herbs or spices added in
+Spoken_3	User	Yes
+Spoken_3	Clerk	a <size> small </size> fountain drink -- Lemonade
+Spoken_3	User	Yes
+Spoken_3	Clerk	And a <size> medium </size> , uh , Mandarin
+Spoken_3	User	Absolutely
+Spoken_3	Clerk	Alright , can I get your card information ?
+Spoken_3	User	Yeah , hang on . Ok , so number is <numeric> 5600 </numeric> . Um , expiration date <numeric> 00/12 </numeric> , um and the code on that is <numeric> 123 </numeric>
+Spoken_3	Clerk	Alright ... uh , can I get your name ?
+Spoken_3	User	Yeah , um , it.s uh , Jonathan Ives
+Spoken_3	Clerk	Okay , Jonathan Ives ... I have your card information as number 5600 , expiration date is <numeric> 00/12 </numeric> , uh , security code <numeric> 123 </numeric> and Johnathan Ives , alright , so , is there anything else that I can do for you today ?
+Spoken_3	User	Just get the pizza to me quickly , that.s all I ask of you
+Spoken_3	Clerk	Alright , we.ll have it to you in about <time> 20 minutes </time> or so
+Spoken_3	User	Great . Okay , great .
+Spoken_3	Clerk	Right , you have a great rest of your day
+Spoken_3	User	You too
+Spoken_4	Clerk	Hello ! Hi ! This is Domino.s pizza what can I get for ya ?
+Spoken_4	User	Hi I just wanted to know what sides you have
+Spoken_4	Clerk	Yeah ! ok so we.ve got the small , and that.s gon na be ten inches , great if you are two people or one hungry person
+Spoken_4	User	Oh no , sorry , I want , um , sides , like not of pizza , I wan na know what sides
+Spoken_4	Clerk	Sides . Sides ! Oh , you bet ! You bet ok we got our <side> garlic breadsticks </side> um you got the classic warm and melty brownies , um and seasonal we also have some cinnamon sticks going on
+Spoken_4	User	Uh so the bread sticks are they soft
+Spoken_4	Clerk	The bread sticks okay so they.re going to have a soft center but they have that good crisp on the outside
+Spoken_4	User	Do you have any pasta
+Spoken_4	Clerk	No , sorry , no pasta . I wish
+Spoken_4	User	Uh are you sure that you don.t have pasta cause I.m pretty sure that I.ve called a Domino.s before and they had pasta .
+Spoken_4	Clerk	Um , well our offerings can vary location to location . We.re actually trying out a pilot program um where some of our Domino.s are offering some extra offerings , but unfortunately this location we have not caught up to the times yet we are still on our basic pizza offerings
+Spoken_4	User	Okay . Well I.ll just get the <side> garlic bread I.ll </side> get <quant> two </quant> orders of that .
+Spoken_4	Clerk	Okay great !
+Spoken_4	User	And I.ll get that for <modality> pickup </modality> .
+Spoken_4	Clerk	Okay .
+Spoken_4	User	Uh , is this the location at <address> 123 Sunset </address> ?
+Spoken_4	Clerk	Yep , that.s us
+Spoken_4	User	Wanted to make sure . Two orders of <side> garlic bread </side> , um , my card information is , uh <numeric> 1234 </numeric>
+Spoken_4	Clerk	Uh huh
+Spoken_4	User	Uh my name is <name> Johnson </name>
+Spoken_4	Clerk	Okay .
+Spoken_4	User	And um uh my security code for that is <numeric> 000 </numeric> and the expiration is <numeric> 12/12 </numeric> .
+Spoken_4	Clerk	Alright , and a billing zip code on that ?
+Spoken_4	User	That.s gon na be 11234 .
+Spoken_4	Clerk	Great . So that.s 1234 is the card number for Johnson and security code <numeric> 000 </numeric> expiration 12/12 and zip code <numeric> 11234 </numeric> does that sound right ?
+Spoken_4	User	Yeah .
+Spoken_4	Clerk	Great .
+Spoken_4	User	Oh how long . um how long should it be before the <side> garlic bread </side> . do you have that ready .
+Spoken_4	Clerk	That.ll be ready for ya in ten minutes !
+Spoken_4	User	Okay . Order should be there in <time> ten minutes </time> I think , yeah .
+Spoken_4	Clerk	Okay cool , well we.ll see you in ten minutes !
+Spoken_4	User	Okay . Uh , alright bye .
+Spoken_4	Clerk	Great thanks .
+Spoken_5	Clerk	Hi , this is Domino.s ! Can I take your order ?
+Spoken_5	User	Hi ! Can I get a <size> large </size> <pizza_type> cheese </pizza_type> pizza , <size> large </size> <pizza_type> pepperoni </pizza_type> pizza , and <size> extra large </size> <pizza_type> supreme </pizza_type> pizza with <quant> no </quant> <topping> peppers </topping> on it
+Spoken_5	Clerk	Uh , what was that last one ?
+Spoken_5	User	Extra <size> large </size> <pizza_type> supreme </pizza_type> pizza , no <topping> peppers </topping>
+Spoken_5	Clerk	Okay , alright that.s a <size> large </size> <pizza_type> cheese </pizza_type> , <size> large </size> <pizza_type> pepperoni </pizza_type> , extra <size> large </size> <pizza_type> supreme </pizza_type> no peppers
+Spoken_5	User	Yes , and , uh we.ll get that for <modality> delivery </modality> , um , to <address> 84 48th street suite 12 </address> .
+Spoken_5	Clerk	Alright , that.s <address> 84 48th street suite 12 </address>
+Spoken_5	User	Yes and you.re gon na go up the stairs and down the left hallway and we.re the first on the right
+Spoken_5	Clerk	Alright . Okay , um can I get you any drinks , or sides to go with that order ?
+Spoken_5	User	No thank you
+Spoken_5	Clerk	Can I get your card information ?
+Spoken_5	User	Yes , the number is <numeric> 670 </numeric> , the expiration date <numeric> 12/12 </numeric> , card security code is <numeric> 567 </numeric> , zip code on that is <numeric> 19283 </numeric> , and the name on that is Jennifer
+Spoken_5	Clerk	Okay so that.ll be card number 670 , expiration date --
+Spoken_5	User	<numeric> 6780 </numeric>
+Spoken_5	Clerk	6780 and then expiration is <numeric> 12/12 </numeric>
+Spoken_5	User	Mhm
+Spoken_5	Clerk	Uh , code is <numeric> 567 </numeric> and zip code is <numeric> 19283 </numeric> for Jennifer ?
+Spoken_5	User	You bet !
+Spoken_5	Clerk	Alright , so we should have that to you about , uh , 30 minutes or so from now
+Spoken_5	User	Okay
+Spoken_5	Clerk	Okay , and that.ll come to about $ <numeric> 57 </numeric>
+Spoken_5	User	Perfect
+Spoken_5	Clerk	Alright we.ll get that to you soon , you have a great rest of your day
+Spoken_5	User	You too
+Spoken_6	Clerk	Hey hey this is Domino.s what can I get for ya
+Spoken_6	User	Hi so I have a milk allergy , um
+Spoken_6	Clerk	okay
+Spoken_6	User	Do you have pizza , uh , is your crust made with milk .cause I can.t have it cooked into anything either
+Spoken_6	Clerk	Right , okay , well first of all um , we do have a very milk heavy kitchen so I do wan na warn you that there is the risk of cross-contamination
+Spoken_6	User	Okay
+Spoken_6	Clerk	Is that alright with you ?
+Spoken_6	User	I guess I -- I guess that.s fine
+Spoken_6	Clerk	We can switch our gloves and all and , we.ll do as much as we can but again I , you know , it.s a lot of cheese , in the air
+Spoken_6	User	Yeah , well , I , it.s not a severe milk allergy
+Spoken_6	Clerk	Okay
+Spoken_6	User	Um , yeah
+Spoken_6	Clerk	Okay
+Spoken_6	User	If you can have a milkless crust ?
+Spoken_6	Clerk	Yes , so our thin crust is gon na be dairy-free
+Spoken_6	User	Alright . And then , um , what about <pizza_type> cheese </pizza_type> options
+Spoken_6	Clerk	Um , well , we have a mozzarella , we have a romano , we have a <pizza_type> four cheese </pizza_type> blend ?
+Spoken_6	User	Are all those cheeses , do they have dairy-free options ?
+Spoken_6	Clerk	No , sorry we don.t have any dairy free cheeses .
+Spoken_6	User	Oh it.s okay I.ll just get , um , can I get a custom pizza ? With --
+Spoken_6	Clerk	Yes
+Spoken_6	User	So can I get the <crust> thin </crust> crust and then just like a really thick layer of the tomato sauce ?
+Spoken_6	Clerk	Uh , you bet , we can do that
+Spoken_6	User	And then , like , all the vegetables you have
+Spoken_6	Clerk	All the vegetables , okay we got spinach , we got uh mushroom , we got red peppers , yellow peppers , banana peppers -- that all sound good ?
+Spoken_6	User	Um , I hate <topping> mushrooms </topping> , can you just-can you just do the red and yellow pepper ?
+Spoken_6	Clerk	Okay , yep !
+Spoken_6	User	Okay , um ... d-do you have uh , like , <side> garlic bread </side> ? Without milk
+Spoken_6	Clerk	No , sorry the <side> garlic bread </side> does have a butter on it
+Spoken_6	User	Can- Is it premade ? Or can you get , can you , um , not put the butter on it ?
+Spoken_6	Clerk	I would have to check if the bread itself has dairy in it . Uh --
+Spoken_6	User	You know what , it.s okay , nevermind . I.ll just --
+Spoken_6	Clerk	Okay
+Spoken_6	User	I.ll just get the pizza , sorry . I want that for , uh , pickup .
+Spoken_6	Clerk	Okay
+Spoken_6	User	So , my card information is <numeric> 000 </numeric> and expiration date <numeric> 07/11 </numeric> , and then name is <name> Avery </name>
+Spoken_6	Clerk	Okay
+Spoken_6	User	And , um , oh the-the zip code is <numeric> 11111 </numeric>
+Spoken_6	Clerk	Okay great Amy , so that.s can I --
+Spoken_6	User	Sorry- the name is <name> Avery </name>
+Spoken_6	Clerk	Avery ? Can you spell that for me ?
+Spoken_6	User	A v e r y
+Spoken_6	Clerk	A v e r y , Avery , ok so that card number is <numeric> 007 </numeric> , and expiration date <numeric> 07/10 </numeric> ,
+Spoken_6	User	Um , sorry , the card information is <numeric> 000 </numeric> And --
+Spoken_6	Clerk	Okay , <numeric> 000 </numeric>
+Spoken_6	User	And then the , uh , the expiration date is <numeric> 07/11 </numeric>
+Spoken_6	Clerk	07/11 , ok , gotcha and th zip code on that is <numeric> 11111 </numeric>
+Spoken_6	User	That.s right
+Spoken_6	Clerk	Great Alright , so that.ll be your -- oh what size of pizza do you want ? So , you.re getting a thin-
+Spoken_6	User	Oh
+Spoken_6	Clerk	-crust , um , in the <crust> thin </crust> crust we don.t have a <size> small </size> available for the thin but we do have a <size> medium </size> and <size> large </size>
+Spoken_6	User	I.ll take a <size> medium </size>
+Spoken_6	Clerk	Medium , okay , so <size> medium </size> <crust> thin </crust> crust pizza , lots of tomato sauce , and <topping> red peppers </topping> on that
+Spoken_6	User	Yeah . Oh , sorry , can I also get the <topping> yellow pepper </topping>
+Spoken_6	Clerk	Uh-huh ... you bet , alright and that.ll be for <modality> pickup </modality> and that.s gon na be ... um.8 dollars and 47 cents charged to that 000 card and -- is that alright ?
+Spoken_6	User	Yeah that.s fine
+Spoken_6	Clerk	Okay . And that.ll be ready for <modality> pickup </modality> for you in <time> 20 minutes </time> .
+Spoken_6	User	Alright , I.ll be there in <time> 20 minutes </time>
+Spoken_6	Clerk	Alright , bye Amy have a nice day
+Spoken_6	User	Bye
+Text_1	Clerk	Hi , this is JoAnne at Domino 's ! How can I help you today ?
+Text_1	User	Hi , I wanted to order a <size> small </size> <pizza_type> pepperoni </pizza_type> and a <size> large </size> <beverage> fountain drink </beverage>
+Text_1	Clerk	Okay ! And is that <size> small </size> <pizza_type> pepperoni </pizza_type> on <crust> thin </crust> or thick crust ?
+Text_1	User	thick crust please
+Text_1	Clerk	You bet ! Small thick crust <pizza_type> pepperoni </pizza_type> . Is this for <modality> pickup </modality> or delivery ?
+Text_1	User	Pickup , but can I schedule it for an hour from now ?
+Text_1	Clerk	Yes , we can do that ! Would you like us to prepare the fountain drink for you or would you just like the cup to fill yourself when you get here ?
+Text_1	User	You can go ahead and fill it now , I do n't want any ice . Do you have Coke or Sprite ?
+Text_1	Clerk	We have Pepsi or Sierra Mist ?
+Text_1	User	I 'll take the Sierra Mist
+Text_1	Clerk	Great , we 'll have that <size> small </size> <pizza_type> pepperoni </pizza_type> and <size> large </size> Sierra Mist ready for you at 4 pm for $ 7.47 . Can I get a name for the order ?
+Text_1	User	My name is <name> Ann </name>
+Text_1	Clerk	Alright Ann ! Can I get your credit card for the order ?
+Text_1	User	CC number is <numeric> 7899 </numeric> , code is <numeric> 322 </numeric> and expiration date is <numeric> 8832 </numeric>
+Text_1	User	Same name and zip code is <numeric> 56789 </numeric>
+Text_1	Clerk	Great ! I 'll charge that $ 7.47 to your card 7899 .
+Text_1	Clerk	We 'll have that order ready for you at 4 pm , Ann ! See you soon and take care .
+Text_1	User	Thanks !
+Text_2	Clerk	Hi ! This is Jake from Dominoes ! What can I do for you today ?
+Text_2	User	Hey Jake ! <quant> 14 </quant> <size> inch </size> Hawaiian please !
+Text_2	Clerk	No problem . Would you like any sides or a drink to go with that ?
+Text_2	User	Just the 'za !
+Text_2	Clerk	Alright , that 'll come to $ 15.64 . Can I get your name and card information ?
+Text_2	User	Aw man , did you raise your prices ?
+Text_2	Clerk	Yes , we recently restructured our menu options and the Hawaiian is now a premium pizza option .
+Text_2	User	Gotcha ! Well , I will feel extra fancy tonight eating my premium pizza .
+Text_2	User	It 's Jack Johnson , 1564 , expires <numeric> 01/21 </numeric> , and the code on that is <numeric> 678 </numeric> ! Zip code <numeric> 07070 </numeric> .
+Text_2	Clerk	Fantastic ! Is this for <modality> pickup </modality> or delivery ?
+Text_2	User	Can I get it delivered to Earl 's on 75th ?
+Text_2	Clerk	We can do that . That 'll set your delivery time to <address> 30 minutes , charging $ 15.64 to your 1564 </address> card .
+Text_2	User	Excellent !
+Text_2	Clerk	We 'll have the pizza to you soon !
+Text_2	Clerk	Have a great day .
+Text_2	User	You too pal !
+Text_3	User	ring ring
+Text_3	Clerk	Hey hey you 've reached Domino 's on 75th , what can I do for ya today ?
+Text_3	User	I wan na get a <crust> regular </crust> <pizza_type> cheese </pizza_type> pizza , no drink or side please
+Text_3	Clerk	Sure sure ! What size on that pizza ?
+Text_3	User	Large , delivered to <address> 1566 Castle Drive </address>
+Text_3	User	My card info is <numeric> 5444 expr 16/15 </numeric> name Cassidy
+Text_3	Clerk	Large cheese pizza to 1566 Castle Drive !
+Text_3	Clerk	Alright so that 'll be 8.45 for the pizza and a 5 dollar charge for the delivery , bringing it to <numeric> 13.45 </numeric>
+Text_3	Clerk	I 'll charge that to your card 5444 expiring 16/15 , Cassidy . Can I get the code on the back ?
+Text_3	User	How long is it going to take ?
+Text_3	User	Oh the code is <numeric> 111 </numeric>
+Text_3	Clerk	111 , thanks !
+Text_3	Clerk	We 'll have that over to you in about <numeric> 45 </numeric> minutes .
+Text_3	User	Thanks !
+Text_3	Clerk	Have a good one Cassidy !
+Text_3	User	you too
+Text_4	User	ring ring
+Text_4	Clerk	Hi this is Dominos , what can I get for you today ?
+Text_4	User	Hi ! I 'd like a <size> large </size> <pizza_type> meaty </pizza_type> pizza . What do you have that 's just covered in meat ?
+Text_4	Clerk	Our best option would be the Supreme Meat Lovers pizza for the most toppings -- that includes <topping> onions </topping> , <topping> mushrooms </topping> , <topping> olives </topping> , banana peppers , chicken , beef , italian <topping> sausage </topping> , <topping> bacon </topping> , and <topping> pepperoni </topping> .
+Text_4	User	Oh fantastic !
+Text_4	User	That sounds amazing . Can I get that as an <size> extra large </size> ?
+Text_4	Clerk	Of course ! Would you like anything else with that ?
+Text_4	User	Do you have <side> breadsticks </side> ?
+Text_4	Clerk	We do ! We have both plain and <side> garlic butter breadsticks </side> . Which one would you like ?
+Text_4	User	Garlic butter !
+Text_4	Clerk	Would you like to add a drink to your order ?
+Text_4	User	Nope
+Text_4	Clerk	Alright , that 's an extra <size> large </size> <pizza_type> Supreme </pizza_type> Meat Lovers pizza with <side> garlic butter bread sticks </side> . That comes to $ 16.23 . Is this for <modality> delivery </modality> or pickup ?
+Text_4	User	Beautiful . Pickup please !
+Text_4	Clerk	Great . We can have that ready for you at the 17th street Dominos in about <time> 25 minutes </time> . Can I have your name and card information ?
+Text_4	User	Perfect . It 's James Dean , number on there is <numeric> 2525 </numeric> , expiration <numeric> 09/55 </numeric> . The code 's <numeric> 555 </numeric> and the zip code is <numeric> 20831 </numeric> !
+Text_4	Clerk	Alright , we 'll charge the $ 16.23 to your card number 2525 . You have a great day .
+Text_4	User	You too , bye !
+Text_5	User	ring ring
+Text_5	Clerk	Hello , Domino 's on 17th street ! How can I help you ?
+Text_5	User	Hi , I want to order a <size> medium </size> <pizza_type> cheese </pizza_type> pizza and some bread sticks for <modality> delivery </modality>
+Text_5	Clerk	Sure ! Do you want that <pizza_type> cheese </pizza_type> pizza with a cheese-stuffed crust ?
+Text_5	User	Sounds great ! I 'll have that
+Text_5	Clerk	Great ! Any sides , drinks , or desserts ? We 've got a great stuffed cheesy bread if you 're feelin the <pizza_type> cheese </pizza_type> , or we could do a marbled cookie brownie !
+Text_5	User	Ooh the marbled cookie brownie sounds tasty , add that on
+Text_5	Clerk	Great ! And you wanted the bread sticks too , right ?
+Text_5	User	Yes
+Text_5	Clerk	Okay , a <size> medium </size> <pizza_type> cheese </pizza_type> pizza with a cheese-stuffed crust , bread sticks , and cookie brownie - that brings you to 14.02 . We have a $ <quant> 5 </quant> <modality> delivery </modality> charge but it 's free with an order over $ 15 , did you want to add anything ?
+Text_5	User	Add a <quant> 16oz </quant> <beverage> coke </beverage> please
+Text_5	Clerk	Perfect ! That 'll be $ 16 flat with <modality> free delivery </modality> . What 's the address ?
+Text_5	User	<address> 555 Candle Avenue NW , gate code 660 building 4 </address> , I 'll meet the driver outside
+Text_5	Clerk	Great ! Can I get your credit card information ?
+Text_5	User	My name is Stephanie Blair , card number is <numeric> 777 </numeric> , expiration date is <numeric> 11/23 </numeric> , code is <numeric> 999 </numeric>
+Text_5	User	Do you take mastercard ?
+Text_5	Clerk	We sure do !
+Text_5	Clerk	So 777 , expiring 11/23 , code <numeric> 999 </numeric> .
+Text_5	Clerk	We 'll have that cheesy pizza , bread sticks , cookie brownie , and coke to you in about <time> 30 minutes </time> Stephanie !
+Text_5	User	Thanks !
+Text_5	Clerk	Thank you , have a good evening !
+Text_6	Clerk	Hi , you 've reached Dominos . How can I help you ?
+Text_6	User	Hi ! Can you deliver to <address> 5803 Green Parkway NE </address> ?
+Text_6	Clerk	Sorry , due to the snow conditions our drivers are n't able to make it to that address . It looks like there are four locations available for <modality> pickup </modality> near that address . Would you like to hear the options ?
+Text_6	User	Okay ! Let 's do the 50th street one ?
+Text_6	Clerk	Great ! What would you like to order ?
+Text_6	User	A <size> large </size> <pizza_type> supreme </pizza_type> pizza , a <size> large </size> <pizza_type> veggie </pizza_type> , and that 's all !
+Text_6	Clerk	Fantastic . The <size> large </size> <pizza_type> supreme </pizza_type> and <size> large </size> <pizza_type> veggie </pizza_type> pizzas will come to $ 20.56 . Can I have your name and card information ?
+Text_6	User	Yes . It 's Jane Grant , number is <numeric> 4567 </numeric> , expiration <numeric> 04/56 </numeric> , code <numeric> 456 </numeric> , and the zip code on that is <numeric> 04567 </numeric>
+Text_6	Clerk	Alright , the $ 20.56 will be charged to your 4567 card . We should have that ready for <modality> pickup </modality> in about <time> 20 minutes </time> .
+Text_6	Clerk	Thank you for ordering with Dominoes . Have a great day !
+Text_6	User	Great ! You too , bye .
+Text_7	User	ring ring
+Text_7	Clerk	Hi , this is Domino 's ! What can I get for you today ?
+Text_7	User	I 'd like a <size> small </size> <pizza_type> half cheese </pizza_type> half green pepper pizza please , nothing else
+Text_7	Clerk	Okay ! Is that for <modality> pickup </modality> or delivery ?
+Text_7	User	<modality> pickup </modality> ! my card information is <numeric> 3334 , 11/12 , 555 </numeric> , and my name is <name> Jimmy Doe </name>
+Text_7	Clerk	Great ! That 'll be 5.78 , I 'll charge that to 3334 , expiring <numeric> 11/12 </numeric> , code <numeric> 555 </numeric> . We 'll have that ready for you in <time> 20 minutes </time> , Jimmy !
+Text_7	User	Thanks ! Bye
+Text_7	Clerk	Bye !
+Text_8	Clerk	Hi this is Dominos , Anna speaking . How can I help you today ?
+Text_8	User	Hi Anna ! Can I get a <size> large </size> <pizza_type> Hawaiian </pizza_type> ? And some breadsticks ?
+Text_8	Clerk	Yes you can ! Would you like to add a drink ?
+Text_8	User	Yes please ! A coke ?
+Text_8	Clerk	No problem . Would you like to add a dessert option ? We 're offering a <size> large </size> order our fudgy lava brownies for only $ 2.00 extra as our winter special .
+Text_8	User	Absolutely , yes please !
+Text_8	Clerk	Fantastic ! That large Hawaiian , breadsticks , coke , and fudgy lava brownies will all come to $ 18.04 . Is this for <modality> pickup </modality> or delivery ?
+Text_8	User	For delivery !
+Text_8	Clerk	That will add a $ <quant> 5 </quant> <modality> delivery </modality> charge , making your total $ 23.04 . Could I have your delivery address and card information ?
+Text_8	User	Okay , yes ! <address> 200 8th Street SW </address> , the name 's John Gates .
+Text_8	User	The card number is <numeric> 8923 </numeric> , expiration <numeric> 10/24 </numeric>
+Text_8	Clerk	Alright , we 'll charge the $ 23.04 to the 8923 card . We should have your order to you in about <time> 30 minutes </time> . Have a great rest of your night and thank you for choosing Dominos !
+Text_8	User	Thanks !
+Text_9	User	ring ring
+Text_9	Clerk	Hello , Domino 's !
+Text_9	User	Hi , is it possible to just get <quant> 3 </quant> orders of your breadsticks and a drink ?
+Text_9	Clerk	Totally !
+Text_9	User	awesome , can I have that and some of the <side> garlic sauce dip </side> ?
+Text_9	Clerk	Yep ! That 'll be <numeric> 7.65 </numeric>
+Text_9	User	Thanks , and that 'll be for <modality> pickup </modality>
+Text_9	User	under John greene
+Text_9	Clerk	3 orders of breadsticks with garlic dip and a drink , for John Greene !
+Text_9	User	Thanks , can I make that drink a sprite ?
+Text_9	Clerk	3 orders of breadsticks with garlic dip and a sprite ! What size ?
+Text_9	User	Large
+Text_9	Clerk	Gotcha ! <numeric> 7.85 </numeric>
+Text_9	User	Cool . My card is <numeric> 5555 </numeric> , expiration date <numeric> 33/44 </numeric> , security code <numeric> 890 </numeric>
+Text_9	Clerk	I 'll charge that 7.85 to your card 5555 , expiring 33/44 , code <numeric> 890 </numeric> .
+Text_9	Clerk	3 orders of breadsticks with garlic dip and a <size> large </size> <pizza_type> sprite </pizza_type> for John Greene , ready in <time> 15 minutes </time> .
+Text_9	User	Thanks !
+Text_9	Clerk	Thank you ! Bye !
+Text_10	Clerk	Hi , this is Dominos . What would you like to order ?
+Text_10	User	Hi Dominos ! Can I get a pizza ?
+Text_10	Clerk	Of course , what size for the pizza ?
+Text_10	User	Large ! And extra <pizza_type> cheese </pizza_type>
+Text_10	Clerk	No problem . Would that be a <pizza_type> cheese </pizza_type> pizza with <topping> extra cheese </topping> , or would you like a different set of toppings ?
+Text_10	User	Oh , <topping> sausage </topping> please !
+Text_10	Clerk	Large sausage pizza with <topping> extra cheese </topping> . Would you like to add anything else to this pizza ?
+Text_10	User	Yes ! Spinach please ! Cheese , <topping> sausage </topping> , spinach .
+Text_10	Clerk	Alright , that makes it a <size> large </size> <pizza_type> 3-topping cheese </pizza_type> <topping> sausage spinach </topping> pizza with <topping> extra cheese </topping> . Would you like to add a drink ?
+Text_10	User	No thanks !
+Text_10	User	Actually yeah a <size> small </size> <beverage> sprite </beverage>
+Text_10	Clerk	No problem , I 'll add that small sprite to your order .
+Text_10	Clerk	Will that be all for you today ?
+Text_10	User	Yep
+Text_10	Clerk	Great , will this be for <modality> pickup </modality> or delivery ?
+Text_10	User	Delivery please ! <address> 433 15th Avenue </address>
+Text_10	Clerk	That brings your total to $ 13.33 for the <size> large </size> <pizza_type> cheese </pizza_type> <topping> sausage spinach </topping> pizza and a <size> small </size> sprite . Can I have your name and card information ?
+Text_10	User	Yeah !
+Text_10	User	Jane Lawrence , the card is <numeric> 8009 </numeric>
+Text_10	Clerk	Thanks , Jane . What are the security code and expiration date for that card ?
+Text_10	User	789 and <quant> 07/89 </quant>
+Text_10	Clerk	Thank you , we 'll charge that $ 13.33 to the 8009 card for your pizza and drink delivered to <address> 433 15th avenue </address> . Estimated delivery time is <numeric> 15 </numeric> <time> minutes </time>
+Text_10	User	Amazing thank you !
+Text_10	Clerk	Enjoy your day , Jane ! Goodbye
+Text_10	User	Bye !
+Text_11	User	Hi ! I 'd like a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza and a <size> small </size> <pizza_type> cheese </pizza_type>
+Text_11	User	For pickup . Name is David Green
+Text_11	Clerk	Alright David , will that be all for you today ?
+Text_11	User	Yes , that 's all . My card is <numeric> 2363 </numeric> , code <numeric> 425 </numeric>
+Text_11	User	Expiration 10/10
+Text_11	Clerk	Great , thank you . We 'll be charging a total of $ 14.22 to your card number 2363 . The <size> large </size> <pizza_type> pepperoni </pizza_type> and <size> small </size> <pizza_type> cheese </pizza_type> pizzas should be out to you quickly , about <time> 15 minutes </time>
+Text_11	User	Thank you , goodbye !
+Text_11	User	ring ring
+Text_12	Clerk	Hi ! Domino 's , how can I help you ?
+Text_12	User	Hi ! Could I order for <modality> delivery </modality> to <address> 567 12 Street North </address> ?
+Text_12	Clerk	Of course , and what would you like to order ?
+Text_12	User	<quant> Two </quant> <size> large </size> pizzas , can I get one with <topping> spinach </topping> and tomatoes and one with <topping> sausage </topping> ?
+Text_12	Clerk	We can do that -- that should come to $ 18.38 for the pair . Can I get you anything else ?
+Text_12	User	A large Coke , please !
+Text_12	Clerk	I 'll add that on ! That brings the total to $ 20.64 . Delivery should take about <time> 20 minutes </time>
+Text_12	User	Great !
+Text_12	Clerk	Can I have your card information ?
+Text_12	User	Sure , it 's Jonah Johnson , <numeric> 2222 </numeric>
+Text_12	User	Expiration date is <numeric> 05/54 </numeric> and the code is <numeric> 123 </numeric>
+Text_12	Clerk	Fantastic , the two pizzas and a drink will be charged to your card . We 'll have your order out to you soon ! Have a great day Jonah
+Text_12	User	Thank you , you too !
+Text_12	User	ring ring
+Text_13	Clerk	Good Evening , this is Julie at Domino 's . What can I get for you ?
+Text_13	User	Hi Julie ! I 'd like to place an order for <modality> pickup </modality> ?
+Text_13	Clerk	No problem , what would you like to order ?
+Text_13	User	Could I get a <size> medium </size> pizza with <quant> no </quant> <topping> cheese </topping> , only sauce and <topping> spinach </topping> ?
+Text_13	Clerk	Of course , can I have a name for the order ?
+Text_13	User	Yes , it 's Jennifer Florence
+Text_13	Clerk	Ok Jennifer , the medium pizza , no <topping> cheese </topping> , only sauce and <topping> spinach </topping> will come to $ 8.44 . Will that be all for you today ?
+Text_13	User	What sides do you have ?
+Text_13	Clerk	We offer wings , brownies , or <side> bread sticks </side>
+Text_13	User	I 'd love some <side> bread sticks </side> please !
+Text_13	Clerk	I 'll add that , and that makes the total $ 10.02 . We can have this ready for you in about <time> 20 minutes </time> . Could I get your card information for the order ?
+Text_13	User	Yes , it 's <numeric> 5667 </numeric> , code <numeric> 142 </numeric> , expires <numeric> 12/12 </numeric>
+Text_13	Clerk	Fantastic , just put that in the system and the $ 10.02 will be charged to that card . You 're all set !
+Text_13	User	Thank you !
+Text_13	Clerk	No problem , have a good one !
+Text_13	User	You too !
+Text_14	User	ring ring
+Text_14	Clerk	Hi , Domino 's , what can I get for you today ?
+Text_14	User	Hi , I 'd like a <size> large </size> <pizza_type> meat lovers </pizza_type> , <size> large </size> <pizza_type> cheese </pizza_type> , large Hawaiian , and <size> large </size> <pizza_type> veggie </pizza_type> please !
+Text_14	Clerk	That 'll come to $ 40.53 , anything else ?
+Text_14	User	A two liter coke and sprite ?
+Text_14	Clerk	That brings it up to $ 43.88 . Is this for <modality> pickup </modality> or delivery ?
+Text_14	User	For delivery , to <address> 132 4th Ave suite 67 </address>
+Text_14	Clerk	And that delivery fee brings it up to $ 48.48 . I just need your card info and full name
+Text_14	User	The card is <numeric> 2014 </numeric> , the code is <numeric> 142 </numeric> , and the expiration is <numeric> 12/47 </numeric> !
+Text_14	User	And the full name is <name> Lena Horne </name>
+Text_14	Clerk	Ok Lena , we 'll have those four pizzas and <quant> two </quant> 2-liter drinks out to you in about <numeric> 45 </numeric> minutes . Enjoy your pizza and have a nice day !
+Text_14	User	Thank you !
+Text_15	Clerk	Hi this is Domino 's on 75th ! How may I help you ?
+Text_15	User	Hi , I need to order a couple of <size> medium </size> <pizza_type> pepperoni </pizza_type> pizzas
+Text_15	Clerk	Okay ! For pickup or delivery ?
+Text_15	User	<modality> pickup </modality> ! I want <quant> 3 </quant> pizzas actually , no drinks or anything else
+Text_15	Clerk	Okay , <quant> three </quant> <size> medium </size> <pizza_type> pepperoni </pizza_type> pizzas ?
+Text_15	User	yes please
+Text_15	Clerk	Alright , that 'll be 14.50 ! Can I get your card ?
+Text_15	User	Sorry say that again ?
+Text_15	Clerk	That 'll be $ 14.50 , can I get a credit card for the order ?
+Text_15	User	I 'm sorry there 's like static over your voice , let me try moving to another room
+Text_15	User	ok , say that again
+Text_15	Clerk	No worries ! The order comes to $ 14.50 , could I get your credit card information for the order ?
+Text_15	User	I 'm sorry , I 'm gon na try calling you back , it still sounds like static
+Text_15	User	I 'll call right back
+Text_15	Clerk	Okay ! I 'm sorry you
+Text_15	Clerk	're having trouble go ahead and call back when you 're ready !
+Text_16	User	ring ring
+Text_16	Clerk	Hi , Domino 's on 75th !
+Text_16	User	Hi , I just called about <quant> three </quant> <size> medium </size> pizzas ?
+Text_16	Clerk	Yes ! <quant> Three </quant> <size> medium </size> <pizza_type> pepperoni </pizza_type> pizzas for <modality> pickup </modality> ?
+Text_16	User	Yes ! That 's my order
+Text_16	Clerk	Great ! That 'll be $ 14.50 , can I get a credit card for the order ?
+Text_16	User	Yup , the number is <numeric> 5667 </numeric> , and the security code is <numeric> 124 </numeric>
+Text_16	User	expiration is <numeric> 11/34 </numeric>
+Text_16	Clerk	5667 , with security code <numeric> 124 </numeric> and expiration 11/34 . And can I get the name on the card ?
+Text_16	User	Yes , Angela
+Text_16	Clerk	Okay Angela ! We 'll have your pizzas ready for <modality> pickup </modality> in about <time> 20 minutes </time> !
+Text_16	User	Thanks ! Have a good one
+Text_16	Clerk	You too !
+Text_17	User	ring ring
+Text_17	Clerk	Hello , Dominos on 8th , how can I help you ?
+Text_17	User	Hi ! I 'd like to order some pizza for <modality> delivery </modality> ?
+Text_17	Clerk	We can do that , what pizza would you like ?
+Text_17	User	A small Hawaiian pizza and a <size> large </size> <pizza_type> supreme </pizza_type> , please .
+Text_17	Clerk	Great , I 'll get that started for you
+Text_17	User	Great !
+Text_17	Clerk	Um give me one second , I 'm having a little trouble with the system here
+Text_17	User	Sure
+Text_17	Clerk	Looks like it 's <name> frozen </name>
+Text_17	User	Oh no !
+Text_17	Clerk	Ok , I 'm gon na have to put you on a brief hold if you do n't mind , seems like I need to reboot the system and it 'll take a few minutes .
+Text_17	User	Sure , okay
+Text_17	Clerk	ok , thank you for waiting . I did lose your order though , could you repeat it again for me ?
+Text_17	User	Yes ! A small Hawaiian pizza and a <size> large </size> <pizza_type> supreme </pizza_type> ?
+Text_17	Clerk	Thank you , and sorry again for the wait . Will that be all for you today ?
+Text_17	User	Yes , that 's all .
+Text_17	Clerk	Awesome , the small Hawaiian and the Large supreme will come to $ 16.33 , could I have your card information ?
+Text_17	User	Sure , it 's <numeric> 7890 </numeric> , security code <numeric> 123 </numeric> , expiration <numeric> 12/34 </numeric> . And the name on it is <name> Janet Gold </name>
+Text_17	Clerk	Thanks Janet , and will this be for <modality> delivery </modality> or pickup ?
+Text_17	User	Delivery please ! <address> 845 12th Street , apartment C </address> .
+Text_17	Clerk	ok , that 'll be an extra charge and will bring it up to $ <numeric> 20.44 </numeric>
+Text_17	User	That 's fine . How long will it take ?
+Text_17	Clerk	Should be about 30 to 40 minutes from now
+Text_17	User	Okay , thanks !
+Text_17	Clerk	Great , we 'll charge the $ 20.44 to your 7890 card and have your pizza to you soon ! Thanks Janet , have a great day .
+Text_17	User	Thanks , you too !
+Text_18	User	ring ring
+Text_18	Clerk	Hi , this is Domino 's Pizza in Bellevue ! How can I help you today ?
+Text_18	User	Hi ! I want a <size> small </size> <pizza_type> two topping </pizza_type> pizza -- <topping> pepperoni </topping> and <topping> sausage </topping> -- and a <size> medium </size> dr pepper if you have it
+Text_18	Clerk	Great ! Small <pizza_type> pepperoni </pizza_type> and <topping> sausage </topping> and a <size> medium </size> Dr. Pepper . Is this for <modality> pickup </modality> or delivery ?
+Text_18	User	Delivery to <address> 31 5th St NE please </address>
+Text_18	Clerk	Okay ! With the <modality> delivery </modality> fee that comes to 12.31 . Could I get a credit card for the order ?
+Text_18	User	Yeah , it 's <numeric> 7777 </numeric> with expiration date <numeric> 44/34 </numeric> and code <numeric> 999 </numeric> , billing is <numeric> 56789 </numeric>
+Text_18	User	My name is <name> Yara Grey </name>
+Text_18	Clerk	Okay , 7777 expiring 44/34 , code <numeric> 999 </numeric> , zip 56789 for Yara Grey .
+Text_18	Clerk	It 's not going through , can I verify the number again for you ?
+Text_18	Clerk	7777 ?
+Text_18	User	yeah , that 's correct
+Text_18	Clerk	Expiration 44/34 ?
+Text_18	User	oh , sorry it 's <numeric> 44/33 </numeric>
+Text_18	Clerk	Okay , got it !
+Text_18	Clerk	You 're all set !
+Text_18	User	awesome , how long until it 's ready ?
+Text_18	Clerk	We 'll have that <size> small </size> <pizza_type> pepperoni </pizza_type> and <topping> sausage </topping> and your Dr. Pepper to you at <address> 31 5th St NE in 25 minutes </address> .
+Text_18	User	great , thanks so much
+Text_18	Clerk	Thank you , have a good one !
+Text_18	User	you too ! bye
+Text_19	User	ring ring
+Text_19	Clerk	Hi , Dominos !
+Text_19	User	Hi , this is Angela , I called just now about some <pizza_type> pepperoni </pizza_type> pizzas for <modality> pickup </modality> ?
+Text_19	Clerk	Hi Angela , how can I help you with that order ?
+Text_19	User	Would it be possible to change that to <modality> delivery </modality> ? I do n't think I 'll be able to get over there to pick up .
+Text_19	Clerk	Alright , I 'll see what I can do about that . Can I have the last few digits of the card used for the order to verify ?
+Text_19	User	Yes , it 's <numeric> 5667 </numeric> ?
+Text_19	Clerk	Great , I found <quant> three </quant> <size> medium </size> <pizza_type> pepperoni </pizza_type> pizzas for Angela from card number <numeric> 5667 </numeric>
+Text_19	Clerk	Is that correct ?
+Text_19	User	Yes , that 's correct !
+Text_19	Clerk	What address do you want that delivered to ?
+Text_19	User	31 5th Street Northeast , please !
+Text_19	Clerk	No problem , that 's going to add a <modality> delivery </modality> fee and bring the total up to $ 20 , which will be charged to the 5667 card
+Text_19	User	Okay ! Thank you ! How long will it take to get here ?
+Text_19	Clerk	Looks like it 's gon na be about <time> 30 minutes </time>
+Text_19	User	Okay ! Thanks so much !
+Text_19	Clerk	No problem ! Have a good night
+Text_19	User	You too !

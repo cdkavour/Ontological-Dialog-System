@@ -1,880 +1,880 @@
-	Conversation	Speaker	Transcript
-0	Spoken_1	Clerk	Hello , this is UW pizza . How are you doing today ?
-1	Spoken_1	User	Ah ... I need to order a pizza .
-2	Spoken_1	Clerk	Ok. ah ... would you like to <modality> pick up </modality> your order or get it <modality> delivered </modality> ?
-3	Spoken_1	User	Delivery please .
-4	Spoken_1	Clerk	Ok. Ah ... can I have your address and phone number please .
-5	Spoken_1	User	Address is <address> 1410 NE Campus Parkway Seattle , WA 98195 </address> .
-6	Spoken_1	Clerk	Ok ... can I also have your phone number ?
-7	Spoken_1	User	My phone number is <number> 206-123-4567 </number>
-8	Spoken_1	Clerk	Nice . Ah ... can I also get your name ?
-9	Spoken_1	User	My name is John .
-10	Spoken_1	Clerk	Ok John , what would you like to order today ?
-11	Spoken_1	User	I like to order <pizza_type> 4 cheese </pizza_type> pizza .
-12	Spoken_1	Clerk	Ok , <pizza_type> 4 cheese </pizza_type> pizza . Do you need any extra toppings on your <pizza_type> 4 cheese </pizza_type> pizza ?
-13	Spoken_1	User	I need black <topping> olives </topping> , <topping> mushrooms </topping> , and <topping> green peppers </topping> .
-14	Spoken_1	Clerk	Ok , anything else ?
-15	Spoken_1	User	Nope , that ’ s it .
-16	Spoken_1	Clerk	Ok , and what kind of pizza crust would you like to have today ? We got thin , regular , deep dish and gluten-free crusts .
-17	Spoken_1	User	Regular .
-18	Spoken_1	Clerk	Ok so regular crust . And what size would you like to have for your pizza ?
-19	Spoken_1	User	Medium .
-20	Spoken_1	Clerk	Ok , and do you need any sides for your order ?
-21	Spoken_1	User	One Caesar salad .
-22	Spoken_1	Clerk	Ok , one Caesar salad . And would you like to have any drinks ?
-23	Spoken_1	User	One Cola .
-24	Spoken_1	Clerk	Ok , one Cola . Ok , ah just to make sure your order is correct . So you have a <pizza_type> 4 cheese </pizza_type> pizza with <topping> extra black olives </topping> , <topping> green peppers </topping> and <topping> mushrooms </topping> ... and you also have regular crust ... and your size for your pizza is medium with Caesar salad as side dish , and you also order one Cola for your drink . Is that all correct ?
-25	Spoken_1	User	Yeah . That ’ s correct .
-26	Spoken_1	Clerk	Ok , that ’ s nice . So your total for today will be 33.5 dollars plus 3 dollars deliver fee . Does that sound good to you ?
-27	Spoken_1	User	Oh that ’ s good .
-28	Spoken_1	Clerk	Ok so your order will be at your house in <time> 30 minutes </time> . And you are all set . Wish you a good day . Bye .
-29	Spoken_1	User	Bye .
-30	Spoken_2	Clerk	Hello , this is UW pizza . What can I help you today ?
-31	Spoken_2	User	I ’ d like to order .
-32	Spoken_2	Clerk	O~k~.Would you like to <modality> pick up </modality> your pizza or would you like your pizza to be delivered ?
-33	Spoken_2	User	I like to <modality> pick up </modality> .
-34	Spoken_2	Clerk	<modality> Ok pick up </modality> .
-35	Spoken_2	User	Yes .
-36	Spoken_2	Clerk	Ok that ’ s fine . Can I have your address and phone number please ?
-37	Spoken_2	User	My address is Address is <address> 1410 NE Campus Parkway Seattle </address> .
-38	Spoken_2	Clerk	Um hum .
-39	Spoken_2	User	WA 98195 .
-40	Spoken_2	Clerk	And also your phone number ?
-41	Spoken_2	User	Oh , my phone number is 206-123-4567 .
-42	Spoken_2	Clerk	O~k~ ... and what would you like to order today ?
-43	Spoken_2	User	I would like to have <quant> one </quant> <pizza_type> pepperoni </pizza_type> , one Meat Lover and <quant> one </quant> <pizza_type> veggie supreme </pizza_type> .
-44	Spoken_2	Clerk	Um hum ... and would you like any extra toppings for each of your pizza ?
-45	Spoken_2	User	Oh no , that ’ s enough .
-46	Spoken_2	Clerk	And what kind of pizza crust would you like for each of your pizza ?
-47	Spoken_2	User	Uh ... thin crust for pepper , and regular crust for Meat Lover and deep dish for <pizza_type> veggie supreme </pizza_type> .
-48	Spoken_2	Clerk	Ok. And what size would you like for each of your pizza ?
-49	Spoken_2	User	All large .
-50	Spoken_2	Clerk	Ok , all of them are large .
-51	Spoken_2	User	Yeah .
-52	Spoken_2	Clerk	Sounds good sounds good . And do you need any other side dishes ?
-53	Spoken_2	User	Side dish…uh I need one bread stick and <quant> one </quant> <pizza_type> cheese </pizza_type> stick .
-54	Spoken_2	Clerk	Ok. Do you need any drinks ?
-55	Spoken_2	User	Five root beers .
-56	Spoken_2	Clerk	Ok. Just to repeat your order . You like to have <quant> one </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> with <crust> thin </crust> crust , <quant> one </quant> <size> large </size> Meat Lover with <crust> regular </crust> crust and <quant> one </quant> <size> large </size> <pizza_type> veggie supreme </pizza_type> with <crust> deep dish </crust> crust .
-57	Spoken_2	User	Um .
-58	Spoken_2	Clerk	And you also order <quant> one </quant> <pizza_type> cheese </pizza_type> stick and bread stick for your side dish .
-59	Spoken_2	User	Yeah .
-60	Spoken_2	Clerk	And you also order five root beers for your drink .
-61	Spoken_2	User	Yes .
-62	Spoken_2	Clerk	Are they all correct ?
-63	Spoken_2	User	Correct .
-64	Spoken_2	Clerk	Ok . So the total for your order will be 80.5 dollars . Can I have your credit card information ?
-65	Spoken_2	User	Yes , my card type is MyCard , and my credit card number is <numeric> 12345 </numeric> , and the expiration date is end of the year .
-66	Spoken_2	Clerk	Ok , and you are all set . Ah ... you can <modality> pick up </modality> in <time> 45 minutes </time> . Is that ok ?
-67	Spoken_2	User	Ok. That ’ s ok .
-68	Spoken_2	Clerk	Ok , have a good day .
-69	Spoken_2	User	Bye .
-70	Spoken_2	Clerk	Bye .
-71	Spoken_2	User	Thank you .
-72	Spoken_2	Clerk	Thank you .
-73	Spoken_3	Clerk	Hello , this is UW pizza . What can I help you today ?
-74	Spoken_3	User	I like to order a Hawaiin pizza with <quant> no </quant> <topping> pineapple </topping> .
-75	Spoken_3	Clerk	Ok ... before you make your order , can I have your name ?
-76	Spoken_3	User	Ohohoh ... my name is John .
-77	Spoken_3	Clerk	Ok , would you like to <modality> pick up </modality> your pizza or would you like your pizza to be delivered ?
-78	Spoken_3	User	I like to get my pizza delivered .
-79	Spoken_3	Clerk	Ok nice ... ah ... can I also have your address and phone number please ?
-80	Spoken_3	User	My address is Address is <address> 1410 NE Campus Parkway Seattle , WA 98195 </address> .
-81	Spoken_3	Clerk	Un hum . And you phone number ?
-82	Spoken_3	User	my phone number is 206-123-4567 .
-83	Spoken_3	Clerk	Ok nice . And what would you like to order today ?
-84	Spoken_3	User	Oh , I like to order a Hawaiin pizza without no <topping> pineapple </topping> .
-85	Spoken_3	Clerk	O~~k~uh ... that ’ s unusual cuz our Hawaiin pizza usually comes with <topping> pineapple </topping> .
-86	Spoken_3	User	But I hate <topping> pineapple </topping> . So I don ’ t want <topping> pineapple </topping> on my pizza .
-87	Spoken_3	Clerk	Oh really . Ah ... let me ask our chef ... I will get back to you in one second .
-88	Spoken_3	User	Ok~
-89	Spoken_3	Clerk	Hi John ... after checking with our chef , our Hawaiin pizza must go with <topping> pineapple </topping> . Is it still working for you ? Or do you wan na order other pizza ?
-90	Spoken_3	User	Uh uh ... no..I thought I can just order the pizza with <topping> only ham </topping> , mozzarella instead .
-91	Spoken_3	Clerk	oh ok…so you wan na customize your pizza . So do you need extra toppings on your customized pizza ?
-92	Spoken_3	User	No , that ’ s it .
-93	Spoken_3	Clerk	Um ... what kind of pizza crust would you like to have on your customized pizza ?
-94	Spoken_3	User	Gluten free please .
-95	Spoken_3	Clerk	Ok. Um ... what size is your pizza ?
-96	Spoken_3	User	Small size .
-97	Spoken_3	Clerk	O~k . Do you need any side dishes ?
-98	Spoken_3	User	No thanks .
-99	Spoken_3	Clerk	Ok , do you need any drinks ?
-100	Spoken_3	User	No .
-101	Spoken_3	Clerk	Ok , just to double check your order today . So you would like to have one customized pizza , that is pizza with <topping> only ham </topping> and mozzarella with <crust> gluten free </crust> crust and medium size . Is that… ( interrupted )
-102	Spoken_3	User	Uh no , I said it is small size .
-103	Spoken_3	Clerk	Oh , sorry about that . So it is a small size pizza . And your total today will be <address> 15 plus 3 dollars delivery fee </address> . And it ’ s gon na take about 30 minutes to get it delivered to your place . Does it sound good ?
-104	Spoken_3	User	There is a <quant> 3 </quant> <beverage> dollars </beverage> <modality> delivery </modality> fee ?
-105	Spoken_3	Clerk	Yes .
-106	Spoken_3	User	Oh I think I can just go pick today .
-107	Spoken_3	Clerk	O~k . So the total will be 15 dollars instead .
-108	Spoken_3	User	Ok .
-109	Spoken_3	Clerk	And you can <modality> pick up </modality> your pizza in <time> 15 minutes </time> . Does that sound good to you ?
-110	Spoken_3	User	Sounds nice .
-111	Spoken_3	Clerk	Ok , have a nice day !
-112	Spoken_3	User	Thank you , bye bye .
-113	Spoken_3	Clerk	Bye~
-114	Spoken_4	Clerk	Hello , this is UW pizza .
-115	Spoken_4	User	Hi , I ’ d like to order pizza today .
-116	Spoken_4	Clerk	OK , do you want <modality> delivery </modality> or pick-up ?
-117	Spoken_4	User	Yeah , I ’ d like to ... I ’ d like my pizza to get delivered .
-118	Spoken_4	Clerk	OK , so may I have your name ?
-119	Spoken_4	User	Yeah , my name is Andy .
-120	Spoken_4	Clerk	Andy . And may I have your address ?
-121	Spoken_4	User	My address is <numeric> 3925 </numeric> Adams Lane Northeast , Seattle .
-122	Spoken_4	Clerk	OK , and your phone number ?
-123	Spoken_4	User	My phone number is 255-321-7921 .
-124	Spoken_4	Clerk	OK , and what would you like to order ?
-125	Spoken_4	User	Can I have <pizza_type> pepperoni </pizza_type> ?
-126	Spoken_4	Clerk	One pepperoni .
-127	Spoken_4	User	Yeah , one <pizza_type> pepperoni </pizza_type> .
-128	Spoken_4	Clerk	OK , do you need any extra toppings for your <pizza_type> pepperoni </pizza_type> ?
-129	Spoken_4	User	Yes , can I have <quant> one </quant> <topping> mushrooms </topping> ?
-130	Spoken_4	Clerk	OK , <topping> mushrooms </topping> . That ’ s it ?
-131	Spoken_4	User	Yeah , that ’ s it .
-132	Spoken_4	Clerk	OK , and how would you like your pizza crust , thin , regular , deep dish , or gluten-free ?
-133	Spoken_4	User	Yeah , just ... just thin . Just thin crust .
-134	Spoken_4	Clerk	OK , thin crust . And how would you like your pizza size ?
-135	Spoken_4	User	Large size would be nice .
-136	Spoken_4	Clerk	OK , large size . And do you like… Would you like any side dishes ?
-137	Spoken_4	User	Yeah , can I have Caesar salad ?
-138	Spoken_4	Clerk	OK , one Cassar salad . And any drinks ?
-139	Spoken_4	User	Yeah , can I have mineral water ?
-140	Spoken_4	Clerk	One mineral water . OK , let me double-check your order . And you ordered one… <quant> one </quant> <pizza_type> pepperoni </pizza_type> with <topping> extra mushrooms </topping> topping , thin crust , and <size> large </size> size . One Caesar salad , and one mineral water .
-141	Spoken_4	User	Yeah , that ’ s right .
-142	Spoken_4	Clerk	OK , and the total is <numeric> 32.5 </numeric> dollars , and plus a <quant> 3 </quant> <beverage> dollars </beverage> <modality> delivery </modality> fee , so that ’ s 35.5 in total . Is that okay ?
-143	Spoken_4	User	Yeah , sounds good to me .
-144	Spoken_4	Clerk	So do you like to pay in cash or credit card ?
-145	Spoken_4	User	I ’ m gon na go with credit card .
-146	Spoken_4	Clerk	OK , so may I have your credit card information ?
-147	Spoken_4	User	Yeah , so my card type is MyCard , and my credit card number is <numeric> 12345 </numeric> , and the expiration date is end of the year .
-148	Spoken_4	Clerk	OK. Then the <modality> delivery </modality> time will be about 30 minutes . Is that okay ?
-149	Spoken_4	User	Yeah , sounds good to me .
-150	Spoken_4	Clerk	OK , thank you for… thank you for your order today . Have a nice day . Bye .
-151	Spoken_4	User	Yeah . Bye .
-152	Spoken_5	Clerk	Hello , it ’ s UW pizza .
-153	Spoken_5	User	Yeah . Hi , hello . I ’ d like… I ’ d like to order pizza .
-154	Spoken_5	Clerk	OK. Do you want your pizza delivered to you or pick-up ?
-155	Spoken_5	User	I ’ ll like to… I ’ ll like to go for <modality> delivery </modality> .
-156	Spoken_5	Clerk	OK . So may I have your name , please ?
-157	Spoken_5	User	Yes . My name is Andy .
-158	Spoken_5	Clerk	And may I have your address ?
-159	Spoken_5	User	Yeah . My address is <numeric> 3925 </numeric> Adams Lane Northeast , Seattle .
-160	Spoken_5	Clerk	OK . Your address is <numeric> 3925 </numeric> Adams Lane Northeast , Seattle .
-161	Spoken_5	User	Yes .
-162	Spoken_5	Clerk	Is that correct ? OK .
-163	Spoken_5	User	Yeah .
-164	Spoken_5	Clerk	May I have your phone number ?
-165	Spoken_5	User	Yeah . So it ’ s 255-321-7921 .
-166	Spoken_5	Clerk	255-321-7921 . OK. And what ’ d you like to order ?
-167	Spoken_5	User	Yeah . What kinds of pizza do you guys have ? Sorry , I don ’ t have menu .
-168	Spoken_5	Clerk	Oh . We have Hawaiian , meat lovers , <pizza_type> 4 cheese </pizza_type> , <topping> pepperoni </topping> , veg… <pizza_type> veggie supreme </pizza_type> , and vegan .
-169	Spoken_5	User	Um… yeah . I think meat lovers is… yeah , is ... Does… Does meat lovers have lots of meat ?
-170	Spoken_5	Clerk	Yeah . It comes… It has mozzarella cheese , <topping> pepperoni </topping> , <topping> ham </topping> , <topping> bacon </topping> , and <topping> sausage </topping> .
-171	Spoken_5	User	OK , sounds good . I ’ m gon na go for that one .
-172	Spoken_5	Clerk	OK .
-173	Spoken_5	User	Yeah .
-174	Spoken_5	Clerk	One meat lover , okay .
-175	Spoken_5	User	One meat lovers , yeah .
-176	Spoken_5	Clerk	Do you need any extra topping for your meat lovers ?
-177	Spoken_5	User	Yeah . Can I have extra mozzarella cheese and <topping> cheddar cheese </topping> ?
-178	Spoken_5	Clerk	Oh . Extra mozzarella cheese and <topping> cheddar cheese </topping> ? OK .
-179	Spoken_5	User	Yeah , yes .
-180	Spoken_5	Clerk	And how would you like your pizza crust ?
-181	Spoken_5	User	Uh… can I have a… Do you guys have a gluten-free crust ?
-182	Spoken_5	Clerk	Yeah , we have .
-183	Spoken_5	User	Oh yeah , yeah . I , yeah , I ’ ll like to have a gluten-free crust .
-184	Spoken_5	Clerk	OK , gluten-free pizza crust . And how would you like your pizza size ?
-185	Spoken_5	User	Um… just medium .
-186	Spoken_5	Clerk	Okay , medium size . And would you like any side dishes ?
-187	Spoken_5	User	Uh… Do you guys have… breadsticks ?
-188	Spoken_5	Clerk	One breadsticks . Okay .
-189	Spoken_5	User	So you guys have breadsticks . Okay .
-190	Spoken_5	Clerk	Yeah .
-191	Spoken_5	User	Okay .
-192	Spoken_5	Clerk	Okay . And do you need any drinks ?
-193	Spoken_5	User	Yeah . Can I have… What kind of drinks do you guys have ?
-194	Spoken_5	Clerk	We have cola , root beer , orange soda , lemon soda , mineral water , and ginger ale .
-195	Spoken_5	User	Ok , can I have one lemon soda ?
-196	Spoken_5	Clerk	One lemon soda . Okay . And may I check with your order again ?
-197	Spoken_5	User	Yeah , sure .
-198	Spoken_5	Clerk	One meat lovers with extra mozzarella cheese and <topping> cheddar cheese </topping> .
-199	Spoken_5	User	Uh-huh .
-200	Spoken_5	Clerk	And gluten-free… gluten-free pizza crust .
-201	Spoken_5	User	Uh-huh .
-202	Spoken_5	Clerk	Medium size . And one breadsticks and one lemon soda . Is that correct ?
-203	Spoken_5	User	Oh , yeah . But can I also have one extra topping ?
-204	Spoken_5	Clerk	Oh , sure .
-205	Spoken_5	User	I wan na add the <topping> red onions </topping> to my meat lovers .
-206	Spoken_5	Clerk	So you now have mozzarella , and <topping> cheddar cheese </topping> and <topping> red onions </topping> topping .
-207	Spoken_5	User	Yeah .
-208	Spoken_5	Clerk	Correct ?
-209	Spoken_5	User	Yeah .
-210	Spoken_5	Clerk	OK. And… how would you like to pay , in cash or credit card ?
-211	Spoken_5	User	Credit card .
-212	Spoken_5	Clerk	OK , credit card . And may I have your credit card information ?
-213	Spoken_5	User	Yeah , so my credit card information is ... MyCard type , number is <numeric> 12345 </numeric> . And the ...
-214	Spoken_5	Clerk	OK .
-215	Spoken_5	User	... expiration year is end of the year .
-216	Spoken_5	Clerk	OK. And your total price is… the price of your order is <numeric> 33.5 </numeric> dollars and plus a <quant> 3 </quant> <beverage> dollars </beverage> <modality> delivery </modality> fee . That ’ s ... total is <numeric> 36.5 </numeric> dollars .
-217	Spoken_5	User	OK. That ’ s fine . How long is the ...
-218	Spoken_5	Clerk	OK . Your delivery will be about ... 40 minutes . Is that okay ?
-219	Spoken_5	User	OK. That ’ s okay .
-220	Spoken_5	Clerk	So thank you for your order . Have a nice day .
-221	Spoken_5	User	Yeah , you too . Thanks .
-222	Spoken_5	Clerk	Bye .
-223	Spoken_5	User	Bye .
-224	Spoken_6	Clerk	Hello , this is UW pizza .
-225	Spoken_6	User	Yeah , hi . I ’ ll love… I ’ ll love to order a pizza today .
-226	Spoken_6	Clerk	Ok. You want <modality> delivery </modality> or pick-up ?
-227	Spoken_6	User	Um… I think I ’ m just gon na <modality> pick up </modality> today .
-228	Spoken_6	Clerk	Pick-up . So… may I have your name , please ?
-229	Spoken_6	User	Yeah . My name… my name is Andy .
-230	Spoken_6	Clerk	Ok. And may I have your address ?
-231	Spoken_6	User	I think you don ’ t need my address if I do the…
-232	Spoken_6	Clerk	Oh !
-233	Spoken_6	User	... pick-up .
-234	Spoken_6	Clerk	Oh yeah ! You said you wan na pick-up ! Okay . May I have your phone number ?
-235	Spoken_6	User	Yeah . My phone number is 255-321-7921 .
-236	Spoken_6	Clerk	Okay . And… thank you . What would you like to order ?
-237	Spoken_6	User	Yeah . So for today , I ’ d like to have <quant> two </quant> <pizza_type> pepperoni </pizza_type> , and one vegan .
-238	Spoken_6	Clerk	Two pepperoni and one vegan . Okay , and do you need any extra toppings for your pizzas ?
-239	Spoken_6	User	Yeah . So can I have extra mozzarella cheese for both of my pepperonis ?
-240	Spoken_6	Clerk	Okay .
-241	Spoken_6	User	And bacon for my vegan pizza .
-242	Spoken_6	Clerk	Okay . And how would you like your pizza crust ?
-243	Spoken_6	User	Thin crust for <quant> two </quant> pepperonis , and deep dish for vegan .
-244	Spoken_6	Clerk	Okay . And how would you like your pizza size ?
-245	Spoken_6	User	Size ? Um… large for <quant> two </quant> pepperonis , and medium for vegan .
-246	Spoken_6	Clerk	Okay . And do you need any side dishes ? Or drinks ?
-247	Spoken_6	User	Yeah . Um… can I have a green salad ?
-248	Spoken_6	Clerk	One green salad . Okay .
-249	Spoken_6	User	Excuse me . How much is the green salad ?
-250	Spoken_6	Clerk	Oh , the green salad is ten dollars .
-251	Spoken_6	User	OK , OK. That ’ s OK .
-252	Spoken_6	Clerk	OK. And do you need any drinks ?
-253	Spoken_6	User	Yeah . Can I have <quant> two </quant> root beer and one ginger ale ?
-254	Spoken_6	Clerk	Two root beer and one ginger ale . OK . So that ’ s… the total is <numeric> 68.5 </numeric> dollars . Is that okay ?
-255	Spoken_6	User	Why is that so expensive ?
-256	Spoken_6	Clerk	... why is that so expensive… um ...
-257	Spoken_6	User	Can you double-check my order today ?
-258	Spoken_6	Clerk	OK , OK. And ...
-259	Spoken_6	User	I don ’ t expect that much .
-260	Spoken_6	Clerk	OK . Your order is… <quant> two </quant> <beverage> pepperoni… </beverage>
-261	Spoken_6	User	Uh-huh .
-262	Spoken_6	Clerk	<address> Two pepperoni with extra mozzarella and… mozzarella cheese </address> , and thin pizza crust , and <size> large </size> size .
-263	Spoken_6	User	Uh-huh .
-264	Spoken_6	Clerk	And one vegan pizza with <topping> extra bacon </topping> topping ...
-265	Spoken_6	User	Okay .
-266	Spoken_6	Clerk	with <crust> deep dish </crust> crust and medium size .
-267	Spoken_6	User	OK .
-268	Spoken_6	Clerk	OK. And you ordered… your side dish is green salad , and <quant> two </quant> root beer and one ginger ale . Is that correct ?
-269	Spoken_6	User	Oh . Excuse me , maybe I don ’ t want… I don ’ t want to have green salad today , and also ...
-270	Spoken_6	Clerk	Oh .
-271	Spoken_6	User	For drinks… only two root beer would be enough . Yeah .
-272	Spoken_6	Clerk	So you don ’ t need… green salad and ... ginger ale ?
-273	Spoken_6	User	Yeah , exactly .
-274	Spoken_6	Clerk	Oh , so… okay . Only two root beers . No side dish .
-275	Spoken_6	User	OK. yeah .
-276	Spoken_6	Clerk	OK . So the total would be… 55 dollars .
-277	Spoken_6	User	Okay .
-278	Spoken_6	Clerk	So the ... your order will be ready in about ... 20 minutes .
-279	Spoken_6	User	Oh , 20 minutes . So if I ...
-280	Spoken_6	Clerk	You can come here… yeah , you should come here after 20 minutes .
-281	Spoken_6	User	And how long is it gon na take if I go for <modality> delivery </modality> option ?
-282	Spoken_6	Clerk	The delivery will… if you go delivery , I think… it will take about 40 minutes .
-283	Spoken_6	User	Oh , okay . Sounds okay to me . And can I go with the <modality> delivery </modality> option ?
-284	Spoken_6	Clerk	Oh , okay . Change for <modality> delivery </modality> . So may I have your address , sir ?
-285	Spoken_6	User	Yeah , sure . So my address is <numeric> 3925 </numeric> Adams Lane Northeast , Seattle .
-286	Spoken_6	Clerk	Okay . Okay . So the delivery… three dollars of delivery fee will be charged . Is that okay ?
-287	Spoken_6	User	Yeah .
-288	Spoken_6	Clerk	Okay . The total would be 58 dollars .
-289	Spoken_6	User	OK .
-290	Spoken_6	Clerk	OK . Thank you for your order . Have a nice day .
-291	Spoken_6	User	Wait… do you need my card information ?
-292	Spoken_6	Clerk	I think you said you ’ d like to <modality> pick up </modality> .
-293	Spoken_6	User	Yeah , but I changed to <modality> delivery </modality> option . So ...
-294	Spoken_6	Clerk	Oh , okay .
-295	Spoken_6	User	... you need my ...
-296	Spoken_6	Clerk	Do you… do you need to… Do you like to pay in cash or credit card ?
-297	Spoken_6	User	Yeah , go for a credit card . yeah .
-298	Spoken_6	Clerk	Oh , okay . You ’ d like to pay in credit card . So may I have your credit card number ?
-299	Spoken_6	User	Yeah , sure . So my card type is MyCard . And ...
-300	Spoken_6	Clerk	OK .
-301	Spoken_6	User	Credit card number is <numeric> 12345 </numeric> .
-302	Spoken_6	Clerk	OK .
-303	Spoken_6	User	And the expiration… expiration date is end of the year .
-304	Spoken_6	Clerk	OK. OK . Thank you for your ... Thank you for your order .
-305	Spoken_6	User	OK , thank you .
-306	Spoken_6	Clerk	Thank you . Have a nice day .
-307	Spoken_6	User	You too .
-308	Spoken_6	Clerk	Bye .
-309	Spoken_6	User	Bye .
-310	Text_1	Clerk	Hello , it 's UW pizza !
-311	Text_1	User	I would like to order <quant> 1 </quant> <pizza_type> veggie supreme </pizza_type> .
-312	Text_1	Clerk	ok , may I have your name first , please ?
-313	Text_1	User	My name is John Doe .
-314	Text_1	Clerk	Ok John , do you need extra toppings on your <pizza_type> veggie supreme </pizza_type> ?
-315	Text_1	User	No , thanks .
-316	Text_1	Clerk	Ok , what kind of pizza crusts would you like to have ?
-317	Text_1	User	What kind of pizza crusts do you have ?
-318	Text_1	Clerk	We got thin , regular , deep dish , and gluten-free .
-319	Text_1	User	Then I would like to have a <crust> deep dish </crust> crust , please .
-320	Text_1	Clerk	Ok , what size of pizza would you like to have ?
-321	Text_1	User	Large .
-322	Text_1	Clerk	Ok , would you like to have any sides ?
-323	Text_1	User	No , please .
-324	Text_1	Clerk	do you need any drinks ?
-325	Text_1	User	No , thanks .
-326	Text_1	Clerk	That 's alright ! Would you like to <modality> pick up </modality> or deliver your order today ?
-327	Text_1	User	I 'd go for pick-up .
-328	Text_1	Clerk	May I have your address and phone number , please ?
-329	Text_1	User	Why do you need my address ?
-330	Text_1	Clerk	Oh ! My bad . May I have your phone number , please ?
-331	Text_1	User	Oh , that 's OK. My phone number is 206-123-4567 .
-332	Text_1	Clerk	Got you ! So your order for today is <numeric> 16 </numeric> dollars . What would you like to pay today ?
-333	Text_1	User	Could I decide that when I arrive ?
-334	Text_1	Clerk	Yeah , that 's totally fine ! And you are all set ! please come to <modality> pick up </modality> your order in <time> 25 minutes </time> .
-335	Text_1	User	Ok , I 'll be there soon . Bye !
-336	Text_1	Clerk	Ok , have a wonderful day .
-337	Text_2	Clerk	Hello , it 's UW pizza !
-338	Text_2	User	Hi , I ’ d like to order 1 Hawaiian pizza , <quant> 1 </quant> <pizza_type> 4 cheese </pizza_type> pizza , and <quant> 1 </quant> vegan pizza .
-339	Text_2	Clerk	Ok , may I have your name , please ?
-340	Text_2	User	I ’ m John .
-341	Text_2	Clerk	Ok John , would you like to have extra toppings on your pizzas ?
-342	Text_2	User	Yes , extra Provolone cheese for Hawaiian , please .
-343	Text_2	Clerk	Ok , any toppings for <pizza_type> 4 cheese </pizza_type> pizza and vegan pizza ?
-344	Text_2	User	No , thanks .
-345	Text_2	Clerk	Ok , what kind of pizza crusts would you like to have ?
-346	Text_2	User	Deep dish for all .
-347	Text_2	Clerk	And what size of pizzas would you like to have ?
-348	Text_2	User	All 3 are <size> large </size> .
-349	Text_2	Clerk	No problem , do you need any sides today ?
-350	Text_2	User	1 green salad , please .
-351	Text_2	Clerk	Ok , do you need any drinks ?
-352	Text_2	User	1 lemon soda and 2 root beers .
-353	Text_2	Clerk	Nice ! Would you like to <modality> pick up </modality> or deliver your order today ?
-354	Text_2	User	How much would it cost for <modality> delivery </modality> ?
-355	Text_2	Clerk	That will charge 3 more dollars on the <modality> delivery </modality> .
-356	Text_2	User	OK , nice . Then delivery , please .
-357	Text_2	Clerk	Wonderful , may I have your address and phone number ?
-358	Text_2	User	My address is <address> 1410 NE Campus Parkway </address> , Seattle , my phone number is 206-123-4567 .
-359	Text_2	Clerk	Ok , so your order for today is <numeric> 73 </numeric> dollars .
-360	Text_2	User	Got it .
-361	Text_2	Clerk	How would you like to pay today ?
-362	Text_2	User	In cash .
-363	Text_2	Clerk	Ok ! So the <modality> delivery </modality> is about 30 minutes . Is that ok ?
-364	Text_2	User	Ok , sure !
-365	Text_2	Clerk	Nice , have a nice day .
-366	Text_3	Clerk	Hello , it 's UW pizza !
-367	Text_3	User	I ’ d like to order some pizza today .
-368	Text_3	Clerk	Ok , may I have your name , please ?
-369	Text_3	User	John .
-370	Text_3	Clerk	Hi John , what would you like to order today ?
-371	Text_3	User	<quant> 2 </quant> <size> small </size> <crust> thin </crust> crust Meat Lovers , please .
-372	Text_3	Clerk	Any extra toppings ?
-373	Text_3	User	No , that ’ s it .
-374	Text_3	Clerk	Any sides for today ?
-375	Text_3	User	1 green salad .
-376	Text_3	Clerk	Ok ! Any drinks ?
-377	Text_3	User	Do you have milk ?
-378	Text_3	Clerk	Sorry , we don ’ t have it . But we have Cola , root beer , orange soda , lemon soda , mineral water , and ginger ale . Do you need any of them ?
-379	Text_3	User	Uh… I think I don ’ t need any then .
-380	Text_3	Clerk	Ok. How would you like to get your order today ? Pick-up or delivery ?
-381	Text_3	User	I ’ d pick it up by myself .
-382	Text_3	Clerk	Nice , may I have your phone number , please ?
-383	Text_3	User	206-123-4567 .
-384	Text_3	Clerk	Ok , and it will take 20 minutes to get your order ready . So please <modality> pick up </modality> your order in <time> 20 minutes </time> .
-385	Text_3	User	Well , I ’ ll be there in <time> 30 minutes </time> .
-386	Text_3	Clerk	Ok , that ’ s fine .
-387	Text_3	User	Great ! Bye !
-388	Text_3	Clerk	Bye !
-389	Text_4	Clerk	Hello , it 's UW pizza ! What can I help you with ?
-390	Text_4	User	Are you busy right now ? How long would it take to get my order ?
-391	Text_4	Clerk	Well , it will usually take about 20 to 30 minutes to get your order ready .
-392	Text_4	User	Cool .
-393	Text_4	Clerk	Ok , may I have your name , please ?
-394	Text_4	User	John Doe .
-395	Text_4	Clerk	Hi John , what would you like to order today ?
-396	Text_4	User	<quant> 1 </quant> <topping> pepperoni </topping> with <topping> extra red onions </topping> , please .
-397	Text_4	Clerk	Ok , what pizza crust would you like ?
-398	Text_4	User	Regular crust .
-399	Text_4	Clerk	Got it . And what pizza size would you like ?
-400	Text_4	User	Medium .
-401	Text_4	Clerk	Would you like to have any sides ?
-402	Text_4	User	Cheese sticks . Do you provide any sauce ?
-403	Text_4	Clerk	Yes , we have ketchup , marinara sauce , as well as plum sauce , jalapeño jelly , barbecue sauce , honey mustard sauce , and ranch dressing . You can pick one .
-404	Text_4	User	Give me some ketchup , please .
-405	Text_4	Clerk	Ok. Would you like to have any drinks ?
-406	Text_4	User	2 orange sodas , please .
-407	Text_4	Clerk	Ok , anything else ?
-408	Text_4	User	That ’ s all . Can you give me <quant> two </quant> forks ?
-409	Text_4	Clerk	Ok. And how would you like to get your order today ? Pick-up or delivery ?
-410	Text_4	User	I ’ ll <modality> pick up </modality> .
-411	Text_4	Clerk	May I have your phone number , please ?
-412	Text_4	User	My phone number is 206-123-4567 .
-413	Text_4	Clerk	Ok , and your total today is <numeric> 24.5 </numeric> dollars . And you are all set . Please come to <modality> pick up </modality> your order in about <time> 30 minutes </time> .
-414	Text_4	User	Ok , great !
-415	Text_4	Clerk	Have a wonderful day !
-416	Text_4	User	Bye !
-417	Text_4	Clerk	Bye .
-418	Text_5	Clerk	Hello , it 's UW pizza ! What can I help you with ?
-419	Text_5	User	1 vegan pizza and <quant> 1 </quant> ginger ale , please .
-420	Text_5	Clerk	Ok , what kind of pizza crust would you like ?
-421	Text_5	User	I ’ m not sure . Which is the cheapest ?
-422	Text_5	Clerk	Well , thin and regular are the cheapest .
-423	Text_5	User	Then I ’ ll go with a <crust> regular </crust> crust .
-424	Text_5	Clerk	Ok , what pizza size would you like ?
-425	Text_5	User	Small size .
-426	Text_5	Clerk	Would you like to have any sides ?
-427	Text_5	User	I ’ m sorry . What ?
-428	Text_5	Clerk	Any side dishes ? We have breadsticks , cheese sticks , green salad , and caesar salad .
-429	Text_5	User	Uhhh… no thanks .
-430	Text_5	Clerk	That alright . And would you like to <modality> pick up </modality> your order or get it <modality> delivered </modality> ?
-431	Text_5	User	Delivery , please .
-432	Text_5	Clerk	Ok , may I have your name , please ?
-433	Text_5	User	John Doe .
-434	Text_5	Clerk	Ok John , may I have your address and phone number , please ?
-435	Text_5	User	My address is <address> 1410 NE Campus Parkway </address> , Seattle , and my phone number is 206-123-4567 .
-436	Text_5	Clerk	Got it . And your total for today is <numeric> 13.5 </numeric> dollars with <quant> 3 </quant> <modality> dollars delivery </modality> fee .
-437	Text_5	User	Ok , how long will it take ?
-438	Text_5	Clerk	It would probably take about 40 minutes .
-439	Text_5	User	Great .
-440	Text_5	Clerk	And you are all set !
-441	Text_5	User	Thank you !
-442	Text_5	Clerk	You ’ re welcome . Have a nice day .
-443	Text_5	User	Bye .
-444	Text_6	Clerk	Hello , it 's UW pizza ! What can I help you with ?
-445	Text_6	User	Hello , do you deliver to <address> 1410 NE Campus Parkway </address> ?
-446	Text_6	Clerk	Let me check… Yes , we do .
-447	Text_6	User	Ok , nice . I ’ d like one cola , one lemon soda and one ginger ale .
-448	Text_6	Clerk	Ok. Would you like to have any pizzas ?
-449	Text_6	User	Ummm… I don ’ t feel like any pizza today .
-450	Text_6	Clerk	That ’ s alright . Would you like to have any salads ?
-451	Text_6	User	No thanks , I ’ m full enough .
-452	Text_6	Clerk	Ok ... So your total is <numeric> 10.5 </numeric> dollars with <quant> 3 </quant> <modality> dollars delivery </modality> fee .
-453	Text_6	User	Ok .
-454	Text_6	Clerk	Nice , may I have your name and your phone number , please ?
-455	Text_6	User	John . 206-123-4567 .
-456	Text_6	Clerk	Got it . And how would you like to pay today ?
-457	Text_6	User	Cash .
-458	Text_6	Clerk	Ok . It will take 20 minutes to get your drinks delivered . Sounds good ?
-459	Text_6	User	Yeah .
-460	Text_6	Clerk	Awesome . Have a wonderful day .
-461	Text_6	User	Thank you .
-462	Text_6	Clerk	You ’ re welcome .
-463	Text_6	User	Bye .
-464	Text_6	Clerk	Bye .
-465	Text_7	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
-466	Text_7	User	Hi , this is John Doe , and one gluten-free small Meat Lovers with extra sausages and <topping> bacon </topping> , please .
-467	Text_7	Clerk	Anything else ?
-468	Text_7	User	Nope .
-469	Text_7	Clerk	How would you like to get your food today ?
-470	Text_7	User	I ’ ll get there and pick it up .
-471	Text_7	Clerk	Ok John , may I have your phone number , please ?
-472	Text_7	User	206-123-4567 .
-473	Text_7	Clerk	Nice . Your total today is <numeric> 21 </numeric> dollars . Please come to <modality> pick up </modality> your order in <time> 30 minutes </time> .
-474	Text_7	User	Nice . Bye !
-475	Text_7	Clerk	Bye : )
-476	Text_8	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
-477	Text_8	User	May I have a <pizza_type> veggie supreme </pizza_type> without red onion , please ?
-478	Text_8	Clerk	Ok , may I have your name first , please ?
-479	Text_8	User	This is John Doe .
-480	Text_8	Clerk	Ok , John , what pizza crust would you like on your <pizza_type> veggie supreme </pizza_type> ?
-481	Text_8	User	Thin crust , please .
-482	Text_8	Clerk	Ok , and what pizza size would you like ?
-483	Text_8	User	Extra large .
-484	Text_8	Clerk	Sorry , we only have small , medium , and <size> large </size> .
-485	Text_8	User	Oh . How large is your large size pizza ?
-486	Text_8	Clerk	The large size pizza is <numeric> 14 </numeric> inches .
-487	Text_8	User	Ok. Then large size , please .
-488	Text_8	Clerk	Gotcha . Would you like to have any sides or drinks today ?
-489	Text_8	User	No , thanks .
-490	Text_8	Clerk	Ok , and how would you like to get your order today ? Pick-up or delivery ?
-491	Text_8	User	I ’ ll pick it up .
-492	Text_8	Clerk	Ok , may I have your phone number , please ?
-493	Text_8	User	206-123-4567 .
-494	Text_8	Clerk	Alright , and you are all set . Your total is <numeric> 14 </numeric> dollars .
-495	Text_8	User	What ? I said I don ’ t want <topping> red onions </topping> . Didn ’ t that make it cheaper ?
-496	Text_8	Clerk	Well , the standard price for a <size> large </size> <pizza_type> veggie supreme </pizza_type> pizza is <numeric> 14 </numeric> dollars . We will put more other ingredients on your pizza . Is that ok ?
-497	Text_8	User	Ok , ok. Fine .
-498	Text_8	Clerk	Ok , please come to <modality> pick up </modality> your order in <time> 20 minutes </time> .
-499	Text_8	User	Got it . Bye !
-500	Text_8	Clerk	Ok , have a wonderful day .
-501	Text_9	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
-502	Text_9	User	<pizza_type> 4 cheese </pizza_type> pizza with <quant> extra </quant> <size> parmesan </size> <pizza_type> cheese </pizza_type> , please .
-503	Text_9	Clerk	Ok , may I have your name , please ?
-504	Text_9	User	John .
-505	Text_9	Clerk	Hi John , we actually don ’ t have <pizza_type> parmesan cheese </pizza_type> . We only have mozzarella , <topping> cheddar </topping> , Swiss , and <topping> provolone cheese </topping> .
-506	Text_9	User	Oh , sorry . I meant extra <topping> provolone cheese </topping> .
-507	Text_9	Clerk	Ok , any extra toppings ?
-508	Text_9	User	Nope .
-509	Text_9	Clerk	Ok , what pizza crust and size would you like for your <pizza_type> 4 cheese </pizza_type> pizza ?
-510	Text_9	User	Medium deep dish crust .
-511	Text_9	Clerk	Got it . Would you like to have any drinks or sides today ?
-512	Text_9	User	Well… lemon soda , please .
-513	Text_9	Clerk	Ok , one lemon soda . Anything else ?
-514	Text_9	User	No , that ’ s all .
-515	Text_9	Clerk	Well then , how would you like to get your order today ? Pick-up or delivery ?
-516	Text_9	User	Delivery .
-517	Text_9	Clerk	Ok John , may I have your address and phone number , please ?
-518	Text_9	User	1410 NE Campus Parkway , Seattle . And my phone number is 206-123-4567 .
-519	Text_9	Clerk	Ok , so your total today is <numeric> 22 </numeric> dollars . And how would you like to make your payment today ?
-520	Text_9	User	Credit card .
-521	Text_9	Clerk	May I have your credit card information ?
-522	Text_9	User	MyCard , 12345 . The expiration date is end of the year .
-523	Text_9	Clerk	Ok , your order will arrive at your place in about <numeric> 40 </numeric> minutes . Is that ok ?
-524	Text_9	User	Ok. great .
-525	Text_9	Clerk	Ok nice . Have a wonderful day !
-526	Text_9	User	Bye !
-527	Text_10	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
-528	Text_10	User	I ’ d like to order , please .
-529	Text_10	Clerk	Ok , may I have your name first , please ?
-530	Text_10	User	John Doe . J-o-h-n D-o-e .
-531	Text_10	Clerk	Hi John , what kind of pizza would you like today ?
-532	Text_10	User	I ’ d like <address> 1 Hawaiian and 1 vegan and 1 breadsticks and 1 caesar salad and 5 mineral water </address> .
-533	Text_10	Clerk	Ok , what pizza crust and size would you like for your Hawaiian pizza ?
-534	Text_10	User	Large thin crust .
-535	Text_10	Clerk	And for your vegan pizza ?
-536	Text_10	User	Also <size> large </size> <crust> thin </crust> crust .
-537	Text_10	Clerk	Ok , just to confirm , did you order other pizzas or just these two pizzas ?
-538	Text_10	User	Just these two .
-539	Text_10	Clerk	Great . And you also like to have one Caesar salad and <quant> five </quant> mineral water right ?
-540	Text_10	User	Yeah , and one breadsticks .
-541	Text_10	Clerk	Ok . Anything else ?
-542	Text_10	User	That ’ s all .
-543	Text_10	Clerk	Ok , Your total today is <numeric> 69.5 </numeric> dollars . And how would you like to get your order today ? Pick-up or delivery ?
-544	Text_10	User	My friend will go pick it up for me . Is that okay ?
-545	Text_10	Clerk	That ’ s fine . But may I have your friend ’ s name and phone number ?
-546	Text_10	User	Jane Smith . J-a-n-e S-m-i-t-h. 206-7654-321 .
-547	Text_10	Clerk	Alright , and how would you like to pay today ?
-548	Text_10	User	My friend will pay in cash .
-549	Text_10	Clerk	Ok , sounds good . Please come to <modality> pick up </modality> your order in <time> 30 minutes </time> .
-550	Text_10	User	Great . Thank you very much !
-551	Text_10	Clerk	You are welcome . Have a nice day .
-552	Text_10	User	Bye-bye !
-553	Text_10	Clerk	Bye~
-554	Text_11	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
-555	Text_11	User	Hi , I would like to have <quant> seven </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas .
-556	Text_11	Clerk	<quant> 7 </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizza , ok , and how ’ d you like your crust ?
-557	Text_11	User	Umm ... can I have thin crust on <quant> three </quant> of them and regular crust on <quant> 3 </quant> of them and deep dish on <quant> 1 </quant> of them , please .
-558	Text_11	Clerk	Ok. Any sides or drinks ?
-559	Text_11	User	Yeah , can I have <quant> 7 </quant> mineral water , please .
-560	Text_11	Clerk	7 mineral water , OK. Would you like to <modality> pick up </modality> your order or get it by <modality> delivery </modality> ?
-561	Text_11	User	Delivery .
-562	Text_11	Clerk	Ok. May I have your name , please ?
-563	Text_11	User	Andy .
-564	Text_11	Clerk	Ok , Andy . And your address and phone number , please ?
-565	Text_11	User	My address is <numeric> 3925 </numeric> Adams Ln NE , Seattle and my phone number is 255-321-7921 .
-566	Text_11	Clerk	Ok , <address> 3925 Adams Ln NE </address> , Seattle . Phone number
-567	Text_11	User	Yup !
-568	Text_11	Clerk	Ok . The total is <numeric> 131.5 </numeric> dollars . How would you like to pay , in cash or credit card ?
-569	Text_11	User	Credit card .
-570	Text_11	Clerk	Ok , may I have your card information , please ?
-571	Text_11	User	The card type is MyCard , the credit card number is <numeric> 12345 </numeric> and the expiration date is end of the year .
-572	Text_11	Clerk	Ok , 12345 and end of the year . Is that right ?
-573	Text_11	User	That ’ s right .
-574	Text_11	Clerk	Great . Your order will be delivered to your place in <time> 45 minutes </time> .
-575	Text_11	User	Ok .
-576	Text_11	Clerk	Thanks for your order . Have a nice day !
-577	Text_11	User	Yup . You too .
-578	Text_12	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
-579	Text_12	User	Hi , my name is Andy , and I would like to have one Meat Lovers and <quant> one </quant> <pizza_type> 4 Cheese </pizza_type> today .
-580	Text_12	Clerk	One Meat Lovers and <quant> one 4 </quant> Cheese . How ’ d you like your crust and size ?
-581	Text_12	User	Well , all thin crust and all medium size , please .
-582	Text_12	Clerk	Thin crust and medium . Would you like any sides ?
-583	Text_12	User	One Caesar salad .
-584	Text_12	Clerk	And any drinks ?
-585	Text_12	User	No thanks .
-586	Text_12	Clerk	Ok , would you like to <modality> pick up </modality> your order or get it by <modality> delivery </modality> ?
-587	Text_12	User	I would like to pick it up myself .
-588	Text_12	Clerk	Sure . The total would be 36 dollars , and your order will be ready in <time> 35 minutes </time> . May I have your phone number ?
-589	Text_12	User	255-321-7921
-590	Text_12	Clerk	255-321-7921 , right ?
-591	Text_12	User	Yup .
-592	Text_12	Clerk	Great , anything else ?
-593	Text_12	User	That ’ s all .
-594	Text_12	Clerk	Thank you for your order . Have a nice day !
-595	Text_12	User	Ok Bye~
-596	Text_13	Clerk	Hello , UW pizza .
-597	Text_13	User	Hi , can I have <quant> one </quant> <size> large </size> <pizza_type> veggie Supreme </pizza_type> with <quant> two </quant> <topping> extra bacon </topping> with thin crust ?
-598	Text_13	Clerk	OK . Anything else ?
-599	Text_13	User	Yeah , uh ... can I also have <quant> two </quant> <pizza_type> cheese </pizza_type> sticks and <quant> two </quant> <beverage> lemon sodas </beverage> , please ?
-600	Text_13	Clerk	With no pizza ?
-601	Text_13	User	Wait what ? I thought I had ordered <quant> one </quant> <size> large </size> <pizza_type> veggie Supreme </pizza_type> pizza .
-602	Text_13	Clerk	No you didn ’ t . So <quant> one </quant> <size> large </size> <pizza_type> veggie supreme </pizza_type> pizza ?
-603	Text_13	User	Uh ... <quant> one </quant> <size> large </size> <pizza_type> veggie Supreme </pizza_type> pizza with <quant> two </quant> <topping> extra bacon </topping> with thin crust , please .
-604	Text_13	Clerk	Ok . Anything else ?
-605	Text_13	User	That ’ s all .
-606	Text_13	Clerk	Would you like to <modality> pick up </modality> your order or get it <modality> delivered </modality> ?
-607	Text_13	User	deliver .
-608	Text_13	Clerk	Ok , that ’ s 48 dollars in total .
-609	Text_13	User	Wait ... why is it 48 but not 45 ? Do you charge any delivery fee ?
-610	Text_13	Clerk	Yeah . If you don ’ t want to get an additional charge , you should come to pick it up .
-611	Text_13	User	No that ’ s fine .
-612	Text_13	Clerk	Ok . So what ’ s your name ?
-613	Text_13	User	Andy .
-614	Text_13	Clerk	And your address ?
-615	Text_13	User	My address is <address> 3925 Adams Ln NE , Seattle </address>
-616	Text_13	Clerk	And your phone number ?
-617	Text_13	User	255-321-7921
-618	Text_13	Clerk	Would you pay in cash or in a credit card ?
-619	Text_13	User	Cash .
-620	Text_13	Clerk	Ok . Your order will be delivered to you in <time> 30 minutes </time> .
-621	Text_13	User	Great . Can ’ t wait for it .
-622	Text_13	Clerk	Thanks for your order at UW pizza .
-623	Text_14	Clerk	Hello , it 's UW pizza !
-624	Text_14	User	Hi , can I just order drinks ?
-625	Text_14	Clerk	Sure . What would you like to drink ?
-626	Text_14	User	Nice . Uh ... do you guys have root beer ?
-627	Text_14	Clerk	Yeah .
-628	Text_14	User	Oh great ! Can I have <quant> 50 </quant> root beer ?
-629	Text_14	Clerk	You what ?
-630	Text_14	User	I would like to have 50 root beer . Is it ok ?
-631	Text_14	Clerk	50 ? I don ’ t think we have that much root beer left . Could you please order something else ?
-632	Text_14	User	oh ok ... then can I have <quant> 10 </quant> for each drink you guys have ?
-633	Text_14	Clerk	10 bottles for each drink ? Including mineral water ?
-634	Text_14	User	Yes .
-635	Text_14	Clerk	Ok , cool .
-636	Text_14	User	How much would that be ?
-637	Text_14	Clerk	... wait a minute . That ’ s 220 dollars .
-638	Text_14	User	Ok. Do you guys do the <modality> delivery </modality> ?
-639	Text_14	Clerk	Yeah ! With a 3-dollar additional charge . Is that okay ?
-640	Text_14	User	That ’ s fine . Here is my address
-641	Text_14	Clerk	3925 Adams Ln NE , Seattle . And may I have your name and phone number , please ?
-642	Text_14	User	Yeah , my number is 255-321-7921
-643	Text_14	Clerk	255-321-7921 . And your name , sir ?
-644	Text_14	User	Andy . How long is it gon na take to deliver them to my place ?
-645	Text_14	Clerk	About 50 minutes .
-646	Text_14	User	Well…that ’ s too long . I think I will just pick it up myself .
-647	Text_14	Clerk	That ’ s fine . Your order will be ready in <time> 10 minutes </time> .
-648	Text_14	User	Ok .
-649	Text_14	Clerk	Thanks for your order today . Have a nice day .
-650	Text_14	User	Yup , you too .
-651	Text_15	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
-652	Text_15	User	Hi , I am wondering if you guys have thin crust pizza ?
-653	Text_15	Clerk	Yes , we do .
-654	Text_15	User	Oh nice . Can I have one Pepperoni with a thin crust in large size ?
-655	Text_15	Clerk	Sure . Any sides or drinks ?
-656	Text_15	User	Um ... let me think ... no , I think I am fine .
-657	Text_15	Clerk	Ok. Would you like to <modality> pick up </modality> your order or get it <modality> delivered </modality> ?
-658	Text_15	User	Delivery , please .
-659	Text_15	Clerk	Ok . The total would be 17 dollars then .
-660	Text_15	User	Ok .
-661	Text_15	Clerk	May I have your name ?
-662	Text_15	User	Andy .
-663	Text_15	Clerk	Andy . May I have your address , please ?
-664	Text_15	User	Wait ... actually , can I <modality> pick up </modality> myself ?
-665	Text_15	Clerk	Oh , sure . If you come pick it up yourself , the total would be 14 dollars .
-666	Text_15	User	Ok .
-667	Text_15	Clerk	May I have your phone number ?
-668	Text_15	User	Ok . Please wait .
-669	Text_15	Clerk	Ok .
-670	Text_15	User	My phone number is 255-321-7921
-671	Text_15	Clerk	255-321-7921 . Great . Your order will be ready in about <time> 15 minutes </time> .
-672	Text_15	User	Oh ... but it takes me 30 minutes to get there . Can you guys start preparing my order after 15 minutes ?
-673	Text_15	Clerk	Sure ! Then come here 30 minutes later and your pizza would be fresh from the oven !
-674	Text_15	User	Ok nice . Thank you .
-675	Text_15	Clerk	Have a nice day !
-676	Text_15	User	You too !
-677	Text_16	Clerk	Hello , it 's UW pizza ! How can I help you today ?
-678	Text_16	User	Hi there . How are you today ?
-679	Text_16	Clerk	I ’ m great ! What would you like to order ?
-680	Text_16	User	Yeah , can I have <quant> 3 </quant> Meat Lovers ?
-681	Text_16	Clerk	3 meat lovers . And how would you like the crust and size ?
-682	Text_16	User	Just regular crust and medium size , please .
-683	Text_16	Clerk	Ok. Would you like any sides ?
-684	Text_16	User	Yes , I would like to have <quant> 3 </quant> <side> cheese sticks </side> .
-685	Text_16	Clerk	<quant> 3 </quant> <side> cheese sticks </side> . And any drinks ?
-686	Text_16	User	No thanks .
-687	Text_16	Clerk	Ok. Would you like to <modality> pick up </modality> your order or get it <modality> delivered </modality> ?
-688	Text_16	User	Deliver , please .
-689	Text_16	Clerk	That would be 42 dollars in total . May I have your name please , sir ?
-690	Text_16	User	Yes , my name is Andy .
-691	Text_16	Clerk	Ok , Andy . May I have your address , please ?
-692	Text_16	User	3925 Adams Ln NE , Seattle
-693	Text_16	Clerk	3925 Adams Ln NE , Seattle . And may I have your phone number ?
-694	Text_16	User	255-321-7921
-695	Text_16	Clerk	255-321-7921 . How would you like to pay , in cash or credit card ?
-696	Text_16	User	Credit card .
-697	Text_16	Clerk	Ok. May I have your credit card information ?
-698	Text_16	User	Yup sure . The card type is MyCard , the credit card number is <numeric> 12345 </numeric> and the expiration date is end of the year .
-699	Text_16	Clerk	Ok . Your pizza will arrive in about <quant> 50 </quant> minutes .
-700	Text_16	User	Sound great .
-701	Text_16	Clerk	Thanks for your order . Bye !
-702	Text_16	User	Yup , bye~
-703	Text_17	Clerk	Hello , UW pizza !
-704	Text_17	User	Hi , can I have <quant> one </quant> <pizza_type> cheese </pizza_type> stick with Caesar salad ?
-705	Text_17	Clerk	Wouldn ’ t you like some pizza ?
-706	Text_17	User	Yeah sure ... um ... can I have <quant> one </quant> <size> small </size> Pepperoni ?
-707	Text_17	Clerk	Ok. Do you need any extra toppings ?
-708	Text_17	User	Well I am ok .
-709	Text_17	Clerk	Ok , then how would you like your crust ?
-710	Text_17	User	Thin crust , please .
-711	Text_17	Clerk	Ok. And what did you order for sides again ?
-712	Text_17	User	Well , one <pizza_type> cheese </pizza_type> stick and one Caesar salad .
-713	Text_17	Clerk	One cheese stick and one Caesar salad . Would you like some drinks ?
-714	Text_17	User	No thanks . And I will <modality> pick up </modality> the order myself .
-715	Text_17	Clerk	Got it . The total would be 31 dollars . May I have your name ?
-716	Text_17	User	Andy .
-717	Text_17	Clerk	Ok , and your phone number ?
-718	Text_17	User	255-321-7921
-719	Text_17	Clerk	255-321-7921 . Great . Thanks for your order . Your order will be ready in <time> 20 minutes </time> .
-720	Text_17	User	Awesome .
-721	Text_17	Clerk	Have a good day . Bye !
-722	Text_17	User	Yup , you also have a good day . Bye .
-723	Text_18	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
-724	Text_18	User	Hi , can I have <quant> 10 </quant> <size> large </size> Pepperoni ?
-725	Text_18	Clerk	<size> 10 large </size> pepperonis . And how would you like your crust ?
-726	Text_18	User	Do you have any suggestions ?
-727	Text_18	Clerk	Gluten-free crust is my favorite ! Would you like to try that ?
-728	Text_18	User	Oh ... um ... I think I would rather have thin crusts .
-729	Text_18	Clerk	Thin crust is nice too !
-730	Text_18	User	But maybe I can have <quant> one </quant> pizza with gluten-free crust to give it a try then .
-731	Text_18	Clerk	So that ’ s 9 thin crust large Pepperoni and <quant> 1 </quant> gluten-free crust large Pepperoni .
-732	Text_18	User	That ’ s right .
-733	Text_18	Clerk	Would you like some sides ? Our cheese sticks are very good !
-734	Text_18	User	Ok , I would like to try one too .
-735	Text_18	Clerk	Ok. And would you like some drinks ?
-736	Text_18	User	No thanks .
-737	Text_18	Clerk	Ok. Would you like to <modality> pick up </modality> your order or get it <modality> delivered </modality> ?
-738	Text_18	User	I would like to get it <modality> delivered </modality> .
-739	Text_18	Clerk	Ok. And the total would be 150 dollars . May I have your name ?
-740	Text_18	User	Andy .
-741	Text_18	Clerk	And your <modality> delivery </modality> address ?
-742	Text_18	User	3925 Adams Ln NE , Seattle
-743	Text_18	Clerk	3925 Adams Ln NE , Seattle . And your phone number ?
-744	Text_18	User	255-321-7921
-745	Text_18	Clerk	255-321-7921 . Ok. And would you like to pay in cash or by credit card ?
-746	Text_18	User	Credit card for sure .
-747	Text_18	Clerk	May I have your credit card information ?
-748	Text_18	User	Yeah . So my card type is MyCard , credit card number is <numeric> 12345 </numeric> and the expiration date is end of the year .
-749	Text_18	Clerk	Great . Your order will arrive in about <quant> 1 </quant> hour and 20 minutes . Is that OK ?
-750	Text_18	User	Ok. That ’ s fine .
-751	Text_18	Clerk	Great . Thanks for your order today . Bye !
-752	Text_18	User	Bye .
-753	Text_19	Clerk	Hi , UW pizza !
-754	Text_19	User	Hi , Can I just order one <pizza_type> cheese </pizza_type> stick ?
-755	Text_19	Clerk	Are you sure you don ’ t need some pizza ?
-756	Text_19	User	Um….that ’ s fine .
-757	Text_19	Clerk	So only <quant> one </quant> <pizza_type> cheese </pizza_type> sticks . Any drinks ?
-758	Text_19	User	No thanks .
-759	Text_19	Clerk	Ok. Would you like to <modality> pick up </modality> your order or get it <modality> delivered </modality> ?
-760	Text_19	User	I would pick it up myself .
-761	Text_19	Clerk	Nice . That ’ s 9 dollars . May I have your name ?
-762	Text_19	User	Andy .
-763	Text_19	Clerk	Andy , Ok. And may I have your phone number , please ?
-764	Text_19	User	255-321-7921 .
-765	Text_19	Clerk	255-321-7921 . Your order will be ready in <time> 10 minutes </time> .
-766	Text_19	User	Ok , sounds great .
-767	Text_19	Clerk	Thank you . Have a good day . Bye !
-768	Text_19	User	Yup . You too .
-769	Text_20	Clerk	Hello , it 's UW pizza .
-770	Text_20	User	Hi , can I have <quant> four </quant> <size> large </size> Pepperoni with thin crusts and one green salad , and <quant> two </quant> <beverage> ginger ale </beverage> , please ?
-771	Text_20	Clerk	Wait a minute… <quant> Four </quant> <size> large </size> pepperonis with thin crusts . And what else ?
-772	Text_20	User	One green salad and <quant> two </quant> <beverage> ginger ale </beverage> , please . And I would like to <modality> pick up </modality> the order myself .
-773	Text_20	Clerk	One green salad and <quant> two </quant> <beverage> ginger ale </beverage> . Pick up . And the total would be 73 dollars . May I have your name ?
-774	Text_20	User	Andy and my phone number is 255-321-7921 .
-775	Text_20	Clerk	Andy . 255-321-7321 . Is that right ?
-776	Text_20	User	No . It ’ s 255-321-7921 .
-777	Text_20	Clerk	255-321-7921 . Ok . Your order will be ready in <time> 40 minutes </time> .
-778	Text_20	User	That long ? !
-779	Text_20	Clerk	Sorry , we ’ re a little busy right now .
-780	Text_20	User	Ok that ’ s fine .
-781	Text_20	Clerk	Thanks for your patience !
-782	Text_20	User	Yup , no worry .
-783	Text_20	Clerk	Have a good day . Bye !
-784	Abnormal_1	Clerk	Hello , it 's UW pizza . What can I help you with today ?
-785	Abnormal_1	User	I ’ d like a Hawaiian pizza , a <pizza_type> 4 cheese </pizza_type> pizza , and a vegan pizza , please .
-786	Abnormal_1	Clerk	...
-787	Abnormal_1	User	Hello ?
-788	Abnormal_1	Clerk	Yup ... sorry , it ’ s a bit noisy and messy here . Would you please repeat your order again ?
-789	Abnormal_1	User	Uh… Ok. I ’ d like a Hawaiian pizza , a <pizza_type> 4 cheese </pizza_type> pizza and a vegan pizza .
-790	Abnormal_1	Clerk	Ok , anything else ?
-791	Abnormal_1	User	That ’ s it .
-792	Abnormal_1	Clerk	Just to go over your order again , so you would like to have one Hawaiian pizza , <pizza_type> four 4 cheese </pizza_type> pizzas .
-793	Abnormal_1	User	I also said a vegan pizza .
-794	Abnormal_1	Clerk	Uh , sorry , what kind of pizza crust and size would you like today ?
-795	Abnormal_1	User	Small size and thin crust for all 3 pizzas .
-796	Abnormal_1	Clerk	Wait three pizzas ! Can I go over your order again ? I am so so sorry . It ’ s really noisy down here . My apology .
-797	Abnormal_1	User	That ’ s okay . Calm down .
-798	Abnormal_1	Clerk	So you would like to have one Hawaiian pizza ?
-799	Abnormal_1	User	Yes .
-800	Abnormal_1	Clerk	And <pizza_type> four 4 cheese </pizza_type> pizzas ?
-801	Abnormal_1	User	No , only one .
-802	Abnormal_1	Clerk	Ok , got it . And one vegan pizza right ?
-803	Abnormal_1	User	That ’ s right .
-804	Abnormal_1	Clerk	Great , and can I have your name really quick ?
-805	Abnormal_1	User	My name is John .
-806	Abnormal_1	Clerk	Ok , John . How would you like to get your order today ? It would probably take more than an hour to deliver your order since it ’ s really busy at the moment .
-807	Abnormal_1	User	Ok , I ’ m fine with that . I ’ ll pick it up myself .
-808	Abnormal_1	Clerk	Ok , then your total today is <numeric> 300 </numeric> dollars . Oh oh ... I mean 30 dollars . My bad .
-809	Abnormal_1	User	That ’ s OK .
-810	Abnormal_1	Clerk	Can I also have your phone number really quick ?
-811	Abnormal_1	User	206-123-4567 .
-812	Abnormal_1	Clerk	Ok , nice . Please come pick it up in <time> 40 minutes </time> .
-813	Abnormal_1	User	Great .
-814	Abnormal_1	Clerk	Ok , have a nice day .
-815	Abnormal_1	User	You too . Bye .
-816	Abnormal_2	Clerk	Hello , it 's UW pizza . What can I help you with today ?
-817	Abnormal_2	User	I ’ d like to order a <pizza_type> veggie supreme </pizza_type> with <crust> regular </crust> crust and medium size . That ’ s all .
-818	Abnormal_2	Clerk	Ok. May I have your name first , please ?
-819	Abnormal_2	User	John Doe .
-820	Abnormal_2	Clerk	Ok John , how would you like to get your order today ?
-821	Abnormal_2	User	By delivery .
-822	Abnormal_2	Clerk	Ok , may I have your address ?
-823	Abnormal_2	User	My address ? <address> 1410 NE Campus Parkway </address> , Seattle .
-824	Abnormal_2	Clerk	Ah ... I am sorry ... I am afraid that we are not able to deliver your order to your area . Is it possible for you to pick it up in person ?
-825	Abnormal_2	User	Um… well , actually no .
-826	Abnormal_2	Clerk	Ok then . Hope you can visit us next time .
-827	Abnormal_2	User	Ok. Bye !
-828	Abnormal_2	Clerk	Bye .
-829	Abnormal_3	Clerk	Hi , UW pizza .
-830	Abnormal_3	User	...
-831	Abnormal_3	Clerk	Hello ?
-832	Abnormal_3	User	Uh ... sorry . The signal just cut off for a second .
-833	Abnormal_3	Clerk	All right . What would you like to order ?
-834	Abnormal_3	User	Can I just have one .….pepperoni pizza ?
-835	Abnormal_3	Clerk	Sorry , one what ?
-836	Abnormal_3	User	<quant> One </quant> <size> large </size> ...
-837	Abnormal_3	Clerk	<quant> One </quant> <size> large </size> what ?
-838	Abnormal_3	User	… ... <pizza_type> pepperoni </pizza_type> pizza ...
-839	Abnormal_3	Clerk	Sorry , your signal is very bad . I can not hear you clearly .
-840	Abnormal_3	User	Oh ... ok. Can I have one~large~pepperoni~pizza ?
-841	Abnormal_3	Clerk	<quant> One </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizza .
-842	Abnormal_3	User	Yup that ’ s right .
-843	Abnormal_3	Clerk	And how would you like your crust ?
-844	Abnormal_3	User	...
-845	Abnormal_3	Clerk	Hello ?
-846	Abnormal_3	User	...
-847	Abnormal_3	Clerk	Hello ? Are you still there ? I think you just cut off again .
-848	Abnormal_3	User	Oh yeah . I am still here . What did you just say ?
-849	Abnormal_3	Clerk	I said how would you like your crust .
-850	Abnormal_3	User	Oh ... thin crust , please .
-851	Abnormal_3	Clerk	Ok , thin crust . Would you like to pick it up or get it <modality> delivered </modality> ?
-852	Abnormal_3	User	...
-853	Abnormal_3	Clerk	Hello ?
-854	Abnormal_3	User	...
-855	Abnormal_3	Clerk	Hello ? Are you still there ?
-856	Abnormal_3	User	( hang up )
-857	Abnormal_4	Clerk	Hi , UW pizza .
-858	Abnormal_4	User	Hi , can I have <quant> one </quant> <size> small </size> <pizza_type> size veggie Supreme </pizza_type> pizza with gluten-free crust ?
-859	Abnormal_4	Clerk	<quant> One </quant> <size> small </size> <pizza_type> size veggie Supreme </pizza_type> pizza . Wait for a second , I ’ ll be right back .
-860	Abnormal_4	User	Oh , ok .
-861	Abnormal_4	Clerk	Sorry , I ’ m back . What would you like your crust for your <pizza_type> veggie supreme </pizza_type> ?
-862	Abnormal_4	User	Yup , gluten-free crust , please .
-863	Abnormal_4	Clerk	Ok , gluten-free crust . Any sides or drinks ?
-864	Abnormal_4	User	Yup , lemon soda , please .
-865	Abnormal_4	Clerk	...
-866	Abnormal_4	User	Hello ?
-867	Abnormal_4	Clerk	… Oh , wait a second . I have to talk with my coworker .
-868	Abnormal_4	User	Ah ... ok .
-869	Abnormal_4	Clerk	Hello ? Are you still there ?
-870	Abnormal_4	User	Yes , so how much is my order in total ?
-871	Abnormal_4	Clerk	Would you like to pick it up or get it <modality> delivered </modality> ?
-872	Abnormal_4	User	Yup , I would like to pick it up myself .
-873	Abnormal_4	Clerk	All right . That ’ s 18 dollars and <quant> 50 </quant> cents in total .
-874	Abnormal_4	User	Ok .
-875	Abnormal_4	Clerk	...
-876	Abnormal_4	User	Uh..hello ? Are you there ?
-877	Abnormal_4	Clerk	Oh , sorry . Could you wait for another second ?
-878	Abnormal_4	User	Uh ... I think I am done for today… ( hang up )
+Conversation	Speaker	Transcript
+Spoken_1	Clerk	Hello , this is UW pizza . How are you doing today ?
+Spoken_1	User	Ah ... I need to order a pizza .
+Spoken_1	Clerk	Ok. ah ... would you like to <modality> pick up </modality> your order or get it delivered ?
+Spoken_1	User	Delivery please .
+Spoken_1	Clerk	Ok. Ah ... can I have your address and phone number please .
+Spoken_1	User	Address is <address> 1410 NE Campus Parkway Seattle , WA 98195 </address> .
+Spoken_1	Clerk	Ok ... can I also have your phone number ?
+Spoken_1	User	My phone number is <number> 206-123-4567 </number>
+Spoken_1	Clerk	Nice . Ah ... can I also get your name ?
+Spoken_1	User	My name is John .
+Spoken_1	Clerk	Ok John , what would you like to order today ?
+Spoken_1	User	I like to order <pizza_type> 4 cheese </pizza_type> pizza .
+Spoken_1	Clerk	Ok , <pizza_type> 4 cheese </pizza_type> pizza . Do you need any extra toppings on your <pizza_type> 4 cheese </pizza_type> pizza ?
+Spoken_1	User	I need black <topping> olives </topping> , <topping> mushrooms </topping> , and <topping> green peppers </topping> .
+Spoken_1	Clerk	Ok , anything else ?
+Spoken_1	User	Nope , that ’ s it .
+Spoken_1	Clerk	Ok , and what kind of pizza crust would you like to have today ? We got thin , regular , deep dish and gluten-free crusts .
+Spoken_1	User	Regular .
+Spoken_1	Clerk	Ok so regular crust . And what size would you like to have for your pizza ?
+Spoken_1	User	Medium .
+Spoken_1	Clerk	Ok , and do you need any sides for your order ?
+Spoken_1	User	One Caesar salad .
+Spoken_1	Clerk	Ok , one Caesar salad . And would you like to have any drinks ?
+Spoken_1	User	One Cola .
+Spoken_1	Clerk	Ok , one Cola . Ok , ah just to make sure your order is correct . So you have a <pizza_type> 4 cheese </pizza_type> pizza with <topping> extra black olives </topping> , <topping> green peppers </topping> and <topping> mushrooms </topping> ... and you also have <crust> regular </crust> crust ... and your size for your pizza is medium with Caesar salad as side dish , and you also order one Cola for your drink . Is that all correct ?
+Spoken_1	User	Yeah . That ’ s correct .
+Spoken_1	Clerk	Ok , that ’ s nice . So your total for today will be 33.5 dollars plus 3 dollars deliver fee . Does that sound good to you ?
+Spoken_1	User	Oh that ’ s good .
+Spoken_1	Clerk	Ok so your order will be at your house in <time> 30 minutes </time> . And you are all set . Wish you a good day . Bye .
+Spoken_1	User	Bye .
+Spoken_2	Clerk	Hello , this is UW pizza . What can I help you today ?
+Spoken_2	User	I ’ d like to order .
+Spoken_2	Clerk	O~k~.Would you like to <modality> pick up </modality> your pizza or would you like your pizza to be delivered ?
+Spoken_2	User	I like to <modality> pick up </modality> .
+Spoken_2	Clerk	<modality> Ok pick up </modality> .
+Spoken_2	User	Yes .
+Spoken_2	Clerk	Ok that ’ s fine . Can I have your address and phone number please ?
+Spoken_2	User	My address is Address is <address> 1410 NE Campus Parkway Seattle </address> .
+Spoken_2	Clerk	Um hum .
+Spoken_2	User	WA 98195 .
+Spoken_2	Clerk	And also your phone number ?
+Spoken_2	User	Oh , my phone number is 206-123-4567 .
+Spoken_2	Clerk	O~k~ ... and what would you like to order today ?
+Spoken_2	User	I would like to have <quant> one </quant> <pizza_type> pepperoni </pizza_type> , one Meat Lover and <quant> one </quant> <pizza_type> veggie supreme </pizza_type> .
+Spoken_2	Clerk	Um hum ... and would you like any extra toppings for each of your pizza ?
+Spoken_2	User	Oh no , that ’ s enough .
+Spoken_2	Clerk	And what kind of pizza crust would you like for each of your pizza ?
+Spoken_2	User	Uh ... thin crust for pepper , and regular crust for Meat Lover and <crust> deep dish </crust> for <pizza_type> veggie supreme </pizza_type> .
+Spoken_2	Clerk	Ok. And what size would you like for each of your pizza ?
+Spoken_2	User	All large .
+Spoken_2	Clerk	Ok , all of them are large .
+Spoken_2	User	Yeah .
+Spoken_2	Clerk	Sounds good sounds good . And do you need any other side dishes ?
+Spoken_2	User	Side dish…uh I need one bread stick and <quant> one </quant> <pizza_type> cheese </pizza_type> stick .
+Spoken_2	Clerk	Ok. Do you need any drinks ?
+Spoken_2	User	Five root beers .
+Spoken_2	Clerk	Ok. Just to repeat your order . You like to have <quant> one </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> with <crust> thin </crust> crust , <quant> one </quant> <size> large </size> Meat Lover with <crust> regular </crust> crust and <quant> one </quant> <size> large </size> <pizza_type> veggie supreme </pizza_type> with <crust> deep dish </crust> crust .
+Spoken_2	User	Um .
+Spoken_2	Clerk	And you also order one <pizza_type> cheese </pizza_type> stick and bread stick for your side dish .
+Spoken_2	User	Yeah .
+Spoken_2	Clerk	And you also order five root beers for your drink .
+Spoken_2	User	Yes .
+Spoken_2	Clerk	Are they all correct ?
+Spoken_2	User	Correct .
+Spoken_2	Clerk	Ok . So the total for your order will be 80.5 dollars . Can I have your credit card information ?
+Spoken_2	User	Yes , my card type is MyCard , and my credit card number is <numeric> 12345 </numeric> , and the expiration date is end of the year .
+Spoken_2	Clerk	Ok , and you are all set . Ah ... you can <modality> pick up </modality> in <time> 45 minutes </time> . Is that ok ?
+Spoken_2	User	Ok. That ’ s ok .
+Spoken_2	Clerk	Ok , have a good day .
+Spoken_2	User	Bye .
+Spoken_2	Clerk	Bye .
+Spoken_2	User	Thank you .
+Spoken_2	Clerk	Thank you .
+Spoken_3	Clerk	Hello , this is UW pizza . What can I help you today ?
+Spoken_3	User	I like to order a Hawaiin pizza with <quant> no </quant> <topping> pineapple </topping> .
+Spoken_3	Clerk	Ok ... before you make your order , can I have your name ?
+Spoken_3	User	Ohohoh ... my name is John .
+Spoken_3	Clerk	Ok , would you like to <modality> pick up </modality> your pizza or would you like your pizza to be delivered ?
+Spoken_3	User	I like to get my pizza delivered .
+Spoken_3	Clerk	Ok nice ... ah ... can I also have your address and phone number please ?
+Spoken_3	User	My address is Address is <address> 1410 NE Campus Parkway Seattle , WA 98195 </address> .
+Spoken_3	Clerk	Un hum . And you phone number ?
+Spoken_3	User	my phone number is 206-123-4567 .
+Spoken_3	Clerk	Ok nice . And what would you like to order today ?
+Spoken_3	User	Oh , I like to order a Hawaiin pizza without no <topping> pineapple </topping> .
+Spoken_3	Clerk	O~~k~uh ... that ’ s unusual cuz our Hawaiin pizza usually comes with <topping> pineapple </topping> .
+Spoken_3	User	But I hate <topping> pineapple </topping> . So I don ’ t want <topping> pineapple </topping> on my pizza .
+Spoken_3	Clerk	Oh really . Ah ... let me ask our chef ... I will get back to you in one second .
+Spoken_3	User	Ok~
+Spoken_3	Clerk	Hi John ... after checking with our chef , our Hawaiin pizza must go with <topping> pineapple </topping> . Is it still working for you ? Or do you wan na order other pizza ?
+Spoken_3	User	Uh uh ... no..I thought I can just order the pizza with <topping> only ham </topping> , mozzarella instead .
+Spoken_3	Clerk	oh ok…so you wan na customize your pizza . So do you need extra toppings on your customized pizza ?
+Spoken_3	User	No , that ’ s it .
+Spoken_3	Clerk	Um ... what kind of pizza crust would you like to have on your customized pizza ?
+Spoken_3	User	Gluten free please .
+Spoken_3	Clerk	Ok. Um ... what size is your pizza ?
+Spoken_3	User	Small size .
+Spoken_3	Clerk	O~k . Do you need any side dishes ?
+Spoken_3	User	No thanks .
+Spoken_3	Clerk	Ok , do you need any drinks ?
+Spoken_3	User	No .
+Spoken_3	Clerk	Ok , just to double check your order today . So you would like to have one customized pizza , that is pizza with <topping> only ham </topping> and mozzarella with <crust> gluten free </crust> crust and medium size . Is that… ( interrupted )
+Spoken_3	User	Uh no , I said it is <size> small </size> size .
+Spoken_3	Clerk	Oh , sorry about that . So it is a <size> small </size> size pizza . And your total today will be <address> 15 plus 3 dollars delivery fee </address> . And it ’ s gon na take about 30 minutes to get it delivered to your place . Does it sound good ?
+Spoken_3	User	There is a <quant> 3 </quant> <beverage> dollars </beverage> <modality> delivery </modality> fee ?
+Spoken_3	Clerk	Yes .
+Spoken_3	User	Oh I think I can just go pick today .
+Spoken_3	Clerk	O~k . So the total will be 15 dollars instead .
+Spoken_3	User	Ok .
+Spoken_3	Clerk	And you can <modality> pick up </modality> your pizza in <time> 15 minutes </time> . Does that sound good to you ?
+Spoken_3	User	Sounds nice .
+Spoken_3	Clerk	Ok , have a nice day !
+Spoken_3	User	Thank you , bye bye .
+Spoken_3	Clerk	Bye~
+Spoken_4	Clerk	Hello , this is UW pizza .
+Spoken_4	User	Hi , I ’ d like to order pizza today .
+Spoken_4	Clerk	OK , do you want delivery or pick-up ?
+Spoken_4	User	Yeah , I ’ d like to ... I ’ d like my pizza to get delivered .
+Spoken_4	Clerk	OK , so may I have your name ?
+Spoken_4	User	Yeah , my name is Andy .
+Spoken_4	Clerk	Andy . And may I have your address ?
+Spoken_4	User	My address is <numeric> 3925 </numeric> Adams Lane Northeast , Seattle .
+Spoken_4	Clerk	OK , and your phone number ?
+Spoken_4	User	My phone number is 255-321-7921 .
+Spoken_4	Clerk	OK , and what would you like to order ?
+Spoken_4	User	Can I have <topping> pepperoni </topping> ?
+Spoken_4	Clerk	One pepperoni .
+Spoken_4	User	Yeah , one <pizza_type> pepperoni </pizza_type> .
+Spoken_4	Clerk	OK , do you need any extra toppings for your <pizza_type> pepperoni </pizza_type> ?
+Spoken_4	User	Yes , can I have <quant> one </quant> <topping> mushrooms </topping> ?
+Spoken_4	Clerk	OK , <topping> mushrooms </topping> . That ’ s it ?
+Spoken_4	User	Yeah , that ’ s it .
+Spoken_4	Clerk	OK , and how would you like your pizza crust , thin , regular , deep dish , or gluten-free ?
+Spoken_4	User	Yeah , just ... just thin . Just thin crust .
+Spoken_4	Clerk	OK , thin crust . And how would you like your pizza size ?
+Spoken_4	User	Large size would be nice .
+Spoken_4	Clerk	OK , large size . And do you like… Would you like any side dishes ?
+Spoken_4	User	Yeah , can I have Caesar salad ?
+Spoken_4	Clerk	OK , one Cassar salad . And any drinks ?
+Spoken_4	User	Yeah , can I have mineral water ?
+Spoken_4	Clerk	One mineral water . OK , let me double-check your order . And you ordered one… <quant> one </quant> <pizza_type> pepperoni </pizza_type> with <topping> extra mushrooms </topping> topping , thin crust , and <size> large </size> size . One Caesar salad , and one mineral water .
+Spoken_4	User	Yeah , that ’ s right .
+Spoken_4	Clerk	OK , and the total is <numeric> 32.5 </numeric> dollars , and plus a <quant> 3 </quant> <beverage> dollars </beverage> <modality> delivery </modality> fee , so that ’ s 35.5 in total . Is that okay ?
+Spoken_4	User	Yeah , sounds good to me .
+Spoken_4	Clerk	So do you like to pay in cash or credit card ?
+Spoken_4	User	I ’ m gon na go with credit card .
+Spoken_4	Clerk	OK , so may I have your credit card information ?
+Spoken_4	User	Yeah , so my card type is MyCard , and my credit card number is <numeric> 12345 </numeric> , and the expiration date is end of the year .
+Spoken_4	Clerk	OK. Then the <modality> delivery </modality> time will be about 30 minutes . Is that okay ?
+Spoken_4	User	Yeah , sounds good to me .
+Spoken_4	Clerk	OK , thank you for… thank you for your order today . Have a nice day . Bye .
+Spoken_4	User	Yeah . Bye .
+Spoken_5	Clerk	Hello , it ’ s UW pizza .
+Spoken_5	User	Yeah . Hi , hello . I ’ d like… I ’ d like to order pizza .
+Spoken_5	Clerk	OK. Do you want your pizza delivered to you or pick-up ?
+Spoken_5	User	I ’ ll like to… I ’ ll like to go for <modality> delivery </modality> .
+Spoken_5	Clerk	OK . So may I have your name , please ?
+Spoken_5	User	Yes . My name is Andy .
+Spoken_5	Clerk	And may I have your address ?
+Spoken_5	User	Yeah . My address is <numeric> 3925 </numeric> Adams Lane Northeast , Seattle .
+Spoken_5	Clerk	OK . Your address is <numeric> 3925 </numeric> Adams Lane Northeast , Seattle .
+Spoken_5	User	Yes .
+Spoken_5	Clerk	Is that correct ? OK .
+Spoken_5	User	Yeah .
+Spoken_5	Clerk	May I have your phone number ?
+Spoken_5	User	Yeah . So it ’ s 255-321-7921 .
+Spoken_5	Clerk	255-321-7921 . OK. And what ’ d you like to order ?
+Spoken_5	User	Yeah . What kinds of pizza do you guys have ? Sorry , I don ’ t have menu .
+Spoken_5	Clerk	Oh . We have Hawaiian , meat lovers , <pizza_type> 4 cheese </pizza_type> , <pizza_type> pepperoni </pizza_type> , veg… <pizza_type> veggie supreme </pizza_type> , and vegan .
+Spoken_5	User	Um… yeah . I think meat lovers is… yeah , is ... Does… Does meat lovers have lots of meat ?
+Spoken_5	Clerk	Yeah . It comes… It has mozzarella cheese , <pizza_type> pepperoni </pizza_type> , <topping> ham </topping> , <topping> bacon </topping> , and <topping> sausage </topping> .
+Spoken_5	User	OK , sounds good . I ’ m gon na go for that one .
+Spoken_5	Clerk	OK .
+Spoken_5	User	Yeah .
+Spoken_5	Clerk	One meat lover , okay .
+Spoken_5	User	One meat lovers , yeah .
+Spoken_5	Clerk	Do you need any extra topping for your meat lovers ?
+Spoken_5	User	Yeah . Can I have extra mozzarella cheese and <topping> cheddar cheese </topping> ?
+Spoken_5	Clerk	Oh . Extra mozzarella cheese and <topping> cheddar cheese </topping> ? OK .
+Spoken_5	User	Yeah , yes .
+Spoken_5	Clerk	And how would you like your pizza crust ?
+Spoken_5	User	Uh… can I have a… Do you guys have a gluten-free crust ?
+Spoken_5	Clerk	Yeah , we have .
+Spoken_5	User	Oh yeah , yeah . I , yeah , I ’ ll like to have a gluten-free crust .
+Spoken_5	Clerk	OK , gluten-free pizza crust . And how would you like your pizza size ?
+Spoken_5	User	Um… just medium .
+Spoken_5	Clerk	Okay , medium size . And would you like any side dishes ?
+Spoken_5	User	Uh… Do you guys have… breadsticks ?
+Spoken_5	Clerk	One breadsticks . Okay .
+Spoken_5	User	So you guys have breadsticks . Okay .
+Spoken_5	Clerk	Yeah .
+Spoken_5	User	Okay .
+Spoken_5	Clerk	Okay . And do you need any drinks ?
+Spoken_5	User	Yeah . Can I have… What kind of drinks do you guys have ?
+Spoken_5	Clerk	We have cola , root beer , orange soda , lemon soda , mineral water , and ginger ale .
+Spoken_5	User	Ok , can I have one lemon soda ?
+Spoken_5	Clerk	One lemon soda . Okay . And may I check with your order again ?
+Spoken_5	User	Yeah , sure .
+Spoken_5	Clerk	One meat lovers with <pizza_type> extra mozzarella cheese </pizza_type> and <topping> cheddar cheese </topping> .
+Spoken_5	User	Uh-huh .
+Spoken_5	Clerk	And gluten-free… gluten-free pizza crust .
+Spoken_5	User	Uh-huh .
+Spoken_5	Clerk	Medium size . And one breadsticks and one lemon soda . Is that correct ?
+Spoken_5	User	Oh , yeah . But can I also have one extra topping ?
+Spoken_5	Clerk	Oh , sure .
+Spoken_5	User	I wan na add the <topping> red onions </topping> to my meat lovers .
+Spoken_5	Clerk	So you now have mozzarella , and <topping> cheddar cheese </topping> and <topping> red onions </topping> topping .
+Spoken_5	User	Yeah .
+Spoken_5	Clerk	Correct ?
+Spoken_5	User	Yeah .
+Spoken_5	Clerk	OK. And… how would you like to pay , in cash or credit card ?
+Spoken_5	User	Credit card .
+Spoken_5	Clerk	OK , credit card . And may I have your credit card information ?
+Spoken_5	User	Yeah , so my credit card information is ... MyCard type , number is <numeric> 12345 </numeric> . And the ...
+Spoken_5	Clerk	OK .
+Spoken_5	User	... expiration year is end of the year .
+Spoken_5	Clerk	OK. And your total price is… the price of your order is <numeric> 33.5 </numeric> dollars and plus a <quant> 3 </quant> <beverage> dollars </beverage> <modality> delivery </modality> fee . That ’ s ... total is <numeric> 36.5 </numeric> dollars .
+Spoken_5	User	OK. That ’ s fine . How long is the ...
+Spoken_5	Clerk	OK . Your delivery will be about ... 40 minutes . Is that okay ?
+Spoken_5	User	OK. That ’ s okay .
+Spoken_5	Clerk	So thank you for your order . Have a nice day .
+Spoken_5	User	Yeah , you too . Thanks .
+Spoken_5	Clerk	Bye .
+Spoken_5	User	Bye .
+Spoken_6	Clerk	Hello , this is UW pizza .
+Spoken_6	User	Yeah , hi . I ’ ll love… I ’ ll love to order a pizza today .
+Spoken_6	Clerk	Ok. You want delivery or pick-up ?
+Spoken_6	User	Um… I think I ’ m just gon na <modality> pick up </modality> today .
+Spoken_6	Clerk	Pick-up . So… may I have your name , please ?
+Spoken_6	User	Yeah . My name… my name is Andy .
+Spoken_6	Clerk	Ok. And may I have your address ?
+Spoken_6	User	I think you don ’ t need my address if I do the…
+Spoken_6	Clerk	Oh !
+Spoken_6	User	... pick-up .
+Spoken_6	Clerk	Oh yeah ! You said you wan na pick-up ! Okay . May I have your phone number ?
+Spoken_6	User	Yeah . My phone number is 255-321-7921 .
+Spoken_6	Clerk	Okay . And… thank you . What would you like to order ?
+Spoken_6	User	Yeah . So for today , I ’ d like to have <quant> two </quant> <pizza_type> pepperoni </pizza_type> , and one vegan .
+Spoken_6	Clerk	Two pepperoni and one vegan . Okay , and do you need any extra toppings for your pizzas ?
+Spoken_6	User	Yeah . So can I have extra mozzarella cheese for both of my pepperonis ?
+Spoken_6	Clerk	Okay .
+Spoken_6	User	And bacon for my vegan pizza .
+Spoken_6	Clerk	Okay . And how would you like your pizza crust ?
+Spoken_6	User	Thin crust for <quant> two </quant> pepperonis , and deep dish for vegan .
+Spoken_6	Clerk	Okay . And how would you like your pizza size ?
+Spoken_6	User	Size ? Um… large for <quant> two </quant> pepperonis , and medium for vegan .
+Spoken_6	Clerk	Okay . And do you need any side dishes ? Or drinks ?
+Spoken_6	User	Yeah . Um… can I have a green salad ?
+Spoken_6	Clerk	One green salad . Okay .
+Spoken_6	User	Excuse me . How much is the green salad ?
+Spoken_6	Clerk	Oh , the green salad is ten dollars .
+Spoken_6	User	OK , OK. That ’ s OK .
+Spoken_6	Clerk	OK. And do you need any drinks ?
+Spoken_6	User	Yeah . Can I have <quant> two </quant> root beer and one ginger ale ?
+Spoken_6	Clerk	Two root beer and one ginger ale . OK . So that ’ s… the total is <numeric> 68.5 </numeric> dollars . Is that okay ?
+Spoken_6	User	Why is that so expensive ?
+Spoken_6	Clerk	... why is that so expensive… um ...
+Spoken_6	User	Can you double-check my order today ?
+Spoken_6	Clerk	OK , OK. And ...
+Spoken_6	User	I don ’ t expect that much .
+Spoken_6	Clerk	OK . Your order is… <quant> two </quant> <beverage> pepperoni… </beverage>
+Spoken_6	User	Uh-huh .
+Spoken_6	Clerk	Two pepperoni with <address> extra mozzarella and… mozzarella cheese </address> , and thin pizza crust , and <size> large </size> size .
+Spoken_6	User	Uh-huh .
+Spoken_6	Clerk	And one vegan pizza with <topping> extra bacon </topping> topping ...
+Spoken_6	User	Okay .
+Spoken_6	Clerk	with <crust> deep dish </crust> crust and medium size .
+Spoken_6	User	OK .
+Spoken_6	Clerk	OK. And you ordered… your side dish is green salad , and <quant> two </quant> <beverage> root beer </beverage> and one ginger ale . Is that correct ?
+Spoken_6	User	Oh . Excuse me , maybe I don ’ t want… I don ’ t want to have green salad today , and also ...
+Spoken_6	Clerk	Oh .
+Spoken_6	User	For drinks… only two root beer would be enough . Yeah .
+Spoken_6	Clerk	So you don ’ t need… green salad and ... ginger ale ?
+Spoken_6	User	Yeah , exactly .
+Spoken_6	Clerk	Oh , so… okay . Only two root beers . No side dish .
+Spoken_6	User	OK. yeah .
+Spoken_6	Clerk	OK . So the total would be… 55 dollars .
+Spoken_6	User	Okay .
+Spoken_6	Clerk	So the ... your order will be ready in about ... 20 minutes .
+Spoken_6	User	Oh , 20 minutes . So if I ...
+Spoken_6	Clerk	You can come here… yeah , you should come here after 20 minutes .
+Spoken_6	User	And how long is it gon na take if I go for <modality> delivery </modality> option ?
+Spoken_6	Clerk	The delivery will… if you go delivery , I think… it will take about 40 minutes .
+Spoken_6	User	Oh , okay . Sounds okay to me . And can I go with the <modality> delivery </modality> option ?
+Spoken_6	Clerk	Oh , okay . Change for <modality> delivery </modality> . So may I have your address , sir ?
+Spoken_6	User	Yeah , sure . So my address is <numeric> 3925 </numeric> Adams Lane Northeast , Seattle .
+Spoken_6	Clerk	Okay . Okay . So the delivery… three dollars of delivery fee will be charged . Is that okay ?
+Spoken_6	User	Yeah .
+Spoken_6	Clerk	Okay . The total would be 58 dollars .
+Spoken_6	User	OK .
+Spoken_6	Clerk	OK . Thank you for your order . Have a nice day .
+Spoken_6	User	Wait… do you need my card information ?
+Spoken_6	Clerk	I think you said you ’ d like to <modality> pick up </modality> .
+Spoken_6	User	Yeah , but I changed to <modality> delivery </modality> option . So ...
+Spoken_6	Clerk	Oh , okay .
+Spoken_6	User	... you need my ...
+Spoken_6	Clerk	Do you… do you need to… Do you like to pay in cash or credit card ?
+Spoken_6	User	Yeah , go for a credit card . yeah .
+Spoken_6	Clerk	Oh , okay . You ’ d like to pay in credit card . So may I have your credit card number ?
+Spoken_6	User	Yeah , sure . So my card type is MyCard . And ...
+Spoken_6	Clerk	OK .
+Spoken_6	User	Credit card number is <numeric> 12345 </numeric> .
+Spoken_6	Clerk	OK .
+Spoken_6	User	And the expiration… expiration date is end of the year .
+Spoken_6	Clerk	OK. OK . Thank you for your ... Thank you for your order .
+Spoken_6	User	OK , thank you .
+Spoken_6	Clerk	Thank you . Have a nice day .
+Spoken_6	User	You too .
+Spoken_6	Clerk	Bye .
+Spoken_6	User	Bye .
+Text_1	Clerk	Hello , it 's UW pizza !
+Text_1	User	I would like to order <pizza_type> 1 veggie supreme </pizza_type> .
+Text_1	Clerk	ok , may I have your name first , please ?
+Text_1	User	My name is John Doe .
+Text_1	Clerk	Ok John , do you need extra toppings on your <pizza_type> veggie supreme </pizza_type> ?
+Text_1	User	No , thanks .
+Text_1	Clerk	Ok , what kind of pizza crusts would you like to have ?
+Text_1	User	What kind of pizza crusts do you have ?
+Text_1	Clerk	We got thin , regular , deep dish , and gluten-free .
+Text_1	User	Then I would like to have a <crust> deep dish </crust> crust , please .
+Text_1	Clerk	Ok , what size of pizza would you like to have ?
+Text_1	User	Large .
+Text_1	Clerk	Ok , would you like to have any sides ?
+Text_1	User	No , please .
+Text_1	Clerk	do you need any drinks ?
+Text_1	User	No , thanks .
+Text_1	Clerk	That 's alright ! Would you like to <modality> pick up </modality> or deliver your order today ?
+Text_1	User	I 'd go for pick-up .
+Text_1	Clerk	May I have your address and phone number , please ?
+Text_1	User	Why do you need my address ?
+Text_1	Clerk	Oh ! My bad . May I have your phone number , please ?
+Text_1	User	Oh , that 's OK. My phone number is 206-123-4567 .
+Text_1	Clerk	Got you ! So your order for today is <numeric> 16 </numeric> dollars . What would you like to pay today ?
+Text_1	User	Could I decide that when I arrive ?
+Text_1	Clerk	Yeah , that 's totally fine ! And you are all set ! please come to <modality> pick up </modality> your order in <time> 25 minutes </time> .
+Text_1	User	Ok , I 'll be there soon . Bye !
+Text_1	Clerk	Ok , have a wonderful day .
+Text_2	Clerk	Hello , it 's UW pizza !
+Text_2	User	Hi , I ’ d like to order 1 Hawaiian pizza , <quant> 1 </quant> <pizza_type> 4 cheese </pizza_type> pizza , and <quant> 1 </quant> vegan pizza .
+Text_2	Clerk	Ok , may I have your name , please ?
+Text_2	User	I ’ m John .
+Text_2	Clerk	Ok John , would you like to have extra toppings on your pizzas ?
+Text_2	User	Yes , extra Provolone cheese for Hawaiian , please .
+Text_2	Clerk	Ok , any toppings for <pizza_type> 4 cheese </pizza_type> pizza and vegan pizza ?
+Text_2	User	No , thanks .
+Text_2	Clerk	Ok , what kind of pizza crusts would you like to have ?
+Text_2	User	Deep dish for all .
+Text_2	Clerk	And what size of pizzas would you like to have ?
+Text_2	User	All 3 are <size> large </size> .
+Text_2	Clerk	No problem , do you need any sides today ?
+Text_2	User	1 green salad , please .
+Text_2	Clerk	Ok , do you need any drinks ?
+Text_2	User	1 lemon soda and 2 root beers .
+Text_2	Clerk	Nice ! Would you like to <modality> pick up </modality> or deliver your order today ?
+Text_2	User	How much would it cost for <modality> delivery </modality> ?
+Text_2	Clerk	That will charge 3 more dollars on the delivery .
+Text_2	User	OK , nice . Then delivery , please .
+Text_2	Clerk	Wonderful , may I have your address and phone number ?
+Text_2	User	My address is <numeric> 1410 </numeric> NE Campus Parkway , Seattle , my phone number is 206-123-4567 .
+Text_2	Clerk	Ok , so your order for today is <numeric> 73 </numeric> dollars .
+Text_2	User	Got it .
+Text_2	Clerk	How would you like to pay today ?
+Text_2	User	In cash .
+Text_2	Clerk	Ok ! So the <modality> delivery </modality> is about 30 minutes . Is that ok ?
+Text_2	User	Ok , sure !
+Text_2	Clerk	Nice , have a nice day .
+Text_3	Clerk	Hello , it 's UW pizza !
+Text_3	User	I ’ d like to order some pizza today .
+Text_3	Clerk	Ok , may I have your name , please ?
+Text_3	User	John .
+Text_3	Clerk	Hi John , what would you like to order today ?
+Text_3	User	<quant> 2 </quant> <size> small </size> <crust> thin </crust> crust Meat Lovers , please .
+Text_3	Clerk	Any extra toppings ?
+Text_3	User	No , that ’ s it .
+Text_3	Clerk	Any sides for today ?
+Text_3	User	1 green salad .
+Text_3	Clerk	Ok ! Any drinks ?
+Text_3	User	Do you have milk ?
+Text_3	Clerk	Sorry , we don ’ t have it . But we have Cola , root beer , orange soda , lemon soda , mineral water , and ginger ale . Do you need any of them ?
+Text_3	User	Uh… I think I don ’ t need any then .
+Text_3	Clerk	Ok. How would you like to get your order today ? Pick-up or <modality> delivery </modality> ?
+Text_3	User	I ’ d pick it up by myself .
+Text_3	Clerk	Nice , may I have your phone number , please ?
+Text_3	User	206-123-4567 .
+Text_3	Clerk	Ok , and it will take 20 minutes to get your order ready . So please <modality> pick up </modality> your order in <time> 20 minutes </time> .
+Text_3	User	Well , I ’ ll be there in <time> 30 minutes </time> .
+Text_3	Clerk	Ok , that ’ s fine .
+Text_3	User	Great ! Bye !
+Text_3	Clerk	Bye !
+Text_4	Clerk	Hello , it 's UW pizza ! What can I help you with ?
+Text_4	User	Are you busy right now ? How long would it take to get my order ?
+Text_4	Clerk	Well , it will usually take about 20 to 30 minutes to get your order ready .
+Text_4	User	Cool .
+Text_4	Clerk	Ok , may I have your name , please ?
+Text_4	User	John Doe .
+Text_4	Clerk	Hi John , what would you like to order today ?
+Text_4	User	<quant> 1 </quant> <topping> pepperoni </topping> with <topping> extra red onions </topping> , please .
+Text_4	Clerk	Ok , what pizza crust would you like ?
+Text_4	User	Regular crust .
+Text_4	Clerk	Got it . And what pizza size would you like ?
+Text_4	User	Medium .
+Text_4	Clerk	Would you like to have any sides ?
+Text_4	User	Cheese sticks . Do you provide any sauce ?
+Text_4	Clerk	Yes , we have ketchup , marinara sauce , as well as plum sauce , jalapeño jelly , barbecue sauce , honey mustard sauce , and ranch dressing . You can pick one .
+Text_4	User	Give me some ketchup , please .
+Text_4	Clerk	Ok. Would you like to have any drinks ?
+Text_4	User	2 orange sodas , please .
+Text_4	Clerk	Ok , anything else ?
+Text_4	User	That ’ s all . Can you give me two forks ?
+Text_4	Clerk	Ok. And how would you like to get your order today ? Pick-up or <modality> delivery </modality> ?
+Text_4	User	I ’ ll <modality> pick up </modality> .
+Text_4	Clerk	May I have your phone number , please ?
+Text_4	User	My phone number is 206-123-4567 .
+Text_4	Clerk	Ok , and your total today is <numeric> 24.5 </numeric> dollars . And you are all set . Please come to <modality> pick up </modality> your order in about <time> 30 minutes </time> .
+Text_4	User	Ok , great !
+Text_4	Clerk	Have a wonderful day !
+Text_4	User	Bye !
+Text_4	Clerk	Bye .
+Text_5	Clerk	Hello , it 's UW pizza ! What can I help you with ?
+Text_5	User	1 vegan pizza and <quant> 1 </quant> ginger ale , please .
+Text_5	Clerk	Ok , what kind of pizza crust would you like ?
+Text_5	User	I ’ m not sure . Which is the cheapest ?
+Text_5	Clerk	Well , thin and regular are the cheapest .
+Text_5	User	Then I ’ ll go with a <crust> regular </crust> crust .
+Text_5	Clerk	Ok , what pizza size would you like ?
+Text_5	User	Small size .
+Text_5	Clerk	Would you like to have any sides ?
+Text_5	User	I ’ m sorry . What ?
+Text_5	Clerk	Any side dishes ? We have breadsticks , cheese sticks , green salad , and caesar salad .
+Text_5	User	Uhhh… no thanks .
+Text_5	Clerk	That alright . And would you like to <modality> pick up </modality> your order or get it delivered ?
+Text_5	User	Delivery , please .
+Text_5	Clerk	Ok , may I have your name , please ?
+Text_5	User	John Doe .
+Text_5	Clerk	Ok John , may I have your address and phone number , please ?
+Text_5	User	My address is <numeric> 1410 </numeric> NE Campus Parkway , Seattle , and my phone number is 206-123-4567 .
+Text_5	Clerk	Got it . And your total for today is <numeric> 13.5 </numeric> dollars with <quant> 3 </quant> <beverage> dollars </beverage> <modality> delivery </modality> fee .
+Text_5	User	Ok , how long will it take ?
+Text_5	Clerk	It would probably take about 40 minutes .
+Text_5	User	Great .
+Text_5	Clerk	And you are all set !
+Text_5	User	Thank you !
+Text_5	Clerk	You ’ re welcome . Have a nice day .
+Text_5	User	Bye .
+Text_6	Clerk	Hello , it 's UW pizza ! What can I help you with ?
+Text_6	User	Hello , do you deliver to <address> 1410 NE Campus Parkway </address> ?
+Text_6	Clerk	Let me check… Yes , we do .
+Text_6	User	Ok , nice . I ’ d like one cola , one lemon soda and one ginger ale .
+Text_6	Clerk	Ok. Would you like to have any pizzas ?
+Text_6	User	Ummm… I don ’ t feel like any pizza today .
+Text_6	Clerk	That ’ s alright . Would you like to have any salads ?
+Text_6	User	No thanks , I ’ m full enough .
+Text_6	Clerk	Ok ... So your total is <numeric> 10.5 </numeric> dollars with <quant> 3 </quant> <beverage> dollars </beverage> <modality> delivery </modality> fee .
+Text_6	User	Ok .
+Text_6	Clerk	Nice , may I have your name and your phone number , please ?
+Text_6	User	John . 206-123-4567 .
+Text_6	Clerk	Got it . And how would you like to pay today ?
+Text_6	User	Cash .
+Text_6	Clerk	Ok . It will take 20 minutes to get your drinks delivered . Sounds good ?
+Text_6	User	Yeah .
+Text_6	Clerk	Awesome . Have a wonderful day .
+Text_6	User	Thank you .
+Text_6	Clerk	You ’ re welcome .
+Text_6	User	Bye .
+Text_6	Clerk	Bye .
+Text_7	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
+Text_7	User	Hi , this is John Doe , and one gluten-free small Meat Lovers with extra sausages and <topping> bacon </topping> , please .
+Text_7	Clerk	Anything else ?
+Text_7	User	Nope .
+Text_7	Clerk	How would you like to get your food today ?
+Text_7	User	I ’ ll get there and pick it up .
+Text_7	Clerk	Ok John , may I have your phone number , please ?
+Text_7	User	206-123-4567 .
+Text_7	Clerk	Nice . Your total today is <numeric> 21 </numeric> dollars . Please come to <modality> pick up </modality> your order in <time> 30 minutes </time> .
+Text_7	User	Nice . Bye !
+Text_7	Clerk	Bye : )
+Text_8	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
+Text_8	User	May I have a <pizza_type> veggie supreme </pizza_type> without red onion , please ?
+Text_8	Clerk	Ok , may I have your name first , please ?
+Text_8	User	This is John Doe .
+Text_8	Clerk	Ok , John , what pizza crust would you like on your <pizza_type> veggie supreme </pizza_type> ?
+Text_8	User	Thin crust , please .
+Text_8	Clerk	Ok , and what pizza size would you like ?
+Text_8	User	Extra large .
+Text_8	Clerk	Sorry , we only have small , medium , and <size> large </size> .
+Text_8	User	Oh . How large is your large size pizza ?
+Text_8	Clerk	The large size pizza is <numeric> 14 </numeric> inches .
+Text_8	User	Ok. Then large size , please .
+Text_8	Clerk	Gotcha . Would you like to have any sides or drinks today ?
+Text_8	User	No , thanks .
+Text_8	Clerk	Ok , and how would you like to get your order today ? Pick-up or <modality> delivery </modality> ?
+Text_8	User	I ’ ll pick it up .
+Text_8	Clerk	Ok , may I have your phone number , please ?
+Text_8	User	206-123-4567 .
+Text_8	Clerk	Alright , and you are all set . Your total is <numeric> 14 </numeric> dollars .
+Text_8	User	What ? I said I don ’ t want <topping> red onions </topping> . Didn ’ t that make it cheaper ?
+Text_8	Clerk	Well , the standard price for a <size> large </size> <pizza_type> veggie supreme </pizza_type> pizza is <numeric> 14 </numeric> dollars . We will put more other ingredients on your pizza . Is that ok ?
+Text_8	User	Ok , ok. Fine .
+Text_8	Clerk	Ok , please come to <modality> pick up </modality> your order in <time> 20 minutes </time> .
+Text_8	User	Got it . Bye !
+Text_8	Clerk	Ok , have a wonderful day .
+Text_9	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
+Text_9	User	<pizza_type> 4 cheese </pizza_type> pizza with <quant> extra </quant> <size> parmesan </size> <pizza_type> cheese </pizza_type> , please .
+Text_9	Clerk	Ok , may I have your name , please ?
+Text_9	User	John .
+Text_9	Clerk	Hi John , we actually don ’ t have <pizza_type> parmesan cheese </pizza_type> . We only have mozzarella , <topping> cheddar </topping> , Swiss , and <topping> provolone cheese </topping> .
+Text_9	User	Oh , sorry . I meant extra <pizza_type> provolone cheese </pizza_type> .
+Text_9	Clerk	Ok , any extra toppings ?
+Text_9	User	Nope .
+Text_9	Clerk	Ok , what pizza crust and size would you like for your <pizza_type> 4 cheese </pizza_type> pizza ?
+Text_9	User	Medium deep dish crust .
+Text_9	Clerk	Got it . Would you like to have any drinks or sides today ?
+Text_9	User	Well… lemon soda , please .
+Text_9	Clerk	Ok , one lemon soda . Anything else ?
+Text_9	User	No , that ’ s all .
+Text_9	Clerk	Well then , how would you like to get your order today ? Pick-up or <modality> delivery </modality> ?
+Text_9	User	Delivery .
+Text_9	Clerk	Ok John , may I have your address and phone number , please ?
+Text_9	User	1410 NE Campus Parkway , Seattle . And my phone number is 206-123-4567 .
+Text_9	Clerk	Ok , so your total today is <numeric> 22 </numeric> dollars . And how would you like to make your payment today ?
+Text_9	User	Credit card .
+Text_9	Clerk	May I have your credit card information ?
+Text_9	User	MyCard , 12345 . The expiration date is end of the year .
+Text_9	Clerk	Ok , your order will arrive at your place in about <numeric> 40 </numeric> minutes . Is that ok ?
+Text_9	User	Ok. great .
+Text_9	Clerk	Ok nice . Have a wonderful day !
+Text_9	User	Bye !
+Text_10	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
+Text_10	User	I ’ d like to order , please .
+Text_10	Clerk	Ok , may I have your name first , please ?
+Text_10	User	John Doe . J-o-h-n D-o-e .
+Text_10	Clerk	Hi John , what kind of pizza would you like today ?
+Text_10	User	I ’ d like <address> 1 Hawaiian and 1 vegan and 1 breadsticks and 1 caesar salad and 5 mineral water </address> .
+Text_10	Clerk	Ok , what pizza crust and size would you like for your Hawaiian pizza ?
+Text_10	User	Large thin crust .
+Text_10	Clerk	And for your vegan pizza ?
+Text_10	User	Also <size> large </size> <crust> thin </crust> crust .
+Text_10	Clerk	Ok , just to confirm , did you order other pizzas or just these two pizzas ?
+Text_10	User	Just these two .
+Text_10	Clerk	Great . And you also like to have one Caesar salad and <quant> five </quant> mineral water right ?
+Text_10	User	Yeah , and one breadsticks .
+Text_10	Clerk	Ok . Anything else ?
+Text_10	User	That ’ s all .
+Text_10	Clerk	Ok , Your total today is <numeric> 69.5 </numeric> dollars . And how would you like to get your order today ? Pick-up or <modality> delivery </modality> ?
+Text_10	User	My friend will go pick it up for me . Is that okay ?
+Text_10	Clerk	That ’ s fine . But may I have your friend ’ s name and phone number ?
+Text_10	User	Jane Smith . J-a-n-e S-m-i-t-h. 206-7654-321 .
+Text_10	Clerk	Alright , and how would you like to pay today ?
+Text_10	User	My friend will pay in cash .
+Text_10	Clerk	Ok , sounds good . Please come to <modality> pick up </modality> your order in <time> 30 minutes </time> .
+Text_10	User	Great . Thank you very much !
+Text_10	Clerk	You are welcome . Have a nice day .
+Text_10	User	Bye-bye !
+Text_10	Clerk	Bye~
+Text_11	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
+Text_11	User	Hi , I would like to have <quant> seven </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas .
+Text_11	Clerk	<quant> 7 </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizza , ok , and how ’ d you like your crust ?
+Text_11	User	Umm ... can I have thin crust on <quant> three </quant> of them and regular crust on <quant> 3 </quant> of them and deep dish on <quant> 1 </quant> of them , please .
+Text_11	Clerk	Ok. Any sides or drinks ?
+Text_11	User	Yeah , can I have <quant> 7 </quant> mineral water , please .
+Text_11	Clerk	7 mineral water , OK. Would you like to <modality> pick up </modality> your order or get it by <modality> delivery </modality> ?
+Text_11	User	Delivery .
+Text_11	Clerk	Ok. May I have your name , please ?
+Text_11	User	Andy .
+Text_11	Clerk	Ok , Andy . And your address and phone number , please ?
+Text_11	User	My address is <numeric> 3925 </numeric> Adams Ln NE , Seattle and my phone number is 255-321-7921 .
+Text_11	Clerk	Ok , 3925 Adams Ln NE , Seattle . Phone number
+Text_11	User	Yup !
+Text_11	Clerk	Ok . The total is <numeric> 131.5 </numeric> dollars . How would you like to pay , in cash or credit card ?
+Text_11	User	Credit card .
+Text_11	Clerk	Ok , may I have your card information , please ?
+Text_11	User	The card type is MyCard , the credit card number is <numeric> 12345 </numeric> and the expiration date is end of the year .
+Text_11	Clerk	Ok , 12345 and end of the year . Is that right ?
+Text_11	User	That ’ s right .
+Text_11	Clerk	Great . Your order will be delivered to your place in <time> 45 minutes </time> .
+Text_11	User	Ok .
+Text_11	Clerk	Thanks for your order . Have a nice day !
+Text_11	User	Yup . You too .
+Text_12	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
+Text_12	User	Hi , my name is Andy , and I would like to have one Meat Lovers and <quant> one </quant> <pizza_type> 4 Cheese </pizza_type> today .
+Text_12	Clerk	One Meat Lovers and one 4 Cheese . How ’ d you like your crust and size ?
+Text_12	User	Well , all thin crust and all medium size , please .
+Text_12	Clerk	Thin crust and medium . Would you like any sides ?
+Text_12	User	One Caesar salad .
+Text_12	Clerk	And any drinks ?
+Text_12	User	No thanks .
+Text_12	Clerk	Ok , would you like to <modality> pick up </modality> your order or get it by <modality> delivery </modality> ?
+Text_12	User	I would like to pick it up myself .
+Text_12	Clerk	Sure . The total would be 36 dollars , and your order will be ready in <time> 35 minutes </time> . May I have your phone number ?
+Text_12	User	255-321-7921
+Text_12	Clerk	255-321-7921 , right ?
+Text_12	User	Yup .
+Text_12	Clerk	Great , anything else ?
+Text_12	User	That ’ s all .
+Text_12	Clerk	Thank you for your order . Have a nice day !
+Text_12	User	Ok Bye~
+Text_13	Clerk	Hello , UW pizza .
+Text_13	User	Hi , can I have <quant> one </quant> <size> large </size> <pizza_type> veggie Supreme </pizza_type> with <quant> two </quant> <topping> extra bacon </topping> with <crust> thin </crust> crust ?
+Text_13	Clerk	OK . Anything else ?
+Text_13	User	Yeah , uh ... can I also have <quant> two </quant> <pizza_type> cheese </pizza_type> sticks and <quant> two </quant> lemon sodas , please ?
+Text_13	Clerk	With no pizza ?
+Text_13	User	Wait what ? I thought I had ordered <quant> one </quant> <size> large </size> <pizza_type> veggie Supreme </pizza_type> pizza .
+Text_13	Clerk	No you didn ’ t . So <quant> one </quant> <size> large </size> <pizza_type> veggie supreme </pizza_type> pizza ?
+Text_13	User	Uh ... <quant> one </quant> <size> large </size> <pizza_type> veggie Supreme </pizza_type> pizza with <quant> two </quant> <topping> extra bacon </topping> with <crust> thin </crust> crust , please .
+Text_13	Clerk	Ok . Anything else ?
+Text_13	User	That ’ s all .
+Text_13	Clerk	Would you like to <modality> pick up </modality> your order or get it delivered ?
+Text_13	User	deliver .
+Text_13	Clerk	Ok , that ’ s 48 dollars in total .
+Text_13	User	Wait ... why is it 48 but not 45 ? Do you charge any <modality> delivery </modality> fee ?
+Text_13	Clerk	Yeah . If you don ’ t want to get an additional charge , you should come to pick it up .
+Text_13	User	No that ’ s fine .
+Text_13	Clerk	Ok . So what ’ s your name ?
+Text_13	User	Andy .
+Text_13	Clerk	And your address ?
+Text_13	User	My address is <address> 3925 Adams Ln NE , Seattle </address>
+Text_13	Clerk	And your phone number ?
+Text_13	User	255-321-7921
+Text_13	Clerk	Would you pay in cash or in a credit card ?
+Text_13	User	Cash .
+Text_13	Clerk	Ok . Your order will be delivered to you in <time> 30 minutes </time> .
+Text_13	User	Great . Can ’ t wait for it .
+Text_13	Clerk	Thanks for your order at UW pizza .
+Text_14	Clerk	Hello , it 's UW pizza !
+Text_14	User	Hi , can I just order drinks ?
+Text_14	Clerk	Sure . What would you like to drink ?
+Text_14	User	Nice . Uh ... do you guys have root beer ?
+Text_14	Clerk	Yeah .
+Text_14	User	Oh great ! Can I have <quant> 50 </quant> root beer ?
+Text_14	Clerk	You what ?
+Text_14	User	I would like to have <quant> 50 </quant> root beer . Is it ok ?
+Text_14	Clerk	50 ? I don ’ t think we have that much root beer left . Could you please order something else ?
+Text_14	User	oh ok ... then can I have <quant> 10 </quant> for each drink you guys have ?
+Text_14	Clerk	10 bottles for each drink ? Including mineral water ?
+Text_14	User	Yes .
+Text_14	Clerk	Ok , cool .
+Text_14	User	How much would that be ?
+Text_14	Clerk	... wait a minute . That ’ s 220 dollars .
+Text_14	User	Ok. Do you guys do the <modality> delivery </modality> ?
+Text_14	Clerk	Yeah ! With a 3-dollar additional charge . Is that okay ?
+Text_14	User	That ’ s fine . Here is my address
+Text_14	Clerk	3925 Adams Ln NE , Seattle . And may I have your name and phone number , please ?
+Text_14	User	Yeah , my number is <number> 255-321-7921 </number>
+Text_14	Clerk	255-321-7921 . And your name , sir ?
+Text_14	User	Andy . How long is it gon na take to deliver them to my place ?
+Text_14	Clerk	About 50 minutes .
+Text_14	User	Well…that ’ s too long . I think I will just pick it up myself .
+Text_14	Clerk	That ’ s fine . Your order will be ready in <time> 10 minutes </time> .
+Text_14	User	Ok .
+Text_14	Clerk	Thanks for your order today . Have a nice day .
+Text_14	User	Yup , you too .
+Text_15	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
+Text_15	User	Hi , I am wondering if you guys have thin crust pizza ?
+Text_15	Clerk	Yes , we do .
+Text_15	User	Oh nice . Can I have one Pepperoni with a thin crust in large size ?
+Text_15	Clerk	Sure . Any sides or drinks ?
+Text_15	User	Um ... let me think ... no , I think I am fine .
+Text_15	Clerk	Ok. Would you like to <modality> pick up </modality> your order or get it delivered ?
+Text_15	User	Delivery , please .
+Text_15	Clerk	Ok . The total would be 17 dollars then .
+Text_15	User	Ok .
+Text_15	Clerk	May I have your name ?
+Text_15	User	Andy .
+Text_15	Clerk	Andy . May I have your address , please ?
+Text_15	User	Wait ... actually , can I <modality> pick up </modality> myself ?
+Text_15	Clerk	Oh , sure . If you come pick it up yourself , the total would be 14 dollars .
+Text_15	User	Ok .
+Text_15	Clerk	May I have your phone number ?
+Text_15	User	Ok . Please wait .
+Text_15	Clerk	Ok .
+Text_15	User	My phone number is <number> 255-321-7921 </number>
+Text_15	Clerk	255-321-7921 . Great . Your order will be ready in about <time> 15 minutes </time> .
+Text_15	User	Oh ... but it takes me 30 minutes to get there . Can you guys start preparing my order after 15 minutes ?
+Text_15	Clerk	Sure ! Then come here 30 minutes later and your pizza would be fresh from the oven !
+Text_15	User	Ok nice . Thank you .
+Text_15	Clerk	Have a nice day !
+Text_15	User	You too !
+Text_16	Clerk	Hello , it 's UW pizza ! How can I help you today ?
+Text_16	User	Hi there . How are you today ?
+Text_16	Clerk	I ’ m great ! What would you like to order ?
+Text_16	User	Yeah , can I have <quant> 3 </quant> Meat Lovers ?
+Text_16	Clerk	3 meat lovers . And how would you like the crust and size ?
+Text_16	User	Just regular crust and medium size , please .
+Text_16	Clerk	Ok. Would you like any sides ?
+Text_16	User	Yes , I would like to have <quant> 3 </quant> <side> cheese sticks </side> .
+Text_16	Clerk	<quant> 3 </quant> <side> cheese sticks </side> . And any drinks ?
+Text_16	User	No thanks .
+Text_16	Clerk	Ok. Would you like to <modality> pick up </modality> your order or get it delivered ?
+Text_16	User	Deliver , please .
+Text_16	Clerk	That would be 42 dollars in total . May I have your name please , sir ?
+Text_16	User	Yes , my name is Andy .
+Text_16	Clerk	Ok , Andy . May I have your address , please ?
+Text_16	User	3925 Adams Ln NE , Seattle
+Text_16	Clerk	3925 Adams Ln NE , Seattle . And may I have your phone number ?
+Text_16	User	255-321-7921
+Text_16	Clerk	255-321-7921 . How would you like to pay , in cash or credit card ?
+Text_16	User	Credit card .
+Text_16	Clerk	Ok. May I have your credit card information ?
+Text_16	User	Yup sure . The card type is MyCard , the credit card number is <numeric> 12345 </numeric> and the expiration date is end of the year .
+Text_16	Clerk	Ok . Your pizza will arrive in about <quant> 50 </quant> minutes .
+Text_16	User	Sound great .
+Text_16	Clerk	Thanks for your order . Bye !
+Text_16	User	Yup , bye~
+Text_17	Clerk	Hello , UW pizza !
+Text_17	User	Hi , can I have <quant> one </quant> <pizza_type> cheese </pizza_type> stick with Caesar salad ?
+Text_17	Clerk	Wouldn ’ t you like some pizza ?
+Text_17	User	Yeah sure ... um ... can I have <quant> one </quant> <size> small </size> Pepperoni ?
+Text_17	Clerk	Ok. Do you need any extra toppings ?
+Text_17	User	Well I am ok .
+Text_17	Clerk	Ok , then how would you like your crust ?
+Text_17	User	Thin crust , please .
+Text_17	Clerk	Ok. And what did you order for sides again ?
+Text_17	User	Well , one cheese stick and one Caesar salad .
+Text_17	Clerk	One cheese stick and one Caesar salad . Would you like some drinks ?
+Text_17	User	No thanks . And I will <modality> pick up </modality> the order myself .
+Text_17	Clerk	Got it . The total would be 31 dollars . May I have your name ?
+Text_17	User	Andy .
+Text_17	Clerk	Ok , and your phone number ?
+Text_17	User	255-321-7921
+Text_17	Clerk	255-321-7921 . Great . Thanks for your order . Your order will be ready in <time> 20 minutes </time> .
+Text_17	User	Awesome .
+Text_17	Clerk	Have a good day . Bye !
+Text_17	User	Yup , you also have a good day . Bye .
+Text_18	Clerk	Hello , it 's UW pizza ! What can I help you with today ?
+Text_18	User	Hi , can I have <quant> 10 </quant> <size> large </size> Pepperoni ?
+Text_18	Clerk	<size> 10 large </size> pepperonis . And how would you like your crust ?
+Text_18	User	Do you have any suggestions ?
+Text_18	Clerk	Gluten-free crust is my favorite ! Would you like to try that ?
+Text_18	User	Oh ... um ... I think I would rather have thin crusts .
+Text_18	Clerk	Thin crust is nice too !
+Text_18	User	But maybe I can have one pizza with gluten-free crust to give it a try then .
+Text_18	Clerk	So that ’ s 9 thin crust large Pepperoni and <quant> 1 </quant> gluten-free crust large Pepperoni .
+Text_18	User	That ’ s right .
+Text_18	Clerk	Would you like some sides ? Our cheese sticks are very good !
+Text_18	User	Ok , I would like to try one too .
+Text_18	Clerk	Ok. And would you like some drinks ?
+Text_18	User	No thanks .
+Text_18	Clerk	Ok. Would you like to <modality> pick up </modality> your order or get it delivered ?
+Text_18	User	I would like to get it delivered .
+Text_18	Clerk	Ok. And the total would be 150 dollars . May I have your name ?
+Text_18	User	Andy .
+Text_18	Clerk	And your delivery address ?
+Text_18	User	3925 Adams Ln NE , Seattle
+Text_18	Clerk	3925 Adams Ln NE , Seattle . And your phone number ?
+Text_18	User	255-321-7921
+Text_18	Clerk	255-321-7921 . Ok. And would you like to pay in cash or by credit card ?
+Text_18	User	Credit card for sure .
+Text_18	Clerk	May I have your credit card information ?
+Text_18	User	Yeah . So my card type is MyCard , credit card number is <numeric> 12345 </numeric> and the expiration date is end of the year .
+Text_18	Clerk	Great . Your order will arrive in about <quant> 1 </quant> hour and 20 minutes . Is that OK ?
+Text_18	User	Ok. That ’ s fine .
+Text_18	Clerk	Great . Thanks for your order today . Bye !
+Text_18	User	Bye .
+Text_19	Clerk	Hi , UW pizza !
+Text_19	User	Hi , Can I just order one <pizza_type> cheese </pizza_type> stick ?
+Text_19	Clerk	Are you sure you don ’ t need some pizza ?
+Text_19	User	Um….that ’ s fine .
+Text_19	Clerk	So only <quant> one </quant> <pizza_type> cheese </pizza_type> sticks . Any drinks ?
+Text_19	User	No thanks .
+Text_19	Clerk	Ok. Would you like to <modality> pick up </modality> your order or get it delivered ?
+Text_19	User	I would pick it up myself .
+Text_19	Clerk	Nice . That ’ s 9 dollars . May I have your name ?
+Text_19	User	Andy .
+Text_19	Clerk	Andy , Ok. And may I have your phone number , please ?
+Text_19	User	255-321-7921 .
+Text_19	Clerk	255-321-7921 . Your order will be ready in <time> 10 minutes </time> .
+Text_19	User	Ok , sounds great .
+Text_19	Clerk	Thank you . Have a good day . Bye !
+Text_19	User	Yup . You too .
+Text_20	Clerk	Hello , it 's UW pizza .
+Text_20	User	Hi , can I have <quant> four </quant> <size> large </size> Pepperoni with <crust> thin </crust> crusts and one green salad , and <quant> two </quant> <beverage> ginger ale </beverage> , please ?
+Text_20	Clerk	Wait a minute… <quant> Four </quant> <size> large </size> pepperonis with <crust> thin </crust> crusts . And what else ?
+Text_20	User	One green salad and <quant> two </quant> <beverage> ginger ale </beverage> , please . And I would like to <modality> pick up </modality> the order myself .
+Text_20	Clerk	One green salad and <quant> two </quant> <beverage> ginger ale </beverage> . Pick up . And the total would be 73 dollars . May I have your name ?
+Text_20	User	Andy and my phone number is 255-321-7921 .
+Text_20	Clerk	Andy . 255-321-7321 . Is that right ?
+Text_20	User	No . It ’ s 255-321-7921 .
+Text_20	Clerk	255-321-7921 . Ok . Your order will be ready in <time> 40 minutes </time> .
+Text_20	User	That long ? !
+Text_20	Clerk	Sorry , we ’ re a little busy right now .
+Text_20	User	Ok that ’ s fine .
+Text_20	Clerk	Thanks for your patience !
+Text_20	User	Yup , no worry .
+Text_20	Clerk	Have a good day . Bye !
+Abnormal_1	Clerk	Hello , it 's UW pizza . What can I help you with today ?
+Abnormal_1	User	I ’ d like a Hawaiian pizza , a <pizza_type> 4 cheese </pizza_type> pizza , and a vegan pizza , please .
+Abnormal_1	Clerk	...
+Abnormal_1	User	Hello ?
+Abnormal_1	Clerk	Yup ... sorry , it ’ s a bit noisy and messy here . Would you please repeat your order again ?
+Abnormal_1	User	Uh… Ok. I ’ d like a Hawaiian pizza , a <pizza_type> 4 cheese </pizza_type> pizza and a vegan pizza .
+Abnormal_1	Clerk	Ok , anything else ?
+Abnormal_1	User	That ’ s it .
+Abnormal_1	Clerk	Just to go over your order again , so you would like to have one Hawaiian pizza , <pizza_type> four 4 cheese </pizza_type> pizzas .
+Abnormal_1	User	I also said a vegan pizza .
+Abnormal_1	Clerk	Uh , sorry , what kind of pizza crust and size would you like today ?
+Abnormal_1	User	Small size and thin crust for all 3 pizzas .
+Abnormal_1	Clerk	Wait three pizzas ! Can I go over your order again ? I am so so sorry . It ’ s really noisy down here . My apology .
+Abnormal_1	User	That ’ s okay . Calm down .
+Abnormal_1	Clerk	So you would like to have one Hawaiian pizza ?
+Abnormal_1	User	Yes .
+Abnormal_1	Clerk	And <pizza_type> four 4 cheese </pizza_type> pizzas ?
+Abnormal_1	User	No , only one .
+Abnormal_1	Clerk	Ok , got it . And one vegan pizza right ?
+Abnormal_1	User	That ’ s right .
+Abnormal_1	Clerk	Great , and can I have your name really quick ?
+Abnormal_1	User	My name is John .
+Abnormal_1	Clerk	Ok , John . How would you like to get your order today ? It would probably take more than an hour to deliver your order since it ’ s really busy at the moment .
+Abnormal_1	User	Ok , I ’ m fine with that . I ’ ll pick it up myself .
+Abnormal_1	Clerk	Ok , then your total today is <numeric> 300 </numeric> dollars . Oh oh ... I mean 30 dollars . My bad .
+Abnormal_1	User	That ’ s OK .
+Abnormal_1	Clerk	Can I also have your phone number really quick ?
+Abnormal_1	User	206-123-4567 .
+Abnormal_1	Clerk	Ok , nice . Please come pick it up in <time> 40 minutes </time> .
+Abnormal_1	User	Great .
+Abnormal_1	Clerk	Ok , have a nice day .
+Abnormal_1	User	You too . Bye .
+Abnormal_2	Clerk	Hello , it 's UW pizza . What can I help you with today ?
+Abnormal_2	User	I ’ d like to order a <pizza_type> veggie supreme </pizza_type> with <crust> regular </crust> crust and medium size . That ’ s all .
+Abnormal_2	Clerk	Ok. May I have your name first , please ?
+Abnormal_2	User	John Doe .
+Abnormal_2	Clerk	Ok John , how would you like to get your order today ?
+Abnormal_2	User	By delivery .
+Abnormal_2	Clerk	Ok , may I have your address ?
+Abnormal_2	User	My address ? <address> 1410 NE Campus Parkway </address> , Seattle .
+Abnormal_2	Clerk	Ah ... I am sorry ... I am afraid that we are not able to deliver your order to your area . Is it possible for you to pick it up in person ?
+Abnormal_2	User	Um… well , actually no .
+Abnormal_2	Clerk	Ok then . Hope you can visit us next time .
+Abnormal_2	User	Ok. Bye !
+Abnormal_2	Clerk	Bye .
+Abnormal_3	Clerk	Hi , UW pizza .
+Abnormal_3	User	...
+Abnormal_3	Clerk	Hello ?
+Abnormal_3	User	Uh ... sorry . The signal just cut off for a second .
+Abnormal_3	Clerk	All right . What would you like to order ?
+Abnormal_3	User	Can I just have one .….pepperoni pizza ?
+Abnormal_3	Clerk	Sorry , one what ?
+Abnormal_3	User	<quant> One </quant> <size> large </size> ...
+Abnormal_3	Clerk	<quant> One </quant> <size> large </size> what ?
+Abnormal_3	User	… ... <pizza_type> pepperoni </pizza_type> pizza ...
+Abnormal_3	Clerk	Sorry , your signal is very bad . I can not hear you clearly .
+Abnormal_3	User	Oh ... ok. Can I have one~large~pepperoni~pizza ?
+Abnormal_3	Clerk	<quant> One </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizza .
+Abnormal_3	User	Yup that ’ s right .
+Abnormal_3	Clerk	And how would you like your crust ?
+Abnormal_3	User	...
+Abnormal_3	Clerk	Hello ?
+Abnormal_3	User	...
+Abnormal_3	Clerk	Hello ? Are you still there ? I think you just cut off again .
+Abnormal_3	User	Oh yeah . I am still here . What did you just say ?
+Abnormal_3	Clerk	I said how would you like your crust .
+Abnormal_3	User	Oh ... thin crust , please .
+Abnormal_3	Clerk	Ok , thin crust . Would you like to pick it up or get it delivered ?
+Abnormal_3	User	...
+Abnormal_3	Clerk	Hello ?
+Abnormal_3	User	...
+Abnormal_3	Clerk	Hello ? Are you still there ?
+Abnormal_3	User	( hang up )
+Abnormal_4	Clerk	Hi , UW pizza .
+Abnormal_4	User	Hi , can I have <quant> one </quant> <size> small </size> <pizza_type> size veggie Supreme </pizza_type> pizza with gluten-free crust ?
+Abnormal_4	Clerk	<quant> One </quant> <size> small </size> <pizza_type> size veggie Supreme </pizza_type> pizza . Wait for a second , I ’ ll be right back .
+Abnormal_4	User	Oh , ok .
+Abnormal_4	Clerk	Sorry , I ’ m back . What would you like your crust for your <pizza_type> veggie supreme </pizza_type> ?
+Abnormal_4	User	Yup , gluten-free crust , please .
+Abnormal_4	Clerk	Ok , gluten-free crust . Any sides or drinks ?
+Abnormal_4	User	Yup , lemon soda , please .
+Abnormal_4	Clerk	...
+Abnormal_4	User	Hello ?
+Abnormal_4	Clerk	… Oh , wait a second . I have to talk with my coworker .
+Abnormal_4	User	Ah ... ok .
+Abnormal_4	Clerk	Hello ? Are you still there ?
+Abnormal_4	User	Yes , so how much is my order in total ?
+Abnormal_4	Clerk	Would you like to pick it up or get it delivered ?
+Abnormal_4	User	Yup , I would like to pick it up myself .
+Abnormal_4	Clerk	All right . That ’ s 18 dollars and <quant> 50 </quant> cents in total .
+Abnormal_4	User	Ok .
+Abnormal_4	Clerk	...
+Abnormal_4	User	Uh..hello ? Are you there ?
+Abnormal_4	Clerk	Oh , sorry . Could you wait for another second ?
+Abnormal_4	User	Uh ... I think I am done for today… ( hang up )
