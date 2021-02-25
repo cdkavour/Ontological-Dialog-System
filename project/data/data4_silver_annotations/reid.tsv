@@ -1,0 +1,425 @@
+	Conversation	Speaker	Transcript
+0	Spoken1	Clerk	Hi this is generic pizza place what can I get you ?
+1	Spoken1	User	Umm . Uhhh . Uh could I just get a umm ... a a <size> small </size> <pizza_type> four cheese </pizza_type> pizza ?
+2	Spoken1	Clerk	Okay , a <size> small </size> <pizza_type> four cheese </pizza_type> pizza . Was there anything else ?
+3	Spoken1	User	Uhhh uh yeah , uh a cola . Umm .
+4	Spoken1	Clerk	Okay , a cola .
+5	Spoken1	User	Yeeah , um . That should be it .
+6	Spoken1	Clerk	Okay , so a <size> small </size> <pizza_type> four cheese </pizza_type> pizza and a cola . Umm just give me one quick second , so . Okay , so that 's going to be nineteen fifty umm , were you looking to pick up or did you want it delivered ?
+7	Spoken1	User	Umm . Uh , delivered , <modality> delivered </modality> , yeah . Delivered .
+8	Spoken1	Clerk	Yeah okay . Uhh what was your name ?
+9	Spoken1	User	Is uh , is Jane Doe .
+10	Spoken1	Clerk	Okay Jane . So that 's going to come out to a total of twenty two fifty . Umm , it should be about fifteen minutes for the pizza to finish baking and we 'll get it sent out to you right after that . So it should be about . Let 's see , it looks about twenty five minutes .
+11	Spoken1	User	Oh great . Great . Okay -
+12	Spoken1	Clerk	Alright -
+13	Spoken1	User	- thanks .
+14	Spoken1	Clerk	- cool . Alright , thank you .
+15	Spoken2	Clerk	Hey hold on just give me one quick second . Okay hey . Umm . Hi . This is uhh . General pizza place that 's right alright . What can I get you ?
+16	Spoken2	User	Hi umm . I just uhh . Uh . Quick quick question what are your veggie options ?
+17	Spoken2	Clerk	Our veggie options . So . What we have are we have <topping> green peppers </topping> , red pep- err , wow , sorry , <topping> red onions </topping> , <topping> mushrooms </topping> , <topping> black olives </topping> . Umm , we got <topping> pineapple </topping> . And yeah . And so , as a collection we have the <pizza_type> veggie supreme </pizza_type> , which is mozzarella , <topping> green peppers </topping> , <topping> red onions </topping> , <topping> mushrooms </topping> , and <topping> black olives </topping> . And we also have a vegan option , which does n't come with any cheese , that 's green peppers , <topping> red onions </topping> , <topping> mushrooms </topping> , and <topping> black olives </topping> .
+18	Spoken2	User	Okay -
+19	Spoken2	Clerk	Any of that sound good ?
+20	Spoken2	User	- okay , umm . Yeah , yeah , the vegan sounds good . Could I get a a a <size> small </size> <pizza_type> vegan </pizza_type> uh pizza ? And um , do you have <crust> gluten free </crust> crust ?
+21	Spoken2	Clerk	Okay , a <size> small </size> <pizza_type> vegan </pizza_type> pizza , and yes , we do have <crust> gluten free </crust> crust . Umm . It 's going to be an extra five dollars though .
+22	Spoken2	User	Yeah , that 's great , umm . Yeah okay , so could I get that and an order -
+23	Spoken2	Clerk	Okay , sorry , you said -
+24	Spoken2	User	of bread sticks ...
+25	Spoken2	Clerk	- oops , sorry you said small ... pizza , right ?
+26	Spoken2	User	Yes , yeah . Small -
+27	Spoken2	Clerk	Okay , so small vegan , gotcha .
+28	Spoken2	User	- small vegan . Mhmm . Umm .
+29	Spoken2	Clerk	Okay -
+30	Spoken2	User	So tha ...
+31	Spoken2	Clerk	- and an order of break sticks ?
+32	Spoken2	User	Order of break sticks and a root beer please .
+33	Spoken2	Clerk	Okay , and a root beer . Okay . Anything else ?
+34	Spoken2	User	That 's it for today , thank you .
+35	Spoken2	Clerk	Okay , just give me one quick second . Mmm . Uhh . Eighteen . Alright , so that 's going to come out to twenty eight fifty . What was your name ?
+36	Spoken2	User	Uhh is Jane Doe . Umm
+37	Spoken2	Clerk	Okay . Jane Doe . Uhh were you looking for <modality> delivery </modality> or were you going to come and pick it up ?
+38	Spoken2	User	Uh I 'll <modality> pick up </modality> . Yeah . About how long will it take ?
+39	Spoken2	Clerk	Okay , sounds good . Umm . It 's going to be about . Mmm . Thirty five minutes now , give or take .
+40	Spoken2	User	Alright , that sounds good . Thank you so much .
+41	Spoken2	Clerk	Alright .
+42	Spoken2	User	Have a nice day .
+43	Spoken2	Clerk	Alright , no problem . See you soon .
+44	Spoken3	Clerk	Hi , this is generic pizza place . Uhh . What can I get you ?
+45	Spoken3	User	Hi , umm . Yeah , I 've got a a a bit of a complicated order today . Umm . Could I get a uh <quant> three </quant> <size> large </size> pizzas . Umm , one -
+46	Spoken3	Clerk	Okay .
+47	Spoken3	User	Uh . A uh a <pizza_type> meat lovers </pizza_type> , regular crust . Uh one that 's ham , <topping> pineapple </topping> , and <topping> provolone </topping> with a <crust> regular </crust> crust . Uh , one that 's uh just mozzarella with a <crust> glu- gluten free </crust> crust ? Umm . And then could I get ten drinks . So four of them uh sodas , so two root beer and <quant> two </quant> co- colas . Uh and then , six mineral waters . Umm . Six sides . Four that are cheese sticks and <quant> two </quant> that are green salads . And -
+48	Spoken3	Clerk	Okay , hold on one second here .
+49	Spoken3	User	-uh uh .
+50	Spoken3	Clerk	Um , so you got four sodas , two root beer , two cola , and then , what . What was next , sorry ?
+51	Spoken3	User	Oh yeah , six mineral waters .
+52	Spoken3	Clerk	Okay , six mineral waters , thank you .
+53	Spoken3	User	Mhmm . Umm , and then , nine desserts , uhh . Whatever combination cur- you currently have of cakes , sort of three of each of your kinds . Umm . And actually , could you add <topping> olives </topping> to the <topping> ham </topping> pizza as well ?
+54	Spoken3	Clerk	Okay . Ham pizza . Plus . Sorry , you said <topping> olives </topping> ?
+55	Spoken3	User	Yes , yes , <topping> black olives </topping> .
+56	Spoken3	Clerk	Okay . Black olives . Alright . So let- just let me read this back to you quick . So you 're getting <quant> three </quant> <size> large </size> pizzas . Umm . One is a ham pizza with <topping> provo- provolone </topping> , sorry , one regular pizza . Excuse me . One regular pizza that has <topping> ham </topping> and <topping> provolone </topping> and <topping> olives </topping> . Umm . One mozzarella pizza with the <crust> gluten free </crust> crust . Umm . One third pizza . Uhh , what was the third pizza ?
+57	Spoken3	User	Uhh meat lovers , meat lovers .
+58	Spoken3	Clerk	Meat lovers , okay , that 's what that was . So one meat lovers pizza , and what size was that one ? That one was large as well .
+59	Spoken3	User	Yes , yes .
+60	Spoken3	Clerk	Umm . So then we got ten drinks . We got two root beers , two colas , six mineral waters . Uhh , we got nine desserts , <quant> three </quant> of each of our current inventory , which is . Three chocolate cake slicks , umm . Three cookies and three- <quant> three </quant> brownies . Alright . Umm . Was there anything else you needed ?
+61	Spoken3	User	Uh yeah , and then uh , uh some sides so uh . <pizza_type> Four- four cheese </pizza_type> sticks and <quant> two </quant> green salads .
+62	Spoken3	Clerk	Okay , <pizza_type> four cheese </pizza_type> sticks . And three salads . Those were the uhh green salads , right ?
+63	Spoken3	User	Yeah -
+64	Spoken3	Clerk	Yes .
+65	Spoken3	User	- yeah .
+66	Spoken3	Clerk	Alright , cool . Umm , that 's going to come out to about , oops , sorry , were you looking for <modality> delivery </modality> or <modality> pick up </modality> today ?
+67	Spoken3	User	Uh , <modality> pick up </modality> . I- I 'll pick that up .
+68	Spoken3	Clerk	Okay , so it 's pick up . So your grand total is going to come out to about , sorry , to exactly two hunderd and sixteen dollars . Umm . What was your name ?
+69	Spoken3	User	Uh Jane Doe
+70	Spoken3	Clerk	Jane Doe . Alright . Just so you know , it 's going to take about . Probably about half an hour .
+71	Spoken3	User	Alright .
+72	Spoken3	Clerk	Okay , is there anything else ?
+73	Spoken3	User	Uh no , tha- that 's it today , thank you .
+74	Spoken3	Clerk	Alright , thank you very much . See you then .
+75	Spoken4	Clerk	Generic pizza place , this is Jane . How can I help you today ?
+76	Spoken4	User	Hey Jane , I 'd like a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza , and can I add <topping> sausage </topping> to that ?
+77	Spoken4	Clerk	Mhm , uh , yeah , of course .
+78	Spoken4	User	And-
+79	Spoken4	Clerk	Large-
+80	Spoken4	User	-I would also like , um , oh sorry , but I would like a green salad as well .
+81	Spoken4	Clerk	Mhm .
+82	Spoken4	User	And-
+83	Spoken4	Clerk	Alright .
+84	Spoken4	User	-that will be all .
+85	Spoken4	Clerk	Ok , that 's all for today . So that 's a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza with <topping> sausage </topping> and a green salad . Would you like a thin , regular , deep dish or gluten free crust with that ?
+86	Spoken4	User	Oh , sorry , just regular .
+87	Spoken4	Clerk	Regular , okay .
+88	Spoken4	User	Yes .
+89	Spoken4	Clerk	Give me one minute to total that up for you . Would you like delivery or <modality> pick up </modality> today , sir .
+90	Spoken4	User	Um , I 'm going to pick it up .
+91	Spoken4	Clerk	Okay . Alright , your total for today will be 29.50 , um , and that should be ready in about <time> 15 minutes </time> . Could I get your name quickly ?
+92	Spoken4	User	Uh , John Smith ?
+93	Spoken4	Clerk	John Smith . Alright , we 'll see you soon .
+94	Spoken4	User	Alright , thank you . Bye .
+95	Spoken5	Clerk	Thank you for calling generic pizza place , how can I help you today ?
+96	Spoken5	User	Uh , hey , what kind of meats do you guys have ?
+97	Spoken5	Clerk	We have <pizza_type> pepperoni </pizza_type> , <topping> ham </topping> , <topping> bacon </topping> , and <topping> sausage </topping> .
+98	Spoken5	User	Okay , um , just give me one second . Ok , could I have <quant> two </quant> <size> large </size> pizzas , um , deep dish , one one is <crust> deep dish </crust> , um . Can I have a <pizza_type> pepperoni </pizza_type> <crust> deep dish </crust> pizza , so the <size> large </size> one is pep- , just <topping> pepperoni </topping> and <topping> cheese </topping> , uh , and then the other one can I have , um , <topping> cheddar cheese </topping> , uh , <topping> bacon </topping> , and <topping> ham </topping> ?
+99	Spoken5	Clerk	Sure , we can do that . Um , is that all you would like today ?
+100	Spoken5	User	Um , can I get a drink ? Can I get like a , you got like diet coke or like root beer or like-
+101	Spoken5	Clerk	We have cola and we have root beer .
+102	Spoken5	User	Okay , could I get a root beer .
+103	Spoken5	Clerk	Sure . Alright , give me a second to total that . Uh , are you doing delivery or <modality> pick up </modality> today ?
+104	Spoken5	User	Uh , <modality> delivery </modality> today .
+105	Spoken5	Clerk	Alright . So your total will be , uh , $ 44 . Um-
+106	Spoken5	User	Okay .
+107	Spoken5	Clerk	-and that will take about 20 minutes to get to you . Uh , could I get your name ?
+108	Spoken5	User	Uh , my name is John Smith .
+109	Spoken5	Clerk	Great . Alright , I have that all set , um , thank you so much for calling .
+110	Spoken5	User	Okay , thank you .
+111	Spoken6	Clerk	Hello , this is generic pizza place , uh , what can I get you today ?
+112	Spoken6	User	Uh , hi , what comes on your , um , vegetarian , or <pizza_type> veggie supreme </pizza_type> pizza ?
+113	Spoken6	Clerk	Uh , our <pizza_type> veggie supreme </pizza_type> is mozzarella , <topping> green peppers </topping> , <topping> red onions </topping> , <topping> mushrooms </topping> , and <topping> black olives </topping> .
+114	Spoken6	User	Ah , black <topping> olives </topping> , okay . Um , so , can I get , uh , <quant> two </quant> <size> small </size> <pizza_type> four cheese </pizza_type> pizzas , um , on <crust> thin </crust> crust , um , can I get <quant> one </quant> <size> large </size> <pizza_type> veggie supreme </pizza_type> with <quant> no </quant> <topping> black olives </topping> , uh , can I get like a side of bread sticks and then can I get <quant> three </quant> drinks , I 'd like two orange soda and one lemon soda . Did you get all that ?
+115	Spoken6	Clerk	Uh , yeah , um , okay . Uh , would you like delivery or <modality> pick up </modality> ?
+116	Spoken6	User	Uh , yeah , I 'd like , I 'm just gon na come in and pick it up .
+117	Spoken6	Clerk	Okay , uh , could I get your phone number and name for your account ?
+118	Spoken6	User	Uh , so my name is John Smith , and it should be under the number 123-456-7890 .
+119	Spoken6	Clerk	Okay , your total will be , uh , 81 dollars , that should be ready in about <time> 25 minutes </time> ?
+120	Spoken6	User	Okay , um , yeah , that sounds good .
+121	Spoken6	Clerk	Thank you for calling .
+122	Spoken6	User	Alright , bye .
+123	Text1	Clerk	Hello , welcome to generic pizza place ! How can I help you ?
+124	Text1	User	Hi , could I get a thin crust pizza with mozz and <topping> ham </topping> ?
+125	Text1	Clerk	Sure ! What size pizza would you like ? We have small , medium , and <size> large </size> pizzas .
+126	Text1	User	Small , I think . Actually , no , make that a <size> medium </size> .
+127	Text1	Clerk	Sounds good . Did you want to add a size of breadsticks ? Or maybe a drink ?
+128	Text1	User	I think I 'm good , no thanks .
+129	Text1	Clerk	Are you planning on picking it up here , or would you like it delivered ?
+130	Text1	User	Delivered please .
+131	Text1	Clerk	Okay . That will be $ 16 . What is your name ?
+132	Text1	User	Jane Doe
+133	Text1	Clerk	Okay , thanks . You should expect your order to arrive in about <time> 25 minutes </time> . Thank you !
+134	Text1	User	Thank you !
+135	Text2	Clerk	Hey , welcome to generic pizza place . What can I get you .
+136	Text2	User	Hi , I would like a <size> small </size> <pizza_type> regular crust pepperoni </pizza_type> pizza . How much would that be ?
+137	Text2	Clerk	A small reg crust <pizza_type> pepperoni </pizza_type> would be 14 .
+138	Text2	User	Great . Do you have root beer ?
+139	Text2	Clerk	We do . How many did you want ? Just one ?
+140	Text2	User	Yes please .
+141	Text2	Clerk	Alright so I 've got a <size> small </size> <pizza_type> regular pepperoni </pizza_type> pizza and one root beer . That 'll be 17.50 . Did you want it pick it up here , or did you want it delivered ?
+142	Text2	User	Perfect , I will pick it up . When will it be ready ?
+143	Text2	Clerk	It 's pretty empty right now , so it 'll be done in about ten minutes .
+144	Text2	User	Great , I will be there in about <numeric> 10 </numeric> minutes . Thank you .
+145	Text2	Clerk	Okay cool . What was your name ?
+146	Text2	User	Oh right , it 's Jane Doe .
+147	Text2	Clerk	Okay Jane Doe . We 'll see you in about ten minutes then . Bye now .
+148	Text2	User	Goodbye .
+149	Text3	Clerk	Good morning ! I mean , good evening ! Man it 's gotten late already . Anyways , this is generic pizza place ; how can I help you ?
+150	Text3	User	Hi , can I get a <pizza_type> cheese </pizza_type> pizza ?
+151	Text3	Clerk	Absolutely . What size did you want ?
+152	Text3	User	Small , please .
+153	Text3	Clerk	Alrighty . A <size> small </size> <pizza_type> cheese </pizza_type> pizza . Anything else I can get you ? Bread sticks ? A salad ? Drinks ?
+154	Text3	User	Oh , um , I 'd like a drink .
+155	Text3	Clerk	Sure ! What would you like ? We have cola , root beer , orange soda , lemon soda , and mineral water right now .
+156	Text3	User	Hmm , lemon soda please .
+157	Text3	Clerk	Okay , a lemon soda . Anything else I can get you ?
+158	Text3	User	No , that 's it , thank you .
+159	Text3	Clerk	Alrighty . That 'll be $ 15 . Your name ?
+160	Text3	User	Jane Doe .
+161	Text3	Clerk	Okay . Cool . Now , did you want it delivered , or were you planning on picking it up ?
+162	Text3	User	I 'll <modality> pick up </modality> .
+163	Text3	Clerk	Sounds good . It should be ready in around a half an hour . See you then !
+164	Text3	User	Thank you !
+165	Text4	User	Hi , is this generic pizza place ?
+166	Text4	Clerk	Hi , yeah , this is generic pizza place . This is Max Mustermann speaking , what can I get you ?
+167	Text4	User	Great ! Can I get a <size> large </size> <crust> deep dish </crust> pizza with <topping> sausage </topping> , <topping> bacon </topping> , <topping> provolone </topping> , <topping> red onions </topping> , <topping> mushrooms </topping> , <topping> black olives </topping> , and , did I say bacon ? If not , bacon too .
+168	Text4	Clerk	Umm yeah , sure . A <size> large </size> <crust> deep dish </crust> pizza with <topping> bacon </topping> , <topping> sausage </topping> , <topping> provolone </topping> , <topping> onions </topping> , <topping> mushrooms </topping> , and <topping> olives </topping> , right ?
+169	Text4	User	Uh , yeah , that 's right ! And a side of cheese sticks too .
+170	Text4	Clerk	Okay . So unfortunately we 're currently out of olives . Did you want to substitute them for something else ? Or just get the pizza without them ?
+171	Text4	User	Oh , yeah , sure , could you substitute green peppers then ?
+172	Text4	Clerk	Yeah , sure . So a <size> large </size> <crust> deep dish </crust> pizza with <topping> bacon </topping> , <topping> sausage </topping> , <topping> onions </topping> , <topping> mushrooms </topping> , <topping> olives </topping> , <topping> green peppers </topping> , with <topping> provolone cheese </topping> , and then a side of breadsticks . Did you want something to drink ?
+173	Text4	User	Um , side of cheese sticks , not breadsticks please . And no , nothing to drink .
+174	Text4	Clerk	Oops , right , thanks for catching that . Okay then , what was your name , and were you planning on picking up ?
+175	Text4	User	It 's Jane Doe , and yes , I 'll <modality> pick up </modality> .
+176	Text4	Clerk	Sounds good . It should be ready in about <time> 25 minutes </time> , give or take . See you then .
+177	Text4	User	Great , thank you .
+178	Text4	Clerk	Bye then .
+179	Text5	Clerk	Hello , this is general pizza place . Just so you know ahead of time , we 've got about 45 minutes of orders ahead of you right now . So if that 's okay with you , what can I get you ?
+180	Text5	User	Sure , no problem . Could I get a <pizza_type> 4 cheese </pizza_type> pizza without the <topping> swiss </topping> , and add green pepper ?
+181	Text5	Clerk	Yeah , sure . What size ?
+182	Text5	User	Medium , please .
+183	Text5	Clerk	Okay . So a <size> medium </size> <pizza_type> 4 cheese </pizza_type> pizza , no Swiss , add green peppers . Anything else ?
+184	Text5	User	Yeah , I 'd like a cola as well .
+185	Text5	Clerk	Alright , one cola . Did you want it delivered ?
+186	Text5	User	Yeah , that would be best .
+187	Text5	Clerk	Okay , your name and number ?
+188	Text5	User	Jane Doe , 555-1234 .
+189	Text5	Clerk	Okay , thanks . It should be arriving in about <numeric> 45 </numeric> minutes , give or take . Thanks for calling , goodbye .
+190	Text6	Clerk	Hi ! This is generic pizza place . What can I get you today ?
+191	Text6	User	I need <quant> two </quant> <size> medium </size> pizzas , one <pizza_type> veggie supreme </pizza_type> and <quant> one </quant> <pizza_type> meat lovers </pizza_type> .
+192	Text6	Clerk	Okay , <quant> two </quant> <size> medium </size> pizzas , one veggie and <quant> one </quant> <pizza_type> meat lovers </pizza_type> . Was there anything else ?
+193	Text6	User	One minute , let me double check . Ok , I also need one orange soda and one ginger ale , and that should be everything .
+194	Text6	Clerk	Okay , an orange soda and ginger ale . We 're you looking to get it <modality> delivered </modality> ?
+195	Text6	User	No , I 'll <modality> pick up </modality> . About when should it be ready ?
+196	Text6	Clerk	Alright . It should be ready in probably about <quant> 30 </quant> minutes . Just give me a second to ring it up . That 'll be $ 53 . Your name ?
+197	Text6	User	Jane Doe . I think the number on my account is 555-1234 .
+198	Text6	Clerk	Okay yep , there it is . Okay , thanks , and we 'll see you soon .
+199	Text6	User	Great , thanks .
+200	Text7	Clerk	Hello . Welcome to generic pizza place what can I get you ?
+201	Text7	User	Hi , this is Jane Doe . What size is your small pizza ?
+202	Text7	Clerk	Our small pizza is <numeric> 10 </numeric> inches . Or medium is <numeric> 12 </numeric> and our large is <numeric> 14 </numeric> .
+203	Text7	User	Ok , could I get a <size> small </size> <crust> deep dish </crust> pizza ?
+204	Text7	Clerk	Sure . What did you want on it ?
+205	Text7	User	Let 's see , <topping> green peppers </topping> , red onion , <topping> mushrooms </topping> , and <topping> sausage </topping> definitely . What kinds of cheese do you have ?
+206	Text7	Clerk	So we 've got four different kinds of cheeses . Mozzarella , <topping> cheddar </topping> , <topping> swiss </topping> , and <topping> provolone </topping> . They 're all the same price .
+207	Text7	User	Ok , um , I 'll do mozzarella then .
+208	Text7	Clerk	Okay , so a <size> small </size> <crust> deep dish </crust> pizza with with <topping> mozzarella cheese </topping> , <topping> green peppers </topping> , <topping> red onions </topping> , <topping> mushrooms </topping> and <topping> sausage </topping> . Did you want any bread sticks ? They 're half off until the end of the month .
+209	Text7	User	No , not today , but I 'll keep that in mind !
+210	Text7	Clerk	Okay then . Before delivery , that 'll be $ 21 . Did you want to pick it up yourself , or get it <modality> delivered </modality> ?
+211	Text7	User	I 'll pick it up . Also , could I set this as my preferred order ?
+212	Text7	Clerk	Yeah , sure . What was your name ?
+213	Text7	User	Jane Doe , and the number on my account is 555-1234 .
+214	Text7	Clerk	Okay , just give me a second . Okay , everything been updated and you 're good to go . It should be ready in about <time> 15 minutes </time> .
+215	Text7	User	Thank you , have a nice day !
+216	Text7	Clerk	Thank you !
+217	Text8	Clerk	Hello . What can I get you ?
+218	Text8	User	Hi , I 'd like to get my preferred order please .
+219	Text8	Clerk	Okay , your name ?
+220	Text8	User	I think the name on the account is Jane Doe .
+221	Text8	Clerk	Yep , here it is . So it looks like your preferred order is a <size> medium </size> <pizza_type> meat lovers </pizza_type> without <topping> ham </topping> and a caesar salad , is that correct ?
+222	Text8	User	Yes , that 's correct . Could I get that plus a lemon soda today please ?
+223	Text8	Clerk	Sure . That 'll be $ 40 . Are you picking you today ?
+224	Text8	User	How is the timing on pick-up versus delivery right now ?
+225	Text8	Clerk	You 're next for <modality> delivery </modality> , as soon as our driver gets back from his current drop-off , he 'll be able to take yours over . He should be back before your pizza is done cooking , about <numeric> 10 </numeric> minutes .
+226	Text8	User	I 'll do delivery then .
+227	Text8	Clerk	Okay . Looks like you should be getting it in about <time> 20 minutes </time> then .
+228	Text8	User	Great , thank you so much .
+229	Text9	Clerk	Hi . This is generic pizza place .
+230	Text9	User	Hey , can I get <quant> three </quant> <size> large </size> <pizza_type> 4 cheese </pizza_type> pizzas and <quant> three </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas ?
+231	Text9	Clerk	Okay . Did you want anything to drink ?
+232	Text9	User	No , no drinks . Can I also get four orders of bread sticks and four of cheese sticks though ?
+233	Text9	Clerk	Sure . Just so you know , this is all going to take about 40 minutes to prepare , is that okay ?
+234	Text9	User	Yeah , no problem .
+235	Text9	Clerk	Okay . Pick up ?
+236	Text9	User	Um , can I get delivery ?
+237	Text9	Clerk	Sure . Your name and number ?
+238	Text9	User	Jane Doe , 555-1234 . It 's not to the address on my account , I can give you the delivery address ?
+239	Text9	Clerk	Okay , hold on , give me a second . Okay , your delivery address then ?
+240	Text9	User	<address> 123 Street St. , Citytown , Stateplace 12345 </address>
+241	Text9	Clerk	Okay , got it . That 'll be $ 183 .
+242	Text9	User	Cool , thanks .
+243	Text9	Clerk	Thank you .
+244	Text10	Clerk	Hi . This is generic pizza place . What can I get you .
+245	Text10	User	Ok so , what is the cheapest pizza you sell ?
+246	Text10	Clerk	The cheapest possible pizza you can get is a <size> small </size> <pizza_type> plain </pizza_type> pizza . And I mean plain . Only the bread and pizza sauce . No cheese . That would cost $ 10 . However , the <size> small </size> <pizza_type> cheese </pizza_type> pizza is $ 11.50 .
+247	Text10	User	Uh , right , ok . I 'd like a <size> small </size> <pizza_type> plain </pizza_type> pizza then .
+248	Text10	Clerk	Okay . No cheese right ?
+249	Text10	User	Yeah , no <topping> cheese </topping> .
+250	Text10	Clerk	Okay . I take it there 's nothing else ?
+251	Text10	User	Yeah , just that .
+252	Text10	Clerk	Okay . Did you want to pick it up ? Delivery is $ 3 .
+253	Text10	User	Oh , right , yeah I 'll pick it up .
+254	Text10	Clerk	Okay . Your name ?
+255	Text10	User	Jane Doe .
+256	Text10	Clerk	Okay Jane . It should be ready in about <time> 20 minutes </time> .
+257	Text10	User	Great .
+258	Text11	Clerk	Hello , this is generic pizza place . How can I help you today ?
+259	Text11	User	Hey , I 'd like a <size> large </size> <pizza_type> pepperoni </pizza_type> and <topping> sausage </topping> pizza .
+260	Text11	Clerk	Sure , that 's a <size> large </size> <pizza_type> pepperoni </pizza_type> and <topping> sausage </topping> pizza . What kind of crust would you like ? We do thin , regular , deep dish , and <crust> gluten free </crust> .
+261	Text11	User	Just regular please .
+262	Text11	Clerk	Great , regular crust . Would you like any sides , drinks , or desserts today ?
+263	Text11	User	No thank you .
+264	Text11	Clerk	Alright , no extras today . Is your order pick-up or delivery ?
+265	Text11	User	Pick up .
+266	Text11	Clerk	Great , your total today is $ 19.50 . Could I get your name and phone number ?
+267	Text11	User	It 'll be under John Smith . 123-456-7890
+268	Text11	Clerk	Great , thank you John . Your order should be ready in about <time> 15 minutes </time> .
+269	Text11	User	Okay , thanks .
+270	Text12	Clerk	Generic pizza place , this is Jane ! Could I get your name ?
+271	Text12	User	John Smith .
+272	Text12	Clerk	One moment please . Great , I have you here . What can I get for you today , John ?
+273	Text12	User	I 'd like an <size> extra large </size> pizza with <topping> spinach </topping> .
+274	Text12	Clerk	We unfortunately do n't have spinach . Our veggie options are <topping> pineapple </topping> , <topping> green peppers </topping> , <topping> red onions </topping> , <topping> mushrooms </topping> , and <topping> black olives </topping> . Would you like to substitute one of those , John ?
+275	Text12	User	Oh . No , its okay . Just a <pizza_type> cheese </pizza_type> pizza then . The spinach makes me feel healthier , but I can do a cheat day . Can I also get a coke ?
+276	Text12	Clerk	Sure , one <pizza_type> cheese </pizza_type> pizza and a coke . Would you like delivery or pick-up , John ?
+277	Text12	User	I 'm going to pick it up . When will it be ready ? Also , can I actually add some <side> bread sticks </side> ? Actually , how much are they ?
+278	Text12	Clerk	Bread sticks are $ 7 .
+279	Text12	User	Hmm . Okay . Actually , can you make it a <size> medium </size> , and add bread sticks ?
+280	Text12	Clerk	Sure , no problem . So that 's a <size> medium </size> <pizza_type> cheese </pizza_type> pizza , a coke , and bread sticks for <modality> pick up </modality> , John ?
+281	Text12	User	Yup .
+282	Text12	Clerk	Great , the total will be $ 24 , and it should be ready in about <numeric> 10 </numeric> minutes .
+283	Text12	User	Excellent . I 'm on my way already . I 'll see you in a minute . Thanks .
+284	Text13	Clerk	Hello , welcome to generic pizza place . This is Jane , what can I get you today ?
+285	Text13	User	Hey , this is John Smith . I 'll take my usual please .
+286	Text13	Clerk	Sure , give me one moment . So your usual is a <size> large </size> <pizza_type> mozzarella </pizza_type> , mushroom , and <topping> bacon </topping> <crust> deep dish </crust> pizza , a root beer , and a slice of cheesecake , right ?
+287	Text13	User	Yep . And I 'd like it delivered please . How long will it be ?
+288	Text13	Clerk	We have a few deliveries out right now , so it will be about half an hour . Is that okay ?
+289	Text13	User	No that 's okay , I 'll just pick it up .
+290	Text13	Clerk	Alright , your total will be $ 31 . It should be ready in about <time> 15 minutes </time> . Anything else you need today ?
+291	Text13	User	Cool . No thanks , see you then .
+292	Text14	User	Hi , I 'll be there in about <quant> 5 </quant> minutes . Do you have any pizza ready to go ? I do n't have a lot of time .
+293	Text14	Clerk	Our thin crust pizza with just cheese can cook in <time> five minutes </time> . Would that work for you ?
+294	Text14	User	Okay I 'll take that . My name is John Smith , and it 'll be for <modality> pick up </modality> obviously .
+295	Text14	Clerk	Alright , would you like a <size> small </size> , medium , or <size> large </size> ?
+296	Text14	User	Just small .
+297	Text14	Clerk	Ok , that will be $ 11.50 , we will see you in a few minutes .
+298	Text14	User	Thanks .
+299	Text15	Clerk	Generic pizza place , this is Jane .
+300	Text15	User	Hi . How many bread sticks come with a typical bread stick order ?
+301	Text15	Clerk	There are five bread sticks in an order .
+302	Text15	User	Hmm . Okay . I 'll take 8 orders of bread sticks then . How much does a salad cost ? Also , can I get a side of pizza sauce for the bread sticks , or does that cost extra ?
+303	Text15	Clerk	Our green salads are $ 10 and our Caesar salads are $ 12 . The bread sticks come with a sauce .
+304	Text15	User	Your salads are $ 10 ? No thanks . Just the bread sticks then .
+305	Text15	Clerk	Delivery or <modality> pick up </modality> ?
+306	Text15	User	Delivery . Will it take long ?
+307	Text15	Clerk	It will take about 15 minutes . Your total is $ 59 . Could I get your name ?
+308	Text15	User	Well okay . My name is John Smith .
+309	Text15	Clerk	Thank you for calling , your order will be there soon .
+310	Text16	Clerk	Thank you for calling generic pizza place , what can I get you today ?
+311	Text16	User	Hi . I 'd like two pizzas . <quant> One </quant> <size> large </size> <pizza_type> meat lovers </pizza_type> without the <topping> ham </topping> or <topping> bacon </topping> , and <quant> one </quant> <size> medium </size> <crust> deep dish </crust> <pizza_type> pepperoni </pizza_type> .
+312	Text16	Clerk	Alright , that 's <quant> one </quant> <size> large </size> <crust> deep dish </crust> <pizza_type> meat lovers </pizza_type> without <topping> ham </topping> or <topping> bacon </topping> , and <quant> one </quant> <size> medium </size> <crust> deep dish </crust> <pizza_type> pepperoni </pizza_type> . Is that correct ?
+313	Text16	User	That meat lovers is a regular crust right ?
+314	Text16	Clerk	Ah , right , thanks for catching that ! Yes , I have the meat lovers as regular crust . Would you like any drinks or sides today ?
+315	Text16	User	Do you have an birch beer ?
+316	Text16	Clerk	We unfortunately do n't have birch beer , but we do have root beer . Would you like that ?
+317	Text16	User	I guess that will do .
+318	Text16	Clerk	How many root beers would you like ?
+319	Text16	User	How about <quant> two </quant> ?
+320	Text16	Clerk	Great . Is this order <modality> delivery </modality> or <modality> pick up </modality> ?
+321	Text16	User	I 'll be picking it up .
+322	Text16	Clerk	Alright . Your total will be $ 46 . Could I get your name ?
+323	Text16	User	John Smith .
+324	Text16	Clerk	Great , that will be ready in about <numeric> 10 </numeric> minutes . Thank you for calling generic pizza , John !
+325	Text16	User	Thank you !
+326	Text17	Clerk	Generic pizza place , how can I help you today ?
+327	Text17	User	Good evening ! I would like a <pizza_type> pepperoni </pizza_type> pizza , but with <topping> cheddar cheese </topping> and a <crust> gluten free </crust> crust . Also can you bake it for an extra long time ?
+328	Text17	Clerk	Sure ! What size pizza would you like ?
+329	Text17	User	Hmm . Maybe a <size> medium </size> .
+330	Text17	Clerk	Alright , I have <quant> one </quant> <size> medium </size> <pizza_type> pepperoni cheddar </pizza_type> pizza with a <crust> gluten free </crust> crust , baked extra long . Would you like any sides with that ?
+331	Text17	User	Hmm . What kind of sides do you have ?
+332	Text17	Clerk	We have bread sticks , cheese sticks , green salads and Caesar salads .
+333	Text17	User	Hmm . How much is the Caesar ?
+334	Text17	Clerk	Our Caesar salads are $ 12 .
+335	Text17	User	Okay , add one of those please . That will be all .
+336	Text17	Clerk	Great , one medium pizza and one Caesar salad . Will that be delivery or <modality> pick up </modality> ?
+337	Text17	User	Pick up . My name is John Smith .
+338	Text17	Clerk	Great . That should be ready in about <time> 20 minutes </time> , and you total will be $ 34 , John .
+339	Text17	User	Okay , thanks . Bye .
+340	Text18	Clerk	Hello , this is Jane . Oh , I mean , this is generic pizza place , Jane speaking ! What can I get you ?
+341	Text18	User	Hello there . I 'm looking for a pizza . Do you know if your vegan pizza is organic ?
+342	Text18	Clerk	All of our ingredients are locally sourced and certified organic .
+343	Text18	User	Wow . Okay , I 'd like <quant> two </quant> <size> large </size> <pizza_type> vegan </pizza_type> pizzas . With <crust> gluten free </crust> crusts . And three mineral waters .
+344	Text18	Clerk	Great ! Would you like any sides or desserts with that ?
+345	Text18	User	No thank you .
+346	Text18	Clerk	Alright , could I get your name and phone number ?
+347	Text18	User	My name is John Smith , 123-456-7890 . Can I save this order to reuse later ? Except with only two mineral waters instead of three ?
+348	Text18	Clerk	Definitely , give me a moment to save that . Ok , that is <quant> two </quant> <size> large </size> <pizza_type> vegan </pizza_type> pizzas with <crust> gluten free </crust> crusts and <quant> two </quant> mineral waters saved as your preferred order . Is today 's order delivery or <modality> pick up </modality> ?
+349	Text18	User	Yes . But three mineral waters tonight . Delivery please .
+350	Text18	Clerk	Yes , I have <quant> three </quant> mineral waters for today . Alright , your total will be $ 74.50 , and it should take about 20 minutes .
+351	Text18	User	Okay , thank you Jane !
+352	Text18	Clerk	Have a good night !
+353	Text19	Clerk	Generic pizza place , Jane speaking .
+354	Text19	User	Hello , I would like a <size> small </size> <pizza_type> Hawaiian </pizza_type> pizza . Thin crust . And some <pizza_type> cheese </pizza_type> sticks .
+355	Text19	Clerk	Would you like a drink or dessert ?
+356	Text19	User	No thank you . How long will it be ?
+357	Text19	Clerk	It will take about 10 minutes to cook . Is this <modality> delivery </modality> or <modality> pick up </modality> ?
+358	Text19	User	Can I get it <modality> delivered </modality> to Generic High School ?
+359	Text19	Clerk	Sure . What is the street address ?
+360	Text19	User	<address> 1234 Main St , New City , AB 12345 </address>
+361	Text19	Clerk	Your total will be $ 28 , and it will arrive in about <time> 15 minutes </time> . Is there anything else you need today ?
+362	Text19	User	That 's it , thanks .
+363	Text19	Clerk	Goodbye .
+364	Text20	Clerk	Hello , thank you for calling generic pizza place ! What can I get for you today ?
+365	Text20	User	I want <quant> two </quant> <size> large </size> <crust> deep dish </crust> pizzas . With everything on them .
+366	Text20	Clerk	Sure ! That would be <quant> two </quant> <size> large </size> <crust> deep dish </crust> pizzas with mozzarella , <topping> cheddar </topping> , <topping> swiss </topping> , <topping> provolone </topping> , <topping> pineapple </topping> , <topping> green peppers </topping> , <topping> red onions </topping> , <topping> mushrooms </topping> , <topping> black olives </topping> , <topping> pepperoni </topping> , <topping> ham </topping> , <topping> bacon </topping> , and <topping> sausage </topping> . Is that correct ?
+367	Text20	User	Yes . And extra <topping> pineapple </topping> on one of them .
+368	Text20	Clerk	Alright , extra <topping> pineapple </topping> on one . Would you like any drinks , sides , or desserts today ?
+369	Text20	User	No thank you . Just the pizzas today .
+370	Text20	Clerk	Ok , sounds good . Is this for <modality> pick up </modality> ?
+371	Text20	User	Yes .
+372	Text20	Clerk	Great , added to the <modality> pick up </modality> list . Could I get your name ?
+373	Text20	User	Smith . 456-7890
+374	Text20	Clerk	Alright , that will be ready in about <time> 20 minutes </time> . We will see you then !
+375	Text20	User	Thank you .
+376	Text20	Clerk	Your total will be $ 88 .
+377	Text20	User	Okay , thanks !
+378	Abnormal1	Clerk	Thank you for calling generic pizza place ! This is Jane , how can I help you ?
+379	Abnormal1	User	Hi . I 'm looking for <quant> three </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas . Also three colas . And wait hold on , give me a moment . Uhhhh has anyone seen Max ? Max ? Does anyone remember what he ca n't eat ? Okay hold on , I need to find a buddy of mine . Give me just a few minutes . Actually you know what , I 'll call you back . Uhh just so you know my name is John Smith .
+380	Abnormal1	Clerk	Ok , thank you .
+381	Abnormal1	Clerk	Hello , this is generic pizza place . How can I help ?
+382	Abnormal1	User	Hi , this is John from before . We found Max . And he ca n't have <pizza_type> cheese </pizza_type> for some reason . So that complicates things .
+383	Abnormal1	Clerk	One minute , I think Jane was on the phones earlier .
+384	Abnormal1	User	Oh .
+385	Abnormal1	Clerk	Hey Jane , did you have a John earlier ? You wrote the order down ?
+386	Abnormal1	User	Uhh I think I 'd ordered <quant> three </quant> <size> large </size> pizzas . Or maybe it was <numeric> two </numeric> .
+387	Abnormal1	Clerk	Yes , I found the note from earlier . I have <quant> three </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> pizzas and <quant> three </quant> <beverage> colas </beverage> Did you want to do one of those without cheese ?
+388	Abnormal1	User	Okay , well I 'd like one of those pepperonis without cheese . Yes exactly . Thank you . The three colas are still good to go .
+389	Abnormal1	Clerk	Great , we can do that . Is that for <modality> delivery </modality> or pick-up ?
+390	Abnormal1	User	That would be for <modality> delivery </modality> . My address is <numeric> 1234 </numeric> Main St .
+391	Abnormal1	Clerk	Alright , your total will be $ 66 , and it will take about 20 minutes . Anything else you need today ?
+392	Abnormal1	User	No , that 's it from me .
+393	Abnormal1	Clerk	Alright , thank you for your order . Have a nice day !
+394	Abnormal1	User	Thank you .
+395	Abnormal2	Clerk	Hello , generic pizza place . What can I get for you ?
+396	Abnormal2	User	Hi , I 'd like a <size> small </size> <pizza_type> veggie </pizza_type> pizza and a salad .
+397	Abnormal2	Clerk	Sure . We have a both a green salad and a Caesar salad , which would you like ?
+398	Abnormal2	User	Hmm . Maybe the Caesar .
+399	Abnormal2	Clerk	Ok , a <size> small </size> <pizza_type> veggie </pizza_type> pizza and ... sa ... d ... . els ... . to ... .ay ... .
+400	Abnormal2	User	What ? Sorry , I think you might be breaking up . Can you repeat that ?
+401	Abnormal2	Clerk	Is there any ... ... . else ... ... get yo ... ... . day ?
+402	Abnormal2	User	That 's it . My name is John .
+403	Abnormal2	Clerk	Deli ... ... or ... . up ?
+404	Abnormal2	User	Uhh . Pick up .
+405	Abnormal2	Clerk	... ..33.50 ... .minu ... ..tha ... ... ou
+406	Abnormal2	User	Uhh okay sure . Thanks .
+407	Abnormal3	Clerk	Hello , this is generic pizza place . What can I get you ?
+408	Abnormal3	User	Hi , can I just get a <size> small </size> <pizza_type> pepperoni </pizza_type> pizza ?
+409	Abnormal3	Clerk	Yeah , sure . That all ?
+410	Abnormal3	User	Um , yeah , that 's all . How much is that ?
+411	Abnormal3	Clerk	$ <numeric> 14.00 </numeric>
+412	Abnormal3	User	Oh , um , do you do slices ?
+413	Abnormal3	Clerk	Hold on , let me ask . No , unfortunately we do not sell by the slice .
+414	Abnormal3	User	Oh , alright , never mind .
+415	Abnormal4	Clerk	Hello , this is generic pizza place . Just a heads up , all of our ovens are currently out of commission . But is there anything I can help you with ?
+416	Abnormal4	User	Oh , so you 're not doing pizza right now ?
+417	Abnormal4	Clerk	No we are not . The only things we currently have are salads , drinks , and desserts .
+418	Abnormal4	User	Oh well , I guess I can eat healthier for one night . Uh , could I get a Caesar salad , a root beer , and a slice of chocolate cake ?
+419	Abnormal4	Clerk	Okay , sure , we can get you that . Did you want to pick it up ?
+420	Abnormal4	User	Yeah , I 'll do that .
+421	Abnormal4	Clerk	Okay , that 'll be $ 20.50 . What was your name ?
+422	Abnormal4	User	Jane Doe .
+423	Abnormal4	Clerk	Okay Jane . It 's ready whenever you get here . See you soon .
