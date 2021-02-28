@@ -1,0 +1,335 @@
+Conversation	Speaker	Transcript
+Spoken2	clerk	Oh , thank you for calling pizza 101 . How may I help you ?
+Spoken2	user	Um , I want to order a pizza here , but I 'm honestly it 's my first time because I 'm not from the US and it 's going to be my first time going to a pizza restaurant . So I 'm not having a good option right now coo , do you have any suggestions at this point ?
+Spoken2	clerk	Sure , sure . I can help you . So first of all , we have <quant> three </quant> different sizes of pizza . We have a <size> small </size> , medium and large is this for you or for you and some friends ?
+Spoken2	user	For me and some friends . Yes .
+Spoken2	clerk	Okay . I would recommend that you go with <ref id='martins.0'>a <size> large </size> pizza</ref> .
+Spoken2	user	Okay , I 'll do <refexp id='martins.0'>that</refexp> . Thank you .
+Spoken2	clerk	Are there any vegetarians in your group .
+Spoken2	user	Um , no , I do n't think so .
+Spoken2	clerk	Okay , great . Do you have any meat lovers in your group ?
+Spoken2	user	I think they love <topping> bacon </topping> . So I guess I would say they can be a good one .
+Spoken2	clerk	Okay , perfect . Then I think you should get <ref id='martins.1'>a <size> large </size> <pizza_type> meat lovers </pizza_type> pizza</ref> . It comes with <pizza_type> mozzarella cheese </pizza_type> , <pizza_type> pepperoni </pizza_type> or <topping> ham bacon </topping> and <topping> sausage </topping> .
+Spoken2	user	Oh , I see . Okay , that 's , that 's good . I think I 'll go with <refexp id='martins.1'>that one</refexp> .
+Spoken2	clerk	And do you want our regular crust or do you want like a Chicago deep dish style pizza or a you know a thin crust pizza .
+Spoken2	user	Um , what , what would you recommend if you just if you if you 're ordering a pizza , I do n't , I do n't know which one .
+Spoken3	clerk	Hello this is pizza 101 . How may I have your order ?
+Spoken3	user	Hi . Hello , is this pizza 101 .
+Spoken3	clerk	Yes , it is . What do you want today ? we have Hawaiian pizza .
+Spoken3	user	Oh , sorry , one second and I want to do an order for one pizza . Give me one second . I 'm just trying to get my order together .
+Spoken3	clerk	Sure , sure . No rush . Tell me whenever you 're ready .
+Spoken3	clerk	I 'm sorry , are you still -
+Spoken3	user	Oh , I 'm so sorry , I 'm so sorry , I 'm so sorry I 'm - Oh , can IÉ Do you guys have , like , like a veggie like pizza .
+Spoken3	clerk	Oh , yeah . So definitely , we have a vegetarian pizza with <topping> green pepper red onions mushrooms </topping> and <topping> black olives </topping> .
+Spoken3	user	Okay . Um , we what do we want again .
+Spoken3	user	( whispering to friends )
+Spoken3	user	Um actually , can we just do like the the <ref id='martins.2'>the <pizza_type> four cheese </pizza_type> pizza</ref> and add green peppers to <refexp id='martins.2'>that</refexp> .
+Spoken3	clerk	Okay , so <pizza_type> four cheese </pizza_type> pizza with a extra pepper on it . I gotcha . And Do you want what size you want on we have <crust> thin regular deep dish </crust> and <crust> gluten free </crust> . So , and also small , medium , large , so which
+Spoken3	user	Um actually . Can we can we do the <pizza_type> veggie supreme </pizza_type> pizza . Yeah . Can we do <ref id='martins.3'>the <pizza_type> veggie supreme </pizza_type> pizza</ref> and can we get <refexp id='martins.3'>that</refexp> in a <crust> regular </crust> and what were the sizes again ?
+Spoken3	clerk	Um , let me repeat so small , medium and large .
+Spoken3	user	Okay , can we do like a <size> medium </size> .
+Spoken3	clerk	Okay , so you want to veggie supreme with Regular and medium size right ?
+Spoken3	clerk	Hello ?
+Spoken3	user	Sorry , what was that ?
+Spoken3	clerk	I just want to confirm with you the order . Are you taking the veggies supreme with <crust> regular </crust> and medium size .
+Spoken3	user	Yeah yeah yeah that 's fine . Um , what 's my total ?
+Spoken3	clerk	Um your total will be it 'll be $ 20 .
+Spoken3	user	Okay , yeah , that 's fine .
+Spoken3	clerk	Okay . Um , do you want pickup or delivery ? It 'll be a $ 3 plus for <modality> delivery </modality> .
+Spoken3	user	Can we do delivery , please ?
+Spoken3	clerk	Okay , okay . Um , can I take your address , please .
+Spoken3	user	Actually we will just do pick-up .
+Spoken3	clerk	Oh , okay . So you wan na , you want to pick up and you 'll really be pizza , they will usually be available in <time> 30 minutes so </time>
+Spoken3	user	Okay . Okay . Thank you .
+Spoken3	clerk	Okay , thank you so much . Bye .
+Spoken4	clerk	Um , hi this is pizza 101 . How can I help you today ?
+Spoken4	user	Um , can I please get an order for an extra <size> large </size> . Cheese stuffed crest <pizza_type> pepper pepperoni </pizza_type> pizza .
+Spoken4	clerk	I 'm , I 'm sorry , we have we have <topping> pepperoni </topping> , but other cheese stack one but and also the yeah and also the side is ... Ę is <size> large </size> okay with you ?
+Spoken4	user	Wait , what do you mean when you say you do n't have <ref id='martins.4'>the <pizza_type> cheese </pizza_type> , the stuff to crest</ref> . I 've gotten <refexp id='martins.4'>that</refexp> before .
+Spoken4	clerk	Oh really , I 'm , I 'm sorry for the inconvenience . But , um , <refefxp id='martins.4'>it</refefxp> 's not on our current manual right now .
+Spoken4	user	When did your menu change ?
+Spoken4	clerk	Yeah , changing seasonally , and I 'm really sorry for this . For experience and -
+Spoken4	user	Can I like talk to your manager because like I just , I really want the cheesy like stuffed Like crust pizza and I feel like you guys have like cheese and you have bread . So I feel like you should be able to stuff the crust .
+Spoken4	clerk	Okay , yeah . I can talk to the managers and both , can you please wait for me for a minute .
+Spoken4	user	Um , how long is the hold going to be ?
+Spoken4	clerk	Oh just is going to be quick and as I will rush back . Sorry for your time .
+Spoken4	user	Okay .
+Spoken4	clerk	Yeah , I 'm , I 'm back . Sorry for your waiting . On that actually , I talked to my managers . And he said , we have a yeah I think we can do that , but Any extra kind of process to to to do that and and it would cost like A little bit more . Would that be okay for you ?
+Spoken4	user	No , I do n't see why I have to pay more . No , it 's okay . I 'll just get a <crust> regular </crust> <pizza_type> pepperoni </pizza_type> pizza but can I like just get an <size> extra large </size> ?
+Spoken4	clerk	Oh , OK . I see . Um , yeah , I think . The largest - We do n't have an <size> extra large </size> .
+Spoken4	user	Oh my god
+Spoken4	clerk	<ref id='martins.5'>Large</ref> would also be pretty large . I think <refexp id='martins.5'>it</refexp> 's good for a family .
+Spoken4	user	Forget it , forget it . I do n't want to order anymore . It 's okay .
+Spoken4	clerk	Okay , I 'm sorry . I 'm so I 'm so sorry .
+Spoken5	clerk	Hello . Thank you for calling pizza 101 . How may I help you ?
+Spoken5	user	Um , can I get a <pizza_type> pepperoni </pizza_type> pizza with <topping> black olives </topping> as toppings ?
+Spoken5	clerk	Sure . And what what size pizza would you like ? We have a <size> small </size> , medium and large -
+Spoken5	user	Can I go with medium one ?
+Spoken5	clerk	- and <crust> regular regular </crust> crust . Okay , a <pizza_type> pepperoni </pizza_type> pizza with <topping> olives </topping> <crust> regular </crust> crust and you wanted a <size> large </size> or medium ?
+Spoken5	user	A medium one please .
+Spoken5	clerk	Okay , medium . Did you want any sides or drinks ?
+Spoken5	user	Um , can I have a bread sticks and cola .
+Spoken5	clerk	Okay . Um just to confirm your order that will be a <size> medium </size> <pizza_type> pepperoni </pizza_type> pizza with <topping> olives </topping> and regular crust with a side of breadsticks and cola and your totals going to be $ 25 .
+Spoken5	user	Um , can I - I will <modality> pick up </modality> so
+Spoken5	clerk	Okay , so you 're a total of $ 25 plus tax , can I please get your card information .
+Spoken5	user	Yes . No problem . My card type is my card . And the number is <numeric> 12345 </numeric> .
+Spoken5	clerk	One second . I 'm sorry , but your card was declined . Did you want to pay with another card ?
+Spoken5	user	Oh really ? <ref id='martins.6'>My card</ref> is declined ? Wait , um , I do n't have any card available at this point . I 'm so sorry um Okay . Can you try that again or
+Spoken5	clerk	Let me run <refexp id='martins.6'>it</refexp> one more time .
+Spoken5	user	Okay , Thank you .
+Spoken5	clerk	I 'm sorry I tried <refexp id='martins.6'>it</refexp> again , but <refexp id='martins.6'>it</refexp> 's not going through . Did you maybe want to take something off maybe the cheesy . Sorry . Maybe <ref id='martins.7'>the breadsticks</ref> ?
+Spoken5	user	Yeah , I think I 'll go with <refexp id='martins.7'>that one</refexp> . Oh no , maybe cola , Please .
+Spoken5	clerk	Let me try without the cola . Without the cola your order is going to be $ 22 .
+Spoken5	user	Okay , thank you . Please go through this time .
+Spoken5	clerk	Okay , I tried it and your payment - it was successful .
+Spoken5	user	Thank you so much .
+Spoken6	clerk	Hello this is pizza 101 . Okay , how can I help you today ?
+Spoken6	user	Hi , can I please order for a <size> small </size> , medium , I 'm sorry , a <size> small </size> Wow , I ca n't even talk . Can I push for small thin crust pizza , and can I get the Hawaiian Style ?
+Spoken6	clerk	Hold on . So , um , no problem.ĘLet me repeat . You want a <size> small Hawaiian small </size> <crust> thin </crust> pizza ?
+Spoken6	user	Yes , please . And then can I also get a side of a green salad ?
+Spoken6	clerk	Oh , no problem . Okay . A side of green salads .
+Spoken6	user	And then one ginger ale .
+Spoken6	clerk	Okay , gotcha . So let me repeat your order . So you want to medium , a <size> small </size> <pizza_type> Hawaiian </pizza_type> pizza and sorry the side is green salad and the drink is ginger ale .
+Spoken6	user	Yes , please . How much is my total ? I 'm gon na come pick <refexp id='martins.8'>it</refexp> up .
+Spoken6	clerk	Okay . Your total gon na be $ 20 and we do want pickup or delivery . It will be a $ 3 plus .
+Spoken6	user	And I 'm going to come pick <refexp id='martins.8'>it</refexp> up , but did you just say that was $ 20 ?
+Spoken6	clerk	Yes $ 20 for your order .
+Spoken6	user	Um , why is it $ <numeric> 20 </numeric> because I ordered <refexp id='martins.8'>it</refexp> like two days ago and I literally paid $ 15 .
+Spoken6	clerk	So let me break it down for you and it is your small Hawaii thin pizza is going to take 13 bucks , dollars and your green salad . Let 's take another $ 3 and the ginger ale would be taken another four so totally it adds up to 20 without tax .
+Spoken6	user	Wait . You guys are charging $ 4 for a ginger ale when did the ginger ale become $ <numeric> 4 </numeric>
+Spoken6	clerk	Yeah , I 'm really sorry for that . And I was just a recent call but during the COVID time , you know , everything is we have
+Spoken6	user	Why , but I literally order this exact same order two days ago . Rather , I do n't like how did your menu price increased that much in two days .
+Spoken6	clerk	Yeah , it was a sudden and it just being unfortunate is like it happens in two days , but I 'm so sorry for that for for your
+Spoken6	user	Well , can you just give me the ginger ale for free .
+Spoken6	clerk	Yeah , I think , yeah , I can , I can do it this time . But yeah , but next time because like I can tell you are You always dine at our restaurant so yeah for this time . Yeah , the total would be 16 without tax . Yeah , that would be it .
+Spoken6	user	Okay , thank you so much .
+Spoken6	clerk	No problem . Have a nice day .
+Spoken6	user	You too . Bye .
+Abnormal1	clerk	Hello welcome to pizza 101 .
+Abnormal1	user	Um , hi . Can I have <ref id='martins.9'>a <pizza_type> 4 Cheese </pizza_type> regular small size pizza</ref> .
+Abnormal1	clerk	Sure . And , and did you want any size with <refexp id='martins.9'>that</refexp> ?
+Abnormal1	user	I 'm okay go with a bread sticks and
+Abnormal1	clerk	You said you wanted breadsticks ?
+Abnormal1	user	Yes , yes .
+Abnormal1	clerk	And did you want any other sides running drinks with that ?
+Abnormal1	user	Um , I think I 'm gon na take a drink . Um , yeah , we 'll go with
+Abnormal1	clerk	Hello ?
+Abnormal1	clerk	Hello ?
+Abnormal1	clerk	Sir , did you want a drink with that . I ca n't hear you .
+Abnormal1	clerk	Okay , I 'm going to hang up because I ca n't complete your order , but if you are interested just go ahead and call us back and go , you know , finalize your order . Thank you .
+Abnormal2	clerk	Hi this is pizza 101 . I 'm sorry , we are in the rush hour today . So , so can you please wait for another five minutes ? Thank you so much for understanding . I will get back to you as soon as possible .
+Abnormal2	user	Okay , alright .
+Abnormal2	clerk	Hi , I 'm sorry for waiting . We really have a lot of clients , a lot of customers . Everyone likes pizza . Sorry . Um , I can take your order now and what do you want ?
+Abnormal2	user	It 's okay . I do n't mind the wait , can I please get a <size> small </size> <pizza_type> Hawaiian </pizza_type> pizza with <crust> thin </crust> crust no sides no drinks and I 'll do that for <modality> pickup </modality> .
+Abnormal2	clerk	Okay , let me repeat your order . So you want a <size> small </size> <pizza_type> Hawaiian </pizza_type> pizza with <crust> thin </crust> crust with no side and no drinks and you 're going to pick up . So you 're going to pick up .
+Abnormal2	user	Correct .
+Abnormal2	clerk	Right . So your order will be available in <time> 30 minutes </time> and I will see you . I 'll see you soon .
+Abnormal2	user	Thank you . What 's my total ?
+Abnormal2	clerk	Oh right , sorry , I 'm sorry . I 'm so sorry .
+Abnormal2	user	Long day .
+Abnormal2	clerk	It is a busy day . Yeah , it 's gon na take 20 dollars .
+Abnormal2	user	Okay , thank you so much .
+Abnormal2	clerk	Thank you so much . See you soon .
+Abnormal2	user	Okay .
+Abnormal3	clerk	Hi , this is pizza 101 . How may I help you tonight ?
+Abnormal3	user	Hi , can I place the order for a <size> small </size> <crust> thin </crust> crust pizza with Hawaiian , a Hawaiian Style ?
+Abnormal3	clerk	I 'm okay . You are taking a - I 'm sorry , like a little bit noisy .
+Abnormal3	user	I can not hear you . Can you hear me ?
+Abnormal3	clerk	Um , yeah , I can hear you now . Can you say that again ? I 'm so sorry .
+Abnormal3	user	Small thin crust pizza with Hawaiian .
+Abnormal3	clerk	Okay , so you want a <size> small </size> Hawaiian . Is that right , is that regular or thin ?
+Abnormal3	user	Can I get that with thin crust ?
+Abnormal3	clerk	Okay okay thin crust . Okay . Um , do you on any side or drink ?
+Abnormal3	user	Can I get a salad ?
+Abnormal3	clerk	Okay . Um , yeah , sure . What have green salad and Caesar salad . Which one do you want ?
+Abnormal3	user	Can I get a ( - ) salad ?
+Abnormal3	clerk	Oh wait , I 'm sorry , I can not hear again .
+Abnormal3	user	( - ) salad .
+Abnormal3	clerk	Oh , Caesar salad ?
+Abnormal3	user	Can I get a green salad ?
+Abnormal3	clerk	Okay , I got you this time . Green salad . Okay , no problem . Green salad .
+Abnormal3	clerk	And do you want any drinks ?
+Abnormal3	user	Can I get a soda ?
+Abnormal3	clerk	Okay , soda and we have cola and orange soda lemon soda and which one would you like ?
+Abnormal3	user	Lemon soda .
+Abnormal3	clerk	Orange soda . Okay , so let me repeat your order . ou want a Hawaiian thin crust pizza and a green salad with the orange soda .
+Abnormal3	user	I want a lemon soda .
+Abnormal3	clerk	A lemon soda . I 'm so sorry for the mistake . Okay , lemon soda . So is that everything ?
+Abnormal3	user	Yeah , what 's my total ?
+Abnormal3	clerk	I 'm your total gon na be $ 25 . Would you go with <modality> pickup or delivery </modality> ?
+Abnormal3	user	And I 'm going to come pick <refexp id='martins.10'>it</refexp> up .
+Abnormal3	clerk	Okay , um , <modality> pick up </modality> . okay is that <modality> pick up </modality> ?
+Abnormal3	user	Yeah , that 's <modality> pick up </modality> .
+Abnormal3	clerk	Okay , I gotcha . Um , so you are going to pick up and the order will be available in <time> 30 minutes </time> . Thank you so much . Bye
+Abnormal4	clerk	Welcome to pizza 101 . How may I help you ?
+Abnormal4	user	Um , hi . I want to have Pepperoni regular - <ref id='martins.11'>No Pepperoni small thin pizza</ref> thin crust please .
+Abnormal4	clerk	Okay . Um , did you want any sides or drink with <refexp id='martins.11'>that</refexp> ?
+Abnormal4	user	Oh , sorry . Sorry , my friend also wants to order . So I 'll ask his opinion . Can you wait for me a little bit ?
+Abnormal4	clerk	For your order . Did you want a side or drink ?
+Abnormal4	user	Oh , for my order I want a green salad and cola . Yeah , I will . I 'll hand over my call to my friend . Please wait .
+Abnormal4	clerk	Okay . I am ordering as well . Can I have another <pizza_type> 4 cheese </pizza_type> <size> small </size> <crust> deep dish </crust> , no a <crust> regular </crust> <pizza_type> 4 cheese </pizza_type> small size pizza ?
+Abnormal4	user2	Hi hello ! I am ordering as well . Can I have another <pizza_type> 4 cheese </pizza_type> <size> small </size> <crust> deep dish </crust> , no <ref id='martins.12'>a <crust> regular </crust> <pizza_type> 4 cheese </pizza_type> small size pizza</ref> ?
+Abnormal4	clerk	Okay , sure . Did you want a drink , or side with <refexp id='martins.12'>that</refexp> ?
+Abnormal4	user2	Um , I 'll do <refexp id='martins.13'>the same as my friend</refexp> , so I will go with a green salad and the cola .
+Abnormal4	clerk	Okay . And are you paying together ?
+Abnormal4	user2	Um , yeah , we 're paying together .
+Abnormal4	user	Okay , and so I will give you my card information .
+Abnormal4	clerk	Okay , what 's your card number ?
+Abnormal4	user	My card number is <numeric> 12345 </numeric> and the card type is my card .
+Abnormal4	clerk	Okay , thank you so much , your total is going to be $ 30 .
+Abnormal4	user	Thank you so much .
+Abnormal4	clerk	Thank you . And is <refexp id='martins.14'>this</refexp> for <modality> pickup </modality> or delivery ?
+Abnormal4	user	Oh right . Um , we 're gon na <modality> pick up </modality> in <time> 30 minutes so </time>
+Abnormal4	clerk	Yeah . We 'll see you then .
+Abnormal4	user	See you then . Bye bye .
+Abnormal4	clerk	Okay , okay .
+Text1	clerk	You 've reached pizza 101 , what do you want ?
+Text1	user	Can I take <ref id='martins.15'>a <pizza_type> 4 Cheese </pizza_type> thin crust small pizza</ref> with <topping> extra mushrooms </topping> ?
+Text1	clerk	We do n't have <refexp id='martins.15'>that</refexp>
+Text1	user	Oh that 's unfortunate . Do you have Meat Lovers ?
+Text1	clerk	No .
+Text1	user	ok then , what do you have ?
+Text1	clerk	Is this for <modality> pick up </modality> or delivery ; we are short staffed and not taking <modality> delivery </modality>
+Text1	user	<modality> pick up </modality> but never mind
+Text1	clerk	Okay , have a good day
+Text1	user	you too . good luck for getting more staffs
+Text2	clerk	You 've reached pizza 101 . We 'll be closing in <time> 15 minutes </time> and <modality> pick up </modality> only is available .
+Text2	user	Oh I see .
+Text2	user	It probably took me 20 mins to get there . Can you wait for an extra 5 mins ?
+Text2	clerk	Sorry , we close promptly at 10pm today but we reopen tomorrow at <numeric> 11am </numeric>
+Text2	user	I beg you . I am starving and you are the only restaurant near by
+Text2	clerk	Per my manager we are no longer accepting orders , have a good night ! Thanks
+Text2	user	oh my I can not believe it . Fine . Have a GOOD NIGHT
+Text3	clerk	You 've reached pizza 101 , we do n't have vegetarian options available . Can I take your order ?
+Text3	user	When would vegetarian options be available ?
+Text3	clerk	We are having a problem with our supplier . However we do have <ref id='martins.16'>a <pizza_type> cheese </pizza_type> pizza</ref> available that is made with <quant> no </quant> <topping_type> meat </topping_type> . Would you like to order <refexp id='martins.16'>that</refexp> ?
+Text3	user	Okay . A regular crust <size> medium </size> <pizza_type> cheese </pizza_type> pizza please . I will <modality> take delivery </modality> . My address is Hamilton inn . Please leave <ref id='martins.17'>it</ref> to the front desk .
+Text3	clerk	Okay we 'll charge it to your card on file . Thank you ! Have a nice day
+Text4	clerk	Welcome to pizza 101 we are running <ref id='martins.17'>a special</ref> on Hawaiian pizza today . Buy 1 get one half off . How can I help you ?
+Text4	user	That 's cool ! I will take <refexp id='martins.17'>it</refexp> . Two Hawaiian pizza regular crust small size . I will <modality> pick up </modality> in <time> 20 mins </time> .
+Text4	clerk	What 's your card information ?
+Text4	user	I would pay cash when I <modality> pick up </modality>
+Text4	clerk	Okay see you soon
+Text4	user	Bye
+Text5	clerk	Pizza 101 , what 's your order ?
+Text5	user	Sorry I called it by mistake . I am not ordering anything . I am sorry ! Bye !
+Text6	clerk	Pizza 101 , we are not available for <modality> delivery </modality>
+Text6	user	Oh no ? When will the delivery service resume ?
+Text6	clerk	Due to the pandemic we are short staff so I do not know
+Text6	user	I got it . During pandemic everywhere is short staff . I will take a <pizza_type> pepperoni </pizza_type> thin crust large size . no drinks , no sides
+Text6	clerk	That will be $ 20 can I have your card information ? Just to confirm this is for <modality> pick up </modality>
+Text6	user	Card Type : mycard . Card num : <numeric> 12345 </numeric>
+Text6	clerk	Perfect see you soon
+Text6	user	Bye
+Text7	clerk	Wings 101 how can I help you
+Text7	user	I want to preorder <pizza_type> 10 pepperoni </pizza_type> regular crust median size for party . Oh wait - Are n't you pizza 101 ?
+Text7	clerk	No wrong store
+Text7	user	okay . I am sorry . Have a nice day
+Text8	clerk	You have reached Pizza 101 outside of business hours . Please try again tomorrow
+Text8	user	Can I preorder for tomorrow to pick-up ?
+Text8	clerk	This is an automated system . You have reached Pizza101 outside of business hours . Please try again tomorrow .
+Text9	clerk	pizza 101 <ref id='martins.18'>your order</ref> arrives in <time> 30 minutes </time> or <refexp id='martins.18'>it</refexp> 's free . What can I get for you ?
+Text9	user	Is Hamilton inn in the range for <modality> delivery </modality> ?
+Text9	clerk	Sorry , no
+Text9	user	oh ok I guess I have to find <refexp id='martins.19'>another one</refexp> . Thank you !
+Text10	clerk	Pizza 101 . What do you want ?
+Text10	user	I just want a cola and I will <modality> pick up </modality> in <time> 5 mins </time> , that sounds like a weird request I know
+Text10	clerk	Okay that will be $ 3 see you soon . We get weird requests all the time haha
+Text10	user	thanks for understanding ! see you soon
+Text11	clerk	Hello . Thank you for calling pizza 101 . How may I serve you today ?
+Text11	user	Can I speak to your manager
+Text11	clerk	oh of course . But before that may I ask you what happened ?
+Text11	user	I ordered <ref id='martins.20'>a pizza</ref> earlier for <modality> delivery </modality> but <refexp id='martins.20'>it</refexp> was not made well
+Text11	clerk	Oh no . Did you get the <modality> delivery </modality> from our staff ?
+Text11	user	Yes and unfortunately <refexp id='martins.20'>it</refexp> had <topping> mushrooms </topping> but I am allergic
+Text11	clerk	I am so sorry for what have happened . We can deliver another pizza to your address without charge or we can make you a free pizza next time you call for <modality> delivery </modality>
+Text11	user	Another pizza please
+Text11	clerk	Okay . We would deliver another pizza to your address on file . I apologize again for our mistake
+Text12	clerk	Good morning . Welcome to pizza 101 . We will start to take order in <time> five minutes </time> . You can take a seat first .
+Text12	user	Hi thank you but I wanted to place an order for <modality> delivery </modality>
+Text12	clerk	No problem . The delivery would take a little bit more time then usual since it is morning . I appreciate your understanding .
+Text12	user	Thanks can I get a <size> small </size> <crust> deep dish </crust> <pizza_type> meat lovers </pizza_type> ? With a side green salad , no drink
+Text12	user	Hello ? Are you able to finalize my order
+Text12	clerk	I am sorry for the late response . Do you want pick-up or <modality> delivery </modality> ?
+Text12	user	I do n't want the food anymore ! I 'll take my business somewhere else
+Text12	clerk	Okay . Bye bye
+Text13	clerk	Welcome ! What 's up my friend ? Pepperoni as usual I believe ?
+Text13	user	Haha yes ! Sticking to my usual order ! Can you charge my card on file ?
+Text13	clerk	Not at all !
+Text13	user	Why not ?
+Text13	clerk	I mean yes actually . Sorry for the confusion . We will deliver your pizza to your address on file in <time> 30 mins </time> !
+Text13	user	Thank you
+Text14	clerk	Hello . Are you calling for correction of your previous order ?
+Text14	user	Yes , I would like to remove <topping> mushrooms </topping> from my order
+Text14	clerk	Let me confirm with you one more time for your order . You want a <pizza_type> pepperoni </pizza_type> with <quant> no </quant> <topping> extra mushrooms </topping> .
+Text14	user	Yes correct
+Text14	clerk	Okay . Are you still taking delivery to the same address ?
+Text14	user	Yes please
+Text14	user	Is <ref id='martins.21'>my order</ref> on the way
+Text14	clerk	<refexp id='martins.21'>It</refexp> will arrive in <time> 5 mins </time>
+Text14	clerk	We just confirmed with the <modality> delivery </modality> man
+Text14	user	Thanks
+Text15	clerk	Welcome . What do you want ?
+Text15	user	I do n't like your attitude . Can I speak to another clerk
+Text15	clerk	No .
+Text16	clerk	Welcome to pizza 101 , How can I help you tonight ?
+Text16	user	I would like to place an order for 100 assorted pizzas
+Text16	clerk	I am sorry . we do n't have that options .
+Text16	user	Wow okay never mind
+Text16	clerk	It 's ok. Take care , bye bye
+Text17	clerk	Welcome to pizza 101 .
+Text17	user	Can I get a side green salad with <quant> no </quant> <topping> tomatoes </topping> , <quant> 4 </quant> <size> medium </size> <pizza_type> cheese </pizza_type> pizzas with <crust> regular </crust> crust , and <quant> 3 </quant> <beverage> ginger ale </beverage>
+Text17	clerk	okay . Pick-up or <modality> delivery </modality> ?
+Text17	user	Delivery pls
+Text17	clerk	I need your address
+Text17	user	Address : <address> 123 MyAddress </address>
+Text17	clerk	okay . card information ?
+Text17	user	Card : <address> 12345 Type : MyCard </address>
+Text17	clerk	okay . Your order will arrive in <time> 30 mins </time>
+Text18	clerk	Clean and safe Pizza 101 , we are waiting for your order . All areas are disinfected daily .
+Text18	user	I like that you are practicing safe COVID precautions ! I would like to order a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza with <topping> mushrooms </topping>
+Text18	clerk	It is our duty ! Okay , a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza with <topping> mushrooms </topping> , received . Do you want <modality> pick up </modality> or <modality> delivery </modality>
+Text18	user	Delivery please . My address is <address> : 456 MyAddress </address>
+Text18	clerk	That would add up to 25 $ . Our delivery will arrive in <time> 30 mins </time> . Thank you for your call .
+Text19	clerk	Welcome to Pizza 101 . If you want pick-up service , please wear mask . If you need delivery , our delivery man will wear mask throughout the entire process .
+Text19	user	Hello what time do you close
+Text19	clerk	Pick-up stops at 10PM and <modality> delivery </modality> stops at 9:30PM . Last order can be placed before 9:30 .
+Text19	user	Okay never mind
+Text19	clerk	Have a good night
+Text20	clerk	Welcome to Pizza 101 . How may I serve you ?
+Text20	user	I 'm in a hurry and I need <quant> 5 </quant> <size> large </size> pizzas any style in the <time> next 30 minutes </time>
+Text20	clerk	ok I got it . We have <pizza_type> 4 pepperoni </pizza_type> and a vegan ready now . would that be ok ?
+Text20	user	Yes that 's fine , thank you . What 's my total ?
+Text20	clerk	$ 40 Are you picking up ?
+Text20	user	Yes I am on my way right now , see you soon ! Conversation
+Spoken 1	Clerk	Tony 's Pizza . How can I help you ?
+Spoken 1	User	Hi , I 'd like to order pizza today .
+Spoken 1	Clerk	You want a pizza ? What kind of pizza would you like ?
+Spoken 1	User	Can I have the Hawaiian pizza please ?
+Spoken 1	Clerk	<ref id='martins.22'>The Hawaiian pizza</ref> , <refexp id='martins.22'>that</refexp> comes with <topping> pineapple ham </topping> mozzarella . Um , What size would you like <refexp id='martins.22'>that</refexp> ?
+Spoken 1	User	Um , how many people does the <size> large </size> serve ?
+Spoken 1	Clerk	Um so <ref id='martins.23'>large</ref> is <numeric> 14 </numeric> inches . So , I mean , if you cut them up real thin , you could probably get like up to 20 people . But we usually say around like anywhere from <address> eight to 10 people </address>
+Spoken 1	User	Okay , that 's perfect . Thank you . And how much does <refexp id='martins.23'>that one</refexp> cost ?
+Spoken 1	Clerk	<refexp id='martins.23'>That one</refexp> ... Um , it depends on the cross thinness . Um , so like if you just want like a <ref id='martins.24'>plain pizza</ref> , <refexp id='martins.24'>it</refexp> 's fourteen dollars um but if you were to get deep dish or gluten free that 's sixteen or twenty-one respectively .
+Spoken 1	User	Okay , can I get the <crust> regular </crust> please ?
+Spoken 1	Clerk	Alright r-regular , large Hawaiian pizza . Did you want any additional toppings ?
+Spoken 1	User	Um , no , thank you .
+Spoken 1	Clerk	Alright . Any sides or drinks .
+Spoken 1	User	Um I think the <side> breadsticks </side>
+Spoken 1	Clerk	Breadsticks . All right , cool . Um and uh did you want to pick up the pizza , or , uh have <refexp id='martins.25'>it</refexp> delivered ?
+Spoken 1	User	Um can I have <refexp id='martins.25'>it</refexp> delivered , please ?
+Spoken 1	Clerk	Sure , there 's a <quant> three </quant> <beverage> dollar </beverage> <modality> delivery </modality> fee . Is that okay ?
+Spoken 1	User	Yes . Also , just wondering how much did the breadsticks cost ?
+Spoken 1	Clerk	Uh breadsticks were seven dollars .
+Spoken 1	User	Okay , thank you .
+Spoken 1	Clerk	Alright , Um , do you want to pay over the phone or do you want to pay your delivery person ?
+Spoken 1	User	I can pay over the phone .
+Spoken 1	Clerk	Great ! Okay Just give me one second .
+Spoken 1	Clerk	Okay , I just need the type of card like Mastercard , Visa whatever um , or whatever it is . Um , And then the name on the card .
+Spoken 1	User	Okay , the card type is mycard and the name is Hannah Smith .
+Spoken 1	Clerk	Cool , and then they just give me the numbers . I 'll put those in
+Spoken 1	User	<ref id='martins.26'>The card number</ref> is one-two-three-four-five and the expiration is end of the year .
+Spoken 1	Clerk	Great alright um lem me just put <ref id='martins.26'>that</ref> through . Hold on .
+Spoken 1	Clerk	Alright , <refexp id='martins.26'>It</refexp> went through , um , there 'll be receipt taped to your box that will have your receipt and everything . And do n't forget to tip your driver .
+Spoken 1	User	Okay , I 'll send you my address
+Spoken 1	Clerk	Yes , yes , we would um , gim me a second while i get a pen , and I can write that down .

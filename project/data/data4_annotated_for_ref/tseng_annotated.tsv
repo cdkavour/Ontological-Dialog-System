@@ -1,0 +1,525 @@
+Conversation	Speaker	Transcript
+Spoken1	Clerk	Hello , welcome to Domino ’ s . How may I help you ?
+Spoken1	User	Hi , I ’ ll like to order a pizza please .
+Spoken1	Clerk	What size do you want and what toppings do you want ?
+Spoken1	User	Uhh <quant> one </quant> <size> large </size> pizza , uh one half</refexp> with <topping> mushrooms </topping> and one half with chicken .
+Spoken1	Clerk	What kind of base would you like ?
+Spoken1	User	Uhh margarita sauce .
+Spoken1	Clerk	Okay . Is there anything else that you want ?
+Spoken1	User	Um no , I am – uhh that is , that is all .
+Spoken1	Clerk	Okay so will you be picking <refexp id='tseng.0'>it</refexp> up or do you want delivery ?
+Spoken1	User	Uhh delivery .
+Spoken1	Clerk	Cool , uh where to ?
+Spoken1	User	Uhh to <address> Street 123 Apartment 7 </address> .
+Spoken1	Clerk	Cool . That ’ ll be good and I assume you ’ re paying cash ?
+Spoken1	User	Uhh cash .
+Spoken1	Clerk	Okay . Uh <ref id='tseng.1'>your pizza</ref> will be ready in uh thirty minutes and will take an additional half hour to send <refexp id='tseng.1'>it</refexp> to you , so yeah , you can expect us within an hour . Yeah , thank you .
+Spoken1	User	Sounds good . Thank you .
+Spoken1	Clerk	Bye-bye .
+Spoken2	Clerk	Welcome to Domino ’ s . How can I help you today ?
+Spoken2	User	Hi I ’ ll like to order delivery please .
+Spoken2	Clerk	Okay , sure . Where , what kind of stuff do you want to be delivered ?
+Spoken2	User	Uh can I have <ref id='tseng.2'><quant> one </quant> <size> small </size> pizza</ref> , <ref id='tseng.3'>one medium pizza</ref> , and <ref id='tseng.4'><quant> one </quant> <size> large </size> pizza</ref> , and I would like uh only chicken on <refexp id='tseng.2'>the small pizza</refexp> and then I want chicken , mushroom , and tomato sauce on <refexp id='tseng.3'>the medium pizza</refexp> , and then I want uh alfredo sauce on <refexp id='tseng.4'>the third pizza</refexp> but um only add black <topping> olives </topping> and um <topping> ham </topping> on <refexp id='tseng.4'>it</refexp> , but no chicken .
+Spoken2	Clerk	I see . Um , would you like uh that sounds good . Did you mention you want alfredo sauce on <refexp id='tseng.3'>the medium pizza</refexp> ?
+Spoken2	User	Uh that ’ s , that ’ s right , yeah .
+Spoken2	Clerk	Okay , so what kind of sauce do you want on <refexp id='tseng.5'>the other pizzas</refexp> ?
+Spoken2	User	Uh , uh , for <refexp id='tseng.5'>the other two</refexp> , I ’ ll have margarita sauce , and make sure that all this information is correct cause my family has a lot of allergies , please .
+Spoken2	Clerk	Okay .
+Spoken2	User	Mm-hmm .
+Spoken2	Clerk	Okay , yeah , that ’ s fine . Let me just uh so for <refexp id='tseng.5'>the two others</refexp> <refexp id='tseng.5'>they</refexp> ’ re <refexp id='tseng.5'>both</refexp> margarita sauce .
+Spoken2	User	Mm-hmm , yeah .
+Spoken2	Clerk	Is there any else , any other things that we should not put on the pizza that we might usually put otherwise ?
+Spoken2	User	Uhh , um just uh make sure to uh not put too much cheese either .
+Spoken2	Clerk	Okay . I assume someone ’ s lactose intolerant ?
+Spoken2	User	Yup . Mm-hmm .
+Spoken2	Clerk	Okay . In that case , um do you want us to put on a different variant of cheese ? We have <ref id='tseng.6'>a new form</ref> of cheese that is based on vegetables that doesn ’ t really have lactose in <refexp id='tseng.6'>it</refexp> .
+Spoken2	User	Oh , <refexp id='tseng.6'>that</refexp> sounds –
+Spoken2	Clerk	You can try –
+Spoken2	User	<refexp id='tseng.6'>That</refexp> sounds really good . Thanks for the offer .
+Spoken2	Clerk	Okay , um , how about drinks ?
+Spoken2	User	Just some bottled water . Um , yeah , just <ref id='tseng.7'>some bottled water</ref> .
+Spoken2	Clerk	Okay , should I , should <refexp id='tseng.7'>it</refexp> be chilled or just room temperature ?
+Spoken2	User	Can you make sure <refexp id='tseng.7'>it</refexp> is umm a bit on the chilled side ?
+Spoken2	Clerk	Okay sure .
+Spoken2	User	And only water from that specific water brand .
+Spoken2	Clerk	Ahh I see I see . Yeah , we do carry that , that brand , <ref id=id='tseng.8'>brand X</ref> , yeah <refexp id='tseng.8'>it</refexp> has water from a specific location , yeah I ’ ll do that .
+Spoken2	User	Yeah , <refexp id='tseng.8'>that one</refexp> .
+Spoken2	Clerk	Yeah . Okay , yeah . Thank you and –
+Spoken2	User	Thank you so much .
+Spoken2	Clerk	And um , before I finish , what ’ s your address ?
+Spoken2	User	Mm-hmm , I live on <address> Street 123 at Apartment 7 </address> .
+Spoken2	Clerk	Cool , um see you in an hour and half .
+Spoken2	User	Mm-hmm .
+Spoken2	Clerk	Bye-bye .
+Spoken2	User	Bye !
+Spoken3	Clerk	Hey this is Domino ’ s , what kind of pizza can we get you ?
+Spoken3	User	Umm uhh uhh so can I please have a , a <size> large </size> pizza please ?
+Spoken3	Clerk	Okay , just typical meatball pizza ?
+Spoken3	User	Uhh no umm actually uh can I have umm some <pizza_type> pepperoni </pizza_type> on it with some uh <topping> black olives </topping> and um some <topping> ham </topping> ?
+Spoken3	Clerk	That ’ s , that ’ s a weird combination .
+Spoken3	User	Yeah .
+Spoken3	Clerk	You know meatball is our signature dish ? Why don ’ t you try <ref id='tseng.9'>meatball</ref> instead ?
+Spoken3	User	Uh , yeah , sure ! I guess I ’ ll go with <refexp id='tseng.9'>that</refexp> then .
+Spoken3	Clerk	Okay , meatball pizza . I ’ m assuming it ’ s a <size> large </size> pizza ?
+Spoken3	User	Uh yeah , large pizza .
+Spoken3	Clerk	Okay , cool . People who order this pizza usually go with , like , <refexp id='tseng.10'>a <size> large </size> <pizza_type> bottle </pizza_type> of Coke and some fries</refexp> . Should I add <refexp id='tseng.10'>that</refexp> to your bill ?
+Spoken3	User	Uh yeah <refexp id='tseng.10'>that</refexp> sounds great .
+Spoken3	Clerk	How about dessert ?
+Spoken3	User	Uhh , I , um , no , no dessert .
+Spoken3	Clerk	Okay . You sure you don ’ t want any ? Like we have our signature brownies that just fresh out of the oven .
+Spoken3	User	Well , I guess uh <quant> two </quant> brownies would sound good .
+Spoken3	Clerk	Okay .
+Spoken3	User	Mm-hmm .
+Spoken3	Clerk	Nahh , you , you , for this kind of stuff , you probably need , like , ten brownies .
+Spoken3	User	You know what , you ’ re right , yeah ten brownies .
+Spoken3	Clerk	Okay , okay .
+Spoken3	User	Mm-hmm .
+Spoken3	Clerk	Yeah , that ’ ll be – so you ’ re ordering delivery ?
+Spoken3	User	Uh , yes , <modality> delivery </modality> to <address> Street 123 Apartment 7 </address> .
+Spoken3	Clerk	Okay . Yeah , sure . Is two hours too long to wait ?
+Spoken3	User	Uh , no , that ’ s perfectly fine .
+Spoken3	Clerk	Okay .
+Spoken3	User	I ’ m not hungry or anything .
+Spoken3	Clerk	Okay , yeah , great . Yeah . Okay . Cool .
+Spoken3	User	Mm-hmm .
+Spoken3	Clerk	Thank you , bye !
+Spoken3	User	Mm-hmm .
+Spoken4	Clerk	Hi this is Domino ’ s . What would you like ?
+Spoken4	User	Just like , uh you know , a regular pizza . You know , those with the good ol meatballs .
+Spoken4	Clerk	Okay , um , would that be all ?
+Spoken4	User	Uh , what else do you have to go with it ? I mean , I can ’ t just eat pizza , right ? That-that-those things are dry .
+Spoken4	Clerk	Yeah , that ’ s—that ’ s true . Uh sorry , sir , please hold on . Um you can also order some fries with it , we have um a special discount on <size> large </size> fries today .
+Spoken4	User	Uhh
+Spoken4	Clerk	If that sounds alright with you ?
+Spoken4	User	Um fries , um I don ’ t think that ’ s a good idea . Maybe can I have salad ?
+Spoken4	Clerk	Uh , yes , of course . Um would you like a <size> large </size> or small salad ?
+Spoken4	User	Uhh I ’ m really feeling-feeling like a <size> medium </size> salad , but uhh maybe <ref id='tseng.11'>a <size> large </size> salad</ref> will go fine .
+Spoken4	Clerk	That sounds good , sir .
+Spoken4	User	Yeah .
+Spoken4	Clerk	Um would you like any drinks with <refexp id='tseng.11'>that</refexp> ?
+Spoken4	User	Um wait , I-I think you haven ’ t asked me what I want – what I want with my salad , right ?
+Spoken4	Clerk	Uh , yes , uh , sorry—
+Spoken4	User	Kind of rude , you know ?
+Spoken4	Clerk	Yeah . I apologize , sir . What would you like with your salad ?
+Spoken4	User	Um , I will just like some um thousand island sauce , and maybe some croutons .
+Spoken4	Clerk	Mm-hmm . Anything else ?
+Spoken4	User	Maybe double the serving of croutons .
+Spoken4	Clerk	We can do that for you , sir .
+Spoken4	User	Okay , cool . Can you guys arrive in half an hour ?
+Spoken4	Clerk	Uh , at best we- I ’ m afraid we can only do uh 45 minutes . Would that be alright ?
+Spoken4	User	Eh I ’ m feeling really hungry right now . Can you just ask your-your delivery men to-to hurry up ?
+Spoken4	Clerk	Uh yes , we – we can – I can see what I can do . Mm-hmm . Where is your address ?
+Spoken4	User	Uh I ’ m living at Avenue 123 .
+Spoken4	Clerk	Mm-hmm . Okay . Uh we will try to get your order to you as quick as possible . Thank you for ordering .
+Spoken4	User	Yeah , see you in a bit .
+Spoken4	Clerk	Mm-hmm .
+Spoken5	Clerk	Welcome to Domino ’ s . How can I help you ?
+Spoken5	User	Uh I want-I want pizza really fast , uh just the standard pizza , no-no frills , just <topping> pepperoni </topping> , um yeah maybe a bottle of Coke , that ’ s about it .
+Spoken5	Clerk	That sounds very good , sir , but have I told you about our special one-time only , only today offer , that if you order <quant> one </quant> <size> large </size> pizza , you can get <quant> one </quant> <size> more large </size> pizza for free ?
+Spoken5	User	Eh , it ’ s fine , I-I-I don ’ t need that , I just need the pizza delivered to me really fast .
+Spoken5	Clerk	Uh-
+Spoken5	User	I got a lot to do .
+Spoken5	Clerk	I understand that , sir . Uhh would you like any sides ? We have fries um they just came off hot from the fryer and uh we can to you – um with that – your – with your pizza with <quant> no </quant> extra cost at all !
+Spoken5	User	Um , no I don ’ t need that . I think it ’ ll just take more time . Um could you just deliver to me my pizza as soon as possible ?
+Spoken5	Clerk	Mm-hmm , mm-hmm , that sounds good , sir . Um would you like um anything else with your pizza ?
+Spoken5	User	Not really , that ’ s fine .
+Spoken5	Clerk	Mm-hmm .
+Spoken5	User	Yeah .
+Spoken5	Clerk	Mm-hmm , mm-hmm .
+Spoken5	User	I just need-need it really fast .
+Spoken5	Clerk	Okay .
+Spoken5	User	Because I ’ ll be leaving my house in an hour , so I-I need to finish that before I go .
+Spoken5	Clerk	Mm-hmm , mm-hmm , mm-hmm , I totally hear you . But did you know if you add another topping , you can get a discount on <refexp id='tseng.12'>that</refexp> ?
+Spoken5	User	That ’ s fine , it ’ s fine . Yeah , I-I-I , yeah , I don ’ t need an additional topping , that ’ s fine , yeah .
+Spoken5	Clerk	Okay , then . Uh what is your name and address ?
+Spoken5	User	Uh John Doe , uh Avenue 123 .
+Spoken5	Clerk	Okay , um , I ’ ll see how um if I can get to your piz – get your pizza to you as quick as possible then .
+Spoken5	User	Yeah , sure , thank you .
+Spoken5	Clerk	Mm-hmm .
+Spoken6	Clerk	Welcome to Domino ’ s . How can I help you ?
+Spoken6	User	Uh , I have – I saw – I saw the flyer that you have this really great dough for $ 5.99 for <quant> two </quant> <size> large </size> pizzas . Is that true ?
+Spoken6	Clerk	That is true .
+Spoken6	User	Okay !
+Spoken6	Clerk	But you ’ re going to have to wait a little extra for that , if you wan na use this dough ‘ cause we just ran out and we ’ re going to have to bake a fresh batch and that could take a little extra time , if that ’ s alright with you , sir .
+Spoken6	User	Yeah , that-that ’ s alright .
+Spoken6	Clerk	Mm-hmm .
+Spoken6	User	Um is there any restrictions on the toppings I can have ?
+Spoken6	Clerk	Uhh you can order up to three um with no extra cost but every one after has one dollar more .
+Spoken6	User	Okay , so I would like some <pizza_type> pepperoni </pizza_type> , some peppers , and maybe some chicken bites .
+Spoken6	Clerk	Oh I ’ m sorry , sir , but we ’ re actually out of chicken bites . Can I offer you um our alt-alternatives , <ref id='tseng.13'>the salami</ref> ?
+Spoken6	User	Uh yeah sure <refexp id='tseng.13'>that</refexp> goes well as well .
+Spoken6	Clerk	Mm-hmm .
+Spoken6	User	Are there any discounts you have besides ?
+Spoken6	Clerk	I can check right now . Um I see that we have a discount on <size> large </size> fries .
+Spoken6	User	Uh what kind of seasoning do you go with it ? Like the —
+Spoken6	Clerk	Uh , uh I ’ m afraid that we ’ ve actually ran out on most of our seasonings . Right now we have only cayenne pepper as available option for you , sir .
+Spoken6	User	Well I don ’ t really like <ref id='tseng.14'>cayenne pepper</ref> but since <refexp id='tseng.14'>it</refexp> ’ s so cheap , I ’ ll just take <refexp id='tseng.14'>it</refexp> . Um .
+Spoken6	Clerk	Mm-hmm .
+Spoken6	User	Any other things on discount ? Just on a really tight budget , you know ?
+Spoken6	Clerk	Uh-huh , yeah , I totally understand , sir . Um let ’ s see , for <ref id='tseng.15'>a <size> small </size> salad</ref> , you-you can get it at half price right now , but uh I have to warn you that we ’ re also out of croutons right now and the only sauce available is ranch . It ’ s the end of the week , you understand , we ’ re-we kind of ran out of ingredients . Mm-hmm .
+Spoken6	User	Okay . Um , yeah , it ’ s fine . Yeah I ’ m-I ’ m fine with ranch sauce . I ’ ll take <refexp id='tseng.15'>it</refexp> . Yeah .
+Spoken6	Clerk	Mm-hmm .
+Spoken6	User	And uh for <ref id='tseng.17'><modality> delivery </modality></ref> , um is-is it-is <refexp id='tseng.16'>it</refexp> free ?
+Spoken6	Clerk	Uh <refexp id='tseng.17'>it</refexp> is free if you live within five kilometers of this restaurant .
+Spoken6	User	So I live at Avenue 123 , could you help me to check if it ’ s um –
+Spoken6	Clerk	Mm-hmm , I can check for you right now .
+Spoken6	User	Yeah .
+Spoken6	Clerk	Mm-hmm . You ’ re in luck sir , you are conveniently right at 4km .
+Spoken6	User	Okay , um , I think the last thing I want to go with my meal is some drinks . Um what is the cheapest option you have ?
+Spoken6	Clerk	The cheapest option is water .
+Spoken6	User	Um well I have water at home . I just want some soda , you know .
+Spoken6	Clerk	Uh the only available <ref id='tseng.18'>soda</ref> right now is uh sprite and coke .
+Spoken6	User	Do you have the diet versions of <refexp id='tseng.18'>that</refexp> ?
+Spoken6	Clerk	Um I ’ m afraid we don ’ t .
+Spoken6	User	Oh okay . How much is <refexp id='tseng.18'>it</refexp> ?
+Spoken6	Clerk	It is <numeric> 2 </numeric> dollars .
+Spoken6	User	Oh can you do lower ?
+Spoken6	Clerk	Um , we-I can do lower if you buy um an extra side of um small fries ?
+Spoken6	User	Yeah . And how much would that be ?
+Spoken6	Clerk	Uh just $ 1.5 .
+Spoken6	User	Uh how - so what-what ’ s the net discount I get for my drink ?
+Spoken6	Clerk	Uh 50 cents .
+Spoken6	User	Um , sounds like a good deal . I ’ ll-I ’ ll take <refexp id='tseng.19'>it</refexp> .
+Spoken6	Clerk	Yeah . Sounds good—
+Spoken6	User	How long would delivery take ?
+Spoken6	Clerk	It ’ ll only take about thirty minutes .
+Spoken6	User	Okay , see you later . Bye !
+Spoken6	Clerk	Mm-hmm . Thank you , sir !
+Text1	Clerk	Hi welcome to dominos , how can I help you ?
+Text1	User	Hi , I ’ ll like to order a <size> large </size> pizza please
+Text1	Clerk	sure what toppings
+Text1	User	pepperonis , black <topping> olives </topping> , and jalapeños
+Text1	Clerk	sure is that all ?
+Text1	User	can I also get a <size> large </size> <beverage> coke </beverage> and a side salad with my pizza
+Text1	Clerk	that ’ s ok
+Text1	Clerk	anything else I can get you ?
+Text1	User	nope that is all
+Text1	Clerk	thank you please take a seat
+Text1	Clerk	while we get your meal ready
+Text1	User	Okay thank you !
+Text2	Clerk	Hi welcome to dominos
+Text2	User	hi can i get <ref id='tseng.20'><quant> two </quant> <size> large </size> pizzas</ref>
+Text2	Clerk	is that separately or in our 2 pizza set meal ?
+Text2	User	2 pizza set meal I thought it was obvious ? I don ’ t want to pay more than I need to
+Text2	Clerk	sure sir
+Text2	Clerk	what toppings do you want on <refexp id='tseng.20'>those pizzas</refexp> ?
+Text2	User	pepperonis , black <topping> olives </topping> , and jalapeños , make sure you don ’ t miss anything if you want your tip
+Text2	Clerk	so the same on pizzas ?
+Text2	User	yes yes yes
+Text2	Clerk	let me just repeat <ref id='tseng.21'>your order</ref>
+Text2	User	yessssss
+Text2	Clerk	is that all ?
+Text2	User	yes
+Text2	Clerk	Ok <refexp id='tseng.21'>it</refexp> will be ready in <numeric> 1hr </numeric>
+Text2	User	tell your delivery men to get <refexp id='tseng.21'>it</refexp> to me in thirty <time> minutes </time>
+Text2	Clerk	I ’ ll rush them up sir
+Text2	Clerk	see you good bye
+Text2	User	good
+Text3	Clerk	Welcome to dominos
+Text3	User	Hi I ’ ll like to order a <size> large </size> pizza
+Text3	Clerk	sure what toppings ?
+Text3	User	Please make it <refexp id='tseng.22'>one half</refexp> mushroom and <refexp id='tseng.22'>one half</refexp> <pizza_type> pepperoni </pizza_type> and don ’ t mix them . My son is allergic to mushroom .
+Text3	Clerk	Ok do you want me to cut the pizza into 2 and put them into separate boxes to make sure they don ’ t mix during the <modality> delivery </modality> ?
+Text3	User	Yes that ’ ll be very helpful
+Text3	Clerk	In fact I think the best way is to order 2 medium pizzas instead . Usually that will be a bit more expensive but I ’ ll apply a special coupon for you . This will make it the same price for you
+Text3	Clerk	Is this ok ?
+Text3	User	Yes , thank you for being so accommodating
+Text3	Clerk	you ’ re welcome ! your pizza will be ready in an hour
+Text3	User	thank you !
+Text4	Clerk	Hey there
+Text4	Clerk	what can i get you man
+Text4	User	Hi I was wondering if I can place an order for <ref id='tseng.23'>a <size> large </size> pizza</ref> ?
+Text4	Clerk	Sure - I ’ m assuming <refexp id='tseng.23'>it</refexp> ’ s <ref id='tseng.24'>meatball pizza</ref> ? That ’ s our best selling <quant> one </quant>
+Text4	User	<refexp id='tseng.24'>That</refexp> sounds good , yeah I ’ ll have <refexp id='tseng.24'>that</refexp>
+Text4	Clerk	Cool I ’ ll pair <refexp id='tseng.24'>that</refexp> up with <refexp id='tseng.25'>the set</refexp> yeah ?
+Text4	User	if that ’ s not too much trouble !
+Text4	Clerk	ok that will be $ 156 for a meatball pizza , 2 soda and 2 sets of lobster bisque
+Text4	User	yes thank you for taking the time to take my order , hope I wasn ’ t bothering you too much
+Text4	Clerk	Cool delivery is extra for $ 20 . Your meal is ready in 2hrs .
+Text4	User	that all sounds good , thank you !
+Text5	Clerk	Welcome to dominos
+Text5	User	Hi I ’ ll like to order <ref id='tseng.26'>a <size> large </size> pizza</ref> with pepperonis and <topping> olives </topping> , can you get <refexp id='tseng.26'>it</refexp> to me in a half hour ?
+Text5	User	I ’ m in a rush
+Text5	Clerk	Sure no problem sir - you should try our famous sides with <refexp id='tseng.26'>it</refexp>
+Text5	Clerk	Hot crispy fries are the best company for pizza
+Text5	User	no thank you , I just want the pizza
+Text5	Clerk	How about a bottle coke ? What ’ s a pizza without a drink ?
+Text5	User	I have drinks at home
+Text5	Clerk	I see ! No problem - in this case desserts sound good for you - nothing beats having a cold ice cream after our hot pizzas
+Text5	User	PLEASE JUST GIVE ME MY PIZZA I AM IN A RUSH ! ! !
+Text5	Clerk	No problem ! Thank you !
+Text6	Clerk	Welcome to dominos
+Text6	User	Hi I wanted to order <ref id='tseng.28'>a <size> large </size> pizza</ref> . I have <ref id='tseng.27'>a coupon</ref> with me with code XXXXX , can you check if <refexp id='tseng.27'>it</refexp> ’ s valid ?
+Text6	Clerk	Sure just a second
+Text6	Clerk	<refexp id='tseng.27'>That</refexp> is valid
+Text6	Clerk	What do you want on <refexp id='tseng.28'>that pizza</refexp> ?
+Text6	User	are there any discounts if I choose a certain amount of toppings ?
+Text6	Clerk	Your coupons includes 1 topping . Beyond that , it will be $ 3 per topping
+Text6	User	I only want <ref id='tseng.29'><pizza_type> pepperoni </pizza_type></ref> then
+Text6	Clerk	sorry <refexp id='tseng.29'>it</refexp> ran out
+Text6	User	<ref id='tseng.30'>chicken</ref> then
+Text6	Clerk	sorry <refexp id='tseng.30'>that</refexp> ran out too
+Text6	User	what do you have available then
+Text6	Clerk	we only have veggies and <topping> bacon strips </topping>
+Text6	User	<topping> bacon </topping> strips please
+Text6	Clerk	actually the last portions of bacon strips were just used
+Text6	Clerk	sorry about that
+Text6	User	veggies
+Text6	Clerk	cool
+Text6	Clerk	<refexp id='tseng.38'>It</refexp> will be sent to you in an hour
+Text7	Clerk	welcome to dominos
+Text7	User	is this a bot ? I don ’ t wan na talk to no bot , I want a real human talking to me
+Text7	Clerk	I ’ m a person ! what pizza do you want
+Text7	User	get me <ref id='tseng.39'>a <size> large </size> pizza</ref> and get <refexp id='tseng.39'>it</refexp> to me asap
+Text7	Clerk	ok cool that will be $ 30 for our <size> large </size> <pizza_type> pepperoni </pizza_type> pizza
+Text7	User	I don ’ t want <pizza_type> pepperoni </pizza_type> , I want jalapeños and make sure there ’ s a lot
+Text7	Clerk	dude you should have said that earlier . I already placed an order for <refexp id='tseng.40'>it</refexp>
+Text7	User	why didn ’ t you wait for me to confirm ! ? ? ? don ’ t you know the customer is always right ? ? ?
+Text7	User	you know what , cancel <ref id='tseng.41'>my order</ref>
+Text7	User	I don ’ t want your pizza anymore
+Text7	Clerk	that ’ s no possible
+Text7	Clerk	you can cancel <refexp id='tseng.41'>it</refexp> but you still have to pay for <refexp id='tseng.41'>it</refexp>
+Text7	User	fine but you better not expect me to tip your driver
+Text7	Clerk	no worries our tip is included in our <address> $ 20 delivery fee </address>
+Text7	User	UGH FINE
+Text7	Clerk	that ’ s on top of the pizza
+Text7	User	good riddance
+Text7	Clerk	goodbye
+Text8	Clerk	Welcome to dominos
+Text8	User	hi I was wondering if I can place an order for a <size> large </size> pizza please ?
+Text8	Clerk	Sure what toppings would you like
+Text8	User	can I get pepperonis and jalapeños please , if that ’ s not too much trouble ?
+Text8	Clerk	we ran out of both . Sorry about that
+Text8	User	oh no ! sorry , can I get black <topping> olives </topping> and chicken instead ?
+Text8	Clerk	yes to chicken but black <topping> olives </topping> is not available either . How about <ref id='tseng.42'><topping> green olives </topping></ref> ?
+Text8	User	yes <refexp id='tseng.42'>that</refexp> sounds good
+Text8	Clerk	actually we are also running out of dough for a <size> large </size> pizza . I only have enough for <ref id='tseng.43'>a <size> medium </size></ref> on . It <refexp id='tseng.43'>that</refexp> fine ?
+Text8	User	no problem at all !
+Text8	Clerk	ok thank you for understanding ! your pizza will be with you in an hour
+Text9	Clerk	welcome to dominos
+Text9	User	Hi I want <ref id='tseng.44'>a <size> large </size> pizza</ref> with chicken and <topping> mushrooms </topping> . Can I get <pizza_type> vegan cheese </pizza_type> ? My whole family is lactose intolerant .
+Text9	Clerk	That ok ! Can I get you <ref id='tseng.45'>some drink</ref> with <refexp id='tseng.44'>that</refexp> - <refexp id='tseng.45'>they</refexp> also do not contain milk ?
+Text9	User	I have drinks at home . We ’ re diabetic so we also can not consume sugar , so it ’ s best to trust the drinks at home , you understand right ?
+Text9	Clerk	I understand . You should try <refexp id='tseng.45'>our chicken drumlets</refexp> with <refexp id='tseng.44'>that pizza</refexp> though - <refexp id='tseng.45'>it</refexp> ’ s not sweet at all !
+Text9	User	well I suppose we can try <refexp id='tseng.45'>it</refexp>
+Text9	Clerk	Sure let ’ s top <refexp id='tseng.46'>that</refexp> off with our sugar-free ice cream ? we have double chocolate and vanilla favours
+Text9	User	No thank you , I have a rule that no desserts after 6pm . It gets the kids too hyper
+Text9	User	Just <refexp id='tseng.44'>the pizza</refexp> and <refexp id='tseng.45'>the chicken drumlets</refexp> please
+Text9	Clerk	ok. <refexp id='tseng.46'>That</refexp> will be delivered in <address> 1 hour </address>
+Text10	Clerk	welcome to dominos
+Text10	User	Hi I want <quant> 20 </quant> <size> large </size> pizzas
+Text10	Clerk	sure what toppings would you like ?
+Text10	User	Make 5 have <topping> mushrooms </topping> and chicken but no <topping> olives </topping> , 5 with <topping> olives </topping> and <topping> mushrooms </topping> and chicken , <ref id='tseng.48'>5 with all the toppings you have</ref> , and <quant> 5 </quant> with all the toppings you have but placed in alphabetical order pls
+Text10	Clerk	I have over 20 toppings you sure you would like that ?
+Text10	User	Yes
+Text10	User	In fact double the toppings for <refexp id='tseng.47'><quant> 5 </quant> pizzas</refexp>
+Text10	Clerk	on <refexp id='tseng.48'>the 5 pizzas with all the toppings</refexp> ?
+Text10	User	Yes
+Text10	Clerk	sure
+Text10	Clerk	Sir , because there are so many pizzas , it might be easy for <refexp id='tseng.49'>them</refexp> to be mixed up
+Text10	Clerk	should I colour code the boxes for you ?
+Text10	User	That ’ s okay , none of us are allergic , I think
+Text10	Clerk	sure . Do you want some drinks with <refexp id='tseng.49'>those pizza</refexp> ?
+Text10	User	Yes , please get us one of each of the sodas and then one with all the sodas mixed together , but don ’ t label which is which
+Text10	Clerk	I see . Because there are many pizzas , they usually take time to be delivery . However , I can send your order out to our drivers in batches to save you time . Do you want that ?
+Text10	User	Yes , get them as soon as you can please ! We ’ ll tip generously !
+Text10	Clerk	Thank you ! And enjoy your meal !
+Text11	Clerk	Welcome to Domino ’ s ! How can I help you today ?
+Text11	User	Can I get a <size> large </size> pizza with <quant> four </quant> <beverage> cheeses </beverage>
+Text11	Clerk	That sounds good sir . Is there anything else you want with the pizza ?
+Text11	User	I also want a <size> large </size> <pizza_type> bottle </pizza_type> of diet coke please
+Text11	Clerk	Okay , so to confirm
+Text11	User	Yes that is my order
+Text11	Clerk	Will your address be the one listed as XXX ?
+Text11	User	Yes that ’ s right
+Text11	Clerk	We can get your order to you in about an hour
+Text11	Clerk	Does that sound good ?
+Text11	User	Thank you
+Text11	Clerk	Thank you for choosing Domino 's !
+Text12	Clerk	Welcome to Domino ’ s ! How can I help you today ?
+Text12	User	I want a <size> large </size> <pizza_type> meatball </pizza_type> pizza and a bottle of coke delivered to me asap
+Text12	Clerk	We can get you the large meatball pizza and a bottle of coke , but I ’ m afraid that since it is dinner time , our drivers are very busy , so it will take at least an hour to deliver to you . I really hope you can understand !
+Text12	User	What ?
+Text12	User	My order only takes 30 minutes usually
+Text12	User	what ’ s with your drivers ?
+Text12	User	I want <ref id='tseng.50'>my order</ref> and I want <refexp id='tseng.50'>it</refexp> delivered to me in <numeric> 30m </numeric>
+Text12	Clerk	I know , sir , and I ’ m really sorry . Please don ’ t be upset , I can ’ t stand knowing that my customers aren ’ t happy .
+Text12	Clerk	We ’ ll do the best we can to make this a positive experience for you
+Text12	User	if you don ’ t want your customers to be unhappy , get my pizza here fast
+Text12	Clerk	I understand , sir . Thank you for placing your order and choosing Domino ’ s !
+Text13	Clerk	Welcome to Papa John ’ s ! How can I help you ?
+Text13	User	I want a <size> large </size> pizza
+Text13	User	I want to have half and half
+Text13	User	so on <refexp id='tseng.51'>the first half</refexp> i ’ ll have <topping> sausage </topping> and <topping> tomatoes </topping>
+Text13	User	and <refexp id='tseng.52'>the second half</refexp> chicken and peppers ( only red peppers though , please <modality> pick out </modality> the green and yellow ones )
+Text13	Clerk	Okay . Two halves can get easily mixed together though , if it would be more convenient , we can make it <size> two whole </size> pizzas with no extra cost !
+Text13	User	you mean I can get a whole pizza more for free ?
+Text13	Clerk	Yes but it would be a <size> small </size> pizza , adding any sides would cost extra however .
+Text13	User	ok sure that ’ s great thank you so much
+Text13	Clerk	No problem ! Thank you for choosing Papa John ’ s !
+Text14	Clerk	Hey welcome to Domino ’ s what can I get you
+Text14	User	Can I get a <size> small </size> pizza please ?
+Text14	Clerk	why , are you trying to lose weight or something ? You know you should get at least a <size> medium </size> pizza
+Text14	User	Hmm I usually don ’ t eat that much
+Text14	User	But you ’ re right I will get a <size> medium </size> pizza instead
+Text14	Clerk	Now you ’ re talking ! What kind of toppings do you want
+Text14	User	just some peppers and roasted chicken
+Text14	Clerk	eww who likes peppers but you do you I guess . Anything else ?
+Text14	User	No that ’ s all thank you so much for your suggestion !
+Text14	Clerk	Finally my suggestions are being appreciated .
+Text14	Clerk	Your order is placed
+Text14	Clerk	goodbye
+Text15	Clerk	Welcome to Papa John ’ s ! How may I help you ?
+Text15	User	Can i get a <size> large </size> <pizza_type> sausage </pizza_type> pizza fast ?
+Text15	User	I need to get to work asap
+Text15	Clerk	Certainly ! But you know you can order up to three toppings for free ?
+Text15	Clerk	You should choose more if you like
+Text15	User	I don ’ t need any of that - just my pizza will do
+Text15	Clerk	Okay , how about drinks ? You can ’ t eat pizza without a cool refreshing drink on the side !
+Text15	User	I have my own thank you
+Text15	User	Please get my pizza here asap
+Text15	Clerk	Okay , your order is placed
+Text15	Clerk	Thank you for choosing Papa John 's !
+Text15	User	Thank you
+Text16	Clerk	Welcome to Domino ’ s ! How can I help you ?
+Text16	User	I have <ref id='tseng.53'>a coupon</ref> with me
+Text16	User	<refexp id='tseng.53'>it</refexp> says i can get <quant> 2 </quant> <size> large </size> pizza for <quant> 9.99 </quant>
+Text16	Clerk	I checked <ref id='tseng.54'>your coupon</ref> and <refexp id='tseng.54'>it</refexp> ’ s valid !
+Text16	User	Nice how many toppings can I get with <refexp id='tseng.54'>that</refexp> ?
+Text16	Clerk	You can choose up to <quant> 3 </quant>
+Text16	Clerk	but I ’ m afraid that we ’ ve run out of most veggie toppings
+Text16	User	ok I will like <topping> sausage peppers </topping> and <topping> chicken </topping>
+Text16	Clerk	Hold on , I just checked with the chef , we also ran out of chicken
+Text16	User	how about <ref id='tseng.55'><pizza_type> pepperoni </pizza_type></ref> ?
+Text16	Clerk	Yes we have <refexp id='tseng.55'>that</refexp>
+Text16	User	That ’ s also
+Text16	Clerk	You can choose one more topping
+Text16	User	( can the prev sentence )
+Text16	User	I would like some roast beef
+Text16	Clerk	Alright , would you like any sides with <refexp id='tseng.56'>that</refexp> ? We ’ re out of everything but fries and drumsticks
+Text16	User	can I have <ref id='tseng.57'><quant> 12 </quant> drumlets</ref> please ? I believe I have <ref id='tseng.58'>a coupon</ref> for <refexp id='tseng.57'>them</refexp> at <numeric> 2.99 </numeric>
+Text16	Clerk	<refexp id='tseng.58'>That</refexp> is another valid coupon !
+Text16	Clerk	Anything else with your order ?
+Text16	User	nope that ’ s all
+Text16	Clerk	Okay ! Thank you for choosing Domino 's !
+Text17	Clerk	Welcome to Domino ’ s , what do you want
+Text17	User	I want <ref id='tseng.59'>a <size> large </size> <pizza_type> good old pepperoni </pizza_type> pizza</ref>
+Text17	Clerk	Boring old <pizza_type> pepperoni </pizza_type> ? Come on , you should get our classic meatball and peppers pizza which is far superior
+Text17	User	Come on <pizza_type> pepperoni </pizza_type> is the best
+Text17	User	just get me my pizza and go away with your poor tast
+Text17	User	taste
+Text17	Clerk	Whatever man , I ’ m not the one eating <refexp id='tseng.59'>it</refexp> . So do you want any sides or what
+Text17	User	nah just the pizza
+Text17	User	<modality> speedy delivery </modality> ?
+Text17	Clerk	For real ? It ’ s rush hour . At best you can expect the pizza in an hour
+Text17	User	hurry your delivery man up !
+Text17	User	They riding snails or something ?
+Text17	Clerk	Okay , okay , jeez calm down . We ’ ll get your order to ya
+Text17	Clerk	Thanks for ordering
+Text17	User	That ’ s more like it . Bye
+Text18	Clerk	Welcome to Pizza Hut . How can I help you ?
+Text18	User	I would like <ref id='tseng.60'>a <size> large </size> pizza</ref>
+Text18	User	I would like to customise <refexp id='tseng.60'>it</refexp> though
+Text18	User	for <refexp id='tseng.61'>half of the pizza</refexp> , I would like your speciality extra cheesy crust and <topping> pepperoni </topping>
+Text18	User	For <refexp id='tseng.62'>the other half</refexp> I want no <pizza_type> cheese </pizza_type> at all and just tomatoes and <topping> olives </topping>
+Text18	User	<refexp id='tseng.63'>one of my kids</refexp> love cheese while <refexp id='tseng.64'>the other</refexp> is vegan
+Text18	Clerk	Thank you for informing this . We ’ ll make sure to follow your customizations precisely .
+Text18	Clerk	Would you like any fries with <refexp id='tseng.60'>that</refexp> ? We have fries right out of the fryer
+Text18	User	Yes I would like some . However , no salt on them please
+Text18	User	One of my kids has a kidney issue
+Text18	Clerk	I understand . I will let them know . How about brownies ? I hope your kids don ’ t have any sugar issues because they are really yummy !
+Text18	User	Unfortunately they do - they have ADHD so no sweets
+Text18	Clerk	I will make sure that the cooks are aware of all your customizations .
+Text18	Clerk	Thank you for ordering Pizza Hut !
+Text19	Clerk	Welcome to Domino ’ s ! How can I help you ?
+Text19	User	I am hoping to get <quant> 2 </quant> <size> large </size> pizza in <ref id='tseng.65'>the promo deal</ref> for <quant> 9.50 </quant>
+Text19	User	Is that available ?
+Text19	Clerk	I ’ m sorry , <refexp id='tseng.65'>that coupon</refexp> has actually expired . But I am able to find a coupon that will get you <quant> 1 </quant> <size> large </size> and <quant> 1 </quant> <size> medium </size> pizza , is that okay ?
+Text19	User	how much will that be for ?
+Text19	Clerk	That ’ ll be for $ <numeric> 7.50 </numeric>
+Text19	User	Sure that ’ s great ! Are there discounts for sides as well ?
+Text19	Clerk	I ’ m afraid there aren ’ t . But I assure the sides are very yummy and very worth the price !
+Text19	User	No worries I am on a really tight budget
+Text19	User	The pizzas will do
+Text19	Clerk	I understand . Would you like me to add <ref id='tseng.66'>some bottled water</ref> ? <refexp id='tseng.66'>They</refexp> are free of charge
+Text19	User	<refexp id='tseng.66'>That</refexp> will be good thank you !
+Text19	Clerk	Okay , so I placed the order down for you
+Text19	Clerk	Thank you for ordering Domino 's !
+Text19	User	Thank you too
+Text20	Clerk	Welcome to Domino ’ s ! How can I help you ?
+Text20	User	I want a <size> large </size> <pizza_type> meatball </pizza_type> pizza fast
+Text20	User	that will do
+Text20	Clerk	I ’ m afraid we ran out of meatball
+Text20	Clerk	Can I suggest <pizza_type> pepperoni </pizza_type> instead ?
+Text20	User	oh what ? yeah sure whateveer
+Text20	User	just get <refexp id='tseng.67'>them</refexp> here asap
+Text20	Clerk	Any sides ? We don ’ t have any fries or drumsticks but we have very good salad .
+Text20	User	no need for sides just the pizza
+Text20	User	maybe a bottle of coke as well
+Text20	Clerk	We ran out of coke , sprite , and fanta
+Text20	User	what else do you have then ?
+Text20	Clerk	We have <ref id='tseng.68'>sparkling water</ref> !
+Text20	User	<refexp id='tseng.68'>That</refexp> ’ s fine
+Text20	User	please get my pizza fast
+Text20	Clerk	That sounds good . I will place your order and delivery as fast as we can !
+Text20	Clerk	Thank you for choosing Domino 's !
+Abnormal1	Clerk	Welcome to dominos
+Abnormal1	User	Hi I ’ ll like a <size> large </size> pizza please
+Abnormal1	Clerk	Sure what toppings would you like ?
+Abnormal1	User	Mushrooms , <topping> pepperoni </topping> , and <topping> black olives </topping>
+Abnormal1	Clerk	I ’ m sorry we ran out of mushrooms - would you like something else ?
+Abnormal1	Clerk	hello sir ?
+Abnormal1	Clerk	hello ?
+Abnormal1	User	I ’ m so sorry ! My connection suddenly got dropped
+Abnormal1	Clerk	NO worries sir
+Abnormal1	User	Yes can I have chicken instead ?
+Abnormal1	Clerk	Sure
+Abnormal1	Clerk	Ok confirming your order
+Abnormal1	Clerk	Thank you !
+Abnormal1	User	That ’ s correct , thank you !
+Abnormal2	Clerk	Welcome to Domino ’ s , what can we get you ?
+Abnormal2	User	I would like a <size> large </size> fries as well as a <size> large </size> <pizza_type> meatball </pizza_type> pizza
+Abnormal2	Clerk	That sounds good , would you like any drinks with <refexp id='tseng.69'>that</refexp> ?
+Abnormal2	User	Hang on , my baby ’ s crying . I won ’ t be a minute
+Abnormal2	Clerk	No problem at all , sir ! I will wait for you to come back
+Abnormal2	User	ok I ’ m back - drinks - maybe diet coke ?
+Abnormal2	Clerk	Alright , to confirm your order , <quant> one </quant> <size> large </size> meatball pizza with <size> large </size> fries and diet coke ?
+Abnormal2	User	be quiet baby dad ’ s ordering some food for us
+Abnormal2	User	sure that is correct
+Abnormal2	Clerk	And we will deliver at XXX address ?
+Abnormal2	User	Yes please
+Abnormal2	Clerk	Your order will arrive in thirty minutes . Thank you !
+Abnormal2	User	Thank you !
+Abnormal3	Clerk	Welcome to dominos
+Abnormal3	Clerk	How can i help ?
+Abnormal3	User	Hi , I want a <size> large </size> pizza with meatballs and pepperonis with a side of large fries
+Abnormal3	User	Can you get it to me quick ? I ’ m in a rush
+Abnormal3	Clerk	Sure that ’ s fine would you like drinks with <refexp id='tseng.70'>this</refexp> ?
+Abnormal3	User	Yeah <quant> three </quant> <size> large </size> <beverage> cokes </beverage>
+Abnormal3	Clerk	Tom can you give me a hand
+Abnormal3	Clerk	Wait a moment sir
+Abnormal3	User	Ummm that ’ s pretty rude sir I said I was in a hurry
+Abnormal3	User	hellooooo ?
+Abnormal3	User	excuse me !
+Abnormal3	Clerk	Sorry
+Abnormal3	Clerk	I had to help a colleague who had trouble carrying a carton of drinks
+Abnormal3	Clerk	I hope you understand sir
+Abnormal3	User	just get my order to me asap
+Abnormal3	Clerk	OK sir , I will ask our delivery driver to get you the order asap
+Abnormal3	Clerk	Thank you !
+Abnormal3	User	goodbye
+Abnormal4	Clerk	Welcome to Domino ’ s ! What can I get you ?
+Abnormal4	User	<ref id='tseng.71'>A large pizza</ref> with <topping> mushrooms </topping>
+Abnormal4	Clerk	Would you like any sides or drinks with <refexp id='tseng.71'>that</refexp> ?
+Abnormal4	User	maybe some coleslaw and fanta orange
+Abnormal4	Clerk	I ’ m so sorry , sir , I ’ m afraid I need to leave urgently .
+Abnormal4	Clerk	But please don ’ t worry , I ’ ll be switching you over to another clerk who can finish your order for you
+Abnormal4	User	THat ’ s fine
+Abnormal4	Clerk	welcome to Domino ’ s ! So I see that you placed an order of a <size> large </size> pizza with <topping> mushrooms </topping> with coleslaw and fanta orange . Would <refexp id='tseng.72'>that</refexp> be all ?
+Abnormal4	User	I would also like some dessert
+Abnormal4	User	perhaps some brownies ?
+Abnormal4	Clerk	We have some fresh brownies right out of the oven
+Abnormal4	User	That ’ s great get me a dozen
+Abnormal4	Clerk	We ’ ll get your order to you in thirty <time> minutes </time>
+Abnormal4	Clerk	Thank you sir !
+Abnormal4	User	Sure thank you too
