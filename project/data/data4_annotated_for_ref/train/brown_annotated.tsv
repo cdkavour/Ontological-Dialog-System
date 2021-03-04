@@ -34,7 +34,7 @@ Spoken2	User	Hello ?
 Spoken2	Clerk	Hi , <refexp id='brown.3'> this </refexp> is <ref id='brown.3'> Domino 's Pizza </ref> . How may I take your order ?
 Spoken2	User	Hi , I 'm gon na want <quant> three </quant> <size> large </size> pizzas and they 're all going to have different toppings .
 Spoken2	Clerk	Okay .
-Spoken2	User	So I 'm going to tell you <ref id='brown.4'> all the toppings <ref> are now .
+Spoken2	User	So I 'm going to tell you <ref id='brown.4'> all the toppings </ref> are now .
 Spoken2	Clerk	Okay .
 Spoken2	User	Um , so <refexp id='brown.5'> the first one </refexp> is going to be <ref id='brown.5'> a pizza </ref> with just meat on <refexp id='brown.5'> it </refexp> . So , <topping> sausage </topping> , <topping> pepperoni </topping> and <topping> ham </topping> . <refexp id='brown.6'> The next one </refexp> I want <ref id='brown.7'> all veggies </ref>. So , <topping> mushrooms </topping> , <topping> onions </topping> , green pepper . And then <refexp id='brown.7'> the third one </refexp> I want to be <ref id='brown.7'> half just plain cheese and then half <pizza_type> pepperoni </pizza_type> </ref> .
 Spoken2	Clerk	Okay .
