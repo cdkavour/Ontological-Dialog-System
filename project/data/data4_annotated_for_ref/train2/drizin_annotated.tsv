@@ -1,0 +1,947 @@
+Conversation	Speaker	Transcript
+Spoken 1	Clerk	Tony 's Pizza . How can I help you ?
+Spoken 1	User	Hi , I 'd like to order pizza today .
+Spoken 1	Clerk	You want a pizza ? What kind of pizza would you like ?
+Spoken 1	User	Can I have the Hawaiian pizza please ?
+Spoken 1	Clerk	<ref id='drizin.0'> The Hawaiian pizza </ref> , <refexp id='drizin.0'> that </refexp> comes with <topping> pineapple ham </topping> mozzarella . Um , What size would you like <refexp id='drizin.0'> that </refexp> ?
+Spoken 1	User	Um , how many people does the <size> large </size> serve ?
+Spoken 1	Clerk	Um so large is <numeric> 14 </numeric> inches . So , I mean , if you cut them up real thin , you could probably get like up to 20 people . But we usually say around like anywhere from <address> <ref id='drizin.1'> eight to 10 people </address> </ref>
+Spoken 1	User	Okay , <refexp id='drizin.1'> that </refexp> 's perfect . Thank you . And how much does <refexp id='drizin.0'> that one </refexp> cost ?
+Spoken 1	Clerk	<refexp id='drizin.0'> That one </refexp> ... Um , it depends on the cross thinness . Um , so like if you just want like <ref id='drizin.2'> a plain pizza </ref> , <refexp id='drizin.2'> it </refexp> 's fourteen dollars um but if you were to get <ref id='drizin.3'> deep dish or gluten free </ref> <refexp id='drizin.4'> that </refexp> 's sixteen or twenty-one respectively .
+Spoken 1	User	Okay , can I get the <crust> regular </crust> please ?
+Spoken 1	Clerk	Alright r-regular , large Hawaiian pizza . Did you want any additional toppings ?
+Spoken 1	User	Um , no , thank you .
+Spoken 1	Clerk	Alright . Any sides or drinks .
+Spoken 1	User	Um I think the <side> breadsticks </side>
+Spoken 1	Clerk	Breadsticks . All right , cool . Um and uh did you want to pick up <ref id='drizin.5'> the pizza </ref> , or , uh have <refexp id='drizin.5'> it </refexp> delivered ?
+Spoken 1	User	Um can I have <refexp id='drizin.5'> it </refexp> delivered , please ?
+Spoken 1	Clerk	Sure , there 's <ref id='drizin.6'> a <quant> three </quant> <beverage> dollar </beverage> <modality> delivery </modality> fee </ref> . Is <refexp id='drizin.6'> that </refexp> okay ?
+Spoken 1	User	Yes . Also , just wondering how much did the breadsticks cost ?
+Spoken 1	Clerk	Uh breadsticks were seven dollars .
+Spoken 1	User	Okay , thank you .
+Spoken 1	Clerk	Alright , Um , do you want to pay over the phone or do you want to pay your delivery person ?
+Spoken 1	User	I can pay over the phone .
+Spoken 1	Clerk	Great ! Okay Just give me one second .
+Spoken 1	Clerk	Okay , I just need <ref id='drizin.7'> the type of card </ref> like Mastercard , Visa whatever um , or whatever <refexp id='drizin.7'> it </refexp> is . Um , And then the name on the card .
+Spoken 1	User	Okay , the card type is mycard and the name is Hannah Smith .
+Spoken 1	Clerk	Cool , and then they just give me <ref id='drizin.8'> the numbers </ref> . I 'll put <refexp id='drizin.8'> those </refexp> in
+Spoken 1	User	The card number is one-two-three-four-five and the expiration is end of the year .
+Spoken 1	Clerk	Great alright um lem me just put  that through . Hold on .
+Spoken 1	Clerk	Alright , It went through , um , there 'll be receipt taped to your box that will have your receipt and everything . And do n't forget to tip your driver .
+Spoken 1	User	Okay , I 'll send you <ref id='drizin.9'> my address </ref>
+Spoken 1	Clerk	Yes , yes , we would um , gim me a second while i get a pen , and I can write <refexp id='drizin.9'> that </refexp> down .
+Spoken 1	User	Okay
+Spoken 1	Clerk	Okay . Yeah , uh well can I get your name first actually ?
+Spoken 1	User	Yes . Hannah Smith .
+Spoken 1	Clerk	Okay .
+Spoken 1	Clerk	And your address .
+Spoken 1	User	Um 123 Elm Street .
+Spoken 1	Clerk	Alright , um That should be there in about <time> 25 minutes </time>
+Spoken 1	User	All right . Thank you .
+Spoken 1	Clerk	Great no problem . Have a good day .
+Spoken 1	User	You too .
+Spoken 1	Clerk	Bye .
+Spoken 2	Clerk	Tony 's Pizza .
+Spoken 2	User	Hi um I 'm throwing <ref id='drizin.10'> a graduation party </ref> for my brother , um , <refexp id='drizin.10'> it </refexp> 's actually at the end of the week , but I 'm shopping around for prices now . Um , how much do you , how many pizzas Do you think I would need for <quant> 50 </quant> people ?
+Spoken 2	Clerk	Ummm , say <ref id='drizin.11'> six or seven </ref> to be safe .
+Spoken 2	User	Okay . Um , and what size would <refexp id='drizin.11'> those </refexp> need to be ?
+Spoken 2	Clerk	Large
+Spoken 2	User	Okay . Um , what is the price of your <size> large </size> pizzas and is this the store . I saw coupons online for ?
+Spoken 2	User	Do you have any coupons or ?
+Spoken 2	Clerk	We generally do n't . Um , we have <ref id='drizin.12'> a program </ref> for customers that come in a lot like rewards . So if you sign up for <refexp id='drizin.12'> that </refexp> and buy pizzas , you 'll get points .
+Spoken 2	User	Hmm , okay . So , um , and also just , I just do n't even know like , what kinds of pizzas I should order for that many people . Um like , what do you think are like the favorites here ?
+Spoken 2	Clerk	Most common order is plain , or <topping> pepperoni </topping>
+Spoken 2	User	Just cheese or <pizza_type> pepperoni </pizza_type> ?
+Spoken 2	Clerk	Yeah .
+Spoken 2	User	Okay . Um , and so would <ref id='drizin.13'> plain </ref> be like a pizza with <quant> no </quant> toppings , or would <refexp id='drizin.13'> it </refexp> be the <pizza_type> four cheese </pizza_type> in the specialty pizzas , cuz both of those , are those both just <pizza_type> cheese </pizza_type> or is <ref id='drizin.14'> <numeric> four </numeric> <pizza_type> cheese </pizza_type> </ref>, um
+Spoken 2	Clerk	Extra cheese .
+Spoken 2	User	Okay . Extra cheese on <refexp id='drizin.14'> that </refexp> one . Um , and also we have <refexp id='drizin.15'> somebody </refexp> who 's allergic to dairy . <refexp id='drizin.16'> It </refexp> 's just one person , but I wan na
+Spoken 2	Clerk	[ interrupt ] It 's allergy ? Sorry , what was <ref id='drizin.17'> the allergy </ref> ? You said allergy ? <refexp id='drizin.18'> That </refexp> 's important I have to go get a form . Hold on . Okay . Okay . What are the allergies ?
+Spoken 2	User	Dairy , so they ca n't have any pizza with <pizza_type> cheese </pizza_type> . I was wondering if you have any just , like , red pizza without cheese for them ?
+Spoken 2	Clerk	We have <ref id='drizin.19'> a vegan pizza </ref> .
+Spoken 2	User	Okay . So , so then <refexp id='drizin.19'> that one </refexp> does n't have any cheese right ?
+Spoken 2	Clerk	No , that 's what vegan is .
+Spoken 2	User	Okay , so I 'm gon na have to get at least one of those
+Spoken 2	Clerk	Anything else ?
+Spoken 2	User	Yes . So how many , how many did you say I would need again six or seven ?
+Spoken 2	Clerk	Yeah .
+Spoken 2	User	Okay , this is okay so you have <ref id='drizin.20'> <quant> six </quant> specialty pizzas </ref> , but <refexp id='drizin.20'> that </refexp> was not the most popular . The most popular are just plain . So I think I 'm going to get <quant> one </quant> <pizza_type> vegan </pizza_type> , <quant> two </quant> <pizza_type> pepperoni </pizza_type> , um ... hmm , I do n't know . Should I get a plain pizza with <topping> pineapple </topping> , or should I get the Hawaiian pizza ?  It 's , it 's just so hard to know what what 's gon na work for <quant> 50 </quant> people
+Spoken 2	User	Um no , I 'll go with <ref id='drizin.21'> the Hawaiian </ref> people know what <refexp id='drizin.21'> that </refexp> is . So , you know , hopefully there will be some people who like <refexp id='drizin.21'> that </refexp> .
+Spoken 2	Clerk	Conversation starter .
+Spoken 2	User	Yeah . Yeah , true . Um , but how many am I at right now like four ? Yeah , I think I 'm at four right ?
+Spoken 2	Clerk	<ref id='drizin.22'> The Hawaiian , the vegan </ref> , <refexp id='drizin.22'> those </refexp> are the <quant> two </quant> I remember , I'm- I know you have Hawaiian and vegan .
+Spoken 2	User	Okay , I think , I think I had <quant> two </quant> <pizza_type> pepperoni </pizza_type> as well . So I 'm gon na need more . What 's your favorite pizza here ?
+Spoken 2	Clerk	Ooh , um , I mean , personally , I love <ref id='drizin.23'> the meat lovers </ref> , um , but with <topping> extra cheese </topping> . Um , but that 's just me . Um , uh , let 's see . Yeah , but I think , yeah , <refexp id='drizin.23'> that </refexp> 's my favorite . If you want to go for <refexp id='drizin.24'> that </refexp> and just , you got to know your audience , I guess , Or at least one of them . Yeah .
+Spoken 2	User	Okay , so yeah , to have a <ref id='drizin.25'> vegan pizza meat lovers pizza </ref> would probably be a good idea too , um , what are the meats on <refexp id='drizin.25'> that pizza </refexp> ?
+Spoken 2	Clerk	Gosh , um its <ref id='drizin.26'> <pizza_type> pepperoni </pizza_type> , <topping> ham </topping> , <topping> bacon </topping> and <topping> sausage </topping> </ref> .
+Spoken 2	User	Okay , okay <refexp id='drizin.26'> that </refexp> 's- <refexp id='drizin.26'> that </refexp> should work . Um , there 's something for everybody there , right ?
+Spoken 2	Clerk	Yeah .
+Spoken 2	User	Okay . Um , and then ... hmm . I have , hmm ... two left to get to seven so I think I 'll get some more pizzas that are n't specialty that are just toppings .
+Spoken 2	User	So I see some of your toppings cost more than others . Some are <cost> two dollars </cost> and some are a dollar fifty . Do you think it 's worth it to get kind of like the premium toppings ? Or I guess the , I guess the dollar fifty toppings are just <pizza_type> cheese </pizza_type> . So I guess I will have to spend that extra fifty cents for toppings wo n't I ? .
+Spoken 2	Clerk	Yeah , yeah , it 's just I do n't know on , you know the other toppings are just , you know , more expensive . I do n't make the prices but
+Spoken 2	User	Yeah um , they 're not necessarily better . Oh wow , the-the meat the <topping_type> meat </topping_type> toppings are even more expensive and wow okay so this is going to get expensive with <quant> seven </quant> pizzas , um , hmm .
+Spoken 2	User	Cuz I 've just been like calling different restaurants comparing prices yours look like you have the best pizzas , so I think I 'm going to place an order with you , but I wan na kind of minimize the price . So I 'm gon na go for just <ref id='drizin.27'> the toppings that are <cost> two dollars </cost> </ref> um
+Spoken 2	User	So <refexp id='drizin.27'> those </refexp> are <ref id='drizin.28'> <topping> pineapple </topping> , <topping> green peppers </topping> , <topping> red onions </topping> , <topping> mushrooms </topping> and <topping> black olives </topping> </ref> . Right ? So I want them ( Mmm ) <quant> two </quant> pizzas that just have all of <refexp id='drizin.28'> those things </refexp> on it .
+Spoken 2	Clerk	All <refexp id='drizin.28'> those </refexp> ?
+Spoken 2	User	Mm hmm .
+Spoken 2	Clerk	You sure ?
+Spoken 2	User	Mhm .
+Spoken 2	Clerk	Okay . Anything else ?
+Spoken 2	User	I 'm gon na need some sides . Also the pizza crust . Should-What , what , what do you think is the best ? <ref id='drizin.29'> Thin , regular , deep-dish </ref> or just like all combinations of <refexp id='drizin.29'> all of them </refexp> ?
+Spoken 2	Clerk	I mean , I personally like thin and regular . Um , but , um , for a big party maybe <ref id='drizin.30'> regular </ref> .
+Spoken 2	User	Okay . Yeah <refexp id='drizin.30'> that </refexp> 's a probably good idea , the- all the combinations . Those would get so confusing , and regular is-is much cheaper than <crust> deep dish </crust> so ( oh yeah )
+Spoken 2	User	Yeah , I 'm going to go for <crust> regular </crust>
+Spoken 2	User	And and the sides has to be large . ( okay )
+Spoken 2	User	Okay , the sides , I will get <quant> two </quant> orders of each of the sides .
+Spoken 2	Clerk	What else would you like ?
+Spoken 2	User	Um
+Spoken 2	User	I think I 'll also get <quant> three </quant> <beverage> colas </beverage> and <quant> two </quant> <beverage> orange sodas </beverage> .
+Spoken 2	Clerk	And is this . So we have a size limit um for <modality> delivery </modality> . Once it gets this big it 's goes to catering , um , to- so- um , and there 's like a fee for catering , so do you want to go that way or just <modality> pick up </modality>
+Spoken 2	User	I , I think I should <modality> pick up </modality> because is it- is this okay this is actually for-for Friday , which is like five or six days from now . Um , but I just wanted to call ahead and make sure this was all , you know I could that I could afford it for this party and that it um , that I would like <ref id='drizin.31'> the pizzas </ref> .
+Spoken 2	Clerk	Friday 's fine . Yeah . Friday works
+Spoken 2	User	[ overlapping ] Okay , I can- I can pick <refexp id='drizin.31'> it </refexp> up on Friday .
+Spoken 2	Clerk	Uh what time
+Spoken 2	User	Um , I think bout 3pm .
+Spoken 2	Clerk	Alright , um , orders this size we need a deposit , um , at least like
+Spoken 2	User	Twenty-five percent , um , unless you pay ahead of time .
+Spoken 2	User	Like I can pay right now .
+Spoken 2	Clerk	Okay , cool . Uh gim me one second , let me get uh the register . Okay . Your total is um , fifty-five forty-seven . Um and then when you 're ready , I just need the card information .
+Spoken 2	User	Okay . So the card is mycard numbers one-two-three-four-five and the expiration is the end of the year .
+Spoken 2	Clerk	Okay . You 're all set . Kay ?
+Spoken 2	User	Perfect . So I can come <modality> pick <ref id='drizin.31'> this </ref> up </modality> <time> 3 pm Friday </time> .
+Spoken 2	Clerk	See you then .
+Spoken 2	User	Okay , Thank you .
+Spoken 2	Clerk	Bye .
+Spoken 3	Clerk	Hi this is Tony 's Pizza . I 'm Emily I 'm a new employee today and I'm-I 'm an employee in training , how can i help you ?
+Spoken 3	User	Employee in training I love that oh that 's so good for you okay I 'll go easy on you today . Um I need a <size> large </size> <pizza_type> pepperoni </pizza_type> pizza uh I usually go with <crust> thin </crust> but like uh but deep dish but I-I could change it up no lets go with <crust> regular </crust> go with <crust> regular </crust> . Um uh <address> 2 cheese sticks 4 oranges and </address>
+Spoken 3	Clerk	Right Hold on hold on hold on what was what was the pizza sorry I 'm just I 'm just new to writing these orders down ( ah right ) and I 'm keeping up today sorry
+Spoken 3	User	Alright no worries . Um was a oh gosh large -- not <pizza_type> 4 cheese </pizza_type> -- <pizza_type> pepperoni </pizza_type> ! <pizza_type> Large pepperoni </pizza_type> is our usual
+Spoken 3	Clerk	Okay okay . Um then so what else you said you wanted <ref id='drizin.32'> 4 oranges </ref> is <refexp id='drizin.32'> that </refexp> soda ?
+Spoken 3	User	Yeah , yeah the the the orange soda um
+Spoken 3	Clerk	Okay okay
+Spoken 3	Clerk	And then <ref id='drizin.33'> cheese sticks </ref> um <refexp id='drizin.33'> that </refexp> 's what you said right not bread sticks ?
+Spoken 3	User	Oh you know what ? Jeremy 's gon na want bread sticks um , get em for Jeremy . <address> Um 1 of bread sticks eh 2 bread sticks 2 cheese sticks </address>
+Spoken 3	Clerk	Okay and so bread sticks are 7 dollars um I , I heard that earlier today but I just do n't remember how much the <pizza_type> cheese </pizza_type> sticks cost do you remember ?
+Spoken 3	User	Uhhh they 're usually ... they 're a little more they 're <numeric> 9 </numeric>
+Spoken 3	Clerk	Okay okay so so 7 , 7 , 9 and 9 , that 's gon na be , hold on I 'm new to math I this is my first job ever I 'm so sorry
+Spoken 3	User	Awwwwww take your time
+Spoken 3	Clerk	Um thank you so much . Okay um I think that 's gon na be <ref id='drizin.34'> 32 dollars </ref> do you know if <refexp id='drizin.34'> that </refexp> 's right ? ( uhhhh ) <refexp id='drizin.34'> That </refexp> 's just <refexp id='drizin.34'> that </refexp> 's just for the sides um so <refexp id='drizin.34'> that </refexp> 's not even the pizza ( uh so <refexp id='drizin.34'> that 's </refexp> ) so I just wan na confirm
+Spoken 3	User	Uh that 's <ref id='drizin.35'> 4 sodas </ref> so <refexp id='drizin.35'> that <refexp id='drizin.35'> 's <numeric> 14 </numeric>
+Spoken 3	Clerk	[ interrupt ] no i yeah I that was just the sides ( and then ) I did n't write down the sodas yet I 'm sorry
+Spoken 3	User	<ref id='drizin.36'> 2 bread and 2 cheese </ref> so <refexp id='drizin.36'> that </refexp> 's 14 and 18 uhhh lem me get my calculator it 's been a long time for math me too
+Spoken 3	Clerk	Yeah sorry the register 's just broken <ref id='drizin.37'> today </ref> and <refexp id='drizin.37'> it </refexp> 's my first day I just I just
+Spoken 3	User	Oh you poor dear oh no okay 14 uhh it 's about 40 . Yeah it 's like 40 dollars
+Spoken 3	Clerk	But and for the for the sides ? Or is that the drinks and the pizzas too ?
+Spoken 3	User	That 's the sides and the drinks .
+Spoken 3	Clerk	Okay and that was 4 orange sodas , right ?
+Spoken 3	User	Yeah [ <address> 5 second pause ] </address>
+Spoken 3	User	Hello ?
+Spoken 3	Clerk	Yeah ?
+Spoken 3	User	Oh okay sorry thought I lost you
+Spoken 3	Clerk	That was that was 4 orange orange sodas , right ?
+Spoken 3	User	Yeah
+Spoken 3	Clerk	Okay okay . And and how much -- do you know how much those cost ?
+Spoken 3	User	Uh usually get <quant> two </quant> and its 7 so whatever that works out to be
+Spoken 3	Clerk	Okay so then so then 4 would be 14 right ? ( mhm ) Earlier earlier I 'm pretty sure the sides are 32 dollars and and the orange sodas if it 's if it 's four-fourteen for 4 of them that had to be more than 40 dollars right ?
+Spoken 3	User	Well so Tony -- we 're longtime customers we have been coming to Tony 's Pizzeria for like 20 years um like our family and Tony 's family goes way back he usually takes off a little bit you know we 're valued customers um if you , you know , told Tony the next time you see him â€śoh Marsha orderedâ€ť â€śoh Marsha he knows Marshaâ€ť all about , you know he talks all about me so he usually takes a little bit off you know family discount kinda thing . ( okay I 'll ask him about it ) we 're like family . We 're like family .
+Spoken 3	Clerk	Are you guys family or ?
+Spoken 3	User	We 're friends of family you know .
+Spoken 3	Clerk	Okay okay That 's really cool . How long have you known Tony ?
+Spoken 3	User	Oh gosh i mean we were growing up as kids together we went to the same high school , I mean , you know , so long . 20-30 years at least
+Spoken 3	Clerk	Yeah yeah I 'm just so glad tony offered me a job I-I mean he did n't even make me interview I 've been coming here a long time too but I-I just do n't have I only have my order memorized you know ? So I do n't know I do n't know ( Fair ) the prices I 'm sorry that 's just why it 's been so difficult today
+Spoken 3	User	Do n't worry friends of Tony 's a friend of mine
+Spoken 3	Clerk	Okay , yeah I feel the same way okay and then I st- oh gosh still have n't even um gotten your pizza yet . You wanted <ref id='drizin.38'> <pizza_type> pepperoni </pizza_type> </ref> and was <refexp id='drizin.38'> that </refexp> deep dish or regular ?
+Spoken 3	User	Regular
+Spoken 3	Clerk	Okay um , so then <refexp id='drizin.38'> that </refexp> should be d-did you want a <size> large </size> , or medium or small ?
+Spoken 3	User	<ref id='drizin.39'> Large </ref>
+Spoken 3	Clerk	Okay and you know <refexp id='drizin.39'> that </refexp> 's 14 inches .
+Spoken 3	User	Mhm
+Spoken 3	Clerk	Okay so <refexp id='drizin.38'> that </refexp> should be 14 dollars . And then in addition to the-the <ref id='drizin.40'> 40 dollars </ref> <refexp id='drizin.40'> that </refexp> should be <ref id='drizin.41'> your total order </ref> is <numeric> 54 dollars </numeric>
+Spoken 3	User	Right
+Spoken 3	Clerk	Okay and do you wan na pick <refexp id='drizin.41'> that </refexp> up or have <refexp id='drizin.41'> it </refexp> delivers for <quant> 3 </quant> <beverage> dollars </beverage>
+Spoken 3	User	We 'll <modality> pick <refexp id='drizin.41'> it </refexp> up </modality>
+Spoken 3	Clerk	Okay um do you wan na pay for <refexp id='drizin.41'> it </refexp> now or later ?
+Spoken 3	User	I 'll pay for <refexp id='drizin.41'> it </refexp> once i come in ( okay okay ) get to meet the new employee
+Spoken 3	Clerk	Yeah yeah I 'm excited to meet you too
+Spoken 3	User	Great well see you then !
+Spoken 3	Clerk	Alright bye
+Spoken 3	User	Bye
+Spoken 4	User	Ring ring ring
+Spoken 4	Clerk	Hi ! Tony 's Pizza , how can I help you today ?
+Spoken 4	User	Uh , I need four pizzas , uh , <refexp id='drizin.42'> first one </refexp> uh <ref id='drizin.42'> Hawaiian , <topping> pepperoni </topping> uh , mushroom , <topping> ham </topping> , <topping> sausage </topping> , deep dish , and a <size> large </size> </ref> . Um , and then <refexp id='drizin.43'> the next two </refexp> , uh , <ref id='drizin.43'> <pizza_type> pepperoni </pizza_type> </ref> , uh , extra <topping> provolone </topping> , both thin , medium , uh , uh , and throw on some , some <topping> mushrooms </topping> too . Uh , <refexp id='drizin.44'> last one </refexp> is , uh , <ref id='drizin.44'> gluten-free vegan </ref> , uh , we got a big allergy person here , uh , make <refexp id='drizin.44'> that </refexp> a <size> small </size> .
+Spoken 4	Clerk	<ref id='drizin.45'> Sides </ref> ?
+Spoken 4	User	Uh , <refexp id='drizin.45'> it </refexp> 's <numeric> three </numeric> breadsticks , uh , one cheese stick and a Caesar salad .
+Spoken 4	Clerk	Drinks ?
+Spoken 4	User	Uh , what do they want , uh , I could go with cola , uh , what 's , what 's , what 's your favorite ?
+Spoken 4	Clerk	uh , orange soda .
+Spoken 4	User	uh , I do n't think , I do n't think Julia really likes orange , so uh , uh is there , is there a special if I ordered , if I ordered two sodas ?
+Spoken 4	Clerk	No .
+Spoken 4	User	I do n't get like a , you know one for the price of , you know , buy two get one , nothing 's been , uh , nothing 's going on ?
+Spoken 4	Clerk	Mmm mmm .
+Spoken 4	User	uh , well what 's the size of <ref id='drizin.46'> the soda </ref> ?
+Spoken 4	Clerk	Uh , <refexp id='drizin.46'> it </refexp> 's one soda , <refexp id='drizin.46'> it </refexp> 's in like a bottle , so
+Spoken 4	User	I would imagine <refexp id='drizin.46'> it </refexp> 's in a bottle . Uh , big bottle , small bottle ?
+Spoken 4	Clerk	Like a <size> large </size> <pizza_type> bottle </pizza_type> , a <size> large </size> <pizza_type> bottle </pizza_type> , so <refexp id='drizin.46'> it </refexp> can , <refexp id='drizin.46'> it </refexp> can serve , I do n't know , depending on how much you wan na drink , <refexp id='drizin.46'> it </refexp> 's like , honestly
+Spoken 4	User	Like a two liter soda ?
+Spoken 4	Clerk	yeah
+Spoken 4	User	Not a <size> small </size> soda from a vending machine ?
+Spoken 4	Clerk	Yeah , yeah , I would describe <refexp id='drizin.46'> it </refexp> as a liter .
+Spoken 4	User	Ah . Uh , just one then .
+Spoken 4	Clerk	Okay . Okay . Um , kay , so do you want that delivered , picked up ?
+Spoken 4	User	How fast is the delivery ?
+Spoken 4	Clerk	Uh , we , we try for , for under thirty minutes , but sometimes it goes over .
+Spoken 4	User	Is it free if it gets past ?
+Spoken 4	Clerk	No .
+Spoken 4	User	Hmm . Hmm . Who delivers it ?
+Spoken 4	Clerk	Um , just one of our delivery people .
+Spoken 4	User	Oh it 's like , it 's not , you know , post mates or door or door dash or nothing ?
+Spoken 4	Clerk	No
+Spoken 4	User	Okay , uh , do I have to pay now ?
+Spoken 4	Clerk	You can pay now or when they deliver it .
+Spoken 4	User	How about pickup , same thing ? or
+Spoken 4	Clerk	Yeah , um , yeah , yeah .
+Spoken 4	User	Um , uh , I 'll , I 'll <modality> pick up </modality> and I 'll , I 'll pay now .
+Spoken 4	Clerk	Okay , okay , what 's your name ?
+Spoken 4	User	Oh , let me get my a , my credit card . Hold on . Okay , uh , uh , oh crap what 's the name , uh Lisa Everman
+Spoken 4	Clerk	Lisa Erman ?
+Spoken 4	User	Everman
+Spoken 4	Clerk	Alverman ?
+Spoken 4	User	Everman
+Spoken 4	Clerk	Alverman ?
+Spoken 4	User	E-V-E-R-M-A-N
+Spoken 4	Clerk	And , uh , card number ?
+Spoken 4	User	12345 . It 's a mycard .
+Spoken 4	Clerk	Wha , Okay , um , address ?
+Spoken 4	User	Address , why do you need to know my address ?
+Spoken 4	Clerk	Sometimes it just asks for that .
+Spoken 4	User	Oh
+Spoken 4	Clerk	The system
+Spoken 4	User	Um , alright , as long as you 're not stealing my identity , um , 123 Elm Street .
+Spoken 4	Clerk	Um
+Spoken 4	User	Uh , <numeric> 12345 </numeric>
+Spoken 4	Clerk	Wha , What was the end of the , what was the expiration date ?
+Spoken 4	User	Uh , end of year .
+Spoken 4	Clerk	Your order , uh , you 're , you 're picking it up ?
+Spoken 4	User	Yes , ma'am , my daughter , if that 's alright .
+Spoken 4	Clerk	Yeah , yeah , it should be ready in roughly thirty minutes .
+Spoken 4	User	Roughly thirty minutes , alright . Thanks .
+Spoken 4	Clerk	Bye .
+Spoken 5	User	Ring ring ring
+Spoken 5	Clerk	Hi , you 've reached Tony 's Authentic Italian Pizzeria . How may I help you today ?
+Spoken 5	User	Uh , hey , I need <quant> three </quant> pizzas for Friday .
+Spoken 5	Clerk	What , do you know what kind of pizzas you would like ?
+Spoken 5	User	Uh , um , there 's uh , <size> large </size> <pizza_type> pepperoni </pizza_type> , a <size> small </size> <pizza_type> veggie supreme </pizza_type> , uh gosh , what does Linda want ? Um , A <ref id='drizin.47'> medium Meat Lovers </ref> , uh but extra <topping> pineapple </topping> on <refexp id='drizin.47'> it </refexp> . And , uh , <ref id='drizin.48'> <numeric> two four </numeric> cheeses </ref> , <refexp id='drizin.48'> both </refexp> large .
+Spoken 5	Clerk	Okay , let me just repeat that back to you , make sure I got everything . Um , so I have a <ref id='drizin.49'> <size> large </size> <pizza_type> pepperoni </pizza_type> , a <size> small </size> <pizza_type> vegan supreme </pizza_type> , a <size> medium </size> Meat Lovers with <topping> extra pineapple </topping> , and <quant> two </quant> <size> large </size> <pizza_type> four </pizza_type> cheeses </ref> , is <refexp id='drizin.49'> that </refexp> all correct ?
+Spoken 5	User	Could I get , uh , so I need <refexp id='drizin.49'> these </refexp> for Friday , um , like , when do you make â€�em ?
+Spoken 5	Clerk	If you want <refexp id='drizin.49'> them </refexp> for Friday , we can make <refexp id='drizin.49'> them </refexp> the day of and if you just tell us what time that you want to pick <refexp id='drizin.49'> them </refexp> up , or if you want us to del- deliver <refexp id='drizin.40'> them </refexp> to you , we can have , make <refexp id='drizin.49'> them </refexp> fresh for that time .
+Spoken 5	User	<refexp id='drizin.49'> They </refexp> 'll be fresh , okay , that was my question . Um , hmm , so do you all deliver ?
+Spoken 5	Clerk	Yes , we have <modality> delivery </modality> , and we have <modality> pickup </modality> . Um , pickup is free , and delivery is <numeric> three </numeric> dollars .
+Spoken 5	User	Okay , um , if <ref id='drizin.50'> someone </ref> has an allergy , like , <refexp id='drizin.50'> they </refexp> 're allergic to like , <topping> onions </topping> or something , um , like , you guys are good about that ? Like , uh , you know , you guys will just like , it should be safe ? <refexp id='drizin.50'> They </refexp> 'll be fine ?
+Spoken 5	Clerk	Um , so would , is <ref id='drizin.51'> the person </ref> with the onion allergy , uh , are <refexp id='drizin.51'> they </refexp> planning on eating <ref id='drizin.52'> the <pizza_type> veggie supreme </pizza_type> pizza </ref> , or are , are the other pizzas , one of the other pizzas gon na be for <refexp id='drizin.51'> them </refexp> ?
+Spoken 5	User	<refexp id='drizin.51'> They </refexp> wo n't , yeah , <refexp id='drizin.51'> they </refexp> 're not gon na have with <topping> actual onions </topping> in <refexp id='drizin.52'> it </refexp> but , like , <refexp id='drizin.51'> they </refexp> should n't be worried about like , trace amounts , or like ?
+Spoken 5	Clerk	Oh , yes .
+Spoken 5	User	Other pizzas .
+Spoken 5	Clerk	<refexp id='drizin.51'> They </refexp> should n't be worried . As long as <refexp id='drizin.51'> they </refexp> do n't eat the Veggie Supreme pizza .
+Spoken 5	User	Okay .
+Spoken 5	Clerk	Or <ref id='drizin.53'> the vegan pizza </ref> , but I do n't think you ordered <refexp id='drizin.53'> that one </refexp> .
+Spoken 5	User	Okay , um , uh , what else did I need , um , and then could I also get <address> five bread stick and six cheese </address> sticks , um , and then four of just , or just like one of each soda I guess , or four of the best sodas ? Do four of the best . Surprise me .
+Spoken 5	Clerk	Okay , um , and let me just repeat all that back to you too . I just want to make sure we have <ref id='drizin.54'> your order </ref> correct . You said <address> five bread sticks , six cheese </address> sticks , and you 'd like <ref id='drizin.55'> four of the best sodas </ref> . So , when you say <refexp id='drizin.55'> that </refexp> , do you want , uh just <ref id='drizin.56'> the ones people order the most often </ref> ?
+Spoken 5	User	Sure , surprise me , yeah . <refexp id='drizin.56'> That </refexp> works .
+Spoken 5	Clerk	Okay . So a random combination . Um
+Spoken 5	User	Yeah . Why not , why not ?
+Spoken 5	Clerk	Um , <ref id='drizin.57'> mineral water </ref> , I do n't know if you want <refexp id='drizin.57'> that </refexp> to be included , because <refexp id='drizin.57'> it </refexp> 's not technically a soda .
+Spoken 5	User	No , no , no .
+Spoken 5	Clerk	Okay .
+Spoken 5	User	<refexp id='drizin.57'> It </refexp> 's mineral water , not soda .
+Spoken 5	Clerk	Okay , so then <ref id='drizin.58'> all of the other beverages </ref> each cost 3.50 , so
+Spoken 5	User	<refexp id='drizin.58'> Those </refexp> are fine , yep .
+Spoken 5	Clerk	Okay , um , so now , is that everything , or is there more ?
+Spoken 5	User	Um , that 's good .
+Spoken 5	Clerk	Okay .
+Spoken 5	User	No , we 're good .
+Spoken 5	Clerk	For , for <ref id='drizin.61'> the pizzas </ref> , what kind of crust did you want ? We have thin , regular , deep dish , and gluten-free .
+Spoken 5	User	Um , like what 's the difference ?
+Spoken 5	Clerk	So , <ref id='drizin.59'> thin </ref> is the thinnest crust , um , <refexp id='drizin.59'> it </refexp> 's , <refexp id='drizin.59'> it </refexp> 's very thin . Um , <refexp id='drizin.59'> it </refexp> 's more crunchy than the other crusts . Regular is probably just , you know , like whatever comes to mind when you normally think of pizza , deep dish , is a , an especially thick crust , and uh yeah , and then <ref id='drizin.60'> the gluten-free </ref> is regular but <refexp id='drizin.61'> it </refexp> just does n't have any gluten in <refexp id='drizin.60'> it </refexp> .
+Spoken 5	User	Uh , regular , <refexp id='drizin.61'> all of them </refexp> .
+Spoken 5	Clerk	Okay , um , so now , I can repeat your whole order back to you , is that okay ?
+Spoken 5	User	Go for it .
+Spoken 5	Clerk	Okay , so you wanted one um , <size> large </size> <pizza_type> pepperoni </pizza_type> , <quant> one </quant> <size> small </size> <pizza_type> vegan supreme </pizza_type> , and these are all regular , um , <quant> one </quant> <size> medium </size> <pizza_type> meat lovers </pizza_type> with <topping> extra pineapple </topping> , um , so actually <ref id='drizin.62'> meat lovers </ref> does n't have <topping> pineapple </topping> , do you just want me to add <topping> pineapple </topping> to <refexp id='drizin.62'> that </refexp> ?
+Spoken 5	User	That would be , yeah .
+Spoken 5	Clerk	Okay .
+Spoken 5	User	What I asked for .
+Spoken 5	Clerk	So then , um , <ref id='drizin.63'> <quant> two </quant> <pizza_type> four cheese </pizza_type> , <pizza_type> four cheese </pizza_type> pizzas </ref> , and <refexp id='drizin.63'> they </refexp> 're both large , and also regular , and you have <address> five bread sticks , six cheese </address> sticks , and four random drinks , um , that are n't mineral water . Is that everything ?
+Spoken 5	User	That all sounds fine . It sounds , it sounds like it 'll be good . It 's not my credit card .
+Spoken 5	Clerk	Okay , um , yeah , so do you want me to tell you your total ?
+Spoken 5	User	No , I do n't need to know . It 's good .
+Spoken 5	Clerk	Okay . Um , and , so , did you want this pickup or delivery ?
+Spoken 5	User	Do you deliver to like , if we had a party , you could just bring it all , I do n't have to come get it ?
+Spoken 5	Clerk	Do we deliver to where ?
+Spoken 5	User	Like parties .
+Spoken 5	Clerk	Oh to parties . Yeah , we deliver anywhere within a five mile radius .
+Spoken 5	User	If we 're like , like is <numeric> 5.5 </numeric> miles doable ? You know , since it 's such a big order ?
+Spoken 5	Clerk	Yeah , we , we , we can bend the rules a little bit for that , especially since it 's such a <size> large </size> order , we like to reward our CUSTOMERs .
+Spoken 5	User	Neat . Well it sounds good . Anything , am I good ? Can I go ? I got stuff to do , you know .
+Spoken 5	Clerk	And do you want to pay for it now , or later ?
+Spoken 5	User	Uh , I 'll pay for it later .
+Spoken 5	Clerk	Okay .
+Spoken 5	User	Later 's fine .
+Spoken 5	Clerk	Then , uh , we just need your address .
+Spoken 5	User	Uh , <ref id='drizin.64'> 123 Elm Street </ref> .
+Spoken 5	Clerk	Okay . <refexp id='drizin.64'> That </refexp> 's <numeric> 123 </numeric> Elm Street ?
+Spoken 5	User	Yeah .
+Spoken 5	Clerk	Okay . Thank you for ordering from Tony 's Authentic Italian Pizzeria .
+Spoken 5	User	Cool . Bye .
+Text 1	User	hi is this tony 's pizza
+Text 1	Clerk	Yes , how can I help you ?
+Text 1	User	can I get <ref id='drizin.66'> <quant> 1 </quant> <size> small </size> <pizza_type> meat lovers </pizza_type> pizza <modality> delivered </modality> </ref>
+Text 1	Clerk	Yes , what kind of crust do you want ?
+Text 1	User	idk normal
+Text 1	Clerk	<ref id='drizin.65'> Regular </ref> ?
+Text 1	User	sure <refexp id='drizin.65'> that </refexp> works
+Text 1	Clerk	Okay , <refexp id='drizin.66'> that </refexp> will be $ 12.00 for the pizza and $ 3.00 for <modality> delivery </modality> . Do you want to pay now or when the food arrives ?
+Text 1	User	now
+Text 1	Clerk	Okay , what is your card company ?
+Text 1	User	mycard
+Text 1	Clerk	Okay , and your card number ?
+Text 1	User	<numeric> 12345 </numeric>
+Text 1	Clerk	Okay , are expiration date ?
+Text 1	User	<ref id='drizin.67'> end of year </ref>
+Text 1	Clerk	Got <refexp id='drizin.67'> it </refexp> . And name on the card ?
+Text 1	User	Leesa Bennett
+Text 1	Clerk	Okay , Leesa , and what address should we deliver the pizza too ?
+Text 1	User	<address> 123 elm st </address>
+Text 1	Clerk	Okay , your pizza will arrive at <address> 123 elm street within 30 minutes </address> .
+Text 1	User	k thx
+Text 1	Clerk	Thank you for choosing Tony 's Pizza !
+Text 2	User	Hi ! How much is <ref id='drizin.68'> a Hawaiian pizza </ref> ?
+Text 2	Clerk	Hi there ! It depends on the size of pizza and the type of crust you want on <refexp id='drizin.68'> it </refexp> , or if you want <refexp id='drizin.68'> it </refexp> <crust> gluten free </crust> . <refexp id='drizin.68'> It </refexp> ranges from $ 10-21
+Text 2	Clerk	We offer thin crust , regular crust , deep dish and <crust> gluten free </crust> in small , medium and <size> large </size>
+Text 2	User	How much for <ref id='drizin.69'> a <size> small </size> <crust> thin </crust> crust Hawaiian pizza </ref> ?
+Text 2	Clerk	<refexp id='drizin.69'> That </refexp> would be $ <numeric> 10 </numeric>
+Text 2	User	Do you have any salads ?
+Text 2	Clerk	We do ! We have a green salad and a Caesar salad
+Text 2	User	What about sides ?
+Text 2	Clerk	our other sides are bread sticks and <topping> cheese sticks </topping>
+Text 2	User	Do you have lemonade ?
+Text 2	Clerk	unfortunately we do n't , but we have lemon soda
+Text 2	User	orange soda ?
+Text 2	Clerk	Yes we have orange soda
+Text 2	User	I 'll get the <size> small </size> <crust> thin </crust> crust Hawaiian pizza and <beverage> orange soda </beverage>
+Text 2	Clerk	Sounds good ! Do you want to pick up <ref id='drizin.70'> your order </ref> in store or have <refexp id='drizin.70'> it </refexp> delivered ( which costs $ 3 extra ) ?
+Text 2	User	<modality> pick up </modality>
+Text 2	Clerk	Great ! Would you like to pay now or once you arrive ?
+Text 2	User	when I arrive
+Text 2	Clerk	Alright , your order should be ready in <time> 15 minutes </time> . Anything else I can help you with today ?
+Text 2	User	No
+Text 2	Clerk	Thank you for coming to Tony 's Pizza , and have a great day !
+Text 2	User	Thanks
+Text 3	User	hi I need pizza for Friday
+Text 3	Clerk	which Friday ?
+Text 3	User	this friday
+Text 3	Clerk	Okay , this Friday
+Text 3	Clerk	What time ?
+Text 3	User	before 8
+Text 3	Clerk	What time before 8 ?
+Text 3	User	i guess <quant> 7 </quant>
+Text 3	Clerk	7 a.m. or 7 p.m. ?
+Text 3	User	pm
+Text 3	Clerk	Okay , 7 p.m. this Friday
+Text 3	Clerk	What kind of <ref id='drizin.71'> pizza </ref> ?
+Text 3	User	well <refexp id='drizin.72'> its </refexp> for <quant> 50 </quant> people
+Text 3	Clerk	Okay , what kinds of pizza would you like ?
+Text 3	User	what 's good
+Text 3	Clerk	Our most popular are <ref id='drizin.73'> 4 Cheese , Pepperoni , and Meat Lovers </ref>
+Text 3	User	k some of <refexp id='drizin.73'> those </refexp> then
+Text 3	Clerk	How many 4 Cheese pizzas would you like ?
+Text 3	User	i want the same number of <refexp id='drizin.73'> each </refexp>
+Text 3	User	how many to serve <quant> 50 </quant>
+Text 3	User	What number is that ?
+Text 3	Clerk	I would say get <ref id='drizin.74'>  <quant> 3 </quant> of each </ref>
+Text 3	Clerk	Large
+Text 3	User	k how much is <refexp id='drizin.74'> that </refexp>
+Text 3	Clerk	Does that sound okay ?
+Text 3	User	yeah whats the total
+Text 3	Clerk	The cost depends on if you would like thin , regular , deep dish , or gluten free crust . What kind of crust do you want ?
+Text 3	User	<crust> regular </crust>
+Text 3	Clerk	Okay , <ref id='drizin.75'> 9 regular crust large pizzas </ref> will be $ <numeric> 126 </numeric>
+Text 3	Clerk	Would you like <refexp id='drizin.75'> them </refexp> delivered for an extra $ 3 dollars or would you like to pick <refexp id='drizin.75'> them </refexp> up for free ?
+Text 3	User	<modality> delivered </modality>
+Text 3	Clerk	Okay , also would you like any drinks or sides with the pizzas ?
+Text 3	User	what do you have
+Text 3	Clerk	For sides , we have bread sticks , cheese sticks , green salad , and Caesar salad
+Text 3	Clerk	For drinks , we have <ref id='drizin.76'>  cola , root beer , orange soda , lemon soda , mineral water , and ginger ale </ref>
+Text 3	User	how big are <refexp id='drizin.76'> those </refexp>
+Text 3	Clerk	The sides or the drinks ?
+Text 3	User	<ref id='drizin.77'>  drinks </ref>
+Text 3	Clerk	<refexp id='drizin.77'> They </refexp> 're the <size> large </size> <address> 2 liter bottles </address>
+Text 3	User	cool
+Text 3	User	2 orange
+Text 3	User	2 lemon
+Text 3	User	2 cola
+Text 3	Clerk	Okay , 2 orange sodas , 2 lemon sodas , and 2 colas ?
+Text 3	User	yup
+Text 3	User	<address> 2 bread sticks 2 cheese sticks 1 salad too </address>
+Text 3	Clerk	Okay , 2 bread sticks , 2 cheese sticks , and <quant> 1 </quant> salad . Is there anything else you 'd like to add to your order ?
+Text 3	User	nah
+Text 3	Clerk	Okay , <ref id='drizin.78'>  <address> 3 4 Cheese pizzas , 3 Meat Lovers pizzas , 3 Pepperoni pizzas , 2 bread sticks , 2 cheese sticks , 1 salad , 2 orange sodas , 2 lemon sodas </address> , and 2 colas </ref> . Did I miss anything ?
+Text 3	User	<refexp id='drizin.78'> that </refexp> 's all
+Text 3	Clerk	Okay , was the salad a green salad or a Caesar salad ?
+Text 3	User	caesar
+Text 3	Clerk	Okay , <ref id='drizin.79'>  <address> 3 regular crust large 4 Cheese pizzas , 3 regular crust large Meat Lovers pizzas , 3 regular crust large Pepperoni pizzas , 2 bread sticks , 2 cheese sticks , 1 Caesar salad , 2 orange sodas , 2 lemon sodas </address> , and 2 colas </ref> . Is <refexp id='drizin.79'> that </refexp> all correct ?
+Text 3	User	yup
+Text 3	Clerk	<refexp id='drizin.79'> That </refexp> will be a total of $ 194.00 with <modality> delivery </modality> fees included . What address should <refexp id='drizin.79'> this </refexp> be delivered to ?
+Text 3	User	<address> 123 elm st </address>
+Text 3	Clerk	Alright , 123 elm st. Would you like to pay now or when <refexp id='drizin.79'> it </refexp> 's delivered Friday at 7p.m . ?
+Text 3	User	now
+Text 3	Clerk	Okay , what kind of card do you have ?
+Text 3	User	mycard
+Text 3	Clerk	Alright , mycard . What is the card number ?
+Text 3	Clerk	alright , 12345 . What 's the expiration date ?
+Text 3	User	end of year
+Text 3	Clerk	Okay , end of year , and lastly what 's the name on the card ?
+Text 3	User	Karen Smith
+Text 3	Clerk	Okay , Karen Smith . Your order will be delivered at 7p.m . this Friday . Thank you for choosing Tony 's Pizza and have a great week !
+Text 4	User	Hi , does Tony 's sell slices or just whole pizzas ?
+Text 4	Clerk	Just whole pizzas
+Text 4	User	Oh ok that might be a problem
+Text 4	User	I have <quant> seven </quant> people who all want different pizzas
+Text 4	Clerk	well we have small pizzas if that helps
+Text 4	User	Do you do any half and half pizzas ?
+Text 4	Clerk	no sorry
+Text 4	User	Okay , this might be a long order
+Text 4	User	the first person wants a pizza with <topping> bacon </topping> , <topping> sausage </topping> , and <topping> green peppers </topping>
+Text 4	User	<crust> thin </crust> crust I think
+Text 4	User	and we 'll make it <size> small </size>
+Text 4	Clerk	okay
+Text 4	User	Second person wants a <pizza_type> veggie supreme </pizza_type> thin crust
+Text 4	User	also <size> small </size>
+Text 4	Clerk	okay
+Text 4	User	Person three just wants a pizza with <topping> cheddar cheese </topping> on <crust> regular </crust> crust
+Text 4	User	these are all gon na be <size> small </size>
+Text 4	Clerk	okay
+Text 4	User	<ref id='drizin.80'>  Person four </ref> does n't like cheese , vegetables , or meat , what do you recommend for <refexp id='drizin.80'> them </refexp> ?
+Text 4	Clerk	could do vegan but no veggies , so just a red pizza
+Text 4	User	Okay , how about <ref id='drizin.81'>  a vegan no veggies </ref> but with <topping> pineapple </topping> , can we do <refexp id='drizin.81'> that </refexp>?
+Text 4	Clerk	sure
+Text 4	User	Awesome , the fifth person and the sixth person both want <ref id='drizin.82'>  <pizza_type> 4 cheese </pizza_type> </ref> but person 5 wants <refexp id='drizin.82'> it </refexp> with no mozzarella and person 6 does n't want <topping> swiss </topping>
+Text 4	Clerk	okay
+Text 4	User	The last person wants <pizza_type> veggie supreme </pizza_type> but with <topping> ham </topping>
+Text 4	Clerk	okay
+Text 4	User	Also we 'll get <quant> 3 </quant> <side> bread sticks </side> , <quant> 3 </quant> <side> cheese sticks </side> , and <quant> 3 </quant> <beverage> colas </beverage>
+Text 4	User	that should be it
+Text 4	Clerk	okay then you want ( <address> 1 ) small thin crust w/ bacon sausage and green peppers ( 2 ) small thin crust veggie supreme ( 3 ) small regular cheddar cheese ( 4 ) small vegan no veggies w/ pineapple ( 5 ) small 4 cheese no mozzarella ( 6 ) small 4 cheese no swiss ( 7 ) </address> <size> small </size> <pizza_type> veggie supreme w/ ham </pizza_type> . Plus <quant> 3 </quant> <side> bread sticks </side> , <quant> 3 </quant> <side> cheese sticks </side> and <quant> 3 </quant> <beverage> colas </beverage> , right ?
+Text 4	User	Yes
+Text 4	Clerk	what type crust for pizzas 4-7 ?
+Text 4	User	hold on I have to ask them
+Text 4	User	ok I 'm back they are want <crust> regular </crust> , and we need to add <quant> one </quant> <side> green salad </side>
+Text 4	Clerk	okay
+Text 4	User	do n't worry about the total
+Text 4	User	we do n't need to know
+Text 4	Clerk	alright then delivery or pickup ?
+Text 4	User	<modality> delivery </modality>
+Text 4	User	to <address> 123 elm st </address>
+Text 4	Clerk	cool should be there in <time> 25 minutes </time> or so
+Text 4	User	awesome thanks !
+Text 5	User	Hi i 'd like 2 pizzas for <modality> pickup </modality> please
+Text 5	Clerk	What 's the name for the order ?
+Text 5	User	Karen Murphy
+Text 5	Clerk	What kind of pizzas
+Text 5	User	<ref id='drizin.84'>  <size> large </size> <pizza_type> 4 cheese </pizza_type> </ref> with <topping> extra cheddar </topping> plus <topping> bacon </topping> and <size> large </size> <crust> gluten free </crust> vegan
+Text 5	Clerk	what kind of crusts
+Text 5	User	<crust> regular </crust> and <crust> thin </crust>
+Text 5	Clerk	we ca n't do gluten free thin crust
+Text 5	User	<crust> regular </crust>
+Text 5	Clerk	we ca n't do gluten free regular either
+Text 5	User	what can you do ?
+Text 5	Clerk	just <crust> gluten free </crust>
+Text 5	User	oh ok
+Text 5	Clerk	So $ <numeric> 39.50 </numeric>
+Text 5	Clerk	Delivery or pickup
+Text 5	Clerk	?
+Text 5	User	i order from you every week , is n't there <ref id='drizin.83'>  a discount for regulars </ref> ?
+Text 5	Clerk	<refexp id='drizin.83'> that </refexp> was discontinued
+Text 5	User	my family has been coming to your pizza for over 10 years , we order from you every week
+Text 5	Clerk	do you have any coupons ?
+Text 5	User	No
+Text 5	Clerk	Plus $ 3 if you want <modality> delivery </modality>
+Text 5	User	What 's your name ?
+Text 5	Clerk	Emily
+Text 5	User	Are you the manager Emily ?
+Text 5	Clerk	No
+Text 5	User	Well let your manager know you need to respect your regular customers more
+Text 5	Clerk	I 'll let her know that
+Text 5	User	when will <refexp id='drizin.84'> it </refexp> be ready
+Text 5	Clerk	I ca n't tell her for a while , she 's on vacation
+Text 5	User	okay
+Text 5	User	when can i <modality> pick up </modality> the pizza
+Text 5	Clerk	Oh sorry I thought you wanted delivery , I put you down for <ref id='drizin.85'> <modality> delivery </modality> </ref> already on the register
+Text 5	Clerk	Is <refexp id='drizin.85'> that </refexp> cool or should I change <refexp id='drizin.85'> it </refexp> ?
+Text 5	User	yes i said pickup
+Text 5	Clerk	Ok it  's gon na take a couple minutes for me to figure out how to change <refexp id='drizin.85'> it </refexp>
+Text 5	Clerk	Ok <refexp id='drizin.85'>  it </refexp> 's good now
+Text 5	Clerk	<refexp id='drizin.84'> It </refexp> 'll be ready in <time> 20 minutes </time>
+Text 5	User	ill pay when i arrive
+Text 5	User	ok
+Text 5	Clerk	Got it
+Text 5	Clerk	what name for the order ?
+Text 5	User	Karen Murphy
+Text 5	Clerk	See you in <time> 20 minutes </time>
+Text 6	User	Hi , <quant> two </quant> <size> large </size> <crust> regular </crust> crust Hawaiian pizzas , 2 orders of bread sticks , and 2 orange sodas please
+Text 6	Clerk	Alright , do you want delivery or pickup ?
+Text 6	User	Is there free delivery ?
+Text 6	Clerk	No sorry , <refexp id='drizin.85'> it </refexp> 's <address> $ 3 extra </address>
+Text 6	User	Pickup then
+Text 6	Clerk	Alright can I have your name
+Text 6	User	Maddie
+Text 6	Clerk	Alright Maddie <refexp id='drizin.84'> that </refexp> will be $ 49 , do you want to pay now or once you arrive ?
+Text 6	User	I 'll pay when I get there
+Text 6	Clerk	Alright <refexp id='drizin.84'> it </refexp> should be ready in <time> 25 minutes </time>
+Text 6	User	Okay , awesome ! Thank you !
+Text 7	User	Hi could I please get <quant> two </quant> <size> large </size> pizzas for tonight around 6 ?
+Text 7	Clerk	Sure thing ! What kind of pizzas are you looking for ? My person favorite is <ref id='drizin.86'> the Hawaiian </ref> with <topping> bacon </topping> and <topping> black olives </topping> . Is <refexp id='drizin.86'> that </refexp> something you 'd be interested in trying ?
+Text 7	User	just plain
+Text 7	Clerk	Are you sure , there are a lot of great toppings at Tony 's Pizza !
+Text 7	User	maybe another time , my kids are pretty picky eaters haha
+Text 7	Clerk	Oh , that 's too bad . What about you , do you want toppings on your pizza ?
+Text 7	User	actually yeah pepperoni on one is fine
+Text 7	Clerk	Okay , <ref id='drizin.87'> <quant> 1 </quant> <size> large </size> <pizza_type> plain </pizza_type> pizza and <quant> 1 </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> </ref> . What kind of crust would you like for <refexp id='drizin.87'> them </refexp> ?
+Text 7	User	<crust> regular </crust> and thin please
+Text 7	Clerk	Have you ever tried deep dish before ?
+Text 7	User	in Chicago once yes
+Text 7	Clerk	Well we have <ref id='drizin.88'> <crust> deep dish </crust> crust </ref> available right here in our own town at Tony 's Pizza !
+Text 7	User	sorry once you have <refexp id='drizin.88'> it </refexp> in the best place you ca n't have <refexp id='drizin.88'> it </refexp> anywhere else
+Text 7	User	it 's like new York pizza
+Text 7	Clerk	But you 're having pizza now
+Text 7	User	huh
+Text 7	Clerk	Well , if I ca n't change your mind , you want <quant> 1 </quant> <size> large </size> <pizza_type> plain </pizza_type> pizza with <crust> regular </crust> crust and <quant> 1 </quant> <size> large </size> <pizza_type> pepperoni </pizza_type> with <crust> thin </crust> crust ?
+Text 7	User	yes please
+Text 7	Clerk	Would you like pickup or delivery ?
+Text 7	User	<modality> pickup </modality> please
+Text 7	Clerk	Alright , your total will be $ 28.00 . Would you like to pay now or at Tony 's ?
+Text 7	User	when I come in
+Text 7	Clerk	Alright , what name for the order ?
+Text 7	User	Michelle
+Text 7	Clerk	Okay , Michelle , your order will be ready in <time> 17 minutes </time> ! Thank you for choosing Tony 's !
+Text 8	User	Tony 's ?
+Text 8	Clerk	yes
+Text 8	User	1 pizza please
+Text 8	Clerk	what kind
+Text 8	User	the one with a bunch of meat
+Text 8	Clerk	okay what size and crust
+Text 8	User	<size> large </size>
+Text 8	User	<crust> normal </crust>
+Text 8	Clerk	$ 14 pickup or <modality> delivery </modality>
+Text 8	User	I 'm already on my way
+Text 8	Clerk	your name ?
+Text 8	User	Josephine
+Text 8	Clerk	be ready in <numeric> 10 </numeric>
+Text 8	User	I 'll be there in <time> 15 </time>
+Text 8	Clerk	okay thanks for choosing Tonys
+Text 9	User	Hi do you sell custom pizzas ?
+Text 9	Clerk	Hello ! Yes , we do sell custom pizzas at Tony 's Authentic Italian Pizzeria ! We also have 6 specialty pizzas to choose from .
+Text 9	User	alright good because I 'm allergic to <topping> mushrooms </topping> so I want to be sure it has <name> none </name>
+Text 9	Clerk	Yes , none of the pizzas have to have <topping> mushrooms </topping> .
+Text 9	User	Great ! Okay I 'll take <ref id='drizin.89'>  a <size> large </size> pizza with lots of cheese and a <size> large </size> with lots of meat </ref>
+Text 9	Clerk	Is <refexp id='drizin.89'> that </refexp> two pizzas ?
+Text 9	User	yes
+Text 9	Clerk	What kind of crust would you like for <refexp id='drizin.89'>  those pizzas </refexp> ?
+Text 9	User	there 's different types ?
+Text 9	Clerk	Yes , we have four different types : thin , regular , deep dish , and <crust> gluten free </crust>
+Text 9	User	Oh great ! Then i 'll get regular for the meat and thin for the <pizza_type> cheese </pizza_type>
+Text 9	Clerk	Okay , what kind of cheese do you want on the <pizza_type> cheese </pizza_type> pizza ?
+Text 9	User	um the usual i guess
+Text 9	Clerk	Do you want  <ref id='drizin.90'> the <pizza_type> 4 cheese </pizza_type> pizza </ref> ?
+Text 9	User	ooh what 's <refexp id='drizin.90'> that </refexp> one ?
+Text 9	Clerk	It has all four cheeses that we offer : mozzarella , <topping> cheddar </topping> , <topping> swiss </topping> , and <topping> provolone </topping>
+Text 9	User	Great I 'll take <refexp id='drizin.90'> that </refexp> one @
+Text 9	User	!
+Text 9	Clerk	And for the meat pizza , did you want the <pizza_type> meat lovers </pizza_type> ?
+Text 9	User	sure sounds good
+Text 9	Clerk	Okay , so you would like <ref id='drizin.91'> a <size> large </size> <pizza_type> thin crust 4 cheese </pizza_type> pizza and a <size> large </size> <crust> regular </crust> crust meat lovers pizza </ref> ?
+Text 9	User	yup sounds good !
+Text 9	Clerk	Anything else ?
+Text 9	User	<refexp id='drizin.91'> that </refexp> will be all thanks
+Text 9	Clerk	Okay , pickup or delivery ?
+Text 9	User	<modality> pickup </modality> please , and can I pay when I arrive ?
+Text 9	Clerk	Yes , your total will be $ 28.00 . What 's your name for the order ?
+Text 9	User	Marie
+Text 9	Clerk	Okay , great ! Your order will be ready in <time> 20 minutes </time> Marie !
+Text 9	User	Thanks so much , have a good night !
+Text 10	User	Hi , I got <ref id='drizin.92'> a coupon </ref> in the mail for my birthday , buy one pizza get <quant> one </quant> free . Can I use <refexp id='drizin.92'> it </refexp> now ?
+Text 10	Clerk	Happy Birthday ! And sure , I just need the 4 numbers on the bottom right
+Text 10	User	Thank you ! <numeric> 1234 </numeric>
+Text 10	Clerk	Great ! What pizzas would you like ?
+Text 10	User	We 're vegetarians but we do n't like <topping_type> cheese </topping_type>
+Text 10	Clerk	Okay well there 's our vegan pizza or our <pizza_type> veggie supreme </pizza_type> pizza which we can hold the mozzarella on , or you can create your own pizza without cheese and add any of our vegetable toppings
+Text 10	Clerk	or pineapple too
+Text 10	User	Got it , okay I think <ref id='drizin.93'> the vegan pizza </ref> should be good . 2 of <refexp id='drizin.92'> those </refexp> please
+Text 10	Clerk	okay what size for <refexp id='drizin.93'>  those </refexp> ?
+Text 10	User	<size> large </size>
+Text 10	Clerk	okay <quant> 2 </quant> <size> large </size> <pizza_type> vegan </pizza_type> pizzas . What type of crust would you like on each ?
+Text 10	User	How thin is the <ref id='drizin.94'> thin crust </ref> ?
+Text 10	Clerk	I 'd say <refexp id='drizin.94'> it </refexp> 's about half an inch , <refexp id='drizin.94'> it </refexp> 's <name> pretty crispy </name>
+Text 10	User	One thin and one thick crust please
+Text 10	Clerk	We have thin , regular and deep-dish as our crust options , so for the thick one do you want regular or deep-dish ?
+Text 10	User	<crust> regular </crust>
+Text 10	Clerk	Okay so far you want <ref id='drizin.95'> <quant> 1 </quant> <size> large </size> <crust> thin </crust> crust vegan pizza and <quant> 1 </quant> <size> large </size> <crust> regular </crust> crust vegan pizza </ref> , right ?
+Text 10	User	yes , and <refexp id='drizin.95'> that </refexp> should be all
+Text 10	Clerk	Alright great ! For <ref id='drizin.96'> the two pizzas </ref> it comes to $ 14 after the coupon . Would you like to pickup in store or have <refexp id='drizin.96'> it </refexp> delivered for a fee of $ 3 ?
+Text 10	User	Delivery , please . Our address is <address> 123 elm st </address> .
+Text 10	Clerk	Great so your total is $ 18 . Would you like to pay now or when <refexp id='drizin.96'> it </refexp> arrives ?
+Text 10	User	When <refexp id='drizin.96'> it </refexp> arrives , and should n't <refexp id='drizin.96'> it </refexp> be $ 17.00 ?
+Text 10	Clerk	I 'm sorry , my mistake ! Yes your total will be $ 17 . Your order should arrive in about <time> 25 minutes </time> .
+Text 10	Clerk	Thank you for choosing Tony 's , and Happy Birthday !
+Text 10	User	Thank you !
+Text 11	User	when do you close
+Text 11	Clerk	What day ?
+Text 11	User	tonight
+Text 11	Clerk	10p.m .
+Text 11	User	is <modality> delivery </modality> different ?
+Text 11	Clerk	No , sorry . We stop taking delivery orders at 9:50 .
+Text 11	User	then can I get <quant> two </quant> pizzas and some <side> garlic knots delivered </side> around 8 tonight ?
+Text 11	Clerk	We do n't have garlic knots , but some sides we do have are bread sticks and <pizza_type> cheese </pizza_type> sticks .
+Text 11	User	okay 1 of each then
+Text 11	Clerk	Alright , 1 side of bread sticks and <quant> 1 </quant> side of cheese sticks . What kind of pizzas would you like ?
+Text 11	User	<quant> 1 </quant> <size> large </size> <crust> deep dish </crust> with all the meats and <topping> extra bacon </topping> and large with all the cheeses
+Text 11	Clerk	Okay , what type of crust would you like the second pizza to have ?
+Text 11	User	normal i guess
+Text 11	Clerk	We have <ref id='drizin.97'> <crust> regular </crust> </ref> , is <refexp id='drizin.97'> that </refexp> alright ?
+Text 11	User	alright
+Text 11	Clerk	So <quant> one </quant> <size> large </size> <crust> deep dish </crust> pizza with <topping> pepperoni </topping> , <topping> ham </topping> , <topping> bacon </topping> , and <topping> sausage </topping> with <topping> extra bacon </topping> and <quant> one </quant> <size> large </size> <crust> regular </crust> crust <pizza_type> 4 cheese </pizza_type> pizza ?
+Text 11	Clerk	and 1 bread sticks and <quant> 1 </quant> <beverage> cheese sticks </beverage>
+Text 11	User	actually no <topping> ham </topping>
+Text 11	Clerk	Okay , so <quant> one </quant> <size> large </size> <crust> deep dish </crust> pizza with <topping> pepperoni </topping> , <topping> bacon </topping> , and <topping> sausage </topping> with <topping> extra bacon </topping> and <quant> one </quant> <size> large </size> <crust> regular </crust> crust <pizza_type> 4 cheese </pizza_type> pizza , <quant> 1 </quant> side of bread sticks , and <quant> 1 </quant> side of cheese sticks ?
+Text 11	User	yes that 's it
+Text 11	Clerk	Okay , that will be $ 57.50 . Would you like pickup or delivery ?
+Text 11	User	when will it be ready ?
+Text 11	Clerk	20 minutes
+Text 11	User	ill pickup and pay then
+Text 11	Clerk	alright , thank you for choosing Tony 's !
+Text 12	User	Hi , I 'll take a <size> medium </size> <pizza_type> 4 Cheese </pizza_type> Pizza with <topping> olives </topping> on <crust> regular </crust> crust , 1 order of bread sticks , and a cola . I want it delivered to <address> 123 elm st. </address> please .
+Text 12	Clerk	<modality> delivery </modality> is $ <quant> 3 </quant> <size> extra </size>
+Text 12	User	That 's fine
+Text 12	Clerk	$ 22.50 total , wan na pay now or when its delivered ?
+Text 12	User	Now please
+Text 12	Clerk	name , number and expriration on the card ?
+Text 12	User	Jennifer Carlsdale , Mycard , 12345 , end of the year
+Text 12	Clerk	should be there in <time> 25 minutes </time> , thanks for choosing Tony 's
+Text 12	User	Alright , thanks !
+Text 13	User	Hi I 'd like to order a pizza and <quant> two </quant> drinks for <modality> delivery </modality>
+Text 13	Clerk	You 're going to need to be more specific
+Text 13	User	Yeah I know , give me a minute just finalizing what I want
+Text 13	User	okay large Hawaiian , <size> large </size> <pizza_type> 4 cheese </pizza_type> with <topping> pepperoni </topping> and a lemon soda and and ginger ale
+Text 13	Clerk	Pickup or <modality> delivery </modality> ?
+Text 13	User	Last week they gave me a orange soda instead of lemon and I called and they said I could get a free one , just had to tell them it 's <name> Marissa </name>
+Text 13	Clerk	Okay , did they tell you if they wrote <ref id='drizin.98'> a note </ref> about it and where they left <refexp id='drizin.98'> it </refexp> ?
+Text 13	User	they just said to say it 's Marissa and explain what happened , they should have let you know
+Text 13	Clerk	Well normally we 're supposed to leave a note about that
+Text 13	User	so because someone forgot I do n't get the drink I deserve ?
+Text 13	User	This is ridiculous
+Text 13	Clerk	I can ask around and see if anyone heard about this last week
+Text 13	Clerk	Just give me one moment
+Text 13	User	yes please that would be a smart idea
+Text 13	Clerk	Okay someone remembers a Melissa , what did you say your name was ?
+Text 13	User	Melissa yes
+Text 13	Clerk	Wait , I thought you said Marissa before
+Text 13	User	they probably heard my name wrong over the phone , marissa is n't too common
+Text 13	User	it happens all the time
+Text 13	Clerk	So are you Marissa or Melissa ?
+Text 13	User	Marissa
+Text 13	Clerk	But they heard Melissa
+Text 13	User	ugh this is <name> unbelievable </name>
+Text 13	User	this is my last order from this place until they get better help
+Text 13	User	I 'll <modality> take delivery </modality> and pay when it arrives
+Text 13	Clerk	Okay , what kind of crusts did you want ?
+Text 13	User	<crust> regular </crust>
+Text 13	Clerk	Alright , $ <numeric> 40.50 </numeric>
+Text 13	User	fine
+Text 13	Clerk	Thanks for ordering at Tony 's
+Text 14	User	What kinds of cheese do you offer ?
+Text 14	Clerk	We offer <ref id='drizin.99'> mozzarella , <topping> cheddar </topping> , <topping> swiss </topping> , and <topping> provolone </topping> </ref> for our pizzas . The cheese on the <pizza_type> cheese </pizza_type> sticks is a mix of cheddar and mozzarella
+Text 14	User	cool , do you have a pizza that blends <refexp id='drizin.99'> all of those cheeses </refexp> ?
+Text 14	Clerk	Yeah ! <ref id='drizin.100'> One of our specialty pizzas </ref> is the <pizza_type> 4 cheese </pizza_type> , which has <refexp id='drizin.99'> all of them </refexp>
+Text 14	User	Okay , <refexp id='drizin.100'> that </refexp> sounds good
+Text 14	Clerk	Great ! We offer <refexp id='drizin.100'> it </refexp> in small , medium , and <size> large </size> and in thin crust , regular , deep-dish , or <crust> gluten free </crust> .
+Text 14	User	Small and <crust> gluten free </crust> please
+Text 14	Clerk	Okay , any additional toppings ?
+Text 14	User	Nope , that should be all
+Text 14	Clerk	Great ! Delivery or pickup
+Text 14	User	Delivery
+Text 14	Clerk	Okay your total is $ 18 . How would you like to pay ?
+Text 14	User	I can pay now
+Text 14	Clerk	okay i just need your card information
+Text 14	User	Mycard , 1234 , it expires at the end of this year
+Text 14	User	and my name 's <name> Helen Smith </name>
+Text 14	User	I 'm at <address> 123 elm st </address> .
+Text 14	Clerk	Great it should arrive in <time> 20 minutes </time> , thank you for ordering from Tony 's Pizzeria !
+Text 14	User	Thanks !
+Text 15	User	Hi what are the different sizes
+Text 15	Clerk	Our sizes are small , medium , and <size> large </size>
+Text 15	User	whats the difference
+Text 15	Clerk	Small is <numeric> 10 </numeric> '' , medium is <numeric> 12 </numeric> '' , and <size> large </size> is <numeric> 14 '' </numeric>
+Text 15	User	but like how many is that for
+Text 15	Clerk	I would say the small is good for 2-3 people , the medium for 3-4 , and the large for 4-5
+Text 15	User	okay and how many for the sodas
+Text 15	Clerk	the sodas are for about 8 people
+Text 15	User	alright ill do <quant> two </quant> <size> large </size> <crust> thin </crust> crust , one <pizza_type> pepperoni </pizza_type> the <pizza_type> other 4 cheese </pizza_type> with <topping> bacon </topping> plus an orange soda . We 're just 6 so is <ref id='drizin.101'> the pizza </ref> good the next day ?
+Text 15	Clerk	Yes , <refexp id='drizin.101'> it </refexp> is
+Text 15	Clerk	Would you like pickup or delivery ?
+Text 15	User	ok good that 's it
+Text 15	Clerk	Okay , would you like pickup or delivery ?
+Text 15	User	<modality> delivered </modality>
+Text 15	Clerk	Okay , what address would you like <refexp id='drizin.101'> it </refexp> to be delivered to ?
+Text 15	User	<address> 123 elm st </address>
+Text 15	User	can you call ? we have to bring the dog inside
+Text 15	Clerk	Alright , 123 elm street , and yes we can call when we arrive . You 're total is $ 34.50 . Would you like to pay now or when <refexp id='drizin.101'> it </refexp> gets delivered ?
+Text 15	User	once <refexp id='drizin.101'> its </refexp> delivered
+Text 15	Clerk	Okay , thank you for ordering from Tony 's ! <refexp id='drizin.101'> It </refexp> will be there in <time> 25 minutes </time> .
+Text 15	User	great thank you so much !
+Text 16	User	Hi ! I 'm <crust> gluten free </crust> . What pizza options do you have ?
+Text 16	Clerk	we can make any of them gluten <crust> free </crust>
+Text 16	User	Okay , great !
+Text 16	User	Is there a topping limit ?
+Text 16	Clerk	Nope
+Text 16	User	Okay , I 'll get <ref id='drizin.102'> a <size> large </size> pizza </ref> with <quant> all </quant> the cheeses , veggies , and meats , and <topping> pineapple </topping> too
+Text 16	Clerk	gluten-free still ?
+Text 16	User	yes
+Text 16	Clerk	okay any sides or drinks ?
+Text 16	User	No thank you
+Text 16	Clerk	alright would you like <refexp id='drizin.102'> it </refexp> delivered or do you wan na <modality> pick up </modality> in store ?
+Text 16	User	Pick up please
+Text 16	Clerk	alright your total is $ 37 , would you like to pay now or once you arrive ?
+Text 16	User	When I arrive
+Text 16	Clerk	great <refexp id='drizin.102'> it </refexp> should be ready in <time> 30 minutes </time> . What was your name ?
+Text 16	User	Haley
+Text 16	Clerk	Great ! Just tell the cashier your name when you arrive . See you then !
+Text 16	User	Great , thanks !
+Text 17	User	Hi is this Tony 's Italian Pizzeria ?
+Text 17	Clerk	Yes , How can I help you ?
+Text 17	User	Hi I was wondering how much a <size> large </size> <pizza_type> gluten-free </pizza_type> pizza would cost ?
+Text 17	Clerk	The base price is $ 21.00 but if you want to add toppings the price would increase
+Text 17	User	Alright then I 'll take a <size> large </size> <crust> gluten free </crust> <pizza_type> cheese </pizza_type> pizza with <topping> green peppers </topping> please
+Text 17	Clerk	Okay , any sides ?
+Text 17	User	Are there any sides that are <crust> gluten free </crust> ?
+Text 17	Clerk	Our green salad is <crust> gluten free </crust>
+Text 17	User	Alright no sides then , I 'll just get a cola along with the pizza
+Text 17	Clerk	Alright , pickup or delivery ?
+Text 17	User	Delivery please
+Text 17	Clerk	Alright , your total is $ 29.50 . What address would you like it to be delivered to ?
+Text 17	User	I 'm sorry I know the topping and soda was extra but is $ 29.50 correct ?
+Text 17	Clerk	Yes , $ 21.00 for the pizza , $ 2 for the green peppers , $ 3.50 for the soda , and $ 3 for <modality> delivery </modality>
+Text 17	User	Oh right <ref id='drizin.103'> the <modality> delivery </modality> charge </ref> ! I forgot about <refexp id='drizin.103'> that </refexp> , sorry
+Text 17	User	Do I have to pay now or can I pay the <modality> delivery </modality> guy ?
+Text 17	Clerk	You can pay the <modality> delivery </modality> guy
+Text 17	User	Could he break $ 100 ?
+Text 17	Clerk	I do n't think so , sorry . What address should we deliver to ?
+Text 17	User	Actually I 'll just pick it up so I can use my card
+Text 17	Clerk	Okay , then that will be $ 26.50 .
+Text 17	User	Great ! When should I come to pick it up ?
+Text 17	Clerk	It will be ready in <time> 25 minutes </time> !
+Text 17	User	Great I 'll be there then
+Text 17	Clerk	Great ! Thanks for ordering from Tony 's ! Have a great day !
+Text 17	User	You too ! Thanks for all your help !
+Text 18	User	Hey , can you guys deliver to <address> 123 elm st </address> ?
+Text 18	Clerk	In Anytown , right ?
+Text 18	User	Yes !
+Text 18	Clerk	Yup that 's within our 5-mile radius
+Text 18	User	Okay , great !
+Text 18	User	I 'll take <ref id='drizin.104'> a <size> large </size> <pizza_type> 4 cheese </pizza_type> pizza </ref> please
+Text 18	User	<crust> deep dish </crust>
+Text 18	Clerk	is <refexp id='drizin.104'> that </refexp> it
+Text 18	User	And two orders of bread sticks as well
+Text 18	Clerk	okay $ <numeric> 33 </numeric>
+Text 18	User	Great , I 'll pay when <refexp id='drizin.104'> it </refexp> gets here
+Text 18	Clerk	<refexp id='drizin.104'> it </refexp> 'll be there in <time> 20 </time>
+Text 18	User	Alright , great , thank you !
+Text 19	User	Hey it 's Samantha can I get <ref id='drizin.105'> my usual </ref>
+Text 19	Clerk	Yes of course <refexp id='drizin.105'> that </refexp> will be $ 30 dollars with the <modality> delivery </modality> fee
+Text 19	User	Is Johnny working tonight ?
+Text 19	Clerk	Sorry , he 'll be here tomorrow
+Text 19	User	ah darn I was hoping to see him , I 'll swing by tomorrow then
+Text 19	Clerk	Will you still be ordering tonight ?
+Text 19	User	yeah yeah I might as well . Are you guys busy ? how long will the delivery take ?
+Text 19	Clerk	About 30 minutes
+Text 19	User	wow you guys must be pretty busy , good luck tonight
+Text 19	Clerk	Thanks , and thanks for ordering from Tony 's !
+Text 20	User	What 's your best pizza ?
+Text 20	Clerk	Ooh probably the <pizza_type> 4 cheese </pizza_type> or the meat lovers , depending on what you like
+Text 20	User	I like a very plain pizza
+Text 20	Clerk	then <pizza_type> 4 cheese </pizza_type> is probably your best bet . You can customize the cheeses too if there 's one you do n't like
+Text 20	User	What cheeses does the <pizza_type> four cheese </pizza_type> have ?
+Text 20	Clerk	the <pizza_type> 4 cheese </pizza_type> has
+Text 20	Clerk	oops sorry typo
+Text 20	Clerk	the <pizza_type> 4 cheese </pizza_type> has <ref id='drizin.105'> mozzarella , <topping> cheddar </topping> , <topping> swiss </topping> , and <topping> provolone </topping> </ref>
+Text 20	User	Ok , I 'm good with <refexp id='drizin.106'> that combination </refexp>
+Text 20	User	Can you tell me about your soups ?
+Text 20	Clerk	we do n't have soup unfortunately
+Text 20	User	Salads ?
+Text 20	Clerk	We have a green salad and a Caesar salad
+Text 20	User	What 's on the green salad ?
+Text 20	Clerk	its lettuce with tomatoes and carrots
+Text 20	User	Interesting
+Text 20	User	Is there a make your own salad option available ?
+Text 20	User	Like with the pizza toppings ?
+Text 20	Clerk	Well you can ask to hold certain ingredients from the salad or ask for extra , but if you wanted to add pizza toppings it would cost the same as if it were added to a pizza
+Text 20	User	Hmm that sounds complicated , maybe I 'll just get the Caesar
+Text 20	Clerk	okay so you 'd like a <pizza_type> 4 cheese </pizza_type> pizza and a Caesar salad ?
+Text 20	User	Yeah , but I 'm pretty hungry so maybe I should order more
+Text 20	Clerk	okay let me just get the size and crust type of the pizza from you first
+Text 20	User	What 's the largest you guys have ever gotten ?
+Text 20	User	order that is
+Text 20	User	I 'd like a <size> large </size> pizza with <crust> regular </crust> crust
+Text 20	Clerk	Well once someone orders 10 or more pizzas we need at least 2 days in advance since it becomes like catering
+Text 20	Clerk	But the largest catering order we ever got was 50 pizzas and like 6 of each side
+Text 20	User	Oh I see well I 'm just ordering for myself so I probably wo n't need catering
+Text 20	Clerk	alright then , what else would you like ?
+Text 20	User	I think Ill also take <ref id='drizin.107'> <quant> one </quant> <size> small </size> <crust> thin </crust> crust Hawaiian pizza </ref> and then <refexp id='drizin.107'> that </refexp> should be it
+Text 20	Clerk	Great ! So that 's a <size> large </size> <pizza_type> regular 4 cheese </pizza_type> pizza , a Caesar salad and a <size> small </size> <crust> thin </crust> crust Hawaiian pizza ?
+Text 20	User	Yep !
+Text 20	Clerk	Great ! Your total is $ 36 , would you like to <modality> pick up </modality> in store or have it delivered for $ 3 extra ?
+Text 20	User	Maybe pickup , but what 's the weather like there , is it really rainy ?
+Text 20	Clerk	It 's been overcast and the weather said it might rain , did you want to order it for now or later tonight ?
+Text 20	User	Right now please
+Text 20	User	I can pick it up if it 's not raining now
+Text 20	Clerk	yeah it 's not raining now so you should be good
+Text 20	User	Alright , what time will it be ready ?
+Text 20	Clerk	should take about 25 minutes , would you like to pay now or when you get here ?
+Text 20	User	When I get there please
+Text 20	Clerk	Alright and what was your name
+Text 20	User	Tina
+Text 20	Clerk	Great Tina we 'll see you in 25 !
+Text 20	User	Great !
+Abnormal 1	Clerk	Tony 's pizza , how can I help you ?
+Abnormal 1	User	Hi , um , I want to order a pizza . How much does a <size> large </size> <pizza_type> Hawaiian </pizza_type> pizza with <crust> regular </crust> crust cost ?
+Abnormal 1	Clerk	Uhh lem me see <ref id='drizin.108'> the large Hawaiian </ref> with what size crust again ? I 'm sorry .
+Abnormal 1	User	Regular
+Abnormal 1	Clerk	Regular should be fourteen dollars
+Abnormal 1	User	Okay . Um , and if I wanted to add a topping to <refexp id='drizin.108'> that </refexp> .
+Abnormal 1	Clerk	Yeah
+Abnormal 1	User	Yeah , how much do you know how much things cost ?
+Abnormal 1	Clerk	Uh sir , sir , do you have a mask you could put on ?
+Abnormal 1	Clerk	Uh no , no you ca n't hold a napkin over your mouth . You need <ref id='drizin.109'> a real mask </ref> .
+Abnormal 1	User	What what huh ?
+Abnormal 1	Clerk	We do n't have <refexp id='drizin.109'> that </refexp> .
+Abnormal 1	Clerk	We do n't offer <refexp id='drizin.109'> that </refexp> . So we ca n't give you one . You need to have one . Uh it says on the door . There 's a sign .
+Abnormal 1	Clerk	Um so if you could please leave . Yeah , you have to leave sorry we ca n't have you in here .
+Abnormal 1	Clerk	Thank you . So sorry about that . Ma'am , uh guy came in without a mask on . We just have to have them leave , you were saying you wanted the <size> large </size> Hawaiian what else would you like ?
+Abnormal 1	User	I was just wondering about toppings . Um so I do -- how much do the toppings cost ?
+Abnormal 1	Clerk	It depends on the topping , um our cheeses are one fifty uh our vegetables are two dollars and meats are two fifty except for <topping> bacon </topping> and <topping> sausage </topping> are <quant> three </quant>
+Abnormal 1	User	Okay . Um , so I think I would like to add some black <topping> olives </topping> to the Hawaiian pizza .
+Abnormal 1	Clerk	Sounds good .
+Abnormal 1	User	Okay . Um , and then one order breadsticks and an orange soda , please .
+Abnormal 1	Clerk	Breadsticks and an orange soda . Is there anything else I can get you ?
+Abnormal 1	User	Um , No , that 's it . Right . But can you repeat <ref id='drizin.110'> my order </ref> back too . So I know you have <refexp id='drizin.110'> it </refexp> .
+Abnormal 1	Clerk	Yeah , um <refexp id='drizin.110'> it </refexp> was a <size> large </size> <pizza_type> Hawaiian </pizza_type> with <crust> regular </crust> crust , you wanted to add black <topping> olives </topping> . Ah , forgive me . You wanted breadsticks and then I know there was an orange soda I just meant -- I just forgot one of the sides .
+Abnormal 1	User	Yeah yeah that was everything .
+Abnormal 1	Clerk	Okay , so just breadsticks and orange soda , alright . Okay . Um would you like to pay over the phone , or um if you 're picking up here or if you 're getting it delivered um , to the delivery person . How would you like to pay ?
+Abnormal 1	User	Um , can I have <modality> delivery </modality> and pay you over the phone ?
+Abnormal 1	Clerk	Sure . Sounds good . Um , so with the <modality> delivery </modality> fee . Let me just put this all into the register .
+Abnormal 1	Clerk	Uhh orange soda , and breadsticks , <size> large </size> <crust> regular </crust> pizza .
+Abnormal 1	Clerk	And black <topping> olives </topping> uhh with <modality> delivery </modality> fee total comes to <ref id='drizin.111'> twenty-nine fifty </ref> .
+Abnormal 1	User	Okay , <refexp id='drizin.111'> that </refexp> 's good .
+Abnormal 1	Clerk	Great , I 'll just need your card information .
+Abnormal 1	User	Okay , um , it 's a mycard . ( okay ) The number is one-two-three-four-five and the expiration is the end of the year .
+Abnormal 1	Clerk	Alright , sounds good , um
+Abnormal 1	Clerk	The delivery -- we 're a bit busy . Um so uh the <modality> delivery </modality> -- It should be delivered around like thirty-five minutes from now if that 's all right .
+Abnormal 1	User	Okay .
+Abnormal 1	User	Great . Well , enjoy your pizza .
+Abnormal 1	User	Thank you , have a nice day .
+Abnormal 1	Clerk	You too . Bye .
+Abnormal 1	User	Bye .
+Abnormal 2	User	Ring ring ring
+Abnormal 2	Clerk	Hi , Tony 's Pizza . How can we help you ?
+Abnormal 2	User	Hi , um , can I order a , uh <size> large </size> pizza for <modality> delivery </modality> , uh , in a couple hours from tonight ?
+Abnormal 2	Clerk	Um , I 'm sorry , I , I ca n't hear you . What did you say ?
+Abnormal 2	User	Uh , <ref id='drizin.112'> a <size> large </size> pizza </ref> , um , I just need <refexp id='drizin.112'> it </refexp> a couple hours from now .
+Abnormal 2	Clerk	Sorry , sorry . It 's just super loud in here . Um , can everybody in here be quiet for a second ? Thank you . Okay , okay .
+Abnormal 2	User	A large pizza , a couple hours from now .
+Abnormal 2	Clerk	Shh ! Sorry , what was that ?
+Abnormal 2	User	Uh , large pizza for <quant> 6pm </quant> .
+Abnormal 2	Clerk	Okay , okay . I got that . Um
+Abnormal 2	User	Good .
+Abnormal 2	Clerk	Large pizza for <quant> 6pm </quant> . What kind did , did you want ?
+Abnormal 2	User	Pepperoni .
+Abnormal 2	Clerk	Pepperoni . <ref id='drizin.113'> Large <pizza_type> pepperoni </pizza_type> pizza </ref> . 6pm . Um , so that should be , do you want regular crust ?
+Abnormal 2	User	Uh yeah , and can I also get , um , <topping> green peppers </topping> , and <topping> extra cheddar </topping> on <refexp id='drizin.114'> that </refexp> ?
+Abnormal 2	Clerk	Okay . Um , yes . So you want a <size> large </size> . What kind of pizza was <refexp id='drizin.114'> it </refexp> ?
+Abnormal 2	User	Pepperoni .
+Abnormal 2	Clerk	Okay . <ref id='drizin.115'> A <size> large </size> <pizza_type> pepperoni </pizza_type> pizza </ref> , with um , <topping> green peppers </topping> , and <topping> extra cheddar </topping> ?
+Abnormal 2	User	Yes .
+Abnormal 2	Clerk	Okay . Um , <refexp id='drizin.115'> that </refexp> should be 17.50 . Is there anything else you want ? Any sides or drinks ?
+Abnormal 2	User	No , <refexp id='drizin.115'> that </refexp> 's it .
+Abnormal 2	Clerk	Okay . Um , 17.50 . Would you like a <modality> delivery </modality> , which is an extra <quant> three </quant> dollars , or would you like to pick <refexp id='drizin.115'> it </refexp> up ?
+Abnormal 2	User	No , we 're gon na pick it up . Um . Is it okay if like my daughter comes to pick it up ?
+Abnormal 2	Clerk	Yeah
+Abnormal 2	User	As long as she pays and everything . Okay .
+Abnormal 2	Clerk	Yep .
+Abnormal 2	User	Great . Um , my name is Cathy . So , do you need my last name , or any other information ? Like , what does she have to say when she comes in to pick <refexp id='drizin.115'> it </refexp> up ?
+Abnormal 2	Clerk	Um , she 'll have to , she 'll have to give the name for the order , which would be Cathy . Um , and then , if you pay for <refexp id='drizin.115'> it </refexp> now , that should be all she needs , but if you want her to pay for <refexp id='drizin.115'> it </refexp> there , she would need to give us the , um , card information .
+Abnormal 2	User	Kay , I can , I can have her pay .
+Abnormal 2	Clerk	Okay .
+Abnormal 2	User	I 'll move money to her account . That sounds good .
+Abnormal 2	Clerk	Okay .
+Abnormal 2	User	Great . Anything else , or
+Abnormal 2	Clerk	Uh no , that should be it
+Abnormal 2	User	Got anything else for me ? Great . Thank you very much .
+Abnormal 2	Clerk	Kay . Bye . Thank you .
+Abnormal 2	User	Bye .
+Abnormal 3	User	Ring ring ring
+Abnormal 3	Clerk	Hi . This is Tony 's Pizzeria . How can we help you ?
+Abnormal 3	User	Hi ! Um . Iâ€ ” I 'd like to order a pizza . Pepperoni . Please ?
+Abnormal 3	Clerk	Um , sorry , I did n't catch what size you wanted ?
+Abnormal 3	User	Oh . Um , uh , a <size> large </size> . Sorry . Uh , I 'm out , uh , we have a house out by the lake . Uh , It can be pretty bad connection . Um , but yeah , let me know if you just ca n't hear me . Sorry .
+Abnormal 3	Clerk	That 's fine . Um , and then , what kind of crust did you want ?
+Abnormal 3	User	Uh , uh , I think . Gular crust .
+Abnormal 3	Clerk	What was that ?
+Abnormal 3	User	Regular crust .
+Abnormal 3	Clerk	Okay . So you want a <pizza_type> regular pepperoni </pizza_type> , large , <size> large </size> <pizza_type> pepperoni </pizza_type> pizza ?
+Abnormal 3	User	Yeah . Sure .
+Abnormal 3	Clerk	Okay . Um , that will cost fourteen dollars .
+Abnormal 3	User	Kay .
+Abnormal 3	Clerk	Sides ?
+Abnormal 3	User	Can . Paâ€ ” Pay . Credit Card ?
+Abnormal 3	Clerk	Yes , we accept credit cards .
+Abnormal 3	User	Let me . Fiâ€ ”
+Abnormal 3	Clerk	Hello ? Hello , is anyone there ? Guess not .
+Abnormal 4	Clerk	Hi . This is Tony 's pizzeria . How can we help you ?
+Abnormal 4	User	Hi , I 'd like to order two pizzas .
+Abnormal 4	Clerk	Okay , what kind of pizzas would you like ?
+Abnormal 4	User	Can I get -- I know you guys do you -- what special crusts you have ? I know you do n't just do like regular you have special ones
+Abnormal 4	Clerk	We have thin crust , regular crust , deep dish , and <crust> gluten free </crust> .
+Abnormal 4	User	That 's good to know , little Billy ca n't have gluten , um , I think I 'll do uh
+Abnormal 4	User	He 's a growing kid . I 'll get him a <size> medium </size> <crust> gluten free </crust> <pizza_type> pepperoni </pizza_type> . Um and then what does George want ? Um , you know what ? Oh yeah , ooh , I 'll get him , ooh , you guys have like , what he loves like meat , like , usually there 's like <ref id='drizin.116'> a meat pizza </ref> kind of thing . Like , do you have one of <refexp id='drizin.116'> those </refexp> ?
+Abnormal 4	Clerk	Ah yes we do have <ref id='drizin.117'> a <pizza_type> meat lovers </pizza_type> pizza </ref> . <refexp id='drizin.117'> It </refexp> has mozzarella , <topping> pepperoni </topping> , <topping> ham </topping> , <topping> bacon </topping> and <topping> sausage </topping> .
+Abnormal 4	User	Oh my god , <refexp id='drizin.117'> that </refexp> 's perfect . He will love <refexp id='drizin.117'> that </refexp> . I 'll take <refexp id='drizin.117'> that </refexp> in a <size> large </size> , deep dish . He will be so happy . Um , and then do you guys have like garlic knots or something like on the side ?
+Abnormal 4	Clerk	We have breadsticks and cheese sticks on . Um Hold on one minute ma'am , I 'm getting <ref id='drizin.118'> another call </ref> I just have to answer <refexp id='drizin.118'> it </refexp> . I 'll put you on hold on and I 'll come right back .
+Abnormal 4	User	Okay .
+Abnormal 4	Clerk	Ma'am ?
+Abnormal 4	User	Y-Yes ?
+Abnormal 4	User	I 'm back
+Abnormal 4	User	Oh , great . Good . Oh , what are we talking about , um , sides ! Yes . Do- you do n't have garlic knots , right ? You said you do n't have garlic knots .
+Abnormal 4	Clerk	Yes , we do n't have garlic knots but we do have breadsticks and she sticks and also salads , If you 're interested in those
+Abnormal 4	User	Nah we 'll go with the <pizza_type> cheese </pizza_type> sticks um I 'll take a order , I 'll take a order of bread sticks and one of cheese sticks . I like to compare
+Abnormal 4	Clerk	Um one order breadsticks and one order of cheese sticks . Mhm Okay .
+Abnormal 4	User	[ interrupt ] Oh , and can I also have like <ref id='drizin.119'> a <size> large </size> <pizza_type> plain </pizza_type> pizza </ref> for me and the girls just because , yeah , we got the specialty ones out of the way .
+Abnormal 4	Clerk	Okay . And so that 's just um cheese . ( mhm ) Okay , um , and what kind of crust , do you want for <refexp id='drizin.119'> that </refexp> ?
+Abnormal 4	User	Just the plain whatever default you do
+Abnormal 4	Clerk	Just like regular ? Okay . So you have <quant> three </quant> pizzas . A medium , <crust> gluten Free </crust> <pizza_type> pepperoni </pizza_type> , a <size> large </size> , deep dish um <pizza_type> meat lovers </pizza_type> and a <size> large </size> <crust> regular </crust> pizza just plain and then you have <quant> 1 </quant> order of cheese sticks and one order of bread stix is that all ?
+Abnormal 4	User	Yes , all that sounds great .
+Abnormal 4	Clerk	Okay , thank you . Um , would you like pickup or delivery ?
+Abnormal 4	User	Oh , I 'm feeling lazy let 's get it delivered
+Abnormal 4	Clerk	Okay , that 's an extra $ 3 is that ok ?
+Abnormal 4	User	That 's fine . Thank you .
+Abnormal 4	Clerk	Okay . Um , so your total order price is . Hold on , let me just put this in the register . So a <size> medium </size> of <pizza_type> pepperoni </pizza_type> <crust> gluten free </crust> <pizza_type> pepperoni </pizza_type> . Is 12 . Large deep dish , Meat lovers is 4-4-16 , and do you really want to know your order total ma'am ?
+Abnormal 4	User	Yes , yes , that would be great .
+Abnormal 4	Clerk	Thank you . Okay . Okay I 'll keep going . Large regular is <numeric> 14 </numeric> plus the breadsticks seven plus 9 for the <pizza_type> cheese </pizza_type> sticks plus 3 for the delivery is <ref id='drizin.120'> $ 61 </ref> is <refexp id='drizin.120'> that </refexp> okay with you ? Yes . Okay , so for <modality> delivery </modality> . Would you like to pay now or later when we deliver it ?
+Abnormal 4	User	I 'll pay the <modality> delivery </modality> person .
+Abnormal 4	Clerk	Okay , so we just need your name and your address .
+Abnormal 4	User	Uh My name is Kathy winters uh and I live on <address> 123 Elm Street </address> .
+Abnormal 4	Clerk	Okay , <ref id='drizin.121'> Kathy winter </ref> on <address> 123 elm st </address> ?
+Abnormal 4	User	Yes <refexp id='drizin.122'> that </refexp> 's me . Okay , my husband , my husband George might be answering the door if that 's okay .
+Abnormal 4	Clerk	Okay that . Yeah , that 's okay .
+Abnormal 4	User	Okay , good .
+Abnormal 4	Clerk	Okay , is everything .
+Abnormal 4	User	Should be all thank you so much for your help . We 're so excited .
+Abnormal 4	Clerk	You 're welcome . Thank you for calling Tony 's pizzeria . Yeah .
+Abnormal 4	User	Good night .
+Abnormal 4	Clerk	You too .

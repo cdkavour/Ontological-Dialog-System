@@ -1,0 +1,8 @@
+ipdb> test_acc
+0.9185226172361323
+ipdb> test_f1sc
+0.9246674969113009
+ipdb> test_acc_array
+array([0.1875    , 0.34749035, 0.94847605])
+ipdb> test_f1_array
+array([0.22900763, 0.26587888, 0.95750916])
