@@ -871,7 +871,7 @@ Abnormal_4	User	Ah ... ok .
 Abnormal_4	Clerk	Hello ? Are you still there ?
 Abnormal_4	User	Yes , so how much is <ref id='lin.36'>my order</ref> in total ?
 Abnormal_4	Clerk	Would you like to pick <refexp id='lin.36'>it</refexp> up or get <refexp id='lin.36'>it</refexp> delivered ?
-Abnormal_4	User	Yup , I would like to pick <refexp id='lin.36'>it<? up myself .
+Abnormal_4	User	Yup , I would like to pick <refexp id='lin.36'>it</refexp> up myself .
 Abnormal_4	Clerk	All right . That ’ s 18 dollars and <quant> 50 </quant> cents in total .
 Abnormal_4	User	Ok .
 Abnormal_4	Clerk	...

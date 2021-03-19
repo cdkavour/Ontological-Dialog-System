@@ -34,9 +34,6 @@ def preprocess_test_data(test,noise=0.00):
 	with open(test,'r') as f:
 		data= pd.read_csv(f,sep='\t')
 	tsv = data.copy()
-	# tsv.Transcript = '{}'
-	# tsv = tsv.to_string(index=False)
-	# the clean text and unencoded slot tags and postags and ngrams
 	text_and_tags = data.apply(lambda x: tokenize_test(x),
 			axis='columns', result_type='expand')
 	data = pd.concat([data,text_and_tags],axis='columns')
@@ -285,7 +282,7 @@ def main():
 				text.append('</'+last_tag+'>')
 			lines.append(' '.join(text))
 		test_data_frames[k].Transcript = lines
-		test_data_frames[k].to_csv('/Users/sara/Documents/coursework/SDS/project/data/data4_silver_annotations/{}.tsv'.format(k),sep='\t',index=False)
+		test_data_frames[k].to_csv('data/data4_silver_annotations/{}.tsv'.format(k),sep='\t',index=False)
 		
 if __name__ == "__main__":
 	main()

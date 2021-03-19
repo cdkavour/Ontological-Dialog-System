@@ -5,7 +5,7 @@ Spoken 1	Clerk	You want a pizza ? What kind of pizza would you like ?
 Spoken 1	User	Can I have the Hawaiian pizza please ?
 Spoken 1	Clerk	<ref id='drizin.0'> The Hawaiian pizza </ref> , <refexp id='drizin.0'> that </refexp> comes with <topping> pineapple ham </topping> mozzarella . Um , What size would you like <refexp id='drizin.0'> that </refexp> ?
 Spoken 1	User	Um , how many people does the <size> large </size> serve ?
-Spoken 1	Clerk	Um so large is <numeric> 14 </numeric> inches . So , I mean , if you cut them up real thin , you could probably get like up to 20 people . But we usually say around like anywhere from <address> <ref id='drizin.1'> eight to 10 people </address> </ref>
+Spoken 1	Clerk	Um so large is <numeric> 14 </numeric> inches . So , I mean , if you cut them up real thin , you could probably get like up to 20 people . But we usually say around like anywhere from  <ref id='drizin.1'> <address> eight to 10 people </address> </ref>
 Spoken 1	User	Okay , <refexp id='drizin.1'> that </refexp> 's perfect . Thank you . And how much does <refexp id='drizin.0'> that one </refexp> cost ?
 Spoken 1	Clerk	<refexp id='drizin.0'> That one </refexp> ... Um , it depends on the cross thinness . Um , so like if you just want like <ref id='drizin.2'> a plain pizza </ref> , <refexp id='drizin.2'> it </refexp> 's fourteen dollars um but if you were to get <ref id='drizin.3'> deep dish or gluten free </ref> <refexp id='drizin.4'> that </refexp> 's sixteen or twenty-one respectively .
 Spoken 1	User	Okay , can I get the <crust> regular </crust> please ?
@@ -126,7 +126,7 @@ Spoken 3	User	Uhhh they 're usually ... they 're a little more they 're <numeric
 Spoken 3	Clerk	Okay okay so so 7 , 7 , 9 and 9 , that 's gon na be , hold on I 'm new to math I this is my first job ever I 'm so sorry
 Spoken 3	User	Awwwwww take your time
 Spoken 3	Clerk	Um thank you so much . Okay um I think that 's gon na be <ref id='drizin.34'> 32 dollars </ref> do you know if <refexp id='drizin.34'> that </refexp> 's right ? ( uhhhh ) <refexp id='drizin.34'> That </refexp> 's just <refexp id='drizin.34'> that </refexp> 's just for the sides um so <refexp id='drizin.34'> that </refexp> 's not even the pizza ( uh so <refexp id='drizin.34'> that 's </refexp> ) so I just wan na confirm
-Spoken 3	User	Uh that 's <ref id='drizin.35'> 4 sodas </ref> so <refexp id='drizin.35'> that <refexp id='drizin.35'> 's <numeric> 14 </numeric>
+Spoken 3	User	Uh that 's <ref id='drizin.35'> 4 sodas </ref> so <refexp id='drizin.35'> that </refexp> 's <numeric> 14 </numeric>
 Spoken 3	Clerk	[ interrupt ] no i yeah I that was just the sides ( and then ) I did n't write down the sodas yet I 'm sorry
 Spoken 3	User	<ref id='drizin.36'> 2 bread and 2 cheese </ref> so <refexp id='drizin.36'> that </refexp> 's 14 and 18 uhhh lem me get my calculator it 's been a long time for math me too
 Spoken 3	Clerk	Yeah sorry the register 's just broken <ref id='drizin.37'> today </ref> and <refexp id='drizin.37'> it </refexp> 's my first day I just I just

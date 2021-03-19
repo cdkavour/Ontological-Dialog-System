@@ -524,7 +524,7 @@ Text_16	User	Hi , you still have <ref id='kodama.60'>that mediterrinian special<
 Text_16	Clerk	Yes , we do ! Omg that is my favorite pizza <refexp id='kodama.60'>it</refexp> is so good
 Text_16	User	Yeah
 Text_16	User	<refexp id='kodama.60'>it</refexp> is !
-Text_16	User	let me get <quant> 2 </quant> of <refexp id='kodama.60'>those</ref>
+Text_16	User	let me get <quant> 2 </quant> of <refexp id='kodama.60'>those</refexp>
 Text_16	Clerk	Okay sure ! What size would you like ?
 Text_16	User	Ahh hmmm
 Text_16	User	How about a <size> large </size> and medium
@@ -535,7 +535,7 @@ Text_16	User	mm you know what make that <quant> 2 </quant> <size> larges </size>
 Text_16	User	now can I do <modality> pick up </modality>
 Text_16	Clerk	Okay <quant> two </quant> <size> large </size> Mediterranean Pizzas .
 Text_16	Clerk	Would you like any dessert with that ?
-Text_16	User	nah im good
+Text_16	User	nah im good<
 Text_16	Clerk	We have a tiramisu and a flourless chocolate cake . The chocolate cake is my favorite
 Text_16	Clerk	okay no problem
 Text_16	Clerk	okay yes , you can <modality> pick up </modality>
@@ -616,7 +616,7 @@ Text_18	Clerk	oh i just realized that I need to get your address !
 Text_18	User	Oh sorry , I meant for <modality> pickup </modality> !
 Text_18	Clerk	oh okay no problem .
 Text_18	Clerk	we will have <refexp id='kodama.66'>this</refexp> ready for you in about <time> 20 minutes </time>
-Text_18	Clerk	can i get a name for the person picking <refexp id='kodama.66'>it</refecp> up ?
+Text_18	Clerk	can i get a name for the person picking <refexp id='kodama.66'>it</refexp> up ?
 Text_18	User	okay !
 Text_18	User	Oh right
 Text_18	User	Tom
@@ -651,7 +651,7 @@ Text_20	User	Excellent .
 Text_20	User	Ok , you have gluten-free crust right ?
 Text_20	Clerk	yes we do , we have a cauliflower crust
 Text_20	User	Ok that should do the trick .
-Text_20	User	Now , what are your options for <pizza_type> cheese </pizza_type> ? I have a severe dairy allergy .
+Text_20	User	Now , what are your options for <pizza_type> cheese </pizza_type> ? I have a severe dairy allergy .<
 Text_20	Clerk	okay , we do have <ref id='kodama.70'>a <pizza_type> vegan cheese </pizza_type></ref> that is similar to mozzarella . would you like <refexp id='kodama.70'>that one</refexp> ?
 Text_20	User	You don ’ t have anything else , do you ? Vegan <pizza_type> cheese </pizza_type> usually doesn ’ t taste so good
 Text_20	Clerk	can you eat <ref id='kodama.71'>goat cheese</ref> ? i know some folks with a lactose intolerance can have <refexp id='kodama.71'>it</refexp> but i ’ m not sure about how dairy allergy ’ s work with that

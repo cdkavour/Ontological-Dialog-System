@@ -52,6 +52,8 @@ def make_list_of_dicts(soup):
 				word_dict = {'word':word,
 							't-2':words[-2],
 							't-1':words[-1],
+							'bigram':' '.join([word,words[-1]]),
+							'trigram':' '.join([word,words[-1],words[-2]]),
 							'pos':pos}
 				word_dict.update({slot:False for slot in slots})
 				word_dicts.append(word_dict)
@@ -95,11 +97,11 @@ def make_list_of_dicts_and_gold(soup):
 			for word,pos in span_words:
 				word_dict = {'word':word,
 							't-2':words[-2],
-				words.append(word)
 							't-1':words[-1],
 							'pos':pos}
 				word_dict.update({slot:False for slot in slots})
 				word_dicts.append(word_dict)
+				words.append(word)
 
 	return word_dicts,gold
 
@@ -108,7 +110,7 @@ def preprocess_data_partI(file,n):
 	with open(file,'r') as f:
 		data = pd.read_csv(f,sep='\t')
 	data[['input','gold']] = pd.DataFrame(data.Transcript.apply(lambda x:make_list_of_dicts_and_gold(BeautifulSoup(x,'html.parser'))).tolist())
-	return data.input.values,data.gold.values
+	return data.input.tolist(),data.gold.tolist()
 
 
 def preprocess_data_partII(file,n):
@@ -196,7 +198,7 @@ def partII(train_data_path,test_data_path):
 def main():
 	global args
 	parser = argparse.ArgumentParser(description='refexp classification params')
-	parser.add_argument('-n','--num_turns',type=float,default=6,
+	parser.add_argument('-n','--num_turns',type=int,default=6,
 			help='number of turns (excluding current) to use as history')
 	args = parser.parse_args()
 
@@ -204,9 +206,9 @@ def main():
 	train_data_path = 'data/data4_annotated_for_ref/train/*.tsv'
 	test_data_path = 'data/data4_annotated_for_ref/*.tsv'
 	print('~~~~~~~predicting referring expressions~~~~~~~')
-	partI(train_data_path,test_data_path)
+	# partI(train_data_path,test_data_path)
 	print('~~~~~~~predicting referents~~~~~~~')
-	# partII(train_data_path,test_data_path)
+	partII(train_data_path,test_data_path)
 
 if __name__ == "__main__":
 	main()
