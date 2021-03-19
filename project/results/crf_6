@@ -1,0 +1,54 @@
+~~~~~~~predicting referring expressions~~~~~~~
+
+~~~~~train data, turn history size n = 6~~~~~
+train overall accuracy = 99.43
+train overall f1 = 0.99393
+Label "B" n = 1014
+train accuracy on "B" tokens = 77.81
+train f1 on "B" tokens = 0.85761
+Label "I" n = 244
+train accuracy on "I" tokens = 57.79
+train f1 on "I" tokens = 0.71392
+Label "O" n = 64654
+train accuracy on "O" tokens = 99.93
+train f1 on "O" tokens = 0.99712
+
+~~~~~test data, turn history size n = 6~~~~~
+test overall accuracy = 99.30
+test overall f1 = 0.99231
+Label "B" n = 131
+test accuracy on "B" tokens = 74.81
+test f1 on "B" tokens = 0.83404
+Label "I" n = 9
+test accuracy on "I" tokens = 11.11
+test f1 on "I" tokens = 0.16667
+Label "O" n = 6839
+test accuracy on "O" tokens = 99.88
+test f1 on "O" tokens = 0.99643
+~~~~~~~predicting referents~~~~~~~
+
+~~~~~train data, turn history size n = 6~~~~~
+train overall accuracy = 98.26
+train overall f1 = 0.98083
+Label "B" n = 778
+train accuracy on "B" tokens = 49.10
+train f1 on "B" tokens = 0.63614
+Label "I" n = 2659
+train accuracy on "I" tokens = 65.02
+train f1 on "I" tokens = 0.76403
+Label "O" n = 82902
+train accuracy on "O" tokens = 99.79
+train f1 on "O" tokens = 0.99102
+
+~~~~~test data, turn history size n = 6~~~~~
+test overall accuracy = 95.03
+test overall f1 = 0.94268
+Label "B" n = 116
+test accuracy on "B" tokens = 25.00
+test f1 on "B" tokens = 0.36025
+Label "I" n = 452
+test accuracy on "I" tokens = 34.96
+test f1 on "I" tokens = 0.45143
+Label "O" n = 9238
+test accuracy on "O" tokens = 98.85
+test f1 on "O" tokens = 0.97403

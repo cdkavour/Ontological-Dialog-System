@@ -1,0 +1,52 @@
+
+~~~~ train set ~~~~~
+train overall accuracy = 77.90
+train overall f1 = 0.86014
+Label "B" n = 1014
+train accuracy on "B" tokens = 89.35
+train f1 on "B" tokens = 0.15467
+Label "I" n = 244
+train accuracy on "I" tokens = 100.00
+train f1 on "I" tokens = 0.09278
+Label "O" n = 64654
+train accuracy on "O" tokens = 77.64
+train f1 on "O" tokens = 0.87410
+
+~~~~ test set ~~~~~
+test overall accuracy = 76.52
+test overall f1 = 0.85102
+Label "B" n = 131
+test accuracy on "B" tokens = 89.31
+test f1 on "B" tokens = 0.17931
+Label "I" n = 9
+test accuracy on "I" tokens = 100.00
+test f1 on "I" tokens = 0.03015
+Label "O" n = 6839
+test accuracy on "O" tokens = 76.24
+test f1 on "O" tokens = 0.86496
+
+~~~~ train set ~~~~~
+train overall accuracy = 97.37
+train overall f1 = 0.97147
+Label "B" n = 814
+train accuracy on "B" tokens = 43.61
+train f1 on "B" tokens = 0.38968
+Label "I" n = 2755
+train accuracy on "I" tokens = 37.93
+train f1 on "I" tokens = 0.50434
+Label "O" n = 116922
+train accuracy on "O" tokens = 99.15
+train f1 on "O" tokens = 0.98653
+
+~~~~ test set ~~~~~
+test overall accuracy = 96.31
+test overall f1 = 0.95842
+Label "B" n = 121
+test accuracy on "B" tokens = 51.24
+test f1 on "B" tokens = 0.49206
+Label "I" n = 518
+test accuracy on "I" tokens = 36.29
+test f1 on "I" tokens = 0.49409
+Label "O" n = 13248
+test accuracy on "O" tokens = 99.06
+test f1 on "O" tokens = 0.98083

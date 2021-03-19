@@ -55,7 +55,7 @@ def main():
 	plt.ylabel('Probability')
 	plt.title(r'Referential distance: $\mu={:.3f}$, $\sigma={:.3f}$'.format(mu,sigma))
 	plt.subplots_adjust(left=0.15)
-	plt.savefig('distances.png')
+	plt.savefig('results/distances.png')
 
 	# figure out how many turns make sense
 	for_free = distances.count(None)

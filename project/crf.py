@@ -2,11 +2,11 @@ from bs4 import BeautifulSoup
 from bs4.element import Tag
 from eval import *
 from nltk import pos_tag
+from sklearn_crfsuite import CRF, metrics
 import argparse
 import glob
 import numpy as np
 import pandas as pd
-import sklearn_crfsuite
 
 ''' crf for refexp and referent tagging tasks
 
@@ -151,7 +151,7 @@ def train(path,n,preprocessor):
 		X_t,y_t = preprocessor(file,n)
 		X_train+=X_t
 		y_train+=y_t
-	crf = sklearn_crfsuite.CRF()
+	crf = CRF()
 	crf.fit(X_train, y_train)
 	eval_data('train',crf,n,X_train,y_train)
 	return crf
@@ -160,12 +160,12 @@ def eval_data(name,model,n,X,y):
 	print('\n~~~~~{} data, turn history size n = {}~~~~~'.format(name,n))
 	pred = model.predict(X)
 	acc= accuracy(y,pred)
-	f1 = sklearn_crfsuite.metrics.flat_f1_score(y, pred,average='weighted', labels=labels)
+	f1 = metrics.flat_f1_score(y, pred,average='weighted', labels=labels)
 	print('{} overall accuracy = {:.2f}'.format(name,acc[0]*100))
 	print('{} overall f1 = {:.5f}'.format(name,f1))
 	for label in labels:
 		label_acc = class_accuracy(y,pred,label)
-		label_f1 = sklearn_crfsuite.metrics.flat_f1_score(y,pred,average='weighted',labels=[label])
+		label_f1 = metrics.flat_f1_score(y,pred,average='weighted',labels=[label])
 		print('Label "{}" n = {}'.format(label,label_acc[1]))
 		print('{} accuracy on "{}" tokens = {:.2f}'.format(name,label,label_acc[0]*100))
 		print('{} f1 on "{}" tokens = {:.5f}'.format(name,label,label_f1))

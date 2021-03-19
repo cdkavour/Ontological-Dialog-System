@@ -2,13 +2,12 @@ from bs4 import BeautifulSoup
 from collections import defaultdict as dd
 from nltk.tokenize import word_tokenize
 from sklearn.metrics import accuracy_score
-from sklearn_crfsuite import CRF
-from sklearn_crfsuite import metrics
-from sklearn_crfsuite import scorers
+from sklearn_crfsuite import CRF, metrics, scorers
 import argparse
 import nltk
 import numpy as np
 import pandas as pd
+import random
 
 ''' take as input the tsv files created in homework 3
 output similar files with predicted slot tags and true intents for 
@@ -225,7 +224,6 @@ def main():
 	test_data_X = {}
 	test_data_frames = {}
 	for k,v in evaluation_paths.items():
-		print(k)
 		test_data_X[k], test_data_frames[k]= preprocess_test_data(v)
 	
 	############
