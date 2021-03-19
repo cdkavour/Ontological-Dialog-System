@@ -1,18 +1,16 @@
-import numpy as np
-import pandas as pd
-import pdb
 from bs4 import BeautifulSoup
 from bs4.element import Tag
-import glob
-import argparse
-import sklearn_crfsuite
 from eval import *
-from sklearn_crfsuite import metrics
 from nltk import pos_tag
+import argparse
+import glob
+import numpy as np
+import pandas as pd
+import sklearn_crfsuite
 
-''' crf for referent tagging task
+''' crf for refexp and referent tagging tasks
 
-last modified 1 march, 2021
+last modified 19 march, 2021
 sara ng
 '''
 
@@ -112,7 +110,6 @@ def preprocess_data_partI(file,n):
 	data[['input','gold']] = pd.DataFrame(data.Transcript.apply(lambda x:make_list_of_dicts_and_gold(BeautifulSoup(x,'html.parser'))).tolist())
 	return data.input.tolist(),data.gold.tolist()
 
-
 def preprocess_data_partII(file,n):
 	with open(file,'r') as f:
 		data = pd.read_csv(f,sep='\t')
@@ -163,12 +160,12 @@ def eval_data(name,model,n,X,y):
 	print('\n~~~~~{} data, turn history size n = {}~~~~~'.format(name,n))
 	pred = model.predict(X)
 	acc= accuracy(y,pred)
-	f1 = metrics.flat_f1_score(y, pred,average='weighted', labels=labels)
+	f1 = sklearn_crfsuite.metrics.flat_f1_score(y, pred,average='weighted', labels=labels)
 	print('{} overall accuracy = {:.2f}'.format(name,acc[0]*100))
 	print('{} overall f1 = {:.5f}'.format(name,f1))
 	for label in labels:
 		label_acc = class_accuracy(y,pred,label)
-		label_f1 = metrics.flat_f1_score(y,pred,average='weighted',labels=[label])
+		label_f1 = sklearn_crfsuite.metrics.flat_f1_score(y,pred,average='weighted',labels=[label])
 		print('Label "{}" n = {}'.format(label,label_acc[1]))
 		print('{} accuracy on "{}" tokens = {:.2f}'.format(name,label,label_acc[0]*100))
 		print('{} f1 on "{}" tokens = {:.5f}'.format(name,label,label_f1))
@@ -206,7 +203,7 @@ def main():
 	train_data_path = 'data/data4_annotated_for_ref/train/*.tsv'
 	test_data_path = 'data/data4_annotated_for_ref/*.tsv'
 	print('~~~~~~~predicting referring expressions~~~~~~~')
-	# partI(train_data_path,test_data_path)
+	partI(train_data_path,test_data_path)
 	print('~~~~~~~predicting referents~~~~~~~')
 	partII(train_data_path,test_data_path)
 

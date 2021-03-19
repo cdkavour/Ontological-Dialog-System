@@ -1,17 +1,14 @@
+from bs4 import BeautifulSoup
+from collections import defaultdict as dd
+from nltk.tokenize import word_tokenize
+from sklearn.metrics import accuracy_score
+from sklearn_crfsuite import CRF
+from sklearn_crfsuite import metrics
+from sklearn_crfsuite import scorers
 import argparse
 import nltk
 import numpy as np
 import pandas as pd
-import pdb
-import random
-import re
-import sklearn_crfsuite
-from sklearn_crfsuite import scorers
-from sklearn_crfsuite import metrics
-from sklearn.metrics import accuracy_score
-from nltk.tokenize import word_tokenize
-from bs4 import BeautifulSoup
-from collections import defaultdict as dd
 
 ''' take as input the tsv files created in homework 3
 output similar files with predicted slot tags and true intents for 
@@ -211,17 +208,17 @@ def main():
 	# preprocessing #
 	#################
 
-	train_path = '/Users/sara/Documents/coursework/SDS/repo/hw4/data_for_slot/hw3_train.txt'
-	evaluation_paths = {'brown':'data/DATA4/BrownSweeney.tsv',
-						'dodds':'data/DATA4/DoddsSanders.tsv',
-						'drizin':'data/DATA4/DrizinKeane.tsv',
-						'durham':'data/DATA4/DurhamGrant.tsv',
-						'kavouras':'data/DATA4/KavourasNg.tsv',
-						'kodama':'data/DATA4/KodamaSmith.tsv',
-						'lin':'data/DATA4/LinWu.tsv',
-						'martins':'data/DATA4/MartinsWen.tsv',
-						'reid':'data/DATA4/ReidRessler.tsv',
-						'tseng':'data/DATA4/TsengWang.tsv',}
+	train_path = 'data/unprocessed/hw3_train.txt'
+	evaluation_paths = {'brown':'data/unprocessed/BrownSweeney.tsv',
+						'dodds':'data/unprocessed/DoddsSanders.tsv',
+						'drizin':'data/unprocessed/DrizinKeane.tsv',
+						'durham':'data/unprocessed/DurhamGrant.tsv',
+						'kavouras':'data/unprocessed/KavourasNg.tsv',
+						'kodama':'data/unprocessed/KodamaSmith.tsv',
+						'lin':'data/unprocessed/LinWu.tsv',
+						'martins':'data/unprocessed/MartinsWen.tsv',
+						'reid':'data/unprocessed/ReidRessler.tsv',
+						'tseng':'data/unprocessed/TsengWang.tsv',}
 
 	# adjust the noise in training
 	X, y, train_intents = preprocess_data(train_path,noise=args.noise)
@@ -235,7 +232,7 @@ def main():
 	# training #
 	############
 
-	crf = sklearn_crfsuite.CRF()
+	crf = CRF()
 	crf.fit(X, y)
 
 	##############

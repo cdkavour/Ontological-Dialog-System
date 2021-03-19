@@ -1,15 +1,13 @@
-import numpy as np
-import pandas as pd
-import pdb
-import re
 from bs4 import BeautifulSoup
 import glob
-import matplotlib.pyplot as plt
 import math
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
 ''' look at the distribution of distances  betweeen refexps and referents
 sara ng
-last modified 28 feburary, 2021
+last modified 19 march, 2021
 '''
 
 
