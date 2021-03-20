@@ -1,0 +1,234 @@
+(environment) Christians-MacBook-Pro:project christiankavouras$ sh bert_classify_referents_6_history.sh 
+
+TRAINING BERT... MAY TAKE A WHILE...
+BERT Training Time: 2.940231152375539 Minutes
+
+TRAINING BERT... MAY TAKE A WHILE...
+BERT Training Time: 0.36111653248469033 Minutes
+
+TRAINING FEED FORWARD NN... MAY TAKE A WHILE
+Training Epoch 0...
+Training Epoch 1...
+Training Epoch 2...
+Training Epoch 3...
+Training Epoch 4...
+Training Epoch 5...
+Training Epoch 6...
+Training Epoch 7...
+Training Epoch 8...
+Training Epoch 9...
+Training FFNN Complete. Training Time: 3.4515614032745363 Minutes.
+
+------------Training Metrics-----------
+Epoch 0 : total acc: 0.96296875 total f1: 0.9471886518503393
+Epoch 0 : B level acc 0.015909090909090907 B level f1: 0.02868852459016393
+Epoch 0 : I level acc 0.020257826887661142 I level f1: 0.038238702201622246
+Epoch 0 : O level acc 0.9981271722101168 O level f1: 0.9811304055369691
+Epoch 1 : total acc: 0.9641493055555556 total f1: 0.9507372281912532
+Epoch 1 : B level acc 0.056818181818181816 B level f1: 0.10266940451745381
+Epoch 1 : I level acc 0.06998158379373849 I level f1: 0.12244897959183673
+Epoch 1 : O level acc 0.9975689254650556 O level f1: 0.9817547031040931
+Epoch 2 : total acc: 0.9652777777777778 total f1: 0.9551346470464521
+Epoch 2 : B level acc 0.1409090909090909 B level f1: 0.2271062271062271
+Epoch 2 : I level acc 0.14241866175567833 I level f1: 0.2268948655256724
+Epoch 2 : O level acc 0.995948209108426 O level f1: 0.9822660710955607
+Epoch 3 : total acc: 0.9670659722222222 total f1: 0.961131348792564
+Epoch 3 : B level acc 0.2909090909090909 B level f1: 0.383808095952024
+Epoch 3 : I level acc 0.26519337016574585 I level f1: 0.36672325976230896
+Epoch 3 : O level acc 0.9930129117069745 O level f1: 0.9831427119641281
+Epoch 4 : total acc: 0.9710416666666667 total f1: 0.9675064123033497
+Epoch 4 : B level acc 0.4431818181818182 B level f1: 0.520694259012016
+Epoch 4 : I level acc 0.38367096378146104 I level f1: 0.4880905896134323
+Epoch 4 : O level acc 0.9924546649619131 O level f1: 0.9851103762624006
+Epoch 5 : total acc: 0.9766145833333333 total f1: 0.9751939922052716
+Epoch 5 : B level acc 0.6295454545454545 B level f1: 0.6764346764346765
+Epoch 5 : I level acc 0.5463474524248005 I level f1: 0.6217254628012574
+Epoch 5 : O level acc 0.9919864580144424 O level f1: 0.9879301996090317
+Epoch 6 : total acc: 0.9818229166666667 total f1: 0.9812052821214118
+Epoch 6 : B level acc 0.740909090909091 B level f1: 0.7581395348837209
+Epoch 6 : I level acc 0.6666666666666666 I level f1: 0.7213550315509797
+Epoch 6 : O level acc 0.9929768957879382 O level f1: 0.990595442337576
+Epoch 7 : total acc: 0.9859027777777778 total f1: 0.9856342916555636
+Epoch 7 : B level acc 0.7727272727272727 B level f1: 0.7971864009378664
+Epoch 7 : I level acc 0.7636586863106201 I level f1: 0.7953964194373403
+Epoch 7 : O level acc 0.994111397237579 O level f1: 0.9927080804538793
+Epoch 8 : total acc: 0.9883680555555555 total f1: 0.9881840584466145
+Epoch 8 : B level acc 0.85 B level f1: 0.856815578465063
+Epoch 8 : I level acc 0.7949662369551872 I level f1: 0.8253664754620776
+Epoch 8 : O level acc 0.9951378509301111 O level f1: 0.9940012051551862
+Epoch 9 : total acc: 0.9912673611111111 total f1: 0.9912071889221176
+Epoch 9 : B level acc 0.8590909090909091 B level f1: 0.8659793814432989
+Epoch 9 : I level acc 0.8655616942909761 I level f1: 0.8796007485963818
+Epoch 9 : O level acc 0.9960022329869802 O level f1: 0.9954734028671448
+
+Final : total acc: 0.9912673611111111 total f1: 0.9912071889221176
+Final : B level acc 0.8590909090909091 B level f1: 0.8659793814432989
+Final : I level acc 0.8655616942909761 I level f1: 0.8796007485963818
+Final : O level acc 0.9960022329869802 O level f1: 0.9954734028671448
+
+------------Testing Metrics-----------
+Test acc total: 0.9520833333333333 test f1 total: 0.943635915961142
+Test acc B-level: 0.21518987341772153 test f1 B-level 0.2595419847328244
+Test acc I-level: 0.21621621621621623 test f1 I-level 0.30684931506849317
+Test acc O-level: 0.9883415913727777 test f1 O-level 0.9755466052934407
+
+------------Additional-----------
+Num Training Instances: 57600
+
+
+
+
+(environment) Christians-MacBook-Pro:project christiankavouras$ sh bert_classify_referents_10_history.sh 
+
+TRAINING BERT... MAY TAKE A WHILE...
+BERT Training Time: 3.117691465218862 Minutes
+TRAINING BERT... MAY TAKE A WHILE...
+BERT Training Time: 0.39615664879481 Minutes
+
+TRAINING FEED FORWARD NN... MAY TAKE A WHILE
+Training Epoch 0...
+Training Epoch 1...
+Training Epoch 2...
+Training Epoch 3...
+Training Epoch 4...
+Training Epoch 5...
+Training Epoch 6...
+Training Epoch 7...
+Training Epoch 8...
+Training Epoch 9...
+Training FFNN Complete. Training Time: 4.466296585400899 Minutes.
+
+------------Training Metrics-----------
+Epoch 0 : total acc: 0.969566104461371 total f1: 0.9616658751772257
+Epoch 0 : B level acc 0.0 B level f1: 0.0
+Epoch 0 : I level acc 0.006357856494096276 I level f1: 0.010878010878010878
+Epoch 0 : O level acc 0.992739745107598 O level f1: 0.9845630514737623
+Epoch 1 : total acc: 0.9756358813928183 total f1: 0.9651248505199408
+Epoch 1 : B level acc 0.021505376344086023 B level f1: 0.03908794788273616
+Epoch 1 : I level acc 0.012715712988192553 I level f1: 0.024013722126929676
+Epoch 1 : O level acc 0.9987290201267498 O level f1: 0.9876634612901282
+Epoch 2 : total acc: 0.9761799510337323 total f1: 0.9690229159445932
+Epoch 2 : B level acc 0.14336917562724014 B level f1: 0.22408963585434172
+Epoch 2 : I level acc 0.10626702997275204 I level f1: 0.1723122238586156
+Epoch 2 : O level acc 0.9969008983912528 O level f1: 0.9879137658842102
+Epoch 3 : total acc: 0.9783222252448314 total f1: 0.9749090963362596
+Epoch 3 : B level acc 0.31899641577060933 B level f1: 0.413953488372093
+Epoch 3 : I level acc 0.2888283378746594 I level f1: 0.38290186634557494
+Epoch 3 : O level acc 0.994741973675047 O level f1: 0.9889822660354334
+Epoch 4 : total acc: 0.9821477149075082 total f1: 0.9810042822882195
+Epoch 4 : B level acc 0.5161290322580645 B level f1: 0.5771543086172345
+Epoch 4 : I level acc 0.5004541326067211 I level f1: 0.5674562306900103
+Epoch 4 : O level acc 0.9936451006337489 O level f1: 0.9908933857679854
+Epoch 5 : total acc: 0.9850040805223068 total f1: 0.984624675222856
+Epoch 5 : B level acc 0.5985663082437276 B level f1: 0.638623326959847
+Epoch 5 : I level acc 0.6394187102633969 I level f1: 0.6698382492863939
+Epoch 5 : O level acc 0.9935058151681871 O level f1: 0.9923395967201996
+Epoch 6 : total acc: 0.9882514961915125 total f1: 0.9881997925703987
+Epoch 6 : B level acc 0.6989247311827957 B level f1: 0.720887245841035
+Epoch 6 : I level acc 0.7520435967302452 I level f1: 0.7540983606557377
+Epoch 6 : O level acc 0.9941848318128004 O level f1: 0.9939858131337307
+Epoch 7 : total acc: 0.9886425462459195 total f1: 0.9885955230198088
+Epoch 7 : B level acc 0.7347670250896058 B level f1: 0.7509157509157509
+Epoch 7 : I level acc 0.7529518619436876 I level f1: 0.7567320858055683
+Epoch 7 : O level acc 0.9943937600111429 O level f1: 0.9941946995082466
+Epoch 8 : total acc: 0.9914819096844396 total f1: 0.9915020357515582
+Epoch 8 : B level acc 0.8100358422939068 B level f1: 0.8014184397163121
+Epoch 8 : I level acc 0.8265213442325159 I level f1: 0.8239022181982797
+Epoch 8 : O level acc 0.9955254544188314 O level f1: 0.9956381302292376
+Epoch 9 : total acc: 0.9922130032644179 total f1: 0.9922311766089574
+Epoch 9 : B level acc 0.8279569892473119 B level f1: 0.8133802816901408
+Epoch 9 : I level acc 0.8410535876475931 I level f1: 0.8402903811252268
+Epoch 9 : O level acc 0.995908489449126 O level f1: 0.9960125370015672
+
+Final : total acc: 0.9922130032644179 total f1: 0.9922311766089574
+Final : B level acc 0.8279569892473119 B level f1: 0.8133802816901408
+Final : I level acc 0.8410535876475931 I level f1: 0.8402903811252268
+Final : O level acc 0.995908489449126 O level f1: 0.9960125370015672
+
+------------Testing Metrics-----------
+Test acc total: 0.9694206008583691 test f1 total: 0.9610006371132926
+Test acc B-level: 0.08695652173913043 test f1 B-level 0.13333333333333333
+Test acc I-level: 0.1452513966480447 test f1 I-level 0.2280701754385965
+Test acc O-level: 0.9954363158622597 test f1 O-level 0.9844091903719911
+
+------------Additional-----------
+Num Training Instances: 58816
+
+
+
+
+(environment) Christians-MacBook-Pro:project christiankavouras$ sh bert_classify_refexp.sh 
+
+TRAINING BERT... MAY TAKE A WHILE...
+BERT Training Time: 129.2297486146291 Minutes
+TRAINING BERT... MAY TAKE A WHILE...
+BERT Training Time: 5.113764234383901 Minutes
+
+TRAINING FEED FORWARD NN... MAY TAKE A WHILE
+Training Epoch 0...
+Training Epoch 1...
+Training Epoch 2...
+Training Epoch 3...
+Training Epoch 4...
+Training Epoch 5...
+Training Epoch 6...
+Training Epoch 7...
+Training Epoch 8...
+Training Epoch 9...
+Training FFNN Complete. Training Time: 6.147807347774505 Minutes.
+
+------------Training Metrics-----------
+Epoch 0 : total acc: 0.9822779208239459 total f1: 0.9817128778747374
+Epoch 0 : B level acc 0.8266384778012685 B level f1: 0.7889692281822768
+Epoch 0 : I level acc 0.3289902280130293 I level f1: 0.43581445523193096
+Epoch 0 : O level acc 0.9910598924686367 O level f1: 0.9909050183879068
+Epoch 1 : total acc: 0.9864720791760541 total f1: 0.986054502278938
+Epoch 1 : B level acc 0.8809020436927414 B level f1: 0.8406186953597848
+Epoch 1 : I level acc 0.43322475570032576 I level f1: 0.5695931477516061
+Epoch 1 : O level acc 0.9931334139123911 O level f1: 0.993019597220341
+Epoch 2 : total acc: 0.9900828773736724 total f1: 0.9898853260867309
+Epoch 2 : B level acc 0.9295278365045807 B level f1: 0.8856807117676683
+Epoch 2 : I level acc 0.5602605863192183 I level f1: 0.6880000000000001
+Epoch 2 : O level acc 0.994623431834285 O level f1: 0.9948981453012387
+Epoch 3 : total acc: 0.9915915674283875 total f1: 0.9915123640075555
+Epoch 3 : B level acc 0.9464411557434813 B level f1: 0.9010399194901041
+Epoch 3 : I level acc 0.6482084690553745 I level f1: 0.7617224880382774
+Epoch 3 : O level acc 0.9951235777101655 O level f1: 0.9956578625007168
+Epoch 4 : total acc: 0.9927884615384616 total f1: 0.992667738157335
+Epoch 4 : B level acc 0.9556025369978859 B level f1: 0.9188548195832629
+Epoch 4 : I level acc 0.6530944625407166 I level f1: 0.7652671755725191
+Epoch 4 : O level acc 0.9960613512274413 O level f1: 0.9963053096192228
+Epoch 5 : total acc: 0.9941965722561957 total f1: 0.9941125132072796
+Epoch 5 : B level acc 0.9640591966173362 B level f1: 0.9347454731807312
+Epoch 5 : I level acc 0.7133550488599348 I level f1: 0.8141263940520446
+Epoch 5 : O level acc 0.9968845079814946 O level f1: 0.9970195604372701
+Epoch 6 : total acc: 0.9951520759575153 total f1: 0.9950950594653458
+Epoch 6 : B level acc 0.9753347427766033 B level f1: 0.9469722887444407
+Epoch 6 : I level acc 0.754071661237785 I level f1: 0.8418181818181819
+Epoch 6 : O level acc 0.9972804567999 O level f1: 0.9974987233066878
+Epoch 7 : total acc: 0.9959466527196653 total f1: 0.9958764915083532
+Epoch 7 : B level acc 0.97815362931642 B level f1: 0.9572413793103448
+Epoch 7 : I level acc 0.762214983713355 I level f1: 0.854014598540146
+Epoch 7 : O level acc 0.9979681573792356 O level f1: 0.997926564974577
+Epoch 8 : total acc: 0.9966004184100419 total f1: 0.9965515481434208
+Epoch 8 : B level acc 0.9827343199436223 B level f1: 0.9648849679986161
+Epoch 8 : I level acc 0.7996742671009772 I level f1: 0.8791405550581917
+Epoch 8 : O level acc 0.9982703288459134 O level f1: 0.998239124772076
+Epoch 9 : total acc: 0.996912214354683 total f1: 0.9968733914656522
+Epoch 9 : B level acc 0.9820295983086681 B level f1: 0.9668690372940156
+Epoch 9 : I level acc 0.8208469055374593 I level f1: 0.8952042628774424
+Epoch 9 : O level acc 0.9984787229608636 O level f1: 0.9984111024864945
+
+Final : total acc: 0.996912214354683 total f1: 0.9968733914656522
+Final : B level acc 0.9820295983086681 B level f1: 0.9668690372940156
+Final : I level acc 0.8208469055374593 I level f1: 0.8952042628774424
+Final : O level acc 0.9984787229608636 O level f1: 0.9984111024864945
+
+------------Testing Metrics-----------
+Test acc total: 0.9875835721107927 test f1 total: 0.9871866186032083
+Test acc B-level: 0.662828947368421 test f1 B-level 0.6900684931506849
+Test acc I-level: 0.3448275862068966 test f1 I-level 0.4210526315789474
+Test acc O-level: 0.9947317132590292 test f1 O-level 0.9936877329074455
+
+------------Additional-----------
+Num Training Instances: 99424

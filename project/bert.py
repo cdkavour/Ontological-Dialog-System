@@ -57,7 +57,7 @@ class MulticlassClassification(nn.Module):
 # Parse arguments
 def parse_args():
 	parser = argparse.ArgumentParser(description='refexp classification params for neural net')
-	parser.add_argument('-n','--num_turns',type=float,default=6,
+	parser.add_argument('-n','--num_turns',type=int,default=6,
 			help='number of turns (excluding current) to use as history')
 	parser.add_argument('-E', '--num_epochs', type=int, default=10,
 			help='number of epochs to use in training')
@@ -165,8 +165,6 @@ def get_refexp_history(file,n):
 
 					word.append(words_list[::-1])
 					gold.append(gold_labels[::-1])
-					pred.append(baseline_labels[::-1])
-					tags.append(tag)
 
 	return gold, word
 
@@ -288,12 +286,13 @@ def process_data(data_path, bs=32, task=2, n=6):
 	# 		bert_tokens_tensors[0][idx] = bert_tokens[i][j]
 
 	# Train BERT
+	print("\nTRAINING BERT... MAY TAKE A WHILE...\n")
 	t1 = time()
 	model = BertForTokenClassification.from_pretrained('bert-base-uncased', output_hidden_states = True)
 	with torch.no_grad():
 		outputs = model(bert_tokens_tensors, attention_mask=attn_masks_tensors)
 	t2 = time()
-	print("Model time: {}".format(t2-t1))
+	print("\n\nBERT Training Time: {} Minutes\n\n".format((t2-t1) / 60))
 
 	gold_for_bert_all = [tok for gtoken in gold_for_bert for tok in gtoken]
 	attention_mask_all = [tok for atoken in attention_masks for tok in atoken]
@@ -339,10 +338,13 @@ def main():
 
 	# Process data -- pipelines our annotated data down to
 	# word embeddings for classification
-	train_data_path = 'data/data4_annotated_for_ref/train2/*.tsv'
+	train_data_path = 'data/data4_annotated_for_ref/train/*.tsv'
+	if task == 1: # For task 1, use reduced training set
+		train_data_path = 'data/data4_annotated_for_ref/train2/*.tsv'
 	test_data_path = 'data/data4_annotated_for_ref/*.tsv'
-	train_X, train_Y = process_data(train_data_path, task=task, n=num_turns)\
+	train_X, train_Y = process_data(train_data_path, task=task, n=num_turns)
 	test_X, test_Y = process_data(test_data_path, task=task, n=num_turns)
+	TRAIN_INSTANCES = train_X.shape[0]
 	NUM_FEATURES = train_X.shape[1]
 	NUM_CLASSES = 3
 
@@ -367,9 +369,12 @@ def main():
 	epoch_f1s_I = [0] * EPOCHS
 	epoch_f1s_O = [0] * EPOCHS
 
+	print("TRAINING FEED FORWARD NN... MAY TAKE A WHILE")
+	t3 = time()
+
 	# For each epoch
 	for e in range(0, EPOCHS):
-		print("Epoch {}".format(e))
+		print("Training Epoch {}...".format(e))
 		all_y_pred = []
 		train_batches = zip(train_batches_X, train_batches_Y)
 
@@ -403,22 +408,32 @@ def main():
 		epoch_f1s_I[e] = f1_array[1]
 		epoch_f1s_O[e] = f1_array[2]
 
+	t4 = time()
+	print("Training FFNN Complete. Training Time: {} Minutes.\n".format((t4-t3) / 60 ))
+
 	print("------------Training Metrics-----------")
 	for e in range(EPOCHS):
-		print("Epoch {} : total acc: {} total f1: {}".format(epoch_accs[e], epoch_f1s[e]))
-		print("Epoch {} : B level acc {} B level f1: {}".format(epoch_accs_B[e], epoch_f1s_B[e]))
-		print("Epoch {} : I level acc {} I level f1: {}".format(epoch_accs_I[e], epoch_f1s_I[e]))
-		print("Epoch {} : O level acc {} O level f1: {}".format(epoch_accs_O[e], epoch_f1s_O[e]))
+		print("Epoch {} : total acc: {} total f1: {}".format(e, epoch_accs[e], epoch_f1s[e]))
+		print("Epoch {} : B level acc {} B level f1: {}".format(e, epoch_accs_B[e], epoch_f1s_B[e]))
+		print("Epoch {} : I level acc {} I level f1: {}".format(e, epoch_accs_I[e], epoch_f1s_I[e]))
+		print("Epoch {} : O level acc {} O level f1: {}".format(e, epoch_accs_O[e], epoch_f1s_O[e]))
+	print("\nFinal : total acc: {} total f1: {}".format(epoch_accs[EPOCHS-1], epoch_f1s[EPOCHS-1]))
+	print("Final : B level acc {} B level f1: {}".format(epoch_accs_B[EPOCHS-1], epoch_f1s_B[EPOCHS-1]))
+	print("Final : I level acc {} I level f1: {}".format(epoch_accs_I[EPOCHS-1], epoch_f1s_I[EPOCHS-1]))
+	print("Final : O level acc {} O level f1: {}".format(epoch_accs_O[EPOCHS-1], epoch_f1s_O[EPOCHS-1]))
 
 	# Test
 	y_pred_test = model(test_X)
 	test_acc, test_f1sc, test_acc_array, test_f1_array = evaluate(y_pred_test, test_Y)
 
-	print("------------Testing Metrics-----------\n".format(epoch_accs))
+	print("\n------------Testing Metrics-----------".format(epoch_accs))
 	print("Test acc total: {} test f1 total: {}".format(test_acc, test_f1sc))
 	print("Test acc B-level: {} test f1 B-level {}".format(test_acc_array[0], test_f1_array[0]))
 	print("Test acc I-level: {} test f1 I-level {}".format(test_acc_array[1], test_f1_array[1]))
 	print("Test acc O-level: {} test f1 O-level {}".format(test_acc_array[2], test_f1_array[2]))
+
+	print("\n------------Additional-----------")
+	print("Num Training Instances: {}".format(TRAIN_INSTANCES))
 
 if __name__ == '__main__':
 	main()
