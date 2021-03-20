@@ -1,0 +1,7 @@
+bs4==0.0.1
+matplotlib==3.2.1
+nltk==3.4.5
+numpy==1.18.1
+pandas==1.0.1
+sklearn-crfsuite==0.3.6
+sklearn==0.0

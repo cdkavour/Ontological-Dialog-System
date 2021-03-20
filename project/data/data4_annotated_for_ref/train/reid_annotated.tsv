@@ -285,7 +285,7 @@ Text12	Clerk	Great , the total will be $ 24 , and it should be ready in about <n
 Text12	User	Excellent . I 'm on my way already . I 'll see you in a minute . Thanks .
 Text13	Clerk	Hello , welcome to generic pizza place . This is Jane , what can I get you today ?
 Text13	User	Hey , this is John Smith . I 'll take my usual please .
-Text13	Clerk	Sure , give me one moment . So your usual is <refexp id='reid.30'>a <size> large </size> <pizza_type> mozzarella </pizza_type> , mushroom , and <topping> bacon </topping> <crust> deep dish </crust> pizza , a root beer , and a slice of cheesecake</refexp> , right ?
+Text13	Clerk	Sure , give me one moment . So your usual is <ref id='reid.30'>a <size> large </size> <pizza_type> mozzarella </pizza_type> , mushroom , and <topping> bacon </topping> <crust> deep dish </crust> pizza , a root beer , and a slice of cheesecake</ref> , right ?
 Text13	User	Yep . And I 'd like <refexp id='reid.30'>it</refexp> delivered please . How long will it be ?
 Text13	Clerk	We have a few deliveries out right now , so it will be about half an hour . Is that okay ?
 Text13	User	No that 's okay , I 'll just pick <refexp id='reid.30'>it</refexp> up .

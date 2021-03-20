@@ -1,17 +1,13 @@
+from bs4 import BeautifulSoup
+from collections import defaultdict as dd
+from nltk.tokenize import word_tokenize
+from sklearn.metrics import accuracy_score
+from sklearn_crfsuite import CRF, metrics, scorers
 import argparse
 import nltk
 import numpy as np
 import pandas as pd
-import pdb
 import random
-import re
-import sklearn_crfsuite
-from sklearn_crfsuite import scorers
-from sklearn_crfsuite import metrics
-from sklearn.metrics import accuracy_score
-from nltk.tokenize import word_tokenize
-from bs4 import BeautifulSoup
-from collections import defaultdict as dd
 
 ''' take as input the tsv files created in homework 3
 output similar files with predicted slot tags and true intents for 
@@ -34,9 +30,6 @@ def preprocess_test_data(test,noise=0.00):
 	with open(test,'r') as f:
 		data= pd.read_csv(f,sep='\t')
 	tsv = data.copy()
-	# tsv.Transcript = '{}'
-	# tsv = tsv.to_string(index=False)
-	# the clean text and unencoded slot tags and postags and ngrams
 	text_and_tags = data.apply(lambda x: tokenize_test(x),
 			axis='columns', result_type='expand')
 	data = pd.concat([data,text_and_tags],axis='columns')
@@ -214,31 +207,30 @@ def main():
 	# preprocessing #
 	#################
 
-	train_path = '/Users/sara/Documents/coursework/SDS/repo/hw4/data_for_slot/hw3_train.txt'
-	evaluation_paths = {'brown':'data/DATA4/BrownSweeney.tsv',
-						'dodds':'data/DATA4/DoddsSanders.tsv',
-						'drizin':'data/DATA4/DrizinKeane.tsv',
-						'durham':'data/DATA4/DurhamGrant.tsv',
-						'kavouras':'data/DATA4/KavourasNg.tsv',
-						'kodama':'data/DATA4/KodamaSmith.tsv',
-						'lin':'data/DATA4/LinWu.tsv',
-						'martins':'data/DATA4/MartinsWen.tsv',
-						'reid':'data/DATA4/ReidRessler.tsv',
-						'tseng':'data/DATA4/TsengWang.tsv',}
+	train_path = 'data/unprocessed/hw3_train.txt'
+	evaluation_paths = {'brown':'data/unprocessed/BrownSweeney.tsv',
+						'dodds':'data/unprocessed/DoddsSanders.tsv',
+						'drizin':'data/unprocessed/DrizinKeane.tsv',
+						'durham':'data/unprocessed/DurhamGrant.tsv',
+						'kavouras':'data/unprocessed/KavourasNg.tsv',
+						'kodama':'data/unprocessed/KodamaSmith.tsv',
+						'lin':'data/unprocessed/LinWu.tsv',
+						'martins':'data/unprocessed/MartinsWen.tsv',
+						'reid':'data/unprocessed/ReidRessler.tsv',
+						'tseng':'data/unprocessed/TsengWang.tsv',}
 
 	# adjust the noise in training
 	X, y, train_intents = preprocess_data(train_path,noise=args.noise)
 	test_data_X = {}
 	test_data_frames = {}
 	for k,v in evaluation_paths.items():
-		print(k)
 		test_data_X[k], test_data_frames[k]= preprocess_test_data(v)
 	
 	############
 	# training #
 	############
 
-	crf = sklearn_crfsuite.CRF()
+	crf = CRF()
 	crf.fit(X, y)
 
 	##############
@@ -285,7 +277,7 @@ def main():
 				text.append('</'+last_tag+'>')
 			lines.append(' '.join(text))
 		test_data_frames[k].Transcript = lines
-		test_data_frames[k].to_csv('/Users/sara/Documents/coursework/SDS/project/data/data4_silver_annotations/{}.tsv'.format(k),sep='\t',index=False)
+		test_data_frames[k].to_csv('data/data4_silver_annotations/{}.tsv'.format(k),sep='\t',index=False)
 		
 if __name__ == "__main__":
 	main()

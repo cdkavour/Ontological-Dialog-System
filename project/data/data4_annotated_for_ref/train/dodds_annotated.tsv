@@ -183,10 +183,10 @@ Text_8	Clerk	yeah definitely ... <ref id='dodds.24'> a <size> large </size> <piz
 Text_8	User	<refexp id='dodds.24'> that </refexp> 's right !
 Text_8	Clerk	alright , anything else ?
 Text_8	User	oh and can I also get <ref id='dodds.25'> a <size> large </size> <pizza_type> hawaiian </pizza_type> pizza </ref> ? I also really love <refexp id='dodds.25'> that </refexp> one .
-Text_8	Clerk	<ref id='dodds.26'> a <size> large </size> <pizza_type> supreme </pizza_type> and a <size> large </size> <pizza_type> hawaiian </pizza_type> <ref id='dodds.26'> , is <refexp id='dodds.26'> that </refexp> all ?
+Text_8	Clerk	<ref id='dodds.26'> a <size> large </size> <pizza_type> supreme </pizza_type> and a <size> large </size> <pizza_type> hawaiian </pizza_type> </ref> , is <refexp id='dodds.26'> that </refexp> all ?
 Text_8	User	yep , <refexp id='dodds.26'> that </refexp> 's it !
 Text_8	Clerk	..oh , yeah <refexp id='dodds.26'> that </refexp> 's all ? alright <refexp id='dodds.26'> that </refexp> 'll be $ 22.50 at pickup ; can i get a name for the order ?
-Text_8	User	Tyler
+Text_8	User	Tyler<
 Text_8	Clerk	... alright Tayler , <refexp id='dodds.26'> that </refexp> should be out for you in about <time> 20 minutes </time>
 Text_8	User	yay ! This is going to be so good . Thank you so much .
 Text_9	Clerk	hi there , pizza hut , how can i help you ?
@@ -244,7 +244,7 @@ Text_12	Clerk	well not quite , but <ref id='dodds.33'> our supreme pizza </ref> 
 Text_12	User	thats so sweet of you ! We 'll go with <refexp id='dodds.33'> that </refexp> then . thank you so much
 Text_12	Clerk	my pleasure . And is <refexp id='dodds.33'> that </refexp> going to be a <size> medium </size> ?
 Text_12	User	yes please
-Text_12	Clerk	great . And would you like <refexp id='dodds.33'> it <refexp id='dodds.33'> delivered or to come pick <refexp id='dodds.26'> it </refexp> up ?
+Text_12	Clerk	great . And would you like <refexp id='dodds.33'> it </refexp> delivered or to come pick <refexp id='dodds.26'> it </refexp> up ?
 Text_12	User	uh , i think i 'll just come <modality> pick <refexp id='dodds.33'> it </refexp> up </modality>
 Text_12	Clerk	ok , no problem . So <refexp id='dodds.33'> that </refexp> will be $ 13.73 , and <refexp id='dodds.33'> it </refexp> will be ready in about <time> 15 minutes </time> . Can I get <ref id='dodds.34'> a name </ref> for the order ?
 Text_12	User	yeah <refexp id='dodds.34'> it </refexp> 's <name> Harold </name>
@@ -256,7 +256,7 @@ Text_13	User	uhm , do you have some sort of combo meal for a family dinner ?
 Text_13	Clerk	oh , I 'm actually not sure . Let me check ... so we do have a couple dinner box options , a regular size that feeds 2 to 3 people and a big size that feeds <address> 5 to 6 people </address>
 Text_13	User	sure , what comes in <ref id='dodds.35'> the small box </ref> ?
 Text_13	Clerk	um I think <refexp id='dodds.35'> it </refexp> has a pizza , breadsticks , and a dessert
-Text_13	User	okay <refexp id='dodds.35'> that </refexp> sounds pretty good - I 'll take one of those . For pickup
+Text_13	User	okay <refexp id='dodds.35'> that </refexp> sounds pretty good - I 'll take one of those . For pickup<
 Text_13	Clerk	ok , and what 's your name ?
 Text_13	User	sally
 Text_13	Clerk	ok Sally you can come by in a little bit to pick up your food .
@@ -346,7 +346,7 @@ Abnormal_1	User	hi I want <ref id='dodds.47'> an <size> extra large </size> <piz
 Abnormal_1	Clerk	Okay . Will <refexp id='dodds.47'> that </refexp> be all ?
 Abnormal_1	User	yes <refexp id='dodds.47'> that </refexp> ’ s it
 Abnormal_1	Clerk	Is <refexp id='dodds.47'> that </refexp> for <modality> pickup </modality> or delivery ?
-Abnormal_1	User	Delivery
+Abnormal_1	User	Delivery<
 Abnormal_1	Clerk	can i get your address
 Abnormal_1	User	1010 This Street
 Abnormal_1	Clerk	Great . <refexp id='dodds.47'> That </refexp> will be $ 12 upon <modality> delivery </modality> and <refexp id='dodds.47'> it </refexp> should be there in less than thirty minutes . Thank you .
@@ -378,13 +378,13 @@ Abnormal_3	User	I said YEAH fine .
 Abnormal_3	Clerk	ok , gotcha . And would you like any sides with <refexp id='dodds.50'> that </refexp> ?
 Abnormal_3	User	would i like any what ? ?
 Abnormal_3	Clerk	any sides , would you like any sides with your pizza ?
-Abnormal_3	User	no , all i want is a <size> large </size> pizza with <topping> extra olives </topping> .
+Abnormal_3	User	no , all i want is a <size> large </size> pizza with <topping> extra olives </topping> .<
 Abnormal_3	Clerk	ok sir , so I have <ref id='dodds.51'> <quant> one </quant> <size> large </size> <pizza_type> supreme </pizza_type> pizza </ref> with <topping> extra olives </topping> , is <refexp id='dodds.51'> that </refexp> right ?
 Abnormal_3	User	yes , with <topping> extra olives </topping> !
 Abnormal_3	Clerk	did you say extra <topping> olives </topping> ?
 Abnormal_3	User	YES , EXTRA OLIVES
 Abnormal_3	Clerk	ok , ok. <ref id='dodds.51'> That </ref> ’ ll be 12.99 . Is this for <modality> pickup </modality> or delivery ?
-Abnormal_3	User	<modality> pickup </modality> . I ’ ll pay there . When will <refexp id='dodds.51'> it </refexp> be ready ?
+Abnormal_3	User	<modality> pickup </modality> . I ’ ll pay there . When will <refexp id='dodds.51'> it </refexp> be ready ?<
 Abnormal_3	Clerk	In about 15 min .
 Abnormal_3	User	Okay , thank you , goodbye .
 Abnormal_3	Clerk	Thank you for ordering with pizza hut , goodbye !
