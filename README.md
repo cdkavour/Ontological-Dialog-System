@@ -1,2 +1,3 @@
 # SDS_Pizza
-A spoken dialog system for pizza ordering
+
+A spoken dialog system for pizza ordering.
