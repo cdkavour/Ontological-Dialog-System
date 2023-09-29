@@ -1,3 +1,1 @@
-# SDS_Pizza
-
-A spoken dialog system for pizza ordering.
+An otological chat based spoken dialog system for food ordering for food ordering.
